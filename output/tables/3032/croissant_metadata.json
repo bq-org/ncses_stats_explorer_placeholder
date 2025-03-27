@@ -1,0 +1,152 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Costs for new construction of science and engineering research space in academic institutions, by state or territory, control, institution, and field: Started in FY 2018 or FY 2019",
+  "identifier": "NCSES-3032",
+  "description": "Costs for new construction of science and engineering research space in academic institutions, by state or territory, control, institution, and field: Started in FY 2018 or FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3032",
+  "table_number": "15",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3032/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state_or_territory_control_and_institution",
+      "description": "State or territory, control, and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "state_or_territory_control_and_institution_level_1, state_or_territory_control_and_institution_level_2, state_or_territory_control_and_institution_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "state_or_territory_control_and_institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields",
+      "description": "All Fields",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_agricultural_sciences",
+      "description": "Agricultural Sciences",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_and_biomedical_sciences",
+      "description": "Biological And Biomedical Sciences",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_and_information_sciences",
+      "description": "Computer And Information Sciences",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_geosciences_atmospheric_sciences_and_ocean_sciences",
+      "description": "Geosciences Atmospheric Sciences And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_health_sciences",
+      "description": "Health Sciences",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_statistics",
+      "description": "Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_natural_resources_and_conservation",
+      "description": "Natural Resources And Conservation",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences",
+      "description": "Physical Sciences",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology",
+      "description": "Psychology",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_sciences",
+      "description": "Social Sciences",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other",
+      "description": "Other",
+      "valueType": "string",
+      "unitText": "Costs in thousands of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Details may not add to totals due to rounding. Unit nonrespondent imputed data are not published in this table. Therefore, aggregated totals will not match totals in tables 12, 14, and 17, which include unit nonrespondent imputed data.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities, FY 2019."
+}

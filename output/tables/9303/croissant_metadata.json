@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal agency support of academic R&D spending: FYs 2012, 2017, and 2021",
+  "identifier": "NCSES-9303",
+  "description": "Federal agency support of academic R&D spending: FYs 2012, 2017, and 2021",
+  "url": "https://example.org/datasets/ncses/tables/9303",
+  "table_number": "URD-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9303/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "billions_of_constant_2012_dollars_characteristic",
+      "description": "Billions of constant 2012 dollars hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "billions_of_constant_2012_dollars_level_1, billions_of_constant_2012_dollars_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Billions of constant 2012 dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Gross domestic product deflators come from the Bureau of Economic Analysis and are available at https://www.bea.gov/data/gdp/gross-domestic-product (accessed September 2022).",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey.Science and Engineering Indicators"
+}

@@ -1,0 +1,199 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. KTI industry value added: 2002\u201320",
+  "identifier": "NCSES-6246",
+  "description": "U.S. KTI industry value added: 2002\u201320",
+  "url": "https://example.org/datasets/ncses/tables/6246",
+  "table_number": "SKTI-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6246/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_isic_rev_4_industry_code",
+      "description": "Isic Rev 4 Industry Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002",
+      "description": "2002",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004",
+      "description": "2004",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005",
+      "description": "2005",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006",
+      "description": "2006",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent share"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Value added is a net measure of output; it is the difference between the value of goods and services produced by an industry (gross output) and the total cost of intermediate inputs that were used in production including energy, materials, and services purchased from other businesses. Industry value added is a measure of an industry's contribution to overall gross domestic product. KTI industries include high R&D intensive and medium-high R&D intensive industries based on a classification by the Organisation for Economic Co-operation and Development. The data have been crosswalked to the ISIC, Rev.4, classification. See the Technical Appendix for the crosswalking method.",
+  "sources": "U.S. Bureau of Economic Analysis, Value Added by Industry, accessed 5 October 2021.Science and Engineering Indicators"
+}

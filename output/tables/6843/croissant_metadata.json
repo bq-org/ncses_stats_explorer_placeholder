@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed college graduates, by minor occupation and major field of highest degree: 2017",
+  "identifier": "NCSES-6843",
+  "description": "Employed college graduates, by minor occupation and major field of highest degree: 2017",
+  "url": "https://example.org/datasets/ncses/tables/6843",
+  "table_number": "2-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6843/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2, occupation_level_3, occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_total",
+      "description": "S E Fields Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_biological_agricultural_and_environmental_life_sciences",
+      "description": "S E Fields Biological Agricultural And Environmental Life Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_computer_and_mathematical_sciences",
+      "description": "S E Fields Computer And Mathematical Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_physical_and_related_sciences",
+      "description": "S E Fields Physical And Related Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_social_and_related_sciences",
+      "description": "S E Fields Social And Related Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_engineering",
+      "description": "S E Fields Engineering",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related_fields",
+      "description": "S E Related Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e_fields",
+      "description": "Non S E Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Graduate students in UMETRICS: AYs 2009\u201317",
+  "identifier": "NCSES-9772",
+  "description": "Graduate students in UMETRICS: AYs 2009\u201317",
+  "url": "https://example.org/datasets/ncses/tables/9772",
+  "table_number": "A-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9772/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "This table reports the total number of employees who received grant funding spanning all occupation classifications, as well as the number of employees who ever had an occupation classification as a graduate student. Employees are only counted in the year they last appeared in UMETRICS.",
+  "sources": "Institute for Research on Innovation and Science, UMETRICS, 2020 release data."
+}

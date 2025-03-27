@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "FTEs and headcount of R&D personnel at higher education institutions, by personnel function: FY 2021",
+  "identifier": "NCSES-8022",
+  "description": "FTEs and headcount of R&D personnel at higher education institutions, by personnel function: FY 2021",
+  "url": "https://example.org/datasets/ncses/tables/8022",
+  "table_number": "78",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8022/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "ftes_and_headcounts",
+      "description": "Ftes And Headcounts",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "all_personnel_functions",
+      "description": "All Personnel Functions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "researchers",
+      "description": "Researchers",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "r_d_technicians",
+      "description": "R D Technicians",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "r_d_support_staff",
+      "description": "R D Support Staff",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "FTE R&D personnel are calculated as the total working effort spent on R&D during a specific period divided by the total effort representing a full-time schedule within the same period.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2021."
+}

@@ -1,0 +1,52 @@
+table_id,row_id,region_country_or_economy_full_path,region_country_or_economy_level_1,region_country_or_economy_level_2,region_country_or_economy_level_3,region_country_or_economy_level_4,region_country_or_economy_hierarchy_depth,field_2002,field_2003,field_2004,field_2005,field_2006,field_2007,field_2008,field_2009,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016,field_2017,field_2018,field_2019
+6236,r001,World,World,,,,1,38025,42011,47484,49492,52404,61919,73718,71921,79948,89676,91557,91922,97502,95915,100076,103883,114722,117161
+6236,r002,World -> North America,World,North America,,,2,9496,10010,10738,12115,12808,15082,17298,14528,13952,16092,16253,17260,16870,16930,17541,15120,15335,14988
+6236,r003,World -> North America -> Canada,World,North America,Canada,,3,1053,1205,1189,1413,1608,1786,1778,1523,1414,1883,1828,1761,1765,1768,1786,1708,1853,1748
+6236,r004,World -> North America -> Mexico,World,North America,Mexico,,3,564,512,647,728,718,686,841,579,585,885,1215,1206,1406,1785,1491,1522,1738,1979
+6236,r005,World -> North America -> United States,World,North America,United States,,3,7879,8293,8902,9974,10482,12610,14680,12427,11952,13324,13210,14293,13699,13378,14264,11890,11744,11260
+6236,r006,World -> Central and South America,World,Central and South America,,,2,720,847,1243,1755,2512,3416,3956,3035,4342,4349,3341,3237,3284,2121,2111,2181,1947,1747
+6236,r007,World -> Central and South America -> Argentina,World,Central and South America,Argentina,,3,13,15,20,25,27,32,35,33,33,35,32,32,24,21,21,27,20,14
+6236,r008,World -> Central and South America -> Brazil,World,Central and South America,Brazil,,3,568,664,1062,1542,2263,3126,3666,2770,4043,3977,2912,2778,2835,1835,1848,1861,1623,1428
+6236,r009,World -> Central and South America -> Chile,World,Central and South America,Chile,,3,61,82,61,78,75,78,64,58,70,82,91,119,130,68,91,101,101,91
+6236,r010,World -> Central and South America -> Colombia,World,Central and South America,Colombia,,3,34,38,59,76,109,130,132,109,135,196,224,232,222,122,97,129,142,154
+6236,r011,World -> Central and South America -> Peru,World,Central and South America,Peru,,3,2,2,2,3,4,6,8,9,11,13,14,16,16,16,17,20,14,14
+6236,r012,World -> Central and South America -> Other Central and South America,World,Central and South America,Other Central and South America,,3,43,46,39,32,34,44,52,56,51,46,67,60,57,60,38,43,47,46
+6236,r013,World -> Europe,World,Europe,,,2,8880,10923,12280,12748,14268,17085,20072,19492,19167,21094,22134,22088,20327,18107,18397,19447,24113,24452
+6236,r014,World -> Europe -> EU,World,Europe,EU,,3,7376,9131,9771,10082,11281,13711,15895,14844,13394,13358,13019,12932,14050,12292,12002,11674,13338,13122
+6236,r015,World -> Europe -> EU -> France,World,Europe,EU,France,4,1189,1174,1556,1445,1591,1835,2366,2490,2500,1123,1868,1970,2140,1892,1845,1611,1699,1699
+6236,r016,World -> Europe -> EU -> Germany,World,Europe,EU,Germany,4,1436,1971,1877,2363,2428,3078,2800,3002,2854,3163,2852,2695,3446,3411,3273,3068,3605,3600
+6236,r017,World -> Europe -> EU -> Italy,World,Europe,EU,Italy,4,1866,2234,2650,2213,2422,2824,3348,2496,2589,1976,2116,1867,2290,1956,1926,1931,2118,2067
+6236,r018,World -> Europe -> EU -> Spain,World,Europe,EU,Spain,4,1076,1304,1324,1642,1913,2331,2754,2700,1886,2419,2125,2075,1570,1220,1321,1421,1926,1767
+6236,r019,World -> Europe -> EU -> Other EU,World,Europe,EU,Other EU,4,1810,2448,2364,2419,2928,3642,4626,4156,3565,4676,4057,4324,4604,3812,3637,3643,3991,3989
+6236,r020,World -> Europe -> Non-EU,World,Europe,Non-EU,,3,1503,1792,2510,2665,2987,3374,4178,4647,5773,7736,9115,9156,6278,5815,6395,7773,10774,11330
+6236,r021,World -> Europe -> Non-EU -> United Kingdom,World,Europe,Non-EU,United Kingdom,4,886,931,1265,1171,1220,1032,1357,684,1038,1183,1377,1583,1203,1318,1049,1142,2879,2898
+6236,r022,World -> Europe -> Non-EU -> Russia,World,Europe,Non-EU,Russia,4,195,243,341,449,576,884,1010,2037,2389,3325,4398,5241,3290,3024,3807,5165,6382,6789
+6236,r023,World -> Europe -> Non-EU -> Switzerland,World,Europe,Non-EU,Switzerland,4,197,248,293,308,346,393,471,453,502,804,936,871,940,826,862,786,807,781
+6236,r024,World -> Europe -> Non-EU -> Other non-EU,World,Europe,Non-EU,Other non-EU,4,225,370,611,737,844,1064,1340,1473,1844,2424,2404,1460,844,647,677,680,706,862
+6236,r025,World -> Middle East,World,Middle East,,,2,156,276,306,288,330,264,310,277,297,386,310,312,343,349,407,461,423,453
+6236,r026,World -> Middle East -> Iran,World,Middle East,Iran,,3,79,193,211,177,192,111,132,131,139,203,108,93,122,117,164,185,161,154
+6236,r027,World -> Middle East -> Israel,World,Middle East,Israel,,3,0.05,0.05,0.05,0.05,2,2,3,3,3,2,3,3,4,3,4,5,5,6
+6236,r028,World -> Middle East -> Saudi Arabia,World,Middle East,Saudi Arabia,,3,33,34,38,40,43,44,48,46,47,51,58,64,64,66,59,83,86,73
+6236,r029,World -> Middle East -> United Arab Emirates,World,Middle East,United Arab Emirates,,3,41,46,53,66,89,102,119,88,97,114,127,140,142,152,165,166,147,197
+6236,r030,World -> Middle East -> Other Middle East,World,Middle East,Other Middle East,,3,2,3,4,4,4,6,9,9,11,15,14,12,12,11,15,22,23,23
+6236,r031,World -> Africa,World,Africa,,,2,218,266,317,338,394,407,458,500,519,492,462,491,489,530,547,557,613,680
+6236,r032,World -> Africa -> Egypt,World,Africa,Egypt,,3,39,32,42,49,54,67,85,93,90,46,53,65,38,104,85,54,48,55
+6236,r033,World -> Africa -> Nigeria,World,Africa,Nigeria,,3,4,5,5,7,8,10,13,11,13,18,22,29,37,33,27,29,54,93
+6236,r034,World -> Africa -> South Africa,World,Africa,South Africa,,3,109,144,168,171,179,194,188,223,235,229,218,197,186,192,200,194,191,176
+6236,r035,World -> Africa -> Other Africa,World,Africa,Other Africa,,3,66,85,101,111,152,135,173,172,180,199,169,200,229,201,235,281,322,355
+6236,r036,World -> Asia,World,Asia,,,2,18127,19136,21734,21250,21416,24697,30494,33102,40182,45721,47491,47662,55466,57410,60601,65607,71454,74098
+6236,r037,World -> Asia -> China,World,Asia,China,,3,5695,6001,6189,7341,7749,9815,13392,14427,17594,21187,25071,27759,34107,36230,37089,41092,44959,46628
+6236,r038,World -> Asia -> India,World,Asia,India,,3,915,1199,1490,1774,2081,2414,2469,3180,4376,4335,4060,3795,4339,4498,4647,5203,6383,6603
+6236,r039,World -> Asia -> Indonesia,World,Asia,Indonesia,,3,1823,2336,2860,2163,1936,2018,2975,3119,4150,5554,4994,4238,4239,3143,3357,3684,3667,3760
+6236,r040,World -> Asia -> Japan,World,Asia,Japan,,3,6421,6242,7685,6323,5761,5671,6431,7456,7902,7676,7213,5928,6504,7541,8778,8807,9047,9434
+6236,r041,World -> Asia -> Malaysia,World,Asia,Malaysia,,3,36,38,48,62,68,75,110,76,138,154,182,166,197,152,123,84,82,93
+6236,r042,World -> Asia -> Philippines,World,Asia,Philippines,,3,57,59,67,79,84,149,337,373,375,368,524,401,259,181,300,319,341,331
+6236,r043,World -> Asia -> Singapore,World,Asia,Singapore,,3,356,269,201,57,55,80,99,85,260,318,311,326,371,327,268,264,248,281
+6236,r044,World -> Asia -> South Korea,World,Asia,South Korea,,3,978,915,891,857,864,881,749,910,1149,1094,1083,946,872,795,837,700,775,690
+6236,r045,World -> Asia -> Taiwan,World,Asia,Taiwan,,3,1304,1394,1410,1450,1206,1618,1924,1586,1746,2011,2116,2155,2316,2454,2444,2486,2687,2910
+6236,r046,World -> Asia -> Thailand,World,Asia,Thailand,,3,390,501,621,757,951,1024,1033,773,1199,1371,373,328,298,308,793,883,952,960
+6236,r047,World -> Asia -> Vietnam,World,Asia,Vietnam,,3,124,143,219,322,474,724,742,890,1042,1397,1325,1390,1669,1482,1596,1667,1871,1886
+6236,r048,World -> Asia -> Other Asia,World,Asia,Other Asia,,3,29,39,53,65,186,228,233,227,250,256,239,229,295,299,368,419,443,523
+6236,r049,World -> Oceania,World,Oceania,,,2,427,552,867,998,677,969,1128,988,1489,1541,1566,873,722,467,471,511,837,744
+6236,r050,World -> Oceania -> Australia,World,Oceania,Australia,,3,411,530,841,970,652,939,1102,962,1458,1509,1537,848,712,446,443,492,812,721
+6236,r051,World -> Oceania -> New Zealand,World,Oceania,New Zealand,,3,17,22,26,27,25,30,26,26,30,33,29,25,10,21,28,19,25,23

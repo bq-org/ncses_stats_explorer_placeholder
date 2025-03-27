@@ -1,0 +1,160 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by sector of employment, broad field of doctorate, ethnicity, and race: 2019",
+  "identifier": "NCSES-3731",
+  "description": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by sector of employment, broad field of doctorate, ethnicity, and race: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3731",
+  "table_number": "56",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3731/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_sector_and_field_of_study",
+      "description": "Employment sector and field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_sector_and_field_of_study_level_1, employment_sector_and_field_of_study_level_2, employment_sector_and_field_of_study_level_3, employment_sector_and_field_of_study_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_sector_and_field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_median_salary",
+      "description": "All Full Time Employed Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_se",
+      "description": "All Full Time Employed Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinoa_median_salary",
+      "description": "Hispanic Or Latinoa Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinoa_se",
+      "description": "Hispanic Or Latinoa Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_american_indian_or_alaska_native_median_salary",
+      "description": "Not Hispanic Or Latinob American Indian Or Alaska Native Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_american_indian_or_alaska_native_se",
+      "description": "Not Hispanic Or Latinob American Indian Or Alaska Native Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_asian_median_salary",
+      "description": "Not Hispanic Or Latinob Asian Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_asian_se",
+      "description": "Not Hispanic Or Latinob Asian Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_black_or_african_american_median_salary",
+      "description": "Not Hispanic Or Latinob Black Or African American Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_black_or_african_american_se",
+      "description": "Not Hispanic Or Latinob Black Or African American Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_white_median_salary",
+      "description": "Not Hispanic Or Latinob White Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_white_se",
+      "description": "Not Hispanic Or Latinob White Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_other_racec_median_salary",
+      "description": "Not Hispanic Or Latinob Other Racec Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_other_racec_se",
+      "description": "Not Hispanic Or Latinob Other Racec Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Median annual salaries are for principal job and are rounded to nearest $1,000. Standard errors are rounded up to the nearest $500. Full time is based on working 35 or more hours per week. Residence location is based on reported living location on 1 February 2019.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients: 2019."
+}

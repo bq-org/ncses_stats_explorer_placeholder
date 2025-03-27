@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Resident population of the United States, by age and sex: 2019",
+  "identifier": "NCSES-3340",
+  "description": "Resident population of the United States, by age and sex: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3340",
+  "table_number": "1-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3340/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "age_years",
+      "description": "Age (years) hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "age_years_level_1, age_years_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "age_years_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_residents",
+      "description": "All Residents",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female_number",
+      "description": "Female Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female_percent",
+      "description": "Female Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_number",
+      "description": "Male Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_percent",
+      "description": "Male Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value"
+    }
+  },
+  "sources": "Census Bureau, Population Division, Annual Estimates of the Resident Population for Selected Age Groups by Sex for the United States: April 1, 2010 to July 1, 2019 (NC-EST2019-AGESEX), released June 2020, https://www.census.gov/data/tables/time-series/demo/popest/2010s-national-detail.html."
+}

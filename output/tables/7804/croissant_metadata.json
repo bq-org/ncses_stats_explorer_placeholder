@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median annual real earnings of college graduates: 2014\u201320",
+  "identifier": "NCSES-7804",
+  "description": "Median annual real earnings of college graduates: 2014\u201320",
+  "url": "https://example.org/datasets/ncses/tables/7804",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7804/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "calendar_year_prior_to_survey_reference_year_characteristic",
+      "description": "Calendar year prior to survey reference year hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "calendar_year_prior_to_survey_reference_year_level_1, calendar_year_prior_to_survey_reference_year_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Constant 2021 Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The National Survey of College Graduates asks respondents to report their total earned income in the year prior to the survey reference year. Earnings are expressed in constant 2021 U.S. dollars by inflating pre-2021 earnings observations according to the Consumer Price Index published by the Bureau of Labor Statistics. Full-time employment is at least 35 hours per typical week of the survey reference year; part-time employment is less than 35 hours per typical week of the survey reference year. College graduates who have never worked are excluded from this table.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates."
+}

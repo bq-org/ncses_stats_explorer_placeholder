@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Postdoctoral appointees and nonfaculty researchers, by field: 2017\u201321",
+  "identifier": "NCSES-8083",
+  "description": "Postdoctoral appointees and nonfaculty researchers, by field: 2017\u201321",
+  "url": "https://example.org/datasets/ncses/tables/8083",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8083/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2, characteristic_level_3, characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_2017",
+      "description": "Postdoctoral Appointees 2017",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_2018",
+      "description": "Postdoctoral Appointees 2018",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_2019",
+      "description": "Postdoctoral Appointees 2019",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_2020",
+      "description": "Postdoctoral Appointees 2020",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_2021",
+      "description": "Postdoctoral Appointees 2021",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_percent_change_2017_21",
+      "description": "Postdoctoral Appointees Percent Change 2017 21",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_percent_change_2020_21",
+      "description": "Postdoctoral Appointees Percent Change 2020 21",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfaculty_researchers_2017",
+      "description": "Nonfaculty Researchers 2017",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfaculty_researchers_2018",
+      "description": "Nonfaculty Researchers 2018",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfaculty_researchers_2019",
+      "description": "Nonfaculty Researchers 2019",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfaculty_researchers_2020",
+      "description": "Nonfaculty Researchers 2020",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfaculty_researchers_2021",
+      "description": "Nonfaculty Researchers 2021",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfaculty_researchers_percent_change_2017_21",
+      "description": "Nonfaculty Researchers Percent Change 2017 21",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfaculty_researchers_percent_change_2020_21",
+      "description": "Nonfaculty Researchers Percent Change 2020 21",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "In 2020, the GSS revised its field taxonomy, and the revisions resulted in some disciplines moving between broad fields; see \u201cData Sources and Limitations\u201d for details. For more information about fields collected in this survey, please see table A-17 in Survey of Graduate Students and Postdoctorates in Science and Engineering: Fall 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering."
+}

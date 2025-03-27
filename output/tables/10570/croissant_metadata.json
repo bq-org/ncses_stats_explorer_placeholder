@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Patents granted to U.S. federal agencies, by inventor's agency of employment: 2013\u201322",
+  "identifier": "NCSES-10570",
+  "description": "Patents granted to U.S. federal agencies, by inventor's agency of employment: 2013\u201322",
+  "url": "https://example.org/datasets/ncses/tables/10570",
+  "table_number": "SINV-23",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10570/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Data are presented by calendar year. Patents are credited on a whole-count basis (i.e., each participating federal agency is credited one count). However, fractioning is used at the level of International Patent Classification codes to ensure that the sum of patents across technology areas (World Intellectual Property Organization technology classification) is equal to the total number of patents as each patent can be assigned to more than one technology area.",
+  "sources": "Science-Metrix using Patent and Trademark Office data indexed in PatentsView, accessed June 2023.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

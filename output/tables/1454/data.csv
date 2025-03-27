@@ -1,0 +1,12 @@
+table_id,row_id,stratum_full_path,stratum_level_1,stratum_level_2,stratum_level_3,stratum_hierarchy_depth,field_total_forms_mailed_initially_total,field_total_forms_mailed_initially_brdi_1,field_total_forms_mailed_initially_brdi_1_s_,field_brdi_1_forms_mailed_due_to_reported_data_from_brdi_1_s_forms,field_total_brdi_1_forms_mailed
+1454,r001,Total,Total,,,1,44733,7183,37550,1578,8761
+1454,r002,Total -> Known positive R&D,Total,Known positive R&D,,2,18113,7068,11045,900,7968
+1454,r003,Total -> Known positive R&D -> Certainties,Total,Known positive R&D,Certainties,3,13043,6649,6394,638,7287
+1454,r004,Total -> Known positive R&D -> Noncertainties,Total,Known positive R&D,Noncertainties,3,5070,419,4651,262,681
+1454,r005,Total -> Known zero R&D,Total,Known zero R&D,,2,1044,27,1017,12,39
+1454,r006,Total -> Known zero R&D -> Certainties,Total,Known zero R&D,Certainties,3,805,27,778,11,38
+1454,r007,Total -> Known zero R&D -> Noncertainties,Total,Known zero R&D,Noncertainties,3,239,0,239,1,1
+1454,r008,Total -> Unknown R&D,Total,Unknown R&D,,2,25486,12,25474,660,672
+1454,r009,Total -> Unknown R&D -> Certainties,Total,Unknown R&D,Certainties,3,6830,8,6822,471,479
+1454,r010,Total -> Unknown R&D -> Noncertainties,Total,Unknown R&D,Noncertainties,3,18656,4,18652,189,193
+1454,r011,Total -> Cases not in the frame,Total,Cases not in the frame,,2,90,76,14,6,82

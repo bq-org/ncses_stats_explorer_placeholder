@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Worldwide capital assets, by type of asset, industry, and company size: 2022",
+  "identifier": "NCSES-12327",
+  "description": "Worldwide capital assets, by type of asset, industry, and company size: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12327",
+  "table_number": "73",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12327/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worldwide_assets_total",
+      "description": "Worldwide Assets Total",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worldwide_assets_property_plant_and_equipment",
+      "description": "Worldwide Assets Property Plant And Equipment",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worldwide_assets_goodwill",
+      "description": "Worldwide Assets Goodwill",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worldwide_assets_identifiable_intangible_assets",
+      "description": "Worldwide Assets Identifiable Intangible Assets",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_accumulated_depreciation_and_amortization_total",
+      "description": "Accumulated Depreciation And Amortization Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_accumulated_depreciation_and_amortization_property_plant_and_equipment",
+      "description": "Accumulated Depreciation And Amortization Property Plant And Equipment",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_accumulated_depreciation_and_amortization_identifiable_intangible_assets",
+      "description": "Accumulated Depreciation And Amortization Identifiable Intangible Assets",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reduction_in_value_due_to_impairment_charges_disposals_or_retirement_total",
+      "description": "Reduction In Value Due To Impairment Charges Disposals Or Retirement Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reduction_in_value_due_to_impairment_charges_disposals_or_retirement_property_plant_and_equipment",
+      "description": "Reduction In Value Due To Impairment Charges Disposals Or Retirement Property Plant And Equipment",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reduction_in_value_due_to_impairment_charges_disposals_or_retirement_goodwill",
+      "description": "Reduction In Value Due To Impairment Charges Disposals Or Retirement Goodwill",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reduction_in_value_due_to_impairment_charges_disposals_or_retirement_identifiable_intangible_assets",
+      "description": "Reduction In Value Due To Impairment Charges Disposals Or Retirement Identifiable Intangible Assets",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_book_value_of_assets_acquired_through_mergers_and_acquisitions_total",
+      "description": "Book Value Of Assets Acquired Through Mergers And Acquisitions Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_book_value_of_assets_acquired_through_mergers_and_acquisitions_property_plant_and_equipment",
+      "description": "Book Value Of Assets Acquired Through Mergers And Acquisitions Property Plant And Equipment",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_book_value_of_assets_acquired_through_mergers_and_acquisitions_goodwill",
+      "description": "Book Value Of Assets Acquired Through Mergers And Acquisitions Goodwill",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_book_value_of_assets_acquired_through_mergers_and_acquisitions_identifiable_intangible_assets",
+      "description": "Book Value Of Assets Acquired Through Mergers And Acquisitions Identifiable Intangible Assets",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2022."
+}

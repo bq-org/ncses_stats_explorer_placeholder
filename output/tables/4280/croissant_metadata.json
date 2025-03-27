@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Fall 2009 students in grade 9 who agreed with various statements about their mathematics and science ability, by race or ethnicity: 2012",
+  "identifier": "NCSES-4280",
+  "description": "Fall 2009 students in grade 9 who agreed with various statements about their mathematics and science ability, by race or ethnicity: 2012",
+  "url": "https://example.org/datasets/ncses/tables/4280",
+  "table_number": "K12-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4280/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "mathematics_characteristic",
+      "description": "Mathematics hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "mathematics_level_1, mathematics_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the High School Longitudinal Study of 2009 (HSLS:09), First Follow-Up.Science and Engineering Indicators"
+}

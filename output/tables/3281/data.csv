@@ -1,0 +1,30 @@
+table_id,row_id,field_full_path,field_level_1,field_level_2,field_level_3,field_level_4,field_level_5,field_hierarchy_depth,field_all_recipients_number_a,field_all_disability_respondents_number_,field_without_disability_number,field_without_disability_percent,field_with_disability_number,field_with_disability_percent
+3281,r001,All fields,All fields,,,,,1,55703,49318,44840,90.92,4478,9.08
+3281,r002,All fields -> S&E,All fields,S&E,,,,2,42980,38339,35047,91.41,3292,8.59
+3281,r003,All fields -> S&E -> Science<sup>b</sup>,All fields,S&E,Science<sup>b</sup>,,,3,32677,29199,26559,90.96,2640,9.04
+3281,r004,All fields -> S&E -> Science<sup>b</sup> -> Agricultural sciences and natural resources,All fields,S&E,Science<sup>b</sup>,Agricultural sciences and natural resources,,4,1491,1338,1213,90.66,125,9.34
+3281,r005,All fields -> S&E -> Science<sup>b</sup> -> Biological and biomedical sciences,All fields,S&E,Science<sup>b</sup>,Biological and biomedical sciences,,4,8702,8063,7346,91.11,717,8.89
+3281,r006,All fields -> S&E -> Science<sup>b</sup> -> Computer and information sciences,All fields,S&E,Science<sup>b</sup>,Computer and information sciences,,4,2228,1970,1849,93.86,121,6.14
+3281,r007,"All fields -> S&E -> Science<sup>b</sup> -> Geosciences, atmospheric sciences, and ocean sciences",All fields,S&E,Science<sup>b</sup>,"Geosciences, atmospheric sciences, and ocean sciences",,4,1274,1168,1063,91.01,105,8.99
+3281,r008,All fields -> S&E -> Science<sup>b</sup> -> Health sciences<sup>c</sup>,All fields,S&E,Science<sup>b</sup>,Health sciences<sup>c</sup>,,4,2588,2253,2065,91.66,188,8.34
+3281,r009,All fields -> S&E -> Science<sup>b</sup> -> Mathematics and statistics,All fields,S&E,Science<sup>b</sup>,Mathematics and statistics,,4,2012,1793,1624,90.57,169,9.43
+3281,r010,All fields -> S&E -> Science<sup>b</sup> -> Physical sciences and earth sciences,All fields,S&E,Science<sup>b</sup>,Physical sciences and earth sciences,,4,6585,5962,5450,91.41,512,8.59
+3281,r011,All fields -> S&E -> Science<sup>b</sup> -> Physical sciences and earth sciences -> Chemistry,All fields,S&E,Science<sup>b</sup>,Physical sciences and earth sciences,Chemistry,5,2941,2636,2426,92.03,210,7.97
+3281,r012,All fields -> S&E -> Science<sup>b</sup> -> Physical sciences and earth sciences -> Physics and astronomy,All fields,S&E,Science<sup>b</sup>,Physical sciences and earth sciences,Physics and astronomy,5,2370,2158,1961,90.87,197,9.13
+3281,r013,All fields -> S&E -> Science<sup>b</sup> -> Psychology ,All fields,S&E,Science<sup>b</sup>,Psychology ,,4,3936,3245,2921,90.02,324,9.98
+3281,r014,All fields -> S&E -> Science<sup>b</sup> -> Social sciences,All fields,S&E,Science<sup>b</sup>,Social sciences,,4,5135,4575,4091,89.42,484,10.58
+3281,r015,All fields -> S&E -> Science<sup>b</sup> -> Social sciences -> Economics,All fields,S&E,Science<sup>b</sup>,Social sciences,Economics,5,1247,1076,1009,93.77,67,6.23
+3281,r016,All fields -> S&E -> Science<sup>b</sup> -> Social sciences -> Political science and government,All fields,S&E,Science<sup>b</sup>,Social sciences,Political science and government,5,707,626,570,91.05,56,8.95
+3281,r017,All fields -> S&E -> Science<sup>b</sup> -> Social sciences -> Sociology,All fields,S&E,Science<sup>b</sup>,Social sciences,Sociology,5,633,581,508,87.44,73,12.56
+3281,r018,All fields -> S&E -> Science<sup>b</sup> -> Social sciences -> Other social sciences,All fields,S&E,Science<sup>b</sup>,Social sciences,Other social sciences,5,2103,1891,1656,87.57,235,12.43
+3281,r019,All fields -> S&E -> Engineering,All fields,S&E,Engineering,,,3,10303,9140,8488,92.87,652,7.13
+3281,r020,"All fields -> S&E -> Engineering -> Aerospace, aeronautical, and astronautical engineering",All fields,S&E,Engineering,"Aerospace, aeronautical, and astronautical engineering",,4,379,322,305,94.72,17,5.28
+3281,r021,All fields -> S&E -> Engineering -> Bioengineering and biomedical engineering,All fields,S&E,Engineering,Bioengineering and biomedical engineering,,4,1164,1061,977,92.08,84,7.92
+3281,r022,All fields -> S&E -> Engineering -> Chemical engineering,All fields,S&E,Engineering,Chemical engineering,,4,981,880,827,93.98,53,6.02
+3281,r023,All fields -> S&E -> Engineering -> Civil engineering,All fields,S&E,Engineering,Civil engineering,,4,701,586,551,94.03,35,5.97
+3281,r024,"All fields -> S&E -> Engineering -> Electrical, electronics, and communications engineering",All fields,S&E,Engineering,"Electrical, electronics, and communications engineering",,4,1799,1599,1483,92.75,116,7.25
+3281,r025,All fields -> S&E -> Engineering -> Industrial and manufacturing engineering,All fields,S&E,Engineering,Industrial and manufacturing engineering,,4,234,201,187,93.03,14,6.97
+3281,r026,All fields -> S&E -> Engineering -> Materials science engineering,All fields,S&E,Engineering,Materials science engineering,,4,992,876,826,94.29,50,5.71
+3281,r027,All fields -> S&E -> Engineering -> Mechanical engineering,All fields,S&E,Engineering,Mechanical engineering,,4,1533,1339,1247,93.13,92,6.87
+3281,r028,All fields -> S&E -> Engineering -> Other engineering,All fields,S&E,Engineering,Other engineering,,4,2520,2276,2085,91.61,191,8.39
+3281,r029,All fields -> Non-S&E,All fields,Non-S&E,,,,2,12723,10979,9793,89.2,1186,10.8

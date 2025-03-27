@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Metropolitan areas with largest number of workers in S&E occupations: May 2017",
+  "identifier": "NCSES-1596",
+  "description": "Metropolitan areas with largest number of workers in S&E occupations: May 2017",
+  "url": "https://example.org/datasets/ncses/tables/1596",
+  "table_number": "3-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1596/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "workers_employed_characteristic",
+      "description": "Workers employed hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "workers_employed_level_1, workers_employed_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The data exclude metropolitan statistical areas where S&E proportions were suppressed. Larger metropolitan areas are broken into component metropolitan divisions. Ranking is based on the estimated number of workers in S&E occupations. Differences between any two areas may not be statistically significant.",
+  "sources": "Bureau of Labor Statistics, special tabulations (2018) of the May 2017 Occupational Employment Statistics Survey.Science and Engineering Indicators"
+}

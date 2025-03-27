@@ -1,0 +1,17 @@
+table_id,row_id,industry_full_path,industry_level_1,industry_level_2,industry_level_3,industry_level_4,industry_hierarchy_depth,field_isic_rev_4_industry_code,field_2019_value_added_billions_,field_2019_share_of_all_kti_industries_,field_2019_share_of_gdp_,field_2020_value_added_billions_,field_2020_share_of_all_kti_industries_,field_2020_share_of_gdp_
+6199,r001,GDP,GDP,,,,1,,21372.6,,100.0,20893.7,,100.0
+6199,r002,GDP -> All KTI industries,GDP,All KTI industries,,,2,,2336.2,100,10.9,2387.0,100.0,11.4
+6199,r003,GDP -> All KTI industries -> Manufacturing,GDP,All KTI industries,Manufacturing,,3,,1301.7,55.7,6.1,1272.8,53.3,6.1
+6199,r004,GDP -> All KTI industries -> Manufacturing -> Chemicals and chemical products,GDP,All KTI industries,Manufacturing,Chemicals and chemical products,4,20,208.6,8.9,1.0,199.5,8.4,1.0
+6199,r005,GDP -> All KTI industries -> Manufacturing -> Pharmaceuticals,GDP,All KTI industries,Manufacturing,Pharmaceuticals,4,21,182.4,7.8,0.9,195.1,8.2,0.9
+6199,r006,"GDP -> All KTI industries -> Manufacturing -> Computer, electronic, and optical products",GDP,All KTI industries,Manufacturing,"Computer, electronic, and optical products",4,26,310.1,13.3,1.5,319.6,13.4,1.5
+6199,r007,GDP -> All KTI industries -> Manufacturing -> Electrical equipment,GDP,All KTI industries,Manufacturing,Electrical equipment,4,27,65.0,2.8,0.3,63.6,2.7,0.3
+6199,r008,GDP -> All KTI industries -> Manufacturing -> Machinery and equipment nec,GDP,All KTI industries,Manufacturing,Machinery and equipment nec,4,28,167.0,7.1,0.8,156.9,6.6,0.8
+6199,r009,"GDP -> All KTI industries -> Manufacturing -> Motor vehicles, trailers, and semi-trailers",GDP,All KTI industries,Manufacturing,"Motor vehicles, trailers, and semi-trailers",4,29,149.4,6.4,0.7,145.9,6.1,0.7
+6199,r010,GDP -> All KTI industries -> Manufacturing -> Air and spacecraft and related machinery,GDP,All KTI industries,Manufacturing,Air and spacecraft and related machinery,4,303,142.3,6.1,0.7,108.1,4.5,0.5
+6199,r011,"GDP -> All KTI industries -> Manufacturing -> Railroad, military vehicles, and transport nec",GDP,All KTI industries,Manufacturing,"Railroad, military vehicles, and transport nec",4,"302, 304, and 309",11.3,0.5,0.1,11.6,0.5,0.1
+6199,r012,GDP -> All KTI industries -> Manufacturing -> Medical and dental instruments ,GDP,All KTI industries,Manufacturing,Medical and dental instruments ,4,325,65.7,2.8,0.3,72.4,3.0,0.3
+6199,r013,GDP -> All KTI industries -> Services,GDP,All KTI industries,Services,,3,,1034.5,44.3,4.8,1114.2,46.7,5.3
+6199,r014,GDP -> All KTI industries -> Services -> IT and other information services,GDP,All KTI industries,Services,IT and other information services,4,62 - 63,655.8,28.1,3.1,684.9,28.7,3.3
+6199,r015,GDP -> All KTI industries -> Services -> Software publishing,GDP,All KTI industries,Services,Software publishing,4,582,239.3,10.2,1.1,273.0,11.4,1.3
+6199,r016,GDP -> All KTI industries -> Services -> Scientific research and development,GDP,All KTI industries,Services,Scientific research and development,4,72,139.3,6.0,0.7,156.3,6.5,0.7

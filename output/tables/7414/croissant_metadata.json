@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with new or improved business processes, by type and industry: 2017\u201319",
+  "identifier": "NCSES-7414",
+  "description": "Companies with new or improved business processes, by type and industry: 2017\u201319",
+  "url": "https://example.org/datasets/ncses/tables/7414",
+  "table_number": "36",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7414/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4, industry_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies",
+      "description": "All Companies",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_any_business_process_innovation",
+      "description": "Any Business Process Innovation",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_methods_for_producing_goods_or_providing_services",
+      "description": "Innovating Methods For Producing Goods Or Providing Services",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_logistics_delivery_or_distribution_methods",
+      "description": "Innovating Logistics Delivery Or Distribution Methods",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_marketing_methods",
+      "description": "Innovating Marketing Methods",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_information_and_communication_systems",
+      "description": "Innovating Information And Communication Systems",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_administration_and_management_activities",
+      "description": "Innovating Administration And Management Activities",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_product_and_business_process_development_activities",
+      "description": "Innovating Product And Business Process Development Activities",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding or unavailable NAICS detail for select records beyond the 4-digit industry classification. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2020 Annual Business Survey: Data Year 2019."
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E occupations in the U.S. Census and American Community Survey: Various years",
+  "identifier": "NCSES-1642",
+  "description": "S&E occupations in the U.S. Census and American Community Survey: Various years",
+  "url": "https://example.org/datasets/ncses/tables/1642",
+  "table_number": "SA3-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1642/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "decennial_census_1960",
+      "description": "Decennial Census 1960",
+      "valueType": "string",
+      "unitText": "List of S&E occupations"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "decennial_census_1970",
+      "description": "Decennial Census 1970",
+      "valueType": "string",
+      "unitText": "List of S&E occupations"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "decennial_census_1980_1990",
+      "description": "Decennial Census 1980 1990",
+      "valueType": "string",
+      "unitText": "List of S&E occupations"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "decennial_census_2000",
+      "description": "Decennial Census 2000",
+      "valueType": "string",
+      "unitText": "List of S&E occupations"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "american_community_survey_2010_2017",
+      "description": "American Community Survey 2010 2017",
+      "valueType": "string",
+      "unitText": "List of S&E occupations"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "Census Bureau, Decennial Census, and the American Community Survey (ACS) Public Use Microdata Sample (PUMS).Science and Engineering Indicators"
+}

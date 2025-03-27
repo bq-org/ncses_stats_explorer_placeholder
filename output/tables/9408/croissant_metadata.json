@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Match rates for married and nonmarried doctorate recipients, by sex",
+  "identifier": "NCSES-9408",
+  "description": "Match rates for married and nonmarried doctorate recipients, by sex",
+  "url": "https://example.org/datasets/ncses/tables/9408",
+  "table_number": "13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9408/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "gender",
+      "description": "Gender",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "unmarried",
+      "description": "Unmarried",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "married",
+      "description": "Married",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "difference_for_married_vs_unmarried",
+      "description": "Difference For Married Vs Unmarried",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "percentage_point_difference",
+      "description": "Percentage Point Difference",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "This table represents matches after applying the validation and filtering steps. There are a few matches who did not have a reported gender in the SED, they were assigned the gender male for this analysis. The p values were calculated using the t-test. The match rate is defined as the proportion of SED doctorate recipients who were included for matching and who were matched to UMETRICS.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, AYs 2014\u201317; Institute for Research on Innovation and Science, UMETRICS, 2020 release data."
+}

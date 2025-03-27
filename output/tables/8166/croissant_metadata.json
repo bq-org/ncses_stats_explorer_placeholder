@@ -1,0 +1,215 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by employer location and broad occupation: 2021",
+  "identifier": "NCSES-8166",
+  "description": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by employer location and broad occupation: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8166",
+  "table_number": "74",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8166/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employer_location",
+      "description": "Employer location hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employer_location_level_1, employer_location_level_2, employer_location_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employer_location_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_median_salary",
+      "description": "All Full Time Employed Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_se",
+      "description": "All Full Time Employed Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_total_median_salary",
+      "description": "Science Occupations Total Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_total_se",
+      "description": "Science Occupations Total Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_biological_agricultural_and_other_life_scientists_median_salary",
+      "description": "Science Occupations Biological Agricultural And Other Life Scientists Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_biological_agricultural_and_other_life_scientists_se",
+      "description": "Science Occupations Biological Agricultural And Other Life Scientists Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_computer_and_information_scientists_median_salary",
+      "description": "Science Occupations Computer And Information Scientists Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_computer_and_information_scientists_se",
+      "description": "Science Occupations Computer And Information Scientists Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_mathematical_scientists_median_salary",
+      "description": "Science Occupations Mathematical Scientists Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_mathematical_scientists_se",
+      "description": "Science Occupations Mathematical Scientists Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_physical_scientists_median_salary",
+      "description": "Science Occupations Physical Scientists Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_physical_scientists_se",
+      "description": "Science Occupations Physical Scientists Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_psychologists_median_salary",
+      "description": "Science Occupations Psychologists Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_psychologists_se",
+      "description": "Science Occupations Psychologists Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_social_scientists_median_salary",
+      "description": "Science Occupations Social Scientists Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_occupations_social_scientists_se",
+      "description": "Science Occupations Social Scientists Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_occupations_median_salary",
+      "description": "Engineering Occupations Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_occupations_se",
+      "description": "Engineering Occupations Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related_occupations_median_salary",
+      "description": "S E Related Occupations Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related_occupations_se",
+      "description": "S E Related Occupations Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e_occupations_median_salary",
+      "description": "Non S E Occupations Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e_occupations_se",
+      "description": "Non S E Occupations Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Median annual salaries are for principal job and are rounded to nearest $1,000. Standard errors are rounded up to the nearest $500. Full time is based on working 35 or more hours per week. Because survey sample design does not include geography, reliability of estimates in some states may be poor due to small sample size. Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

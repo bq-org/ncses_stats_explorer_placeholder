@@ -1,0 +1,37 @@
+table_id,row_id,time_period,match_rate_level_1,match_rate_level_2,match_rate_hierarchy_depth,value
+9409,r001_1,Biological sciences,Match rate,Female,2,44.39
+9409,r001_2,Biological sciences,Match rate,Male,2,45.83
+9409,r001_3,Biological sciences,Difference in match rate,,1,-1.44
+9409,r001_4,Biological sciences,p value,,1,0.21
+9409,r002_1,Computer sciences,Match rate,Female,2,37.98
+9409,r002_2,Computer sciences,Match rate,Male,2,47.27
+9409,r002_3,Computer sciences,Difference in match rate,,1,-9.29***
+9409,r002_4,Computer sciences,p value,,1,0.01
+9409,r003_1,Engineering,Match rate,Female,2,43.49
+9409,r003_2,Engineering,Match rate,Male,2,45.66
+9409,r003_3,Engineering,Difference in match rate,,1,-2.17*
+9409,r003_4,Engineering,p value,,1,0.1
+9409,r004_1,"Fields, not elsewhere classified",Match rate,Female,2,21.36
+9409,r004_2,"Fields, not elsewhere classified",Match rate,Male,2,13.92
+9409,r004_3,"Fields, not elsewhere classified",Difference in match rate,,1,7.44**
+9409,r004_4,"Fields, not elsewhere classified",p value,,1,0.02
+9409,r005_1,Health,Match rate,Female,2,33.49
+9409,r005_2,Health,Match rate,Male,2,38.98
+9409,r005_3,Health,Difference in match rate,,1,-5.49**
+9409,r005_4,Health,p value,,1,0.02
+9409,r006_1,Mathematics and statistics,Match rate,Female,2,41.61
+9409,r006_2,Mathematics and statistics,Match rate,Male,2,48.24
+9409,r006_3,Mathematics and statistics,Difference in match rate,,1,-6.63**
+9409,r006_4,Mathematics and statistics,p value,,1,0.02
+9409,r007_1,Physical sciences and geosciences,Match rate,Female,2,56.52
+9409,r007_2,Physical sciences and geosciences,Match rate,Male,2,55.99
+9409,r007_3,Physical sciences and geosciences,Difference in match rate,,1,0.53
+9409,r007_4,Physical sciences and geosciences,p value,,1,0.73
+9409,r008_1,Psychology,Match rate,Female,2,29.45
+9409,r008_2,Psychology,Match rate,Male,2,33.07
+9409,r008_3,Psychology,Difference in match rate,,1,-3.62
+9409,r008_4,Psychology,p value,,1,0.14
+9409,r009_1,Social sciences,Match rate,Female,2,18.35
+9409,r009_2,Social sciences,Match rate,Male,2,18.23
+9409,r009_3,Social sciences,Difference in match rate,,1,0.12
+9409,r009_4,Social sciences,p value,,1,0.86

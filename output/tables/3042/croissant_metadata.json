@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Source of funds for repair and renovation of science and engineering research space in academic institutions, by type of institution: FY 2018 or FY 2019",
+  "identifier": "NCSES-3042",
+  "description": "Source of funds for repair and renovation of science and engineering research space in academic institutions, by type of institution: FY 2018 or FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3042",
+  "table_number": "25",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3042/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_institution",
+      "description": "Type of institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_institution_level_1, type_of_institution_level_2, type_of_institution_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_sources",
+      "description": "All Sources",
+      "valueType": "string",
+      "unitText": "Funds in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_government_federal",
+      "description": "Government Federal",
+      "valueType": "string",
+      "unitText": "Funds in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_government_state_and_local",
+      "description": "Government State And Local",
+      "valueType": "string",
+      "unitText": "Funds in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutional_funds_and_other_sourcesa",
+      "description": "Institutional Funds And Other Sourcesa",
+      "valueType": "string",
+      "unitText": "Funds in millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities, FY 2019."
+}

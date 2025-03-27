@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Top U.S. baccalaureate institutions of science and engineering doctorate recipients from various groups: 2013\u201317",
+  "identifier": "NCSES-1251",
+  "description": "Top U.S. baccalaureate institutions of science and engineering doctorate recipients from various groups: 2013\u201317",
+  "url": "https://example.org/datasets/ncses/tables/1251",
+  "table_number": "A-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1251/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "group_and_institution",
+      "description": "Group and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "group_and_institution_level_1, group_and_institution_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "group_and_institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_recipients",
+      "description": "Doctorate Recipients",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Hispanic or Latino may be any race. Includes all doctorate recipients except those who reported that they did not receive a baccalaureate degree. Institutions with the same number of doctorate recipients are listed alphabetically. Data in this table refer to research doctorates only.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates. Related detailed data: WMPD table 7-9 though table 7-20."
+}

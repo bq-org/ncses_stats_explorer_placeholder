@@ -1,0 +1,31 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_spending_on_space_too_little,field_spending_on_space_about_right,field_spending_on_space_too_much,field_spending_on_space_don_t_know
+2271,r001,"All adults (<i>n</i> = 2,348)","All adults (<i>n</i> = 2,348)",,1,21,45,23,11
+2271,r002,Sex,Sex,,1,,,,
+2271,r003,"Sex -> Male (<i>n</i> = 1,052)",Sex,"Male (<i>n</i> = 1,052)",2,28,44,22,6
+2271,r004,"Sex -> Female (<i>n</i> = 1,296)",Sex,"Female (<i>n</i> = 1,296)",2,15,46,24,15
+2271,r005,Formal education,Formal education,,1,,,,
+2271,r006,Formal education -> Less than high school diploma (<i>n</i> = 262),Formal education,Less than high school diploma (<i>n</i> = 262),2,9,39,38,13
+2271,r007,Formal education -> High school diploma (<i>n</i> = 704),Formal education,High school diploma (<i>n</i> = 704),2,17,44,25,14
+2271,r008,Formal education -> Some college (<i>n</i> = 670),Formal education,Some college (<i>n</i> = 670),2,23,44,23,10
+2271,r009,Formal education -> Bachelor's degree (<i>n</i> = 465),Formal education,Bachelor's degree (<i>n</i> = 465),2,27,49,15,9
+2271,r010,Formal education -> Graduate or professional degree (<i>n</i> = 247),Formal education,Graduate or professional degree (<i>n</i> = 247),2,29,51,15,6
+2271,r011,"Science and mathematics education<sup>a</sup><sup>,b</sup>","Science and mathematics education<sup>a</sup><sup>,b</sup>",,1,,,,
+2271,r012,"Science and mathematics education<sup>a</sup><sup>,b</sup> -> Low (<i>n</i> = 598)","Science and mathematics education<sup>a</sup><sup>,b</sup>",Low (<i>n</i> = 598),2,13,43,30,14
+2271,r013,"Science and mathematics education<sup>a</sup><sup>,b</sup> -> Middle (<i>n</i> = 237)","Science and mathematics education<sup>a</sup><sup>,b</sup>",Middle (<i>n</i> = 237),2,20,47,19,14
+2271,r014,"Science and mathematics education<sup>a</sup><sup>,b</sup> -> High (<i>n</i> = 252)","Science and mathematics education<sup>a</sup><sup>,b</sup>",High (<i>n</i> = 252),2,31,49,15,5
+2271,r015,Family income (quartile)<sup>b</sup>,Family income (quartile)<sup>b</sup>,,1,,,,
+2271,r016,Family income (quartile)<sup>b</sup> -> Bottom (<i>n</i> = 534),Family income (quartile)<sup>b</sup>,Bottom (<i>n</i> = 534),2,19,39,29,13
+2271,r017,Family income (quartile)<sup>b</sup> -> Third (<i>n</i> = 456),Family income (quartile)<sup>b</sup>,Third (<i>n</i> = 456),2,13,46,27,13
+2271,r018,Family income (quartile)<sup>b</sup> -> Second (<i>n</i> = 569),Family income (quartile)<sup>b</sup>,Second (<i>n</i> = 569),2,21,51,18,10
+2271,r019,Family income (quartile)<sup>b</sup> -> Top (<i>n</i> = 593),Family income (quartile)<sup>b</sup>,Top (<i>n</i> = 593),2,28,46,19,7
+2271,r020,Age (years)<sup>b</sup>,Age (years)<sup>b</sup>,,1,,,,
+2271,r021,Age (years)<sup>b</sup> -> 18&#8211;24 (<i>n</i> = 197),Age (years)<sup>b</sup>,18&#8211;24 (<i>n</i> = 197),2,23,45,18,14
+2271,r022,Age (years)<sup>b</sup> -> 25&#8211;34 (<i>n</i> = 435),Age (years)<sup>b</sup>,25&#8211;34 (<i>n</i> = 435),2,21,44,21,14
+2271,r023,Age (years)<sup>b</sup> -> 35&#8211;44 (<i>n</i> = 416),Age (years)<sup>b</sup>,35&#8211;44 (<i>n</i> = 416),2,23,44,23,10
+2271,r024,Age (years)<sup>b</sup> -> 45&#8211;54 (<i>n</i> = 355),Age (years)<sup>b</sup>,45&#8211;54 (<i>n</i> = 355),2,20,49,22,9
+2271,r025,Age (years)<sup>b</sup> -> 55&#8211;64 (<i>n</i> = 399),Age (years)<sup>b</sup>,55&#8211;64 (<i>n</i> = 399),2,20,46,26,8
+2271,r026,Age (years)<sup>b</sup> -> 65 or older (<i>n</i> = 539),Age (years)<sup>b</sup>,65 or older (<i>n</i> = 539),2,21,43,26,10
+2271,r027,Correct answers to questions about basic scientific facts<sup>c</sup>,Correct answers to questions about basic scientific facts<sup>c</sup>,,1,,,,
+2271,r028,Correct answers to questions about basic scientific facts<sup>c</sup> -> Low (<i>n</i> = 227),Correct answers to questions about basic scientific facts<sup>c</sup>,Low (<i>n</i> = 227),2,6,37,35,22
+2271,r029,Correct answers to questions about basic scientific facts<sup>c</sup> -> Middle (<i>n</i> = 512),Correct answers to questions about basic scientific facts<sup>c</sup>,Middle (<i>n</i> = 512),2,12,49,26,13
+2271,r030,Correct answers to questions about basic scientific facts<sup>c</sup> -> High (<i>n</i> = 436),Correct answers to questions about basic scientific facts<sup>c</sup>,High (<i>n</i> = 436),2,32,43,18,7

@@ -1,0 +1,190 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Venture capital in selected countries, regions, or economies: 2000&#8211;20",
+  "identifier": "NCSES-5913",
+  "description": "Venture capital in selected countries, regions, or economies: 2000&#8211;20",
+  "url": "https://example.org/datasets/ncses/tables/5913",
+  "table_number": "SINV-98",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5913/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy",
+      "description": "Region Country Or Economy",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2000",
+      "description": "2000",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2001",
+      "description": "2001",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2002",
+      "description": "2002",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2004",
+      "description": "2004",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2005",
+      "description": "2005",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2006",
+      "description": "2006",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "China includes Hong Kong. Country, region, and economy is attributed to location of the headquarters of the investing company. See Table SINV-2 for list of countries counted with each region.",
+  "sources": "Venture capital and private equity database, PitchBook, accessed 12 September 2021.Science and Engineering Indicators"
+}

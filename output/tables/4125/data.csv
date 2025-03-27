@@ -1,0 +1,22 @@
+table_id,row_id,adult_characteristic_full_path,adult_characteristic_level_1,adult_characteristic_level_2,adult_characteristic_hierarchy_depth,field_7_12_may_2020_computer_or_other_digital_device_always_available,field_7_12_may_2020_computer_or_other_digital_device_usually_available,field_7_12_may_2020_computer_or_other_digital_device_sometimes_available,field_7_12_may_2020_computer_or_other_digital_device_rarely_available,field_7_12_may_2020_computer_or_other_digital_device_never_available,field_7_12_may_2020_internet_always_available,field_7_12_may_2020_internet_usually_available,field_7_12_may_2020_internet_sometimes_available,field_7_12_may_2020_internet_rarely_available,field_7_12_may_2020_internet_never_available,field_16_28_september_2020_computer_or_other_digital_device_always_available,field_16_28_september_2020_computer_or_other_digital_device_usually_available,field_16_28_september_2020_computer_or_other_digital_device_sometimes_available,field_16_28_september_2020_computer_or_other_digital_device_rarely_available,field_16_28_september_2020_computer_or_other_digital_device_never_available,field_16_28_september_2020_internet_always_available,field_16_28_september_2020_internet_usually_available,field_16_28_september_2020_internet_sometimes_available,field_16_28_september_2020_internet_rarely_available,field_16_28_september_2020_internet_never_available
+4125,r001,Total,Total,,1,70,17,9,3,2,72,18,6,2,2,77,15,5,2,1,76,17,5,1,1
+4125,r002,Race or ethnicity,Race or ethnicity,,1,,,,,,,,,,,,,,,,,,,,
+4125,r003,Race or ethnicity -> White,Race or ethnicity,White,2,65,21,8,4,1,71,22,6,0,1,81,13,4,1,1,79,15,4,1,1
+4125,r004,Race or ethnicity -> Black,Race or ethnicity,Black,2,73,15,7,2,2,74,15,7,2,2,75,15,7,2,1,78,13,8,1,1
+4125,r005,Race or ethnicity -> Hispanic<sup>a</sup>,Race or ethnicity,Hispanic<sup>a</sup>,2,62,15,14,5,4,69,18,7,3,4,70,22,5,2,1,68,25,6,1,0
+4125,r006,Race or ethnicity -> Asian,Race or ethnicity,Asian,2,71,20,6,0,2,72,23,3,2,1,84,11,3,1,0,84,14,2,0,0
+4125,r007,Race or ethnicity -> Other or Two or more races,Race or ethnicity,Other or Two or more races,2,70,14,11,4,2,70,20,5,4,2,73,15,5,7,1,68,19,5,3,5
+4125,r008,Education attainment,Education attainment,,1,,,,,,,,,,,,,,,,,,,,
+4125,r009,Education attainment -> Less than high school,Education attainment,Less than high school,2,44,29,18,5,5,52,30,11,4,2,62,24,9,3,2,67,18,10,2,3
+4125,r010,Education attainment -> High school,Education attainment,High school,2,67,15,9,5,4,67,20,6,3,4,71,19,7,3,1,70,22,5,2,1
+4125,r011,Education attainment -> Some college or associate's degree,Education attainment,Some college or associate's degree,2,69,18,10,2,1,73,17,7,1,1,80,14,4,2,1,76,17,5,1,1
+4125,r012,Education attainment -> Bachelor's or higher degree,Education attainment,Bachelor's or higher degree,2,81,14,4,1,0,83,13,3,1,0,85,11,3,1,0,85,13,2,0,0
+4125,r013,Household income ,Household income ,,1,,,,,,,,,,,,,,,,,,,,
+4125,r014,"Household income  -> Below $25,000",Household income ,"Below $25,000",2,57,17,15,6,5,60,19,11,5,5,65,20,8,4,3,62,20,12,3,3
+4125,r015,"Household income  -> $25,000&#8722;$34,999",Household income ,"$25,000&#8722;$34,999",2,58,24,12,3,3,60,26,11,2,2,64,22,9,4,2,64,24,8,2,2
+4125,r016,"Household income  -> $35,000&#8722;$49,999",Household income ,"$35,000&#8722;$49,999",2,59,24,9,7,2,65,22,8,3,2,72,20,6,2,1,68,23,6,3,1
+4125,r017,"Household income  -> $50,000&#8722;$74,999",Household income ,"$50,000&#8722;$74,999",2,67,17,11,3,2,70,20,5,3,2,77,15,6,2,0,76,21,2,1,1
+4125,r018,"Household income  -> $75,000&#8722;$99,999",Household income ,"$75,000&#8722;$99,999",2,75,16,7,1,1,80,16,3,1,0,80,14,5,1,0,80,15,4,1,0
+4125,r019,"Household income  -> $100,000&#8722;$149,999",Household income ,"$100,000&#8722;$149,999",2,84,13,3,1,0,82,15,3,0,0,87,10,2,1,0,86,11,2,0,1
+4125,r020,"Household income  -> $150,000&#8722;$199,999",Household income ,"$150,000&#8722;$199,999",2,83,13,4,s,1,84,11,3,0,1,88,9,2,1,0,86,12,1,1,0
+4125,r021,"Household income  -> $200,000 and above",Household income ,"$200,000 and above",2,90,7,1,0,2,91,6,1,0,2,92,6,1,1,0,92,7,1,0,0

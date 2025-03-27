@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Female research doctorate recipients, by ethnicity, race, and citizenship status: 2011&#8211;21",
+  "identifier": "NCSES-7530",
+  "description": "Female research doctorate recipients, by ethnicity, race, and citizenship status: 2011&#8211;21",
+  "url": "https://example.org/datasets/ncses/tables/7530",
+  "table_number": "1-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7530/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_ethnicity_race_and_citizenship_status_b",
+      "description": "Ethnicity, race, and citizenship status hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_ethnicity_race_and_citizenship_status_b_level_1, _b_ethnicity_race_and_citizenship_status_b_level_2, _b_ethnicity_race_and_citizenship_status_b_level_3, _b_ethnicity_race_and_citizenship_status_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_ethnicity_race_and_citizenship_status_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

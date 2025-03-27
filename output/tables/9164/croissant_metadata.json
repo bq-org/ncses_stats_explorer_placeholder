@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Item-response probabilities for the five-class job importance latent transition analysis solution with three response options: 2015, 2017, and 2019",
+  "identifier": "NCSES-9164",
+  "description": "Item-response probabilities for the five-class job importance latent transition analysis solution with three response options: 2015, 2017, and 2019",
+  "url": "https://example.org/datasets/ncses/tables/9164",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9164/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "class_prevalence_2015_2017_2019",
+      "description": "Class (prevalence: 2015, 2017, 2019) hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "class_prevalence_2015_2017_2019_level_1, class_prevalence_2015_2017_2019_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "class_prevalence_2015_2017_2019_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_very_important",
+      "description": "Response Very Important",
+      "valueType": "string",
+      "unitText": "Percent and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_somewhat_important",
+      "description": "Response Somewhat Important",
+      "valueType": "string",
+      "unitText": "Percent and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_unimportant",
+      "description": "Response Unimportant",
+      "valueType": "string",
+      "unitText": "Percent and probability"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Item-response probabilities were estimated simultaneously using the 2015, 2017, and 2019 Survey of Doctorate Recipients cycles but were constrained to be equal across cycles. Rows may not sum to 1.000 due to rounding. Response probabilities greater than or equal to 0.500 are considered salient and are represented in bold. Response probabilities more than twice as large as the next-largest probability in a row are highlighted in blue.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients."
+}

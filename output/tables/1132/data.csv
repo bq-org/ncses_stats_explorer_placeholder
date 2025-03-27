@@ -1,0 +1,211 @@
+table_id,row_id,field_and_enrollment_status_full_path,field_and_enrollment_status_level_1,field_and_enrollment_status_level_2,field_and_enrollment_status_level_3,field_and_enrollment_status_level_4,field_and_enrollment_status_level_5,field_and_enrollment_status_hierarchy_depth,field_total,field_u_s_citizens_and_permanent_residents_hispanic_or_latinoa,field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_american_indian_or_alaska_native,field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_asian,field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_black_or_african_american,field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_native_hawaiian_or_other_pacific_islander,field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_white,field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_more_than_one_race,field_u_s_citizens_and_permanent_residents_unknown_ethnicity_and_race,field_temporary_visa_holders
+1132,r001,S&E,S&E,,,,,1,620489,39578,1860,35674,30600,862,237563,10514,23098,240740
+1132,r002,S&E -> Full time    ,S&E,Full time    ,,,,2,462973,25688,1220,24818,17180,552,161722,7392,14141,210260
+1132,r003,S&E -> Part time           ,S&E,Part time           ,,,,2,157516,13890,640,10856,13420,310,75841,3122,8957,30480
+1132,r004,S&E -> Science,S&E,Science,,,,2,452046,32616,1615,25772,26890,747,191941,8690,18439,145336
+1132,r005,S&E -> Science -> Full time    ,S&E,Science,Full time    ,,,3,334770,21538,1079,18264,15065,486,133109,6147,11540,127542
+1132,r006,S&E -> Science -> Part time           ,S&E,Science,Part time           ,,,3,117276,11078,536,7508,11825,261,58832,2543,6899,17794
+1132,r007,S&E -> Science -> Agricultural sciences,S&E,Science,Agricultural sciences,,,3,18284,1132,119,450,563,23,10987,348,722,3940
+1132,r008,S&E -> Science -> Agricultural sciences -> Full time    ,S&E,Science,Agricultural sciences,Full time    ,,4,12806,799,81,323,334,10,7108,238,444,3469
+1132,r009,S&E -> Science -> Agricultural sciences -> Part time           ,S&E,Science,Agricultural sciences,Part time           ,,4,5478,333,38,127,229,13,3879,110,278,471
+1132,r010,S&E -> Science -> Biological sciences,S&E,Science,Biological sciences,,,3,79146,5878,268,7081,4261,187,39535,1798,3067,17071
+1132,r011,S&E -> Science -> Biological sciences -> Full time    ,S&E,Science,Biological sciences,Full time    ,,4,65549,4838,209,6009,3225,153,31637,1477,2334,15667
+1132,r012,S&E -> Science -> Biological sciences -> Part time           ,S&E,Science,Biological sciences,Part time           ,,4,13597,1040,59,1072,1036,34,7898,321,733,1404
+1132,r013,S&E -> Science -> Biological sciences -> Anatomy,S&E,Science,Biological sciences,Anatomy,,4,448,48,1,29,21,2,255,11,9,72
+1132,r014,S&E -> Science -> Biological sciences -> Anatomy -> Full time    ,S&E,Science,Biological sciences,Anatomy,Full time    ,5,424,43,1,28,21,2,237,11,9,72
+1132,r015,S&E -> Science -> Biological sciences -> Anatomy -> Part time           ,S&E,Science,Biological sciences,Anatomy,Part time           ,5,24,5,0,1,0,0,18,0,0,0
+1132,r016,S&E -> Science -> Biological sciences -> Biochemistry,S&E,Science,Biological sciences,Biochemistry,,4,4481,343,13,385,151,5,2107,79,131,1267
+1132,r017,S&E -> Science -> Biological sciences -> Biochemistry -> Full time    ,S&E,Science,Biological sciences,Biochemistry,Full time    ,5,4060,297,10,337,126,5,1915,72,104,1194
+1132,r018,S&E -> Science -> Biological sciences -> Biochemistry -> Part time           ,S&E,Science,Biological sciences,Biochemistry,Part time           ,5,421,46,3,48,25,0,192,7,27,73
+1132,r019,S&E -> Science -> Biological sciences -> Biology,S&E,Science,Biological sciences,Biology,,4,16380,1386,60,979,868,26,8942,342,623,3154
+1132,r020,S&E -> Science -> Biological sciences -> Biology -> Full time    ,S&E,Science,Biological sciences,Biology,Full time    ,5,11800,970,42,753,600,8,6026,229,396,2776
+1132,r021,S&E -> Science -> Biological sciences -> Biology -> Part time           ,S&E,Science,Biological sciences,Biology,Part time           ,5,4580,416,18,226,268,18,2916,113,227,378
+1132,r022,S&E -> Science -> Biological sciences -> Biometry and epidemiology,S&E,Science,Biological sciences,Biometry and epidemiology,,4,9007,490,22,1083,552,21,3464,173,343,2859
+1132,r023,S&E -> Science -> Biological sciences -> Biometry and epidemiology -> Full time    ,S&E,Science,Biological sciences,Biometry and epidemiology,Full time    ,5,7035,341,18,804,362,11,2580,143,234,2542
+1132,r024,S&E -> Science -> Biological sciences -> Biometry and epidemiology -> Part time           ,S&E,Science,Biological sciences,Biometry and epidemiology,Part time           ,5,1972,149,4,279,190,10,884,30,109,317
+1132,r025,S&E -> Science -> Biological sciences -> Biophysics,S&E,Science,Biological sciences,Biophysics,,4,941,57,2,95,13,2,466,17,39,250
+1132,r026,S&E -> Science -> Biological sciences -> Biophysics -> Full time    ,S&E,Science,Biological sciences,Biophysics,Full time    ,5,923,57,2,94,13,2,457,16,39,243
+1132,r027,S&E -> Science -> Biological sciences -> Biophysics -> Part time           ,S&E,Science,Biological sciences,Biophysics,Part time           ,5,18,0,0,1,0,0,9,1,0,7
+1132,r028,S&E -> Science -> Biological sciences -> Botany and plant biology,S&E,Science,Biological sciences,Botany and plant biology,,4,1820,97,6,98,33,4,886,47,60,589
+1132,r029,S&E -> Science -> Biological sciences -> Botany and plant biology -> Full time    ,S&E,Science,Biological sciences,Botany and plant biology,Full time    ,5,1650,93,5,90,29,4,786,39,46,558
+1132,r030,S&E -> Science -> Biological sciences -> Botany and plant biology -> Part time           ,S&E,Science,Biological sciences,Botany and plant biology,Part time           ,5,170,4,1,8,4,0,100,8,14,31
+1132,r031,S&E -> Science -> Biological sciences -> Cell and molecular biology,S&E,Science,Biological sciences,Cell and molecular biology,,4,6535,519,25,651,261,10,2995,140,231,1703
+1132,r032,S&E -> Science -> Biological sciences -> Cell and molecular biology -> Full time    ,S&E,Science,Biological sciences,Cell and molecular biology,Full time    ,5,6073,483,23,592,229,9,2784,128,204,1621
+1132,r033,S&E -> Science -> Biological sciences -> Cell and molecular biology -> Part time           ,S&E,Science,Biological sciences,Cell and molecular biology,Part time           ,5,462,36,2,59,32,1,211,12,27,82
+1132,r034,S&E -> Science -> Biological sciences -> Ecology,S&E,Science,Biological sciences,Ecology,,4,1396,46,8,45,20,1,934,21,126,195
+1132,r035,S&E -> Science -> Biological sciences -> Ecology -> Full time    ,S&E,Science,Biological sciences,Ecology,Full time    ,5,1048,36,6,38,15,1,695,15,78,164
+1132,r036,S&E -> Science -> Biological sciences -> Ecology -> Part time           ,S&E,Science,Biological sciences,Ecology,Part time           ,5,348,10,2,7,5,0,239,6,48,31
+1132,r037,S&E -> Science -> Biological sciences -> Entomology and parasitology,S&E,Science,Biological sciences,Entomology and parasitology,,4,1171,57,5,42,27,2,715,29,32,262
+1132,r038,S&E -> Science -> Biological sciences -> Entomology and parasitology -> Full time    ,S&E,Science,Biological sciences,Entomology and parasitology,Full time    ,5,1032,52,3,40,24,2,605,27,26,253
+1132,r039,S&E -> Science -> Biological sciences -> Entomology and parasitology -> Part time           ,S&E,Science,Biological sciences,Entomology and parasitology,Part time           ,5,139,5,2,2,3,0,110,2,6,9
+1132,r040,S&E -> Science -> Biological sciences -> Genetics,S&E,Science,Biological sciences,Genetics,,4,2404,172,7,177,61,4,1348,47,74,514
+1132,r041,S&E -> Science -> Biological sciences -> Genetics -> Full time    ,S&E,Science,Biological sciences,Genetics,Full time    ,5,2330,168,7,169,58,4,1296,47,71,510
+1132,r042,S&E -> Science -> Biological sciences -> Genetics -> Part time           ,S&E,Science,Biological sciences,Genetics,Part time           ,5,74,4,0,8,3,0,52,0,3,4
+1132,r043,"S&E -> Science -> Biological sciences -> Microbiology, immunology, and virology",S&E,Science,Biological sciences,"Microbiology, immunology, and virology",,4,4615,363,21,414,232,7,2467,138,145,828
+1132,r044,"S&E -> Science -> Biological sciences -> Microbiology, immunology, and virology -> Full time    ",S&E,Science,Biological sciences,"Microbiology, immunology, and virology",Full time    ,5,4185,340,18,377,195,7,2226,126,131,765
+1132,r045,"S&E -> Science -> Biological sciences -> Microbiology, immunology, and virology -> Part time           ",S&E,Science,Biological sciences,"Microbiology, immunology, and virology",Part time           ,5,430,23,3,37,37,0,241,12,14,63
+1132,r046,S&E -> Science -> Biological sciences -> Nutrition,S&E,Science,Biological sciences,Nutrition,,4,5401,298,17,361,240,8,3282,112,179,904
+1132,r047,S&E -> Science -> Biological sciences -> Nutrition -> Full time    ,S&E,Science,Biological sciences,Nutrition,Full time    ,5,3601,189,5,254,134,6,2035,84,104,790
+1132,r048,S&E -> Science -> Biological sciences -> Nutrition -> Part time           ,S&E,Science,Biological sciences,Nutrition,Part time           ,5,1800,109,12,107,106,2,1247,28,75,114
+1132,r049,S&E -> Science -> Biological sciences -> Pathology,S&E,Science,Biological sciences,Pathology,,4,998,67,1,92,51,1,470,29,57,230
+1132,r050,S&E -> Science -> Biological sciences -> Pathology -> Full time    ,S&E,Science,Biological sciences,Pathology,Full time    ,5,954,66,1,88,49,1,442,28,57,222
+1132,r051,S&E -> Science -> Biological sciences -> Pathology -> Part time           ,S&E,Science,Biological sciences,Pathology,Part time           ,5,44,1,0,4,2,0,28,1,0,8
+1132,r052,S&E -> Science -> Biological sciences -> Pharmacology and toxicology,S&E,Science,Biological sciences,Pharmacology and toxicology,,4,2873,186,7,300,227,5,1345,69,65,669
+1132,r053,S&E -> Science -> Biological sciences -> Pharmacology and toxicology -> Full time    ,S&E,Science,Biological sciences,Pharmacology and toxicology,Full time    ,5,2519,168,7,267,173,5,1153,58,59,629
+1132,r054,S&E -> Science -> Biological sciences -> Pharmacology and toxicology -> Part time           ,S&E,Science,Biological sciences,Pharmacology and toxicology,Part time           ,5,354,18,0,33,54,0,192,11,6,40
+1132,r055,S&E -> Science -> Biological sciences -> Physiology,S&E,Science,Biological sciences,Physiology,,4,4024,280,11,466,230,6,2066,87,135,743
+1132,r056,S&E -> Science -> Biological sciences -> Physiology -> Full time    ,S&E,Science,Biological sciences,Physiology,Full time    ,5,3682,257,10,428,197,6,1883,75,119,707
+1132,r057,S&E -> Science -> Biological sciences -> Physiology -> Part time           ,S&E,Science,Biological sciences,Physiology,Part time           ,5,342,23,1,38,33,0,183,12,16,36
+1132,r058,S&E -> Science -> Biological sciences -> Zoology,S&E,Science,Biological sciences,Zoology,,4,815,33,2,19,9,1,578,26,42,105
+1132,r059,S&E -> Science -> Biological sciences -> Zoology -> Full time    ,S&E,Science,Biological sciences,Zoology,Full time    ,5,634,30,1,13,9,1,450,20,28,82
+1132,r060,S&E -> Science -> Biological sciences -> Zoology -> Part time           ,S&E,Science,Biological sciences,Zoology,Part time           ,5,181,3,1,6,0,0,128,6,14,23
+1132,r061,S&E -> Science -> Biological sciences -> Biosciences nec,S&E,Science,Biological sciences,Biosciences nec,,4,15837,1436,60,1845,1265,82,7215,431,776,2727
+1132,r062,S&E -> Science -> Biological sciences -> Biosciences nec -> Full time    ,S&E,Science,Biological sciences,Biosciences nec,Full time    ,5,13599,1248,50,1637,991,79,6067,359,629,2539
+1132,r063,S&E -> Science -> Biological sciences -> Biosciences nec -> Part time           ,S&E,Science,Biological sciences,Biosciences nec,Part time           ,5,2238,188,10,208,274,3,1148,72,147,188
+1132,r064,S&E -> Science -> Communication,S&E,Science,Communication,,,3,12347,1064,52,402,1314,21,6288,308,632,2266
+1132,r065,S&E -> Science -> Communication -> Full time    ,S&E,Science,Communication,Full time    ,,4,7502,589,29,269,746,13,3405,185,300,1966
+1132,r066,S&E -> Science -> Communication -> Part time           ,S&E,Science,Communication,Part time           ,,4,4845,475,23,133,568,8,2883,123,332,300
+1132,r067,S&E -> Science -> Computer sciences,S&E,Science,Computer sciences,,,3,92650,2704,85,5423,3828,51,17157,893,2897,59612
+1132,r068,S&E -> Science -> Computer sciences -> Full time    ,S&E,Science,Computer sciences,Full time    ,,4,63361,1068,40,2492,1221,16,7190,371,1456,49507
+1132,r069,S&E -> Science -> Computer sciences -> Part time           ,S&E,Science,Computer sciences,Part time           ,,4,29289,1636,45,2931,2607,35,9967,522,1441,10105
+1132,r070,"S&E -> Science -> Earth, atmospheric, and ocean sciences",S&E,Science,"Earth, atmospheric, and ocean sciences",,,3,15015,1014,65,454,315,39,8885,321,666,3256
+1132,r071,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Full time    ",S&E,Science,"Earth, atmospheric, and ocean sciences",Full time    ,,4,11792,675,45,351,234,32,6813,242,483,2917
+1132,r072,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Part time           ",S&E,Science,"Earth, atmospheric, and ocean sciences",Part time           ,,4,3223,339,20,103,81,7,2072,79,183,339
+1132,r073,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Atmospheric sciences",S&E,Science,"Earth, atmospheric, and ocean sciences",Atmospheric sciences,,4,1399,76,3,39,40,1,809,22,31,378
+1132,r074,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Atmospheric sciences -> Full time    ",S&E,Science,"Earth, atmospheric, and ocean sciences",Atmospheric sciences,Full time    ,5,1185,60,2,30,35,1,665,18,27,347
+1132,r075,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Atmospheric sciences -> Part time           ",S&E,Science,"Earth, atmospheric, and ocean sciences",Atmospheric sciences,Part time           ,5,214,16,1,9,5,0,144,4,4,31
+1132,r076,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Geosciences",S&E,Science,"Earth, atmospheric, and ocean sciences",Geosciences,,4,8610,494,43,233,162,15,5144,188,395,1936
+1132,r077,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Geosciences -> Full time    ",S&E,Science,"Earth, atmospheric, and ocean sciences",Geosciences,Full time    ,5,6801,357,27,180,119,11,3920,141,282,1764
+1132,r078,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Geosciences -> Part time           ",S&E,Science,"Earth, atmospheric, and ocean sciences",Geosciences,Part time           ,5,1809,137,16,53,43,4,1224,47,113,172
+1132,r079,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Ocean sciences",S&E,Science,"Earth, atmospheric, and ocean sciences",Ocean sciences,,4,2743,179,11,97,36,3,1775,61,146,435
+1132,r080,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Ocean sciences -> Full time    ",S&E,Science,"Earth, atmospheric, and ocean sciences",Ocean sciences,Full time    ,5,2218,146,10,75,29,3,1387,50,115,403
+1132,r081,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Ocean sciences -> Part time           ",S&E,Science,"Earth, atmospheric, and ocean sciences",Ocean sciences,Part time           ,5,525,33,1,22,7,0,388,11,31,32
+1132,r082,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Earth, atmospheric, and ocean sciences nec",S&E,Science,"Earth, atmospheric, and ocean sciences","Earth, atmospheric, and ocean sciences nec",,4,2263,265,8,85,77,20,1157,50,94,507
+1132,r083,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Earth, atmospheric, and ocean sciences nec -> Full time    ",S&E,Science,"Earth, atmospheric, and ocean sciences","Earth, atmospheric, and ocean sciences nec",Full time    ,5,1588,112,6,66,51,17,841,33,59,403
+1132,r084,"S&E -> Science -> Earth, atmospheric, and ocean sciences -> Earth, atmospheric, and ocean sciences nec -> Part time           ",S&E,Science,"Earth, atmospheric, and ocean sciences","Earth, atmospheric, and ocean sciences nec",Part time           ,5,675,153,2,19,26,3,316,17,35,104
+1132,r085,S&E -> Science -> Family and consumer sciences and human sciences,S&E,Science,Family and consumer sciences and human sciences,,,3,3750,313,26,125,529,6,2086,109,115,441
+1132,r086,S&E -> Science -> Family and consumer sciences and human sciences -> Full time    ,S&E,Science,Family and consumer sciences and human sciences,Full time    ,,4,2310,186,14,84,267,2,1280,70,51,356
+1132,r087,S&E -> Science -> Family and consumer sciences and human sciences -> Part time           ,S&E,Science,Family and consumer sciences and human sciences,Part time           ,,4,1440,127,12,41,262,4,806,39,64,85
+1132,r088,S&E -> Science -> Mathematics and statistics,S&E,Science,Mathematics and statistics,,,3,28050,1145,42,1842,648,24,9313,364,966,13706
+1132,r089,S&E -> Science -> Mathematics and statistics -> Full time    ,S&E,Science,Mathematics and statistics,Full time    ,,4,22171,734,22,1205,360,17,6329,287,577,12640
+1132,r090,S&E -> Science -> Mathematics and statistics -> Part time           ,S&E,Science,Mathematics and statistics,Part time           ,,4,5879,411,20,637,288,7,2984,77,389,1066
+1132,r091,S&E -> Science -> Mathematics and statistics -> Mathematics and applied mathematics,S&E,Science,Mathematics and statistics,Mathematics and applied mathematics,,4,20028,954,32,1188,494,21,7387,292,760,8900
+1132,r092,S&E -> Science -> Mathematics and statistics -> Mathematics and applied mathematics -> Full time    ,S&E,Science,Mathematics and statistics,Mathematics and applied mathematics,Full time    ,5,15820,632,17,820,275,14,5166,234,443,8219
+1132,r093,S&E -> Science -> Mathematics and statistics -> Mathematics and applied mathematics -> Part time           ,S&E,Science,Mathematics and statistics,Mathematics and applied mathematics,Part time           ,5,4208,322,15,368,219,7,2221,58,317,681
+1132,r094,S&E -> Science -> Mathematics and statistics -> Statistics,S&E,Science,Mathematics and statistics,Statistics,,4,8022,191,10,654,154,3,1926,72,206,4806
+1132,r095,S&E -> Science -> Mathematics and statistics -> Statistics -> Full time    ,S&E,Science,Mathematics and statistics,Statistics,Full time    ,5,6351,102,5,385,85,3,1163,53,134,4421
+1132,r096,S&E -> Science -> Mathematics and statistics -> Statistics -> Part time           ,S&E,Science,Mathematics and statistics,Statistics,Part time           ,5,1671,89,5,269,69,0,763,19,72,385
+1132,r097,S&E -> Science -> Multidisciplinary and interdisciplinary studies,S&E,Science,Multidisciplinary and interdisciplinary studies,,,3,9251,599,41,592,587,18,4235,192,402,2585
+1132,r098,S&E -> Science -> Multidisciplinary and interdisciplinary studies -> Full time    ,S&E,Science,Multidisciplinary and interdisciplinary studies,Full time    ,,4,6236,396,17,416,318,7,2513,134,250,2185
+1132,r099,S&E -> Science -> Multidisciplinary and interdisciplinary studies -> Part time           ,S&E,Science,Multidisciplinary and interdisciplinary studies,Part time           ,,4,3015,203,24,176,269,11,1722,58,152,400
+1132,r100,S&E -> Science -> Neurobiology and neuroscience,S&E,Science,Neurobiology and neuroscience,,,3,5226,460,26,519,172,5,2894,110,187,853
+1132,r101,S&E -> Science -> Neurobiology and neuroscience -> Full time    ,S&E,Science,Neurobiology and neuroscience,Full time    ,,4,4922,420,26,492,157,5,2732,100,175,815
+1132,r102,S&E -> Science -> Neurobiology and neuroscience -> Part time           ,S&E,Science,Neurobiology and neuroscience,Part time           ,,4,304,40,0,27,15,0,162,10,12,38
+1132,r103,S&E -> Science -> Physical sciences,S&E,Science,Physical sciences,,,3,40518,2081,95,2130,906,35,17576,602,1150,15943
+1132,r104,S&E -> Science -> Physical sciences -> Full time    ,S&E,Science,Physical sciences,Full time    ,,4,36536,1801,83,1864,721,31,15515,545,937,15039
+1132,r105,S&E -> Science -> Physical sciences -> Part time           ,S&E,Science,Physical sciences,Part time           ,,4,3982,280,12,266,185,4,2061,57,213,904
+1132,r106,S&E -> Science -> Physical sciences -> Astronomy and astrophysics,S&E,Science,Physical sciences,Astronomy and astrophysics,,4,1353,81,5,77,19,1,730,24,45,371
+1132,r107,S&E -> Science -> Physical sciences -> Astronomy and astrophysics -> Full time    ,S&E,Science,Physical sciences,Astronomy and astrophysics,Full time    ,5,1309,77,5,75,18,1,704,23,43,363
+1132,r108,S&E -> Science -> Physical sciences -> Astronomy and astrophysics -> Part time           ,S&E,Science,Physical sciences,Astronomy and astrophysics,Part time           ,5,44,4,0,2,1,0,26,1,2,8
+1132,r109,S&E -> Science -> Physical sciences -> Chemistry,S&E,Science,Physical sciences,Chemistry,,4,22676,1254,63,1312,656,24,9874,361,612,8520
+1132,r110,S&E -> Science -> Physical sciences -> Chemistry -> Full time    ,S&E,Science,Physical sciences,Chemistry,Full time    ,5,20423,1099,55,1135,527,21,8732,334,486,8034
+1132,r111,S&E -> Science -> Physical sciences -> Chemistry -> Part time           ,S&E,Science,Physical sciences,Chemistry,Part time           ,5,2253,155,8,177,129,3,1142,27,126,486
+1132,r112,S&E -> Science -> Physical sciences -> Physics,S&E,Science,Physical sciences,Physics,,4,15764,696,26,702,196,8,6633,208,480,6815
+1132,r113,S&E -> Science -> Physical sciences -> Physics -> Full time    ,S&E,Science,Physical sciences,Physics,Full time    ,5,14298,594,22,627,153,8,5867,183,403,6441
+1132,r114,S&E -> Science -> Physical sciences -> Physics -> Part time           ,S&E,Science,Physical sciences,Physics,Part time           ,5,1466,102,4,75,43,0,766,25,77,374
+1132,r115,S&E -> Science -> Physical sciences -> Physical sciences nec,S&E,Science,Physical sciences,Physical sciences nec,,4,725,50,1,39,35,2,339,9,13,237
+1132,r116,S&E -> Science -> Physical sciences -> Physical sciences nec -> Full time    ,S&E,Science,Physical sciences,Physical sciences nec,Full time    ,5,506,31,1,27,23,1,212,5,5,201
+1132,r117,S&E -> Science -> Physical sciences -> Physical sciences nec -> Part time           ,S&E,Science,Physical sciences,Physical sciences nec,Part time           ,5,219,19,0,12,12,1,127,4,8,36
+1132,r118,S&E -> Science -> Psychology,S&E,Science,Psychology,,,3,47609,6844,223,2283,3730,91,27355,1355,2628,3100
+1132,r119,S&E -> Science -> Psychology -> Full time    ,S&E,Science,Psychology,Full time    ,,4,34530,4662,158,1689,2423,55,20057,1015,1828,2643
+1132,r120,S&E -> Science -> Psychology -> Part time           ,S&E,Science,Psychology,Part time           ,,4,13079,2182,65,594,1307,36,7298,340,800,457
+1132,r121,S&E -> Science -> Psychology -> Clinical psychology,S&E,Science,Psychology,Clinical psychology,,4,8356,1502,41,459,549,12,4650,229,593,321
+1132,r122,S&E -> Science -> Psychology -> Clinical psychology -> Full time    ,S&E,Science,Psychology,Clinical psychology,Full time    ,5,6690,1174,32,368,434,9,3748,195,454,276
+1132,r123,S&E -> Science -> Psychology -> Clinical psychology -> Part time           ,S&E,Science,Psychology,Clinical psychology,Part time           ,5,1666,328,9,91,115,3,902,34,139,45
+1132,r124,"S&E -> Science -> Psychology -> Psychology, general",S&E,Science,Psychology,"Psychology, general",,4,12318,1417,46,649,1000,25,7239,352,617,973
+1132,r125,"S&E -> Science -> Psychology -> Psychology, general -> Full time    ",S&E,Science,Psychology,"Psychology, general",Full time    ,5,9806,1021,38,511,692,15,5900,283,471,875
+1132,r126,"S&E -> Science -> Psychology -> Psychology, general -> Part time           ",S&E,Science,Psychology,"Psychology, general",Part time           ,5,2512,396,8,138,308,10,1339,69,146,98
+1132,r127,S&E -> Science -> Psychology -> Psychology nec,S&E,Science,Psychology,Psychology nec,,4,26935,3925,136,1175,2181,54,15466,774,1418,1806
+1132,r128,S&E -> Science -> Psychology -> Psychology nec -> Full time    ,S&E,Science,Psychology,Psychology nec,Full time    ,5,18034,2467,88,810,1297,31,10409,537,903,1492
+1132,r129,S&E -> Science -> Psychology -> Psychology nec -> Part time           ,S&E,Science,Psychology,Psychology nec,Part time           ,5,8901,1458,48,365,884,23,5057,237,515,314
+1132,r130,S&E -> Science -> Social sciences,S&E,Science,Social sciences,,,3,100200,9382,573,4471,10037,247,45630,2290,5007,22563
+1132,r131,S&E -> Science -> Social sciences -> Full time    ,S&E,Science,Social sciences,Full time    ,,4,67055,5370,355,3070,5059,145,28530,1483,2705,20338
+1132,r132,S&E -> Science -> Social sciences -> Part time           ,S&E,Science,Social sciences,Part time           ,,4,33145,4012,218,1401,4978,102,17100,807,2302,2225
+1132,r133,S&E -> Science -> Social sciences -> Agricultural economics,S&E,Science,Social sciences,Agricultural economics,,4,1756,63,2,51,46,0,670,17,44,863
+1132,r134,S&E -> Science -> Social sciences -> Agricultural economics -> Full time    ,S&E,Science,Social sciences,Agricultural economics,Full time    ,5,1454,50,2,45,36,0,476,13,34,798
+1132,r135,S&E -> Science -> Social sciences -> Agricultural economics -> Part time           ,S&E,Science,Social sciences,Agricultural economics,Part time           ,5,302,13,0,6,10,0,194,4,10,65
+1132,r136,S&E -> Science -> Social sciences -> Anthropology,S&E,Science,Social sciences,Anthropology,,4,7309,638,91,248,232,23,4381,241,480,975
+1132,r137,S&E -> Science -> Social sciences -> Anthropology -> Full time    ,S&E,Science,Social sciences,Anthropology,Full time    ,5,5752,480,68,201,179,15,3334,188,384,903
+1132,r138,S&E -> Science -> Social sciences -> Anthropology -> Part time           ,S&E,Science,Social sciences,Anthropology,Part time           ,5,1557,158,23,47,53,8,1047,53,96,72
+1132,r139,S&E -> Science -> Social sciences -> Economics (except agriculture),S&E,Science,Social sciences,Economics (except agriculture),,4,14488,532,8,630,387,4,3708,150,499,8570
+1132,r140,S&E -> Science -> Social sciences -> Economics (except agriculture) -> Full time    ,S&E,Science,Social sciences,Economics (except agriculture),Full time    ,5,12294,376,4,498,214,1,2859,118,365,7859
+1132,r141,S&E -> Science -> Social sciences -> Economics (except agriculture) -> Part time           ,S&E,Science,Social sciences,Economics (except agriculture),Part time           ,5,2194,156,4,132,173,3,849,32,134,711
+1132,r142,S&E -> Science -> Social sciences -> Geography,S&E,Science,Social sciences,Geography,,4,4315,256,25,130,139,2,2509,76,241,937
+1132,r143,S&E -> Science -> Social sciences -> Geography -> Full time    ,S&E,Science,Social sciences,Geography,Full time    ,5,3045,174,21,85,86,1,1696,55,113,814
+1132,r144,S&E -> Science -> Social sciences -> Geography -> Part time           ,S&E,Science,Social sciences,Geography,Part time           ,5,1270,82,4,45,53,1,813,21,128,123
+1132,r145,S&E -> Science -> Social sciences -> History and philosophy of science,S&E,Science,Social sciences,History and philosophy of science,,4,379,10,0,11,6,1,252,10,12,77
+1132,r146,S&E -> Science -> Social sciences -> History and philosophy of science -> Full time    ,S&E,Science,Social sciences,History and philosophy of science,Full time    ,5,344,10,0,9,6,1,226,9,9,74
+1132,r147,S&E -> Science -> Social sciences -> History and philosophy of science -> Part time           ,S&E,Science,Social sciences,History and philosophy of science,Part time           ,5,35,0,0,2,0,0,26,1,3,3
+1132,r148,S&E -> Science -> Social sciences -> Linguistics,S&E,Science,Social sciences,Linguistics,,4,3149,250,31,188,66,3,1400,76,135,1000
+1132,r149,S&E -> Science -> Social sciences -> Linguistics -> Full time    ,S&E,Science,Social sciences,Linguistics,Full time    ,5,2339,158,17,123,44,1,985,52,89,870
+1132,r150,S&E -> Science -> Social sciences -> Linguistics -> Part time           ,S&E,Science,Social sciences,Linguistics,Part time           ,5,810,92,14,65,22,2,415,24,46,130
+1132,r151,S&E -> Science -> Social sciences -> Political science and government,S&E,Science,Social sciences,Political science and government,,4,45213,4657,234,2247,5660,144,21700,1021,2501,7049
+1132,r152,S&E -> Science -> Social sciences -> Political science and government -> Full time    ,S&E,Science,Social sciences,Political science and government,Full time    ,5,26232,2224,129,1393,2603,86,11935,566,1065,6231
+1132,r153,S&E -> Science -> Social sciences -> Political science and government -> Part time           ,S&E,Science,Social sciences,Political science and government,Part time           ,5,18981,2433,105,854,3057,58,9765,455,1436,818
+1132,r154,S&E -> Science -> Social sciences -> Sociology,S&E,Science,Social sciences,Sociology,,4,8023,947,45,367,911,13,3970,221,341,1208
+1132,r155,S&E -> Science -> Social sciences -> Sociology -> Full time    ,S&E,Science,Social sciences,Sociology,Full time    ,5,6303,708,27,291,639,10,3084,170,267,1107
+1132,r156,S&E -> Science -> Social sciences -> Sociology -> Part time           ,S&E,Science,Social sciences,Sociology,Part time           ,5,1720,239,18,76,272,3,886,51,74,101
+1132,r157,S&E -> Science -> Social sciences -> Sociology and anthropology,S&E,Science,Social sciences,Sociology and anthropology,,4,208,24,1,4,42,1,88,1,33,14
+1132,r158,S&E -> Science -> Social sciences -> Sociology and anthropology -> Full time    ,S&E,Science,Social sciences,Sociology and anthropology,Full time    ,5,156,13,1,3,37,1,73,1,13,14
+1132,r159,S&E -> Science -> Social sciences -> Sociology and anthropology -> Part time           ,S&E,Science,Social sciences,Sociology and anthropology,Part time           ,5,52,11,0,1,5,0,15,0,20,0
+1132,r160,S&E -> Science -> Social sciences -> Social sciences nec,S&E,Science,Social sciences,Social sciences nec,,4,15360,2005,136,595,2548,56,6952,477,721,1870
+1132,r161,S&E -> Science -> Social sciences -> Social sciences nec -> Full time    ,S&E,Science,Social sciences,Social sciences nec,Full time    ,5,9136,1177,86,422,1215,29,3862,311,366,1668
+1132,r162,S&E -> Science -> Social sciences -> Social sciences nec -> Part time           ,S&E,Science,Social sciences,Social sciences nec,Part time           ,5,6224,828,50,173,1333,27,3090,166,355,202
+1132,r163,S&E -> Engineering,S&E,Engineering,,,,2,168443,6962,245,9902,3710,115,45622,1824,4659,95404
+1132,r164,S&E -> Engineering -> Full time    ,S&E,Engineering,Full time    ,,,3,128203,4150,141,6554,2115,66,28613,1245,2601,82718
+1132,r165,S&E -> Engineering -> Part time           ,S&E,Engineering,Part time           ,,,3,40240,2812,104,3348,1595,49,17009,579,2058,12686
+1132,r166,S&E -> Engineering -> Aerospace engineering,S&E,Engineering,Aerospace engineering,,,3,5416,296,12,390,91,4,2396,79,149,1999
+1132,r167,S&E -> Engineering -> Aerospace engineering -> Full time    ,S&E,Engineering,Aerospace engineering,Full time    ,,4,4081,172,10,257,57,2,1640,66,94,1783
+1132,r168,S&E -> Engineering -> Aerospace engineering -> Part time           ,S&E,Engineering,Aerospace engineering,Part time           ,,4,1335,124,2,133,34,2,756,13,55,216
+1132,r169,S&E -> Engineering -> Agricultural engineering,S&E,Engineering,Agricultural engineering,,,3,1626,51,5,68,36,1,549,22,24,870
+1132,r170,S&E -> Engineering -> Agricultural engineering -> Full time    ,S&E,Engineering,Agricultural engineering,Full time    ,,4,1329,42,5,53,28,1,428,17,18,737
+1132,r171,S&E -> Engineering -> Agricultural engineering -> Part time           ,S&E,Engineering,Agricultural engineering,Part time           ,,4,297,9,0,15,8,0,121,5,6,133
+1132,r172,S&E -> Engineering -> Architecture,S&E,Engineering,Architecture,,,3,1671,125,8,66,92,0,578,22,48,732
+1132,r173,S&E -> Engineering -> Architecture -> Full time    ,S&E,Engineering,Architecture,Full time    ,,4,1509,109,8,54,79,0,501,19,36,703
+1132,r174,S&E -> Engineering -> Architecture -> Part time           ,S&E,Engineering,Architecture,Part time           ,,4,162,16,0,12,13,0,77,3,12,29
+1132,r175,S&E -> Engineering -> Biomedical engineering,S&E,Engineering,Biomedical engineering,,,3,10208,576,18,1369,294,7,3995,209,448,3292
+1132,r176,S&E -> Engineering -> Biomedical engineering -> Full time    ,S&E,Engineering,Biomedical engineering,Full time    ,,4,9136,504,16,1223,243,6,3507,188,394,3055
+1132,r177,S&E -> Engineering -> Biomedical engineering -> Part time           ,S&E,Engineering,Biomedical engineering,Part time           ,,4,1072,72,2,146,51,1,488,21,54,237
+1132,r178,S&E -> Engineering -> Chemical engineering,S&E,Engineering,Chemical engineering,,,3,10187,341,15,731,227,3,3017,115,246,5492
+1132,r179,S&E -> Engineering -> Chemical engineering -> Full time    ,S&E,Engineering,Chemical engineering,Full time    ,,4,9002,282,13,618,178,2,2541,104,179,5085
+1132,r180,S&E -> Engineering -> Chemical engineering -> Part time           ,S&E,Engineering,Chemical engineering,Part time           ,,4,1185,59,2,113,49,1,476,11,67,407
+1132,r181,S&E -> Engineering -> Civil engineering,S&E,Engineering,Civil engineering,,,3,20569,1189,40,986,441,23,6305,255,662,10668
+1132,r182,S&E -> Engineering -> Civil engineering -> Full time    ,S&E,Engineering,Civil engineering,Full time    ,,4,15183,677,16,600,245,13,3823,162,352,9295
+1132,r183,S&E -> Engineering -> Civil engineering -> Part time           ,S&E,Engineering,Civil engineering,Part time           ,,4,5386,512,24,386,196,10,2482,93,310,1373
+1132,r184,S&E -> Engineering -> Electrical engineering,S&E,Engineering,Electrical engineering,,,3,50062,1357,35,2699,806,19,8013,326,936,35871
+1132,r185,S&E -> Engineering -> Electrical engineering -> Full time    ,S&E,Engineering,Electrical engineering,Full time    ,,4,38158,713,16,1531,413,10,4435,180,460,30400
+1132,r186,S&E -> Engineering -> Electrical engineering -> Part time           ,S&E,Engineering,Electrical engineering,Part time           ,,4,11904,644,19,1168,393,9,3578,146,476,5471
+1132,r187,"S&E -> Engineering -> Engineering science, mechanics, and physics engineering",S&E,Engineering,"Engineering science, mechanics, and physics engineering",,,3,1756,37,11,94,43,8,501,20,54,988
+1132,r188,"S&E -> Engineering -> Engineering science, mechanics, and physics engineering -> Full time    ",S&E,Engineering,"Engineering science, mechanics, and physics engineering",Full time    ,,4,1318,29,6,72,27,7,375,18,31,753
+1132,r189,"S&E -> Engineering -> Engineering science, mechanics, and physics engineering -> Part time           ",S&E,Engineering,"Engineering science, mechanics, and physics engineering",Part time           ,,4,438,8,5,22,16,1,126,2,23,235
+1132,r190,S&E -> Engineering -> Industrial and manufacturing engineering,S&E,Engineering,Industrial and manufacturing engineering,,,3,16200,756,26,713,529,15,4009,132,579,9441
+1132,r191,S&E -> Engineering -> Industrial and manufacturing engineering -> Full time    ,S&E,Engineering,Industrial and manufacturing engineering,Full time    ,,4,10582,322,4,326,177,4,1450,54,176,8069
+1132,r192,S&E -> Engineering -> Industrial and manufacturing engineering -> Part time           ,S&E,Engineering,Industrial and manufacturing engineering,Part time           ,,4,5618,434,22,387,352,11,2559,78,403,1372
+1132,r193,S&E -> Engineering -> Mechanical engineering,S&E,Engineering,Mechanical engineering,,,3,27898,1273,36,1430,446,13,8369,334,938,15059
+1132,r194,S&E -> Engineering -> Mechanical engineering -> Full time    ,S&E,Engineering,Mechanical engineering,Full time    ,,4,20924,721,28,925,270,7,5089,226,523,13135
+1132,r195,S&E -> Engineering -> Mechanical engineering -> Part time           ,S&E,Engineering,Mechanical engineering,Part time           ,,4,6974,552,8,505,176,6,3280,108,415,1924
+1132,r196,S&E -> Engineering -> Metallurgical and materials engineering,S&E,Engineering,Metallurgical and materials engineering,,,3,8106,324,10,501,154,7,2581,112,153,4264
+1132,r197,S&E -> Engineering -> Metallurgical and materials engineering -> Full time    ,S&E,Engineering,Metallurgical and materials engineering,Full time    ,,4,7149,271,10,440,122,4,2120,97,125,3960
+1132,r198,S&E -> Engineering -> Metallurgical and materials engineering -> Part time           ,S&E,Engineering,Metallurgical and materials engineering,Part time           ,,4,957,53,0,61,32,3,461,15,28,304
+1132,r199,S&E -> Engineering -> Mining engineering,S&E,Engineering,Mining engineering,,,3,378,15,2,4,7,0,159,6,5,180
+1132,r200,S&E -> Engineering -> Mining engineering -> Full time    ,S&E,Engineering,Mining engineering,Full time    ,,4,287,8,1,2,4,0,113,5,1,153
+1132,r201,S&E -> Engineering -> Mining engineering -> Part time           ,S&E,Engineering,Mining engineering,Part time           ,,4,91,7,1,2,3,0,46,1,4,27
+1132,r202,S&E -> Engineering -> Nuclear engineering,S&E,Engineering,Nuclear engineering,,,3,1466,90,2,58,22,0,844,24,51,375
+1132,r203,S&E -> Engineering -> Nuclear engineering -> Full time    ,S&E,Engineering,Nuclear engineering,Full time    ,,4,1229,70,2,53,18,0,666,21,42,357
+1132,r204,S&E -> Engineering -> Nuclear engineering -> Part time           ,S&E,Engineering,Nuclear engineering,Part time           ,,4,237,20,0,5,4,0,178,3,9,18
+1132,r205,S&E -> Engineering -> Petroleum engineering,S&E,Engineering,Petroleum engineering,,,3,1862,51,3,84,34,0,312,10,50,1318
+1132,r206,S&E -> Engineering -> Petroleum engineering -> Full time    ,S&E,Engineering,Petroleum engineering,Full time    ,,4,1461,24,1,54,22,0,190,7,25,1138
+1132,r207,S&E -> Engineering -> Petroleum engineering -> Part time           ,S&E,Engineering,Petroleum engineering,Part time           ,,4,401,27,2,30,12,0,122,3,25,180
+1132,r208,S&E -> Engineering -> Engineering nec,S&E,Engineering,Engineering nec,,,3,11038,481,22,709,488,15,3994,158,316,4855
+1132,r209,S&E -> Engineering -> Engineering nec -> Full time    ,S&E,Engineering,Engineering nec,Full time    ,,4,6855,206,5,346,232,10,1735,81,145,4095
+1132,r210,S&E -> Engineering -> Engineering nec -> Part time           ,S&E,Engineering,Engineering nec,Part time           ,,4,4183,275,17,363,256,5,2259,77,171,760

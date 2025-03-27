@@ -1,0 +1,139 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed college graduates, by level of highest degree, minor field of highest degree, and detailed employment sector: 2017",
+  "identifier": "NCSES-6838",
+  "description": "Employed college graduates, by level of highest degree, minor field of highest degree, and detailed employment sector: 2017",
+  "url": "https://example.org/datasets/ncses/tables/6838",
+  "table_number": "1-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6838/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "level_and_field_of_highest_degree",
+      "description": "Level and field of highest degree hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "level_and_field_of_highest_degree_level_1, level_and_field_of_highest_degree_level_2, level_and_field_of_highest_degree_level_3, level_and_field_of_highest_degree_level_4, level_and_field_of_highest_degree_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "level_and_field_of_highest_degree_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_or_industry_total",
+      "description": "Business Or Industry Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_or_industry_for_profit_business_or_industry",
+      "description": "Business Or Industry For Profit Business Or Industry",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_or_industry_nonprofit_business_or_industry",
+      "description": "Business Or Industry Nonprofit Business Or Industry",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_or_industry_self_employed_not_incorporated",
+      "description": "Business Or Industry Self Employed Not Incorporated",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_total",
+      "description": "Education Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_4_year_educational_institutiona",
+      "description": "Education 4 Year Educational Institutiona",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_2_year_college_or_precollege_educational_institution",
+      "description": "Education 2 Year College Or Precollege Educational Institution",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_government_total",
+      "description": "Government Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_government_federal_government",
+      "description": "Government Federal Government",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_government_state_or_local_government",
+      "description": "Government State Or Local Government",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

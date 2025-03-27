@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Bachelor's degree recipients who began postsecondary education at a community college, by field: 2015\u201316",
+  "identifier": "NCSES-9898",
+  "description": "Bachelor's degree recipients who began postsecondary education at a community college, by field: 2015\u201316",
+  "url": "https://example.org/datasets/ncses/tables/9898",
+  "table_number": "SHED-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9898/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Data are based on institutions eligible to participate in Title IV federal financial aid programs.",
+  "sources": "National Center for Education Statistics, 2016/17 Baccalaureate and Beyond Longitudinal Study (B&B:16/17). Science and Engineering Indicators"
+}

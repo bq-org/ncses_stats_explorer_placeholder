@@ -1,0 +1,13 @@
+table_id,row_id,time_period,filter_level_1,filter_level_2,filter_level_3,filter_hierarchy_depth,value
+9399,r001_1,Matches removed ,Filter,0, ,3,na
+9399,r001_2,Matches removed ,Filter,1,Multiple matches,3,113
+9399,r001_3,Matches removed ,Filter,2,Unlikely last transactions,3,100
+9399,r001_4,Matches removed ,Filter,3,Unlikely first transactions,3,491
+9399,r001_5,Matches removed ,Filter,4,Unlikely duration of time,3,237
+9399,r001_6,Matches removed ,Filter,5,Unlikely occupation transitions,3,753
+9399,r002_1,Remaining matches,Filter,0, ,3,16663
+9399,r002_2,Remaining matches,Filter,1,Multiple matches,3,16550
+9399,r002_3,Remaining matches,Filter,2,Unlikely last transactions,3,16450
+9399,r002_4,Remaining matches,Filter,3,Unlikely first transactions,3,15959
+9399,r002_5,Remaining matches,Filter,4,Unlikely duration of time,3,15722
+9399,r002_6,Remaining matches,Filter,5,Unlikely occupation transitions,3,14969

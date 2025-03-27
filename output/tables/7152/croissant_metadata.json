@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Response rates for the Survey of Nonprofit Research Activities, by survey question: FY 2016",
+  "identifier": "NCSES-7152",
+  "description": "Response rates for the Survey of Nonprofit Research Activities, by survey question: FY 2016",
+  "url": "https://example.org/datasets/ncses/tables/7152",
+  "table_number": "A-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7152/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "survey_question_sup_b_a_b_sup",
+      "description": "Survey questiona hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "survey_question_sup_b_a_b_sup_level_1, survey_question_sup_b_a_b_sup_level_2, survey_question_sup_b_a_b_sup_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "survey_question_sup_b_a_b_sup_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_respondents",
+      "description": "All Respondents",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_item_responses",
+      "description": "Total Item Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_complete_item_responses",
+      "description": "Complete Item Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_partial_item_responses",
+      "description": "Partial Item Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_item_nonresponses",
+      "description": "Item Nonresponses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_rate_",
+      "description": "Response Rate ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Nonprofit Research Activities, FY 2016."
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Filter 4: Removal of unlikely duration of time",
+  "identifier": "NCSES-9403",
+  "description": "Filter 4: Removal of unlikely duration of time",
+  "url": "https://example.org/datasets/ncses/tables/9403",
+  "table_number": "8",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9403/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "step",
+      "description": "Step",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "matches_after_filter_3",
+      "description": "Matches After Filter 3",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "matches_after_filter_4",
+      "description": "Matches After Filter 4",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "matches_removed_by_filter_4",
+      "description": "Matches Removed By Filter 4",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "percentage_of_matches_removed_by_filter_4",
+      "description": "Percentage Of Matches Removed By Filter 4",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Steps 3 through 6 were aggregated for disclosure purposes.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, AYs 2014\u201317; Institute for Research on Innovation and Science, UMETRICS, 2020 release data."
+}

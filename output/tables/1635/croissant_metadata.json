@@ -1,0 +1,56 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E technicians and computer programmers occupations in the Current Population Survey: Various years",
+  "identifier": "NCSES-1635",
+  "description": "S&E technicians and computer programmers occupations in the Current Population Survey: Various years",
+  "url": "https://example.org/datasets/ncses/tables/1635",
+  "table_number": "SA3-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1635/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "1990_2002",
+      "description": "1990 2002",
+      "valueType": "string",
+      "unitText": "List of S&E technician and computer programmer occupations"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2003_10",
+      "description": "2003 10",
+      "valueType": "string",
+      "unitText": "List of S&E technician and computer programmer occupations"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "_2011_17",
+      "description": " 2011 17",
+      "valueType": "string",
+      "unitText": "List of S&E technician and computer programmer occupations"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Bureau of Economic Research, Merged Outgoing Rotation Group files (1990\u20132017); Bureau of Labor Statistics, Current Population Survey (CPS).Science and Engineering Indicators"
+}

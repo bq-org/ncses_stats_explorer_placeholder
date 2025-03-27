@@ -1,0 +1,200 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Adults who reported availability of computer or other digital device and the Internet for children to use at home for educational purposes, by selected adult characteristics: 7\u221212 May 2020 and 16\u221228 September 2020",
+  "identifier": "NCSES-4125",
+  "description": "Adults who reported availability of computer or other digital device and the Internet for children to use at home for educational purposes, by selected adult characteristics: 7\u221212 May 2020 and 16\u221228 September 2020",
+  "url": "https://example.org/datasets/ncses/tables/4125",
+  "table_number": "SK12-31",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4125/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "adult_characteristic",
+      "description": "Adult characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "adult_characteristic_level_1, adult_characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "adult_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_computer_or_other_digital_device_always_available",
+      "description": "7 12 May 2020 Computer Or Other Digital Device Always Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_computer_or_other_digital_device_usually_available",
+      "description": "7 12 May 2020 Computer Or Other Digital Device Usually Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_computer_or_other_digital_device_sometimes_available",
+      "description": "7 12 May 2020 Computer Or Other Digital Device Sometimes Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_computer_or_other_digital_device_rarely_available",
+      "description": "7 12 May 2020 Computer Or Other Digital Device Rarely Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_computer_or_other_digital_device_never_available",
+      "description": "7 12 May 2020 Computer Or Other Digital Device Never Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_internet_always_available",
+      "description": "7 12 May 2020 Internet Always Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_internet_usually_available",
+      "description": "7 12 May 2020 Internet Usually Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_internet_sometimes_available",
+      "description": "7 12 May 2020 Internet Sometimes Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_internet_rarely_available",
+      "description": "7 12 May 2020 Internet Rarely Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_internet_never_available",
+      "description": "7 12 May 2020 Internet Never Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_computer_or_other_digital_device_always_available",
+      "description": "16 28 September 2020 Computer Or Other Digital Device Always Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_computer_or_other_digital_device_usually_available",
+      "description": "16 28 September 2020 Computer Or Other Digital Device Usually Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_computer_or_other_digital_device_sometimes_available",
+      "description": "16 28 September 2020 Computer Or Other Digital Device Sometimes Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_computer_or_other_digital_device_rarely_available",
+      "description": "16 28 September 2020 Computer Or Other Digital Device Rarely Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_computer_or_other_digital_device_never_available",
+      "description": "16 28 September 2020 Computer Or Other Digital Device Never Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_internet_always_available",
+      "description": "16 28 September 2020 Internet Always Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_internet_usually_available",
+      "description": "16 28 September 2020 Internet Usually Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_internet_sometimes_available",
+      "description": "16 28 September 2020 Internet Sometimes Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_internet_rarely_available",
+      "description": "16 28 September 2020 Internet Rarely Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_internet_never_available",
+      "description": "16 28 September 2020 Internet Never Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The table includes adults 18 years and older in households with children enrolled in K\u221212 school. Adults in households with only homeschooled children are not included. Percentages may not add to 100% because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2020 U.S. Census Bureau Household Pulse Survey. Science and Engineering Indicators"
+}

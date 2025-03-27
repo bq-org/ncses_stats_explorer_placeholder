@@ -1,0 +1,100 @@
+table_id,row_id,employment_sector_and_occupation_full_path,employment_sector_and_occupation_level_1,employment_sector_and_occupation_level_2,employment_sector_and_occupation_level_3,employment_sector_and_occupation_level_4,employment_sector_and_occupation_hierarchy_depth,field_all_employed_number,field_all_employed_se,field_male_number,field_male_se,field_female_number,field_female_se
+8227,r001,All sectors,All sectors,,,,1,872100,2425,543550,2350,328500,1250
+8227,r002,All sectors -> Science occupations,All sectors,Science occupations,,,2,502250,2725,301700,2300,200550,1575
+8227,r003,"All sectors -> Science occupations -> Biological, agricultural, and other life scientists",All sectors,Science occupations,"Biological, agricultural, and other life scientists",,3,160850,1700,90550,1400,70300,1000
+8227,r004,All sectors -> Science occupations -> Computer and information scientists,All sectors,Science occupations,Computer and information scientists,,3,65450,1025,53250,1025,12200,425
+8227,r005,All sectors -> Science occupations -> Mathematical scientists,All sectors,Science occupations,Mathematical scientists,,3,43950,875,31350,800,12600,450
+8227,r006,All sectors -> Science occupations -> Physical scientists,All sectors,Science occupations,Physical scientists,,3,85100,1375,62150,1200,22950,675
+8227,r007,All sectors -> Science occupations -> Psychologists,All sectors,Science occupations,Psychologists,,3,78400,1025,27550,875,50850,825
+8227,r008,All sectors -> Science occupations -> Social scientists,All sectors,Science occupations,Social scientists,,3,68450,1150,36850,925,31600,725
+8227,r009,All sectors -> Engineering occupations,All sectors,Engineering occupations,,,2,122800,1575,101650,1550,21100,625
+8227,r010,All sectors -> S&E-related occupations,All sectors,S&E-related occupations,,,2,100450,1525,56900,1200,43600,1050
+8227,r011,All sectors -> Non-S&E occupations,All sectors,Non-S&E occupations,,,2,146600,1825,83300,1525,63300,975
+8227,r012,All sectors -> 4-year educational institution<sup>a</sup>,All sectors,4-year educational institution<sup>a</sup>,,,2,340950,2450,204700,2175,136250,1375
+8227,r013,All sectors -> 4-year educational institution<sup>a</sup> -> Science occupations,All sectors,4-year educational institution<sup>a</sup>,Science occupations,,3,227900,2150,137800,1750,90150,1250
+8227,r014,"All sectors -> 4-year educational institution<sup>a</sup> -> Science occupations -> Biological, agricultural, and other life scientists",All sectors,4-year educational institution<sup>a</sup>,Science occupations,"Biological, agricultural, and other life scientists",4,77100,1275,44550,1100,32550,725
+8227,r015,All sectors -> 4-year educational institution<sup>a</sup> -> Science occupations -> Computer and information scientists,All sectors,4-year educational institution<sup>a</sup>,Science occupations,Computer and information scientists,4,14600,625,11300,625,3250,275
+8227,r016,All sectors -> 4-year educational institution<sup>a</sup> -> Science occupations -> Mathematical scientists,All sectors,4-year educational institution<sup>a</sup>,Science occupations,Mathematical scientists,4,21200,625,15450,525,5700,350
+8227,r017,All sectors -> 4-year educational institution<sup>a</sup> -> Science occupations -> Physical scientists,All sectors,4-year educational institution<sup>a</sup>,Science occupations,Physical scientists,4,41000,1000,29150,825,11850,500
+8227,r018,All sectors -> 4-year educational institution<sup>a</sup> -> Science occupations -> Psychologists,All sectors,4-year educational institution<sup>a</sup>,Science occupations,Psychologists,4,26100,775,10750,575,15350,550
+8227,r019,All sectors -> 4-year educational institution<sup>a</sup> -> Science occupations -> Social scientists,All sectors,4-year educational institution<sup>a</sup>,Science occupations,Social scientists,4,47950,950,26550,800,21400,625
+8227,r020,All sectors -> 4-year educational institution<sup>a</sup> -> Engineering occupations,All sectors,4-year educational institution<sup>a</sup>,Engineering occupations,,3,36600,1000,29400,900,7250,425
+8227,r021,All sectors -> 4-year educational institution<sup>a</sup> -> S&E-related occupations,All sectors,4-year educational institution<sup>a</sup>,S&E-related occupations,,3,36750,1025,17000,800,19750,650
+8227,r022,All sectors -> 4-year educational institution<sup>a</sup> -> Non-S&E occupations,All sectors,4-year educational institution<sup>a</sup>,Non-S&E occupations,,3,39650,875,20500,700,19150,600
+8227,r023,All sectors -> Other educational institution<sup>b</sup>,All sectors,Other educational institution<sup>b</sup>,,,2,27800,825,12600,575,15150,600
+8227,r024,All sectors -> Other educational institution<sup>b</sup> -> Science occupations,All sectors,Other educational institution<sup>b</sup>,Science occupations,,3,15900,625,7450,425,8500,450
+8227,r025,"All sectors -> Other educational institution<sup>b</sup> -> Science occupations -> Biological, agricultural, and other life scientists",All sectors,Other educational institution<sup>b</sup>,Science occupations,"Biological, agricultural, and other life scientists",4,3650,325,1250,175,2400,250
+8227,r026,All sectors -> Other educational institution<sup>b</sup> -> Science occupations -> Computer and information scientists,All sectors,Other educational institution<sup>b</sup>,Science occupations,Computer and information scientists,4,600,150,500,150,150,50
+8227,r027,All sectors -> Other educational institution<sup>b</sup> -> Science occupations -> Mathematical scientists,All sectors,Other educational institution<sup>b</sup>,Science occupations,Mathematical scientists,4,1200,200,950,175,250,75
+8227,r028,All sectors -> Other educational institution<sup>b</sup> -> Science occupations -> Physical scientists,All sectors,Other educational institution<sup>b</sup>,Science occupations,Physical scientists,4,4300,350,2700,325,1600,200
+8227,r029,All sectors -> Other educational institution<sup>b</sup> -> Science occupations -> Psychologists,All sectors,Other educational institution<sup>b</sup>,Science occupations,Psychologists,4,3600,275,950,175,2600,225
+8227,r030,All sectors -> Other educational institution<sup>b</sup> -> Science occupations -> Social scientists,All sectors,Other educational institution<sup>b</sup>,Science occupations,Social scientists,4,2550,275,1100,225,1450,200
+8227,r031,All sectors -> Other educational institution<sup>b</sup> -> Engineering occupations,All sectors,Other educational institution<sup>b</sup>,Engineering occupations,,3,450,150,350,125,100,50
+8227,r032,All sectors -> Other educational institution<sup>b</sup> -> S&E-related occupations,All sectors,Other educational institution<sup>b</sup>,S&E-related occupations,,3,5800,375,2600,250,3200,300
+8227,r033,All sectors -> Other educational institution<sup>b</sup> -> Non-S&E occupations,All sectors,Other educational institution<sup>b</sup>,Non-S&E occupations,,3,5600,425,2200,275,3400,300
+8227,r034,"All sectors -> Private, for profit<sup>c</sup>",All sectors,"Private, for profit<sup>c</sup>",,,2,320850,2625,225900,2325,94950,1475
+8227,r035,"All sectors -> Private, for profit<sup>c</sup> -> Science occupations",All sectors,"Private, for profit<sup>c</sup>",Science occupations,,3,150950,1975,99700,1575,51250,1075
+8227,r036,"All sectors -> Private, for profit<sup>c</sup> -> Science occupations -> Biological, agricultural, and other life scientists",All sectors,"Private, for profit<sup>c</sup>",Science occupations,"Biological, agricultural, and other life scientists",4,45400,1200,25350,925,20000,650
+8227,r037,"All sectors -> Private, for profit<sup>c</sup> -> Science occupations -> Computer and information scientists",All sectors,"Private, for profit<sup>c</sup>",Science occupations,Computer and information scientists,4,44050,925,36500,925,7550,400
+8227,r038,"All sectors -> Private, for profit<sup>c</sup> -> Science occupations -> Mathematical scientists",All sectors,"Private, for profit<sup>c</sup>",Science occupations,Mathematical scientists,4,15950,650,11200,600,4750,350
+8227,r039,"All sectors -> Private, for profit<sup>c</sup> -> Science occupations -> Physical scientists",All sectors,"Private, for profit<sup>c</sup>",Science occupations,Physical scientists,4,23150,825,18150,725,5000,350
+8227,r040,"All sectors -> Private, for profit<sup>c</sup> -> Science occupations -> Psychologists",All sectors,"Private, for profit<sup>c</sup>",Science occupations,Psychologists,4,17200,750,5800,475,11450,575
+8227,r041,"All sectors -> Private, for profit<sup>c</sup> -> Science occupations -> Social scientists",All sectors,"Private, for profit<sup>c</sup>",Science occupations,Social scientists,4,5200,350,2750,275,2450,250
+8227,r042,"All sectors -> Private, for profit<sup>c</sup> -> Engineering occupations",All sectors,"Private, for profit<sup>c</sup>",Engineering occupations,,3,68150,1400,57950,1375,10200,450
+8227,r043,"All sectors -> Private, for profit<sup>c</sup> -> S&E-related occupations",All sectors,"Private, for profit<sup>c</sup>",S&E-related occupations,,3,35400,1075,24700,900,10700,550
+8227,r044,"All sectors -> Private, for profit<sup>c</sup> -> Non-S&E occupations",All sectors,"Private, for profit<sup>c</sup>",Non-S&E occupations,,3,66400,1175,43550,1075,22850,625
+8227,r045,"All sectors -> Private, nonprofit",All sectors,"Private, nonprofit",,,2,60200,1300,32050,1025,28150,825
+8227,r046,"All sectors -> Private, nonprofit -> Science occupations",All sectors,"Private, nonprofit",Science occupations,,3,32250,950,17350,700,14950,625
+8227,r047,"All sectors -> Private, nonprofit -> Science occupations -> Biological, agricultural, and other life scientists",All sectors,"Private, nonprofit",Science occupations,"Biological, agricultural, and other life scientists",4,12600,550,7100,525,5500,375
+8227,r048,"All sectors -> Private, nonprofit -> Science occupations -> Computer and information scientists",All sectors,"Private, nonprofit",Science occupations,Computer and information scientists,4,2150,275,1600,250,550,125
+8227,r049,"All sectors -> Private, nonprofit -> Science occupations -> Mathematical scientists",All sectors,"Private, nonprofit",Science occupations,Mathematical scientists,4,2350,275,1650,225,700,125
+8227,r050,"All sectors -> Private, nonprofit -> Science occupations -> Physical scientists",All sectors,"Private, nonprofit",Science occupations,Physical scientists,4,4550,325,3300,275,1250,150
+8227,r051,"All sectors -> Private, nonprofit -> Science occupations -> Psychologists",All sectors,"Private, nonprofit",Science occupations,Psychologists,4,6250,475,1850,250,4450,375
+8227,r052,"All sectors -> Private, nonprofit -> Science occupations -> Social scientists",All sectors,"Private, nonprofit",Science occupations,Social scientists,4,4300,350,1850,225,2450,300
+8227,r053,"All sectors -> Private, nonprofit -> Engineering occupations",All sectors,"Private, nonprofit",Engineering occupations,,3,4100,325,3150,325,900,150
+8227,r054,"All sectors -> Private, nonprofit -> S&E-related occupations",All sectors,"Private, nonprofit",S&E-related occupations,,3,11350,575,5900,450,5500,350
+8227,r055,"All sectors -> Private, nonprofit -> Non-S&E occupations",All sectors,"Private, nonprofit",Non-S&E occupations,,3,12500,625,5700,400,6800,450
+8227,r056,All sectors -> Federal government,All sectors,Federal government,,,2,52700,1250,31400,1025,21250,700
+8227,r057,All sectors -> Federal government -> Science occupations,All sectors,Federal government,Science occupations,,3,34350,1075,19400,825,14950,600
+8227,r058,"All sectors -> Federal government -> Science occupations -> Biological, agricultural, and other life scientists",All sectors,Federal government,Science occupations,"Biological, agricultural, and other life scientists",4,14250,650,7650,525,6600,375
+8227,r059,All sectors -> Federal government -> Science occupations -> Computer and information scientists,All sectors,Federal government,Science occupations,Computer and information scientists,4,1300,175,1100,175,250,75
+8227,r060,All sectors -> Federal government -> Science occupations -> Mathematical scientists,All sectors,Federal government,Science occupations,Mathematical scientists,4,2050,225,1250,175,750,125
+8227,r061,All sectors -> Federal government -> Science occupations -> Physical scientists,All sectors,Federal government,Science occupations,Physical scientists,4,7450,425,5400,375,2000,200
+8227,r062,All sectors -> Federal government -> Science occupations -> Psychologists,All sectors,Federal government,Science occupations,Psychologists,4,5250,425,1950,275,3300,325
+8227,r063,All sectors -> Federal government -> Science occupations -> Social scientists,All sectors,Federal government,Science occupations,Social scientists,4,4100,350,2050,275,2050,250
+8227,r064,All sectors -> Federal government -> Engineering occupations,All sectors,Federal government,Engineering occupations,,3,7200,500,5650,450,1550,225
+8227,r065,All sectors -> Federal government -> S&E-related occupations,All sectors,Federal government,S&E-related occupations,,3,5100,400,3300,325,1800,225
+8227,r066,All sectors -> Federal government -> Non-S&E occupations,All sectors,Federal government,Non-S&E occupations,,3,6050,425,3100,300,2950,300
+8227,r067,All sectors -> State or local government,All sectors,State or local government,,,2,19650,750,11500,650,8200,450
+8227,r068,All sectors -> State or local government -> Science occupations,All sectors,State or local government,Science occupations,,3,10850,525,6300,450,4550,325
+8227,r069,"All sectors -> State or local government -> Science occupations -> Biological, agricultural, and other life scientists",All sectors,State or local government,Science occupations,"Biological, agricultural, and other life scientists",4,3300,275,1850,225,1450,175
+8227,r070,All sectors -> State or local government -> Science occupations -> Computer and information scientists,All sectors,State or local government,Science occupations,Computer and information scientists,4,800,200,700,175,100,50
+8227,r071,All sectors -> State or local government -> Science occupations -> Mathematical scientists,All sectors,State or local government,Science occupations,Mathematical scientists,4,500,150,350,150,100,50
+8227,r072,All sectors -> State or local government -> Science occupations -> Physical scientists,All sectors,State or local government,Science occupations,Physical scientists,4,2450,250,1700,200,750,125
+8227,r073,All sectors -> State or local government -> Science occupations -> Psychologists,All sectors,State or local government,Science occupations,Psychologists,4,2450,325,1000,225,1450,250
+8227,r074,All sectors -> State or local government -> Science occupations -> Social scientists,All sectors,State or local government,Science occupations,Social scientists,4,1350,150,700,125,650,100
+8227,r075,All sectors -> State or local government -> Engineering occupations,All sectors,State or local government,Engineering occupations,,3,2600,325,2000,325,600,125
+8227,r076,All sectors -> State or local government -> S&E-related occupations,All sectors,State or local government,S&E-related occupations,,3,2750,300,1550,250,1200,150
+8227,r077,All sectors -> State or local government -> Non-S&E occupations,All sectors,State or local government,Non-S&E occupations,,3,3450,325,1600,225,1850,225
+8227,r078,All sectors -> Self-employed<sup>d</sup>,All sectors,Self-employed<sup>d</sup>,,,2,42650,1075,20900,850,21750,800
+8227,r079,All sectors -> Self-employed<sup>d</sup> -> Science occupations,All sectors,Self-employed<sup>d</sup>,Science occupations,,3,25950,850,11350,650,14650,650
+8227,r080,"All sectors -> Self-employed<sup>d</sup> -> Science occupations -> Biological, agricultural, and other life scientists",All sectors,Self-employed<sup>d</sup>,Science occupations,"Biological, agricultural, and other life scientists",4,3550,325,2350,275,1150,200
+8227,r081,All sectors -> Self-employed<sup>d</sup> -> Science occupations -> Computer and information scientists,All sectors,Self-employed<sup>d</sup>,Science occupations,Computer and information scientists,4,1350,225,1150,225,200,75
+8227,r082,All sectors -> Self-employed<sup>d</sup> -> Science occupations -> Mathematical scientists,All sectors,Self-employed<sup>d</sup>,Science occupations,Mathematical scientists,4,500,125,350,100,150,75
+8227,r083,All sectors -> Self-employed<sup>d</sup> -> Science occupations -> Physical scientists,All sectors,Self-employed<sup>d</sup>,Science occupations,Physical scientists,4,1600,225,1300,225,300,75
+8227,r084,All sectors -> Self-employed<sup>d</sup> -> Science occupations -> Psychologists,All sectors,Self-employed<sup>d</sup>,Science occupations,Psychologists,4,17150,700,5150,450,12000,625
+8227,r085,All sectors -> Self-employed<sup>d</sup> -> Science occupations -> Social scientists,All sectors,Self-employed<sup>d</sup>,Science occupations,Social scientists,4,1800,225,1000,200,800,125
+8227,r086,All sectors -> Self-employed<sup>d</sup> -> Engineering occupations,All sectors,Self-employed<sup>d</sup>,Engineering occupations,,3,2350,275,2150,250,200,75
+8227,r087,All sectors -> Self-employed<sup>d</sup> -> S&E-related occupations,All sectors,Self-employed<sup>d</sup>,S&E-related occupations,,3,2450,250,1350,225,1100,150
+8227,r088,All sectors -> Self-employed<sup>d</sup> -> Non-S&E occupations,All sectors,Self-employed<sup>d</sup>,Non-S&E occupations,,3,11850,575,6050,425,5800,425
+8227,r089,All sectors -> Other sector<sup>e</sup>,All sectors,Other sector<sup>e</sup>,,,2,7300,425,4450,350,2850,250
+8227,r090,All sectors -> Other sector<sup>e</sup> -> Science occupations,All sectors,Other sector<sup>e</sup>,Science occupations,,3,4050,325,2450,275,1600,175
+8227,r091,"All sectors -> Other sector<sup>e</sup> -> Science occupations -> Biological, agricultural, and other life scientists",All sectors,Other sector<sup>e</sup>,Science occupations,"Biological, agricultural, and other life scientists",4,1000,150,400,125,600,125
+8227,r092,All sectors -> Other sector<sup>e</sup> -> Science occupations -> Computer and information scientists,All sectors,Other sector<sup>e</sup>,Science occupations,Computer and information scientists,4,550,150,450,150,100,50
+8227,r093,All sectors -> Other sector<sup>e</sup> -> Science occupations -> Mathematical scientists,All sectors,Other sector<sup>e</sup>,Science occupations,Mathematical scientists,4,250,100,S,S,100,50
+8227,r094,All sectors -> Other sector<sup>e</sup> -> Science occupations -> Physical scientists,All sectors,Other sector<sup>e</sup>,Science occupations,Physical scientists,4,650,125,450,100,200,50
+8227,r095,All sectors -> Other sector<sup>e</sup> -> Science occupations -> Psychologists,All sectors,Other sector<sup>e</sup>,Science occupations,Psychologists,4,350,125,150,75,200,100
+8227,r096,All sectors -> Other sector<sup>e</sup> -> Science occupations -> Social scientists,All sectors,Other sector<sup>e</sup>,Science occupations,Social scientists,4,1200,175,850,175,350,75
+8227,r097,All sectors -> Other sector<sup>e</sup> -> Engineering occupations,All sectors,Other sector<sup>e</sup>,Engineering occupations,,3,1300,200,1000,175,300,100
+8227,r098,All sectors -> Other sector<sup>e</sup> -> S&E-related occupations,All sectors,Other sector<sup>e</sup>,S&E-related occupations,,3,800,200,400,125,400,125
+8227,r099,All sectors -> Other sector<sup>e</sup> -> Non-S&E occupations,All sectors,Other sector<sup>e</sup>,Non-S&E occupations,,3,1150,175,650,125,500,125

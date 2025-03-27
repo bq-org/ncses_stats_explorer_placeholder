@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Early career U.S. S&E doctorate holders working primarily on R&D, by citizenship status at graduation, R&D primary activity, and occupation: 2017",
+  "identifier": "NCSES-4557",
+  "description": "Early career U.S. S&E doctorate holders working primarily on R&D, by citizenship status at graduation, R&D primary activity, and occupation: 2017",
+  "url": "https://example.org/datasets/ncses/tables/4557",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4557/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation_and_r_d_primary_activity",
+      "description": "Occupation and R&D primary activity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_and_r_d_primary_activity_level_1, occupation_and_r_d_primary_activity_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_and_r_d_primary_activity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holder_early_career_stayer_",
+      "description": "Temporary Visa Holder Early Career Stayer ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_or_permanent_resident",
+      "description": "U S Citizen Or Permanent Resident",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Percentages are based on the number of doctorate recipients who reported citizenship status at graduation. Early career S&E doctorate holders are those who graduated in 2006\u201315. S&E-related occupations include health-related occupations.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2017, and Survey of Earned Doctorates, 2006\u201315."
+}

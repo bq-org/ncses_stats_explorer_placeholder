@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Confidence in scientists to act in the best interests of the public, by survey date: 2016\u201322",
+  "identifier": "NCSES-10533",
+  "description": "Confidence in scientists to act in the best interests of the public, by survey date: 2016\u201322",
+  "url": "https://example.org/datasets/ncses/tables/10533",
+  "table_number": "SPPS-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10533/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Responses are to the following: How much confidence, if any, do you have in [scientists] to act in the best interests of the public?",
+  "sources": "Pew Research Center, American Trends Panel Wave 17 (2016), conducted 10 May\u20136 June 2016; American Trends Panel Wave 31 (2018), conducted 29 January\u201313 February 2018; American Trends Panel Wave 40 (2018), conducted 27 November\u201310 December 2018; American Trends Panel Wave 42 (2019), conducted 7\u201321 January 2019; American Trends Panel Wave 66 (2020), conducted 20\u201326 April 2020; American Trends Panel Wave 79 (2020), conducted 18\u201329 November 2020; American Trends Panel Wave 100 (2021), conducted 30 November\u201312 December 2021; and American Trends Panel Wave 114 (2022), conducted 13\u201318 September 2022.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

@@ -1,0 +1,21 @@
+table_id,row_id,agency_full_path,agency_level_1,agency_level_2,agency_level_3,agency_level_4,agency_hierarchy_depth,field_total,field_computer_sciences_and_mathematics,field_engineering,field_environmental_sciences,field_life_sciences,field_physical_sciences,field_psychology,field_social_sciences,field_other_sciences_nec
+3778,r001,All agencies,All agencies,,,,1,40017,2306,3618,3252,18881,7907,1366,451,2237
+3778,r002,All agencies -> Departments,All agencies,Departments,,,2,,,,,,,,,
+3778,r003,All agencies -> Departments -> Department of Agriculture,All agencies,Departments,Department of Agriculture,,3,1057,1,29,8,927,49,0,42,0
+3778,r004,All agencies -> Departments -> Department of Commerce,All agencies,Departments,Department of Commerce,,3,253,13,24,0,12,187,0,0,17
+3778,r005,All agencies -> Departments -> Department of Defense,All agencies,Departments,Department of Defense,,3,2510,576,688,106,297,384,37,35,388
+3778,r006,All agencies -> Departments -> Department of Education,All agencies,Departments,Department of Education,,3,57,0,0,0,0,0,0,57,0
+3778,r007,All agencies -> Departments -> Department of Energy,All agencies,Departments,Department of Energy,,3,5075,687,931,307,435,2204,0,0,511
+3778,r008,All agencies -> Departments -> Department of Health and Human Services,All agencies,Departments,Department of Health and Human Services,,3,19100,89,1102,214,15796,46,1248,58,547
+3778,r009,All agencies -> Departments -> Department of Health and Human Services -> National Institutes of Health,All agencies,Departments,Department of Health and Human Services,National Institutes of Health,4,19020,89,1102,176,15776,46,1248,58,525
+3778,r010,All agencies -> Departments -> Department of Homeland Security,All agencies,Departments,Department of Homeland Security,,3,46,0,25,8,0,1,0,0,13
+3778,r011,All agencies -> Departments -> Department of Housing and Urban Development,All agencies,Departments,Department of Housing and Urban Development,,3,39,0,1,0,0,0,0,36,2
+3778,r012,All agencies -> Departments -> Department of the Interior,All agencies,Departments,Department of the Interior,,3,81,0,0,69,12,0,0,0,0
+3778,r013,All agencies -> Departments -> Department of Justice,All agencies,Departments,Department of Justice,,3,21,0,0,0,0,0,1,20,0
+3778,r014,All agencies -> Departments -> Department of the Treasury,All agencies,Departments,Department of the Treasury,,3,10,0,0,0,0,10,0,0,0
+3778,r015,All agencies -> Departments -> Department of Veterans Affairs,All agencies,Departments,Department of Veterans Affairs,,3,629,0,19,0,566,0,44,0,0
+3778,r016,All agencies -> Other agencies,All agencies,Other agencies,,,2,,,,,,,,,
+3778,r017,All agencies -> Other agencies -> National Aeronautics and Space Administration,All agencies,Other agencies,National Aeronautics and Space Administration,,3,5689,0,0,1623,44,4009,0,0,13
+3778,r018,All agencies -> Other agencies -> National Science Foundation,All agencies,Other agencies,National Science Foundation,,3,5212,939,798,908,690,967,36,191,682
+3778,r019,All agencies -> Other agencies -> Nuclear Regulatory Commission,All agencies,Other agencies,Nuclear Regulatory Commission,,3,1,0,0,0,0,0,0,0,1
+3778,r020,All agencies -> Other agencies -> Smithsonian Institution,All agencies,Other agencies,Smithsonian Institution,,3,236,0,0,10,101,50,0,12,64

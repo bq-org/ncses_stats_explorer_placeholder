@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal facility R&D expenditures, by agency and source of funds: FY 2022",
+  "identifier": "NCSES-12489",
+  "description": "Federal facility R&D expenditures, by agency and source of funds: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/12489",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12489/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_level_1, agency_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_expenditures",
+      "description": "All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_federal_government",
+      "description": "Source Of Funds Federal Government",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_state_and_local_government",
+      "description": "Source Of Funds State And Local Government",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_businesses",
+      "description": "Source Of Funds Businesses",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_nonprofit_organizations",
+      "description": "Source Of Funds Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_all_other_organizations",
+      "description": "Source Of Funds All Other Organizations",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Federal Facilities Research and Development Survey, FY 2022."
+}

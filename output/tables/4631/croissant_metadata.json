@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Statistical profile of doctorate recipients in education fields, by sex and field of study: 2020",
+  "identifier": "NCSES-4631",
+  "description": "Statistical profile of doctorate recipients in education fields, by sex and field of study: 2020",
+  "url": "https://example.org/datasets/ncses/tables/4631",
+  "table_number": "66",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4631/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_characteristic_b",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_characteristic_b_level_1, _b_characteristic_b_level_2, _b_characteristic_b_level_3, _b_characteristic_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_education_fields",
+      "description": "All Education Fields",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_administration",
+      "description": "Education Administration",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_research",
+      "description": "Education Research",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teacher_education",
+      "description": "Teacher Education",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teaching_fields",
+      "description": "Teaching Fields",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_education",
+      "description": "Other Education",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Due to rounding, percentages may not sum to 100.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

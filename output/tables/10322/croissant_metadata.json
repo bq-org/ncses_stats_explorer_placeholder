@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for applied research, by detailed field of science and engineering: FYs 2002&#8211;12",
+  "identifier": "NCSES-10322",
+  "description": "Federal obligations for applied research, by detailed field of science and engineering: FYs 2002&#8211;12",
+  "url": "https://example.org/datasets/ncses/tables/10322",
+  "table_number": "94",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10322/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_b",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_b_level_1, _b_field_b_level_2, _b_field_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002",
+      "description": "2002",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004",
+      "description": "2004",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005",
+      "description": "2005",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006",
+      "description": "2006",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. FYs 2009 and 2010 obligations include additional funding provided by the American Recovery and Reinvestment Act of 2009.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

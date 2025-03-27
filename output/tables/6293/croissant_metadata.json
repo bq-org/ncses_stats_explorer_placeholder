@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Gross expenditures on R&D and expenditures for R&D as a share of gross domestic product, for selected countries or regions: 1981\u20132019",
+  "identifier": "NCSES-6293",
+  "description": "Gross expenditures on R&D and expenditures for R&D as a share of gross domestic product, for selected countries or regions: 1981\u20132019",
+  "url": "https://example.org/datasets/ncses/tables/6293",
+  "table_number": "SRD-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6293/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Billions of current and 2012 constant U.S. PPP dollars, GERD-to-GDP ratio, and annual growth rates"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Table data include the top eight R&D-performing countries in 2019. R&D expenditures in constant U.S. PPP dollars are computed using the U.S. GDP implicit price deflator. Data for the United States in this table reflect international standards for calculating GERD, which vary slightly from the National Science Foundation's protocol for tallying U.S. total R&D. Data for Japan for 1996 onward may not be consistent with earlier data because of changes in methodology. Data for Germany for 1981\u201390 are for West Germany.",
+  "sources": "National Center for Science and Engineering Statistics, National Patterns of R&D Resources (2019\u201320 edition); Organisation for Economic Co-operation and Development, Main Science and Technology Indicators (September 2021 edition); United Nations Educational, Scientific and Cultural Organization, Institute for Statistics, Science Technology and Innovation data set (March 2021 release).Science and Engineering Indicators",
+  "temporalCoverage": "19/20"
+}

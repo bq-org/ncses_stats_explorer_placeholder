@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Educational attainment of doctorate recipients' parents, by sex, citizenship status, ethnicity, race, and broad field of study: 2017",
+  "identifier": "NCSES-976",
+  "description": "Educational attainment of doctorate recipients' parents, by sex, citizenship status, ethnicity, race, and broad field of study: 2017",
+  "url": "https://example.org/datasets/ncses/tables/976",
+  "table_number": "33",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/976/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "demographic_characteristic_and_broad_field_of_study",
+      "description": "Demographic characteristic and broad field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "demographic_characteristic_and_broad_field_of_study_level_1, demographic_characteristic_and_broad_field_of_study_level_2, demographic_characteristic_and_broad_field_of_study_level_3, demographic_characteristic_and_broad_field_of_study_level_4, demographic_characteristic_and_broad_field_of_study_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "demographic_characteristic_and_broad_field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number_",
+      "description": "Total Number ",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_all",
+      "description": "Parental Education Attainment All",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_high_school_or_less",
+      "description": "Parental Education Attainment High School Or Less",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_some_collegea",
+      "description": "Parental Education Attainment Some Collegea",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_bachelor_s_degree",
+      "description": "Parental Education Attainment Bachelor S Degree",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_advanced_degree",
+      "description": "Parental Education Attainment Advanced Degree",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Due to rounding, percentages may not sum to 100.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2017."
+}

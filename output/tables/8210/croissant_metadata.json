@@ -1,0 +1,229 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. residing employed doctoral scientists and engineers, by selected demographic and employment-related characteristics and primary work activity: 2021",
+  "identifier": "NCSES-8210",
+  "description": "U.S. residing employed doctoral scientists and engineers, by selected demographic and employment-related characteristics and primary work activity: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8210",
+  "table_number": "28-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8210/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2, characteristic_level_3, characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_number",
+      "description": "All Employed Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_se",
+      "description": "All Employed Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_development_any_r_d_number",
+      "description": "Research And Development Any R D Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_development_any_r_d_se",
+      "description": "Research And Development Any R D Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_development_basic_research_number",
+      "description": "Research And Development Basic Research Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_development_basic_research_se",
+      "description": "Research And Development Basic Research Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_development_applied_research_number",
+      "description": "Research And Development Applied Research Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_development_applied_research_se",
+      "description": "Research And Development Applied Research Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_development_experimental_development_number",
+      "description": "Research And Development Experimental Development Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_development_experimental_development_se",
+      "description": "Research And Development Experimental Development Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number",
+      "description": "Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_se",
+      "description": "Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_applications_number",
+      "description": "Computer Applications Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_applications_se",
+      "description": "Computer Applications Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_design_number",
+      "description": "Design Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_design_se",
+      "description": "Design Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_management_sales_or_administrationa_number",
+      "description": "Management Sales Or Administrationa Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_management_sales_or_administrationa_se",
+      "description": "Management Sales Or Administrationa Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_services_number",
+      "description": "Professional Services Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_services_se",
+      "description": "Professional Services Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teaching_number",
+      "description": "Teaching Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teaching_se",
+      "description": "Teaching Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherb_number",
+      "description": "Otherb Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherb_se",
+      "description": "Otherb Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 50. Standard errors are rounded up to the nearest 25. Detail may exceed total due to multiple responses. Primary and secondary work activities were self-defined by the respondent in response to the question: \"On which two activities...did you work the most hours during a typical week on this job?\" Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

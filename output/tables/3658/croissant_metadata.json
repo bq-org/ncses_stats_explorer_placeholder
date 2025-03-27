@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Comparison of science, engineering, and health doctoral fields of study in the SDR and the SED: Field of study aligned to NCSES Taxonomy of Disciplines",
+  "identifier": "NCSES-3658",
+  "description": "Comparison of science, engineering, and health doctoral fields of study in the SDR and the SED: Field of study aligned to NCSES Taxonomy of Disciplines",
+  "url": "https://example.org/datasets/ncses/tables/3658",
+  "table_number": "A-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3658/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sdr_field_of_study_aggregations_aligned_with_tod_characteristic",
+      "description": "SDR field of study aggregations aligned with ToD hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sdr_field_of_study_aggregations_aligned_with_tod_level_1, sdr_field_of_study_aggregations_aligned_with_tod_level_2, sdr_field_of_study_aggregations_aligned_with_tod_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "SDR is a sample survey; SED is a census. Start year and end year are defined as the earliest and latest recorded use of a field in the 2017 Doctorate Records File, respectively. Field of study reporting for the 2019 SDR uses the updated disciplines first presented in 2017, which better align with the NCSES ToD which is based on the Classification of Instructional Programs (CIP 2010) issued by the National Center for Education Statistics. This crosswalk displays the field of study aggregations aligned to the ToD.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients: 2019."
+}

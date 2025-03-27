@@ -1,0 +1,129 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate recipients, by subfield of study, citizenship status, ethnicity, and race: 2020",
+  "identifier": "NCSES-4659",
+  "description": "Doctorate recipients, by subfield of study, citizenship status, ethnicity, and race: 2020",
+  "url": "https://example.org/datasets/ncses/tables/4659",
+  "table_number": "22",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4659/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_of_study_b",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_of_study_b_level_1, _b_field_of_study_b_level_2, _b_field_of_study_b_level_3, _b_field_of_study_b_level_4, _b_field_of_study_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_of_study_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_doctorate_recipientsa",
+      "description": "All Doctorate Recipientsa",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holders",
+      "description": "Temporary Visa Holders",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_total",
+      "description": "U S Citizens And Permanent Residents Total",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_hispanic_or_latino",
+      "description": "U S Citizens And Permanent Residents Hispanic Or Latino",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_american_indian_or_alaska_native",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino American Indian Or Alaska Native",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_asian",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino Asian",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_black_or_african_american",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino Black Or African American",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_white",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino White",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_more_than_one_race",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino More Than One Race",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_other_race_or_race_not_reported",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino Other Race Or Race Not Reported",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_ethnicity_not_reported",
+      "description": "U S Citizens And Permanent Residents Ethnicity Not Reported",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "See table A-5 in the technical notes for a listing of aggregated fields and their constituent fine fields.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

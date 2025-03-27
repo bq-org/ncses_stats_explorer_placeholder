@@ -1,0 +1,12 @@
+table_id,row_id,stratum_full_path,stratum_level_1,stratum_level_2,stratum_level_3,stratum_hierarchy_depth,field_total,field_companies_deleteda,field_companies_requiring_action_due_to_merger_or_acquisitionb,field_companies_requiring_action_due_to_analyst_reviewc
+8769,r001,Total,Total,,,1,3000,2900,100,
+8769,r002,Total -> Known positive R&D,Total,Known positive R&D,,2,800,750,60,
+8769,r003,Total -> Known positive R&D -> Certainties,Total,Known positive R&D,Certainties,3,600,550,50,
+8769,r004,Total -> Known positive R&D -> Noncertainties,Total,Known positive R&D,Noncertainties,3,250,250,,0
+8769,r005,Total -> Known zero R&D,Total,Known zero R&D,,2,70,70,,0
+8769,r006,Total -> Known zero R&D -> Certainties,Total,Known zero R&D,Certainties,3,40,40,,0
+8769,r007,Total -> Known zero R&D -> Noncertainties,Total,Known zero R&D,Noncertainties,3,30,30,,0
+8769,r008,Total -> Unknown R&D,Total,Unknown R&D,,2,2100,2000,40,
+8769,r009,Total -> Unknown R&D -> Certainties,Total,Unknown R&D,Certainties,3,450,450,,
+8769,r010,Total -> Unknown R&D -> Noncertainties,Total,Unknown R&D,Noncertainties,3,1600,1600,30,
+8769,r011,Total -> Cases not in the frame,Total,Cases not in the frame,,2,30,30,,0

@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Business Enterprise Research and Development Survey aggregate estimates, by questionnaire reference: 2022",
+  "identifier": "NCSES-12261",
+  "description": "Business Enterprise Research and Development Survey aggregate estimates, by questionnaire reference: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12261",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12261/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D and are not comparable with estimates published for years prior to 2018.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2022.",
+  "temporalCoverage": "20/20"
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "First university degrees, by field, sex, and selected region, country, or economy: 2014 or most recent year",
+  "identifier": "NCSES-1272",
+  "description": "First university degrees, by field, sex, and selected region, country, or economy: 2014 or most recent year",
+  "url": "https://example.org/datasets/ncses/tables/1272",
+  "table_number": "5-14",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1272/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Physical and biological sciences and mathematics and statistics include biological and related sciences, environmental sciences, and physical sciences. Computer sciences include information and communication technologies. Agricultural sciences include agriculture, forestry, fisheries, and veterinary sciences. Social and behavioral sciences include social and behavioral sciences, and journalism and information. Engineering includes engineering and engineering trades, manufacturing and processing, and architecture and construction. To facilitate international comparison, data for the United States reflect the most recent classification in the International Standard Classification of Education Fields of Education and Training (ISCED-F), which varies slightly from the National Science Foundation classification of fields presented in other sections of the chapter. Data for first university degrees use ISCED 2011 level 6 (bachelor's or equivalent first degrees) and level 7 (master's or equivalent long first degrees). S&E data do not include health fields.",
+  "sources": "United Nations Educational, Scientific and Cultural Organization (UNESCO) Institute for Statistics database, special tabulations (2016); Organisation for Economic Co-operation and Development (OECD), OECD.Stat, https://stats.oecd.org/; Government of India, Ministry of Human Resource Development, Department of Higher Education, All India Survey on Higher Education 2014\u201315 (2016); Government of Japan, Ministry of Education, Culture, Sports, Science and Technology, Survey of Education, special tabulations (2016); Government of Singapore, Ministry of Education, Education Statistics Digest: 2015; Ministry of Education, Educational Statistics of the Republic of China (Taiwan): 2014 (2014); National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Completions Survey; National Science Foundation, National Center for Science and Engineering Statistics, Integrated Science and Engineering Resources Data System (WebCASPAR), https://ncsesdata.nsf.gov/webcaspar/.This table was originally published in Science and Engineering Indicators 2018, Appendix Table 2-36, available at https://www.nsf.gov/statistics/2018/nsb20181/.",
+  "temporalCoverage": "20/20"
+}

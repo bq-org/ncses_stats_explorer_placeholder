@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Description of variables in inventive class regressions, excluding occupation shares",
+  "identifier": "NCSES-5969",
+  "description": "Description of variables in inventive class regressions, excluding occupation shares",
+  "url": "https://example.org/datasets/ncses/tables/5969",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5969/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Equation 1 additionally includes categorical controls for Census region and ERS Rural-Urban Continuum Code of the commuting zone's most urban county.",
+  "sources": "U.S. Patent and Trademark Office; Census Bureau, 2000 Census of Population and Housing, Summary File 1 and Summary File 4; Department of Agriculture Economic Research Service, 1999.",
+  "temporalCoverage": "19/19"
+}

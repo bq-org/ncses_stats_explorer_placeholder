@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Share of research doctorates, by race and ethnicity: 2022",
+  "identifier": "NCSES-12409",
+  "description": "Share of research doctorates, by race and ethnicity: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12409",
+  "table_number": "A-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12409/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "directorate",
+      "description": "Directorate",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "white",
+      "description": "White",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "asian",
+      "description": "Asian",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "hispanic_or_latino",
+      "description": "Hispanic Or Latino",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "black_or_african_american",
+      "description": "Black Or African American",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "other",
+      "description": "Other",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Excludes respondents who did not report ethnicity or race. Hispanic or Latino may be of any race; race categories exclude Hispanic origin. Other includes American Indian or Alaska Native, Native Hawaiian and Other Pacific Islander, and more than one race.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2022."
+}

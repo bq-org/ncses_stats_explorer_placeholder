@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Department of Defense obligations for research, development, test, and evaluation, by agency: 2015\u201318",
+  "identifier": "NCSES-3597",
+  "description": "Department of Defense obligations for research, development, test, and evaluation, by agency: 2015\u201318",
+  "url": "https://example.org/datasets/ncses/tables/3597",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3597/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

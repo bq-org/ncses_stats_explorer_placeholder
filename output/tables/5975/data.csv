@@ -1,0 +1,25 @@
+table_id,row_id,time_period,summary_occupations_sup_a_sup_level_1,summary_occupations_sup_a_sup_level_2,summary_occupations_sup_a_sup_level_3,summary_occupations_sup_a_sup_level_4,summary_occupations_sup_a_sup_hierarchy_depth,value
+5975,r001_1,UCGC vs. UWGC,Summary occupationsa,Decomposition of effects,Effects,RF,4,-0.00095
+5975,r001_2,UCGC vs. UWGC,Summary occupationsa,Decomposition of effects,Effects,CF,4,"['-0.00044', '']"
+5975,r001_3,UCGC vs. UWGC,Summary occupationsa,Decomposition of effects,Percent distribution of effects,RF,4,"['68.4', '']"
+5975,r001_4,UCGC vs. UWGC,Summary occupationsa,Decomposition of effects,Percent distribution of effects,CF,4,31.6
+5975,r001_5,UCGC vs. UWGC,Detailed occupations,Decomposition of effects,Effects,RF,4,-0.00062
+5975,r001_6,UCGC vs. UWGC,Detailed occupations,Decomposition of effects,Effects,CF,4,"['-0.00076', '']"
+5975,r001_7,UCGC vs. UWGC,Detailed occupations,Decomposition of effects,Percent distribution of effects,RF,4,"['44.68', '']"
+5975,r001_8,UCGC vs. UWGC,Detailed occupations,Decomposition of effects,Percent distribution of effects,CF,4,55.32
+5975,r002_1,UWGC vs. rural,Summary occupationsa,Decomposition of effects,Effects,RF,4,-0.00071
+5975,r002_2,UWGC vs. rural,Summary occupationsa,Decomposition of effects,Effects,CF,4,"['-0.00034', '']"
+5975,r002_3,UWGC vs. rural,Summary occupationsa,Decomposition of effects,Percent distribution of effects,RF,4,"['67.59', '']"
+5975,r002_4,UWGC vs. rural,Summary occupationsa,Decomposition of effects,Percent distribution of effects,CF,4,32.41
+5975,r002_5,UWGC vs. rural,Detailed occupations,Decomposition of effects,Effects,RF,4,-0.00052
+5975,r002_6,UWGC vs. rural,Detailed occupations,Decomposition of effects,Effects,CF,4,"['-0.00054', '']"
+5975,r002_7,UWGC vs. rural,Detailed occupations,Decomposition of effects,Percent distribution of effects,RF,4,"['49.3', '']"
+5975,r002_8,UWGC vs. rural,Detailed occupations,Decomposition of effects,Percent distribution of effects,CF,4,50.7
+5975,r003_1,Rural vs. UCGC,Summary occupationsa,Decomposition of effects,Effects,RF,4,0.00166
+5975,r003_2,Rural vs. UCGC,Summary occupationsa,Decomposition of effects,Effects,CF,4,"['0.00078', '']"
+5975,r003_3,Rural vs. UCGC,Summary occupationsa,Decomposition of effects,Percent distribution of effects,RF,4,"['68.05', '']"
+5975,r003_4,Rural vs. UCGC,Summary occupationsa,Decomposition of effects,Percent distribution of effects,CF,4,31.95
+5975,r003_5,Rural vs. UCGC,Detailed occupations,Decomposition of effects,Effects,RF,4,0.00114
+5975,r003_6,Rural vs. UCGC,Detailed occupations,Decomposition of effects,Effects,CF,4,"['0.0013', '']"
+5975,r003_7,Rural vs. UCGC,Detailed occupations,Decomposition of effects,Percent distribution of effects,RF,4,"['46.68', '']"
+5975,r003_8,Rural vs. UCGC,Detailed occupations,Decomposition of effects,Percent distribution of effects,CF,4,53.32

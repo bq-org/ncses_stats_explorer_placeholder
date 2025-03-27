@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Logistic regression of cloud computing status, by settlement size category",
+  "identifier": "NCSES-7227",
+  "description": "Logistic regression of cloud computing status, by settlement size category",
+  "url": "https://example.org/datasets/ncses/tables/7227",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7227/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "variable",
+      "description": "Variable",
+      "valueType": "string",
+      "unitText": "Odds ratio and 95% Wald confidence interval"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "settlement_size_description",
+      "description": "Settlement Size Description",
+      "valueType": "string",
+      "unitText": "Odds ratio and 95% Wald confidence interval"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "effect",
+      "description": "Effect",
+      "valueType": "string",
+      "unitText": "Odds ratio and 95% Wald confidence interval"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "odds_ratio",
+      "description": "Odds Ratio",
+      "valueType": "string",
+      "unitText": "Odds ratio and 95% Wald confidence interval"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "95_wald_confidence_limits",
+      "description": "95 Wald Confidence Limits",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Industry and firm size fixed effects not reported. Settlement size categories are the RUCCs constructed by the Economic Research Service using official Office of Management and Budget designations of metropolitan and nonmetropolitan counties (https://www.ers.usda.gov/data-products/rural-urban-continuum-codes.aspx). These estimates are derived from companies with only a single location. Limiting analysis to single-unit firms eliminates the potential headquarters' bias resulting from attributing innovation to the reporting location of multi-unit firms and reduces potential measurement error resulting from attributing company reports of innovation to all branch locations. The statistics allow inferences regarding the population of single-unit firms but do not allow inferences regarding the population of all firms.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2018 Annual Business Survey: Data Year 2017."
+}

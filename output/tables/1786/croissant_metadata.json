@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Statistical profile of doctorate recipients in psychology and social sciences fields, by sex and field of study: 2018",
+  "identifier": "NCSES-1786",
+  "description": "Statistical profile of doctorate recipients in psychology and social sciences fields, by sex and field of study: 2018",
+  "url": "https://example.org/datasets/ncses/tables/1786",
+  "table_number": "62",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1786/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2, characteristic_level_3, characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_psychology_and_social_sciences_fields",
+      "description": "All Psychology And Social Sciences Fields",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology",
+      "description": "Psychology",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_anthropology",
+      "description": "Anthropology",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_economics",
+      "description": "Economics",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_political_science_and_government",
+      "description": "Political Science And Government",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sociology",
+      "description": "Sociology",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_social_sciences",
+      "description": "Other Social Sciences",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Due to rounding, percentages may not sum to 100.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

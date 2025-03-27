@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Distribution of STEM workers, by educational attainment and STEM group: 2021",
+  "identifier": "NCSES-11020",
+  "description": "Distribution of STEM workers, by educational attainment and STEM group: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11020",
+  "table_number": "SLBR-23",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11020/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_stem_group_b",
+      "description": "STEM group hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_stem_group_b_level_1, _b_stem_group_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_stem_group_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_stem_workers",
+      "description": "All Stem Workers",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_less_than_a_bachelor_s_degree_stw_total",
+      "description": "Less Than A Bachelor S Degree Stw Total",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_less_than_a_bachelor_s_degree_stw_high_school_diploma_or_ged_or_less",
+      "description": "Less Than A Bachelor S Degree Stw High School Diploma Or Ged Or Less",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_less_than_a_bachelor_s_degree_stw_some_college_no_degree",
+      "description": "Less Than A Bachelor S Degree Stw Some College No Degree",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_less_than_a_bachelor_s_degree_stw_associate_s_degree",
+      "description": "Less Than A Bachelor S Degree Stw Associate S Degree",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_degree_or_higher_total",
+      "description": "Bachelor S Degree Or Higher Total",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_degree_or_higher_bachelor_s_degree",
+      "description": "Bachelor S Degree Or Higher Bachelor S Degree",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_degree_or_higher_master_s_or_higher",
+      "description": "Bachelor S Degree Or Higher Master S Or Higher",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the employed, civilian, non-institutionalized population ages 16\u201375 and exclude those currently enrolled in primary or secondary school.",
+  "sources": "Ruggles S, Flood S, Goeken R, Schouweiler M, Sobek M, 2022, IPUMS USA: Version 12.0, 2021 American Community Survey (ACS), https://doi.org/10.18128/D010.V12.0, accessed 23 December 2022.Science and Engineering Indicators"
+}

@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Opinions on safety of drinking water, by demographic characteristics: 2022",
+  "identifier": "NCSES-10536",
+  "description": "Opinions on safety of drinking water, by demographic characteristics: 2022",
+  "url": "https://example.org/datasets/ncses/tables/10536",
+  "table_number": "SPPS-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10536/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2, characteristic_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_a_big_problem",
+      "description": "A Big Problem",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_a_moderate_problem",
+      "description": "A Moderate Problem",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_a_small_problem",
+      "description": "A Small Problem",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_a_problem",
+      "description": "Not A Problem",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Responses are to the following: How much of a problem, if at all, do you think [safety of drinking water] is in your local community?",
+  "sources": "Pew Research Center, American Trends Panel Wave 108 (2022), conducted 2\u20138 May 2022.Science and Engineering Indicators"
+}

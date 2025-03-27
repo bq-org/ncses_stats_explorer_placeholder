@@ -1,0 +1,37 @@
+table_id,row_id,_b_characteristic_b_full_path,_b_characteristic_b_level_1,_b_characteristic_b_level_2,_b_characteristic_b_level_3,_b_characteristic_b_level_4,_b_characteristic_b_hierarchy_depth,field_postdoctoral_appointees_number,field_postdoctoral_appointees_percent,field_doctorate_holding_nonfaculty_researchers_number,field_doctorate_holding_nonfaculty_researchers_percent
+6099,r001,Institutions,Institutions,,,,1,126,17.7,81,11.4
+6099,r002,Schools,Schools,,,,1,129,16.0,82,10.2
+6099,r003,Units,Units,,,,1,169,0.8,138,0.7
+6099,r004,All individuals,All individuals,,,,1,823,100.0,458,100.0
+6099,r005,All individuals -> Male,All individuals,Male,,,2,647,78.6,346,75.5
+6099,r006,All individuals -> Female,All individuals,Female,,,2,176,21.4,112,24.5
+6099,r007,All individuals -> U.S. citizens and permanent residents<sup>a</sup>,All individuals,U.S. citizens and permanent residents<sup>a</sup>,,,2,307,37.3,na,na
+6099,r008,All individuals -> U.S. citizens and permanent residents<sup>a</sup> -> Hispanic or Latino,All individuals,U.S. citizens and permanent residents<sup>a</sup>,Hispanic or Latino,,3,11,1.3,na,na
+6099,r009,All individuals -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino,All individuals,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,,3,,,,
+6099,r010,All individuals -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> American Indian or Alaska Native,All individuals,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,American Indian or Alaska Native,4,0,0.0,na,na
+6099,r011,All individuals -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> Asian,All individuals,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,Asian,4,67,8.1,na,na
+6099,r012,All individuals -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> Black or African American,All individuals,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,Black or African American,4,6,0.7,na,na
+6099,r013,All individuals -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> Native Hawaiian or Other Pacific Islander,All individuals,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,4,1,0.1,na,na
+6099,r014,All individuals -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> White,All individuals,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,White,4,179,21.7,na,na
+6099,r015,All individuals -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> More than one race,All individuals,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,More than one race,4,4,0.5,na,na
+6099,r016,All individuals -> U.S. citizens and permanent residents<sup>a</sup> -> Unknown ethnicity and race,All individuals,U.S. citizens and permanent residents<sup>a</sup>,Unknown ethnicity and race,,3,39,4.7,na,na
+6099,r017,All individuals -> Temporary visa holders,All individuals,Temporary visa holders,,,2,516,62.7,na,na
+6099,r018,Primary source of support,Primary source of support,,,,1,,,,
+6099,r019,Primary source of support -> Federal,Primary source of support,Federal,,,2,407,49.5,na,na
+6099,r020,Primary source of support -> Nonfederal<sup>b</sup>,Primary source of support,Nonfederal<sup>b</sup>,,,2,351,42.6,na,na
+6099,r021,Primary source of support -> Personal resources,Primary source of support,Personal resources,,,2,10,1.2,na,na
+6099,r022,Primary source of support -> Unknown or not stated,Primary source of support,Unknown or not stated,,,2,55,6.7,na,na
+6099,r023,Primary mechanism of support,Primary mechanism of support,,,,1,,,,
+6099,r024,Primary mechanism of support -> Fellowships,Primary mechanism of support,Fellowships,,,2,88,10.7,na,na
+6099,r025,Primary mechanism of support -> Research grants,Primary mechanism of support,Research grants,,,2,552,67.1,na,na
+6099,r026,Primary mechanism of support -> Traineeships,Primary mechanism of support,Traineeships,,,2,18,2.2,na,na
+6099,r027,Primary mechanism of support -> Other types of support,Primary mechanism of support,Other types of support,,,2,165,20.0,na,na
+6099,r028,Degree type<sup>c</sup>,Degree type<sup>c</sup>,,,,1,,,,
+6099,r029,Degree type<sup>c</sup> -> Doctoral degree,Degree type<sup>c</sup>,Doctoral degree,,,2,627,76.2,367,80.1
+6099,r030,Degree type<sup>c</sup> -> Professional degree,Degree type<sup>c</sup>,Professional degree,,,2,11,1.3,9,2.0
+6099,r031,Degree type<sup>c</sup> -> Dual degree,Degree type<sup>c</sup>,Dual degree,,,2,16,1.9,0,0.0
+6099,r032,Degree type<sup>c</sup> -> Doctoral degree type unknown,Degree type<sup>c</sup>,Doctoral degree type unknown,,,2,169,20.5,82,17.9
+6099,r033,Degree origin,Degree origin,,,,1,,,,
+6099,r034,Degree origin -> United States,Degree origin,United States,,,2,312,37.9,na,na
+6099,r035,Degree origin -> Foreign country,Degree origin,Foreign country,,,2,198,24.1,na,na
+6099,r036,Degree origin -> Unknown,Degree origin,Unknown,,,2,313,38.0,na,na

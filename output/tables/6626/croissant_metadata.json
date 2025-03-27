@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Business Enterprise Research and Development Survey aggregate estimates, by questionnaire reference: 2019",
+  "identifier": "NCSES-6626",
+  "description": "Business Enterprise Research and Development Survey aggregate estimates, by questionnaire reference: 2019",
+  "url": "https://example.org/datasets/ncses/tables/6626",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6626/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "question",
+      "description": "Question hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "question_level_1, question_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "question_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_survey_item",
+      "description": "Survey Item",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_aggregate_amount",
+      "description": "Aggregate Amount",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Beginning in survey year 2018, statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D. This change has affected the comparability of these estimates with estimates published for years prior to 2018. An estimate range may be displayed in place of a single estimate to avoid disclosing operations of individual companies.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2019."
+}

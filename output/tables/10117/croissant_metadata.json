@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federally financed higher education R&D expenditures, ranked by all federal R&D expenditures, by R&D field: FY 2022",
+  "identifier": "NCSES-10117",
+  "description": "Federally financed higher education R&D expenditures, ranked by all federal R&D expenditures, by R&D field: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/10117",
+  "table_number": "25",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10117/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_institution_b",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_institution_b_level_1, _b_institution_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_expenditures",
+      "description": "All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_and_information_sciences",
+      "description": "Computer And Information Sciences",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_geosciences_atmospheric_sciences_and_ocean_sciences",
+      "description": "Geosciences Atmospheric Sciences And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_life_sciences",
+      "description": "Life Sciences",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_statistics",
+      "description": "Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences",
+      "description": "Physical Sciences",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology",
+      "description": "Psychology",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_sciences",
+      "description": "Social Sciences",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciences_nec",
+      "description": "Sciences Nec",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_non_s_e_fields",
+      "description": "All Non S E Fields",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutions reporting zero federal expenditures for FY 2022 are not listed in this table. Tied institutions are ranked alphabetically. Ranked institutions are geographically separate campuses headed by a campus-level president or chancellor. Some campuses are part of large, multi-campus universities; some are part of state university systems. For a complete list of campuses that belong to a larger university or system and their aggregate R&D expenditures, see table 6. This table includes only institutions reporting $1 million or more in total R&D expenditures in 2021. Institutions reporting less than $1 million in total R&D expenditures in 2021 completed a shorter version of the survey form in FY 2022, and that form did not collect federally financed R&D expenditures by source and detailed field. For federally financed R&D expenditures by major field at institutions completing the shorter version of the survey, see table 84.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2022."
+}

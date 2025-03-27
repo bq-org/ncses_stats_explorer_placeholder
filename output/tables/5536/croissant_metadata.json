@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Department of Defense, total obligational authority for research, development, test, and evaluation, by DOD budget activity: FYs 2020&#8211;22",
+  "identifier": "NCSES-5536",
+  "description": "Department of Defense, total obligational authority for research, development, test, and evaluation, by DOD budget activity: FYs 2020&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/5536",
+  "table_number": "6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5536/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "funding_category_and_agency",
+      "description": "Funding category and agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "funding_category_and_agency_level_1, funding_category_and_agency_level_2, funding_category_and_agency_level_3, funding_category_and_agency_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "funding_category_and_agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_budget_activity",
+      "description": "Budget Activity",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_actual",
+      "description": "2020 Actual",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_preliminary",
+      "description": "2021 Preliminary",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_proposed",
+      "description": "2022 Proposed",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_21_change_",
+      "description": "2020 21 Change ",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_22_change_",
+      "description": "2021 22 Change ",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Percent change is calculated on unrounded data.",
+  "sources": "Agencies' submissions to OMB per MAX Schedule C, agencies' budget justification documents, supplemental data obtained from agencies' budget offices, and Executive Office of the President, OMB, Budget of the United States Government, Fiscal Year 2021, U.S. Government Printing Office (2020)."
+}

@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Primary source of support for postdoctoral appointees in science, engineering, and health, by broad field: 2020",
+  "identifier": "NCSES-6082",
+  "description": "Primary source of support for postdoctoral appointees in science, engineering, and health, by broad field: 2020",
+  "url": "https://example.org/datasets/ncses/tables/6082",
+  "table_number": "3-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6082/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_broad_field_b",
+      "description": "Broad field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_broad_field_b_level_1, _b_broad_field_b_level_2, _b_broad_field_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_broad_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_number",
+      "description": "Federal Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_percent",
+      "description": "Federal Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutional_number",
+      "description": "Institutional Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutional_percent",
+      "description": "Institutional Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_domestic_number",
+      "description": "Nonfederal Domestic Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_domestic_percent",
+      "description": "Nonfederal Domestic Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_number",
+      "description": "Foreign Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_percent",
+      "description": "Foreign Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_self_support_number",
+      "description": "Self Support Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_self_support_percent",
+      "description": "Self Support Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unknown_number",
+      "description": "Unknown Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unknown_percent",
+      "description": "Unknown Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "\"Field\" refers to the field of the unit that reports postdoctoral appointees to the Survey of Graduate Students and Postdoctorates in Science and Engineering (GSS). Percentages may not add to total because of rounding. For more information on the mapping of GSS fields and codes, see technical table A-17.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2020."
+}

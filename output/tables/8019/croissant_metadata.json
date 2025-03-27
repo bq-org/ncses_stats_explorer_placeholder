@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total and federally financed higher education R&D expenditures passed through to subrecipients, by highest degree granted and institutional control: FY 2021",
+  "identifier": "NCSES-8019",
+  "description": "Total and federally financed higher education R&D expenditures passed through to subrecipients, by highest degree granted and institutional control: FY 2021",
+  "url": "https://example.org/datasets/ncses/tables/8019",
+  "table_number": "75",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8019/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_type_of_institution_b",
+      "description": "Type of institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_type_of_institution_b_level_1, _b_type_of_institution_b_level_2, _b_type_of_institution_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_type_of_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_expenditures",
+      "description": "All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expenditures_passed_through_to_subrecipients_total",
+      "description": "R D Expenditures Passed Through To Subrecipients Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expenditures_passed_through_to_subrecipients_to_higher_education_subrecipients",
+      "description": "R D Expenditures Passed Through To Subrecipients To Higher Education Subrecipients",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expenditures_passed_through_to_subrecipients_to_businesses",
+      "description": "R D Expenditures Passed Through To Subrecipients To Businesses",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expenditures_passed_through_to_subrecipients_to_nonprofit_organizations",
+      "description": "R D Expenditures Passed Through To Subrecipients To Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expenditures_passed_through_to_subrecipients_to_other_subrecipients",
+      "description": "R D Expenditures Passed Through To Subrecipients To Other Subrecipients",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table includes only institutions reporting $1 million or more in total R&D expenditures in 2020. Institutions reporting less than $1 million in total R&D expenditures in 2020 completed a shorter version of the survey form in FY 2021, and that form requested R&D expenditures passed through only to higher education institutions. For a list of R&D expenditures passed through to higher education institutions at institutions completing the shorter version of the survey, see table 85.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2021."
+}

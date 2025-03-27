@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "R&D employees, by selected industry and sex, for companies with 1&#8211;9 employees: 2019",
+  "identifier": "NCSES-7390",
+  "description": "R&D employees, by selected industry and sex, for companies with 1&#8211;9 employees: 2019",
+  "url": "https://example.org/datasets/ncses/tables/7390",
+  "table_number": "19",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7390/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male",
+      "description": "Male",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female",
+      "description": "Female",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2020 Annual Business Survey: Data Year 2019."
+}

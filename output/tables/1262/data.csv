@@ -1,0 +1,22 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_level_3,characteristic_level_4,characteristic_hierarchy_depth,field_2005,field_2006,field_2007,field_2009,field_2010,field_2012,field_2013,field_2015,field_2017
+1262,r001,FFRDCs with postdocs,FFRDCs with postdocs,,,,1,22,22,22,23,22,21,21,24,23
+1262,r002,All postdocs,All postdocs,,,,1,1820,2147,2235,2449,3011,2793,2613,2696,2975
+1262,r003,All postdocs -> Male,All postdocs,Male,,,2,1430,1373,1461,1679,2052,2115,2020,2048,2259
+1262,r004,All postdocs -> Female,All postdocs,Female,,,2,390,455,450,513,673,678,593,648,716
+1262,r005,All postdocs -> Unknown sex,All postdocs,Unknown sex,,,2,0,319,324,257,286,0,0,0,0
+1262,r006,All postdocs -> U.S. citizens and permanent residents<sup>a</sup>,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,,,2,654,774,899,899,1191,1156,1150,1246,1341
+1262,r007,All postdocs -> U.S. citizens and permanent residents<sup>a</sup> -> Hispanic or Latino,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,Hispanic or Latino,,3,NA,NA,NA,39,48,54,52,55,67
+1262,r008,All postdocs -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,,3,NA,NA,NA,833,1005,1045,1065,1140,1217
+1262,r009,All postdocs -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> American Indian or Alaska Native,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,American Indian or Alaska Native,4,NA,NA,NA,2,4,4,3,5,4
+1262,r010,All postdocs -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> Asian,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,Asian,4,NA,NA,NA,115,151,137,171,181,170
+1262,r011,All postdocs -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> Black or African American,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,Black or African American,4,NA,NA,NA,18,16,14,14,19,27
+1262,r012,All postdocs -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> Native Hawaiian or Other Pacific Islander,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,4,NA,NA,NA,2,3,3,2,0,0
+1262,r013,All postdocs -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> White,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,White,4,NA,NA,NA,691,822,853,861,908,991
+1262,r014,All postdocs -> U.S. citizens and permanent residents<sup>a</sup> -> Not Hispanic or Latino -> More than one race,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,Not Hispanic or Latino,More than one race,4,NA,NA,NA,5,9,34,14,27,25
+1262,r015,All postdocs -> U.S. citizens and permanent residents<sup>a</sup> -> Unknown ethnicity or race,All postdocs,U.S. citizens and permanent residents<sup>a</sup>,Unknown ethnicity or race,,3,NA,NA,NA,27,138,57,33,51,57
+1262,r016,All postdocs -> Temporary visa holders,All postdocs,Temporary visa holders,,,2,1120,1373,1336,1293,1820,1637,1463,1450,1634
+1262,r017,All postdocs -> Unknown citizenship ,All postdocs,Unknown citizenship ,,,2,46,0,0,257,0,0,0,0,0
+1262,r018,All postdocs -> Source of support,All postdocs,Source of support,,,2,,,,,,,,,
+1262,r019,All postdocs -> Source of support -> Federal support,All postdocs,Source of support,Federal support,,3,NA,1641,2030,2258,2541,2707,2531,2543,2544
+1262,r020,All postdocs -> Source of support -> Nonfederal support,All postdocs,Source of support,Nonfederal support,,3,NA,506,205,181,184,86,82,150,116
+1262,r021,All postdocs -> Source of support -> Unknown support source,All postdocs,Source of support,Unknown support source,,3,NA,0,0,10,286,0,0,3,315

@@ -1,0 +1,181 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public interest in selected issues: 1979\u20132018",
+  "identifier": "NCSES-2277",
+  "description": "Public interest in selected issues: 1979\u20132018",
+  "url": "https://example.org/datasets/ncses/tables/2277",
+  "table_number": "S7-33",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2277/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "issue",
+      "description": "Issue hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "issue_level_1, issue_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "issue_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1979_n_1_635_",
+      "description": "1979 N 1 635 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1981_n_3_192_",
+      "description": "1981 N 3 192 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1983_n_1_615_",
+      "description": "1983 N 1 615 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1985_n_1_986_",
+      "description": "1985 N 1 986 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1988_n_2_041_",
+      "description": "1988 N 2 041 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1990_n_2_005_",
+      "description": "1990 N 2 005 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1992_n_1_995_",
+      "description": "1992 N 1 995 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1995_n_2_006_",
+      "description": "1995 N 2 006 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1997_n_2_000_",
+      "description": "1997 N 2 000 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999_n_1_882_",
+      "description": "1999 N 1 882 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_n_1_574_",
+      "description": "2001 N 1 574 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008_n_2_021_",
+      "description": "2008 N 2 021 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_n_1_461_",
+      "description": "2010 N 1 461 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_n_2_256_",
+      "description": "2012 N 2 256 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014_n_2_130_",
+      "description": "2014 N 2 130 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_n_1_390_",
+      "description": "2016 N 1 390 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_n_1_175_",
+      "description": "2018 N 1 175 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Data represent respondents giving a response of \"very interested\" to the following: There are a lot of issues in the news, and it is hard to keep up with every area. I'm going to read you a short list of issues, and for each one, I would like you to tell me if you are very interested, moderately interested, or not at all interested. Percentages may not add to 100% because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Public Attitudes Toward and Understanding of Science and Technology (1979\u20132001); NORC at the University of Chicago, General Social Survey (2008\u201318).Science and Engineering Indicators"
+}

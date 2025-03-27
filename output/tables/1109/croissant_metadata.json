@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. basic research expenditures, by performing sector and source of funds: 1953&#8211;2017",
+  "identifier": "NCSES-1109",
+  "description": "U.S. basic research expenditures, by performing sector and source of funds: 1953&#8211;2017",
+  "url": "https://example.org/datasets/ncses/tables/1109",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1109/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "all_performers_characteristic",
+      "description": "All performers hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "all_performers_level_1, all_performers_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Millions of current and of constant 2012 dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Constant-dollar estimates are derived from unrounded data. For trend comparisons, use only the historical data reported in this table because some back-year data may have been revised. Except for the nonprofit sector, data are based on annual reports by performers in the National Science Foundation's annual R&D expenditure surveys: Business Research and Development and Innovation Survey, Higher Education Research and Development Survey, Survey of Federal Funds for Research and Development, FFRDC Research and Development Expenditures Survey, and Survey of State Government Research and Development. R&D expenditures by business performers\u2014and, before 2001, also industry-administered FFRDCs\u2014are collected on a calendar year basis. Expenditures for other performers are calendar year approximations based on fiscal year data. For federal performers in 1977 and afterward, the approximation equals 75% of the amount reported in the same fiscal year plus 25% of the amount reported in the subsequent fiscal year. Prior to 1977, the federal fiscal year began on 1 July, not 1 October, and the approximation is 50% of the amount reported in the same fiscal year plus 50% of the amount reported in the subsequent fiscal year. The fiscal year for higher education performers and state government performers generally begins 1 July, and the calendar year approximation is 50% of the amount reported in the same fiscal year plus 50% of amount reported in the subsequent fiscal year.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, National Patterns of R&D Resources (annual series).",
+  "temporalCoverage": "19/20"
+}

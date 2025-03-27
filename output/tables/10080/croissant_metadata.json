@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Higher education R&D expenditures, by R&D field: FYs 2021\u201322",
+  "identifier": "NCSES-10080",
+  "description": "Higher education R&D expenditures, by R&D field: FYs 2021\u201322",
+  "url": "https://example.org/datasets/ncses/tables/10080",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10080/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_level_1, field_level_2, field_level_3, field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_path",
+      "description": "Full Path",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_1",
+      "description": "Level 1",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_2",
+      "description": "Level 2",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_3",
+      "description": "Level 3",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_4",
+      "description": "Level 4",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hierarchy_depth",
+      "description": "Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_in_current_dollars_fys_2021_22",
+      "description": " Change In Current Dollars Fys 2021 22",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_in_constant_2012_dollars_fys_2021_22",
+      "description": " Change In Constant 2012 Dollars Fys 2021 22",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table includes only institutions reporting $1 million or more in total R&D expenditures in FY 2021. Institutions reporting less than $1 million in total R&D expenditures in FY 2021 completed a shorter version of the survey form in FY 2022 that did not include this question. Total expenditures from institutions reporting less than $1 million in R&D in FY 2022 was $162 million. Gross domestic product deflators come from the Bureau of Economic Analysis and are available in Table\u00a01.1.9 \"Implicit Price Deflators for Gross Domestic Product\" at\u00a0https://www.bea.gov/iTable/index_nipa.cfm  (accessed September 2023).",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

@@ -1,0 +1,325 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Research doctorate recipients' sources of financial support, by broad field of doctorate and sex: 2021",
+  "identifier": "NCSES-7551",
+  "description": "Research doctorate recipients' sources of financial support, by broad field of doctorate and sex: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7551",
+  "table_number": "4-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7551/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_financial_source_b",
+      "description": "Financial source hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_financial_source_b_level_1, _b_financial_source_b_level_2, _b_financial_source_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_financial_source_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_male",
+      "description": "All Fields Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_female",
+      "description": "All Fields Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_total_male",
+      "description": "Science And Engineering Total Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_total_female",
+      "description": "Science And Engineering Total Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_agricultural_sciences_and_natural_resources_male",
+      "description": "Science And Engineering Agricultural Sciences And Natural Resources Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_agricultural_sciences_and_natural_resources_female",
+      "description": "Science And Engineering Agricultural Sciences And Natural Resources Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_biological_and_biomedical_sciences_male",
+      "description": "Science And Engineering Biological And Biomedical Sciences Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_biological_and_biomedical_sciences_female",
+      "description": "Science And Engineering Biological And Biomedical Sciences Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_computer_and_information_sciences_male",
+      "description": "Science And Engineering Computer And Information Sciences Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_computer_and_information_sciences_female",
+      "description": "Science And Engineering Computer And Information Sciences Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_engineering_male",
+      "description": "Science And Engineering Engineering Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_engineering_female",
+      "description": "Science And Engineering Engineering Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_geosciences_atmospheric_and_ocean_sciences_male",
+      "description": "Science And Engineering Geosciences Atmospheric And Ocean Sciences Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_geosciences_atmospheric_and_ocean_sciences_female",
+      "description": "Science And Engineering Geosciences Atmospheric And Ocean Sciences Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_health_sciences_male",
+      "description": "Science And Engineering Health Sciences Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_health_sciences_female",
+      "description": "Science And Engineering Health Sciences Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_mathematics_and_statistics_male",
+      "description": "Science And Engineering Mathematics And Statistics Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_mathematics_and_statistics_female",
+      "description": "Science And Engineering Mathematics And Statistics Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_multidisciplinary_interdisciplinary_sciences_male",
+      "description": "Science And Engineering Multidisciplinary Interdisciplinary Sciences Male",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_multidisciplinary_interdisciplinary_sciences_female",
+      "description": "Science And Engineering Multidisciplinary Interdisciplinary Sciences Female",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_physical_sciences_male",
+      "description": "Science And Engineering Physical Sciences Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_physical_sciences_female",
+      "description": "Science And Engineering Physical Sciences Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_psychology_male",
+      "description": "Science And Engineering Psychology Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_psychology_female",
+      "description": "Science And Engineering Psychology Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_social_sciences_male",
+      "description": "Science And Engineering Social Sciences Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_social_sciences_female",
+      "description": "Science And Engineering Social Sciences Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_total_male",
+      "description": "Non Science And Engineering Total Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_total_female",
+      "description": "Non Science And Engineering Total Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_business_male",
+      "description": "Non Science And Engineering Business Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_business_female",
+      "description": "Non Science And Engineering Business Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_education_male",
+      "description": "Non Science And Engineering Education Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_education_female",
+      "description": "Non Science And Engineering Education Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_humanities_male",
+      "description": "Non Science And Engineering Humanities Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_humanities_female",
+      "description": "Non Science And Engineering Humanities Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_visual_and_performing_arts_male",
+      "description": "Non Science And Engineering Visual And Performing Arts Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_visual_and_performing_arts_female",
+      "description": "Non Science And Engineering Visual And Performing Arts Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_othera_male",
+      "description": "Non Science And Engineering Othera Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_othera_female",
+      "description": "Non Science And Engineering Othera Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "In this table, a respondent counts once in each source category from which the respondent received support. Doctorate recipients may indicate multiple sources of support; thus, percentages sum to more than 100. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and the new broad, major, and detailed fields were used in tables reporting only the most recent data year. Therefore, the field of doctorate data in 2021 may not be comparable to prior years; see the \"Technical Notes\" for more information, table A-4 for a summary of SED-CIP codes in the new SED field taxonomy, table A-5 for a full list of SED-CIP codes in the new field taxonomy, and table A-6 for the SED-CIP code crosswalk to the historical field taxonomy.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

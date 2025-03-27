@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Change in the number of postdoctoral appointees, by field: 2018\u201322",
+  "identifier": "NCSES-10773",
+  "description": "Change in the number of postdoctoral appointees, by field: 2018\u201322",
+  "url": "https://example.org/datasets/ncses/tables/10773",
+  "table_number": "5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10773/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "major_field",
+      "description": "Major field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "major_field_level_1, major_field_level_2, major_field_level_3, major_field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "major_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_19",
+      "description": "2018 19",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_20",
+      "description": "2019 20",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_21",
+      "description": "2020 21",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_22",
+      "description": "2021 22",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_22_combined",
+      "description": "2018 22 Combined",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "For more information on the mapping of fields and codes in the Survey of Graduate Students and Postdoctorates in Science and Engineering, see technical table A-17 at https://ncses.nsf.gov/pubs/nsf24319/table/A-17. Between 2019 and 2020, veterinary biomedical and clinical sciences moved from other health to agricultural and veterinary sciences; this move caused the large change in the number of postdocs for both fields.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering."
+}

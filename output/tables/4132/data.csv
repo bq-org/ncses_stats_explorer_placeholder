@@ -1,0 +1,25 @@
+table_id,row_id,school_characteristic_full_path,school_characteristic_level_1,school_characteristic_level_2,school_characteristic_level_3,school_characteristic_hierarchy_depth,field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_0_49,field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_50_74,field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_75_89,field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_90_94,field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_95_100,field_availability_of_computers_at_home_for_school_assignmentsa_very_available,field_availability_of_computers_at_home_for_school_assignmentsa_some_what_available,field_availability_of_computers_at_home_for_school_assignmentsa_slightly_available,field_availability_of_computers_at_home_for_school_assignmentsa_not_available,field_availability_of_computers_at_home_for_school_assignmentsa_don_t_know,field_likelihood_computers_at_home_have_reliable_internet_accessa_very_likely,field_likelihood_computers_at_home_have_reliable_internet_accessa_some_what_likely,field_likelihood_computers_at_home_have_reliable_internet_accessa_slightly_likely,field_likelihood_computers_at_home_have_reliable_internet_accessa_not_likely,field_likelihood_computers_at_home_have_reliable_internet_accessa_don_t_know
+4132,r001,All teachers ,All teachers ,,,1,13,22,22,12,30,35,47,10,# ,8,29,45,15,3,7
+4132,r002,All teachers  -> Instructional level<sup>b</sup> ,All teachers ,Instructional level<sup>b</sup> ,,2,,,,,,,,,,,,,,,
+4132,r003,All teachers  -> Instructional level<sup>b</sup>  -> Primary school ,All teachers ,Instructional level<sup>b</sup> ,Primary school ,3,17,26,24,11,22,22,53,15,1,9,26,43,20,4,8
+4132,r004,All teachers  -> Instructional level<sup>b</sup>  -> Middle school ,All teachers ,Instructional level<sup>b</sup> ,Middle school ,3,12,21,22,13,32,37,48,9,s,6,32,45,14,4,6
+4132,r005,All teachers  -> Instructional level<sup>b</sup>  -> High school ,All teachers ,Instructional level<sup>b</sup> ,High school ,3,9,19,20,13,39,48,40,6,s,7,32,48,11,2,7
+4132,r006,All teachers  -> Instructional level<sup>b</sup>  -> Other school ,All teachers ,Instructional level<sup>b</sup> ,Other school ,3,13,27,22,12,25,33,46,11,# ,11,23,44,21,6,6
+4132,r007,All teachers  -> Enrollment size ,All teachers ,Enrollment size ,,2,,,,,,,,,,,,,,,
+4132,r008,All teachers  -> Enrollment size  -> Less than 300 ,All teachers ,Enrollment size ,Less than 300 ,3,15,27,22,13,22,31,47,11,s,10,19,46,18,6,10
+4132,r009,All teachers  -> Enrollment size  -> 300&#8722;499 ,All teachers ,Enrollment size ,300&#8722;499 ,3,19,27,22,9,23,24,51,15,s,10,22,49,18,3,8
+4132,r010,All teachers  -> Enrollment size  -> 500&#8722;999 ,All teachers ,Enrollment size ,500&#8722;999 ,3,13,23,22,12,29,32,49,11,1,7,28,44,18,3,7
+4132,r011,"All teachers  -> Enrollment size  -> 1,000 or more ",All teachers ,Enrollment size ,"1,000 or more ",3,7,17,22,15,40,46,42,5,s,6,40,44,9,2,6
+4132,r012,All teachers  -> Community type ,All teachers ,Community type ,,2,,,,,,,,,,,,,,,
+4132,r013,All teachers  -> Community type  -> City ,All teachers ,Community type ,City ,3,19,25,24,9,22,28,51,12,s,8,26,46,17,4,7
+4132,r014,All teachers  -> Community type  -> Suburban ,All teachers ,Community type ,Suburban ,3,7,18,20,15,40,43,45,9,s,4,39,44,11,1,4
+4132,r015,All teachers  -> Community type  -> Town ,All teachers ,Community type ,Town ,3,17,26,22,10,26,34,42,14,s,10,22,46,19,4,9
+4132,r016,All teachers  -> Community type  -> Rural ,All teachers ,Community type ,Rural ,3,13,24,23,13,27,30,48,9,1,12,22,45,17,5,10
+4132,r017,All teachers  -> School poverty level (%)<sup>c</sup>,All teachers ,School poverty level (%)<sup>c</sup>,,2,,,,,,,,,,,,,,,
+4132,r018,All teachers  -> School poverty level (%)<sup>c</sup> -> Less than 35<sup>d</sup>,All teachers ,School poverty level (%)<sup>c</sup>,Less than 35<sup>d</sup>,3,2,10,19,19,50,52,39,4,s,4,51,38,5,# ,5
+4132,r019,All teachers  -> School poverty level (%)<sup>c</sup> -> 35&#8722;49,All teachers ,School poverty level (%)<sup>c</sup>,35&#8722;49,3,6,20,28,15,31,34,51,6,s,8,26,52,13,1,8
+4132,r020,All teachers  -> School poverty level (%)<sup>c</sup> -> 50&#8722;74,All teachers ,School poverty level (%)<sup>c</sup>,50&#8722;74,3,19,31,22,7,21,25,50,14,s,10,17,47,22,5,9
+4132,r021,All teachers  -> School poverty level (%)<sup>c</sup> -> 75 or more ,All teachers ,School poverty level (%)<sup>c</sup>,75 or more ,3,29,33,22,6,10,19,53,18,1,9,14,47,24,8,8
+4132,r022,All teachers  -> Students take home school computers ,All teachers ,Students take home school computers ,,2,,,,,,,,,,,,,,,
+4132,r023,All teachers  -> Students take home school computers  -> Yes ,All teachers ,Students take home school computers ,Yes ,3,s,3,10,13,74,75,21,2,# ,2,36,51,9,1,4
+4132,r024,All teachers  -> Students take home school computers  -> No ,All teachers ,Students take home school computers ,No ,3,17,29,27,12,15,21,56,13,1,9,27,43,18,4,8

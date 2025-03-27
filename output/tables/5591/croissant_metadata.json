@@ -1,0 +1,272 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "College graduates, by broad field of highest degree, father's education, mother's education, level of highest degree, and median amount borrowed to finance undergraduate degree: 2019",
+  "identifier": "NCSES-5591",
+  "description": "College graduates, by broad field of highest degree, father's education, mother's education, level of highest degree, and median amount borrowed to finance undergraduate degree: 2019",
+  "url": "https://example.org/datasets/ncses/tables/5591",
+  "table_number": "5-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5591/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_father_s_education_and_mother_s_education",
+      "description": "Field of highest degree, father's education, and mother's education hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_highest_degree_father_s_education_and_mother_s_education_level_1, field_of_highest_degree_father_s_education_and_mother_s_education_level_2, field_of_highest_degree_father_s_education_and_mother_s_education_level_3, field_of_highest_degree_father_s_education_and_mother_s_education_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_highest_degree_father_s_education_and_mother_s_education_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_father_s_education_and_mother_s_education_full_path",
+      "description": "Of Highest Degree Father S Education And Mother S Education Full Path",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_father_s_education_and_mother_s_education_level_1",
+      "description": "Of Highest Degree Father S Education And Mother S Education Level 1",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_father_s_education_and_mother_s_education_level_2",
+      "description": "Of Highest Degree Father S Education And Mother S Education Level 2",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_father_s_education_and_mother_s_education_level_3",
+      "description": "Of Highest Degree Father S Education And Mother S Education Level 3",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_father_s_education_and_mother_s_education_level_4",
+      "description": "Of Highest Degree Father S Education And Mother S Education Level 4",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_father_s_education_and_mother_s_education_hierarchy_depth",
+      "description": "Of Highest Degree Father S Education And Mother S Education Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_total",
+      "description": "Bachelor S Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_0",
+      "description": "Bachelor S 0",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_1_10_000",
+      "description": "Bachelor S 1 10 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_10_001_20_000",
+      "description": "Bachelor S 10 001 20 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_20_001_30_000",
+      "description": "Bachelor S 20 001 30 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_30_001_and_over",
+      "description": "Bachelor S 30 001 And Over",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_total",
+      "description": "Master S Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_0",
+      "description": "Master S 0",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_1_10_000",
+      "description": "Master S 1 10 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_10_001_20_000",
+      "description": "Master S 10 001 20 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_20_001_30_000",
+      "description": "Master S 20 001 30 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_30_001_and_over",
+      "description": "Master S 30 001 And Over",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_total",
+      "description": "Doctorate Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_0",
+      "description": "Doctorate 0",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_1_10_000",
+      "description": "Doctorate 1 10 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_10_001_20_000",
+      "description": "Doctorate 10 001 20 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_20_001_30_000",
+      "description": "Doctorate 20 001 30 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_30_001_and_over",
+      "description": "Doctorate 30 001 And Over",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_total",
+      "description": "Professional Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_0",
+      "description": "Professional 0",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_1_10_000",
+      "description": "Professional 1 10 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_10_001_20_000",
+      "description": "Professional 10 001 20 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_20_001_30_000",
+      "description": "Professional 20 001 30 000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_30_001_and_over",
+      "description": "Professional 30 001 And Over",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding. Totals for master's, doctorate, and professional highest degree earners include individuals who did not earn an undergraduate degree. These are primarily individuals who earned a first degree at an international institution for which the award is not counted as an undergraduate award by U.S. standards.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates: 2019."
+}

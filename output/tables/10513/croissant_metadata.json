@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Cumulative federally sponsored public science projects on CitizenScience.gov, by federal department or agency: 2022",
+  "identifier": "NCSES-10513",
+  "description": "Cumulative federally sponsored public science projects on CitizenScience.gov, by federal department or agency: 2022",
+  "url": "https://example.org/datasets/ncses/tables/10513",
+  "table_number": "INV-C",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10513/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sponsor",
+      "description": "Sponsor hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sponsor_level_1, sponsor_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sponsor_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number",
+      "description": "Number",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "CitizenScience.gov, tabulated by RTI International, April 2023.Science and Engineering Indicators"
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Features of UMETRICS and the SED",
+  "identifier": "NCSES-9396",
+  "description": "Features of UMETRICS and the SED",
+  "url": "https://example.org/datasets/ncses/tables/9396",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9396/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "key_features",
+      "description": "Key Features",
+      "valueType": "string",
+      "unitText": "Responses"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "administrative_data_umetrics",
+      "description": "Administrative Data Umetrics",
+      "valueType": "string",
+      "unitText": "Responses"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "survey_data_sed",
+      "description": "Survey Data Sed",
+      "valueType": "string",
+      "unitText": "Responses"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, AYs 2014\u201317; Institute for Research on Innovation and Science, UMETRICS, 2020 release data."
+}

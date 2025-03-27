@@ -1,0 +1,23 @@
+table_id,row_id,employment_type_and_sector_of_employment_full_path,employment_type_and_sector_of_employment_level_1,employment_type_and_sector_of_employment_level_2,employment_type_and_sector_of_employment_level_3,employment_type_and_sector_of_employment_hierarchy_depth,field_median_earned_income,field_decreased_percent,field_decreased_income_change_median_in_dollars,field_increased_percent,field_increased_income_change_median_in_dollars,field_not_affected_percent
+8238,r001,Employed full time,Employed full time,,,1,125000,12.8,10000,5.3,10000,81.9
+8238,r002,Employed full time -> Educational institution<sup>a</sup>,Employed full time,Educational institution<sup>a</sup>,,2,100000,14.6,5000,3.4,5000,82.0
+8238,r003,Employed full time -> Educational institution<sup>a</sup> -> 4-year educational institution,Employed full time,Educational institution<sup>a</sup>,4-year educational institution,3,100000,14.9,5000,3.1,5000,82.0
+8238,r004,Employed full time -> Educational institution<sup>a</sup> -> Other educational institution,Employed full time,Educational institution<sup>a</sup>,Other educational institution,3,85000,9.6,5000,7.3,3000,83.1
+8238,r005,Employed full time -> Government<sup>b</sup>,Employed full time,Government<sup>b</sup>,,2,127000,5.3,10000,4.5,5000,90.2
+8238,r006,Employed full time -> Government<sup>b</sup> -> Federal government,Employed full time,Government<sup>b</sup>,Federal government,3,134000,1.7,11000,3.9,5000,94.4
+8238,r007,Employed full time -> Government<sup>b</sup> -> State or local government,Employed full time,Government<sup>b</sup>,State or local government,3,109000,13.3,10000,5.7,5000,81.0
+8238,r008,Employed full time -> Business or industry<sup>c</sup>,Employed full time,Business or industry<sup>c</sup>,,2,153000,12.6,19000,7.3,14000,80.1
+8238,r009,"Employed full time -> Business or industry<sup>c</sup> -> Private, nonprofit",Employed full time,Business or industry<sup>c</sup>,"Private, nonprofit",3,124000,9.6,10000,5.5,7000,84.9
+8238,r010,"Employed full time -> Business or industry<sup>c</sup> -> Private, for profit",Employed full time,Business or industry<sup>c</sup>,"Private, for profit",3,161000,12.1,19000,7.2,14000,80.6
+8238,r011,Employed full time -> Business or industry<sup>c</sup> -> Self-employed,Employed full time,Business or industry<sup>c</sup>,Self-employed,3,115000,30.6,25000,14.7,21000,54.7
+8238,r012,Employed part time,Employed part time,,,1,65000,25.6,15000,6.1,10000,68.3
+8238,r013,Employed part time -> Educational institution,Employed part time,Educational institution,,2,60000,16.6,10000,4.3,5000,79.1
+8238,r014,Employed part time -> Educational institution -> 4-year educational institution,Employed part time,Educational institution,4-year educational institution,3,66000,15.3,10000,4.3,S,80.4
+8238,r015,Employed part time -> Educational institution -> Other educational institution,Employed part time,Educational institution,Other educational institution,3,36000,22.1,9000,4.5,3000,73.4
+8238,r016,Employed part time -> Government,Employed part time,Government,,2,75000,18.1,17000,4.1,16000,77.7
+8238,r017,Employed part time -> Government -> Federal government,Employed part time,Government,Federal government,3,87000,10.9,24000,,,83.3
+8238,r018,Employed part time -> Government -> State or local government,Employed part time,Government,State or local government,3,64000,22.8,15000,3.0,S,74.2
+8238,r019,Employed part time -> Business or industry,Employed part time,Business or industry,,2,68000,30.5,18000,7.1,11000,62.5
+8238,r020,"Employed part time -> Business or industry -> Private, nonprofit",Employed part time,Business or industry,"Private, nonprofit",3,68000,24.9,14000,5.3,8000,69.8
+8238,r021,"Employed part time -> Business or industry -> Private, for profit",Employed part time,Business or industry,"Private, for profit",3,79000,28.4,19000,7.0,15000,64.6
+8238,r022,Employed part time -> Business or industry -> Self-employed,Employed part time,Business or industry,Self-employed,3,55000,34.0,18000,7.5,9000,58.4

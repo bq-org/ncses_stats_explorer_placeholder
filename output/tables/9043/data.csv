@@ -1,0 +1,4 @@
+table_id,row_id,r_d_activity_full_path,r_d_activity_level_1,r_d_activity_level_2,r_d_activity_hierarchy_depth,field_all_companies,field_new_r_d_project_were_started,field_existing_r_d_projects_were_canceled,field_existing_r_d_projects_were_disrupted
+9043,r001,All companies,All companies,,1,"['511,793', '&nbsp;']","['8.0', '&nbsp;']","['5.5', '&nbsp;']","['12.8', '&nbsp;']"
+9043,r002,All companies -> R&D-performing companies,All companies,R&D-performing companies,2,"['15,391', '&nbsp;']","['50.8', '&nbsp;']","['16.6', '&nbsp;']","['56.4', '&nbsp;']"
+9043,r003,All companies -> Non-R&D-performing companies,All companies,Non-R&D-performing companies,2,"['496,400', '&nbsp;']","['6.6', '&nbsp;']","['5.1', '&nbsp;']","['11.5', '&nbsp;']"

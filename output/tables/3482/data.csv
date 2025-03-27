@@ -1,0 +1,919 @@
+table_id,row_id,time_period,column_level_1,column_level_2,column_hierarchy_depth,value
+3482,r001,1975,Total,,1,47055
+3482,r002,1975,DOD,Number,2,5061
+3482,r003,1975,DOD,Percent,2,10.8
+3482,r004,1975,DOE,Number,2,NA
+3482,r005,1975,DOE,Percent,2,NA
+3482,r006,1975,HHS: NIH,Number,2,12141
+3482,r007,1975,HHS: NIH,Percent,2,25.8
+3482,r008,1975,HHS: Other HHS,Number,2,7836
+3482,r009,1975,HHS: Other HHS,Percent,2,16.7
+3482,r010,1975,NASA,Number,2,NA
+3482,r011,1975,NASA,Percent,2,NA
+3482,r012,1975,NSF,Number,2,8790
+3482,r013,1975,NSF,Percent,2,18.7
+3482,r014,1975,USDA,Number,2,NA
+3482,r015,1975,USDA,Percent,2,NA
+3482,r016,1975,Other,Number,2,13227
+3482,r017,1975,Other,Percent,2,28.1
+3482,r018,1976,Total,,1,49036
+3482,r019,1976,DOD,Number,2,4772
+3482,r020,1976,DOD,Percent,2,9.7
+3482,r021,1976,DOE,Number,2,NA
+3482,r022,1976,DOE,Percent,2,NA
+3482,r023,1976,HHS: NIH,Number,2,11307
+3482,r024,1976,HHS: NIH,Percent,2,23.1
+3482,r025,1976,HHS: Other HHS,Number,2,8341
+3482,r026,1976,HHS: Other HHS,Percent,2,17.0
+3482,r027,1976,NASA,Number,2,NA
+3482,r028,1976,NASA,Percent,2,NA
+3482,r029,1976,NSF,Number,2,8953
+3482,r030,1976,NSF,Percent,2,18.3
+3482,r031,1976,USDA,Number,2,NA
+3482,r032,1976,USDA,Percent,2,NA
+3482,r033,1976,Other,Number,2,15663
+3482,r034,1976,Other,Percent,2,31.9
+3482,r035,1977,Total,,1,50809
+3482,r036,1977,DOD,Number,2,4971
+3482,r037,1977,DOD,Percent,2,9.8
+3482,r038,1977,DOE,Number,2,NA
+3482,r039,1977,DOE,Percent,2,NA
+3482,r040,1977,HHS: NIH,Number,2,10861
+3482,r041,1977,HHS: NIH,Percent,2,21.4
+3482,r042,1977,HHS: Other HHS,Number,2,9397
+3482,r043,1977,HHS: Other HHS,Percent,2,18.5
+3482,r044,1977,NASA,Number,2,NA
+3482,r045,1977,NASA,Percent,2,NA
+3482,r046,1977,NSF,Number,2,9018
+3482,r047,1977,NSF,Percent,2,17.7
+3482,r048,1977,USDA,Number,2,NA
+3482,r049,1977,USDA,Percent,2,NA
+3482,r050,1977,Other,Number,2,16562
+3482,r051,1977,Other,Percent,2,32.6
+3482,r052,1978<sup>a</sup>,Total,,1,51984
+3482,r053,1978<sup>a</sup>,DOD,Number,2,NA
+3482,r054,1978<sup>a</sup>,DOD,Percent,2,NA
+3482,r055,1978<sup>a</sup>,DOE,Number,2,NA
+3482,r056,1978<sup>a</sup>,DOE,Percent,2,NA
+3482,r057,1978<sup>a</sup>,HHS: NIH,Number,2,10825
+3482,r058,1978<sup>a</sup>,HHS: NIH,Percent,2,20.8
+3482,r059,1978<sup>a</sup>,HHS: Other HHS,Number,2,10060
+3482,r060,1978<sup>a</sup>,HHS: Other HHS,Percent,2,19.4
+3482,r061,1978<sup>a</sup>,NASA,Number,2,NA
+3482,r062,1978<sup>a</sup>,NASA,Percent,2,NA
+3482,r063,1978<sup>a</sup>,NSF,Number,2,9007
+3482,r064,1978<sup>a</sup>,NSF,Percent,2,17.3
+3482,r065,1978<sup>a</sup>,USDA,Number,2,NA
+3482,r066,1978<sup>a</sup>,USDA,Percent,2,NA
+3482,r067,1978<sup>a</sup>,Other,Number,2,22092
+3482,r068,1978<sup>a</sup>,Other,Percent,2,42.5
+3482,r069,1979,Total,,1,52682
+3482,r070,1979,DOD,Number,2,4990
+3482,r071,1979,DOD,Percent,2,9.5
+3482,r072,1979,DOE,Number,2,NA
+3482,r073,1979,DOE,Percent,2,NA
+3482,r074,1979,HHS: NIH,Number,2,11648
+3482,r075,1979,HHS: NIH,Percent,2,22.1
+3482,r076,1979,HHS: Other HHS,Number,2,10482
+3482,r077,1979,HHS: Other HHS,Percent,2,19.9
+3482,r078,1979,NASA,Number,2,NA
+3482,r079,1979,NASA,Percent,2,NA
+3482,r080,1979,NSF,Number,2,9366
+3482,r081,1979,NSF,Percent,2,17.8
+3482,r082,1979,USDA,Number,2,NA
+3482,r083,1979,USDA,Percent,2,NA
+3482,r084,1979,Other,Number,2,16196
+3482,r085,1979,Other,Percent,2,30.7
+3482,r086,1980,Total,,1,52959
+3482,r087,1980,DOD,Number,2,5251
+3482,r088,1980,DOD,Percent,2,9.9
+3482,r089,1980,DOE,Number,2,NA
+3482,r090,1980,DOE,Percent,2,NA
+3482,r091,1980,HHS: NIH,Number,2,11499
+3482,r092,1980,HHS: NIH,Percent,2,21.7
+3482,r093,1980,HHS: Other HHS,Number,2,7522
+3482,r094,1980,HHS: Other HHS,Percent,2,14.2
+3482,r095,1980,NASA,Number,2,NA
+3482,r096,1980,NASA,Percent,2,NA
+3482,r097,1980,NSF,Number,2,9348
+3482,r098,1980,NSF,Percent,2,17.7
+3482,r099,1980,USDA,Number,2,NA
+3482,r100,1980,USDA,Percent,2,NA
+3482,r101,1980,Other,Number,2,19339
+3482,r102,1980,Other,Percent,2,36.5
+3482,r103,1981,Total,,1,50896
+3482,r104,1981,DOD,Number,2,5664
+3482,r105,1981,DOD,Percent,2,11.1
+3482,r106,1981,DOE,Number,2,NA
+3482,r107,1981,DOE,Percent,2,NA
+3482,r108,1981,HHS: NIH,Number,2,11179
+3482,r109,1981,HHS: NIH,Percent,2,22.0
+3482,r110,1981,HHS: Other HHS,Number,2,6429
+3482,r111,1981,HHS: Other HHS,Percent,2,12.6
+3482,r112,1981,NASA,Number,2,NA
+3482,r113,1981,NASA,Percent,2,NA
+3482,r114,1981,NSF,Number,2,9143
+3482,r115,1981,NSF,Percent,2,18.0
+3482,r116,1981,USDA,Number,2,NA
+3482,r117,1981,USDA,Percent,2,NA
+3482,r118,1981,Other,Number,2,18481
+3482,r119,1981,Other,Percent,2,36.3
+3482,r120,1982,Total,,1,47403
+3482,r121,1982,DOD,Number,2,5941
+3482,r122,1982,DOD,Percent,2,12.5
+3482,r123,1982,DOE,Number,2,NA
+3482,r124,1982,DOE,Percent,2,NA
+3482,r125,1982,HHS: NIH,Number,2,10814
+3482,r126,1982,HHS: NIH,Percent,2,22.8
+3482,r127,1982,HHS: Other HHS,Number,2,4975
+3482,r128,1982,HHS: Other HHS,Percent,2,10.5
+3482,r129,1982,NASA,Number,2,NA
+3482,r130,1982,NASA,Percent,2,NA
+3482,r131,1982,NSF,Number,2,9257
+3482,r132,1982,NSF,Percent,2,19.5
+3482,r133,1982,USDA,Number,2,NA
+3482,r134,1982,USDA,Percent,2,NA
+3482,r135,1982,Other,Number,2,16416
+3482,r136,1982,Other,Percent,2,34.6
+3482,r137,1983,Total,,1,47752
+3482,r138,1983,DOD,Number,2,6969
+3482,r139,1983,DOD,Percent,2,14.6
+3482,r140,1983,DOE,Number,2,NA
+3482,r141,1983,DOE,Percent,2,NA
+3482,r142,1983,HHS: NIH,Number,2,10810
+3482,r143,1983,HHS: NIH,Percent,2,22.6
+3482,r144,1983,HHS: Other HHS,Number,2,4179
+3482,r145,1983,HHS: Other HHS,Percent,2,8.8
+3482,r146,1983,NASA,Number,2,NA
+3482,r147,1983,NASA,Percent,2,NA
+3482,r148,1983,NSF,Number,2,9524
+3482,r149,1983,NSF,Percent,2,19.9
+3482,r150,1983,USDA,Number,2,NA
+3482,r151,1983,USDA,Percent,2,NA
+3482,r152,1983,Other,Number,2,16270
+3482,r153,1983,Other,Percent,2,34.1
+3482,r154,1984,Total,,1,47784
+3482,r155,1984,DOD,Number,2,7125
+3482,r156,1984,DOD,Percent,2,14.9
+3482,r157,1984,DOE,Number,2,NA
+3482,r158,1984,DOE,Percent,2,NA
+3482,r159,1984,HHS: NIH,Number,2,10983
+3482,r160,1984,HHS: NIH,Percent,2,23.0
+3482,r161,1984,HHS: Other HHS,Number,2,4124
+3482,r162,1984,HHS: Other HHS,Percent,2,8.6
+3482,r163,1984,NASA,Number,2,NA
+3482,r164,1984,NASA,Percent,2,NA
+3482,r165,1984,NSF,Number,2,9848
+3482,r166,1984,NSF,Percent,2,20.6
+3482,r167,1984,USDA,Number,2,NA
+3482,r168,1984,USDA,Percent,2,NA
+3482,r169,1984,Other,Number,2,15704
+3482,r170,1984,Other,Percent,2,32.9
+3482,r171,1985,Total,,1,49051
+3482,r172,1985,DOD,Number,2,7326
+3482,r173,1985,DOD,Percent,2,14.9
+3482,r174,1985,DOE,Number,2,NA
+3482,r175,1985,DOE,Percent,2,NA
+3482,r176,1985,HHS: NIH,Number,2,11112
+3482,r177,1985,HHS: NIH,Percent,2,22.7
+3482,r178,1985,HHS: Other HHS,Number,2,4740
+3482,r179,1985,HHS: Other HHS,Percent,2,9.7
+3482,r180,1985,NASA,Number,2,NA
+3482,r181,1985,NASA,Percent,2,NA
+3482,r182,1985,NSF,Number,2,10180
+3482,r183,1985,NSF,Percent,2,20.8
+3482,r184,1985,USDA,Number,2,2171
+3482,r185,1985,USDA,Percent,2,4.4
+3482,r186,1985,Other,Number,2,13522
+3482,r187,1985,Other,Percent,2,27.6
+3482,r188,1986,Total,,1,51361
+3482,r189,1986,DOD,Number,2,7940
+3482,r190,1986,DOD,Percent,2,15.5
+3482,r191,1986,DOE,Number,2,NA
+3482,r192,1986,DOE,Percent,2,NA
+3482,r193,1986,HHS: NIH,Number,2,11877
+3482,r194,1986,HHS: NIH,Percent,2,23.1
+3482,r195,1986,HHS: Other HHS,Number,2,4500
+3482,r196,1986,HHS: Other HHS,Percent,2,8.8
+3482,r197,1986,NASA,Number,2,NA
+3482,r198,1986,NASA,Percent,2,NA
+3482,r199,1986,NSF,Number,2,10826
+3482,r200,1986,NSF,Percent,2,21.1
+3482,r201,1986,USDA,Number,2,2328
+3482,r202,1986,USDA,Percent,2,4.5
+3482,r203,1986,Other,Number,2,13890
+3482,r204,1986,Other,Percent,2,27.0
+3482,r205,1987,Total,,1,53538
+3482,r206,1987,DOD,Number,2,8795
+3482,r207,1987,DOD,Percent,2,16.4
+3482,r208,1987,DOE,Number,2,NA
+3482,r209,1987,DOE,Percent,2,NA
+3482,r210,1987,HHS: NIH,Number,2,12944
+3482,r211,1987,HHS: NIH,Percent,2,24.2
+3482,r212,1987,HHS: Other HHS,Number,2,4247
+3482,r213,1987,HHS: Other HHS,Percent,2,7.9
+3482,r214,1987,NASA,Number,2,NA
+3482,r215,1987,NASA,Percent,2,NA
+3482,r216,1987,NSF,Number,2,11247
+3482,r217,1987,NSF,Percent,2,21.0
+3482,r218,1987,USDA,Number,2,2684
+3482,r219,1987,USDA,Percent,2,5.0
+3482,r220,1987,Other,Number,2,13621
+3482,r221,1987,Other,Percent,2,25.4
+3482,r222,1988,Total,,1,55489
+3482,r223,1988,DOD,Number,2,9546
+3482,r224,1988,DOD,Percent,2,17.2
+3482,r225,1988,DOE,Number,2,NA
+3482,r226,1988,DOE,Percent,2,NA
+3482,r227,1988,HHS: NIH,Number,2,13715
+3482,r228,1988,HHS: NIH,Percent,2,24.7
+3482,r229,1988,HHS: Other HHS,Number,2,4186
+3482,r230,1988,HHS: Other HHS,Percent,2,7.5
+3482,r231,1988,NASA,Number,2,NA
+3482,r232,1988,NASA,Percent,2,NA
+3482,r233,1988,NSF,Number,2,11634
+3482,r234,1988,NSF,Percent,2,21.0
+3482,r235,1988,USDA,Number,2,2591
+3482,r236,1988,USDA,Percent,2,4.7
+3482,r237,1988,Other,Number,2,13817
+3482,r238,1988,Other,Percent,2,24.9
+3482,r239,1989,Total,,1,57433
+3482,r240,1989,DOD,Number,2,9140
+3482,r241,1989,DOD,Percent,2,15.9
+3482,r242,1989,DOE,Number,2,NA
+3482,r243,1989,DOE,Percent,2,NA
+3482,r244,1989,HHS: NIH,Number,2,14357
+3482,r245,1989,HHS: NIH,Percent,2,25.0
+3482,r246,1989,HHS: Other HHS,Number,2,4335
+3482,r247,1989,HHS: Other HHS,Percent,2,7.5
+3482,r248,1989,NASA,Number,2,NA
+3482,r249,1989,NASA,Percent,2,NA
+3482,r250,1989,NSF,Number,2,11900
+3482,r251,1989,NSF,Percent,2,20.7
+3482,r252,1989,USDA,Number,2,2728
+3482,r253,1989,USDA,Percent,2,4.7
+3482,r254,1989,Other,Number,2,14973
+3482,r255,1989,Other,Percent,2,26.1
+3482,r256,1990,Total,,1,59258
+3482,r257,1990,DOD,Number,2,8868
+3482,r258,1990,DOD,Percent,2,15.0
+3482,r259,1990,DOE,Number,2,NA
+3482,r260,1990,DOE,Percent,2,NA
+3482,r261,1990,HHS: NIH,Number,2,14996
+3482,r262,1990,HHS: NIH,Percent,2,25.3
+3482,r263,1990,HHS: Other HHS,Number,2,4512
+3482,r264,1990,HHS: Other HHS,Percent,2,7.6
+3482,r265,1990,NASA,Number,2,NA
+3482,r266,1990,NASA,Percent,2,NA
+3482,r267,1990,NSF,Number,2,12025
+3482,r268,1990,NSF,Percent,2,20.3
+3482,r269,1990,USDA,Number,2,2722
+3482,r270,1990,USDA,Percent,2,4.6
+3482,r271,1990,Other,Number,2,16135
+3482,r272,1990,Other,Percent,2,27.2
+3482,r273,1991,Total,,1,63000
+3482,r274,1991,DOD,Number,2,9128
+3482,r275,1991,DOD,Percent,2,14.5
+3482,r276,1991,DOE,Number,2,NA
+3482,r277,1991,DOE,Percent,2,NA
+3482,r278,1991,HHS: NIH,Number,2,16018
+3482,r279,1991,HHS: NIH,Percent,2,25.4
+3482,r280,1991,HHS: Other HHS,Number,2,4461
+3482,r281,1991,HHS: Other HHS,Percent,2,7.1
+3482,r282,1991,NASA,Number,2,NA
+3482,r283,1991,NASA,Percent,2,NA
+3482,r284,1991,NSF,Number,2,12666
+3482,r285,1991,NSF,Percent,2,20.1
+3482,r286,1991,USDA,Number,2,3075
+3482,r287,1991,USDA,Percent,2,4.9
+3482,r288,1991,Other,Number,2,17652
+3482,r289,1991,Other,Percent,2,28.0
+3482,r290,1992,Total,,1,65607
+3482,r291,1992,DOD,Number,2,9247
+3482,r292,1992,DOD,Percent,2,14.1
+3482,r293,1992,DOE,Number,2,NA
+3482,r294,1992,DOE,Percent,2,NA
+3482,r295,1992,HHS: NIH,Number,2,17091
+3482,r296,1992,HHS: NIH,Percent,2,26.1
+3482,r297,1992,HHS: Other HHS,Number,2,4321
+3482,r298,1992,HHS: Other HHS,Percent,2,6.6
+3482,r299,1992,NASA,Number,2,NA
+3482,r300,1992,NASA,Percent,2,NA
+3482,r301,1992,NSF,Number,2,13366
+3482,r302,1992,NSF,Percent,2,20.4
+3482,r303,1992,USDA,Number,2,3216
+3482,r304,1992,USDA,Percent,2,4.9
+3482,r305,1992,Other,Number,2,18366
+3482,r306,1992,Other,Percent,2,28.0
+3482,r307,1993,Total,,1,67673
+3482,r308,1993,DOD,Number,2,9750
+3482,r309,1993,DOD,Percent,2,14.4
+3482,r310,1993,DOE,Number,2,NA
+3482,r311,1993,DOE,Percent,2,NA
+3482,r312,1993,HHS: NIH,Number,2,18135
+3482,r313,1993,HHS: NIH,Percent,2,26.8
+3482,r314,1993,HHS: Other HHS,Number,2,3888
+3482,r315,1993,HHS: Other HHS,Percent,2,5.7
+3482,r316,1993,NASA,Number,2,NA
+3482,r317,1993,NASA,Percent,2,NA
+3482,r318,1993,NSF,Number,2,13530
+3482,r319,1993,NSF,Percent,2,20.0
+3482,r320,1993,USDA,Number,2,3324
+3482,r321,1993,USDA,Percent,2,4.9
+3482,r322,1993,Other,Number,2,19046
+3482,r323,1993,Other,Percent,2,28.1
+3482,r324,1994,Total,,1,68550
+3482,r325,1994,DOD,Number,2,9449
+3482,r326,1994,DOD,Percent,2,13.8
+3482,r327,1994,DOE,Number,2,NA
+3482,r328,1994,DOE,Percent,2,NA
+3482,r329,1994,HHS: NIH,Number,2,18292
+3482,r330,1994,HHS: NIH,Percent,2,26.7
+3482,r331,1994,HHS: Other HHS,Number,2,4374
+3482,r332,1994,HHS: Other HHS,Percent,2,6.4
+3482,r333,1994,NASA,Number,2,NA
+3482,r334,1994,NASA,Percent,2,NA
+3482,r335,1994,NSF,Number,2,13990
+3482,r336,1994,NSF,Percent,2,20.4
+3482,r337,1994,USDA,Number,2,3422
+3482,r338,1994,USDA,Percent,2,5.0
+3482,r339,1994,Other,Number,2,19023
+3482,r340,1994,Other,Percent,2,27.8
+3482,r341,1995,Total,,1,67294
+3482,r342,1995,DOD,Number,2,9339
+3482,r343,1995,DOD,Percent,2,13.9
+3482,r344,1995,DOE,Number,2,NA
+3482,r345,1995,DOE,Percent,2,NA
+3482,r346,1995,HHS: NIH,Number,2,18109
+3482,r347,1995,HHS: NIH,Percent,2,26.9
+3482,r348,1995,HHS: Other HHS,Number,2,4666
+3482,r349,1995,HHS: Other HHS,Percent,2,6.9
+3482,r350,1995,NASA,Number,2,NA
+3482,r351,1995,NASA,Percent,2,NA
+3482,r352,1995,NSF,Number,2,13661
+3482,r353,1995,NSF,Percent,2,20.3
+3482,r354,1995,USDA,Number,2,3254
+3482,r355,1995,USDA,Percent,2,4.8
+3482,r356,1995,Other,Number,2,18265
+3482,r357,1995,Other,Percent,2,27.1
+3482,r358,1996,Total,,1,65240
+3482,r359,1996,DOD,Number,2,8802
+3482,r360,1996,DOD,Percent,2,13.5
+3482,r361,1996,DOE,Number,2,NA
+3482,r362,1996,DOE,Percent,2,NA
+3482,r363,1996,HHS: NIH,Number,2,17929
+3482,r364,1996,HHS: NIH,Percent,2,27.5
+3482,r365,1996,HHS: Other HHS,Number,2,4432
+3482,r366,1996,HHS: Other HHS,Percent,2,6.8
+3482,r367,1996,NASA,Number,2,2309
+3482,r368,1996,NASA,Percent,2,3.5
+3482,r369,1996,NSF,Number,2,13412
+3482,r370,1996,NSF,Percent,2,20.6
+3482,r371,1996,USDA,Number,2,3004
+3482,r372,1996,USDA,Percent,2,4.6
+3482,r373,1996,Other,Number,2,15352
+3482,r374,1996,Other,Percent,2,23.5
+3482,r375,1997,Total,,1,64522
+3482,r376,1997,DOD,Number,2,9021
+3482,r377,1997,DOD,Percent,2,14.0
+3482,r378,1997,DOE,Number,2,NA
+3482,r379,1997,DOE,Percent,2,NA
+3482,r380,1997,HHS: NIH,Number,2,18087
+3482,r381,1997,HHS: NIH,Percent,2,28.0
+3482,r382,1997,HHS: Other HHS,Number,2,4443
+3482,r383,1997,HHS: Other HHS,Percent,2,6.9
+3482,r384,1997,NASA,Number,2,2586
+3482,r385,1997,NASA,Percent,2,4.0
+3482,r386,1997,NSF,Number,2,13362
+3482,r387,1997,NSF,Percent,2,20.7
+3482,r388,1997,USDA,Number,2,2646
+3482,r389,1997,USDA,Percent,2,4.1
+3482,r390,1997,Other,Number,2,14377
+3482,r391,1997,Other,Percent,2,22.3
+3482,r392,1998,Total,,1,63759
+3482,r393,1998,DOD,Number,2,8259
+3482,r394,1998,DOD,Percent,2,13.0
+3482,r395,1998,DOE,Number,2,NA
+3482,r396,1998,DOE,Percent,2,NA
+3482,r397,1998,HHS: NIH,Number,2,18215
+3482,r398,1998,HHS: NIH,Percent,2,28.6
+3482,r399,1998,HHS: Other HHS,Number,2,4489
+3482,r400,1998,HHS: Other HHS,Percent,2,7.0
+3482,r401,1998,NASA,Number,2,2646
+3482,r402,1998,NASA,Percent,2,4.2
+3482,r403,1998,NSF,Number,2,13459
+3482,r404,1998,NSF,Percent,2,21.1
+3482,r405,1998,USDA,Number,2,2485
+3482,r406,1998,USDA,Percent,2,3.9
+3482,r407,1998,Other,Number,2,14206
+3482,r408,1998,Other,Percent,2,22.3
+3482,r409,1999,Total,,1,65796
+3482,r410,1999,DOD,Number,2,8026
+3482,r411,1999,DOD,Percent,2,12.2
+3482,r412,1999,DOE,Number,2,2749
+3482,r413,1999,DOE,Percent,2,4.2
+3482,r414,1999,HHS: NIH,Number,2,19019
+3482,r415,1999,HHS: NIH,Percent,2,28.9
+3482,r416,1999,HHS: Other HHS,Number,2,4423
+3482,r417,1999,HHS: Other HHS,Percent,2,6.7
+3482,r418,1999,NASA,Number,2,2579
+3482,r419,1999,NASA,Percent,2,3.9
+3482,r420,1999,NSF,Number,2,13835
+3482,r421,1999,NSF,Percent,2,21.0
+3482,r422,1999,USDA,Number,2,2634
+3482,r423,1999,USDA,Percent,2,4.0
+3482,r424,1999,Other,Number,2,12531
+3482,r425,1999,Other,Percent,2,19.0
+3482,r426,2000,Total,,1,67588
+3482,r427,2000,DOD,Number,2,8141
+3482,r428,2000,DOD,Percent,2,12.0
+3482,r429,2000,DOE,Number,2,2995
+3482,r430,2000,DOE,Percent,2,4.4
+3482,r431,2000,HHS: NIH,Number,2,19472
+3482,r432,2000,HHS: NIH,Percent,2,28.8
+3482,r433,2000,HHS: Other HHS,Number,2,4018
+3482,r434,2000,HHS: Other HHS,Percent,2,5.9
+3482,r435,2000,NASA,Number,2,2780
+3482,r436,2000,NASA,Percent,2,4.1
+3482,r437,2000,NSF,Number,2,14599
+3482,r438,2000,NSF,Percent,2,21.6
+3482,r439,2000,USDA,Number,2,2630
+3482,r440,2000,USDA,Percent,2,3.9
+3482,r441,2000,Other,Number,2,12953
+3482,r442,2000,Other,Percent,2,19.2
+3482,r443,2001,Total,,1,68843
+3482,r444,2001,DOD,Number,2,7960
+3482,r445,2001,DOD,Percent,2,11.6
+3482,r446,2001,DOE,Number,2,3116
+3482,r447,2001,DOE,Percent,2,4.5
+3482,r448,2001,HHS: NIH,Number,2,19904
+3482,r449,2001,HHS: NIH,Percent,2,28.9
+3482,r450,2001,HHS: Other HHS,Number,2,4433
+3482,r451,2001,HHS: Other HHS,Percent,2,6.4
+3482,r452,2001,NASA,Number,2,2819
+3482,r453,2001,NASA,Percent,2,4.1
+3482,r454,2001,NSF,Number,2,15429
+3482,r455,2001,NSF,Percent,2,22.4
+3482,r456,2001,USDA,Number,2,2735
+3482,r457,2001,USDA,Percent,2,4.0
+3482,r458,2001,Other,Number,2,12447
+3482,r459,2001,Other,Percent,2,18.1
+3482,r460,2002,Total,,1,75538
+3482,r461,2002,DOD,Number,2,7977
+3482,r462,2002,DOD,Percent,2,10.6
+3482,r463,2002,DOE,Number,2,3548
+3482,r464,2002,DOE,Percent,2,4.7
+3482,r465,2002,HHS: NIH,Number,2,22129
+3482,r466,2002,HHS: NIH,Percent,2,29.3
+3482,r467,2002,HHS: Other HHS,Number,2,4830
+3482,r468,2002,HHS: Other HHS,Percent,2,6.4
+3482,r469,2002,NASA,Number,2,3082
+3482,r470,2002,NASA,Percent,2,4.1
+3482,r471,2002,NSF,Number,2,17135
+3482,r472,2002,NSF,Percent,2,22.7
+3482,r473,2002,USDA,Number,2,3100
+3482,r474,2002,USDA,Percent,2,4.1
+3482,r475,2002,Other,Number,2,13737
+3482,r476,2002,Other,Percent,2,18.2
+3482,r477,2003,Total,,1,81761
+3482,r478,2003,DOD,Number,2,9204
+3482,r479,2003,DOD,Percent,2,11.3
+3482,r480,2003,DOE,Number,2,4024
+3482,r481,2003,DOE,Percent,2,4.9
+3482,r482,2003,HHS: NIH,Number,2,24309
+3482,r483,2003,HHS: NIH,Percent,2,29.7
+3482,r484,2003,HHS: Other HHS,Number,2,4922
+3482,r485,2003,HHS: Other HHS,Percent,2,6.0
+3482,r486,2003,NASA,Number,2,3230
+3482,r487,2003,NASA,Percent,2,4.0
+3482,r488,2003,NSF,Number,2,19308
+3482,r489,2003,NSF,Percent,2,23.6
+3482,r490,2003,USDA,Number,2,3468
+3482,r491,2003,USDA,Percent,2,4.2
+3482,r492,2003,Other,Number,2,13296
+3482,r493,2003,Other,Percent,2,16.3
+3482,r494,2004,Total,,1,83816
+3482,r495,2004,DOD,Number,2,9007
+3482,r496,2004,DOD,Percent,2,10.7
+3482,r497,2004,DOE,Number,2,4135
+3482,r498,2004,DOE,Percent,2,4.9
+3482,r499,2004,HHS: NIH,Number,2,26689
+3482,r500,2004,HHS: NIH,Percent,2,31.8
+3482,r501,2004,HHS: Other HHS,Number,2,4211
+3482,r502,2004,HHS: Other HHS,Percent,2,5.0
+3482,r503,2004,NASA,Number,2,2916
+3482,r504,2004,NASA,Percent,2,3.5
+3482,r505,2004,NSF,Number,2,19975
+3482,r506,2004,NSF,Percent,2,23.8
+3482,r507,2004,USDA,Number,2,3563
+3482,r508,2004,USDA,Percent,2,4.3
+3482,r509,2004,Other,Number,2,13320
+3482,r510,2004,Other,Percent,2,15.9
+3482,r511,2005,Total,,1,83723
+3482,r512,2005,DOD,Number,2,8993
+3482,r513,2005,DOD,Percent,2,10.7
+3482,r514,2005,DOE,Number,2,4392
+3482,r515,2005,DOE,Percent,2,5.2
+3482,r516,2005,HHS: NIH,Number,2,26868
+3482,r517,2005,HHS: NIH,Percent,2,32.1
+3482,r518,2005,HHS: Other HHS,Number,2,3912
+3482,r519,2005,HHS: Other HHS,Percent,2,4.7
+3482,r520,2005,NASA,Number,2,2691
+3482,r521,2005,NASA,Percent,2,3.2
+3482,r522,2005,NSF,Number,2,20387
+3482,r523,2005,NSF,Percent,2,24.4
+3482,r524,2005,USDA,Number,2,3351
+3482,r525,2005,USDA,Percent,2,4.0
+3482,r526,2005,Other,Number,2,13129
+3482,r527,2005,Other,Percent,2,15.7
+3482,r528,2006,Total,,1,83962
+3482,r529,2006,DOD,Number,2,8867
+3482,r530,2006,DOD,Percent,2,10.6
+3482,r531,2006,DOE,Number,2,4480
+3482,r532,2006,DOE,Percent,2,5.3
+3482,r533,2006,HHS: NIH,Number,2,27587
+3482,r534,2006,HHS: NIH,Percent,2,32.9
+3482,r535,2006,HHS: Other HHS,Number,2,3662
+3482,r536,2006,HHS: Other HHS,Percent,2,4.4
+3482,r537,2006,NASA,Number,2,2364
+3482,r538,2006,NASA,Percent,2,2.8
+3482,r539,2006,NSF,Number,2,20339
+3482,r540,2006,NSF,Percent,2,24.2
+3482,r541,2006,USDA,Number,2,3000
+3482,r542,2006,USDA,Percent,2,3.6
+3482,r543,2006,Other,Number,2,13663
+3482,r544,2006,Other,Percent,2,16.3
+3482,r545,2007old<sup>b</sup>,Total,,1,81542
+3482,r546,2007old<sup>b</sup>,DOD,Number,2,8874
+3482,r547,2007old<sup>b</sup>,DOD,Percent,2,10.9
+3482,r548,2007old<sup>b</sup>,DOE,Number,2,4281
+3482,r549,2007old<sup>b</sup>,DOE,Percent,2,5.3
+3482,r550,2007old<sup>b</sup>,HHS: NIH,Number,2,26982
+3482,r551,2007old<sup>b</sup>,HHS: NIH,Percent,2,33.1
+3482,r552,2007old<sup>b</sup>,HHS: Other HHS,Number,2,3067
+3482,r553,2007old<sup>b</sup>,HHS: Other HHS,Percent,2,3.8
+3482,r554,2007old<sup>b</sup>,NASA,Number,2,2314
+3482,r555,2007old<sup>b</sup>,NASA,Percent,2,2.8
+3482,r556,2007old<sup>b</sup>,NSF,Number,2,19747
+3482,r557,2007old<sup>b</sup>,NSF,Percent,2,24.2
+3482,r558,2007old<sup>b</sup>,USDA,Number,2,2796
+3482,r559,2007old<sup>b</sup>,USDA,Percent,2,3.4
+3482,r560,2007old<sup>b</sup>,Other,Number,2,13481
+3482,r561,2007old<sup>b</sup>,Other,Percent,2,16.5
+3482,r562,2007new<sup>b</sup>,Total,,1,81859
+3482,r563,2007new<sup>b</sup>,DOD,Number,2,8885
+3482,r564,2007new<sup>b</sup>,DOD,Percent,2,10.9
+3482,r565,2007new<sup>b</sup>,DOE,Number,2,4284
+3482,r566,2007new<sup>b</sup>,DOE,Percent,2,5.2
+3482,r567,2007new<sup>b</sup>,HHS: NIH,Number,2,27015
+3482,r568,2007new<sup>b</sup>,HHS: NIH,Percent,2,33.0
+3482,r569,2007new<sup>b</sup>,HHS: Other HHS,Number,2,3086
+3482,r570,2007new<sup>b</sup>,HHS: Other HHS,Percent,2,3.8
+3482,r571,2007new<sup>b</sup>,NASA,Number,2,2317
+3482,r572,2007new<sup>b</sup>,NASA,Percent,2,2.8
+3482,r573,2007new<sup>b</sup>,NSF,Number,2,19792
+3482,r574,2007new<sup>b</sup>,NSF,Percent,2,24.2
+3482,r575,2007new<sup>b</sup>,USDA,Number,2,2810
+3482,r576,2007new<sup>b</sup>,USDA,Percent,2,3.4
+3482,r577,2007new<sup>b</sup>,Other,Number,2,13670
+3482,r578,2007new<sup>b</sup>,Other,Percent,2,16.7
+3482,r579,2008,Total,,1,78464
+3482,r580,2008,DOD,Number,2,8219
+3482,r581,2008,DOD,Percent,2,10.5
+3482,r582,2008,DOE,Number,2,4341
+3482,r583,2008,DOE,Percent,2,5.5
+3482,r584,2008,HHS: NIH,Number,2,26003
+3482,r585,2008,HHS: NIH,Percent,2,33.1
+3482,r586,2008,HHS: Other HHS,Number,2,2496
+3482,r587,2008,HHS: Other HHS,Percent,2,3.2
+3482,r588,2008,NASA,Number,2,2344
+3482,r589,2008,NASA,Percent,2,3.0
+3482,r590,2008,NSF,Number,2,19882
+3482,r591,2008,NSF,Percent,2,25.3
+3482,r592,2008,USDA,Number,2,2770
+3482,r593,2008,USDA,Percent,2,3.5
+3482,r594,2008,Other,Number,2,12409
+3482,r595,2008,Other,Percent,2,15.8
+3482,r596,2009,Total,,1,81565
+3482,r597,2009,DOD,Number,2,8683
+3482,r598,2009,DOD,Percent,2,10.6
+3482,r599,2009,DOE,Number,2,4608
+3482,r600,2009,DOE,Percent,2,5.6
+3482,r601,2009,HHS: NIH,Number,2,26506
+3482,r602,2009,HHS: NIH,Percent,2,32.5
+3482,r603,2009,HHS: Other HHS,Number,2,2200
+3482,r604,2009,HHS: Other HHS,Percent,2,2.7
+3482,r605,2009,NASA,Number,2,2426
+3482,r606,2009,NASA,Percent,2,3.0
+3482,r607,2009,NSF,Number,2,21682
+3482,r608,2009,NSF,Percent,2,26.6
+3482,r609,2009,USDA,Number,2,2706
+3482,r610,2009,USDA,Percent,2,3.3
+3482,r611,2009,Other,Number,2,12754
+3482,r612,2009,Other,Percent,2,15.6
+3482,r613,2010,Total,,1,86310
+3482,r614,2010,DOD,Number,2,9233
+3482,r615,2010,DOD,Percent,2,10.7
+3482,r616,2010,DOE,Number,2,5512
+3482,r617,2010,DOE,Percent,2,6.4
+3482,r618,2010,HHS: NIH,Number,2,27615
+3482,r619,2010,HHS: NIH,Percent,2,32.0
+3482,r620,2010,HHS: Other HHS,Number,2,2255
+3482,r621,2010,HHS: Other HHS,Percent,2,2.6
+3482,r622,2010,NASA,Number,2,2472
+3482,r623,2010,NASA,Percent,2,2.9
+3482,r624,2010,NSF,Number,2,23226
+3482,r625,2010,NSF,Percent,2,26.9
+3482,r626,2010,USDA,Number,2,3061
+3482,r627,2010,USDA,Percent,2,3.5
+3482,r628,2010,Other,Number,2,12936
+3482,r629,2010,Other,Percent,2,15.0
+3482,r630,2011,Total,,1,85220
+3482,r631,2011,DOD,Number,2,9107
+3482,r632,2011,DOD,Percent,2,10.7
+3482,r633,2011,DOE,Number,2,5738
+3482,r634,2011,DOE,Percent,2,6.7
+3482,r635,2011,HHS: NIH,Number,2,25670
+3482,r636,2011,HHS: NIH,Percent,2,30.1
+3482,r637,2011,HHS: Other HHS,Number,2,2201
+3482,r638,2011,HHS: Other HHS,Percent,2,2.6
+3482,r639,2011,NASA,Number,2,2394
+3482,r640,2011,NASA,Percent,2,2.8
+3482,r641,2011,NSF,Number,2,24226
+3482,r642,2011,NSF,Percent,2,28.4
+3482,r643,2011,USDA,Number,2,2862
+3482,r644,2011,USDA,Percent,2,3.4
+3482,r645,2011,Other,Number,2,13022
+3482,r646,2011,Other,Percent,2,15.3
+3482,r647,2012,Total,,1,80962
+3482,r648,2012,DOD,Number,2,8748
+3482,r649,2012,DOD,Percent,2,10.8
+3482,r650,2012,DOE,Number,2,5343
+3482,r651,2012,DOE,Percent,2,6.6
+3482,r652,2012,HHS: NIH,Number,2,24256
+3482,r653,2012,HHS: NIH,Percent,2,30.0
+3482,r654,2012,HHS: Other HHS,Number,2,1921
+3482,r655,2012,HHS: Other HHS,Percent,2,2.4
+3482,r656,2012,NASA,Number,2,2173
+3482,r657,2012,NASA,Percent,2,2.7
+3482,r658,2012,NSF,Number,2,24243
+3482,r659,2012,NSF,Percent,2,29.9
+3482,r660,2012,USDA,Number,2,2664
+3482,r661,2012,USDA,Percent,2,3.3
+3482,r662,2012,Other,Number,2,11614
+3482,r663,2012,Other,Percent,2,14.3
+3482,r664,2013,Total,,1,76840
+3482,r665,2013,DOD,Number,2,8304
+3482,r666,2013,DOD,Percent,2,10.8
+3482,r667,2013,DOE,Number,2,4803
+3482,r668,2013,DOE,Percent,2,6.3
+3482,r669,2013,HHS: NIH,Number,2,22372
+3482,r670,2013,HHS: NIH,Percent,2,29.1
+3482,r671,2013,HHS: Other HHS,Number,2,1642
+3482,r672,2013,HHS: Other HHS,Percent,2,2.1
+3482,r673,2013,NASA,Number,2,2006
+3482,r674,2013,NASA,Percent,2,2.6
+3482,r675,2013,NSF,Number,2,23307
+3482,r676,2013,NSF,Percent,2,30.3
+3482,r677,2013,USDA,Number,2,2577
+3482,r678,2013,USDA,Percent,2,3.4
+3482,r679,2013,Other,Number,2,11829
+3482,r680,2013,Other,Percent,2,15.4
+3482,r681,2014old<sup>c</sup>,Total,,1,72507
+3482,r682,2014old<sup>c</sup>,DOD,Number,2,7445
+3482,r683,2014old<sup>c</sup>,DOD,Percent,2,10.3
+3482,r684,2014old<sup>c</sup>,DOE,Number,2,4398
+3482,r685,2014old<sup>c</sup>,DOE,Percent,2,6.1
+3482,r686,2014old<sup>c</sup>,HHS: NIH,Number,2,21153
+3482,r687,2014old<sup>c</sup>,HHS: NIH,Percent,2,29.2
+3482,r688,2014old<sup>c</sup>,HHS: Other HHS,Number,2,1365
+3482,r689,2014old<sup>c</sup>,HHS: Other HHS,Percent,2,1.9
+3482,r690,2014old<sup>c</sup>,NASA,Number,2,2005
+3482,r691,2014old<sup>c</sup>,NASA,Percent,2,2.8
+3482,r692,2014old<sup>c</sup>,NSF,Number,2,22791
+3482,r693,2014old<sup>c</sup>,NSF,Percent,2,31.4
+3482,r694,2014old<sup>c</sup>,USDA,Number,2,2400
+3482,r695,2014old<sup>c</sup>,USDA,Percent,2,3.3
+3482,r696,2014old<sup>c</sup>,Other,Number,2,10950
+3482,r697,2014old<sup>c</sup>,Other,Percent,2,15.1
+3482,r698,2014new<sup>c</sup>,Total,,1,72756
+3482,r699,2014new<sup>c</sup>,DOD,Number,2,7454
+3482,r700,2014new<sup>c</sup>,DOD,Percent,2,10.2
+3482,r701,2014new<sup>c</sup>,DOE,Number,2,4401
+3482,r702,2014new<sup>c</sup>,DOE,Percent,2,6.0
+3482,r703,2014new<sup>c</sup>,HHS: NIH,Number,2,21191
+3482,r704,2014new<sup>c</sup>,HHS: NIH,Percent,2,29.1
+3482,r705,2014new<sup>c</sup>,HHS: Other HHS,Number,2,1382
+3482,r706,2014new<sup>c</sup>,HHS: Other HHS,Percent,2,1.9
+3482,r707,2014new<sup>c</sup>,NASA,Number,2,2013
+3482,r708,2014new<sup>c</sup>,NASA,Percent,2,2.8
+3482,r709,2014new<sup>c</sup>,NSF,Number,2,22899
+3482,r710,2014new<sup>c</sup>,NSF,Percent,2,31.5
+3482,r711,2014new<sup>c</sup>,USDA,Number,2,2420
+3482,r712,2014new<sup>c</sup>,USDA,Percent,2,3.3
+3482,r713,2014new<sup>c</sup>,Other,Number,2,10996
+3482,r714,2014new<sup>c</sup>,Other,Percent,2,15.1
+3482,r715,2015,Total,,1,72393
+3482,r716,2015,DOD,Number,2,8127
+3482,r717,2015,DOD,Percent,2,11.2
+3482,r718,2015,DOE,Number,2,4309
+3482,r719,2015,DOE,Percent,2,6.0
+3482,r720,2015,HHS: NIH,Number,2,20641
+3482,r721,2015,HHS: NIH,Percent,2,28.5
+3482,r722,2015,HHS: Other HHS,Number,2,1715
+3482,r723,2015,HHS: Other HHS,Percent,2,2.4
+3482,r724,2015,NASA,Number,2,2036
+3482,r725,2015,NASA,Percent,2,2.8
+3482,r726,2015,NSF,Number,2,22924
+3482,r727,2015,NSF,Percent,2,31.7
+3482,r728,2015,USDA,Number,2,2676
+3482,r729,2015,USDA,Percent,2,3.7
+3482,r730,2015,Other,Number,2,9965
+3482,r731,2015,Other,Percent,2,13.8
+3482,r732,2016,Total,,1,71955
+3482,r733,2016,DOD,Number,2,8291
+3482,r734,2016,DOD,Percent,2,11.5
+3482,r735,2016,DOE,Number,2,4482
+3482,r736,2016,DOE,Percent,2,6.2
+3482,r737,2016,HHS: NIH,Number,2,20381
+3482,r738,2016,HHS: NIH,Percent,2,28.3
+3482,r739,2016,HHS: Other HHS,Number,2,1635
+3482,r740,2016,HHS: Other HHS,Percent,2,2.3
+3482,r741,2016,NASA,Number,2,2025
+3482,r742,2016,NASA,Percent,2,2.8
+3482,r743,2016,NSF,Number,2,22677
+3482,r744,2016,NSF,Percent,2,31.5
+3482,r745,2016,USDA,Number,2,2535
+3482,r746,2016,USDA,Percent,2,3.5
+3482,r747,2016,Other,Number,2,9929
+3482,r748,2016,Other,Percent,2,13.8
+3482,r749,2017old<sup>d</sup>,Total,,1,69899
+3482,r750,2017old<sup>d</sup>,DOD,Number,2,8365
+3482,r751,2017old<sup>d</sup>,DOD,Percent,2,12.0
+3482,r752,2017old<sup>d</sup>,DOE,Number,2,4480
+3482,r753,2017old<sup>d</sup>,DOE,Percent,2,6.4
+3482,r754,2017old<sup>d</sup>,HHS: NIH,Number,2,19687
+3482,r755,2017old<sup>d</sup>,HHS: NIH,Percent,2,28.2
+3482,r756,2017old<sup>d</sup>,HHS: Other HHS,Number,2,1727
+3482,r757,2017old<sup>d</sup>,HHS: Other HHS,Percent,2,2.5
+3482,r758,2017old<sup>d</sup>,NASA,Number,2,1821
+3482,r759,2017old<sup>d</sup>,NASA,Percent,2,2.6
+3482,r760,2017old<sup>d</sup>,NSF,Number,2,21010
+3482,r761,2017old<sup>d</sup>,NSF,Percent,2,30.1
+3482,r762,2017old<sup>d</sup>,USDA,Number,2,2444
+3482,r763,2017old<sup>d</sup>,USDA,Percent,2,3.5
+3482,r764,2017old<sup>d</sup>,Other,Number,2,10365
+3482,r765,2017old<sup>d</sup>,Other,Percent,2,14.8
+3482,r766,2017new<sup>d</sup>,Total,,1,69537
+3482,r767,2017new<sup>d</sup>,DOD,Number,2,8323
+3482,r768,2017new<sup>d</sup>,DOD,Percent,2,12.0
+3482,r769,2017new<sup>d</sup>,DOE,Number,2,4480
+3482,r770,2017new<sup>d</sup>,DOE,Percent,2,6.4
+3482,r771,2017new<sup>d</sup>,HHS: NIH,Number,2,19645
+3482,r772,2017new<sup>d</sup>,HHS: NIH,Percent,2,28.3
+3482,r773,2017new<sup>d</sup>,HHS: Other HHS,Number,2,1719
+3482,r774,2017new<sup>d</sup>,HHS: Other HHS,Percent,2,2.5
+3482,r775,2017new<sup>d</sup>,NASA,Number,2,1818
+3482,r776,2017new<sup>d</sup>,NASA,Percent,2,2.6
+3482,r777,2017new<sup>d</sup>,NSF,Number,2,20946
+3482,r778,2017new<sup>d</sup>,NSF,Percent,2,30.1
+3482,r779,2017new<sup>d</sup>,USDA,Number,2,2415
+3482,r780,2017new<sup>d</sup>,USDA,Percent,2,3.5
+3482,r781,2017new<sup>d</sup>,Other,Number,2,10191
+3482,r782,2017new<sup>d</sup>,Other,Percent,2,14.7
+3482,r783,2018,Total,,1,71594
+3482,r784,2018,DOD,Number,2,7600
+3482,r785,2018,DOD,Percent,2,10.6
+3482,r786,2018,DOE,Number,2,4568
+3482,r787,2018,DOE,Percent,2,6.4
+3482,r788,2018,HHS: NIH,Number,2,19903
+3482,r789,2018,HHS: NIH,Percent,2,27.8
+3482,r790,2018,HHS: Other HHS,Number,2,2842
+3482,r791,2018,HHS: Other HHS,Percent,2,4.0
+3482,r792,2018,NASA,Number,2,1899
+3482,r793,2018,NASA,Percent,2,2.7
+3482,r794,2018,NSF,Number,2,21711
+3482,r795,2018,NSF,Percent,2,30.3
+3482,r796,2018,USDA,Number,2,2619
+3482,r797,2018,USDA,Percent,2,3.7
+3482,r798,2018,Other,Number,2,10452
+3482,r799,2018,Other,Percent,2,14.6
+3482,r800,2019,Total,,1,73605
+3482,r801,2019,DOD,Number,2,8495
+3482,r802,2019,DOD,Percent,2,11.5
+3482,r803,2019,DOE,Number,2,5119
+3482,r804,2019,DOE,Percent,2,7.0
+3482,r805,2019,HHS: NIH,Number,2,21025
+3482,r806,2019,HHS: NIH,Percent,2,28.6
+3482,r807,2019,HHS: Other HHS,Number,2,2498
+3482,r808,2019,HHS: Other HHS,Percent,2,3.4
+3482,r809,2019,NASA,Number,2,2057
+3482,r810,2019,NASA,Percent,2,2.8
+3482,r811,2019,NSF,Number,2,21801
+3482,r812,2019,NSF,Percent,2,29.6
+3482,r813,2019,USDA,Number,2,2580
+3482,r814,2019,USDA,Percent,2,3.5
+3482,r815,2019,Other,Number,2,10030
+3482,r816,2019,Other,Percent,2,13.6
+3482,r817,Master's students -> 2017new<sup>d</sup>,Total,,1,12354
+3482,r818,Master's students -> 2017new<sup>d</sup>,DOD,Number,2,2756
+3482,r819,Master's students -> 2017new<sup>d</sup>,DOD,Percent,2,22.3
+3482,r820,Master's students -> 2017new<sup>d</sup>,DOE,Number,2,491
+3482,r821,Master's students -> 2017new<sup>d</sup>,DOE,Percent,2,4.0
+3482,r822,Master's students -> 2017new<sup>d</sup>,HHS: NIH,Number,2,1014
+3482,r823,Master's students -> 2017new<sup>d</sup>,HHS: NIH,Percent,2,8.2
+3482,r824,Master's students -> 2017new<sup>d</sup>,HHS: Other HHS,Number,2,310
+3482,r825,Master's students -> 2017new<sup>d</sup>,HHS: Other HHS,Percent,2,2.5
+3482,r826,Master's students -> 2017new<sup>d</sup>,NASA,Number,2,286
+3482,r827,Master's students -> 2017new<sup>d</sup>,NASA,Percent,2,2.3
+3482,r828,Master's students -> 2017new<sup>d</sup>,NSF,Number,2,2212
+3482,r829,Master's students -> 2017new<sup>d</sup>,NSF,Percent,2,17.9
+3482,r830,Master's students -> 2017new<sup>d</sup>,USDA,Number,2,962
+3482,r831,Master's students -> 2017new<sup>d</sup>,USDA,Percent,2,7.8
+3482,r832,Master's students -> 2017new<sup>d</sup>,Other,Number,2,4323
+3482,r833,Master's students -> 2017new<sup>d</sup>,Other,Percent,2,35.0
+3482,r834,Master's students -> 2018,Total,,1,12324
+3482,r835,Master's students -> 2018,DOD,Number,2,2345
+3482,r836,Master's students -> 2018,DOD,Percent,2,19.0
+3482,r837,Master's students -> 2018,DOE,Number,2,412
+3482,r838,Master's students -> 2018,DOE,Percent,2,3.3
+3482,r839,Master's students -> 2018,HHS: NIH,Number,2,975
+3482,r840,Master's students -> 2018,HHS: NIH,Percent,2,7.9
+3482,r841,Master's students -> 2018,HHS: Other HHS,Number,2,539
+3482,r842,Master's students -> 2018,HHS: Other HHS,Percent,2,4.4
+3482,r843,Master's students -> 2018,NASA,Number,2,300
+3482,r844,Master's students -> 2018,NASA,Percent,2,2.4
+3482,r845,Master's students -> 2018,NSF,Number,2,2160
+3482,r846,Master's students -> 2018,NSF,Percent,2,17.5
+3482,r847,Master's students -> 2018,USDA,Number,2,1059
+3482,r848,Master's students -> 2018,USDA,Percent,2,8.6
+3482,r849,Master's students -> 2018,Other,Number,2,4534
+3482,r850,Master's students -> 2018,Other,Percent,2,36.8
+3482,r851,Master's students -> 2019,Total,,1,11491
+3482,r852,Master's students -> 2019,DOD,Number,2,2492
+3482,r853,Master's students -> 2019,DOD,Percent,2,21.7
+3482,r854,Master's students -> 2019,DOE,Number,2,452
+3482,r855,Master's students -> 2019,DOE,Percent,2,3.9
+3482,r856,Master's students -> 2019,HHS: NIH,Number,2,1046
+3482,r857,Master's students -> 2019,HHS: NIH,Percent,2,9.1
+3482,r858,Master's students -> 2019,HHS: Other HHS,Number,2,471
+3482,r859,Master's students -> 2019,HHS: Other HHS,Percent,2,4.1
+3482,r860,Master's students -> 2019,NASA,Number,2,276
+3482,r861,Master's students -> 2019,NASA,Percent,2,2.4
+3482,r862,Master's students -> 2019,NSF,Number,2,2054
+3482,r863,Master's students -> 2019,NSF,Percent,2,17.9
+3482,r864,Master's students -> 2019,USDA,Number,2,977
+3482,r865,Master's students -> 2019,USDA,Percent,2,8.5
+3482,r866,Master's students -> 2019,Other,Number,2,3723
+3482,r867,Master's students -> 2019,Other,Percent,2,32.4
+3482,r868,Doctoral students -> 2017new<sup>d</sup>,Total,,1,57183
+3482,r869,Doctoral students -> 2017new<sup>d</sup>,DOD,Number,2,5567
+3482,r870,Doctoral students -> 2017new<sup>d</sup>,DOD,Percent,2,9.7
+3482,r871,Doctoral students -> 2017new<sup>d</sup>,DOE,Number,2,3989
+3482,r872,Doctoral students -> 2017new<sup>d</sup>,DOE,Percent,2,7.0
+3482,r873,Doctoral students -> 2017new<sup>d</sup>,HHS: NIH,Number,2,18631
+3482,r874,Doctoral students -> 2017new<sup>d</sup>,HHS: NIH,Percent,2,32.6
+3482,r875,Doctoral students -> 2017new<sup>d</sup>,HHS: Other HHS,Number,2,1409
+3482,r876,Doctoral students -> 2017new<sup>d</sup>,HHS: Other HHS,Percent,2,2.5
+3482,r877,Doctoral students -> 2017new<sup>d</sup>,NASA,Number,2,1532
+3482,r878,Doctoral students -> 2017new<sup>d</sup>,NASA,Percent,2,2.7
+3482,r879,Doctoral students -> 2017new<sup>d</sup>,NSF,Number,2,18734
+3482,r880,Doctoral students -> 2017new<sup>d</sup>,NSF,Percent,2,32.8
+3482,r881,Doctoral students -> 2017new<sup>d</sup>,USDA,Number,2,1453
+3482,r882,Doctoral students -> 2017new<sup>d</sup>,USDA,Percent,2,2.5
+3482,r883,Doctoral students -> 2017new<sup>d</sup>,Other,Number,2,5868
+3482,r884,Doctoral students -> 2017new<sup>d</sup>,Other,Percent,2,10.3
+3482,r885,Doctoral students -> 2018,Total,,1,59270
+3482,r886,Doctoral students -> 2018,DOD,Number,2,5255
+3482,r887,Doctoral students -> 2018,DOD,Percent,2,8.9
+3482,r888,Doctoral students -> 2018,DOE,Number,2,4156
+3482,r889,Doctoral students -> 2018,DOE,Percent,2,7.0
+3482,r890,Doctoral students -> 2018,HHS: NIH,Number,2,18928
+3482,r891,Doctoral students -> 2018,HHS: NIH,Percent,2,31.9
+3482,r892,Doctoral students -> 2018,HHS: Other HHS,Number,2,2303
+3482,r893,Doctoral students -> 2018,HHS: Other HHS,Percent,2,3.9
+3482,r894,Doctoral students -> 2018,NASA,Number,2,1599
+3482,r895,Doctoral students -> 2018,NASA,Percent,2,2.7
+3482,r896,Doctoral students -> 2018,NSF,Number,2,19551
+3482,r897,Doctoral students -> 2018,NSF,Percent,2,33.0
+3482,r898,Doctoral students -> 2018,USDA,Number,2,1560
+3482,r899,Doctoral students -> 2018,USDA,Percent,2,2.6
+3482,r900,Doctoral students -> 2018,Other,Number,2,5918
+3482,r901,Doctoral students -> 2018,Other,Percent,2,10.0
+3482,r902,Doctoral students -> 2019,Total,,1,62114
+3482,r903,Doctoral students -> 2019,DOD,Number,2,6003
+3482,r904,Doctoral students -> 2019,DOD,Percent,2,9.7
+3482,r905,Doctoral students -> 2019,DOE,Number,2,4667
+3482,r906,Doctoral students -> 2019,DOE,Percent,2,7.5
+3482,r907,Doctoral students -> 2019,HHS: NIH,Number,2,19979
+3482,r908,Doctoral students -> 2019,HHS: NIH,Percent,2,32.2
+3482,r909,Doctoral students -> 2019,HHS: Other HHS,Number,2,2027
+3482,r910,Doctoral students -> 2019,HHS: Other HHS,Percent,2,3.3
+3482,r911,Doctoral students -> 2019,NASA,Number,2,1781
+3482,r912,Doctoral students -> 2019,NASA,Percent,2,2.9
+3482,r913,Doctoral students -> 2019,NSF,Number,2,19747
+3482,r914,Doctoral students -> 2019,NSF,Percent,2,31.8
+3482,r915,Doctoral students -> 2019,USDA,Number,2,1603
+3482,r916,Doctoral students -> 2019,USDA,Percent,2,2.6
+3482,r917,Doctoral students -> 2019,Other,Number,2,6307
+3482,r918,Doctoral students -> 2019,Other,Percent,2,10.2

@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Postdoc status of U.S. residing doctoral scientists and engineers, by years since doctorate and broad field of doctorate: 2019",
+  "identifier": "NCSES-3750",
+  "description": "Postdoc status of U.S. residing doctoral scientists and engineers, by years since doctorate and broad field of doctorate: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3750",
+  "table_number": "76",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3750/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "all_employed_characteristic",
+      "description": "All employed hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "all_employed_level_1, all_employed_level_2, all_employed_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 50. Standard errors are rounded up to the nearest 25. Detail may not add to total because of rounding. Postdoc status is reported for principal job as of survey reference date (1 February 2019). Years since doctorate were calculated as academic years since doctorate attainment. Residence location is based on reported living location on 1 February 2019.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients: 2019.",
+  "temporalCoverage": "20/20"
+}

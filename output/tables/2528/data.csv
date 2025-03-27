@@ -1,0 +1,9 @@
+table_id,row_id,source_of_support_and_citizenship_full_path,source_of_support_and_citizenship_level_1,source_of_support_and_citizenship_level_2,source_of_support_and_citizenship_level_3,source_of_support_and_citizenship_hierarchy_depth,field_total,field_university_administered,field_nonprofit_administered,field_industry_administered
+2528,r001,All postdocs,All postdocs,,,1,3335,1398,912,1025
+2528,r002,All postdocs -> Federal support,All postdocs,Federal support,,2,2956,1300,666,990
+2528,r003,All postdocs -> Federal support -> U.S. citizens and permanent residents,All postdocs,Federal support,U.S. citizens and permanent residents,3,1276,423,251,602
+2528,r004,All postdocs -> Federal support -> Temporary visa holders,All postdocs,Federal support,Temporary visa holders,3,1680,877,415,388
+2528,r005,All postdocs -> Nonfederal support,All postdocs,Nonfederal support,,2,379,98,246,35
+2528,r006,All postdocs -> Nonfederal support -> U.S. citizens and permanent residents,All postdocs,Nonfederal support,U.S. citizens and permanent residents,3,153,23,114,16
+2528,r007,All postdocs -> Nonfederal support -> Temporary visa holders,All postdocs,Nonfederal support,Temporary visa holders,3,226,75,132,19
+2528,r008,All postdocs -> Unknown support,All postdocs,Unknown support,,2,0,0,0,0

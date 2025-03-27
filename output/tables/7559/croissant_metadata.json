@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Baccalaureate-origin institution characteristics of research doctorate recipients, by broad field of doctorate: 2021",
+  "identifier": "NCSES-7559",
+  "description": "Baccalaureate-origin institution characteristics of research doctorate recipients, by broad field of doctorate: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7559",
+  "table_number": "5-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7559/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Tied countries or economies are listed alphabetically. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and the new broad, major, and detailed fields were used in tables reporting only the most recent data year. Therefore, the field of doctorate data in 2021 may not be comparable to prior years; see the \"Technical Notes\" for more information, table A-4 for a summary of SED-CIP codes in the new SED field taxonomy, table A-5 for a full list of SED-CIP codes in the new field taxonomy, and table A-6 for the SED-CIP code crosswalk to the historical field taxonomy.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates.",
+  "temporalCoverage": "20/20"
+}

@@ -1,0 +1,17 @@
+table_id,row_id,demographic_characteristic_full_path,demographic_characteristic_level_1,demographic_characteristic_level_2,demographic_characteristic_level_3,demographic_characteristic_hierarchy_depth,field_one_or_more_limitations_of_any_type_number,field_one_or_more_limitations_of_any_type_percent,field_visual_limitations_number,field_visual_limitations_percent,field_hearing_limitations_number,field_hearing_limitations_percent,field_walking_limitations_number,field_walking_limitations_percent,field_lifting_limitations_number,field_lifting_limitations_percent,field_cognitive_limitations_number,field_cognitive_limitations_percent
+963,r001,All doctorate recipients,All doctorate recipients,,,1,3930,7.2,1703,3.1,654,1.2,276,0.5,384,0.7,1718,3.1
+963,r002,All doctorate recipients -> Field of study,All doctorate recipients,Field of study,,2,,,,,,,,,,,,
+963,r003,All doctorate recipients -> Field of study -> Life sciences<sup>a</sup>,All doctorate recipients,Field of study,Life sciences<sup>a</sup>,3,846,6.7,355,2.8,130,1.0,53,0.4,63,0.5,382,3.0
+963,r004,All doctorate recipients -> Field of study -> Physical sciences and earth sciences,All doctorate recipients,Field of study,Physical sciences and earth sciences,3,422,6.9,162,2.7,76,1.2,11,0.2,19,0.3,222,3.7
+963,r005,All doctorate recipients -> Field of study -> Mathematics and computer sciences,All doctorate recipients,Field of study,Mathematics and computer sciences,3,254,6.6,133,3.5,35,0.9,14,0.4,28,0.7,91,2.4
+963,r006,All doctorate recipients -> Field of study -> Psychology and social sciences,All doctorate recipients,Field of study,Psychology and social sciences,3,691,7.6,235,2.6,123,1.4,57,0.6,80,0.9,354,3.9
+963,r007,All doctorate recipients -> Field of study -> Engineering,All doctorate recipients,Field of study,Engineering,3,634,6.4,391,4.0,101,1.0,28,0.3,47,0.5,200,2.0
+963,r008,All doctorate recipients -> Field of study -> Education,All doctorate recipients,Field of study,Education,3,392,8.1,169,3.5,75,1.6,51,1.1,67,1.4,136,2.8
+963,r009,All doctorate recipients -> Field of study -> Humanities and arts,All doctorate recipients,Field of study,Humanities and arts,3,475,9.0,144,2.7,84,1.6,42,0.8,50,0.9,262,5.0
+963,r010,All doctorate recipients -> Field of study -> Other<sup>b</sup>,All doctorate recipients,Field of study,Other<sup>b</sup>,3,216,6.9,114,3.7,30,1.0,20,0.6,30,1.0,71,2.3
+963,r011,All doctorate recipients -> Sex,All doctorate recipients,Sex,,2,,,,,,,,,,,,
+963,r012,All doctorate recipients -> Sex -> Male,All doctorate recipients,Sex,Male,3,2062,7.1,962,3.3,394,1.4,121,0.4,127,0.4,879,3.0
+963,r013,All doctorate recipients -> Sex -> Female,All doctorate recipients,Sex,Female,3,1868,7.3,741,2.9,260,1.0,155,0.6,257,1.0,839,3.3
+963,r014,All doctorate recipients -> Citizenship status<sup>c</sup>,All doctorate recipients,Citizenship status<sup>c</sup>,,2,,,,,,,,,,,,
+963,r015,All doctorate recipients -> Citizenship status<sup>c</sup> -> U.S. citizen or permanent resident,All doctorate recipients,Citizenship status<sup>c</sup>,U.S. citizen or permanent resident,3,2829,7.9,841,2.3,538,1.5,215,0.6,258,0.7,1497,4.2
+963,r016,All doctorate recipients -> Citizenship status<sup>c</sup> -> Temporary visa holder,All doctorate recipients,Citizenship status<sup>c</sup>,Temporary visa holder,3,1090,6.7,858,5.3,112,0.7,60,0.4,124,0.8,218,1.3

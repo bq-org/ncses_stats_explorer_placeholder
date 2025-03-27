@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research and experimental development from CHIPS and Science Act, the Inflation Reduction Act, and the Infrastructure Investment and Jobs Act: FYs 2022\u201323",
+  "identifier": "NCSES-10915",
+  "description": "Federal obligations for research and experimental development from CHIPS and Science Act, the Inflation Reduction Act, and the Infrastructure Investment and Jobs Act: FYs 2022\u201323",
+  "url": "https://example.org/datasets/ncses/tables/10915",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10915/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "infrastructure_investment_and_jobs_act_p_l_117_58_characteristic",
+      "description": "Infrastructure Investment and Jobs Act (P.L. 117-58) hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "infrastructure_investment_and_jobs_act_p_l_117_58_level_1, infrastructure_investment_and_jobs_act_p_l_117_58_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Reporting agencies include the Department of Energy, the National Oceanographic and Atmospheric Administration, the National Institutes of Standards and Technology, and the National Science Foundation.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2022\u201323."
+}

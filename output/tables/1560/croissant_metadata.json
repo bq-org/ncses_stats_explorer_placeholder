@@ -1,0 +1,186 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Associate's degrees awarded, by citizenship, field, race, and ethnicity: 2000&#8211;17",
+  "identifier": "NCSES-1560",
+  "description": "Associate's degrees awarded, by citizenship, field, race, and ethnicity: 2000&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1560",
+  "table_number": "S2-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1560/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "citizenship_field_race_and_ethnicity",
+      "description": "Citizenship, field, race, and ethnicity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "10"
+        },
+        {
+          "name": "levelColumns",
+          "value": "citizenship_field_race_and_ethnicity_level_1, citizenship_field_race_and_ethnicity_level_2, citizenship_field_race_and_ethnicity_level_3, citizenship_field_race_and_ethnicity_level_4, citizenship_field_race_and_ethnicity_level_5, citizenship_field_race_and_ethnicity_level_6, citizenship_field_race_and_ethnicity_level_7, citizenship_field_race_and_ethnicity_level_8, citizenship_field_race_and_ethnicity_level_9, citizenship_field_race_and_ethnicity_level_10"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "citizenship_field_race_and_ethnicity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000",
+      "description": "2000",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001",
+      "description": "2001",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002",
+      "description": "2002",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004",
+      "description": "2004",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005",
+      "description": "2005",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006",
+      "description": "2006",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Racial and ethnic breakouts include U.S. citizens and permanent residents only; temporary visa holder includes all racial and ethnic groups. Engineering technologies are focused more on applied skills than on fundamental science and mathematics. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs and do not match previously published data from Science and Engineering Indicators 2008 and earlier years that were based on accredited higher education institutions.",
+  "sources": "National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Completions Survey; National Center for Science and Engineering Statistics, National Science Foundation, Integrated Data System (IDS).Science and Engineering Indicators"
+}

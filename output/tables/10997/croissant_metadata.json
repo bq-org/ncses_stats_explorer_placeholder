@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Select characteristics of veterans and nonveterans: 2021",
+  "identifier": "NCSES-10997",
+  "description": "Select characteristics of veterans and nonveterans: 2021",
+  "url": "https://example.org/datasets/ncses/tables/10997",
+  "table_number": "LBR-A",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10997/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "select_characteristics",
+      "description": "Select characteristics hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "select_characteristics_level_1, select_characteristics_level_2, select_characteristics_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "select_characteristics_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonveteran",
+      "description": "Nonveteran",
+      "valueType": "string",
+      "unitText": "Number, percent, and years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_veteran",
+      "description": "Veteran",
+      "valueType": "string",
+      "unitText": "Number, percent, and years"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the civilian, non-institutionalized population ages 16\u201375 and exclude those with military occupations, those missing occupation data, and those currently enrolled in primary or secondary school. Employment rate is calculated among all eligible persons. Other estimates are calculated only among eligible persons who are currently employed.",
+  "sources": "Census Bureau, American Community Survey (ACS), 2021, 1-Year Public-Use File.Science and Engineering Indicators"
+}

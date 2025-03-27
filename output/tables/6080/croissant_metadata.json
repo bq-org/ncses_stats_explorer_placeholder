@@ -1,0 +1,201 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Graduate students in science, engineering, and health broad fields, by degree program, citizenship, ethnicity, and race: 2020",
+  "identifier": "NCSES-6080",
+  "description": "Graduate students in science, engineering, and health broad fields, by degree program, citizenship, ethnicity, and race: 2020",
+  "url": "https://example.org/datasets/ncses/tables/6080",
+  "table_number": "2-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6080/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_broad_field_b",
+      "description": "Broad field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_broad_field_b_level_1, _b_broad_field_b_level_2, _b_broad_field_b_level_3, _b_broad_field_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_broad_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number",
+      "description": "Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_percent",
+      "description": "Total Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino_number",
+      "description": "Hispanic Or Latino Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino_percent",
+      "description": "Hispanic Or Latino Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_american_indian_or_alaska_native_number",
+      "description": "Not Hispanic Or Latino American Indian Or Alaska Native Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_american_indian_or_alaska_native_percent",
+      "description": "Not Hispanic Or Latino American Indian Or Alaska Native Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_asian_number",
+      "description": "Not Hispanic Or Latino Asian Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_asian_percent",
+      "description": "Not Hispanic Or Latino Asian Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_black_or_african_american_number",
+      "description": "Not Hispanic Or Latino Black Or African American Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_black_or_african_american_percent",
+      "description": "Not Hispanic Or Latino Black Or African American Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_native_hawaiian_or_other_pacific_islander_number",
+      "description": "Not Hispanic Or Latino Native Hawaiian Or Other Pacific Islander Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_native_hawaiian_or_other_pacific_islander_percent",
+      "description": "Not Hispanic Or Latino Native Hawaiian Or Other Pacific Islander Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_white_number",
+      "description": "Not Hispanic Or Latino White Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_white_percent",
+      "description": "Not Hispanic Or Latino White Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_more_than_one_race_number",
+      "description": "Not Hispanic Or Latino More Than One Race Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_more_than_one_race_percent",
+      "description": "Not Hispanic Or Latino More Than One Race Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unknown_ethnicity_and_race_number",
+      "description": "Unknown Ethnicity And Race Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unknown_ethnicity_and_race_percent",
+      "description": "Unknown Ethnicity And Race Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holders_number",
+      "description": "Temporary Visa Holders Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holders_percent",
+      "description": "Temporary Visa Holders Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Percentages may not add to total because of rounding. Ethnicity and race data are available only for U.S. citizens and permanent residents. For more information on the mapping of Survey of Graduate Students and Postdoctorates in Science and Engineering fields and codes, see technical table A-17.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2020."
+}

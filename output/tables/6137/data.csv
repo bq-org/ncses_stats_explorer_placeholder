@@ -1,0 +1,9 @@
+table_id,row_id,agency_full_path,agency_level_1,agency_level_2,agency_level_3,agency_hierarchy_depth,field_total_r_d,field_covid_19_r_d,field_all_other_r_d,field_covid_19_r_d_as_percent_of_total_r_d
+6137,r001,All agencies,All agencies,,,1,167403,23248,144154,13.9
+6137,r002,All agencies -> Department of Defense,All agencies,Department of Defense,,2,66695,1434,65077,2.2
+6137,r003,All agencies -> Department of Health and Human Services,All agencies,Department of Health and Human Services,,2,60006,21514,38492,35.9
+6137,r004,All agencies -> Department of Health and Human Services -> Biomedical Advanced Research and Development Authority,All agencies,Department of Health and Human Services,Biomedical Advanced Research and Development Authority,3,15666,15437,229,98.5
+6137,r005,All agencies -> Department of Health and Human Services -> Centers for Disease Control and Prevention,All agencies,Department of Health and Human Services,Centers for Disease Control and Prevention,3,497,93,404,18.7
+6137,r006,All agencies -> Department of Health and Human Services -> National Institutes of Health,All agencies,Department of Health and Human Services,National Institutes of Health,3,42664,5983,36681,14.0
+6137,r007,All agencies -> National Science Foundation,All agencies,National Science Foundation,,2,6351,192,6160,3.0
+6137,r008,All agencies -> All other departments and agencies,All agencies,All other departments and agencies,,2,34351,108,34425,0.3

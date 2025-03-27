@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "World Bank income levels of regions, countries, or economies in patent and trademark data: 2020",
+  "identifier": "NCSES-5817",
+  "description": "World Bank income levels of regions, countries, or economies in patent and trademark data: 2020",
+  "url": "https://example.org/datasets/ncses/tables/5817",
+  "table_number": "SINV-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5817/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "low_income_economies_gni_per_capita_of_1_035_or_less_per_year_",
+      "description": "Low Income Economies Gni Per Capita Of 1 035 Or Less Per Year ",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "lower_middle_income_economies_gni_per_capita_of_1_036_to_4_045_per_year_",
+      "description": "Lower Middle Income Economies Gni Per Capita Of 1 036 To 4 045 Per Year ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "upper_middle_income_economies_gni_per_capita_of_4_046_to_12_535_per_year_",
+      "description": "Upper Middle Income Economies Gni Per Capita Of 4 046 To 12 535 Per Year ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "high_income_economies_gni_per_capita_of_12_536_or_more_per_year_",
+      "description": "High Income Economies Gni Per Capita Of 12 536 Or More Per Year ",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "unclassified",
+      "description": "Unclassified",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "The World Bank, World Bank Country and Lending Groups, accessed May 2021.Science and Engineering Indicators"
+}

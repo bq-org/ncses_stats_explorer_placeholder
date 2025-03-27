@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. citizen and permanent resident doctorate recipients who had earned an associate's degree, by sex, race, ethnicity, and historical doctoral field: 2017\u201321",
+  "identifier": "NCSES-9899",
+  "description": "U.S. citizen and permanent resident doctorate recipients who had earned an associate's degree, by sex, race, ethnicity, and historical doctoral field: 2017\u201321",
+  "url": "https://example.org/datasets/ncses/tables/9899",
+  "table_number": "SHED-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9899/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "demographic_characteristic",
+      "description": "Demographic characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "demographic_characteristic_level_1, demographic_characteristic_level_2, demographic_characteristic_level_3, demographic_characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "demographic_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields",
+      "description": "All Fields",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_s_e_fields",
+      "description": "All S E Fields",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_agricultural_sciences_and_natural_resources",
+      "description": "Agricultural Sciences And Natural Resources",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_and_biomedical_sciences",
+      "description": "Biological And Biomedical Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_health_sciences",
+      "description": "Health Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences",
+      "description": "Physical Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_geosciences_atmospheric_sciences_and_ocean_sciences",
+      "description": "Geosciences Atmospheric Sciences And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_and_information_sciences",
+      "description": "Computer And Information Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_statistics",
+      "description": "Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology",
+      "description": "Psychology",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_sciences",
+      "description": "Social Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e",
+      "description": "Non S E",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Hispanic or Latino may be any race; race categories exclude Hispanic origin. Data only include respondents to the associate's degree question.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2022) of the 2021 Survey of Earned Doctorates (SED).Science and Engineering Indicators"
+}

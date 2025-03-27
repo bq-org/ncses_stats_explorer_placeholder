@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "STEM workers with credentials, by educational attainment: 2020",
+  "identifier": "NCSES-11021",
+  "description": "STEM workers with credentials, by educational attainment: 2020",
+  "url": "https://example.org/datasets/ncses/tables/11021",
+  "table_number": "SLBR-24",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11021/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_stem_group_and_educational_attainment_b",
+      "description": "STEM group and educational attainment hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_stem_group_and_educational_attainment_b_level_1, _b_stem_group_and_educational_attainment_b_level_2, _b_stem_group_and_educational_attainment_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_stem_group_and_educational_attainment_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_any_credential",
+      "description": "Any Credential",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_certification_or_license",
+      "description": "Professional Certification Or License",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_educational_certificate",
+      "description": "Educational Certificate",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the civilian, non-institutionalized population ages 16\u201375 with at least a high school diploma or GED employed in the 12th month of 2020 and exclude those with only military occupations, those missing occupation data or who have not worked in the last 5 years, and those currently enrolled in primary or secondary school. Advanced degree includes master's, professional, or doctoral degree. Non-STEM occupations are not shown.",
+  "sources": "Census Bureau, Survey of Income and Program Participation (SIPP), Public-Use File, 2021.Science and Engineering Indicators"
+}

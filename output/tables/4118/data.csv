@@ -1,0 +1,48 @@
+table_id,row_id,school_characteristic_full_path,school_characteristic_level_1,school_characteristic_level_2,school_characteristic_level_3,school_characteristic_level_4,school_characteristic_hierarchy_depth,field_dual_or_concurrent_enrollmenta_
+4118,r001,All schools ,All schools ,,,,1,75
+4118,r002,All schools  -> All public schools ,All schools ,All public schools ,,,2,82
+4118,r003,All schools  -> All public schools  -> School classification ,All schools ,All public schools ,School classification ,,3,
+4118,r004,All schools  -> All public schools  -> School classification  -> Traditional public ,All schools ,All public schools ,School classification ,Traditional public ,4,83
+4118,r005,All schools  -> All public schools  -> School classification  -> Charter school ,All schools ,All public schools ,School classification ,Charter school ,4,77
+4118,r006,All schools  -> All public schools  -> Community type ,All schools ,All public schools ,Community type ,,3,
+4118,r007,All schools  -> All public schools  -> Community type  -> City ,All schools ,All public schools ,Community type ,City ,4,73
+4118,r008,All schools  -> All public schools  -> Community type  -> Suburban ,All schools ,All public schools ,Community type ,Suburban ,4,80
+4118,r009,All schools  -> All public schools  -> Community type  -> Town ,All schools ,All public schools ,Community type ,Town ,4,83
+4118,r010,All schools  -> All public schools  -> Community type  -> Rural ,All schools ,All public schools ,Community type ,Rural ,4,90
+4118,r011,All schools  -> All public schools  -> School level ,All schools ,All public schools ,School level ,,3,
+4118,r012,All schools  -> All public schools  -> School level  -> Primary ,All schools ,All public schools ,School level ,Primary ,4,na
+4118,r013,All schools  -> All public schools  -> School level  -> Middle ,All schools ,All public schools ,School level ,Middle ,4,na
+4118,r014,All schools  -> All public schools  -> School level  -> High ,All schools ,All public schools ,School level ,High ,4,86
+4118,r015,All schools  -> All public schools  -> School level  -> Combined ,All schools ,All public schools ,School level ,Combined ,4,73
+4118,r016,All schools  -> All public schools  -> Student enrollment ,All schools ,All public schools ,Student enrollment ,,3,
+4118,r017,All schools  -> All public schools  -> Student enrollment  -> Less than 100 ,All schools ,All public schools ,Student enrollment ,Less than 100 ,4,45
+4118,r018,All schools  -> All public schools  -> Student enrollment  -> 100&#8211;199 ,All schools ,All public schools ,Student enrollment ,100&#8211;199 ,4,77
+4118,r019,All schools  -> All public schools  -> Student enrollment  -> 200&#8211;499 ,All schools ,All public schools ,Student enrollment ,200&#8211;499 ,4,87
+4118,r020,All schools  -> All public schools  -> Student enrollment  -> 500&#8211;749 ,All schools ,All public schools ,Student enrollment ,500&#8211;749 ,4,92
+4118,r021,All schools  -> All public schools  -> Student enrollment  -> 750&#8211;999 ,All schools ,All public schools ,Student enrollment ,750&#8211;999 ,4,91
+4118,r022,"All schools  -> All public schools  -> Student enrollment  -> 1,000 or more ",All schools ,All public schools ,Student enrollment ,"1,000 or more ",4,94
+4118,r023,All schools  -> All public schools  -> K&#8211;12 students who were approved for free or reduced-price lunches ,All schools ,All public schools ,K&#8211;12 students who were approved for free or reduced-price lunches ,,3,
+4118,r024,All schools  -> All public schools  -> K&#8211;12 students who were approved for free or reduced-price lunches  -> 0&#8211;34 ,All schools ,All public schools ,K&#8211;12 students who were approved for free or reduced-price lunches ,0&#8211;34 ,4,84
+4118,r025,All schools  -> All public schools  -> K&#8211;12 students who were approved for free or reduced-price lunches  -> 35&#8211;49 ,All schools ,All public schools ,K&#8211;12 students who were approved for free or reduced-price lunches ,35&#8211;49 ,4,93
+4118,r026,All schools  -> All public schools  -> K&#8211;12 students who were approved for free or reduced-price lunches  -> 50&#8211;74 ,All schools ,All public schools ,K&#8211;12 students who were approved for free or reduced-price lunches ,50&#8211;74 ,4,85
+4118,r027,All schools  -> All public schools  -> K&#8211;12 students who were approved for free or reduced-price lunches  -> 75 or more ,All schools ,All public schools ,K&#8211;12 students who were approved for free or reduced-price lunches ,75 or more ,4,71
+4118,r028,All schools  -> All private schools ,All schools ,All private schools ,,,2,56
+4118,r029,All schools  -> All private schools  -> School classification ,All schools ,All private schools ,School classification ,,3,
+4118,r030,All schools  -> All private schools  -> School classification  -> Catholic ,All schools ,All private schools ,School classification ,Catholic ,4,68
+4118,r031,All schools  -> All private schools  -> School classification  -> Other religious ,All schools ,All private schools ,School classification ,Other religious ,4,63
+4118,r032,All schools  -> All private schools  -> School classification  -> Nonsectarian ,All schools ,All private schools ,School classification ,Nonsectarian ,4,38
+4118,r033,All schools  -> All private schools  -> Community type ,All schools ,All private schools ,Community type ,,3,
+4118,r034,All schools  -> All private schools  -> Community type  -> City ,All schools ,All private schools ,Community type ,City ,4,54
+4118,r035,All schools  -> All private schools  -> Community type  -> Suburban ,All schools ,All private schools ,Community type ,Suburban ,4,61
+4118,r036,All schools  -> All private schools  -> Community type  -> Town ,All schools ,All private schools ,Community type ,Town ,4,64
+4118,r037,All schools  -> All private schools  -> Community type  -> Rural ,All schools ,All private schools ,Community type ,Rural ,4,50
+4118,r038,All schools  -> All private schools  -> School level ,All schools ,All private schools ,School level ,,3,
+4118,r039,All schools  -> All private schools  -> School level  -> Elementary ,All schools ,All private schools ,School level ,Elementary ,4,na
+4118,r040,All schools  -> All private schools  -> School level  -> Secondary ,All schools ,All private schools ,School level ,Secondary ,4,55
+4118,r041,All schools  -> All private schools  -> School level  -> Combined ,All schools ,All private schools ,School level ,Combined ,4,57
+4118,r042,All schools  -> All private schools  -> Student enrollment ,All schools ,All private schools ,Student enrollment ,,3,
+4118,r043,All schools  -> All private schools  -> Student enrollment  -> Less than 100 ,All schools ,All private schools ,Student enrollment ,Less than 100 ,4,45
+4118,r044,All schools  -> All private schools  -> Student enrollment  -> 100&#8211;199 ,All schools ,All private schools ,Student enrollment ,100&#8211;199 ,4,68
+4118,r045,All schools  -> All private schools  -> Student enrollment  -> 200&#8211;499 ,All schools ,All private schools ,Student enrollment ,200&#8211;499 ,4,67
+4118,r046,All schools  -> All private schools  -> Student enrollment  -> 500&#8211;749 ,All schools ,All private schools ,Student enrollment ,500&#8211;749 ,4,60
+4118,r047,All schools  -> All private schools  -> Student enrollment  -> 750 or more ,All schools ,All private schools ,Student enrollment ,750 or more ,4,61

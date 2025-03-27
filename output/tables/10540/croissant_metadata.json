@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Confidence in scientists to act in the best interests of the public, by indicator of scientific method understanding: 2020",
+  "identifier": "NCSES-10540",
+  "description": "Confidence in scientists to act in the best interests of the public, by indicator of scientific method understanding: 2020",
+  "url": "https://example.org/datasets/ncses/tables/10540",
+  "table_number": "SPPS-13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10540/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "perception_of_the_scientific_method",
+      "description": "Perception of the scientific method hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "perception_of_the_scientific_method_level_1, perception_of_the_scientific_method_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "perception_of_the_scientific_method_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_a_great_deal",
+      "description": "A Great Deal",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_a_fair_amount",
+      "description": "A Fair Amount",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_too_much",
+      "description": "Not Too Much",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_none_at_all",
+      "description": "None At All",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Responses are to the following: How much confidence, if any, do you have in [scientists] to act in the best interests of the public? A scientist is conducting a study to determine how well a new medication treats ear infections. The scientist tells the participants to put 10 drops in their infected ear each day. After 2 weeks, all participants' ear infections had healed. Which of the following changes to the design of this study would most improve the ability to test if the new medication effectively treats ear infections? Create a second group of participants with ear infections who do not use any ear drops. Create a second group of participants with ear infections who use 15 drops a day. Have participants use ear drops for only 1 week. Have participants put ear drops in both their infected ear and healthy ear. Not sure.The time a computer takes to start has increased dramatically. One possible explanation for this is that the computer is running out of memory. This explanation is a scientific\u2026 Hypothesis. Conclusion. Experiment. Observation. Not sure.",
+  "sources": "Pew Research Center, American Trends Panel Wave 79 (2020), conducted 18\u201329 November 2020.Science and Engineering Indicators"
+}

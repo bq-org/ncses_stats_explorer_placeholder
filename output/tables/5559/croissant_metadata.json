@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Postdoctoral appointee employment, by sex, citizenship, race, and ethnicity: 2017&#8211;20",
+  "identifier": "NCSES-5559",
+  "description": "Postdoctoral appointee employment, by sex, citizenship, race, and ethnicity: 2017&#8211;20",
+  "url": "https://example.org/datasets/ncses/tables/5559",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5559/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2, characteristic_level_3, characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_2017",
+      "description": "Postdoctoral Appointees 2017",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_2018",
+      "description": "Postdoctoral Appointees 2018",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_2019",
+      "description": "Postdoctoral Appointees 2019",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_2020",
+      "description": "Postdoctoral Appointees 2020",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_percent_change_2017_20",
+      "description": "Postdoctoral Appointees Percent Change 2017 20",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_percent_change_2019_20",
+      "description": "Postdoctoral Appointees Percent Change 2019 20",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering."
+}

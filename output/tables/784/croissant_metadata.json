@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies that introduced new or significantly improved products and sales from products, by industry, industry proportions, and company size: 2013\u201315",
+  "identifier": "NCSES-784",
+  "description": "Companies that introduced new or significantly improved products and sales from products, by industry, industry proportions, and company size: 2013\u201315",
+  "url": "https://example.org/datasets/ncses/tables/784",
+  "table_number": "68",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/784/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_number_a_",
+      "description": "Companies Number A ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_yesb",
+      "description": "Yesb",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_noc",
+      "description": "Noc",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_to_company_s_market_companies_number_d",
+      "description": "New To Company S Market Companies Number D",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_to_company_s_market_sales",
+      "description": "New To Company S Market Sales",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_only_to_company_companies_number_d_",
+      "description": "New Only To Company Companies Number D ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_only_to_company_sales",
+      "description": "New Only To Company Sales",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sales_of_products_unchanged_or_marginally_modified",
+      "description": "Sales Of Products Unchanged Or Marginally Modified",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Sum of \"Yes\" and \"No\" responses may not add to the total number of companies or, for the percentages, to 100% due to item nonresponse to some items.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Business R&D and Innovation Survey."
+}

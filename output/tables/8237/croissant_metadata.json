@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment status of U.S.-trained doctoral scientists and engineers: 2019 and 2021",
+  "identifier": "NCSES-8237",
+  "description": "Employment status of U.S.-trained doctoral scientists and engineers: 2019 and 2021",
+  "url": "https://example.org/datasets/ncses/tables/8237",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8237/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_status",
+      "description": "Employment status hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_status_level_1, employment_status_level_2, employment_status_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_status_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_2019_number",
+      "description": "U S Residing 2019 Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_2019_percent",
+      "description": "U S Residing 2019 Percent",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_2021_number",
+      "description": "U S Residing 2021 Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_2021_percent",
+      "description": "U S Residing 2021 Percent",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_2019_number",
+      "description": "Non U S Residing 2019 Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_2019_percent",
+      "description": "Non U S Residing 2019 Percent",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_2021_number",
+      "description": "Non U S Residing 2021 Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_2021_percent",
+      "description": "Non U S Residing 2021 Percent",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients."
+}

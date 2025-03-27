@@ -1,0 +1,98 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Regions, countries, or economies in patent and trademark data: 1998\u20132022",
+  "identifier": "NCSES-10549",
+  "description": "Regions, countries, or economies in patent and trademark data: 1998\u20132022",
+  "url": "https://example.org/datasets/ncses/tables/10549",
+  "table_number": "SINV-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10549/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "north_america",
+      "description": "North America",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "central_america_and_caribbean",
+      "description": "Central America And Caribbean",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "south_america",
+      "description": "South America",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "eu",
+      "description": "Eu",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "other_europe",
+      "description": "Other Europe",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "middle_east",
+      "description": "Middle East",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "africa",
+      "description": "Africa",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "asia",
+      "description": "Asia",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "australia_and_oceania",
+      "description": "Australia And Oceania",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The United States includes Puerto Rico and all other U.S. territories.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; PatentsView, Patent and Trademark Office, accessed June 2023.Science and Engineering Indicators"
+}

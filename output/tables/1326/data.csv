@@ -1,0 +1,7 @@
+table_id,row_id,budget_function_and_agency_full_path,budget_function_and_agency_level_1,budget_function_and_agency_level_2,budget_function_and_agency_level_3,budget_function_and_agency_level_4,budget_function_and_agency_hierarchy_depth,field_2017_actual,field_2018_preliminarya,field_2019_proposed,field_2017_18_change_,field_2018_19_change_
+1326,r001,R&D and R&D plant,R&D and R&D plant,,,,1,21,19,17,-9.5,-10.5
+1326,r002,R&D and R&D plant -> Department of Health and Human Services (571),R&D and R&D plant,Department of Health and Human Services (571),,,2,,,,,
+1326,r003,R&D and R&D plant -> Department of Health and Human Services (571) -> Centers for Medicare and Medicaid Services,R&D and R&D plant,Department of Health and Human Services (571),Centers for Medicare and Medicaid Services,,3,21,19,17,-9.5,-10.5
+1326,r004,R&D and R&D plant -> R&D,R&D and R&D plant,R&D,,,2,21,19,17,-9.5,-10.5
+1326,r005,R&D and R&D plant -> R&D -> Department of Health and Human Services (571),R&D and R&D plant,R&D,Department of Health and Human Services (571),,3,,,,,
+1326,r006,R&D and R&D plant -> R&D -> Department of Health and Human Services (571) -> Centers for Medicare and Medicaid Services,R&D and R&D plant,R&D,Department of Health and Human Services (571),Centers for Medicare and Medicaid Services,4,21,19,17,-9.5,-10.5

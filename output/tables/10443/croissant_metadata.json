@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "National Institutes of Health, federal budget authority for R&D and R&D plant: FYs 2022\u201324",
+  "identifier": "NCSES-10443",
+  "description": "National Institutes of Health, federal budget authority for R&D and R&D plant: FYs 2022\u201324",
+  "url": "https://example.org/datasets/ncses/tables/10443",
+  "table_number": "18",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10443/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "organization_and_program_by_fy_2021_rank_order",
+      "description": "Organization and program, by FY 2021 rank order hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "organization_and_program_by_fy_2021_rank_order_level_1, organization_and_program_by_fy_2021_rank_order_level_2, organization_and_program_by_fy_2021_rank_order_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "organization_and_program_by_fy_2021_rank_order_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_actual",
+      "description": "2022 Actual",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023_preliminary",
+      "description": "2023 Preliminary",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2024_proposed",
+      "description": "2024 Proposed",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_23_change_",
+      "description": "2022 23 Change ",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023_24_change_",
+      "description": "2023 24 Change ",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Percent change is calculated on unrounded data.",
+  "sources": "Agencies' submissions to the Office of Management and Budget (OMB) per MAX Schedule C, agencies' budget justification documents, supplemental data obtained from agencies' budget offices, and Executive Office of the President, OMB, Budget of the United States Government, Fiscal Year 2024."
+}

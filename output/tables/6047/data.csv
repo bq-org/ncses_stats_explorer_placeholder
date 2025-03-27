@@ -1,0 +1,677 @@
+table_id,row_id,_b_institution_b_full_path,_b_institution_b_level_1,_b_institution_b_level_2,_b_institution_b_hierarchy_depth,field_all_master_s_students_rank,field_all_master_s_students_total,field_all_master_s_students_science,field_all_master_s_students_engineering,field_all_master_s_students_health,field_full_time_master_s_students_rank,field_full_time_master_s_students_total,field_full_time_master_s_students_science,field_full_time_master_s_students_engineering,field_full_time_master_s_students_health,field_part_time_master_s_students_rank,field_part_time_master_s_students_total,field_part_time_master_s_students_science,field_part_time_master_s_students_engineering,field_part_time_master_s_students_health
+6047,r001,All institutions<sup>a</sup>,All institutions<sup>a</sup>,,1,-,414478,267904,86450,60124,-,243859,155502,49179,39178,-,170619,112402,37271,20946
+6047,r002,All institutions<sup>a</sup> -> Georgia Institute of Technology,All institutions<sup>a</sup>,Georgia Institute of Technology,2,1,11768,10322,1421,25,22,1841,952,878,11,1,9927,9370,543,14
+6047,r003,All institutions<sup>a</sup> -> Johns Hopkins U.,All institutions<sup>a</sup>,Johns Hopkins U.,2,2,9127,5157,2594,1376,19,1928,1009,437,482,2,7199,4148,2157,894
+6047,r004,All institutions<sup>a</sup> -> Liberty U.,All institutions<sup>a</sup>,Liberty U.,2,3,9040,7582,6,1452,3,4368,3712,5,651,3,4672,3870,1,801
+6047,r005,All institutions<sup>a</sup> -> Columbia U. in the City of New York,All institutions<sup>a</sup>,Columbia U. in the City of New York,2,4,7049,4407,1900,742,6,3924,2692,617,615,5,3125,1715,1283,127
+6047,r006,All institutions<sup>a</sup> -> New York U.,All institutions<sup>a</sup>,New York U.,2,5,6717,4975,1144,598,1,4655,3327,953,375,10,2062,1648,191,223
+6047,r007,All institutions<sup>a</sup> -> U. Southern California,All institutions<sup>a</sup>,U. Southern California,2,6,6566,3913,2073,580,2,4388,2902,1068,418,9,2178,1011,1005,162
+6047,r008,All institutions<sup>a</sup> -> Arizona State U.,All institutions<sup>a</sup>,Arizona State U.,2,7,5765,3603,2070,92,7,3157,1898,1167,92,7,2608,1705,903,0
+6047,r009,All institutions<sup>a</sup> -> U. Michigan,All institutions<sup>a</sup>,U. Michigan,2,8,5418,2666,2308,444,4,4037,2122,1501,414,17,1381,544,807,30
+6047,r010,All institutions<sup>a</sup> -> George Washington U.,All institutions<sup>a</sup>,George Washington U.,2,9,5280,3157,557,1566,13,2349,1807,167,375,6,2931,1350,390,1191
+6047,r011,"All institutions<sup>a</sup> -> U. Illinois, Urbana-Champaign",All institutions<sup>a</sup>,"U. Illinois, Urbana-Champaign",2,10,4363,3190,1068,105,8,3050,2068,877,105,20,1313,1122,191,0
+6047,r012,All institutions<sup>a</sup> -> Northeastern U.,All institutions<sup>a</sup>,Northeastern U.,2,11,4300,1741,2500,59,5,3975,1548,2371,56,140,325,193,129,3
+6047,r013,All institutions<sup>a</sup> -> U. Washington,All institutions<sup>a</sup>,U. Washington,2,12,4238,2350,1279,609,12,2437,1386,603,448,11,1801,964,676,161
+6047,r014,All institutions<sup>a</sup> -> U. Florida,All institutions<sup>a</sup>,U. Florida,2,13,4086,2568,1119,399,14,2286,1338,681,267,12,1800,1230,438,132
+6047,r015,All institutions<sup>a</sup> -> Boston U.,All institutions<sup>a</sup>,Boston U.,2,14,3784,2582,480,722,15,2265,1457,282,526,16,1519,1125,198,196
+6047,r016,"All institutions<sup>a</sup> -> U. Maryland, U. C.",All institutions<sup>a</sup>,"U. Maryland, U. C.",2,15,3742,3742,0,0,491,52,52,0,0,4,3690,3690,0,0
+6047,r017,All institutions<sup>a</sup> -> Texas A&M U.,All institutions<sup>a</sup>,Texas A&M U.,2,16,3717,2148,1319,250,11,2551,1455,885,211,21,1166,693,434,39
+6047,r018,All institutions<sup>a</sup> -> U. Colorado,All institutions<sup>a</sup>,U. Colorado,2,17,3443,1598,1332,513,10,2579,1245,890,444,38,864,353,442,69
+6047,r019,All institutions<sup>a</sup> -> Pennsylvania State U.,All institutions<sup>a</sup>,Pennsylvania State U.,2,18,3396,2108,1174,114,52,1083,651,359,73,8,2313,1457,815,41
+6047,r020,All institutions<sup>a</sup> -> Purdue U.,All institutions<sup>a</sup>,Purdue U.,2,19,3187,948,2014,225,32,1464,544,817,103,13,1723,404,1197,122
+6047,r021,All institutions<sup>a</sup> -> George Mason U.,All institutions<sup>a</sup>,George Mason U.,2,20,2942,2332,348,262,38,1337,1085,111,141,15,1605,1247,237,121
+6047,r022,All institutions<sup>a</sup> -> North Carolina State U.,All institutions<sup>a</sup>,North Carolina State U.,2,21,2922,1677,1245,0,20,1906,1145,761,0,30,1016,532,484,0
+6047,r023,"All institutions<sup>a</sup> -> U. Maryland, College Park",All institutions<sup>a</sup>,"U. Maryland, College Park",2,22,2900,1162,841,897,28,1520,814,456,250,18,1380,348,385,647
+6047,r024,All institutions<sup>a</sup> -> Carnegie Mellon U.,All institutions<sup>a</sup>,Carnegie Mellon U.,2,23,2876,1487,1389,0,9,2698,1427,1271,0,220,178,60,118,0
+6047,r025,"All institutions<sup>a</sup> -> U. Texas, Dallas",All institutions<sup>a</sup>,"U. Texas, Dallas",2,24,2802,2098,498,206,18,1949,1477,276,196,39,853,621,222,10
+6047,r026,"All institutions<sup>a</sup> -> U. South Florida, Tampa",All institutions<sup>a</sup>,"U. South Florida, Tampa",2,24,2802,1412,405,985,24,1817,1088,274,455,31,985,324,131,530
+6047,r027,All institutions<sup>a</sup> -> San Jose State U.,All institutions<sup>a</sup>,San Jose State U.,2,26,2530,724,1663,143,31,1466,439,913,114,26,1064,285,750,29
+6047,r028,All institutions<sup>a</sup> -> Lamar U.,All institutions<sup>a</sup>,Lamar U.,2,27,2495,2109,97,289,30,1510,1266,70,174,31,985,843,27,115
+6047,r029,All institutions<sup>a</sup> -> Pepperdine U.,All institutions<sup>a</sup>,Pepperdine U.,2,28,2429,2429,0,0,74,807,807,0,0,14,1622,1622,0,0
+6047,r030,"All institutions<sup>a</sup> -> U. California, Berkeley",All institutions<sup>a</sup>,"U. California, Berkeley",2,29,2405,1182,652,571,34,1429,446,609,374,33,976,736,43,197
+6047,r031,"All institutions<sup>a</sup> -> U. Texas, Austin",All institutions<sup>a</sup>,"U. Texas, Austin",2,30,2397,1561,612,224,29,1517,947,417,153,37,880,614,195,71
+6047,r032,"All institutions<sup>a</sup> -> SUNY, U. Buffalo",All institutions<sup>a</sup>,"SUNY, U. Buffalo",2,31,2377,1086,950,341,37,1346,668,395,283,29,1031,418,555,58
+6047,r033,All institutions<sup>a</sup> -> U. Minnesota,All institutions<sup>a</sup>,U. Minnesota,2,32,2363,1368,429,566,17,1987,1195,347,445,117,376,173,82,121
+6047,r034,All institutions<sup>a</sup> -> Georgetown U.,All institutions<sup>a</sup>,Georgetown U.,2,33,2361,2284,0,77,21,1867,1834,0,33,83,494,450,0,44
+6047,r035,All institutions<sup>a</sup> -> U. Chicago,All institutions<sup>a</sup>,U. Chicago,2,34,2357,2352,5,0,25,1743,1739,4,0,60,614,613,1,0
+6047,r036,All institutions<sup>a</sup> -> National U.,All institutions<sup>a</sup>,National U.,2,35,2354,2200,0,154,40,1239,1129,0,110,23,1115,1071,0,44
+6047,r037,All institutions<sup>a</sup> -> U. Central Florida,All institutions<sup>a</sup>,U. Central Florida,2,36,2236,968,658,610,47,1143,541,209,393,24,1093,427,449,217
+6047,r038,All institutions<sup>a</sup> -> Indiana U.,All institutions<sup>a</sup>,Indiana U.,2,37,2228,1345,246,637,33,1461,886,128,447,42,767,459,118,190
+6047,r039,All institutions<sup>a</sup> -> Virginia Polytechnic Institute and State U.,All institutions<sup>a</sup>,Virginia Polytechnic Institute and State U.,2,38,2158,1337,761,60,50,1109,508,555,46,28,1049,829,206,14
+6047,r040,"All institutions<sup>a</sup> -> U. California, Los Angeles",All institutions<sup>a</sup>,"U. California, Los Angeles",2,39,2090,798,921,371,16,2090,798,921,371,636,0,0,0,0
+6047,r041,All institutions<sup>a</sup> -> DePaul U.,All institutions<sup>a</sup>,DePaul U.,2,40,2077,1849,116,112,36,1368,1194,82,92,51,709,655,34,20
+6047,r042,"All institutions<sup>a</sup> -> Colorado State U., Fort Collins",All institutions<sup>a</sup>,"Colorado State U., Fort Collins",2,41,2069,1564,470,35,91,725,584,114,27,19,1344,980,356,8
+6047,r043,All institutions<sup>a</sup> -> U. Cincinnati,All institutions<sup>a</sup>,U. Cincinnati,2,42,2028,936,498,594,69,903,419,222,262,22,1125,517,276,332
+6047,r044,All institutions<sup>a</sup> -> U. Arizona,All institutions<sup>a</sup>,U. Arizona,2,43,2010,1068,476,466,63,952,554,157,241,27,1058,514,319,225
+6047,r045,"All institutions<sup>a</sup> -> U. Texas, Arlington",All institutions<sup>a</sup>,"U. Texas, Arlington",2,44,1965,943,966,56,39,1241,655,547,39,47,724,288,419,17
+6047,r046,All institutions<sup>a</sup> -> U. Wisconsin-Madison,All institutions<sup>a</sup>,U. Wisconsin-Madison,2,45,1953,1236,597,120,35,1393,982,308,103,71,560,254,289,17
+6047,r047,All institutions<sup>a</sup> -> Stanford U.,All institutions<sup>a</sup>,Stanford U.,2,46,1942,1034,806,102,26,1712,914,715,83,183,230,120,91,19
+6047,r048,All institutions<sup>a</sup> -> Cornell U.,All institutions<sup>a</sup>,Cornell U.,2,47,1839,865,883,91,23,1839,865,883,91,636,0,0,0,0
+6047,r049,"All institutions<sup>a</sup> -> U. California, San Diego",All institutions<sup>a</sup>,"U. California, San Diego",2,48,1809,736,1073,0,27,1539,587,952,0,160,270,149,121,0
+6047,r050,All institutions<sup>a</sup> -> U. Denver,All institutions<sup>a</sup>,U. Denver,2,49,1804,1669,105,30,42,1177,1125,41,11,58,627,544,64,19
+6047,r051,All institutions<sup>a</sup> -> Florida State U.,All institutions<sup>a</sup>,Florida State U.,2,50,1801,1424,131,246,72,876,688,64,124,35,925,736,67,122
+6047,r052,"All institutions<sup>a</sup> -> California State U., Northridge",All institutions<sup>a</sup>,"California State U., Northridge",2,51,1733,485,289,959,107,644,228,127,289,25,1089,257,162,670
+6047,r053,"All institutions<sup>a</sup> -> Rutgers, State U. New Jersey",All institutions<sup>a</sup>,"Rutgers, State U. New Jersey",2,52,1714,1232,475,7,44,1173,932,234,7,73,541,300,241,0
+6047,r054,All institutions<sup>a</sup> -> Tufts U.,All institutions<sup>a</sup>,Tufts U.,2,53,1699,1334,168,197,41,1227,1008,107,112,87,472,326,61,85
+6047,r055,All institutions<sup>a</sup> -> U. Utah,All institutions<sup>a</sup>,U. Utah,2,54,1677,1028,336,313,49,1118,701,196,221,72,559,327,140,92
+6047,r056,All institutions<sup>a</sup> -> Oregon State U.,All institutions<sup>a</sup>,Oregon State U.,2,55,1650,970,467,213,53,1079,600,374,105,69,571,370,93,108
+6047,r057,All institutions<sup>a</sup> -> Syracuse U.,All institutions<sup>a</sup>,Syracuse U.,2,56,1648,1338,284,26,62,963,749,192,22,54,685,589,92,4
+6047,r058,"All institutions<sup>a</sup> -> California State U., Fullerton",All institutions<sup>a</sup>,"California State U., Fullerton",2,57,1611,847,580,184,98,681,382,161,138,34,930,465,419,46
+6047,r059,All institutions<sup>a</sup> -> Ohio State U.,All institutions<sup>a</sup>,Ohio State U.,2,58,1587,592,646,349,46,1150,439,476,235,95,437,153,170,114
+6047,r060,All institutions<sup>a</sup> -> Northwestern U.,All institutions<sup>a</sup>,Northwestern U.,2,59,1548,1028,336,184,60,973,669,202,102,68,575,359,134,82
+6047,r061,"All institutions<sup>a</sup> -> U. Alabama, Birmingham",All institutions<sup>a</sup>,"U. Alabama, Birmingham",2,60,1540,602,456,482,106,649,339,84,226,36,891,263,372,256
+6047,r062,All institutions<sup>a</sup> -> Stevens Institute of Technology,All institutions<sup>a</sup>,Stevens Institute of Technology,2,61,1512,532,974,6,58,994,433,557,4,80,518,99,417,2
+6047,r063,All institutions<sup>a</sup> -> U. Pittsburgh,All institutions<sup>a</sup>,U. Pittsburgh,2,62,1511,843,320,348,54,1037,626,176,235,86,474,217,144,113
+6047,r064,All institutions<sup>a</sup> -> Florida Institute of Technology,All institutions<sup>a</sup>,Florida Institute of Technology,2,63,1504,1127,377,0,77,795,655,140,0,51,709,472,237,0
+6047,r065,All institutions<sup>a</sup> -> Drexel U.,All institutions<sup>a</sup>,Drexel U.,2,64,1501,1113,254,134,87,748,571,107,70,43,753,542,147,64
+6047,r066,"All institutions<sup>a</sup> -> Columbia U., Teachers C.",All institutions<sup>a</sup>,"Columbia U., Teachers C.",2,65,1494,1299,0,195,66,916,791,0,125,66,578,508,0,70
+6047,r067,All institutions<sup>a</sup> -> New Jersey Institute of Technology,All institutions<sup>a</sup>,New Jersey Institute of Technology,2,66,1465,793,656,16,90,727,465,253,9,46,738,328,403,7
+6047,r068,All institutions<sup>a</sup> -> American U.,All institutions<sup>a</sup>,American U.,2,67,1460,1438,0,22,76,796,783,0,13,55,664,655,0,9
+6047,r069,All institutions<sup>a</sup> -> Illinois Institute of Technology,All institutions<sup>a</sup>,Illinois Institute of Technology,2,68,1452,1031,378,43,71,891,651,235,5,70,561,380,143,38
+6047,r070,All institutions<sup>a</sup> -> Texas Tech U.,All institutions<sup>a</sup>,Texas Tech U.,2,69,1443,901,385,157,59,981,623,249,109,90,462,278,136,48
+6047,r071,All institutions<sup>a</sup> -> Naval Postgraduate School,All institutions<sup>a</sup>,Naval Postgraduate School,2,70,1433,505,928,0,68,904,505,399,0,77,529,0,529,0
+6047,r072,All institutions<sup>a</sup> -> Case Western Reserve U.,All institutions<sup>a</sup>,Case Western Reserve U.,2,71,1405,1009,273,123,45,1153,828,223,102,168,252,181,50,21
+6047,r073,"All institutions<sup>a</sup> -> U. Texas, San Antonio",All institutions<sup>a</sup>,"U. Texas, San Antonio",2,72,1400,1065,232,103,105,657,510,96,51,45,743,555,136,52
+6047,r074,"All institutions<sup>a</sup> -> U. Illinois, Chicago",All institutions<sup>a</sup>,"U. Illinois, Chicago",2,73,1398,575,453,370,55,1029,456,310,263,121,369,119,143,107
+6047,r075,All institutions<sup>a</sup> -> Florida International U.,All institutions<sup>a</sup>,Florida International U.,2,74,1381,852,224,305,64,936,586,123,227,92,445,266,101,78
+6047,r076,"All institutions<sup>a</sup> -> U. North Texas, Denton",All institutions<sup>a</sup>,"U. North Texas, Denton",2,75,1371,1041,167,163,78,785,520,115,150,64,586,521,52,13
+6047,r077,All institutions<sup>a</sup> -> U. Connecticut,All institutions<sup>a</sup>,U. Connecticut,2,76,1365,798,360,207,65,934,657,123,154,97,431,141,237,53
+6047,r078,All institutions<sup>a</sup> -> San Diego State U.,All institutions<sup>a</sup>,San Diego State U.,2,77,1358,798,229,331,79,780,406,101,273,66,578,392,128,58
+6047,r079,All institutions<sup>a</sup> -> Rochester Institute of Technology,All institutions<sup>a</sup>,Rochester Institute of Technology,2,78,1351,965,380,6,57,1005,755,247,3,128,346,210,133,3
+6047,r080,"All institutions<sup>a</sup> -> U. Massachusetts, Amherst",All institutions<sup>a</sup>,"U. Massachusetts, Amherst",2,79,1348,735,243,370,73,811,579,111,121,74,537,156,132,249
+6047,r081,"All institutions<sup>a</sup> -> U. North Carolina, Chapel Hill",All institutions<sup>a</sup>,"U. North Carolina, Chapel Hill",2,80,1338,318,11,1009,51,1092,292,11,789,173,246,26,0,220
+6047,r082,"All institutions<sup>a</sup> -> Washington U., Saint Louis",All institutions<sup>a</sup>,"Washington U., Saint Louis",2,81,1304,496,589,219,70,902,350,393,159,111,402,146,196,60
+6047,r083,"All institutions<sup>a</sup> -> U. California, Irvine",All institutions<sup>a</sup>,"U. California, Irvine",2,82,1290,813,408,69,48,1127,705,361,61,235,163,108,47,8
+6047,r084,All institutions<sup>a</sup> -> U. Texas Rio Grande Valley,All institutions<sup>a</sup>,U. Texas Rio Grande Valley,2,83,1285,702,205,378,121,562,393,122,47,48,723,309,83,331
+6047,r085,All institutions<sup>a</sup> -> Georgia State U.,All institutions<sup>a</sup>,Georgia State U.,2,84,1262,1004,0,258,61,970,779,0,191,151,292,225,0,67
+6047,r086,"All institutions<sup>a</sup> -> California State U., Long Beach",All institutions<sup>a</sup>,"California State U., Long Beach",2,85,1246,837,288,121,104,660,472,103,85,64,586,365,185,36
+6047,r087,"All institutions<sup>a</sup> -> U. Massachusetts, Lowell",All institutions<sup>a</sup>,"U. Massachusetts, Lowell",2,86,1234,561,577,96,152,454,175,215,64,40,780,386,362,32
+6047,r088,All institutions<sup>a</sup> -> U. Oklahoma,All institutions<sup>a</sup>,U. Oklahoma,2,87,1232,916,288,28,132,520,389,114,17,49,712,527,174,11
+6047,r089,All institutions<sup>a</sup> -> U. Houston,All institutions<sup>a</sup>,U. Houston,2,88,1219,664,482,73,86,750,402,278,70,88,469,262,204,3
+6047,r090,All institutions<sup>a</sup> -> U. San Francisco,All institutions<sup>a</sup>,U. San Francisco,2,89,1215,1018,0,197,110,619,574,0,45,63,596,444,0,152
+6047,r091,"All institutions<sup>a</sup> -> SUNY, Stony Brook U.",All institutions<sup>a</sup>,"SUNY, Stony Brook U.",2,90,1200,789,247,164,75,797,490,165,142,109,403,299,82,22
+6047,r092,All institutions<sup>a</sup> -> Auburn U.,All institutions<sup>a</sup>,Auburn U.,2,91,1196,685,424,87,120,563,344,152,67,56,633,341,272,20
+6047,r093,All institutions<sup>a</sup> -> Massachusetts Institute of Technology,All institutions<sup>a</sup>,Massachusetts Institute of Technology,2,92,1176,427,749,0,43,1175,427,748,0,624,1,0,1,0
+6047,r094,All institutions<sup>a</sup> -> Texas State U.,All institutions<sup>a</sup>,Texas State U.,2,93,1170,926,82,162,82,772,591,40,141,113,398,335,42,21
+6047,r095,All institutions<sup>a</sup> -> Clemson U.,All institutions<sup>a</sup>,Clemson U.,2,94,1166,616,456,94,83,767,292,411,64,112,399,324,45,30
+6047,r096,All institutions<sup>a</sup> -> U. Virginia,All institutions<sup>a</sup>,U. Virginia,2,95,1162,779,228,155,89,734,510,86,138,98,428,269,142,17
+6047,r097,All institutions<sup>a</sup> -> Michigan State U.,All institutions<sup>a</sup>,Michigan State U.,2,96,1146,765,148,233,133,518,312,77,129,57,628,453,71,104
+6047,r098,All institutions<sup>a</sup> -> Wayne State U.,All institutions<sup>a</sup>,Wayne State U.,2,97,1144,594,313,237,96,687,350,149,188,91,457,244,164,49
+6047,r099,"All institutions<sup>a</sup> -> U. Missouri, Columbia",All institutions<sup>a</sup>,"U. Missouri, Columbia",2,98,1124,758,98,268,130,522,342,37,143,62,602,416,61,125
+6047,r100,All institutions<sup>a</sup> -> Worcester Polytechnic Institute,All institutions<sup>a</sup>,Worcester Polytechnic Institute,2,99,1103,373,730,0,200,335,164,171,0,41,768,209,559,0
+6047,r101,All institutions<sup>a</sup> -> U. Miami,All institutions<sup>a</sup>,U. Miami,2,100,1100,895,105,100,67,914,764,88,62,213,186,131,17,38
+6047,r102,All institutions<sup>a</sup> -> California Baptist U.,All institutions<sup>a</sup>,California Baptist U.,2,101,1096,690,25,381,84,758,532,16,210,133,338,158,9,171
+6047,r103,All institutions<sup>a</sup> -> Troy U.,All institutions<sup>a</sup>,Troy U.,2,102,1090,1071,0,19,194,346,339,0,7,44,744,732,0,12
+6047,r104,"All institutions<sup>a</sup> -> U. Texas Health Science Center, Houston",All institutions<sup>a</sup>,"U. Texas Health Science Center, Houston",2,103,1079,410,3,666,116,587,296,3,288,84,492,114,0,378
+6047,r105,All institutions<sup>a</sup> -> Harvard U.,All institutions<sup>a</sup>,Harvard U.,2,104,1073,335,182,556,84,758,202,171,385,143,315,133,11,171
+6047,r106,"All institutions<sup>a</sup> -> U. California, Davis",All institutions<sup>a</sup>,"U. California, Davis",2,105,1067,534,331,202,56,1018,519,305,194,420,49,15,26,8
+6047,r107,"All institutions<sup>a</sup> -> U. North Carolina, Charlotte",All institutions<sup>a</sup>,"U. North Carolina, Charlotte",2,106,1044,823,147,74,101,671,521,88,62,118,373,302,59,12
+6047,r108,All institutions<sup>a</sup> -> Miami U.,All institutions<sup>a</sup>,Miami U.,2,107,1032,870,42,120,168,407,257,38,112,59,625,613,4,8
+6047,r109,All institutions<sup>a</sup> -> Southern Methodist U.,All institutions<sup>a</sup>,Southern Methodist U.,2,108,1030,593,437,0,205,328,256,72,0,53,702,337,365,0
+6047,r110,All institutions<sup>a</sup> -> Portland State U.,All institutions<sup>a</sup>,Portland State U.,2,109,1029,593,355,81,111,609,349,189,71,104,420,244,166,10
+6047,r111,All institutions<sup>a</sup> -> Old Dominion U.,All institutions<sup>a</sup>,Old Dominion U.,2,110,1021,351,600,70,223,309,164,79,66,49,712,187,521,4
+6047,r112,All institutions<sup>a</sup> -> Mississippi State U.,All institutions<sup>a</sup>,Mississippi State U.,2,111,1014,695,275,44,136,513,379,101,33,81,501,316,174,11
+6047,r113,All institutions<sup>a</sup> -> Oklahoma State U.,All institutions<sup>a</sup>,Oklahoma State U.,2,112,1009,646,275,88,103,664,442,145,77,129,345,204,130,11
+6047,r114,All institutions<sup>a</sup> -> Iowa State U.,All institutions<sup>a</sup>,Iowa State U.,2,113,1000,647,343,10,142,476,303,164,9,78,524,344,179,1
+6047,r115,All institutions<sup>a</sup> -> U. New Mexico,All institutions<sup>a</sup>,U. New Mexico,2,114,995,426,363,206,124,550,234,162,154,92,445,192,201,52
+6047,r116,All institutions<sup>a</sup> -> U. Wisconsin-Milwaukee,All institutions<sup>a</sup>,U. Wisconsin-Milwaukee,2,115,984,696,103,185,102,665,462,46,157,141,319,234,57,28
+6047,r117,"All institutions<sup>a</sup> -> SUNY, Binghamton U.",All institutions<sup>a</sup>,"SUNY, Binghamton U.",2,116,951,592,325,34,97,686,463,195,28,162,265,129,130,6
+6047,r118,"All institutions<sup>a</sup> -> SUNY, U. Albany",All institutions<sup>a</sup>,"SUNY, U. Albany",2,117,937,691,7,239,109,630,510,3,117,147,307,181,4,122
+6047,r119,All institutions<sup>a</sup> -> Temple U.,All institutions<sup>a</sup>,Temple U.,2,118,926,698,85,143,118,581,423,47,111,129,345,275,38,32
+6047,r120,All institutions<sup>a</sup> -> Tulane U.,All institutions<sup>a</sup>,Tulane U.,2,119,921,418,27,476,92,705,396,27,282,193,216,22,0,194
+6047,r121,All institutions<sup>a</sup> -> Kennesaw State U.,All institutions<sup>a</sup>,Kennesaw State U.,2,120,906,591,207,108,180,374,297,46,31,76,532,294,161,77
+6047,r122,All institutions<sup>a</sup> -> U. Georgia,All institutions<sup>a</sup>,U. Georgia,2,121,902,712,73,117,81,778,607,66,105,280,124,105,7,12
+6047,r123,All institutions<sup>a</sup> -> Northern Illinois U.,All institutions<sup>a</sup>,Northern Illinois U.,2,122,895,418,168,309,144,473,288,90,95,102,422,130,78,214
+6047,r124,All institutions<sup>a</sup> -> U. Kentucky,All institutions<sup>a</sup>,U. Kentucky,2,123,884,531,119,234,94,689,409,89,191,203,195,122,30,43
+6047,r125,All institutions<sup>a</sup> -> Santa Clara U.,All institutions<sup>a</sup>,Santa Clara U.,2,124,882,448,434,0,125,548,252,296,0,137,334,196,138,0
+6047,r126,All institutions<sup>a</sup> -> New Mexico State U.,All institutions<sup>a</sup>,New Mexico State U.,2,125,874,524,203,147,141,482,317,106,59,115,392,207,97,88
+6047,r127,All institutions<sup>a</sup> -> Montclair State U.,All institutions<sup>a</sup>,Montclair State U.,2,126,873,638,0,235,95,688,502,0,186,216,185,136,0,49
+6047,r128,All institutions<sup>a</sup> -> Baylor U.,All institutions<sup>a</sup>,Baylor U.,2,127,870,112,33,725,114,598,81,25,492,158,272,31,8,233
+6047,r129,"All institutions<sup>a</sup> -> U. Texas, El Paso",All institutions<sup>a</sup>,"U. Texas, El Paso",2,128,861,355,414,92,151,456,191,189,76,106,405,164,225,16
+6047,r130,All institutions<sup>a</sup> -> San Francisco State U.,All institutions<sup>a</sup>,San Francisco State U.,2,129,856,659,67,130,118,581,416,44,121,157,275,243,23,9
+6047,r131,All institutions<sup>a</sup> -> Utah State U.,All institutions<sup>a</sup>,Utah State U.,2,130,854,559,133,162,214,318,147,71,100,75,536,412,62,62
+6047,r132,All institutions<sup>a</sup> -> U. Central Missouri,All institutions<sup>a</sup>,U. Central Missouri,2,131,845,695,35,115,137,509,417,18,74,134,336,278,17,41
+6047,r133,All institutions<sup>a</sup> -> U. Nebraska-Lincoln,All institutions<sup>a</sup>,U. Nebraska-Lincoln,2,132,842,541,238,63,143,475,289,134,52,123,367,252,104,11
+6047,r134,All institutions<sup>a</sup> -> Kansas State U.,All institutions<sup>a</sup>,Kansas State U.,2,133,841,669,135,37,147,470,395,55,20,120,371,274,80,17
+6047,r135,All institutions<sup>a</sup> -> Maharishi U. of Management,All institutions<sup>a</sup>,Maharishi U. of Management,2,134,834,834,0,0,88,747,747,0,0,336,87,87,0,0
+6047,r136,"All institutions<sup>a</sup> -> California State U., Sacramento",All institutions<sup>a</sup>,"California State U., Sacramento",2,135,832,506,220,106,204,331,165,91,75,81,501,341,129,31
+6047,r137,"All institutions<sup>a</sup> -> U. Tennessee, Knoxville",All institutions<sup>a</sup>,"U. Tennessee, Knoxville",2,136,819,429,310,80,160,425,228,130,67,114,394,201,180,13
+6047,r138,All institutions<sup>a</sup> -> Colorado School of Mines,All institutions<sup>a</sup>,Colorado School of Mines,2,137,816,254,562,0,112,607,210,397,0,197,209,44,165,0
+6047,r139,All institutions<sup>a</sup> -> U. Dayton,All institutions<sup>a</sup>,U. Dayton,2,138,814,446,368,0,108,642,359,283,0,226,172,87,85,0
+6047,r140,All institutions<sup>a</sup> -> Ohio U.,All institutions<sup>a</sup>,Ohio U.,2,138,814,489,230,95,165,409,252,69,88,106,405,237,161,7
+6047,r141,All institutions<sup>a</sup> -> U. New Haven,All institutions<sup>a</sup>,U. New Haven,2,140,802,468,279,55,117,584,352,180,52,190,218,116,99,3
+6047,r142,"All institutions<sup>a</sup> -> California State Polytechnic U., Pomona",All institutions<sup>a</sup>,"California State Polytechnic U., Pomona",2,141,801,443,358,0,234,277,161,116,0,78,524,282,242,0
+6047,r143,All institutions<sup>a</sup> -> Carlos Albizu U.,All institutions<sup>a</sup>,Carlos Albizu U.,2,142,797,589,0,208,100,674,531,0,143,282,123,58,0,65
+6047,r144,"All institutions<sup>a</sup> -> U. Alabama, Tuscaloosa",All institutions<sup>a</sup>,"U. Alabama, Tuscaloosa",2,143,790,330,220,240,140,488,226,93,169,149,302,104,127,71
+6047,r145,All institutions<sup>a</sup> -> Regis U.,All institutions<sup>a</sup>,Regis U.,2,144,789,769,0,20,125,548,533,0,15,177,241,236,0,5
+6047,r146,All institutions<sup>a</sup> -> U. Kansas,All institutions<sup>a</sup>,U. Kansas,2,145,786,485,165,136,145,472,265,113,94,144,314,220,52,42
+6047,r147,All institutions<sup>a</sup> -> U. Louisville,All institutions<sup>a</sup>,U. Louisville,2,146,781,183,399,199,159,427,107,151,169,126,354,76,248,30
+6047,r148,All institutions<sup>a</sup> -> Duke U.,All institutions<sup>a</sup>,Duke U.,2,147,779,453,229,97,80,779,453,229,97,636,0,0,0,0
+6047,r149,All institutions<sup>a</sup> -> Antioch U.,All institutions<sup>a</sup>,Antioch U.,2,148,777,777,0,0,99,677,677,0,0,312,100,100,0,0
+6047,r150,All institutions<sup>a</sup> -> Missouri State U.,All institutions<sup>a</sup>,Missouri State U.,2,149,775,631,0,144,148,467,337,0,130,146,308,294,0,14
+6047,r151,"All institutions<sup>a</sup> -> U. Hawaii, Manoa",All institutions<sup>a</sup>,"U. Hawaii, Manoa",2,150,771,507,141,123,115,596,408,100,88,224,175,99,41,35
+6047,r152,All institutions<sup>a</sup> -> Pace U.,All institutions<sup>a</sup>,Pace U.,2,151,769,717,12,40,133,518,471,7,40,170,251,246,5,0
+6047,r153,"All institutions<sup>a</sup> -> U. Nevada, Reno",All institutions<sup>a</sup>,"U. Nevada, Reno",2,152,768,330,136,302,129,523,256,120,147,174,245,74,16,155
+6047,r154,All institutions<sup>a</sup> -> Long Island U.,All institutions<sup>a</sup>,Long Island U.,2,153,760,408,3,349,123,560,282,2,276,199,200,126,1,73
+6047,r155,All institutions<sup>a</sup> -> U. West Florida,All institutions<sup>a</sup>,U. West Florida,2,154,757,572,23,162,334,148,95,5,48,61,609,477,18,114
+6047,r156,All institutions<sup>a</sup> -> Washington State U.,All institutions<sup>a</sup>,Washington State U.,2,155,750,505,194,51,130,522,345,127,50,185,228,160,67,1
+6047,r157,"All institutions<sup>a</sup> -> U. North Carolina, Greensboro",All institutions<sup>a</sup>,"U. North Carolina, Greensboro",2,156,748,507,0,241,150,457,302,0,155,153,291,205,0,86
+6047,r158,All institutions<sup>a</sup> -> Texas Woman's U.,All institutions<sup>a</sup>,Texas Woman's U.,2,156,748,532,0,216,164,413,223,0,190,136,335,309,0,26
+6047,r159,All institutions<sup>a</sup> -> U. Houston-Clear Lake,All institutions<sup>a</sup>,U. Houston-Clear Lake,2,158,747,640,93,14,175,390,357,29,4,124,357,283,64,10
+6047,r160,All institutions<sup>a</sup> -> Brown U.,All institutions<sup>a</sup>,Brown U.,2,159,739,463,109,167,93,694,437,98,159,429,45,26,11,8
+6047,r161,All institutions<sup>a</sup> -> U. Delaware,All institutions<sup>a</sup>,U. Delaware,2,160,729,464,160,105,113,599,365,132,102,270,130,99,28,3
+6047,r162,All institutions<sup>a</sup> -> West Virginia U.,All institutions<sup>a</sup>,West Virginia U.,2,161,723,357,202,164,127,545,271,131,143,220,178,86,71,21
+6047,r163,All institutions<sup>a</sup> -> Brigham Young U.,All institutions<sup>a</sup>,Brigham Young U.,2,162,717,409,214,94,219,313,179,71,63,108,404,230,143,31
+6047,r164,All institutions<sup>a</sup> -> Sam Houston State U.,All institutions<sup>a</sup>,Sam Houston State U.,2,163,713,651,0,62,202,332,299,0,33,116,381,352,0,29
+6047,r165,All institutions<sup>a</sup> -> Florida Atlantic U.,All institutions<sup>a</sup>,Florida Atlantic U.,2,164,710,479,133,98,178,382,253,55,74,139,328,226,78,24
+6047,r166,All institutions<sup>a</sup> -> Wright State U.,All institutions<sup>a</sup>,Wright State U.,2,165,709,475,204,30,135,517,361,136,20,205,192,114,68,10
+6047,r167,"All institutions<sup>a</sup> -> California State U., Los Angeles",All institutions<sup>a</sup>,"California State U., Los Angeles",2,166,704,482,149,73,186,368,284,48,36,134,336,198,101,37
+6047,r168,All institutions<sup>a</sup> -> U. Memphis,All institutions<sup>a</sup>,U. Memphis,2,167,696,386,57,253,158,428,237,35,156,161,268,149,22,97
+6047,r169,All institutions<sup>a</sup> -> Kent State U.,All institutions<sup>a</sup>,Kent State U.,2,168,695,350,0,345,209,322,171,0,151,118,373,179,0,194
+6047,r170,"All institutions<sup>a</sup> -> U. Arkansas, Fayetteville",All institutions<sup>a</sup>,"U. Arkansas, Fayetteville",2,168,695,323,292,80,239,271,145,68,58,101,424,178,224,22
+6047,r171,All institutions<sup>a</sup> -> Azusa Pacific U.,All institutions<sup>a</sup>,Azusa Pacific U.,2,170,688,636,0,52,157,440,398,0,42,172,248,238,0,10
+6047,r172,All institutions<sup>a</sup> -> Western Michigan U.,All institutions<sup>a</sup>,Western Michigan U.,2,171,681,415,170,96,122,561,345,124,92,286,120,70,46,4
+6047,r173,"All institutions<sup>a</sup> -> U. Massachusetts, Boston",All institutions<sup>a</sup>,"U. Massachusetts, Boston",2,172,680,509,0,171,247,259,234,0,25,103,421,275,0,146
+6047,r174,All institutions<sup>a</sup> -> Towson U.,All institutions<sup>a</sup>,Towson U.,2,173,649,555,0,94,183,372,279,0,93,156,277,276,0,1
+6047,r175,All institutions<sup>a</sup> -> Villanova U.,All institutions<sup>a</sup>,Villanova U.,2,173,649,284,365,0,190,357,206,151,0,151,292,78,214,0
+6047,r176,All institutions<sup>a</sup> -> Oakland U.,All institutions<sup>a</sup>,Oakland U.,2,173,649,254,346,49,200,335,153,143,39,144,314,101,203,10
+6047,r177,All institutions<sup>a</sup> -> U. Idaho,All institutions<sup>a</sup>,U. Idaho,2,176,648,439,209,0,215,317,228,89,0,138,331,211,120,0
+6047,r178,"All institutions<sup>a</sup> -> U. Illinois, Springfield",All institutions<sup>a</sup>,"U. Illinois, Springfield",2,177,646,589,0,57,300,180,154,0,26,89,466,435,0,31
+6047,r179,All institutions<sup>a</sup> -> Cleveland State U.,All institutions<sup>a</sup>,Cleveland State U.,2,178,643,335,218,90,155,444,249,121,74,200,199,86,97,16
+6047,r180,All institutions<sup>a</sup> -> Michigan Technological U.,All institutions<sup>a</sup>,Michigan Technological U.,2,179,641,259,370,12,176,389,137,243,9,168,252,122,127,3
+6047,r181,All institutions<sup>a</sup> -> U. South Carolina,All institutions<sup>a</sup>,U. South Carolina,2,180,639,276,103,260,165,409,218,66,125,183,230,58,37,135
+6047,r182,"All institutions<sup>a</sup> -> U. Maryland, Baltimore County",All institutions<sup>a</sup>,"U. Maryland, Baltimore County",2,181,632,537,95,0,216,314,272,42,0,142,318,265,53,0
+6047,r183,All institutions<sup>a</sup> -> U. San Diego,All institutions<sup>a</sup>,U. San Diego,2,182,623,443,0,180,243,267,238,0,29,125,356,205,0,151
+6047,r184,"All institutions<sup>a</sup> -> CUNY, Queens C.",All institutions<sup>a</sup>,"CUNY, Queens C.",2,183,620,538,0,82,191,355,303,0,52,162,265,235,0,30
+6047,r185,All institutions<sup>a</sup> -> Texas A&M U.-Kingsville,All institutions<sup>a</sup>,Texas A&M U.-Kingsville,2,184,617,334,203,80,173,391,234,107,50,186,226,100,96,30
+6047,r186,All institutions<sup>a</sup> -> Ball State U.,All institutions<sup>a</sup>,Ball State U.,2,185,615,535,0,80,216,314,250,0,64,150,301,285,0,16
+6047,r187,"All institutions<sup>a</sup> -> CUNY, Hunter C.",All institutions<sup>a</sup>,"CUNY, Hunter C.",2,186,614,571,0,43,361,130,87,0,43,85,484,484,0,0
+6047,r188,All institutions<sup>a</sup> -> Saint Mary's U. Minnesota,All institutions<sup>a</sup>,Saint Mary's U. Minnesota,2,187,611,566,0,45,156,442,406,0,36,229,169,160,0,9
+6047,r189,All institutions<sup>a</sup> -> Louisiana State U.,All institutions<sup>a</sup>,Louisiana State U.,2,188,609,333,115,161,139,505,276,83,146,303,104,57,32,15
+6047,r190,All institutions<sup>a</sup> -> East Carolina U.,All institutions<sup>a</sup>,East Carolina U.,2,189,608,332,46,230,185,369,222,24,123,179,239,110,22,107
+6047,r191,"All institutions<sup>a</sup> -> U. Nebraska, Omaha",All institutions<sup>a</sup>,"U. Nebraska, Omaha",2,190,607,586,0,21,248,257,239,0,18,127,350,347,0,3
+6047,r192,"All institutions<sup>a</sup> -> U. Alabama, Huntsville",All institutions<sup>a</sup>,"U. Alabama, Huntsville",2,190,607,266,341,0,290,198,133,65,0,105,409,133,276,0
+6047,r193,All institutions<sup>a</sup> -> Brandeis U.,All institutions<sup>a</sup>,Brandeis U.,2,192,597,597,0,0,138,507,507,0,0,328,90,90,0,0
+6047,r194,All institutions<sup>a</sup> -> Northern Arizona U.,All institutions<sup>a</sup>,Northern Arizona U.,2,192,597,382,30,185,154,445,319,29,97,248,152,63,1,88
+6047,r195,All institutions<sup>a</sup> -> Grand Valley State U.,All institutions<sup>a</sup>,Grand Valley State U.,2,194,590,328,42,220,161,417,192,20,205,225,173,136,22,15
+6047,r196,"All institutions<sup>a</sup> -> California State U., Fresno",All institutions<sup>a</sup>,"California State U., Fresno",2,195,588,342,88,158,184,370,179,49,142,190,218,163,39,16
+6047,r197,All institutions<sup>a</sup> -> Texas A&M U.-Commerce,All institutions<sup>a</sup>,Texas A&M U.-Commerce,2,195,588,496,0,92,277,220,175,0,45,122,368,321,0,47
+6047,r198,All institutions<sup>a</sup> -> Wichita State U.,All institutions<sup>a</sup>,Wichita State U.,2,197,576,340,176,60,207,327,194,74,59,171,249,146,102,1
+6047,r199,"All institutions<sup>a</sup> -> CUNY, City C.",All institutions<sup>a</sup>,"CUNY, City C.",2,197,576,399,177,0,262,237,149,88,0,132,339,250,89,0
+6047,r200,All institutions<sup>a</sup> -> California Institute of Integral Studies,All institutions<sup>a</sup>,California Institute of Integral Studies,2,199,573,573,0,0,153,449,449,0,0,280,124,124,0,0
+6047,r201,"All institutions<sup>a</sup> -> Southern Illinois U., Edwardsville",All institutions<sup>a</sup>,"Southern Illinois U., Edwardsville",2,200,572,359,134,79,244,266,157,37,72,148,306,202,97,7
+6047,r202,All institutions<sup>a</sup> -> Tarleton State U.,All institutions<sup>a</sup>,Tarleton State U.,2,200,572,572,0,0,358,131,131,0,0,94,441,441,0,0
+6047,r203,All institutions<sup>a</sup> -> Georgia Southern U.,All institutions<sup>a</sup>,Georgia Southern U.,2,202,553,218,80,255,162,416,161,51,204,262,137,57,29,51
+6047,r204,All institutions<sup>a</sup> -> U. New Hampshire,All institutions<sup>a</sup>,U. New Hampshire,2,203,545,370,92,83,173,391,256,65,70,244,154,114,27,13
+6047,r205,All institutions<sup>a</sup> -> West Chester U. Pennsylvania,All institutions<sup>a</sup>,West Chester U. Pennsylvania,2,204,543,290,0,253,231,286,107,0,179,167,257,183,0,74
+6047,r206,"All institutions<sup>a</sup> -> U. California, Santa Barbara",All institutions<sup>a</sup>,"U. California, Santa Barbara",2,205,541,429,112,0,128,541,429,112,0,636,0,0,0,0
+6047,r207,All institutions<sup>a</sup> -> Missouri U. of Science and Technology,All institutions<sup>a</sup>,Missouri U. of Science and Technology,2,206,528,138,390,0,257,243,87,156,0,155,285,51,234,0
+6047,r208,All institutions<sup>a</sup> -> U. North Dakota,All institutions<sup>a</sup>,U. North Dakota,2,207,523,331,95,97,301,178,81,30,67,129,345,250,65,30
+6047,r209,All institutions<sup>a</sup> -> U. Toledo,All institutions<sup>a</sup>,U. Toledo,2,208,522,241,148,133,191,355,181,74,100,230,167,60,74,33
+6047,r210,All institutions<sup>a</sup> -> Saint Louis U.,All institutions<sup>a</sup>,Saint Louis U.,2,209,520,270,66,184,145,472,239,61,172,421,48,31,5,12
+6047,r211,All institutions<sup>a</sup> -> U. Rhode Island,All institutions<sup>a</sup>,U. Rhode Island,2,210,519,329,118,72,187,364,244,55,65,243,155,85,63,7
+6047,r212,"All institutions<sup>a</sup> -> U. North Texas, Health Science Center",All institutions<sup>a</sup>,"U. North Texas, Health Science Center",2,211,518,308,0,210,202,332,308,0,24,213,186,0,0,186
+6047,r213,All institutions<sup>a</sup> -> Barry U.,All institutions<sup>a</sup>,Barry U.,2,212,515,476,0,39,193,348,311,0,37,230,167,165,0,2
+6047,r214,All institutions<sup>a</sup> -> Air Force Institute of Technology,All institutions<sup>a</sup>,Air Force Institute of Technology,2,213,509,95,410,4,169,398,90,305,3,294,111,5,105,1
+6047,r215,"All institutions<sup>a</sup> -> U. Puerto Rico, Mayaguez",All institutions<sup>a</sup>,"U. Puerto Rico, Mayaguez",2,214,508,371,137,0,149,461,350,111,0,426,47,21,26,0
+6047,r216,All institutions<sup>a</sup> -> Marshall U.,All institutions<sup>a</sup>,Marshall U.,2,215,503,329,37,137,172,393,241,24,128,296,110,88,13,9
+6047,r217,All institutions<sup>a</sup> -> Eastern Illinois U.,All institutions<sup>a</sup>,Eastern Illinois U.,2,216,501,407,0,94,222,310,229,0,81,206,191,178,0,13
+6047,r218,"All institutions<sup>a</sup> -> CUNY, Baruch C.",All institutions<sup>a</sup>,"CUNY, Baruch C.",2,217,500,439,61,0,467,63,53,10,0,95,437,386,51,0
+6047,r219,All institutions<sup>a</sup> -> North Dakota State U.,All institutions<sup>a</sup>,North Dakota State U.,2,218,499,353,107,39,246,261,203,31,27,180,238,150,76,12
+6047,r220,"All institutions<sup>a</sup> -> U. California, Riverside",All institutions<sup>a</sup>,"U. California, Riverside",2,219,491,216,275,0,180,374,215,159,0,288,117,1,116,0
+6047,r221,All institutions<sup>a</sup> -> U. New England,All institutions<sup>a</sup>,U. New England,2,219,491,107,0,384,198,339,72,0,267,248,152,35,0,117
+6047,r222,All institutions<sup>a</sup> -> U. Wyoming,All institutions<sup>a</sup>,U. Wyoming,2,221,489,360,65,64,188,359,267,54,38,270,130,93,11,26
+6047,r223,"All institutions<sup>a</sup> -> Southern Illinois U., Carbondale",All institutions<sup>a</sup>,"Southern Illinois U., Carbondale",2,222,487,299,95,93,170,397,244,66,87,328,90,55,29,6
+6047,r224,All institutions<sup>a</sup> -> Rivier U.,All institutions<sup>a</sup>,Rivier U.,2,223,475,69,0,406,510,47,46,0,1,98,428,23,0,405
+6047,r225,"All institutions<sup>a</sup> -> California State U., San Bernardino",All institutions<sup>a</sup>,"California State U., San Bernardino",2,224,472,434,0,38,163,414,378,0,36,399,58,56,0,2
+6047,r226,All institutions<sup>a</sup> -> St. Cloud State U.,All institutions<sup>a</sup>,St. Cloud State U.,2,224,472,310,79,83,281,211,152,9,50,164,261,158,70,33
+6047,r227,"All institutions<sup>a</sup> -> U. Puerto Rico, Medical Sciences Campus",All institutions<sup>a</sup>,"U. Puerto Rico, Medical Sciences Campus",2,226,469,109,0,360,167,408,96,0,312,393,61,13,0,48
+6047,r228,All institutions<sup>a</sup> -> Illinois State U.,All institutions<sup>a</sup>,Illinois State U.,2,227,466,391,0,75,182,373,300,0,73,325,93,91,0,2
+6047,r229,All institutions<sup>a</sup> -> U. Maine,All institutions<sup>a</sup>,U. Maine,2,228,462,328,87,47,171,394,277,73,44,374,68,51,14,3
+6047,r230,"All institutions<sup>a</sup> -> Loyola U., Chicago",All institutions<sup>a</sup>,"Loyola U., Chicago",2,229,461,351,29,81,195,345,280,19,46,291,116,71,10,35
+6047,r231,"All institutions<sup>a</sup> -> California State U., East Bay",All institutions<sup>a</sup>,"California State U., East Bay",2,230,459,373,0,86,208,326,258,0,68,268,133,115,0,18
+6047,r232,"All institutions<sup>a</sup> -> U. Missouri, Kansas City",All institutions<sup>a</sup>,"U. Missouri, Kansas City",2,231,453,315,129,9,252,249,183,66,0,198,204,132,63,9
+6047,r233,All institutions<sup>a</sup> -> National Louis U.,All institutions<sup>a</sup>,National Louis U.,2,232,451,451,0,0,196,340,340,0,0,294,111,111,0,0
+6047,r234,"All institutions<sup>a</sup> -> California Polytechnic State U., San Luis Obispo",All institutions<sup>a</sup>,"California Polytechnic State U., San Luis Obispo",2,233,450,199,251,0,205,328,125,203,0,283,122,74,48,0
+6047,r235,All institutions<sup>a</sup> -> East Tennessee State U.,All institutions<sup>a</sup>,East Tennessee State U.,2,233,450,142,0,308,212,320,105,0,215,270,130,37,0,93
+6047,r236,All institutions<sup>a</sup> -> Rowan U.,All institutions<sup>a</sup>,Rowan U.,2,235,446,272,125,49,283,206,103,72,31,178,240,169,53,18
+6047,r237,All institutions<sup>a</sup> -> U. Iowa,All institutions<sup>a</sup>,U. Iowa,2,236,439,198,90,151,179,380,173,71,136,398,59,25,19,15
+6047,r238,All institutions<sup>a</sup> -> Bowling Green State U.,All institutions<sup>a</sup>,Bowling Green State U.,2,236,439,353,24,62,225,298,218,20,60,257,141,135,4,2
+6047,r239,"All institutions<sup>a</sup> -> U. North Carolina, Wilmington",All institutions<sup>a</sup>,"U. North Carolina, Wilmington",2,238,438,438,0,0,219,313,313,0,0,277,125,125,0,0
+6047,r240,All institutions<sup>a</sup> -> Western Kentucky U.,All institutions<sup>a</sup>,Western Kentucky U.,2,239,435,193,0,242,227,295,117,0,178,260,140,76,0,64
+6047,r241,All institutions<sup>a</sup> -> Simmons U.,All institutions<sup>a</sup>,Simmons U.,2,239,435,389,0,46,630,8,8,0,0,100,427,381,0,46
+6047,r242,All institutions<sup>a</sup> -> Virginia Commonwealth U.,All institutions<sup>a</sup>,Virginia Commonwealth U.,2,241,432,291,71,70,237,273,183,25,65,238,159,108,46,5
+6047,r243,"All institutions<sup>a</sup> -> U. Nevada, Las Vegas",All institutions<sup>a</sup>,"U. Nevada, Las Vegas",2,242,431,237,86,108,241,269,154,38,77,236,162,83,48,31
+6047,r244,All institutions<sup>a</sup> -> U. Southern Mississippi,All institutions<sup>a</sup>,U. Southern Mississippi,2,243,429,236,7,186,189,358,197,3,158,370,71,39,4,28
+6047,r245,All institutions<sup>a</sup> -> New School,All institutions<sup>a</sup>,New School,2,244,419,419,0,0,216,314,314,0,0,302,105,105,0,0
+6047,r246,"All institutions<sup>a</sup> -> CUNY, Brooklyn C.",All institutions<sup>a</sup>,"CUNY, Brooklyn C.",2,245,415,290,0,125,363,129,54,0,75,154,286,236,0,50
+6047,r247,All institutions<sup>a</sup> -> Touro C.,All institutions<sup>a</sup>,Touro C.,2,246,413,307,0,106,196,340,237,0,103,367,73,70,0,3
+6047,r248,All institutions<sup>a</sup> -> South Dakota State U.,All institutions<sup>a</sup>,South Dakota State U.,2,247,409,308,71,30,265,232,190,42,0,222,177,118,29,30
+6047,r249,"All institutions<sup>a</sup> -> U. Massachusetts, Dartmouth",All institutions<sup>a</sup>,"U. Massachusetts, Dartmouth",2,248,408,330,78,0,297,186,152,34,0,188,222,178,44,0
+6047,r250,All institutions<sup>a</sup> -> Eastern Michigan U.,All institutions<sup>a</sup>,Eastern Michigan U.,2,248,408,330,0,78,305,176,132,0,44,181,232,198,0,34
+6047,r251,All institutions<sup>a</sup> -> U. Wisconsin-Platteville,All institutions<sup>a</sup>,U. Wisconsin-Platteville,2,248,408,200,208,0,639,5,2,3,0,109,403,198,205,0
+6047,r252,All institutions<sup>a</sup> -> New York Institute of Technology,All institutions<sup>a</sup>,New York Institute of Technology,2,251,407,273,114,20,232,285,198,67,20,283,122,75,47,0
+6047,r253,All institutions<sup>a</sup> -> Adelphi U.,All institutions<sup>a</sup>,Adelphi U.,2,252,399,216,0,183,234,277,99,0,178,283,122,117,0,5
+6047,r254,All institutions<sup>a</sup> -> Angelo State U.,All institutions<sup>a</sup>,Angelo State U.,2,253,398,342,0,56,318,166,157,0,9,181,232,185,0,47
+6047,r255,All institutions<sup>a</sup> -> Montana State U.,All institutions<sup>a</sup>,Montana State U.,2,254,395,304,91,0,228,291,211,80,0,303,104,93,11,0
+6047,r256,All institutions<sup>a</sup> -> North Carolina Central U.,All institutions<sup>a</sup>,North Carolina Central U.,2,255,394,298,0,96,245,265,171,0,94,274,129,127,0,2
+6047,r257,All institutions<sup>a</sup> -> Roosevelt U.,All institutions<sup>a</sup>,Roosevelt U.,2,256,392,386,0,6,230,288,286,0,2,303,104,100,0,4
+6047,r258,All institutions<sup>a</sup> -> U. Akron,All institutions<sup>a</sup>,U. Akron,2,256,392,187,114,91,250,251,122,61,68,257,141,65,53,23
+6047,r259,All institutions<sup>a</sup> -> Keck Graduate Institute,All institutions<sup>a</sup>,Keck Graduate Institute,2,258,390,267,123,0,176,389,266,123,0,624,1,1,0,0
+6047,r260,All institutions<sup>a</sup> -> Marymount U.,All institutions<sup>a</sup>,Marymount U.,2,259,388,345,0,43,237,273,247,0,26,292,115,98,0,17
+6047,r261,All institutions<sup>a</sup> -> U. Vermont,All institutions<sup>a</sup>,U. Vermont,2,260,386,175,58,153,265,232,126,38,68,244,154,49,20,85
+6047,r262,All institutions<sup>a</sup> -> Lewis U.,All institutions<sup>a</sup>,Lewis U.,2,261,385,348,0,37,370,125,88,0,37,166,260,260,0,0
+6047,r263,All institutions<sup>a</sup> -> Appalachian State U.,All institutions<sup>a</sup>,Appalachian State U.,2,262,382,268,0,114,210,321,210,0,111,393,61,58,0,3
+6047,r264,All institutions<sup>a</sup> -> Alabama A&M U.,All institutions<sup>a</sup>,Alabama A&M U.,2,263,381,230,68,83,268,228,129,33,66,246,153,101,35,17
+6047,r265,"All institutions<sup>a</sup> -> St. John's U., Queens",All institutions<sup>a</sup>,"St. John's U., Queens",2,264,379,273,0,106,221,311,212,0,99,374,68,61,0,7
+6047,r266,All institutions<sup>a</sup> -> Benedictine U.,All institutions<sup>a</sup>,Benedictine U.,2,265,378,96,0,282,392,106,57,0,49,158,272,39,0,233
+6047,r267,All institutions<sup>a</sup> -> Middle Tennessee State U.,All institutions<sup>a</sup>,Middle Tennessee State U.,2,266,377,359,0,18,295,187,174,0,13,207,190,185,0,5
+6047,r268,All institutions<sup>a</sup> -> U. Montana,All institutions<sup>a</sup>,U. Montana,2,267,375,225,0,150,261,239,151,0,88,264,136,74,0,62
+6047,r269,All institutions<sup>a</sup> -> Central Washington U.,All institutions<sup>a</sup>,Central Washington U.,2,267,375,328,31,16,263,236,220,0,16,261,139,108,31,0
+6047,r270,All institutions<sup>a</sup> -> Southern Connecticut State U.,All institutions<sup>a</sup>,Southern Connecticut State U.,2,267,375,181,10,184,269,227,85,4,138,253,148,96,6,46
+6047,r271,All institutions<sup>a</sup> -> Lehigh U.,All institutions<sup>a</sup>,Lehigh U.,2,270,373,178,195,0,280,214,123,91,0,238,159,55,104,0
+6047,r272,All institutions<sup>a</sup> -> U. South Dakota,All institutions<sup>a</sup>,U. South Dakota,2,271,371,219,10,142,236,274,188,7,79,317,97,31,3,63
+6047,r273,"All institutions<sup>a</sup> -> U. Texas, Tyler",All institutions<sup>a</sup>,"U. Texas, Tyler",2,272,370,275,27,68,254,245,185,18,42,277,125,90,9,26
+6047,r274,All institutions<sup>a</sup> -> U. Northern Colorado,All institutions<sup>a</sup>,U. Northern Colorado,2,273,364,153,0,211,292,193,64,0,129,227,171,89,0,82
+6047,r275,All institutions<sup>a</sup> -> Marquette U.,All institutions<sup>a</sup>,Marquette U.,2,274,362,147,87,128,282,209,70,43,96,246,153,77,44,32
+6047,r276,All institutions<sup>a</sup> -> Claremont Graduate U.,All institutions<sup>a</sup>,Claremont Graduate U.,2,275,361,312,0,49,306,175,143,0,32,213,186,169,0,17
+6047,r277,All institutions<sup>a</sup> -> Philadelphia C. of Osteopathic Medicine,All institutions<sup>a</sup>,Philadelphia C. of Osteopathic Medicine,2,276,360,360,0,0,198,339,339,0,0,501,21,21,0,0
+6047,r278,All institutions<sup>a</sup> -> Eastern U.,All institutions<sup>a</sup>,Eastern U.,2,276,360,360,0,0,334,148,148,0,0,194,212,212,0,0
+6047,r279,"All institutions<sup>a</sup> -> U. Louisiana, Monroe",All institutions<sup>a</sup>,"U. Louisiana, Monroe",2,278,356,257,0,99,276,222,142,0,80,267,134,115,0,19
+6047,r280,All institutions<sup>a</sup> -> Western Illinois U.,All institutions<sup>a</sup>,Western Illinois U.,2,279,354,297,0,57,241,269,217,0,52,342,85,80,0,5
+6047,r281,All institutions<sup>a</sup> -> Humboldt State U.,All institutions<sup>a</sup>,Humboldt State U.,2,280,351,318,0,33,388,109,95,0,14,176,242,223,0,19
+6047,r282,All institutions<sup>a</sup> -> Eastern Washington U.,All institutions<sup>a</sup>,Eastern Washington U.,2,281,346,258,0,88,224,307,229,0,78,446,39,29,0,10
+6047,r283,All institutions<sup>a</sup> -> Boise State U.,All institutions<sup>a</sup>,Boise State U.,2,282,345,203,69,73,285,204,128,37,39,257,141,75,32,34
+6047,r284,"All institutions<sup>a</sup> -> U. Puerto Rico, Rio Piedras",All institutions<sup>a</sup>,"U. Puerto Rico, Rio Piedras",2,283,342,342,0,0,229,289,289,0,0,410,53,53,0,0
+6047,r285,All institutions<sup>a</sup> -> Central Michigan U.,All institutions<sup>a</sup>,Central Michigan U.,2,283,342,218,6,118,257,243,134,1,108,314,99,84,5,10
+6047,r286,All institutions<sup>a</sup> -> Idaho State U.,All institutions<sup>a</sup>,Idaho State U.,2,285,337,138,31,168,288,200,92,25,83,262,137,46,6,85
+6047,r287,All institutions<sup>a</sup> -> U. Oregon,All institutions<sup>a</sup>,U. Oregon,2,286,335,265,0,70,213,319,249,0,70,526,16,16,0,0
+6047,r288,All institutions<sup>a</sup> -> Massachusetts C. of Pharmacy and Health Sciences,All institutions<sup>a</sup>,Massachusetts C. of Pharmacy and Health Sciences,2,286,335,14,0,321,347,136,14,0,122,200,199,0,0,199
+6047,r289,All institutions<sup>a</sup> -> Eastern Kentucky U.,All institutions<sup>a</sup>,Eastern Kentucky U.,2,288,334,247,0,87,337,147,77,0,70,210,187,170,0,17
+6047,r290,All institutions<sup>a</sup> -> Lawrence Technological U.,All institutions<sup>a</sup>,Lawrence Technological U.,2,288,334,83,251,0,443,73,11,62,0,164,261,72,189,0
+6047,r291,All institutions<sup>a</sup> -> U. North Florida,All institutions<sup>a</sup>,U. North Florida,2,290,331,184,42,105,286,201,97,24,80,270,130,87,18,25
+6047,r292,All institutions<sup>a</sup> -> Polytechnic U. Puerto Rico,All institutions<sup>a</sup>,Polytechnic U. Puerto Rico,2,290,331,52,279,0,318,166,35,131,0,232,165,17,148,0
+6047,r293,All institutions<sup>a</sup> -> Midwestern U.,All institutions<sup>a</sup>,Midwestern U.,2,292,329,329,0,0,225,298,298,0,0,470,31,31,0,0
+6047,r294,All institutions<sup>a</sup> -> Hofstra U.,All institutions<sup>a</sup>,Hofstra U.,2,293,325,120,0,205,250,251,86,0,165,364,74,34,0,40
+6047,r295,All institutions<sup>a</sup> -> Governors State U.,All institutions<sup>a</sup>,Governors State U.,2,293,325,227,0,98,309,173,111,0,62,248,152,116,0,36
+6047,r296,All institutions<sup>a</sup> -> Boston C.,All institutions<sup>a</sup>,Boston C.,2,295,323,323,0,0,327,159,159,0,0,234,164,164,0,0
+6047,r297,All institutions<sup>a</sup> -> U. Mississippi,All institutions<sup>a</sup>,U. Mississippi,2,296,322,174,22,126,270,226,94,20,112,320,96,80,2,14
+6047,r298,All institutions<sup>a</sup> -> U. Central Oklahoma,All institutions<sup>a</sup>,U. Central Oklahoma,2,296,322,213,17,92,321,163,111,4,48,238,159,102,13,44
+6047,r299,All institutions<sup>a</sup> -> Lake Erie C. of Osteopathic Medicine,All institutions<sup>a</sup>,Lake Erie C. of Osteopathic Medicine,2,298,321,321,0,0,210,321,321,0,0,636,0,0,0,0
+6047,r300,All institutions<sup>a</sup> -> New York Medical C.,All institutions<sup>a</sup>,New York Medical C.,2,299,320,191,0,129,249,253,154,0,99,379,67,37,0,30
+6047,r301,All institutions<sup>a</sup> -> Mississippi C.,All institutions<sup>a</sup>,Mississippi C.,2,300,319,319,0,0,259,242,242,0,0,356,77,77,0,0
+6047,r302,All institutions<sup>a</sup> -> Seattle U.,All institutions<sup>a</sup>,Seattle U.,2,300,319,294,25,0,317,167,154,13,0,248,152,140,12,0
+6047,r303,All institutions<sup>a</sup> -> Embry-Riddle Aeronautical U.,All institutions<sup>a</sup>,Embry-Riddle Aeronautical U.,2,302,317,84,233,0,233,284,78,206,0,464,33,6,27,0
+6047,r304,All institutions<sup>a</sup> -> Kean U.,All institutions<sup>a</sup>,Kean U.,2,302,317,256,0,61,288,200,182,0,18,288,117,74,0,43
+6047,r305,All institutions<sup>a</sup> -> Columbus State U.,All institutions<sup>a</sup>,Columbus State U.,2,302,317,301,0,16,372,123,113,0,10,204,194,188,0,6
+6047,r306,"All institutions<sup>a</sup> -> CUNY, John Jay C. of Criminal Justice",All institutions<sup>a</sup>,"CUNY, John Jay C. of Criminal Justice",2,305,316,316,0,0,352,134,134,0,0,218,182,182,0,0
+6047,r307,All institutions<sup>a</sup> -> Seton Hall U.,All institutions<sup>a</sup>,Seton Hall U.,2,306,313,222,0,91,253,248,160,0,88,384,65,62,0,3
+6047,r308,"All institutions<sup>a</sup> -> California State U., Chico",All institutions<sup>a</sup>,"California State U., Chico",2,307,311,245,0,66,274,223,159,0,64,335,88,86,0,2
+6047,r309,All institutions<sup>a</sup> -> U. Hartford,All institutions<sup>a</sup>,U. Hartford,2,308,309,234,75,0,374,122,92,30,0,210,187,142,45,0
+6047,r310,All institutions<sup>a</sup> -> U. Northern Iowa,All institutions<sup>a</sup>,U. Northern Iowa,2,309,308,198,0,110,306,175,70,0,105,268,133,128,0,5
+6047,r311,All institutions<sup>a</sup> -> Northeastern Illinois U.,All institutions<sup>a</sup>,Northeastern Illinois U.,2,310,305,266,0,39,413,88,73,0,15,192,217,193,0,24
+6047,r312,All institutions<sup>a</sup> -> U. of Saint Joseph,All institutions<sup>a</sup>,U. of Saint Joseph,2,310,305,295,0,10,427,82,80,0,2,187,223,215,0,8
+6047,r313,All institutions<sup>a</sup> -> Indiana U. Pennsylvania,All institutions<sup>a</sup>,Indiana U. Pennsylvania,2,312,304,221,1,82,291,197,127,1,69,299,107,94,0,13
+6047,r314,All institutions<sup>a</sup> -> Murray State U.,All institutions<sup>a</sup>,Murray State U.,2,313,303,241,0,62,301,178,116,0,62,277,125,125,0,0
+6047,r315,All institutions<sup>a</sup> -> Rice U.,All institutions<sup>a</sup>,Rice U.,2,314,302,173,129,0,256,244,136,108,0,399,58,37,21,0
+6047,r316,"All institutions<sup>a</sup> -> Minnesota State U., Mankato",All institutions<sup>a</sup>,"Minnesota State U., Mankato",2,314,302,209,21,72,318,166,94,11,61,264,136,115,10,11
+6047,r317,All institutions<sup>a</sup> -> Eastern Virginia Medical School,All institutions<sup>a</sup>,Eastern Virginia Medical School,2,316,300,0,0,300,273,224,0,0,224,360,76,0,0,76
+6047,r318,All institutions<sup>a</sup> -> Western Washington U.,All institutions<sup>a</sup>,Western Washington U.,2,316,300,244,0,56,278,219,172,0,47,347,81,72,0,9
+6047,r319,All institutions<sup>a</sup> -> Northwest Missouri State U.,All institutions<sup>a</sup>,Northwest Missouri State U.,2,316,300,300,0,0,395,103,103,0,0,202,197,197,0,0
+6047,r320,All institutions<sup>a</sup> -> U. Arkansas for Medical Sciences,All institutions<sup>a</sup>,U. Arkansas for Medical Sciences,2,319,298,35,0,263,413,88,21,0,67,195,210,14,0,196
+6047,r321,"All institutions<sup>a</sup> -> U. Nebraska, Kearney",All institutions<sup>a</sup>,"U. Nebraska, Kearney",2,319,298,258,0,40,413,88,49,0,39,195,210,209,0,1
+6047,r322,All institutions<sup>a</sup> -> Thomas Jefferson U.,All institutions<sup>a</sup>,Thomas Jefferson U.,2,321,297,176,5,116,436,75,33,3,39,188,222,143,2,77
+6047,r323,All institutions<sup>a</sup> -> Fairleigh Dickinson U.,All institutions<sup>a</sup>,Fairleigh Dickinson U.,2,322,293,255,12,26,272,225,199,9,17,374,68,56,3,9
+6047,r324,All institutions<sup>a</sup> -> U. Rochester,All institutions<sup>a</sup>,U. Rochester,2,323,291,120,96,75,267,229,105,92,32,390,62,15,4,43
+6047,r325,All institutions<sup>a</sup> -> U. Baltimore,All institutions<sup>a</sup>,U. Baltimore,2,323,291,291,0,0,390,108,108,0,0,217,183,183,0,0
+6047,r326,All institutions<sup>a</sup> -> Dartmouth C.,All institutions<sup>a</sup>,Dartmouth C.,2,325,287,83,67,137,239,271,82,63,126,526,16,1,4,11
+6047,r327,"All institutions<sup>a</sup> -> Inter American U. Puerto Rico, Metro",All institutions<sup>a</sup>,"Inter American U. Puerto Rico, Metro",2,326,285,285,0,0,301,178,178,0,0,299,107,107,0,0
+6047,r328,"All institutions<sup>a</sup> -> SUNY, Downstate Medical Center",All institutions<sup>a</sup>,"SUNY, Downstate Medical Center",2,326,285,15,0,270,329,157,15,0,142,275,128,0,0,128
+6047,r329,"All institutions<sup>a</sup> -> U. Louisiana, Lafayette",All institutions<sup>a</sup>,"U. Louisiana, Lafayette",2,328,280,156,61,63,260,240,122,55,63,441,40,34,6,0
+6047,r330,All institutions<sup>a</sup> -> Emporia State U.,All institutions<sup>a</sup>,Emporia State U.,2,329,279,279,0,0,410,91,91,0,0,209,188,188,0,0
+6047,r331,All institutions<sup>a</sup> -> U. Wisconsin-La Crosse,All institutions<sup>a</sup>,U. Wisconsin-La Crosse,2,330,275,220,33,22,398,99,63,21,15,223,176,157,12,7
+6047,r332,All institutions<sup>a</sup> -> Central Connecticut State U.,All institutions<sup>a</sup>,Central Connecticut State U.,2,331,274,253,21,0,417,87,81,6,0,210,187,172,15,0
+6047,r333,All institutions<sup>a</sup> -> Sage Colleges,All institutions<sup>a</sup>,Sage Colleges,2,331,274,274,0,0,549,31,31,0,0,175,243,243,0,0
+6047,r334,All institutions<sup>a</sup> -> Texas A&M U.-Corpus Christi,All institutions<sup>a</sup>,Texas A&M U.-Corpus Christi,2,333,273,203,13,57,295,187,160,8,19,337,86,43,5,38
+6047,r335,All institutions<sup>a</sup> -> Lipscomb U.,All institutions<sup>a</sup>,Lipscomb U.,2,334,270,247,6,17,254,245,226,5,14,485,25,21,1,3
+6047,r336,All institutions<sup>a</sup> -> Clarkson U.,All institutions<sup>a</sup>,Clarkson U.,2,335,264,56,179,29,381,118,39,77,2,254,146,17,102,27
+6047,r337,"All institutions<sup>a</sup> -> U. Alaska, Fairbanks",All institutions<sup>a</sup>,"U. Alaska, Fairbanks",2,336,262,218,44,0,381,118,93,25,0,255,144,125,19,0
+6047,r338,All institutions<sup>a</sup> -> Wake Forest U.,All institutions<sup>a</sup>,Wake Forest U.,2,337,257,163,18,76,263,236,162,18,56,501,21,1,0,20
+6047,r339,All institutions<sup>a</sup> -> Clark U.,All institutions<sup>a</sup>,Clark U.,2,338,255,255,0,0,286,201,201,0,0,408,54,54,0,0
+6047,r340,All institutions<sup>a</sup> -> Tennessee State U.,All institutions<sup>a</sup>,Tennessee State U.,2,338,255,142,40,73,325,160,96,27,37,323,95,46,13,36
+6047,r341,"All institutions<sup>a</sup> -> Loyola U., Maryland",All institutions<sup>a</sup>,"Loyola U., Maryland",2,340,254,144,0,110,314,169,59,0,110,342,85,85,0,0
+6047,r342,All institutions<sup>a</sup> -> Loma Linda U.,All institutions<sup>a</sup>,Loma Linda U.,2,341,253,53,0,200,298,184,41,0,143,373,69,12,0,57
+6047,r343,All institutions<sup>a</sup> -> U. South Alabama,All institutions<sup>a</sup>,U. South Alabama,2,342,252,136,66,50,279,218,115,53,50,459,34,21,13,0
+6047,r344,All institutions<sup>a</sup> -> Saint Joseph's U.,All institutions<sup>a</sup>,Saint Joseph's U.,2,343,250,247,0,3,473,60,60,0,0,207,190,187,0,3
+6047,r345,All institutions<sup>a</sup> -> Northeastern State U.,All institutions<sup>a</sup>,Northeastern State U.,2,344,248,163,0,85,324,162,93,0,69,337,86,70,0,16
+6047,r346,All institutions<sup>a</sup> -> Chapman U.,All institutions<sup>a</sup>,Chapman U.,2,345,245,140,0,105,299,183,82,0,101,390,62,58,0,4
+6047,r347,All institutions<sup>a</sup> -> Nova Southeastern U.,All institutions<sup>a</sup>,Nova Southeastern U.,2,346,244,244,0,0,304,177,177,0,0,379,67,67,0,0
+6047,r348,All institutions<sup>a</sup> -> Eastern New Mexico U.,All institutions<sup>a</sup>,Eastern New Mexico U.,2,347,243,80,0,163,332,154,37,0,117,332,89,43,0,46
+6047,r349,All institutions<sup>a</sup> -> Mercer U.,All institutions<sup>a</sup>,Mercer U.,2,348,242,55,61,126,293,190,47,29,114,413,52,8,32,12
+6047,r350,"All institutions<sup>a</sup> -> U. Tennessee, Chattanooga",All institutions<sup>a</sup>,"U. Tennessee, Chattanooga",2,348,242,156,49,37,312,172,112,29,31,371,70,44,20,6
+6047,r351,All institutions<sup>a</sup> -> James Madison U.,All institutions<sup>a</sup>,James Madison U.,2,348,242,162,0,80,321,163,104,0,59,350,79,58,0,21
+6047,r352,All institutions<sup>a</sup> -> Chicago State U.,All institutions<sup>a</sup>,Chicago State U.,2,348,242,238,0,4,410,91,90,0,1,252,151,148,0,3
+6047,r353,All institutions<sup>a</sup> -> U. Central Arkansas,All institutions<sup>a</sup>,U. Central Arkansas,2,352,241,81,0,160,342,144,51,0,93,317,97,30,0,67
+6047,r354,All institutions<sup>a</sup> -> Stephen F. Austin State U.,All institutions<sup>a</sup>,Stephen F. Austin State U.,2,352,241,161,0,80,363,129,55,0,74,293,112,106,0,6
+6047,r355,All institutions<sup>a</sup> -> U. Wisconsin-Stout,All institutions<sup>a</sup>,U. Wisconsin-Stout,2,352,241,189,52,0,393,105,95,10,0,264,136,94,42,0
+6047,r356,All institutions<sup>a</sup> -> Southern U. and A&M C.,All institutions<sup>a</sup>,Southern U. and A&M C.,2,355,239,182,24,33,345,140,91,16,33,314,99,91,8,0
+6047,r357,All institutions<sup>a</sup> -> U. Wisconsin-Eau Claire,All institutions<sup>a</sup>,U. Wisconsin-Eau Claire,2,355,239,133,0,106,453,69,20,0,49,228,170,113,0,57
+6047,r358,All institutions<sup>a</sup> -> Vanderbilt U.,All institutions<sup>a</sup>,Vanderbilt U.,2,357,238,209,29,0,270,226,201,25,0,544,12,8,4,0
+6047,r359,All institutions<sup>a</sup> -> U. Notre Dame,All institutions<sup>a</sup>,U. Notre Dame,2,357,238,157,81,0,333,149,75,74,0,332,89,82,7,0
+6047,r360,All institutions<sup>a</sup> -> Jacksonville U.,All institutions<sup>a</sup>,Jacksonville U.,2,359,231,93,0,138,337,147,21,0,126,345,84,72,0,12
+6047,r361,All institutions<sup>a</sup> -> U. Detroit Mercy,All institutions<sup>a</sup>,U. Detroit Mercy,2,359,231,63,143,25,352,134,34,75,25,317,97,29,68,0
+6047,r362,All institutions<sup>a</sup> -> Indiana State U.,All institutions<sup>a</sup>,Indiana State U.,2,359,231,170,0,61,366,128,68,0,60,309,103,102,0,1
+6047,r363,All institutions<sup>a</sup> -> Hood C.,All institutions<sup>a</sup>,Hood C.,2,359,231,231,0,0,461,66,66,0,0,232,165,165,0,0
+6047,r364,All institutions<sup>a</sup> -> McNeese State U.,All institutions<sup>a</sup>,McNeese State U.,2,363,229,167,12,50,306,175,126,8,41,408,54,41,4,9
+6047,r365,All institutions<sup>a</sup> -> A. T. Still U.,All institutions<sup>a</sup>,A. T. Still U.,2,364,226,16,0,210,366,128,9,0,119,316,98,7,0,91
+6047,r366,"All institutions<sup>a</sup> -> California State U., San Marcos",All institutions<sup>a</sup>,"California State U., San Marcos",2,364,226,202,0,24,374,122,98,0,24,303,104,104,0,0
+6047,r367,All institutions<sup>a</sup> -> Austin Peay State U.,All institutions<sup>a</sup>,Austin Peay State U.,2,366,225,225,0,0,467,63,63,0,0,236,162,162,0,0
+6047,r368,"All institutions<sup>a</sup> -> Touro U., Vallejo",All institutions<sup>a</sup>,"Touro U., Vallejo",2,367,223,0,0,223,274,223,0,0,223,636,0,0,0,0
+6047,r369,All institutions<sup>a</sup> -> Manhattan C.,All institutions<sup>a</sup>,Manhattan C.,2,368,221,0,221,0,294,189,0,189,0,467,32,0,32,0
+6047,r370,All institutions<sup>a</sup> -> C. of Saint Rose,All institutions<sup>a</sup>,C. of Saint Rose,2,369,219,122,0,97,329,157,67,0,90,390,62,55,0,7
+6047,r371,All institutions<sup>a</sup> -> U. New Orleans,All institutions<sup>a</sup>,U. New Orleans,2,369,219,156,63,0,363,129,103,26,0,328,90,53,37,0
+6047,r372,All institutions<sup>a</sup> -> North Carolina Agricultural and Technical State U.,All institutions<sup>a</sup>,North Carolina Agricultural and Technical State U.,2,371,218,102,116,0,313,171,82,89,0,426,47,20,27,0
+6047,r373,All institutions<sup>a</sup> -> Kansas City U. of Medicine and Biosciences,All institutions<sup>a</sup>,Kansas City U. of Medicine and Biosciences,2,372,217,138,0,79,347,136,136,0,0,347,81,2,0,79
+6047,r374,All institutions<sup>a</sup> -> Yale U.,All institutions<sup>a</sup>,Yale U.,2,373,215,133,12,70,283,206,128,9,69,564,9,5,3,1
+6047,r375,All institutions<sup>a</sup> -> Northern Kentucky U.,All institutions<sup>a</sup>,Northern Kentucky U.,2,374,212,93,0,119,485,54,26,0,28,241,158,67,0,91
+6047,r376,All institutions<sup>a</sup> -> U. West Georgia,All institutions<sup>a</sup>,U. West Georgia,2,375,211,144,0,67,356,132,65,0,67,350,79,79,0,0
+6047,r377,All institutions<sup>a</sup> -> Dakota State U.,All institutions<sup>a</sup>,Dakota State U.,2,376,209,198,0,11,356,132,126,0,6,356,77,72,0,5
+6047,r378,All institutions<sup>a</sup> -> Arkansas State U.,All institutions<sup>a</sup>,Arkansas State U.,2,376,209,128,6,75,358,131,65,0,66,353,78,63,6,9
+6047,r379,All institutions<sup>a</sup> -> Citadel Military C. South Carolina,All institutions<sup>a</sup>,Citadel Military C. South Carolina,2,376,209,164,19,26,461,66,51,1,14,256,143,113,18,12
+6047,r380,All institutions<sup>a</sup> -> New Mexico Institute of Mining and Technology,All institutions<sup>a</sup>,New Mexico Institute of Mining and Technology,2,379,206,75,131,0,334,148,61,87,0,399,58,14,44,0
+6047,r381,All institutions<sup>a</sup> -> New Jersey City U.,All institutions<sup>a</sup>,New Jersey City U.,2,380,202,131,0,71,401,98,71,0,27,303,104,60,0,44
+6047,r382,All institutions<sup>a</sup> -> Southeastern Louisiana U.,All institutions<sup>a</sup>,Southeastern Louisiana U.,2,381,201,98,0,103,327,159,71,0,88,434,42,27,0,15
+6047,r383,All institutions<sup>a</sup> -> Jackson State U.,All institutions<sup>a</sup>,Jackson State U.,2,382,200,62,21,117,378,119,35,8,76,347,81,27,13,41
+6047,r384,All institutions<sup>a</sup> -> Pontifical Catholic U. Puerto Rico,All institutions<sup>a</sup>,Pontifical Catholic U. Puerto Rico,2,382,200,200,0,0,381,118,118,0,0,346,82,82,0,0
+6047,r385,All institutions<sup>a</sup> -> Valdosta State U.,All institutions<sup>a</sup>,Valdosta State U.,2,384,199,69,0,130,314,169,41,0,128,472,30,28,0,2
+6047,r386,All institutions<sup>a</sup> -> West Texas A&M U.,All institutions<sup>a</sup>,West Texas A&M U.,2,384,199,92,32,75,401,98,35,3,60,311,101,57,29,15
+6047,r387,All institutions<sup>a</sup> -> U. La Verne,All institutions<sup>a</sup>,U. La Verne,2,384,199,199,0,0,406,96,96,0,0,309,103,103,0,0
+6047,r388,All institutions<sup>a</sup> -> Montana Tech of U. Montana,All institutions<sup>a</sup>,Montana Tech of U. Montana,2,387,192,28,61,103,325,160,27,57,76,467,32,1,4,27
+6047,r389,All institutions<sup>a</sup> -> U. of the District of Columbia,All institutions<sup>a</sup>,U. of the District of Columbia,2,388,191,136,24,31,347,136,91,16,29,406,55,45,8,2
+6047,r390,"All institutions<sup>a</sup> -> Keiser U., Fort Lauderdale",All institutions<sup>a</sup>,"Keiser U., Fort Lauderdale",2,389,184,184,0,0,329,157,157,0,0,479,27,27,0,0
+6047,r391,All institutions<sup>a</sup> -> Prairie View A&M U.,All institutions<sup>a</sup>,Prairie View A&M U.,2,389,184,101,83,0,387,111,77,34,0,367,73,24,49,0
+6047,r392,"All institutions<sup>a</sup> -> U. Missouri, Saint Louis",All institutions<sup>a</sup>,"U. Missouri, Saint Louis",2,391,182,182,0,0,465,64,64,0,0,287,118,118,0,0
+6047,r393,All institutions<sup>a</sup> -> Loyola Marymount U.,All institutions<sup>a</sup>,Loyola Marymount U.,2,392,181,58,110,13,321,163,55,95,13,518,18,3,15,0
+6047,r394,All institutions<sup>a</sup> -> Robert Morris U.,All institutions<sup>a</sup>,Robert Morris U.,2,392,181,131,0,50,664,0,0,0,0,219,181,131,0,50
+6047,r395,All institutions<sup>a</sup> -> C. Charleston,All institutions<sup>a</sup>,C. Charleston,2,394,180,180,0,0,413,88,88,0,0,326,92,92,0,0
+6047,r396,All institutions<sup>a</sup> -> William Paterson U.,All institutions<sup>a</sup>,William Paterson U.,2,395,179,92,0,87,366,128,54,0,74,418,51,38,0,13
+6047,r397,All institutions<sup>a</sup> -> Midwestern State U.,All institutions<sup>a</sup>,Midwestern State U.,2,395,179,177,2,0,446,72,72,0,0,299,107,105,2,0
+6047,r398,All institutions<sup>a</sup> -> U. Tulsa,All institutions<sup>a</sup>,U. Tulsa,2,397,176,88,55,33,309,173,86,54,33,607,3,2,1,0
+6047,r399,All institutions<sup>a</sup> -> Chatham U.,All institutions<sup>a</sup>,Chatham U.,2,397,176,176,0,0,358,131,131,0,0,429,45,45,0,0
+6047,r400,All institutions<sup>a</sup> -> Avila U.,All institutions<sup>a</sup>,Avila U.,2,399,175,175,0,0,340,145,145,0,0,472,30,30,0,0
+6047,r401,"All institutions<sup>a</sup> -> Richard Stockton C. New Jersey, The",All institutions<sup>a</sup>,"Richard Stockton C. New Jersey, The",2,399,175,111,0,64,386,112,48,0,64,388,63,63,0,0
+6047,r402,"All institutions<sup>a</sup> -> SUNY, Polytechnic Institute",All institutions<sup>a</sup>,"SUNY, Polytechnic Institute",2,399,175,170,5,0,458,67,64,3,0,298,108,106,2,0
+6047,r403,All institutions<sup>a</sup> -> Princeton U.,All institutions<sup>a</sup>,Princeton U.,2,402,173,153,20,0,309,173,153,20,0,636,0,0,0,0
+6047,r404,All institutions<sup>a</sup> -> Meharry Medical C.,All institutions<sup>a</sup>,Meharry Medical C.,2,402,173,129,0,44,314,169,129,0,40,597,4,0,0,4
+6047,r405,All institutions<sup>a</sup> -> Louisiana Tech U.,All institutions<sup>a</sup>,Louisiana Tech U.,2,402,173,76,38,59,340,145,61,27,57,478,28,15,11,2
+6047,r406,All institutions<sup>a</sup> -> U. Houston-Victoria,All institutions<sup>a</sup>,U. Houston-Victoria,2,405,172,172,0,0,417,87,87,0,0,342,85,85,0,0
+6047,r407,All institutions<sup>a</sup> -> Southern Arkansas U.,All institutions<sup>a</sup>,Southern Arkansas U.,2,405,172,172,0,0,446,72,72,0,0,312,100,100,0,0
+6047,r408,All institutions<sup>a</sup> -> Weber State U.,All institutions<sup>a</sup>,Weber State U.,2,407,170,66,9,95,378,119,25,6,88,418,51,41,3,7
+6047,r409,"All institutions<sup>a</sup> -> U. Alaska, Anchorage",All institutions<sup>a</sup>,"U. Alaska, Anchorage",2,408,169,73,28,68,524,43,29,6,8,276,126,44,22,60
+6047,r410,All institutions<sup>a</sup> -> Tennessee Technological U.,All institutions<sup>a</sup>,Tennessee Technological U.,2,409,168,91,77,0,465,64,35,29,0,303,104,56,48,0
+6047,r411,All institutions<sup>a</sup> -> Florida A&M U.,All institutions<sup>a</sup>,Florida A&M U.,2,410,166,154,12,0,378,119,110,9,0,426,47,44,3,0
+6047,r412,"All institutions<sup>a</sup> -> CUNY, Lehman C.",All institutions<sup>a</sup>,"CUNY, Lehman C.",2,410,166,63,0,103,417,87,15,0,72,350,79,48,0,31
+6047,r413,"All institutions<sup>a</sup> -> U. Texas Health Science Center, San Antonio",All institutions<sup>a</sup>,"U. Texas Health Science Center, San Antonio",2,412,165,59,11,95,350,135,53,0,82,472,30,6,11,13
+6047,r414,All institutions<sup>a</sup> -> Fort Hays State U.,All institutions<sup>a</sup>,Fort Hays State U.,2,412,165,128,0,37,372,123,87,0,36,434,42,41,0,1
+6047,r415,All institutions<sup>a</sup> -> La Salle U.,All institutions<sup>a</sup>,La Salle U.,2,412,165,101,0,64,417,87,35,0,52,353,78,66,0,12
+6047,r416,All institutions<sup>a</sup> -> Augusta U.,All institutions<sup>a</sup>,Augusta U.,2,415,160,105,0,55,407,94,64,0,30,382,66,41,0,25
+6047,r417,All institutions<sup>a</sup> -> U. Dallas,All institutions<sup>a</sup>,U. Dallas,2,416,158,158,0,0,528,41,41,0,0,288,117,117,0,0
+6047,r418,All institutions<sup>a</sup> -> Pacific U.,All institutions<sup>a</sup>,Pacific U.,2,417,157,87,0,70,339,146,77,0,69,552,11,10,0,1
+6047,r419,All institutions<sup>a</sup> -> Western New England U.,All institutions<sup>a</sup>,Western New England U.,2,417,157,121,36,0,664,0,0,0,0,242,157,121,36,0
+6047,r420,All institutions<sup>a</sup> -> Howard U.,All institutions<sup>a</sup>,Howard U.,2,419,156,104,5,47,376,121,74,5,42,456,35,30,0,5
+6047,r421,All institutions<sup>a</sup> -> Arcadia U.,All institutions<sup>a</sup>,Arcadia U.,2,419,156,112,0,44,397,100,60,0,40,404,56,52,0,4
+6047,r422,All institutions<sup>a</sup> -> Western Carolina U.,All institutions<sup>a</sup>,Western Carolina U.,2,421,155,91,0,64,342,144,80,0,64,552,11,11,0,0
+6047,r423,"All institutions<sup>a</sup> -> California State U., Dominguez Hills",All institutions<sup>a</sup>,"California State U., Dominguez Hills",2,421,155,155,0,0,428,81,81,0,0,364,74,74,0,0
+6047,r424,All institutions<sup>a</sup> -> Radford U.,All institutions<sup>a</sup>,Radford U.,2,423,154,88,0,66,355,133,67,0,66,501,21,21,0,0
+6047,r425,All institutions<sup>a</sup> -> Morgan State U.,All institutions<sup>a</sup>,Morgan State U.,2,424,152,60,50,42,388,109,52,31,26,431,43,8,19,16
+6047,r426,All institutions<sup>a</sup> -> C. of William and Mary,All institutions<sup>a</sup>,C. of William and Mary,2,425,150,150,0,0,352,134,134,0,0,526,16,16,0,0
+6047,r427,All institutions<sup>a</sup> -> Sul Ross State U.,All institutions<sup>a</sup>,Sul Ross State U.,2,426,146,113,0,33,539,36,35,0,1,296,110,78,0,32
+6047,r428,All institutions<sup>a</sup> -> East Stroudsburg U. Pennsylvania,All institutions<sup>a</sup>,East Stroudsburg U. Pennsylvania,2,427,145,34,0,111,377,120,25,0,95,485,25,9,0,16
+6047,r429,All institutions<sup>a</sup> -> Worcester State U.,All institutions<sup>a</sup>,Worcester State U.,2,428,143,53,0,90,384,113,48,0,65,472,30,5,0,25
+6047,r430,All institutions<sup>a</sup> -> Texas Christian U.,All institutions<sup>a</sup>,Texas Christian U.,2,429,142,92,0,50,344,141,91,0,50,624,1,1,0,0
+6047,r431,All institutions<sup>a</sup> -> Abilene Christian U.,All institutions<sup>a</sup>,Abilene Christian U.,2,429,142,30,0,112,350,135,23,0,112,577,7,7,0,0
+6047,r432,All institutions<sup>a</sup> -> Commonwealth Medical C.,All institutions<sup>a</sup>,Commonwealth Medical C.,2,431,141,141,0,0,346,137,137,0,0,597,4,4,0,0
+6047,r433,All institutions<sup>a</sup> -> Hawaii Pacific U.,All institutions<sup>a</sup>,Hawaii Pacific U.,2,431,141,119,0,22,401,98,82,0,16,431,43,37,0,6
+6047,r434,All institutions<sup>a</sup> -> U. Wisconsin-Stevens Point,All institutions<sup>a</sup>,U. Wisconsin-Stevens Point,2,433,140,87,0,53,429,80,27,0,53,397,60,60,0,0
+6047,r435,All institutions<sup>a</sup> -> U. Indianapolis,All institutions<sup>a</sup>,U. Indianapolis,2,433,140,102,0,38,446,72,52,0,20,374,68,50,0,18
+6047,r436,All institutions<sup>a</sup> -> Norfolk State U.,All institutions<sup>a</sup>,Norfolk State U.,2,435,138,115,23,0,433,77,67,10,0,393,61,48,13,0
+6047,r437,All institutions<sup>a</sup> -> Salem State U.,All institutions<sup>a</sup>,Salem State U.,2,435,138,138,0,0,461,66,66,0,0,369,72,72,0,0
+6047,r438,All institutions<sup>a</sup> -> Catholic U. of America,All institutions<sup>a</sup>,Catholic U. of America,2,435,138,81,57,0,491,52,26,26,0,337,86,55,31,0
+6047,r439,"All institutions<sup>a</sup> -> U. Arkansas, Little Rock",All institutions<sup>a</sup>,"U. Arkansas, Little Rock",2,438,136,129,2,5,455,68,66,2,0,374,68,63,0,5
+6047,r440,"All institutions<sup>a</sup> -> U. California, San Francisco",All institutions<sup>a</sup>,"U. California, San Francisco",2,439,135,0,12,123,361,130,0,12,118,589,5,0,0,5
+6047,r441,"All institutions<sup>a</sup> -> St. Mary's U., San Antonio",All institutions<sup>a</sup>,"St. Mary's U., San Antonio",2,439,135,98,37,0,453,69,50,19,0,382,66,48,18,0
+6047,r442,"All institutions<sup>a</sup> -> SUNY, New Paltz",All institutions<sup>a</sup>,"SUNY, New Paltz",2,441,134,64,8,62,393,105,44,3,58,477,29,20,5,4
+6047,r443,All institutions<sup>a</sup> -> Nicholls State U.,All institutions<sup>a</sup>,Nicholls State U.,2,441,134,134,0,0,432,78,78,0,0,404,56,56,0,0
+6047,r444,"All institutions<sup>a</sup> -> U. Michigan, Flint",All institutions<sup>a</sup>,"U. Michigan, Flint",2,441,134,87,1,46,537,38,26,0,12,320,96,61,1,34
+6047,r445,All institutions<sup>a</sup> -> Millersville U. Pennsylvania,All institutions<sup>a</sup>,Millersville U. Pennsylvania,2,444,132,132,0,0,485,54,54,0,0,353,78,78,0,0
+6047,r446,All institutions<sup>a</sup> -> Iona C.,All institutions<sup>a</sup>,Iona C.,2,445,131,76,0,55,384,113,58,0,55,518,18,18,0,0
+6047,r447,All institutions<sup>a</sup> -> Texas Southern U.,All institutions<sup>a</sup>,Texas Southern U.,2,445,131,128,0,3,425,83,82,0,1,421,48,46,0,2
+6047,r448,All institutions<sup>a</sup> -> Quinnipiac U.,All institutions<sup>a</sup>,Quinnipiac U.,2,447,130,130,0,0,519,44,44,0,0,337,86,86,0,0
+6047,r449,All institutions<sup>a</sup> -> Campbell U.,All institutions<sup>a</sup>,Campbell U.,2,448,129,0,0,129,369,127,0,0,127,613,2,0,0,2
+6047,r450,All institutions<sup>a</sup> -> California Lutheran U.,All institutions<sup>a</sup>,California Lutheran U.,2,449,126,126,0,0,422,86,86,0,0,441,40,40,0,0
+6047,r451,All institutions<sup>a</sup> -> MGH Institute of Health Professions,All institutions<sup>a</sup>,MGH Institute of Health Professions,2,450,125,0,0,125,370,125,0,0,125,636,0,0,0,0
+6047,r452,All institutions<sup>a</sup> -> Florida Gulf Coast U.,All institutions<sup>a</sup>,Florida Gulf Coast U.,2,450,125,73,18,34,501,50,36,1,13,362,75,37,17,21
+6047,r453,"All institutions<sup>a</sup> -> Des Moines U., Osteopathic Medical Center",All institutions<sup>a</sup>,"Des Moines U., Osteopathic Medical Center",2,450,125,48,0,77,541,35,34,0,1,328,90,14,0,76
+6047,r454,All institutions<sup>a</sup> -> Lincoln Memorial U.,All institutions<sup>a</sup>,Lincoln Memorial U.,2,453,123,123,0,0,398,99,99,0,0,488,24,24,0,0
+6047,r455,All institutions<sup>a</sup> -> Fordham U.,All institutions<sup>a</sup>,Fordham U.,2,454,122,122,0,0,412,89,89,0,0,464,33,33,0,0
+6047,r456,All institutions<sup>a</sup> -> Wayland Baptist U.,All institutions<sup>a</sup>,Wayland Baptist U.,2,454,122,122,0,0,425,83,83,0,0,446,39,39,0,0
+6047,r457,"All institutions<sup>a</sup> -> California State U., Monterey Bay",All institutions<sup>a</sup>,"California State U., Monterey Bay",2,454,122,122,0,0,439,74,74,0,0,421,48,48,0,0
+6047,r458,All institutions<sup>a</sup> -> Youngstown State U.,All institutions<sup>a</sup>,Youngstown State U.,2,457,120,79,41,0,390,108,69,39,0,544,12,10,2,0
+6047,r459,All institutions<sup>a</sup> -> Rush U.,All institutions<sup>a</sup>,Rush U.,2,457,120,33,14,73,398,99,33,14,52,501,21,0,0,21
+6047,r460,All institutions<sup>a</sup> -> Slippery Rock U. Pennsylvania,All institutions<sup>a</sup>,Slippery Rock U. Pennsylvania,2,457,120,81,0,39,458,67,32,0,35,410,53,49,0,4
+6047,r461,"All institutions<sup>a</sup> -> Southern U., New Orleans",All institutions<sup>a</sup>,"Southern U., New Orleans",2,457,120,120,0,0,501,50,50,0,0,371,70,70,0,0
+6047,r462,All institutions<sup>a</sup> -> U. North Alabama,All institutions<sup>a</sup>,U. North Alabama,2,461,119,116,3,0,526,42,42,0,0,356,77,74,3,0
+6047,r463,"All institutions<sup>a</sup> -> Texas A&M U., San Antonio",All institutions<sup>a</sup>,"Texas A&M U., San Antonio",2,462,118,106,0,12,519,44,38,0,6,364,74,68,0,6
+6047,r464,All institutions<sup>a</sup> -> Fayetteville State U.,All institutions<sup>a</sup>,Fayetteville State U.,2,463,117,99,0,18,480,56,41,0,15,393,61,58,0,3
+6047,r465,All institutions<sup>a</sup> -> Dominican U. California,All institutions<sup>a</sup>,Dominican U. California,2,464,115,115,0,0,429,80,80,0,0,456,35,35,0,0
+6047,r466,All institutions<sup>a</sup> -> William Carey U.,All institutions<sup>a</sup>,William Carey U.,2,464,115,115,0,0,439,74,74,0,0,437,41,41,0,0
+6047,r467,All institutions<sup>a</sup> -> U. Wisconsin-Green Bay,All institutions<sup>a</sup>,U. Wisconsin-Green Bay,2,464,115,115,0,0,588,19,19,0,0,320,96,96,0,0
+6047,r468,"All institutions<sup>a</sup> -> U. Tennessee, Health Science Center",All institutions<sup>a</sup>,"U. Tennessee, Health Science Center",2,467,114,49,3,62,396,102,37,3,62,544,12,12,0,0
+6047,r469,All institutions<sup>a</sup> -> Pittsburg State U.,All institutions<sup>a</sup>,Pittsburg State U.,2,467,114,90,0,24,409,93,79,0,14,501,21,11,0,10
+6047,r470,All institutions<sup>a</sup> -> Cameron U.,All institutions<sup>a</sup>,Cameron U.,2,467,114,114,0,0,477,57,57,0,0,403,57,57,0,0
+6047,r471,All institutions<sup>a</sup> -> Northern Michigan U.,All institutions<sup>a</sup>,Northern Michigan U.,2,470,113,80,0,33,439,74,58,0,16,446,39,22,0,17
+6047,r472,All institutions<sup>a</sup> -> American International C.,All institutions<sup>a</sup>,American International C.,2,471,108,108,0,0,407,94,94,0,0,533,14,14,0,0
+6047,r473,"All institutions<sup>a</sup> -> CUNY, C. Staten Island",All institutions<sup>a</sup>,"CUNY, C. Staten Island",2,471,108,97,11,0,607,14,14,0,0,324,94,83,11,0
+6047,r474,All institutions<sup>a</sup> -> Morehouse School of Medicine,All institutions<sup>a</sup>,Morehouse School of Medicine,2,473,107,51,0,56,401,98,50,0,48,564,9,1,0,8
+6047,r475,All institutions<sup>a</sup> -> Clarion U. Pennsylvania,All institutions<sup>a</sup>,Clarion U. Pennsylvania,2,473,107,16,0,91,443,73,0,0,73,459,34,16,0,18
+6047,r476,"All institutions<sup>a</sup> -> SUNY, Oswego",All institutions<sup>a</sup>,"SUNY, Oswego",2,473,107,44,0,63,519,44,32,0,12,388,63,12,0,51
+6047,r477,All institutions<sup>a</sup> -> Oregon Health and Science U.,All institutions<sup>a</sup>,Oregon Health and Science U.,2,476,106,51,14,41,499,51,29,4,18,406,55,22,10,23
+6047,r478,All institutions<sup>a</sup> -> Texas A&M International U.,All institutions<sup>a</sup>,Texas A&M International U.,2,477,105,105,0,0,554,30,30,0,0,362,75,75,0,0
+6047,r479,All institutions<sup>a</sup> -> Marywood U.,All institutions<sup>a</sup>,Marywood U.,2,478,104,80,0,24,405,97,73,0,24,577,7,7,0,0
+6047,r480,All institutions<sup>a</sup> -> Indiana Institute of Technology,All institutions<sup>a</sup>,Indiana Institute of Technology,2,478,104,104,0,0,452,70,70,0,0,459,34,34,0,0
+6047,r481,All institutions<sup>a</sup> -> Monmouth U.,All institutions<sup>a</sup>,Monmouth U.,2,478,104,89,15,0,530,40,35,5,0,385,64,54,10,0
+6047,r482,"All institutions<sup>a</sup> -> U. Texas, Permian Basin",All institutions<sup>a</sup>,"U. Texas, Permian Basin",2,481,103,81,7,15,499,51,40,6,5,413,52,41,1,10
+6047,r483,"All institutions<sup>a</sup> -> SUNY, Buffalo State",All institutions<sup>a</sup>,"SUNY, Buffalo State",2,481,103,91,12,0,532,39,38,1,0,385,64,53,11,0
+6047,r484,All institutions<sup>a</sup> -> U. Wisconsin-Oshkosh,All institutions<sup>a</sup>,U. Wisconsin-Oshkosh,2,481,103,103,0,0,607,14,14,0,0,332,89,89,0,0
+6047,r485,All institutions<sup>a</sup> -> Shippensburg U. Pennsylvania,All institutions<sup>a</sup>,Shippensburg U. Pennsylvania,2,484,101,101,0,0,504,49,49,0,0,413,52,52,0,0
+6047,r486,All institutions<sup>a</sup> -> Creighton U.,All institutions<sup>a</sup>,Creighton U.,2,485,100,17,0,83,491,52,15,0,37,421,48,2,0,46
+6047,r487,All institutions<sup>a</sup> -> Framingham State C.,All institutions<sup>a</sup>,Framingham State C.,2,486,98,98,0,0,613,12,12,0,0,337,86,86,0,0
+6047,r488,"All institutions<sup>a</sup> -> California State U., Bakersfield",All institutions<sup>a</sup>,"California State U., Bakersfield",2,487,97,97,0,0,436,75,75,0,0,495,22,22,0,0
+6047,r489,"All institutions<sup>a</sup> -> U. Hawaii, Hilo",All institutions<sup>a</sup>,"U. Hawaii, Hilo",2,488,96,96,0,0,485,54,54,0,0,434,42,42,0,0
+6047,r490,All institutions<sup>a</sup> -> Frostburg State U.,All institutions<sup>a</sup>,Frostburg State U.,2,488,96,96,0,0,507,48,48,0,0,421,48,48,0,0
+6047,r491,All institutions<sup>a</sup> -> Texas A&M U.-Central Texas,All institutions<sup>a</sup>,Texas A&M U.-Central Texas,2,488,96,96,0,0,647,4,4,0,0,326,92,92,0,0
+6047,r492,All institutions<sup>a</sup> -> Jacksonville State U.,All institutions<sup>a</sup>,Jacksonville State U.,2,491,95,95,0,0,485,54,54,0,0,437,41,41,0,0
+6047,r493,All institutions<sup>a</sup> -> Sonoma State U.,All institutions<sup>a</sup>,Sonoma State U.,2,492,93,93,0,0,436,75,75,0,0,518,18,18,0,0
+6047,r494,All institutions<sup>a</sup> -> Western State Colorado U.,All institutions<sup>a</sup>,Western State Colorado U.,2,492,93,93,0,0,446,72,72,0,0,501,21,21,0,0
+6047,r495,All institutions<sup>a</sup> -> Uniformed Services U. of the Health Sciences,All institutions<sup>a</sup>,Uniformed Services U. of the Health Sciences,2,492,93,19,0,74,458,67,19,0,48,482,26,0,0,26
+6047,r496,All institutions<sup>a</sup> -> Tiffin U.,All institutions<sup>a</sup>,Tiffin U.,2,492,93,93,0,0,483,55,55,0,0,449,38,38,0,0
+6047,r497,All institutions<sup>a</sup> -> Mississippi U. for Women,All institutions<sup>a</sup>,Mississippi U. for Women,2,496,92,8,0,84,446,72,2,0,70,510,20,6,0,14
+6047,r498,All institutions<sup>a</sup> -> Metropolitan State U.,All institutions<sup>a</sup>,Metropolitan State U.,2,496,92,86,0,6,603,15,9,0,6,356,77,77,0,0
+6047,r499,All institutions<sup>a</sup> -> Oklahoma Christian U.,All institutions<sup>a</sup>,Oklahoma Christian U.,2,498,91,0,91,0,532,39,0,39,0,413,52,0,52,0
+6047,r500,All institutions<sup>a</sup> -> Bastyr U.,All institutions<sup>a</sup>,Bastyr U.,2,499,90,90,0,0,431,79,79,0,0,552,11,11,0,0
+6047,r501,All institutions<sup>a</sup> -> Fitchburg State U.,All institutions<sup>a</sup>,Fitchburg State U.,2,499,90,90,0,0,455,68,68,0,0,495,22,22,0,0
+6047,r502,All institutions<sup>a</sup> -> Niagara U.,All institutions<sup>a</sup>,Niagara U.,2,499,90,90,0,0,477,57,57,0,0,464,33,33,0,0
+6047,r503,All institutions<sup>a</sup> -> Aurora U.,All institutions<sup>a</sup>,Aurora U.,2,499,90,43,0,47,501,50,22,0,28,441,40,21,0,19
+6047,r504,"All institutions<sup>a</sup> -> Inter American U. Puerto Rico, San German",All institutions<sup>a</sup>,"Inter American U. Puerto Rico, San German",2,499,90,90,0,0,607,14,14,0,0,360,76,76,0,0
+6047,r505,All institutions<sup>a</sup> -> Molloy C.,All institutions<sup>a</sup>,Molloy C.,2,504,89,16,0,73,424,84,11,0,73,589,5,5,0,0
+6047,r506,All institutions<sup>a</sup> -> Emory U.,All institutions<sup>a</sup>,Emory U.,2,504,89,47,0,42,464,65,45,0,20,488,24,2,0,22
+6047,r507,All institutions<sup>a</sup> -> Tuskegee U.,All institutions<sup>a</sup>,Tuskegee U.,2,506,88,65,14,9,434,76,53,14,9,544,12,12,0,0
+6047,r508,All institutions<sup>a</sup> -> Southern Nazarene U.,All institutions<sup>a</sup>,Southern Nazarene U.,2,507,87,87,0,0,417,87,87,0,0,636,0,0,0,0
+6047,r509,All institutions<sup>a</sup> -> Salus U.,All institutions<sup>a</sup>,Salus U.,2,508,86,0,0,86,423,85,0,0,85,624,1,0,0,1
+6047,r510,All institutions<sup>a</sup> -> Bridgewater State U.,All institutions<sup>a</sup>,Bridgewater State U.,2,509,83,83,0,0,507,48,48,0,0,456,35,35,0,0
+6047,r511,All institutions<sup>a</sup> -> Canisius C.,All institutions<sup>a</sup>,Canisius C.,2,510,82,67,0,15,560,29,19,0,10,410,53,48,0,5
+6047,r512,All institutions<sup>a</sup> -> U. Guam,All institutions<sup>a</sup>,U. Guam,2,510,82,82,0,0,572,24,24,0,0,399,58,58,0,0
+6047,r513,All institutions<sup>a</sup> -> U. of the Incarnate Word,All institutions<sup>a</sup>,U. of the Incarnate Word,2,512,81,69,0,12,439,74,63,0,11,577,7,6,0,1
+6047,r514,All institutions<sup>a</sup> -> Alcorn State U.,All institutions<sup>a</sup>,Alcorn State U.,2,512,81,81,0,0,524,43,43,0,0,449,38,38,0,0
+6047,r515,All institutions<sup>a</sup> -> Valparaiso U.,All institutions<sup>a</sup>,Valparaiso U.,2,514,80,80,0,0,455,68,68,0,0,544,12,12,0,0
+6047,r516,All institutions<sup>a</sup> -> Evergreen State C.,All institutions<sup>a</sup>,Evergreen State C.,2,514,80,80,0,0,532,39,39,0,0,437,41,41,0,0
+6047,r517,All institutions<sup>a</sup> -> LeTourneau U.,All institutions<sup>a</sup>,LeTourneau U.,2,514,80,70,10,0,598,16,9,7,0,385,64,61,3,0
+6047,r518,All institutions<sup>a</sup> -> Vanguard U. of Southern California,All institutions<sup>a</sup>,Vanguard U. of Southern California,2,517,79,79,0,0,434,76,76,0,0,607,3,3,0,0
+6047,r519,All institutions<sup>a</sup> -> Lindenwood U.,All institutions<sup>a</sup>,Lindenwood U.,2,518,78,39,0,39,451,71,37,0,34,577,7,2,0,5
+6047,r520,All institutions<sup>a</sup> -> Bradley U.,All institutions<sup>a</sup>,Bradley U.,2,519,77,34,43,0,489,53,27,26,0,488,24,7,17,0
+6047,r521,All institutions<sup>a</sup> -> Gannon U.,All institutions<sup>a</sup>,Gannon U.,2,519,77,39,38,0,510,47,22,25,0,472,30,17,13,0
+6047,r522,All institutions<sup>a</sup> -> Southeast Missouri State U.,All institutions<sup>a</sup>,Southeast Missouri State U.,2,519,77,77,0,0,528,41,41,0,0,454,36,36,0,0
+6047,r523,"All institutions<sup>a</sup> -> U. Maryland, Eastern Shore",All institutions<sup>a</sup>,"U. Maryland, Eastern Shore",2,519,77,77,0,0,539,36,36,0,0,437,41,41,0,0
+6047,r524,All institutions<sup>a</sup> -> Medical U. South Carolina,All institutions<sup>a</sup>,Medical U. South Carolina,2,523,76,44,0,32,504,49,43,0,6,479,27,1,0,26
+6047,r525,All institutions<sup>a</sup> -> Charles R. Drew U. of Medicine and Science,All institutions<sup>a</sup>,Charles R. Drew U. of Medicine and Science,2,524,75,34,0,41,443,73,33,0,40,613,2,1,0,1
+6047,r526,"All institutions<sup>a</sup> -> SUNY, C. Cortland",All institutions<sup>a</sup>,"SUNY, C. Cortland",2,525,74,3,0,71,491,52,3,0,49,495,22,0,0,22
+6047,r527,"All institutions<sup>a</sup> -> Minnesota State U., Moorhead",All institutions<sup>a</sup>,"Minnesota State U., Moorhead",2,526,73,26,0,47,467,63,16,0,47,562,10,10,0,0
+6047,r528,All institutions<sup>a</sup> -> New Mexico Highlands U.,All institutions<sup>a</sup>,New Mexico Highlands U.,2,526,73,73,0,0,510,47,47,0,0,482,26,26,0,0
+6047,r529,"All institutions<sup>a</sup> -> SUNY, C. Brockport",All institutions<sup>a</sup>,"SUNY, C. Brockport",2,526,73,58,0,15,544,33,25,0,8,441,40,33,0,7
+6047,r530,All institutions<sup>a</sup> -> Florida Polytechnic U.,All institutions<sup>a</sup>,Florida Polytechnic U.,2,529,72,44,28,0,467,63,38,25,0,564,9,6,3,0
+6047,r531,All institutions<sup>a</sup> -> Cooper Union for the Advancement of Science and Art,All institutions<sup>a</sup>,Cooper Union for the Advancement of Science and Art,2,529,72,0,72,0,560,29,0,29,0,431,43,0,43,0
+6047,r532,All institutions<sup>a</sup> -> Bloomsburg U. Pennsylvania,All institutions<sup>a</sup>,Bloomsburg U. Pennsylvania,2,531,71,9,0,62,467,63,1,0,62,571,8,8,0,0
+6047,r533,"All institutions<sup>a</sup> -> U. Nebraska, Medical Center",All institutions<sup>a</sup>,"U. Nebraska, Medical Center",2,532,69,69,0,0,491,52,52,0,0,522,17,17,0,0
+6047,r534,All institutions<sup>a</sup> -> South Carolina State U.,All institutions<sup>a</sup>,South Carolina State U.,2,533,68,0,0,68,477,57,0,0,57,552,11,0,0,11
+6047,r535,All institutions<sup>a</sup> -> Hampton U.,All institutions<sup>a</sup>,Hampton U.,2,534,67,44,0,23,476,58,35,0,23,564,9,9,0,0
+6047,r536,All institutions<sup>a</sup> -> Mercyhurst U.,All institutions<sup>a</sup>,Mercyhurst U.,2,534,67,67,0,0,504,49,49,0,0,518,18,18,0,0
+6047,r537,All institutions<sup>a</sup> -> Edinboro U. Pennsylvania,All institutions<sup>a</sup>,Edinboro U. Pennsylvania,2,534,67,26,0,41,514,46,5,0,41,501,21,21,0,0
+6047,r538,All institutions<sup>a</sup> -> Georgia C. and State U.,All institutions<sup>a</sup>,Georgia C. and State U.,2,534,67,21,0,46,544,33,17,0,16,459,34,4,0,30
+6047,r539,"All institutions<sup>a</sup> -> Mayo Clinic, Mayo Graduate School",All institutions<sup>a</sup>,"Mayo Clinic, Mayo Graduate School",2,534,67,58,4,5,664,0,0,0,0,379,67,58,4,5
+6047,r540,"All institutions<sup>a</sup> -> SUNY, Fredonia",All institutions<sup>a</sup>,"SUNY, Fredonia",2,539,66,20,0,46,472,62,16,0,46,597,4,4,0,0
+6047,r541,All institutions<sup>a</sup> -> U. West Alabama,All institutions<sup>a</sup>,U. West Alabama,2,539,66,66,0,0,480,56,56,0,0,562,10,10,0,0
+6047,r542,All institutions<sup>a</sup> -> Springfield C.,All institutions<sup>a</sup>,Springfield C.,2,539,66,59,0,7,491,52,46,0,6,533,14,13,0,1
+6047,r543,All institutions<sup>a</sup> -> Duquesne U.,All institutions<sup>a</sup>,Duquesne U.,2,539,66,52,0,14,514,46,32,0,14,510,20,20,0,0
+6047,r544,All institutions<sup>a</sup> -> Virginia State U.,All institutions<sup>a</sup>,Virginia State U.,2,543,65,65,0,0,491,52,52,0,0,541,13,13,0,0
+6047,r545,All institutions<sup>a</sup> -> Clark Atlanta U.,All institutions<sup>a</sup>,Clark Atlanta U.,2,543,65,65,0,0,519,44,44,0,0,501,21,21,0,0
+6047,r546,All institutions<sup>a</sup> -> Fort Valley State U.,All institutions<sup>a</sup>,Fort Valley State U.,2,543,65,20,0,45,526,42,18,0,24,492,23,2,0,21
+6047,r547,All institutions<sup>a</sup> -> Oregon Institute of Technology,All institutions<sup>a</sup>,Oregon Institute of Technology,2,546,64,18,46,0,572,24,7,17,0,441,40,11,29,0
+6047,r548,All institutions<sup>a</sup> -> U. of Saint Mary,All institutions<sup>a</sup>,U. of Saint Mary,2,547,62,62,0,0,480,56,56,0,0,584,6,6,0,0
+6047,r549,All institutions<sup>a</sup> -> U. Wisconsin-Whitewater,All institutions<sup>a</sup>,U. Wisconsin-Whitewater,2,547,62,35,0,27,483,55,28,0,27,577,7,7,0,0
+6047,r550,All institutions<sup>a</sup> -> Delaware State U.,All institutions<sup>a</sup>,Delaware State U.,2,549,61,53,0,8,491,52,44,0,8,564,9,9,0,0
+6047,r551,All institutions<sup>a</sup> -> California U. of Science and Medicine,All institutions<sup>a</sup>,California U. of Science and Medicine,2,550,60,60,0,0,473,60,60,0,0,636,0,0,0,0
+6047,r552,"All institutions<sup>a</sup> -> U. Arkansas, Pine Bluff",All institutions<sup>a</sup>,"U. Arkansas, Pine Bluff",2,550,60,60,0,0,507,48,48,0,0,544,12,12,0,0
+6047,r553,All institutions<sup>a</sup> -> U. Montevallo,All institutions<sup>a</sup>,U. Montevallo,2,552,59,0,0,59,475,59,0,0,59,636,0,0,0,0
+6047,r554,All institutions<sup>a</sup> -> U. Texas Medical Branch,All institutions<sup>a</sup>,U. Texas Medical Branch,2,552,59,59,0,0,564,28,28,0,0,470,31,31,0,0
+6047,r555,All institutions<sup>a</sup> -> U. Pennsylvania,All institutions<sup>a</sup>,U. Pennsylvania,2,554,58,58,0,0,489,53,53,0,0,589,5,5,0,0
+6047,r556,All institutions<sup>a</sup> -> Medical C. Wisconsin,All institutions<sup>a</sup>,Medical C. Wisconsin,2,554,58,11,0,47,581,21,11,0,10,452,37,0,0,37
+6047,r557,All institutions<sup>a</sup> -> DeSales U.,All institutions<sup>a</sup>,DeSales U.,2,556,56,54,0,2,578,22,21,0,1,459,34,33,0,1
+6047,r558,All institutions<sup>a</sup> -> Western U. of Health Sciences,All institutions<sup>a</sup>,Western U. of Health Sciences,2,557,54,40,0,14,547,32,22,0,10,495,22,18,0,4
+6047,r559,All institutions<sup>a</sup> -> Roger Williams U.,All institutions<sup>a</sup>,Roger Williams U.,2,557,54,54,0,0,549,31,31,0,0,492,23,23,0,0
+6047,r560,All institutions<sup>a</sup> -> Arkansas Tech U.,All institutions<sup>a</sup>,Arkansas Tech U.,2,557,54,44,10,0,578,22,15,7,0,467,32,29,3,0
+6047,r561,All institutions<sup>a</sup> -> Kettering U.,All institutions<sup>a</sup>,Kettering U.,2,557,54,0,54,0,594,17,0,17,0,452,37,0,37,0
+6047,r562,All institutions<sup>a</sup> -> Suffolk U.,All institutions<sup>a</sup>,Suffolk U.,2,561,53,45,0,8,549,31,31,0,0,495,22,14,0,8
+6047,r563,All institutions<sup>a</sup> -> Coastal Carolina U.,All institutions<sup>a</sup>,Coastal Carolina U.,2,562,52,52,0,0,560,29,29,0,0,492,23,23,0,0
+6047,r564,All institutions<sup>a</sup> -> Palo Alto U.,All institutions<sup>a</sup>,Palo Alto U.,2,562,52,52,0,0,664,0,0,0,0,413,52,52,0,0
+6047,r565,All institutions<sup>a</sup> -> Oklahoma City U.,All institutions<sup>a</sup>,Oklahoma City U.,2,564,51,51,0,0,549,31,31,0,0,510,20,20,0,0
+6047,r566,All institutions<sup>a</sup> -> Kentucky State U.,All institutions<sup>a</sup>,Kentucky State U.,2,564,51,51,0,0,567,27,27,0,0,488,24,24,0,0
+6047,r567,All institutions<sup>a</sup> -> Gonzaga U.,All institutions<sup>a</sup>,Gonzaga U.,2,566,49,32,17,0,572,24,24,0,0,485,25,8,17,0
+6047,r568,All institutions<sup>a</sup> -> Winthrop U.,All institutions<sup>a</sup>,Winthrop U.,2,567,48,48,0,0,514,46,46,0,0,613,2,2,0,0
+6047,r569,All institutions<sup>a</sup> -> St. Thomas U.,All institutions<sup>a</sup>,St. Thomas U.,2,567,48,37,0,11,519,44,33,0,11,597,4,4,0,0
+6047,r570,All institutions<sup>a</sup> -> Longwood U.,All institutions<sup>a</sup>,Longwood U.,2,569,47,0,0,47,510,47,0,0,47,636,0,0,0,0
+6047,r571,All institutions<sup>a</sup> -> Bard C.,All institutions<sup>a</sup>,Bard C.,2,569,47,47,0,0,514,46,46,0,0,624,1,1,0,0
+6047,r572,All institutions<sup>a</sup> -> U. del Turabo,All institutions<sup>a</sup>,U. del Turabo,2,569,47,30,17,0,554,30,20,10,0,522,17,10,7,0
+6047,r573,All institutions<sup>a</sup> -> Albert Einstein C. of Medicine,All institutions<sup>a</sup>,Albert Einstein C. of Medicine,2,572,46,0,0,46,514,46,0,0,46,636,0,0,0,0
+6047,r574,All institutions<sup>a</sup> -> U. of the Virgin Islands,All institutions<sup>a</sup>,U. of the Virgin Islands,2,572,46,46,0,0,530,40,40,0,0,584,6,6,0,0
+6047,r575,All institutions<sup>a</sup> -> John Carroll U.,All institutions<sup>a</sup>,John Carroll U.,2,572,46,46,0,0,542,34,34,0,0,544,12,12,0,0
+6047,r576,All institutions<sup>a</sup> -> Cedars-Sinai Medical Center,All institutions<sup>a</sup>,Cedars-Sinai Medical Center,2,575,42,42,0,0,635,6,6,0,0,454,36,36,0,0
+6047,r577,All institutions<sup>a</sup> -> Calvin C.,All institutions<sup>a</sup>,Calvin C.,2,576,41,0,0,41,532,39,0,0,39,613,2,0,0,2
+6047,r578,"All institutions<sup>a</sup> -> SUNY, C. Plattsburgh",All institutions<sup>a</sup>,"SUNY, C. Plattsburgh",2,576,41,41,0,0,554,30,30,0,0,552,11,11,0,0
+6047,r579,All institutions<sup>a</sup> -> Xavier U.,All institutions<sup>a</sup>,Xavier U.,2,576,41,41,0,0,560,29,29,0,0,544,12,12,0,0
+6047,r580,All institutions<sup>a</sup> -> Christopher Newport U.,All institutions<sup>a</sup>,Christopher Newport U.,2,576,41,41,0,0,588,19,19,0,0,495,22,22,0,0
+6047,r581,"All institutions<sup>a</sup> -> U. Texas Health Science Center, Tyler",All institutions<sup>a</sup>,"U. Texas Health Science Center, Tyler",2,580,40,10,0,30,568,26,10,0,16,533,14,0,0,14
+6047,r582,All institutions<sup>a</sup> -> Wesleyan U.,All institutions<sup>a</sup>,Wesleyan U.,2,581,39,39,0,0,532,39,39,0,0,636,0,0,0,0
+6047,r583,All institutions<sup>a</sup> -> Truman State U.,All institutions<sup>a</sup>,Truman State U.,2,581,39,0,0,39,538,37,0,0,37,613,2,0,0,2
+6047,r584,All institutions<sup>a</sup> -> U. of Mary Hardin Baylor,All institutions<sup>a</sup>,U. of Mary Hardin Baylor,2,581,39,39,0,0,544,33,33,0,0,584,6,6,0,0
+6047,r585,All institutions<sup>a</sup> -> Loras C.,All institutions<sup>a</sup>,Loras C.,2,581,39,39,0,0,549,31,31,0,0,571,8,8,0,0
+6047,r586,All institutions<sup>a</sup> -> Ithaca C.,All institutions<sup>a</sup>,Ithaca C.,2,585,38,38,0,0,572,24,24,0,0,533,14,14,0,0
+6047,r587,All institutions<sup>a</sup> -> Caldwell U.,All institutions<sup>a</sup>,Caldwell U.,2,585,38,38,0,0,664,0,0,0,0,449,38,38,0,0
+6047,r588,All institutions<sup>a</sup> -> Mills C.,All institutions<sup>a</sup>,Mills C.,2,587,37,37,0,0,576,23,23,0,0,533,14,14,0,0
+6047,r589,All institutions<sup>a</sup> -> Kutztown U. Pennsylvania,All institutions<sup>a</sup>,Kutztown U. Pennsylvania,2,588,35,35,0,0,581,21,21,0,0,533,14,14,0,0
+6047,r590,All institutions<sup>a</sup> -> Smith C.,All institutions<sup>a</sup>,Smith C.,2,588,35,11,0,24,585,20,0,0,20,529,15,11,0,4
+6047,r591,All institutions<sup>a</sup> -> Pacific States U.,All institutions<sup>a</sup>,Pacific States U.,2,590,34,34,0,0,542,34,34,0,0,636,0,0,0,0
+6047,r592,"All institutions<sup>a</sup> -> U. California, Merced",All institutions<sup>a</sup>,"U. California, Merced",2,590,34,11,23,0,547,32,11,21,0,613,2,0,2,0
+6047,r593,"All institutions<sup>a</sup> -> Northeastern Ohio Universities, C. of Medicine",All institutions<sup>a</sup>,"Northeastern Ohio Universities, C. of Medicine",2,590,34,15,0,19,554,30,15,0,15,597,4,0,0,4
+6047,r594,All institutions<sup>a</sup> -> Morehead State U.,All institutions<sup>a</sup>,Morehead State U.,2,590,34,34,0,0,588,19,19,0,0,529,15,15,0,0
+6047,r595,All institutions<sup>a</sup> -> Bethune-Cookman U.,All institutions<sup>a</sup>,Bethune-Cookman U.,2,594,33,25,0,8,554,30,22,0,8,607,3,3,0,0
+6047,r596,All institutions<sup>a</sup> -> Saint Martin's U.,All institutions<sup>a</sup>,Saint Martin's U.,2,594,33,15,18,0,564,28,14,14,0,589,5,1,4,0
+6047,r597,All institutions<sup>a</sup> -> Andrews U.,All institutions<sup>a</sup>,Andrews U.,2,594,33,33,0,0,570,25,25,0,0,571,8,8,0,0
+6047,r598,All institutions<sup>a</sup> -> Fielding Graduate U.,All institutions<sup>a</sup>,Fielding Graduate U.,2,597,32,32,0,0,613,12,12,0,0,510,20,20,0,0
+6047,r599,All institutions<sup>a</sup> -> Fisk U.,All institutions<sup>a</sup>,Fisk U.,2,598,31,31,0,0,554,30,30,0,0,624,1,1,0,0
+6047,r600,"All institutions<sup>a</sup> -> Lincoln U., Jefferson City",All institutions<sup>a</sup>,"Lincoln U., Jefferson City",2,598,31,31,0,0,617,11,11,0,0,510,20,20,0,0
+6047,r601,All institutions<sup>a</sup> -> Widener U.,All institutions<sup>a</sup>,Widener U.,2,600,30,0,30,0,578,22,0,22,0,571,8,0,8,0
+6047,r602,All institutions<sup>a</sup> -> Bowie State U.,All institutions<sup>a</sup>,Bowie State U.,2,600,30,30,0,0,598,16,16,0,0,533,14,14,0,0
+6047,r603,All institutions<sup>a</sup> -> Coppin State U.,All institutions<sup>a</sup>,Coppin State U.,2,600,30,30,0,0,625,9,9,0,0,501,21,21,0,0
+6047,r604,All institutions<sup>a</sup> -> Georgia Southwestern State U.,All institutions<sup>a</sup>,Georgia Southwestern State U.,2,603,29,29,0,0,625,9,9,0,0,510,20,20,0,0
+6047,r605,All institutions<sup>a</sup> -> Salisbury U.,All institutions<sup>a</sup>,Salisbury U.,2,603,29,29,0,0,625,9,9,0,0,510,20,20,0,0
+6047,r606,All institutions<sup>a</sup> -> Furman U.,All institutions<sup>a</sup>,Furman U.,2,605,28,8,0,20,564,28,8,0,20,636,0,0,0,0
+6047,r607,All institutions<sup>a</sup> -> U. Southern Maine,All institutions<sup>a</sup>,U. Southern Maine,2,605,28,28,0,0,655,2,2,0,0,482,26,26,0,0
+6047,r608,All institutions<sup>a</sup> -> Bemidji State U.,All institutions<sup>a</sup>,Bemidji State U.,2,605,28,28,0,0,658,1,1,0,0,479,27,27,0,0
+6047,r609,All institutions<sup>a</sup> -> Savannah State U.,All institutions<sup>a</sup>,Savannah State U.,2,608,27,27,0,0,568,26,26,0,0,624,1,1,0,0
+6047,r610,"All institutions<sup>a</sup> -> U. South Carolina, Aiken",All institutions<sup>a</sup>,"U. South Carolina, Aiken",2,608,27,27,0,0,585,20,20,0,0,577,7,7,0,0
+6047,r611,All institutions<sup>a</sup> -> Alaska Pacific U.,All institutions<sup>a</sup>,Alaska Pacific U.,2,608,27,27,0,0,613,12,12,0,0,529,15,15,0,0
+6047,r612,All institutions<sup>a</sup> -> Point Loma Nazarene U.,All institutions<sup>a</sup>,Point Loma Nazarene U.,2,608,27,27,0,0,630,8,8,0,0,517,19,19,0,0
+6047,r613,"All institutions<sup>a</sup> -> Colorado State U., Pueblo",All institutions<sup>a</sup>,"Colorado State U., Pueblo",2,612,26,19,7,0,594,17,13,4,0,564,9,6,3,0
+6047,r614,All institutions<sup>a</sup> -> Gallaudet U.,All institutions<sup>a</sup>,Gallaudet U.,2,613,25,0,0,25,570,25,0,0,25,636,0,0,0,0
+6047,r615,All institutions<sup>a</sup> -> Elizabeth City State U.,All institutions<sup>a</sup>,Elizabeth City State U.,2,613,25,25,0,0,594,17,17,0,0,571,8,8,0,0
+6047,r616,All institutions<sup>a</sup> -> Alfred U.,All institutions<sup>a</sup>,Alfred U.,2,613,25,0,25,0,607,14,0,14,0,552,11,0,11,0
+6047,r617,All institutions<sup>a</sup> -> Bucknell U.,All institutions<sup>a</sup>,Bucknell U.,2,616,23,16,7,0,576,23,16,7,0,636,0,0,0,0
+6047,r618,All institutions<sup>a</sup> -> Northwestern Polytechnic U.,All institutions<sup>a</sup>,Northwestern Polytechnic U.,2,617,22,21,1,0,598,16,16,0,0,584,6,5,1,0
+6047,r619,All institutions<sup>a</sup> -> Milwaukee School of Engineering,All institutions<sup>a</sup>,Milwaukee School of Engineering,2,617,22,0,22,0,639,5,0,5,0,522,17,0,17,0
+6047,r620,All institutions<sup>a</sup> -> New England C. of Optometry,All institutions<sup>a</sup>,New England C. of Optometry,2,619,21,21,0,0,581,21,21,0,0,636,0,0,0,0
+6047,r621,All institutions<sup>a</sup> -> San Juan Bautista School of Medicine,All institutions<sup>a</sup>,San Juan Bautista School of Medicine,2,619,21,0,0,21,581,21,0,0,21,636,0,0,0,0
+6047,r622,All institutions<sup>a</sup> -> Northwestern State U. Louisiana,All institutions<sup>a</sup>,Northwestern State U. Louisiana,2,619,21,21,0,0,588,19,19,0,0,613,2,2,0,0
+6047,r623,All institutions<sup>a</sup> -> West Virginia State U.,All institutions<sup>a</sup>,West Virginia State U.,2,622,20,20,0,0,585,20,20,0,0,636,0,0,0,0
+6047,r624,All institutions<sup>a</sup> -> U. Wisconsin-Parkside,All institutions<sup>a</sup>,U. Wisconsin-Parkside,2,622,20,20,0,0,634,7,7,0,0,541,13,13,0,0
+6047,r625,All institutions<sup>a</sup> -> Claflin U.,All institutions<sup>a</sup>,Claflin U.,2,624,19,19,0,0,588,19,19,0,0,636,0,0,0,0
+6047,r626,All institutions<sup>a</sup> -> Southern Oregon U.,All institutions<sup>a</sup>,Southern Oregon U.,2,624,19,19,0,0,588,19,19,0,0,636,0,0,0,0
+6047,r627,All institutions<sup>a</sup> -> Mississippi Valley State U.,All institutions<sup>a</sup>,Mississippi Valley State U.,2,624,19,11,0,8,603,15,10,0,5,597,4,1,0,3
+6047,r628,All institutions<sup>a</sup> -> Delta State U.,All institutions<sup>a</sup>,Delta State U.,2,624,19,19,0,0,617,11,11,0,0,571,8,8,0,0
+6047,r629,All institutions<sup>a</sup> -> Drew U.,All institutions<sup>a</sup>,Drew U.,2,624,19,11,0,8,630,8,6,0,2,552,11,5,0,6
+6047,r630,"All institutions<sup>a</sup> -> Montana State U., Billings",All institutions<sup>a</sup>,"Montana State U., Billings",2,629,18,18,0,0,603,15,15,0,0,607,3,3,0,0
+6047,r631,"All institutions<sup>a</sup> -> California State U., Stanislaus",All institutions<sup>a</sup>,"California State U., Stanislaus",2,629,18,18,0,0,639,5,5,0,0,541,13,13,0,0
+6047,r632,"All institutions<sup>a</sup> -> U. Arkansas, Monticello",All institutions<sup>a</sup>,"U. Arkansas, Monticello",2,629,18,18,0,0,658,1,1,0,0,522,17,17,0,0
+6047,r633,All institutions<sup>a</sup> -> California Institute of Technology,All institutions<sup>a</sup>,California Institute of Technology,2,632,17,0,17,0,594,17,0,17,0,636,0,0,0,0
+6047,r634,"All institutions<sup>a</sup> -> Pontifical Catholic U. Puerto Rico, Mayaguez",All institutions<sup>a</sup>,"Pontifical Catholic U. Puerto Rico, Mayaguez",2,632,17,17,0,0,611,13,13,0,0,597,4,4,0,0
+6047,r635,All institutions<sup>a</sup> -> Albany Medical C.,All institutions<sup>a</sup>,Albany Medical C.,2,634,16,16,0,0,598,16,16,0,0,636,0,0,0,0
+6047,r636,All institutions<sup>a</sup> -> Baylor C. of Medicine,All institutions<sup>a</sup>,Baylor C. of Medicine,2,634,16,0,0,16,598,16,0,0,16,636,0,0,0,0
+6047,r637,All institutions<sup>a</sup> -> Alabama State U.,All institutions<sup>a</sup>,Alabama State U.,2,634,16,16,0,0,617,11,11,0,0,589,5,5,0,0
+6047,r638,All institutions<sup>a</sup> -> Yeshiva U.,All institutions<sup>a</sup>,Yeshiva U.,2,634,16,16,0,0,639,5,5,0,0,552,11,11,0,0
+6047,r639,All institutions<sup>a</sup> -> American Museum of Natural History,All institutions<sup>a</sup>,American Museum of Natural History,2,638,15,15,0,0,603,15,15,0,0,636,0,0,0,0
+6047,r640,All institutions<sup>a</sup> -> Wilkes U.,All institutions<sup>a</sup>,Wilkes U.,2,638,15,4,11,0,622,10,1,9,0,589,5,3,2,0
+6047,r641,All institutions<sup>a</sup> -> Rhode Island C.,All institutions<sup>a</sup>,Rhode Island C.,2,638,15,15,0,0,647,4,4,0,0,552,11,11,0,0
+6047,r642,"All institutions<sup>a</sup> -> Inter American U. Puerto Rico, Fajardo",All institutions<sup>a</sup>,"Inter American U. Puerto Rico, Fajardo",2,638,15,15,0,0,664,0,0,0,0,529,15,15,0,0
+6047,r643,All institutions<sup>a</sup> -> U. Portland,All institutions<sup>a</sup>,U. Portland,2,642,14,0,14,0,617,11,0,11,0,607,3,0,3,0
+6047,r644,"All institutions<sup>a</sup> -> U. of Saint Francis, Fort Wayne",All institutions<sup>a</sup>,"U. of Saint Francis, Fort Wayne",2,642,14,14,0,0,617,11,11,0,0,607,3,3,0,0
+6047,r645,"All institutions<sup>a</sup> -> Oklahoma State U., Center for Health Sciences",All institutions<sup>a</sup>,"Oklahoma State U., Center for Health Sciences",2,642,14,14,0,0,625,9,9,0,0,589,5,5,0,0
+6047,r646,All institutions<sup>a</sup> -> U.S. Merchant Marine Academy,All institutions<sup>a</sup>,U.S. Merchant Marine Academy,2,642,14,0,14,0,664,0,0,0,0,533,14,0,14,0
+6047,r647,All institutions<sup>a</sup> -> Rockefeller U.,All institutions<sup>a</sup>,Rockefeller U.,2,646,13,13,0,0,611,13,13,0,0,636,0,0,0,0
+6047,r648,All institutions<sup>a</sup> -> Endicott C.,All institutions<sup>a</sup>,Endicott C.,2,646,13,13,0,0,625,9,9,0,0,597,4,4,0,0
+6047,r649,All institutions<sup>a</sup> -> Albany C. of Pharmacy and Health Sciences,All institutions<sup>a</sup>,Albany C. of Pharmacy and Health Sciences,2,648,12,6,0,6,613,12,6,0,6,636,0,0,0,0
+6047,r650,All institutions<sup>a</sup> -> Tougaloo C.,All institutions<sup>a</sup>,Tougaloo C.,2,648,12,12,0,0,630,8,8,0,0,597,4,4,0,0
+6047,r651,All institutions<sup>a</sup> -> Marshall B. Ketchum U.,All institutions<sup>a</sup>,Marshall B. Ketchum U.,2,650,11,11,0,0,622,10,10,0,0,624,1,1,0,0
+6047,r652,All institutions<sup>a</sup> -> Wagner C.,All institutions<sup>a</sup>,Wagner C.,2,650,11,11,0,0,635,6,6,0,0,589,5,5,0,0
+6047,r653,"All institutions<sup>a</sup> -> SUNY, C. of Optometry",All institutions<sup>a</sup>,"SUNY, C. of Optometry",2,650,11,11,0,0,664,0,0,0,0,552,11,11,0,0
+6047,r654,"All institutions<sup>a</sup> -> U. Massachusetts, Medical School",All institutions<sup>a</sup>,"U. Massachusetts, Medical School",2,653,10,10,0,0,622,10,10,0,0,636,0,0,0,0
+6047,r655,All institutions<sup>a</sup> -> Rose-Hulman Institute of Technology,All institutions<sup>a</sup>,Rose-Hulman Institute of Technology,2,653,10,0,10,0,647,4,0,4,0,584,6,0,6,0
+6047,r656,All institutions<sup>a</sup> -> Walla Walla U.,All institutions<sup>a</sup>,Walla Walla U.,2,655,9,9,0,0,639,5,5,0,0,597,4,4,0,0
+6047,r657,All institutions<sup>a</sup> -> Memorial Sloan Kettering Cancer Center,All institutions<sup>a</sup>,Memorial Sloan Kettering Cancer Center,2,655,9,9,0,0,664,0,0,0,0,564,9,9,0,0
+6047,r658,All institutions<sup>a</sup> -> Alderson-Broaddus U.,All institutions<sup>a</sup>,Alderson-Broaddus U.,2,657,7,7,0,0,635,6,6,0,0,624,1,1,0,0
+6047,r659,All institutions<sup>a</sup> -> Missouri Western State U.,All institutions<sup>a</sup>,Missouri Western State U.,2,657,7,7,0,0,639,5,5,0,0,613,2,2,0,0
+6047,r660,All institutions<sup>a</sup> -> Western Connecticut State U.,All institutions<sup>a</sup>,Western Connecticut State U.,2,657,7,7,0,0,664,0,0,0,0,577,7,7,0,0
+6047,r661,All institutions<sup>a</sup> -> St. Francis C.,All institutions<sup>a</sup>,St. Francis C.,2,660,6,6,0,0,635,6,6,0,0,636,0,0,0,0
+6047,r662,All institutions<sup>a</sup> -> Point Park U.,All institutions<sup>a</sup>,Point Park U.,2,661,5,5,0,0,639,5,5,0,0,636,0,0,0,0
+6047,r663,All institutions<sup>a</sup> -> Sitting Bull C.,All institutions<sup>a</sup>,Sitting Bull C.,2,661,5,5,0,0,639,5,5,0,0,636,0,0,0,0
+6047,r664,"All institutions<sup>a</sup> -> SUNY, Oneonta",All institutions<sup>a</sup>,"SUNY, Oneonta",2,661,5,5,0,0,647,4,4,0,0,624,1,1,0,0
+6047,r665,All institutions<sup>a</sup> -> Winston-Salem State U.,All institutions<sup>a</sup>,Winston-Salem State U.,2,661,5,5,0,0,647,4,4,0,0,624,1,1,0,0
+6047,r666,All institutions<sup>a</sup> -> Black Hills State U.,All institutions<sup>a</sup>,Black Hills State U.,2,665,4,4,0,0,647,4,4,0,0,636,0,0,0,0
+6047,r667,All institutions<sup>a</sup> -> Vermont Technical C.,All institutions<sup>a</sup>,Vermont Technical C.,2,665,4,0,4,0,655,2,0,2,0,613,2,0,2,0
+6047,r668,All institutions<sup>a</sup> -> Marietta C.,All institutions<sup>a</sup>,Marietta C.,2,667,3,3,0,0,653,3,3,0,0,636,0,0,0,0
+6047,r669,"All institutions<sup>a</sup> -> SUNY, Upstate Medical U.",All institutions<sup>a</sup>,"SUNY, Upstate Medical U.",2,667,3,3,0,0,653,3,3,0,0,636,0,0,0,0
+6047,r670,All institutions<sup>a</sup> -> Cabrini U.,All institutions<sup>a</sup>,Cabrini U.,2,667,3,3,0,0,658,1,1,0,0,613,2,2,0,0
+6047,r671,All institutions<sup>a</sup> -> U. Texas Southwestern Medical Center,All institutions<sup>a</sup>,U. Texas Southwestern Medical Center,2,670,2,2,0,0,655,2,2,0,0,636,0,0,0,0
+6047,r672,All institutions<sup>a</sup> -> North Central C.,All institutions<sup>a</sup>,North Central C.,2,670,2,2,0,0,664,0,0,0,0,613,2,2,0,0
+6047,r673,All institutions<sup>a</sup> -> Bryn Mawr C.,All institutions<sup>a</sup>,Bryn Mawr C.,2,672,1,1,0,0,658,1,1,0,0,636,0,0,0,0
+6047,r674,All institutions<sup>a</sup> -> Butler U.,All institutions<sup>a</sup>,Butler U.,2,672,1,0,0,1,658,1,0,0,1,636,0,0,0,0
+6047,r675,All institutions<sup>a</sup> -> U. Central del Caribe,All institutions<sup>a</sup>,U. Central del Caribe,2,672,1,1,0,0,658,1,1,0,0,636,0,0,0,0
+6047,r676,All institutions<sup>a</sup> -> Goucher C.,All institutions<sup>a</sup>,Goucher C.,2,672,1,1,0,0,664,0,0,0,0,624,1,1,0,0

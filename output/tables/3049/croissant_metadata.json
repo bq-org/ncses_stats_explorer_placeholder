@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Science and engineering research space in academic institutions, ranked by total net assignable square feet, by field: FY 2019",
+  "identifier": "NCSES-3049",
+  "description": "Science and engineering research space in academic institutions, ranked by total net assignable square feet, by field: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3049",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3049/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "institution_level_1, institution_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields",
+      "description": "All Fields",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_agricultural_sciences",
+      "description": "Agricultural Sciences",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_and_biomedical_sciences",
+      "description": "Biological And Biomedical Sciences",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_and_information_sciences",
+      "description": "Computer And Information Sciences",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_geosciences_atmospheric_sciences_and_ocean_sciences",
+      "description": "Geosciences Atmospheric Sciences And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_health_sciences",
+      "description": "Health Sciences",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_statistics",
+      "description": "Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_natural_resources_and_conservation",
+      "description": "Natural Resources And Conservation",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences",
+      "description": "Physical Sciences",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology",
+      "description": "Psychology",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_sciences",
+      "description": "Social Sciences",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other",
+      "description": "Other",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Details may not add to totals due to rounding. Institutions are ranked on unrounded totals. Tied institutions are ranked alphabetically.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities, FY 2019."
+}

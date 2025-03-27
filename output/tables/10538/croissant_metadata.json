@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. adults' belief on top three barriers to students accessing strong STEM education in the United States: 2021",
+  "identifier": "NCSES-10538",
+  "description": "U.S. adults' belief on top three barriers to students accessing strong STEM education in the United States: 2021",
+  "url": "https://example.org/datasets/ncses/tables/10538",
+  "table_number": "SPPS-11",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10538/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "barrier",
+      "description": "Barrier",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "all_adults_n_2_523_",
+      "description": "All Adults N 2 523 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Responses are to the following: What do you believe are the top barriers, if any, standing in the way of students currently accessing a strong STEM education within your country? Select top three.",
+  "sources": "3M. 2022. 2022 State of Science Index. Conducted 27 September\u201317 December 2021.Science and Engineering Indicators"
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Institution name changes between FY 2018 and FY 2019 Higher Education Research and Development Survey",
+  "identifier": "NCSES-3201",
+  "description": "Institution name changes between FY 2018 and FY 2019 Higher Education Research and Development Survey",
+  "url": "https://example.org/datasets/ncses/tables/3201",
+  "table_number": "A-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3201/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_fy_2018_survey_b",
+      "description": "FY 2018 survey hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_fy_2018_survey_b_level_1, _b_fy_2018_survey_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_fy_2018_survey_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2019_survey",
+      "description": "Fy 2019 Survey",
+      "valueType": "string",
+      "unitText": "Institution name"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

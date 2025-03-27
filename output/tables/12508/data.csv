@@ -1,0 +1,4 @@
+table_id,row_id,type_of_facility_full_path,type_of_facility_level_1,type_of_facility_level_2,type_of_facility_hierarchy_depth,field_rdt_e_expenditures_all_rdt_e,field_rdt_e_expenditures_r_d_all_r_d,field_rdt_e_expenditures_r_d_basic_research,field_rdt_e_expenditures_r_d_applied_research,field_rdt_e_expenditures_r_d_experimental_development,field_rdt_e_expenditures_operational_system_development
+12508,r001,All federal facilities,All federal facilities,,1,36062,34497,4749,"['9,570', '&nbsp;']",20178,1565
+12508,r002,All federal facilities -> DOD facilities,All federal facilities,DOD facilities,2,22429,20864,763,"['2,785', 'i']",17316,1565
+12508,r003,All federal facilities -> Non-DOD facilities,All federal facilities,Non-DOD facilities,2,na,13633,3986,"['6,785', '&nbsp;']",2862,na

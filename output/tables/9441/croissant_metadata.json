@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average scores of students in grades 4, 8, and 12 on the NAEP mathematics assessment, by student characteristic: 1990\u20132022",
+  "identifier": "NCSES-9441",
+  "description": "Average scores of students in grades 4, 8, and 12 on the NAEP mathematics assessment, by student characteristic: 1990\u20132022",
+  "url": "https://example.org/datasets/ncses/tables/9441",
+  "table_number": "SK12-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9441/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "student_grade_and_characteristic",
+      "description": "Student grade and characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "student_grade_and_characteristic_level_1, student_grade_and_characteristic_level_2, student_grade_and_characteristic_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "student_grade_and_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1990",
+      "description": "1990",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1992",
+      "description": "1992",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1996",
+      "description": "1996",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000",
+      "description": "2000",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005",
+      "description": "2005",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The scale for NAEP mathematics assessment scores is 0\u2013500 for grades 4 and 8 and 0\u2013300 for grade 12. From 1996 to 2022, data shown are for students allowed to use testing accommodations. Grade 12 mathematics data are presented from only 2005, 2009, 2013, 2015, and 2019 because the mathematics framework was substantially revised in 2005, making prior assessment results not comparable with those in or after 2005. The mathematics assessment was not conducted in 2007, 2011, 2017, or 2022 for grade 12.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2022) of the 1990, 1992, 1996, 2000, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019, and 2022 NAEP mathematics assessments, National Center for Education Statistics.Science and Engineering Indicators"
+}

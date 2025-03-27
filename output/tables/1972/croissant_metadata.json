@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "OECD classification of industries by R&D intensity",
+  "identifier": "NCSES-1972",
+  "description": "OECD classification of industries by R&D intensity",
+  "url": "https://example.org/datasets/ncses/tables/1972",
+  "table_number": "SA6-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1972/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "_b_manufacturing_b_characteristic",
+      "description": "Manufacturing hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_manufacturing_b_level_1, _b_manufacturing_b_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "List of industries"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "R&D intensity are global R&D expenditures as a share of global value added output of industry. The global R&D and value added excludes several economies, including China, India, and Mexico due to incomplete missing industry and R&D data. Industries classified according to International Standard Industry Classification, Revision 4.",
+  "sources": "Galindo-Rueda F, Verger F. 2016. OECD Taxonomy of Economic Activities Based on R&D Intensity. OECD Science, Technology and Industry Working Papers, 2016/04, OECD Publishing, Paris."
+}

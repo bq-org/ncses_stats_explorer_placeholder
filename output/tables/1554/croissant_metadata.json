@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Top 25 regions, countries, or economies of origin of U.S. doctorate recipients on temporary visas, by field: 2000\u201317",
+  "identifier": "NCSES-1554",
+  "description": "Top 25 regions, countries, or economies of origin of U.S. doctorate recipients on temporary visas, by field: 2000\u201317",
+  "url": "https://example.org/datasets/ncses/tables/1554",
+  "table_number": "2-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1554/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy",
+      "description": "Region, country, or economy hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "region_country_or_economy_level_1, region_country_or_economy_level_2, region_country_or_economy_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "region_country_or_economy_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields",
+      "description": "All Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_s_e_fields",
+      "description": "All S E Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_agricultural_sciences",
+      "description": "Agricultural Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_sciences",
+      "description": "Biological Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_sciences",
+      "description": "Computer Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_earth_atmospheric_and_ocean_sciences",
+      "description": "Earth Atmospheric And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics",
+      "description": "Mathematics",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_medical_and_other_health_sciences",
+      "description": "Medical And Other Health Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences",
+      "description": "Physical Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology",
+      "description": "Psychology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_sciences",
+      "description": "Social Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e",
+      "description": "Non S E",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include temporary residents and non-U.S. citizens with unknown visa status. Rank is based on total number of doctorates.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, special tabulations (2018) of the 2017 Survey of Earned Doctorates (SED).Science and Engineering Indicators"
+}

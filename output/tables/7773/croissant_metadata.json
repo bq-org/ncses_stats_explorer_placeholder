@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed college graduates, by employment sector, minor occupation, and job satisfaction: 2021",
+  "identifier": "NCSES-7773",
+  "description": "Employed college graduates, by employment sector, minor occupation, and job satisfaction: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7773",
+  "table_number": "3-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7773/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sector_and_occupation",
+      "description": "Sector and occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sector_and_occupation_level_1, sector_and_occupation_level_2, sector_and_occupation_level_3, sector_and_occupation_level_4, sector_and_occupation_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sector_and_occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_job_satisfaction_very_satisfied",
+      "description": "Job Satisfaction Very Satisfied",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_job_satisfaction_somewhat_satisfied",
+      "description": "Job Satisfaction Somewhat Satisfied",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_job_satisfaction_somewhat_dissatisfied",
+      "description": "Job Satisfaction Somewhat Dissatisfied",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_job_satisfaction_very_dissatisfied",
+      "description": "Job Satisfaction Very Dissatisfied",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding. Business or industry includes self-employed individuals, nonprofit organizations, and other unspecified types of employers. Education includes 4-year colleges and universities, medical schools, university-affiliated research institutes, 2-year colleges, pre-college institutions, and other educational institutions. Government includes federal (civilian), military, state, and local employers.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2021."
+}

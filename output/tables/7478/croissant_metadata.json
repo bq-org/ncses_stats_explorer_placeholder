@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Activities conducted by unaffiliated companies or foreign companies, by company size: 2019",
+  "identifier": "NCSES-7478",
+  "description": "Activities conducted by unaffiliated companies or foreign companies, by company size: 2019",
+  "url": "https://example.org/datasets/ncses/tables/7478",
+  "table_number": "93",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7478/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_size",
+      "description": "Employment size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_size_level_1, employment_size_level_2, employment_size_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies",
+      "description": "All Companies",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_core_production",
+      "description": "Core Production",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_distribution_and_logistics",
+      "description": "Distribution And Logistics",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_marketing_sales_and_after_sales_services",
+      "description": "Marketing Sales And After Sales Services",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_administrative_or_management_functions",
+      "description": "Administrative Or Management Functions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_development",
+      "description": "Research And Development",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_and_other_technical_services",
+      "description": "Engineering And Other Technical Services",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_information_and_communication_technology_services",
+      "description": "Information And Communication Technology Services",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_other_operating_activities",
+      "description": "All Other Operating Activities",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2020 Annual Business Survey: Data Year 2019."
+}

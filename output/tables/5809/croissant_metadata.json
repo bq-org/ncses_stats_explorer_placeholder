@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Direct and indirect indicators of invention, knowledge transfer, and innovation used in the report and their sources",
+  "identifier": "NCSES-5809",
+  "description": "Direct and indirect indicators of invention, knowledge transfer, and innovation used in the report and their sources",
+  "url": "https://example.org/datasets/ncses/tables/5809",
+  "table_number": "INV-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5809/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "section",
+      "description": "Section",
+      "valueType": "string",
+      "unitText": "Indicator, source, and measurement type"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "indicator",
+      "description": "Indicator",
+      "valueType": "string",
+      "unitText": "Indicator, source, and measurement type"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "source",
+      "description": "Source",
+      "valueType": "string",
+      "unitText": "Indicator, source, and measurement type"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "measurement_type",
+      "description": "Measurement Type",
+      "valueType": "string",
+      "unitText": "Indicator, source, and measurement type"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Direct measures use data that explicitly reflect on the rate, volume, and mix of invention and innovation outputs and knowledge transfer activities. Indirect measures are those that are correlated with these concepts but for which the linkage and impact must be inferred.",
+  "sources": "National Center for Science and Engineering Statistics; SRI International. Science and Engineering Indicators"
+}

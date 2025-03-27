@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Labor market indicators for S&E and S&E-related degree recipients earning their highest degree between 2015 and 2021, by level and field of highest degree: 2021",
+  "identifier": "NCSES-10995",
+  "description": "Labor market indicators for S&E and S&E-related degree recipients earning their highest degree between 2015 and 2021, by level and field of highest degree: 2021",
+  "url": "https://example.org/datasets/ncses/tables/10995",
+  "table_number": "LBR-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10995/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "indicator_and_highest_degree_level",
+      "description": "Indicator and highest degree level hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "indicator_and_highest_degree_level_level_1, indicator_and_highest_degree_level_level_2, indicator_and_highest_degree_level_level_3, indicator_and_highest_degree_level_level_4, indicator_and_highest_degree_level_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "indicator_and_highest_degree_level_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_s_e_and_s_e_related_fields",
+      "description": "All S E And S E Related Fields",
+      "valueType": "string",
+      "unitText": "Number, percent, and 2021 dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_all_s_e_fields",
+      "description": "S E Fields All S E Fields",
+      "valueType": "string",
+      "unitText": "Number, percent, and 2021 dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_biological_agricultural_and_environmental_life_sciences",
+      "description": "S E Fields Biological Agricultural And Environmental Life Sciences",
+      "valueType": "string",
+      "unitText": "Number, percent, and 2021 dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_computer_and_mathematical_sciences",
+      "description": "S E Fields Computer And Mathematical Sciences",
+      "valueType": "string",
+      "unitText": "Number, percent, and 2021 dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_physical_sciences",
+      "description": "S E Fields Physical Sciences",
+      "valueType": "string",
+      "unitText": "Number, percent, and 2021 dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_social_sciences",
+      "description": "S E Fields Social Sciences",
+      "valueType": "string",
+      "unitText": "Number, percent, and 2021 dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_fields_engineering",
+      "description": "S E Fields Engineering",
+      "valueType": "string",
+      "unitText": "Number, percent, and 2021 dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related_fields",
+      "description": "S E Related Fields",
+      "valueType": "string",
+      "unitText": "Number, percent, and 2021 dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data include the civilian, non-institutionalized population ages 16\u201375. Data include highest degrees earned between January 2015 and February 2021. The out-of-field rate and involuntarily out-of-field rate are for employed individuals only. The involuntarily out-of-field rate is the proportion of all employed individuals who report that their job is not related to their field of highest degree because a job in their highest degree field was not available. Median annual earnings are rounded to the nearest $1,000. Numbers and percentages may not sum due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates (NSCG), Public-Use File, 2021.Science and Engineering Indicators"
+}

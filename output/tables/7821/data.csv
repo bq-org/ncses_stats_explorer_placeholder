@@ -1,0 +1,352 @@
+table_id,row_id,time_period,broad_field_level_1,broad_field_level_2,broad_field_hierarchy_depth,value
+7821,r001_1,1,Broad field,Label,2,S&E fields
+7821,r001_2,1,Major field,Code,2,1
+7821,r001_3,1,Major field,Label,2,Computer and mathematical sciences
+7821,r001_4,1,Minor field,Code,2,11
+7821,r001_5,1,Minor field,Label,2,Computer and information sciences
+7821,r001_6,1,Detailed field,Code,2,116710
+7821,r001_7,1,Detailed field,Label,2,Computer and information sciences
+7821,r002_6,,Detailed field,Code,2,116730
+7821,r002_7,,Detailed field,Label,2,Computer science
+7821,r003_6,,Detailed field,Code,2,116740
+7821,r003_7,,Detailed field,Label,2,Computer systems analysis
+7821,r004_6,,Detailed field,Code,2,116760
+7821,r004_7,,Detailed field,Label,2,Information services and systems
+7821,r005_6,,Detailed field,Code,2,116770
+7821,r005_7,,Detailed field,Label,2,Other computer and information sciences
+7821,r006_4,,Minor field,Code,2,12
+7821,r006_5,,Minor field,Label,2,Mathematics and statistics
+7821,r006_6,,Detailed field,Code,2,128410
+7821,r006_7,,Detailed field,Label,2,Applied mathematics
+7821,r007_6,,Detailed field,Code,2,128420
+7821,r007_7,,Detailed field,Label,2,"Mathematics, general"
+7821,r008_6,,Detailed field,Code,2,128430
+7821,r008_7,,Detailed field,Label,2,Operations research
+7821,r009_6,,Detailed field,Code,2,128440
+7821,r009_7,,Detailed field,Label,2,Statistics
+7821,r010_6,,Detailed field,Code,2,128450
+7821,r010_7,,Detailed field,Label,2,Other mathematics
+7821,r011_2,,Major field,Code,2,2
+7821,r011_3,,Major field,Label,2,"Biological, agricultural, and environmental life sciences"
+7821,r011_4,,Minor field,Code,2,21
+7821,r011_5,,Minor field,Label,2,Agricultural and food sciences
+7821,r011_6,,Detailed field,Code,2,216050
+7821,r011_7,,Detailed field,Label,2,Animal sciences
+7821,r012_6,,Detailed field,Code,2,216060
+7821,r012_7,,Detailed field,Label,2,Food sciences and technology
+7821,r013_6,,Detailed field,Code,2,216070
+7821,r013_7,,Detailed field,Label,2,Plant sciences
+7821,r014_6,,Detailed field,Code,2,216080
+7821,r014_7,,Detailed field,Label,2,Other agricultural sciences
+7821,r015_4,,Minor field,Code,2,22
+7821,r015_5,,Minor field,Label,2,Biological sciences
+7821,r015_6,,Detailed field,Code,2,226310
+7821,r015_7,,Detailed field,Label,2,Biochemistry and biophysics
+7821,r016_6,,Detailed field,Code,2,226320
+7821,r016_7,,Detailed field,Label,2,"Biology, general"
+7821,r017_6,,Detailed field,Code,2,226330
+7821,r017_7,,Detailed field,Label,2,Botany
+7821,r018_6,,Detailed field,Code,2,226340
+7821,r018_7,,Detailed field,Label,2,Cell and molecular biology
+7821,r019_6,,Detailed field,Code,2,226350
+7821,r019_7,,Detailed field,Label,2,Ecology
+7821,r020_6,,Detailed field,Code,2,226360
+7821,r020_7,,Detailed field,Label,2,"Genetics, animal and plant"
+7821,r021_6,,Detailed field,Code,2,226370
+7821,r021_7,,Detailed field,Label,2,Microbiological sciences and immunology
+7821,r022_6,,Detailed field,Code,2,226380
+7821,r022_7,,Detailed field,Label,2,Nutritional sciences
+7821,r023_6,,Detailed field,Code,2,226390
+7821,r023_7,,Detailed field,Label,2,"Pharmacology, human and animal"
+7821,r024_6,,Detailed field,Code,2,226400
+7821,r024_7,,Detailed field,Label,2,"Physiology and pathology, human and animal"
+7821,r025_6,,Detailed field,Code,2,226410
+7821,r025_7,,Detailed field,Label,2,"Zoology, general"
+7821,r026_6,,Detailed field,Code,2,226420
+7821,r026_7,,Detailed field,Label,2,Other biological sciences
+7821,r027_4,,Minor field,Code,2,23
+7821,r027_5,,Minor field,Label,2,Environmental life sciences
+7821,r027_6,,Detailed field,Code,2,236800
+7821,r027_7,,Detailed field,Label,2,Environmental science or studies
+7821,r028_6,,Detailed field,Code,2,236810
+7821,r028_7,,Detailed field,Label,2,Forestry sciences
+7821,r029_2,,Major field,Code,2,3
+7821,r029_3,,Major field,Label,2,Physical and related sciences
+7821,r029_4,,Minor field,Code,2,31
+7821,r029_5,,Minor field,Label,2,"Chemistry, except biochemistry"
+7821,r029_6,,Detailed field,Code,2,318730
+7821,r029_7,,Detailed field,Label,2,"Chemistry, except biochemistry"
+7821,r030_4,,Minor field,Code,2,32
+7821,r030_5,,Minor field,Label,2,"Earth, atmospheric, and ocean sciences"
+7821,r030_6,,Detailed field,Code,2,328720
+7821,r030_7,,Detailed field,Label,2,Atmospheric sciences and meteorology
+7821,r031_6,,Detailed field,Code,2,328740
+7821,r031_7,,Detailed field,Label,2,Earth sciences
+7821,r032_6,,Detailed field,Code,2,328750
+7821,r032_7,,Detailed field,Label,2,Geology
+7821,r033_6,,Detailed field,Code,2,328760
+7821,r033_7,,Detailed field,Label,2,"Geological sciences, other (including oceanography)a"
+7821,r034_4,,Minor field,Code,2,33
+7821,r034_5,,Minor field,Label,2,Physics and astronomy
+7821,r034_6,,Detailed field,Code,2,338710
+7821,r034_7,,Detailed field,Label,2,Astronomy and astrophysics
+7821,r035_6,,Detailed field,Code,2,338780
+7821,r035_7,,Detailed field,Label,2,Physics
+7821,r036_4,,Minor field,Code,2,34
+7821,r036_5,,Minor field,Label,2,Other physical sciences
+7821,r036_6,,Detailed field,Code,2,348790
+7821,r036_7,,Detailed field,Label,2,Other physical sciences
+7821,r037_2,,Major field,Code,2,4
+7821,r037_3,,Major field,Label,2,Social and related sciences
+7821,r037_4,,Minor field,Code,2,41
+7821,r037_5,,Minor field,Label,2,Economics
+7821,r037_6,,Detailed field,Code,2,416010
+7821,r037_7,,Detailed field,Label,2,Agricultural economics
+7821,r038_6,,Detailed field,Code,2,419230
+7821,r038_7,,Detailed field,Label,2,Economics
+7821,r039_4,,Minor field,Code,2,42
+7821,r039_5,,Minor field,Label,2,Political and related sciences
+7821,r039_6,,Detailed field,Code,2,429020
+7821,r039_7,,Detailed field,Label,2,Public policy studies
+7821,r040_6,,Detailed field,Code,2,429270
+7821,r040_7,,Detailed field,Label,2,International relations
+7821,r041_6,,Detailed field,Code,2,429280
+7821,r041_7,,Detailed field,Label,2,Political science and government
+7821,r042_4,,Minor field,Code,2,43
+7821,r042_5,,Minor field,Label,2,Psychology
+7821,r042_6,,Detailed field,Code,2,437040
+7821,r042_7,,Detailed field,Label,2,Educational psychology
+7821,r043_6,,Detailed field,Code,2,438910
+7821,r043_7,,Detailed field,Label,2,Clinical psychology
+7821,r044_6,,Detailed field,Code,2,438920
+7821,r044_7,,Detailed field,Label,2,Counseling psychology
+7821,r045_6,,Detailed field,Code,2,438930
+7821,r045_7,,Detailed field,Label,2,Experimental psychology
+7821,r046_6,,Detailed field,Code,2,438940
+7821,r046_7,,Detailed field,Label,2,General psychology
+7821,r047_6,,Detailed field,Code,2,438950
+7821,r047_7,,Detailed field,Label,2,Industrial/ organizational psychology
+7821,r048_6,,Detailed field,Code,2,438960
+7821,r048_7,,Detailed field,Label,2,Social psychology
+7821,r049_6,,Detailed field,Code,2,438970
+7821,r049_7,,Detailed field,Label,2,Other psychology
+7821,r050_4,,Minor field,Code,2,44
+7821,r050_5,,Minor field,Label,2,Sociology and anthropology
+7821,r050_6,,Detailed field,Code,2,449210
+7821,r050_7,,Detailed field,Label,2,Anthropology and archaeology
+7821,r051_6,,Detailed field,Code,2,449220
+7821,r051_7,,Detailed field,Label,2,Criminology
+7821,r052_6,,Detailed field,Code,2,449290
+7821,r052_7,,Detailed field,Label,2,Sociology
+7821,r053_4,,Minor field,Code,2,45
+7821,r053_5,,Minor field,Label,2,Other social sciences
+7821,r053_6,,Detailed field,Code,2,456200
+7821,r053_7,,Detailed field,Label,2,Area and ethnic studies
+7821,r054_6,,Detailed field,Code,2,457710
+7821,r054_7,,Detailed field,Label,2,Linguistics
+7821,r055_6,,Detailed field,Code,2,458610
+7821,r055_7,,Detailed field,Label,2,Philosophy of science
+7821,r056_6,,Detailed field,Code,2,459240
+7821,r056_7,,Detailed field,Label,2,Geography
+7821,r057_6,,Detailed field,Code,2,459300
+7821,r057_7,,Detailed field,Label,2,"Other social sciences, including history of scienceb"
+7821,r058_2,,Major field,Code,2,5
+7821,r058_3,,Major field,Label,2,Engineering
+7821,r058_4,,Minor field,Code,2,51
+7821,r058_5,,Minor field,Label,2,"Aerospace, aeronautical, and astronautical engineering"
+7821,r058_6,,Detailed field,Code,2,517210
+7821,r058_7,,Detailed field,Label,2,"Aerospace, aeronautical, and astronautical/ space engineering"
+7821,r059_4,,Minor field,Code,2,52
+7821,r059_5,,Minor field,Label,2,Chemical engineering
+7821,r059_6,,Detailed field,Code,2,527250
+7821,r059_7,,Detailed field,Label,2,Chemical engineering
+7821,r060_4,,Minor field,Code,2,53
+7821,r060_5,,Minor field,Label,2,Civil and architectural engineering
+7821,r060_6,,Detailed field,Code,2,537230
+7821,r060_7,,Detailed field,Label,2,Architectural engineering
+7821,r061_6,,Detailed field,Code,2,537260
+7821,r061_7,,Detailed field,Label,2,Civil engineering
+7821,r062_4,,Minor field,Code,2,54
+7821,r062_5,,Minor field,Label,2,Electrical and computer engineering
+7821,r062_6,,Detailed field,Code,2,547270
+7821,r062_7,,Detailed field,Label,2,Computer and systems engineering
+7821,r063_6,,Detailed field,Code,2,547280
+7821,r063_7,,Detailed field,Label,2,"Electrical, electronics, and communications engineering"
+7821,r064_4,,Minor field,Code,2,55
+7821,r064_5,,Minor field,Label,2,Industrial engineering
+7821,r064_6,,Detailed field,Code,2,557330
+7821,r064_7,,Detailed field,Label,2,Industrial and manufacturing engineering
+7821,r065_4,,Minor field,Code,2,56
+7821,r065_5,,Minor field,Label,2,Mechanical engineering
+7821,r065_6,,Detailed field,Code,2,567350
+7821,r065_7,,Detailed field,Label,2,Mechanical engineering
+7821,r066_4,,Minor field,Code,2,57
+7821,r066_5,,Minor field,Label,2,Other engineering
+7821,r066_6,,Detailed field,Code,2,577220
+7821,r066_7,,Detailed field,Label,2,Agricultural engineering
+7821,r067_6,,Detailed field,Code,2,577240
+7821,r067_7,,Detailed field,Label,2,Bioengineering and biomedical engineering
+7821,r068_6,,Detailed field,Code,2,577290
+7821,r068_7,,Detailed field,Label,2,"Engineering sciences, mechanics and physics"
+7821,r069_6,,Detailed field,Code,2,577300
+7821,r069_7,,Detailed field,Label,2,Environmental engineering
+7821,r070_6,,Detailed field,Code,2,577310
+7821,r070_7,,Detailed field,Label,2,"Engineering, general"
+7821,r071_6,,Detailed field,Code,2,577340
+7821,r071_7,,Detailed field,Label,2,"Materials engineering, including ceramics and textiles"
+7821,r072_6,,Detailed field,Code,2,577360
+7821,r072_7,,Detailed field,Label,2,Metallurgical engineering
+7821,r073_6,,Detailed field,Code,2,577390
+7821,r073_7,,Detailed field,Label,2,Nuclear engineering
+7821,r074_6,,Detailed field,Code,2,577410
+7821,r074_7,,Detailed field,Label,2,"Other engineering, including geophysical, geological, mining, mineral, naval architecture, marine, and petroleumc"
+7821,r075_1,2,Broad field,Label,2,S&E-related fields
+7821,r075_2,2,Major field,Code,2,6
+7821,r075_3,2,Major field,Label,2,S&E-related fields
+7821,r075_4,2,Minor field,Code,2,61
+7821,r075_5,2,Minor field,Label,2,Health
+7821,r075_6,2,Detailed field,Code,2,617810
+7821,r075_7,2,Detailed field,Label,2,Audiology and speech pathology
+7821,r076_6,,Detailed field,Code,2,617820
+7821,r076_7,,Detailed field,Label,2,Health services administration
+7821,r077_6,,Detailed field,Code,2,617830
+7821,r077_7,,Detailed field,Label,2,Health/ medical assistants
+7821,r078_6,,Detailed field,Code,2,617840
+7821,r078_7,,Detailed field,Label,2,Health/ medical technologies
+7821,r079_6,,Detailed field,Code,2,617850
+7821,r079_7,,Detailed field,Label,2,"Medical preparatory programs (e.g., pre-dentistry, pre-medical, pre-veterinary)"
+7821,r080_6,,Detailed field,Code,2,617860
+7821,r080_7,,Detailed field,Label,2,"Medicine (dentistry, optometry, osteopathic, podiatry, veterinary)"
+7821,r081_6,,Detailed field,Code,2,617870
+7821,r081_7,,Detailed field,Label,2,Nursing (4 years or longer program)
+7821,r082_6,,Detailed field,Code,2,617880
+7821,r082_7,,Detailed field,Label,2,Pharmacy
+7821,r083_6,,Detailed field,Code,2,617890
+7821,r083_7,,Detailed field,Label,2,Physical therapy and other rehabilitation/ therapeutic services
+7821,r084_6,,Detailed field,Code,2,617900
+7821,r084_7,,Detailed field,Label,2,Public health (including environmental health and epidemiology)
+7821,r085_6,,Detailed field,Code,2,617910
+7821,r085_7,,Detailed field,Label,2,Other health/ medical sciences
+7821,r086_4,,Minor field,Code,2,62
+7821,r086_5,,Minor field,Label,2,Science and mathematics teacher education
+7821,r086_6,,Detailed field,Code,2,627020
+7821,r086_7,,Detailed field,Label,2,Computer teacher education
+7821,r087_6,,Detailed field,Code,2,627060
+7821,r087_7,,Detailed field,Label,2,Mathematics teacher education
+7821,r088_6,,Detailed field,Code,2,627090
+7821,r088_7,,Detailed field,Label,2,Science teacher education
+7821,r089_6,,Detailed field,Code,2,627120
+7821,r089_7,,Detailed field,Label,2,Social science teacher education
+7821,r090_4,,Minor field,Code,2,63
+7821,r090_5,,Minor field,Label,2,Technology and technical fields
+7821,r090_6,,Detailed field,Code,2,636720
+7821,r090_7,,Detailed field,Label,2,Computer programming
+7821,r091_6,,Detailed field,Code,2,636750
+7821,r091_7,,Detailed field,Label,2,Data processing
+7821,r092_6,,Detailed field,Code,2,637510
+7821,r092_7,,Detailed field,Label,2,Electrical and electronic technologies
+7821,r093_6,,Detailed field,Code,2,637520
+7821,r093_7,,Detailed field,Label,2,Industrial production technologies
+7821,r094_6,,Detailed field,Code,2,637530
+7821,r094_7,,Detailed field,Label,2,Mechanical engineering-related technologies
+7821,r095_6,,Detailed field,Code,2,637540
+7821,r095_7,,Detailed field,Label,2,Other engineering-related technologies
+7821,r096_4,,Minor field,Code,2,64
+7821,r096_5,,Minor field,Label,2,Other science and engineering-related fields
+7821,r096_6,,Detailed field,Code,2,646100
+7821,r096_7,,Detailed field,Label,2,Architecture/ environmental design
+7821,r097_6,,Detailed field,Code,2,646520
+7821,r097_7,,Detailed field,Label,2,Actuarial science
+7821,r098_1,3,Broad field,Label,2,Non-S&E fields
+7821,r098_2,3,Major field,Code,2,7
+7821,r098_3,3,Major field,Label,2,Non-S&E fields
+7821,r098_4,3,Minor field,Code,2,71
+7821,r098_5,3,Minor field,Label,2,Management and administration fields
+7821,r098_6,3,Detailed field,Code,2,716020
+7821,r098_7,3,Detailed field,Label,2,Other agricultural business and production
+7821,r099_6,,Detailed field,Code,2,716510
+7821,r099_7,,Detailed field,Label,2,Accounting
+7821,r100_6,,Detailed field,Code,2,716530
+7821,r100_7,,Detailed field,Label,2,Business administration and management
+7821,r101_6,,Detailed field,Code,2,716540
+7821,r101_7,,Detailed field,Label,2,"Business, general"
+7821,r102_6,,Detailed field,Code,2,716550
+7821,r102_7,,Detailed field,Label,2,Business and managerial economics
+7821,r103_6,,Detailed field,Code,2,716570
+7821,r103_7,,Detailed field,Label,2,Financial management
+7821,r104_6,,Detailed field,Code,2,716590
+7821,r104_7,,Detailed field,Label,2,Other business management/ administrative services
+7821,r105_4,,Minor field,Code,2,72
+7821,r105_5,,Minor field,Label,2,"Education, except science and math teacher education"
+7821,r105_6,,Detailed field,Code,2,727010
+7821,r105_7,,Detailed field,Label,2,Education administration
+7821,r106_6,,Detailed field,Code,2,727030
+7821,r106_7,,Detailed field,Label,2,Counselor education and guidance services
+7821,r107_6,,Detailed field,Code,2,727050
+7821,r107_7,,Detailed field,Label,2,Elementary teacher education
+7821,r108_6,,Detailed field,Code,2,727070
+7821,r108_7,,Detailed field,Label,2,Physical education and coaching
+7821,r109_6,,Detailed field,Code,2,727080
+7821,r109_7,,Detailed field,Label,2,Pre-school/ kindergarten/ early childhood teacher education
+7821,r110_6,,Detailed field,Code,2,727100
+7821,r110_7,,Detailed field,Label,2,Secondary teacher education
+7821,r111_6,,Detailed field,Code,2,727110
+7821,r111_7,,Detailed field,Label,2,Special education
+7821,r112_6,,Detailed field,Code,2,727130
+7821,r112_7,,Detailed field,Label,2,Other education
+7821,r113_4,,Minor field,Code,2,73
+7821,r113_5,,Minor field,Label,2,Social service and related fields
+7821,r113_6,,Detailed field,Code,2,738620
+7821,r113_7,,Detailed field,Label,2,"Other philosophy, religion, theology"
+7821,r114_6,,Detailed field,Code,2,739100
+7821,r114_7,,Detailed field,Label,2,Social work
+7821,r115_4,,Minor field,Code,2,74
+7821,r115_5,,Minor field,Label,2,Sales and marketing fields
+7821,r115_6,,Detailed field,Code,2,746560
+7821,r115_7,,Detailed field,Label,2,Business marketing/ marketing management
+7821,r116_6,,Detailed field,Code,2,746580
+7821,r116_7,,Detailed field,Label,2,Marketing research
+7821,r117_4,,Minor field,Code,2,75
+7821,r117_5,,Minor field,Label,2,Art and humanities fields
+7821,r117_6,,Detailed field,Code,2,757600
+7821,r117_7,,Detailed field,Label,2,"English language, literature and letters"
+7821,r118_6,,Detailed field,Code,2,757720
+7821,r118_7,,Detailed field,Label,2,Other foreign languages and literature
+7821,r119_6,,Detailed field,Code,2,758200
+7821,r119_7,,Detailed field,Label,2,Liberal arts/ general studies
+7821,r120_6,,Detailed field,Code,2,759260
+7821,r120_7,,Detailed field,Label,2,"History, other"
+7821,r121_6,,Detailed field,Code,2,759410
+7821,r121_7,,Detailed field,Label,2,Dramatic arts
+7821,r122_6,,Detailed field,Code,2,759420
+7821,r122_7,,Detailed field,Label,2,"Fine arts, all fields"
+7821,r123_6,,Detailed field,Code,2,759430
+7821,r123_7,,Detailed field,Label,2,"Music, all fields"
+7821,r124_6,,Detailed field,Code,2,759440
+7821,r124_7,,Detailed field,Label,2,Other visual and performing arts
+7821,r125_4,,Minor field,Code,2,76
+7821,r125_5,,Minor field,Label,2,Other non-S&E fields
+7821,r125_6,,Detailed field,Code,2,766610
+7821,r125_7,,Detailed field,Label,2,"Communications, general"
+7821,r126_6,,Detailed field,Code,2,766620
+7821,r126_7,,Detailed field,Label,2,Journalism
+7821,r127_6,,Detailed field,Code,2,766630
+7821,r127_7,,Detailed field,Label,2,Other communications
+7821,r128_6,,Detailed field,Code,2,766820
+7821,r128_7,,Detailed field,Label,2,Other natural resources and conservation
+7821,r129_6,,Detailed field,Code,2,766900
+7821,r129_7,,Detailed field,Label,2,Criminal justice/ protective services
+7821,r130_6,,Detailed field,Code,2,768000
+7821,r130_7,,Detailed field,Label,2,Home economics
+7821,r131_6,,Detailed field,Code,2,768100
+7821,r131_7,,Detailed field,Label,2,Law/ prelaw/ legal studies
+7821,r132_6,,Detailed field,Code,2,768300
+7821,r132_7,,Detailed field,Label,2,Library science
+7821,r133_6,,Detailed field,Code,2,768500
+7821,r133_7,,Detailed field,Label,2,"Parks, recreation, leisure, and fitness studies"
+7821,r134_6,,Detailed field,Code,2,769010
+7821,r134_7,,Detailed field,Label,2,Public administration
+7821,r135_6,,Detailed field,Code,2,769030
+7821,r135_7,,Detailed field,Label,2,Other public affairs
+7821,r136_6,,Detailed field,Code,2,769950
+7821,r136_7,,Detailed field,Label,2,Other fields (not listed)

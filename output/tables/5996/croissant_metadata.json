@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Top 50 U.S. baccalaureate-origin institutions of non-S&E doctorate recipients, by institutional-yield ratio, institutional control, and 2018 Carnegie Classification: 2010\u201320",
+  "identifier": "NCSES-5996",
+  "description": "Top 50 U.S. baccalaureate-origin institutions of non-S&E doctorate recipients, by institutional-yield ratio, institutional control, and 2018 Carnegie Classification: 2010\u201320",
+  "url": "https://example.org/datasets/ncses/tables/5996",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5996/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number and ratio"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutional-yield ratio is the number of S&E doctorate recipients per 100 bachelor's degrees awarded in all fields 9 years earlier. Only institutions from which 50 or more baccalaureate recipients received S&E doctorate degrees between 2010 and 2020 were included in the analysis. Institutions are ranked on unrounded ratios. Institutions with the same number of doctorate recipients are listed alphabetically. R1: doctoral universities are institutions with very high research activity and R2: doctoral universities are institutions with high research activity.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates; Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System, Completions Survey."
+}

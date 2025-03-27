@@ -1,0 +1,23 @@
+table_id,row_id,select_characteristics_full_path,select_characteristics_level_1,select_characteristics_level_2,select_characteristics_level_3,select_characteristics_hierarchy_depth,field_nonveteran,field_veteran
+10997,r001,Employment,Employment,,,1,,
+10997,r002,Number,Number,,,1,179242246,9170862
+10997,r003,Number -> Employment rate (%),Number,Employment rate (%),,2,81.1,76.5
+10997,r004,Number of employed,Number of employed,,,1,145350651,7016924
+10997,r005,Number of employed -> Percent working in STEM occupations,Number of employed,Percent working in STEM occupations,,2,23.8,32.2
+10997,r006,Educational attainment among the employed (%),Educational attainment among the employed (%),,,1,,
+10997,r007,With a bachelor's degree or higher,With a bachelor's degree or higher,,,1,39.0,35.4
+10997,r008,With a bachelor's degree or higher -> STEM occupations,With a bachelor's degree or higher,STEM occupations,,2,29.5,33.1
+10997,r009,With a bachelor's degree or higher -> STEM occupations -> S&E occupations,With a bachelor's degree or higher,STEM occupations,S&E occupations,3,12.2,15.5
+10997,r010,With a bachelor's degree or higher -> STEM occupations -> S&E-related occupations,With a bachelor's degree or higher,STEM occupations,S&E-related occupations,3,14.4,12.6
+10997,r011,With a bachelor's degree or higher -> STEM occupations -> STEM middle-skill occupations,With a bachelor's degree or higher,STEM occupations,STEM middle-skill occupations,3,2.9,5.0
+10997,r012,Without a bachelor's degree,Without a bachelor's degree,,,1,61.0,64.6
+10997,r013,Without a bachelor's degree -> STEM occupations,Without a bachelor's degree,STEM occupations,,2,20.1,31.7
+10997,r014,Without a bachelor's degree -> STEM occupations -> S&E occupations,Without a bachelor's degree,STEM occupations,S&E occupations,3,2.1,5.3
+10997,r015,Without a bachelor's degree -> STEM occupations -> S&E-related occupations,Without a bachelor's degree,STEM occupations,S&E-related occupations,3,5.4,5.9
+10997,r016,Without a bachelor's degree -> STEM occupations -> STEM middle-skill occupations,Without a bachelor's degree,STEM occupations,STEM middle-skill occupations,3,12.6,20.5
+10997,r017,Median age of the employed (years),Median age of the employed (years),,,1,,
+10997,r018,All occupations,All occupations,,,1,41,51
+10997,r019,All occupations -> STEM occupations,All occupations,STEM occupations,,2,40,50
+10997,r020,All occupations -> STEM occupations -> S&E occupations,All occupations,STEM occupations,S&E occupations,3,39,49
+10997,r021,All occupations -> STEM occupations -> S&E-related occupations,All occupations,STEM occupations,S&E-related occupations,3,41,50
+10997,r022,All occupations -> STEM occupations -> STEM middle-skill occupations,All occupations,STEM occupations,STEM middle-skill occupations,3,41,50

@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Annual salaries in science, technology, and related occupations: May 2014&#8211;May 2017",
+  "identifier": "NCSES-1591",
+  "description": "Annual salaries in science, technology, and related occupations: May 2014&#8211;May 2017",
+  "url": "https://example.org/datasets/ncses/tables/1591",
+  "table_number": "3-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1591/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2, occupation_level_3, occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mean_annual_salaries_in_2014",
+      "description": "Mean Annual Salaries In 2014",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mean_annual_salaries_in_2017",
+      "description": "Mean Annual Salaries In 2017",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mean_compound_annual_growth_rate_2014_17_",
+      "description": "Mean Compound Annual Growth Rate 2014 17 ",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_annual_salaries_in_2014",
+      "description": "Median Annual Salaries In 2014",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_annual_salaries_in_2017",
+      "description": "Median Annual Salaries In 2017",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_compound_annual_growth_rate_2014_17_",
+      "description": "Median Compound Annual Growth Rate 2014 17 ",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Occupational Employment Statistics (OES) Survey employment data do not cover employment in some sectors of the agriculture, forestry, fishing, and hunting industry; in private households; or among self-employed individuals. As a result, the data do not represent total U.S. employment.",
+  "sources": "Bureau of Labor Statistics, special tabulations (2015 and 2018) of the May 2014 and May 2017 OES Survey.Science and Engineering Indicators"
+}

@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Correct answers to individual factual knowledge questions, by respondent characteristic: 2018",
+  "identifier": "NCSES-2282",
+  "description": "Correct answers to individual factual knowledge questions, by respondent characteristic: 2018",
+  "url": "https://example.org/datasets/ncses/tables/2282",
+  "table_number": "S7-27",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2282/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_the_center_of_the_earth_is_very_hot_true_",
+      "description": "The Center Of The Earth Is Very Hot True ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_the_continents_have_been_moving_their_location_for_millions_of_years_and_will_continue_to_move_true_",
+      "description": "The Continents Have Been Moving Their Location For Millions Of Years And Will Continue To Move True ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_does_the_earth_go_around_the_sun_or_does_the_sun_go_around_the_earth_earth_around_sun_",
+      "description": "Does The Earth Go Around The Sun Or Does The Sun Go Around The Earth Earth Around Sun ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_radioactivity_is_man_made_false_",
+      "description": "All Radioactivity Is Man Made False ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_it_is_the_father_s_gene_that_decides_whether_the_baby_is_a_boy_or_a_girl_true_",
+      "description": "It Is The Father S Gene That Decides Whether The Baby Is A Boy Or A Girl True ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_how_long_does_it_take_for_the_earth_to_go_around_the_sun_one_day_one_month_or_one_year_one_year_a",
+      "description": "How Long Does It Take For The Earth To Go Around The Sun One Day One Month Or One Year One Year A",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_antibiotics_kill_viruses_as_well_as_bacteria_false_",
+      "description": "Antibiotics Kill Viruses As Well As Bacteria False ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_human_beings_as_we_know_them_today_developed_from_earlier_species_of_animals_true_b_",
+      "description": "Human Beings As We Know Them Today Developed From Earlier Species Of Animals True B ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_electrons_are_smaller_than_atoms_true_",
+      "description": "Electrons Are Smaller Than Atoms True ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_lasers_work_by_focusing_sound_waves_false_",
+      "description": "Lasers Work By Focusing Sound Waves False ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_the_universe_began_with_a_huge_explosion_true_c_",
+      "description": "The Universe Began With A Huge Explosion True C ",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Responses of \"don't know\" and refusals to respond are counted as incorrect and are not shown.",
+  "sources": "NORC at the University of Chicago, General Social Survey (2018).Science and Engineering Indicators"
+}

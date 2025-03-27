@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate recipients earning professional doctoral degrees: 2019",
+  "identifier": "NCSES-2786",
+  "description": "Doctorate recipients earning professional doctoral degrees: 2019",
+  "url": "https://example.org/datasets/ncses/tables/2786",
+  "table_number": "B",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2786/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "professional_doctoral_degrees",
+      "description": "Professional Doctoral Degrees",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "number",
+      "description": "Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "percent",
+      "description": "Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Percentages are based on the number of doctorate recipients who responded to the item on the professional doctorate degrees.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2019."
+}

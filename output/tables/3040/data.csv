@@ -1,0 +1,7 @@
+table_id,row_id,type_of_institution_full_path,type_of_institution_level_1,type_of_institution_level_2,type_of_institution_level_3,type_of_institution_hierarchy_depth,field_all_institutions,field_institutions_with_repair_and_renovation_projects_number,field_institutions_with_repair_and_renovation_projects_percent,field_institutions_with_new_construction_projects_number,field_institutions_with_new_construction_projects_percent
+3040,r001,All institutions,All institutions,,,1,590,312,53,155,26
+3040,r002,All institutions -> Doctorate granting,All institutions,Doctorate granting,,2,447,277,62,132,30
+3040,r003,All institutions -> Doctorate granting -> Public,All institutions,Doctorate granting,Public,3,306,190,62,106,35
+3040,r004,All institutions -> Doctorate granting -> Private,All institutions,Doctorate granting,Private,3,141,87,62,26,18
+3040,r005,All institutions -> Nondoctorate granting,All institutions,Nondoctorate granting,,2,143,35,24,23,16
+3040,r006,All institutions -> Medical schools<sup>a</sup>,All institutions,Medical schools<sup>a</sup>,,2,157,92,59,14,9

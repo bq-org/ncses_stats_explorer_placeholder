@@ -1,0 +1,96 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_level_3,characteristic_hierarchy_depth,field_1979_n_1_635_,field_1983_n_1_615_,field_1985_n_1_986_,field_1988_n_2_041_,field_1990_n_2_005_,field_1992_n_1_995_,field_1995_n_2_006_,field_1997_n_2_000_,field_1999_n_1_882_,field_2001_n_1_574_,field_2004_n_2_025_,field_2006_n_1_864_,field_2008_n_2_021_,field_2010_n_1_434_,field_2012_n_2_256_,field_2014_n_2_130_,field_2016_n_1_390_,field_2018_n_1_175_
+2287,r001,All adults,All adults,,,1,,,,,,,,,,,,,,,,,,
+2287,r002,All adults -> Very scientific,All adults,Very scientific,,2,8,10,8,6,6,7,7,7,7,9,6,5,5,6,10,6,8,6
+2287,r003,All adults -> Sort of scientific,All adults,Sort of scientific,,2,34,35,31,31,29,29,28,29,29,31,26,26,28,28,32,26,29,33
+2287,r004,All adults -> Not at all scientific,All adults,Not at all scientific,,2,50,51,57,60,60,62,60,59,59,56,66,65,63,62,55,65,60,58
+2287,r005,All adults -> Don't know,All adults,Don't know,,2,9,4,4,3,5,3,5,5,5,4,3,4,4,3,4,3,3,4
+2287,r006,Sex,Sex,,,1,,,,,,,,,,,,,,,,,,
+2287,r007,Sex -> Male,Sex,Male,,2,,,,,,,,,,,,,,,,,,
+2287,r008,Sex -> Male -> Very scientific,Sex,Male,Very scientific,3,7,9,7,5,5,6,7,7,7,9,5,5,5,7,10,5,8,5
+2287,r009,Sex -> Male -> Sort of scientific,Sex,Male,Sort of scientific,3,30,29,29,25,23,25,24,27,25,27,21,23,28,24,27,25,26,26
+2287,r010,Sex -> Male -> Not at all scientific,Sex,Male,Not at all scientific,3,54,58,60,67,66,66,65,63,63,60,72,68,64,67,60,69,64,66
+2287,r011,Sex -> Male -> Don't know,Sex,Male,Don't know,3,9,4,3,3,5,2,4,2,5,4,2,4,4,2,3,2,2,3
+2287,r012,Sex -> Female,Sex,Female,,2,,,,,,,,,,,,,,,,,,
+2287,r013,Sex -> Female -> Very scientific,Sex,Female,Very scientific,3,8,10,9,7,6,7,7,7,7,8,6,5,5,6,10,6,9,7
+2287,r014,Sex -> Female -> Sort of scientific,Sex,Female,Sort of scientific,3,37,41,32,36,35,32,32,31,32,36,30,29,28,32,36,28,32,38
+2287,r015,Sex -> Female -> Not at all scientific,Sex,Female,Not at all scientific,3,46,44,55,53,55,58,56,55,56,52,61,63,63,58,50,62,57,52
+2287,r016,Sex -> Female -> Don't know,Sex,Female,Don't know,3,9,5,4,3,5,3,6,7,5,4,3,4,4,4,4,4,3,4
+2287,r017,Formal education,Formal education,,,1,,,,,,,,,,,,,,,,,,
+2287,r018,Formal education -> Less than high school diploma,Formal education,Less than high school diploma,,2,,,,,,,,,,,,,,,,,,
+2287,r019,Formal education -> Less than high school diploma -> Very scientific,Formal education,Less than high school diploma,Very scientific,3,11,13,14,11,7,12,11,11,13,14,10,10,7,10,14,10,16,8
+2287,r020,Formal education -> Less than high school diploma -> Sort of scientific,Formal education,Less than high school diploma,Sort of scientific,3,34,37,38,35,31,34,30,37,34,35,38,41,40,37,42,32,40,40
+2287,r021,Formal education -> Less than high school diploma -> Not at all scientific,Formal education,Less than high school diploma,Not at all scientific,3,39,40,42,50,49,49,46,42,41,45,50,42,42,48,34,51,38,40
+2287,r022,Formal education -> Less than high school diploma -> Don't know,Formal education,Less than high school diploma,Don't know,3,16,10,5,4,12,5,13,10,13,6,2,8,11,4,10,7,5,12
+2287,r023,Formal education -> High school diploma,Formal education,High school diploma,,2,,,,,,,,,,,,,,,,,,
+2287,r024,Formal education -> High school diploma -> Very scientific,Formal education,High school diploma,Very scientific,3,7,10,8,6,6,6,8,7,7,9,7,5,6,7,11,6,10,7
+2287,r025,Formal education -> High school diploma -> Sort of scientific,Formal education,High school diploma,Sort of scientific,3,37,38,29,32,32,31,28,30,30,35,29,29,31,32,33,31,31,36
+2287,r026,Formal education -> High school diploma -> Not at all scientific,Formal education,High school diploma,Not at all scientific,3,50,50,60,59,60,61,61,60,60,52,62,62,61,58,52,60,57,54
+2287,r027,Formal education -> High school diploma -> Don't know,Formal education,High school diploma,Don't know,3,6,2,3,3,2,2,3,4,3,4,2,4,3,3,4,2,3,2
+2287,r028,Formal education -> Bachelor's degree,Formal education,Bachelor's degree,,2,,,,,,,,,,,,,,,,,,
+2287,r029,Formal education -> Bachelor's degree -> Very scientific,Formal education,Bachelor's degree,Very scientific,3,1,3,4,2,4,3,6,2,2,4,2,2,2,3,5,2,2,1
+2287,r030,Formal education -> Bachelor's degree -> Sort of scientific,Formal education,Bachelor's degree,Sort of scientific,3,23,26,25,24,19,19,34,21,20,25,17,16,19,17,25,16,21,25
+2287,r031,Formal education -> Bachelor's degree -> Not at all scientific,Formal education,Bachelor's degree,Not at all scientific,3,67,69,68,72,75,76,60,75,76,69,80,78,79,78,69,80,76,71
+2287,r032,Formal education -> Bachelor's degree -> Don't know,Formal education,Bachelor's degree,Don't know,3,9,3,3,1,2,3,0.05,2,3,2,1,4,1,2,1,2,1,3
+2287,r033,Formal education -> Graduate or professional degree,Formal education,Graduate or professional degree,,2,,,,,,,,,,,,,,,,,,
+2287,r034,Formal education -> Graduate or professional degree -> Very scientific,Formal education,Graduate or professional degree,Very scientific,3,5,5,1,0.05,1,3,2,4,2,3,0.05,0.05,3,2,3,2,2,5
+2287,r035,Formal education -> Graduate or professional degree -> Sort of scientific,Formal education,Graduate or professional degree,Sort of scientific,3,15,23,23,19,17,14,22,15,19,13,16,12,12,16,24,11,23,17
+2287,r036,Formal education -> Graduate or professional degree -> Not at all scientific,Formal education,Graduate or professional degree,Not at all scientific,3,76,69,74,78,80,82,74,78,77,83,83,84,83,79,72,84,73,75
+2287,r037,Formal education -> Graduate or professional degree -> Don't know,Formal education,Graduate or professional degree,Don't know,3,4,3,2,2,2,0.05,2,2,2,0.05,1,4,3,3,1,2,1,2
+2287,r038,Age (years),Age (years),,,1,,,,,,,,,,,,,,,,,,
+2287,r039,Age (years) -> 18&#8211;24,Age (years),18&#8211;24,,2,,,,,,,,,,,,,,,,,,
+2287,r040,Age (years) -> 18&#8211;24 -> Very scientific,Age (years),18&#8211;24,Very scientific,3,9,13,10,10,5,14,9,11,7,17,10,5,5,11,14,10,11,5
+2287,r041,Age (years) -> 18&#8211;24 -> Sort of scientific,Age (years),18&#8211;24,Sort of scientific,3,40,43,39,36,37,37,33,38,40,39,36,34,38,43,44,40,33,52
+2287,r042,Age (years) -> 18&#8211;24 -> Not at all scientific,Age (years),18&#8211;24,Not at all scientific,3,47,42,51,54,56,49,53,50,50,42,52,56,55,46,42,48,54,43
+2287,r043,Age (years) -> 18&#8211;24 -> Don't know,Age (years),18&#8211;24,Don't know,3,4,3,0.05,0,2,1,5,1,3,1,2,5,1,0,1,2,2,0
+2287,r044,Age (years) -> 25&#8211;34,Age (years),25&#8211;34,,2,,,,,,,,,,,,,,,,,,
+2287,r045,Age (years) -> 25&#8211;34 -> Very scientific,Age (years),25&#8211;34,Very scientific,3,7,7,6,6,6,4,9,6,5,10,6,8,6,8,10,6,7,10
+2287,r046,Age (years) -> 25&#8211;34 -> Sort of scientific,Age (years),25&#8211;34,Sort of scientific,3,36,39,32,32,32,33,30,32,30,33,33,28,30,33,35,35,37,39
+2287,r047,Age (years) -> 25&#8211;34 -> Not at all scientific,Age (years),25&#8211;34,Not at all scientific,3,52,51,60,60,61,62,59,59,61,54,60,60,62,58,52,56,53,50
+2287,r048,Age (years) -> 25&#8211;34 -> Don't know,Age (years),25&#8211;34,Don't know,3,4,3,1,1,2,1,2,3,3,3,1,4,2,1,2,2,3,2
+2287,r049,Age (years) -> 35&#8211;44,Age (years),35&#8211;44,,2,,,,,,,,,,,,,,,,,,
+2287,r050,Age (years) -> 35&#8211;44 -> Very scientific,Age (years),35&#8211;44,Very scientific,3,6,11,8,6,5,7,4,4,7,7,4,5,5,8,10,8,9,5
+2287,r051,Age (years) -> 35&#8211;44 -> Sort of scientific,Age (years),35&#8211;44,Sort of scientific,3,37,32,29,31,26,27,32,26,32,32,24,28,31,27,33,26,27,27
+2287,r052,Age (years) -> 35&#8211;44 -> Not at all scientific,Age (years),35&#8211;44,Not at all scientific,3,53,54,61,60,68,64,61,66,59,58,69,65,61,64,51,64,62,63
+2287,r053,Age (years) -> 35&#8211;44 -> Don't know,Age (years),35&#8211;44,Don't know,3,5,3,2,2,1,3,3,4,1,3,2,2,3,1,5,2,2,4
+2287,r054,Age (years) -> 45&#8211;54,Age (years),45&#8211;54,,2,,,,,,,,,,,,,,,,,,
+2287,r055,Age (years) -> 45&#8211;54 -> Very scientific,Age (years),45&#8211;54,Very scientific,3,8,7,5,4,7,6,4,4,5,5,4,3,4,5,10,7,8,4
+2287,r056,Age (years) -> 45&#8211;54 -> Sort of scientific,Age (years),45&#8211;54,Sort of scientific,3,28,40,32,26,25,27,26,28,23,27,18,24,24,23,28,22,28,36
+2287,r057,Age (years) -> 45&#8211;54 -> Not at all scientific,Age (years),45&#8211;54,Not at all scientific,3,54,50,59,66,64,63,67,65,67,66,74,70,68,69,58,69,61,59
+2287,r058,Age (years) -> 45&#8211;54 -> Don't know,Age (years),45&#8211;54,Don't know,3,10,3,5,4,4,4,3,4,5,3,3,3,4,3,4,2,3,2
+2287,r059,Age (years) -> 55&#8211;64,Age (years),55&#8211;64,,2,,,,,,,,,,,,,,,,,,
+2287,r060,Age (years) -> 55&#8211;64 -> Very scientific,Age (years),55&#8211;64,Very scientific,3,10,8,11,5,5,3,8,7,10,6,6,3,4,6,8,2,9,6
+2287,r061,Age (years) -> 55&#8211;64 -> Sort of scientific,Age (years),55&#8211;64,Sort of scientific,3,32,33,24,33,25,18,20,17,27,27,25,24,26,24,31,20,27,27
+2287,r062,Age (years) -> 55&#8211;64 -> Not at all scientific,Age (years),55&#8211;64,Not at all scientific,3,44,56,56,56,59,77,66,69,58,62,66,68,67,65,57,75,62,62
+2287,r063,Age (years) -> 55&#8211;64 -> Don't know,Age (years),55&#8211;64,Don't know,3,15,3,9,5,10,2,6,7,6,5,3,5,4,5,4,3,1,5
+2287,r064,Age (years) -> 65 or older,Age (years),65 or older,,2,,,,,,,,,,,,,,,,,,
+2287,r065,Age (years) -> 65 or older -> Very scientific,Age (years),65 or older,Very scientific,3,5,12,11,6,5,7,10,11,11,6,6,5,5,2,8,5,6,5
+2287,r066,Age (years) -> 65 or older -> Sort of scientific,Age (years),65 or older,Sort of scientific,3,26,24,26,27,29,27,22,31,20,31,26,21,21,24,25,21,24,23
+2287,r067,Age (years) -> 65 or older -> Not at all scientific,Age (years),65 or older,Not at all scientific,3,50,52,55,60,53,60,55,47,57,54,64,68,65,67,62,70,66,65
+2287,r068,Age (years) -> 65 or older -> Don't know,Age (years),65 or older,Don't know,3,19,12,8,6,13,6,12,11,13,9,3,7,9,8,5,4,4,6
+2287,r069,Correct answers to questions about basic scientific facts<sup>a</sup>,Correct answers to questions about basic scientific facts<sup>a</sup>,,,1,,,,,,,,,,,,,,,,,,
+2287,r070,Correct answers to questions about basic scientific facts<sup>a</sup> -> Low,Correct answers to questions about basic scientific facts<sup>a</sup>,Low,,2,,,,,,,,,,,,,,,,,,
+2287,r071,Correct answers to questions about basic scientific facts<sup>a</sup> -> Low -> Very scientific,Correct answers to questions about basic scientific facts<sup>a</sup>,Low,Very scientific,3,na,na,na,na,na,10,8,11,13,10,na,5,6,9,12,8,12,7
+2287,r072,Correct answers to questions about basic scientific facts<sup>a</sup> -> Low -> Sort of scientific,Correct answers to questions about basic scientific facts<sup>a</sup>,Low,Sort of scientific,3,na,na,na,na,na,34,34,31,31,38,na,36,34,32,39,37,30,41
+2287,r073,Correct answers to questions about basic scientific facts<sup>a</sup> -> Low -> Not at all scientific,Correct answers to questions about basic scientific facts<sup>a</sup>,Low,Not at all scientific,3,na,na,na,na,na,50,45,44,38,42,na,50,47,52,35,48,49,43
+2287,r074,Correct answers to questions about basic scientific facts<sup>a</sup> -> Low -> Don't know,Correct answers to questions about basic scientific facts<sup>a</sup>,Low,Don't know,3,na,na,na,na,na,6,14,14,18,10,na,8,13,6,13,7,8,9
+2287,r075,Correct answers to questions about basic scientific facts<sup>a</sup> -> Middle,Correct answers to questions about basic scientific facts<sup>a</sup>,Middle,,2,,,,,,,,,,,,,,,,,,
+2287,r076,Correct answers to questions about basic scientific facts<sup>a</sup> -> Middle -> Very scientific,Correct answers to questions about basic scientific facts<sup>a</sup>,Middle,Very scientific,3,na,na,na,na,na,7,10,8,8,11,na,6,6,9,13,7,10,7
+2287,r077,Correct answers to questions about basic scientific facts<sup>a</sup> -> Middle -> Sort of scientific,Correct answers to questions about basic scientific facts<sup>a</sup>,Middle,Sort of scientific,3,na,na,na,na,na,32,30,33,33,35,na,31,35,33,37,32,34,39
+2287,r078,Correct answers to questions about basic scientific facts<sup>a</sup> -> Middle -> Not at all scientific,Correct answers to questions about basic scientific facts<sup>a</sup>,Middle,Not at all scientific,3,na,na,na,na,na,59,57,57,57,50,na,58,57,55,48,59,54,50
+2287,r079,Correct answers to questions about basic scientific facts<sup>a</sup> -> Middle -> Don't know,Correct answers to questions about basic scientific facts<sup>a</sup>,Middle,Don't know,3,na,na,na,na,na,2,3,3,2,3,na,5,2,3,3,2,2,3
+2287,r080,Correct answers to questions about basic scientific facts<sup>a</sup> -> High,Correct answers to questions about basic scientific facts<sup>a</sup>,High,,2,,,,,,,,,,,,,,,,,,
+2287,r081,Correct answers to questions about basic scientific facts<sup>a</sup> -> High -> Very scientific,Correct answers to questions about basic scientific facts<sup>a</sup>,High,Very scientific,3,na,na,na,na,na,3,3,4,4,6,na,3,3,3,6,3,4,4
+2287,r082,Correct answers to questions about basic scientific facts<sup>a</sup> -> High -> Sort of scientific,Correct answers to questions about basic scientific facts<sup>a</sup>,High,Sort of scientific,3,na,na,na,na,na,22,21,24,23,25,na,17,19,21,24,17,24,21
+2287,r083,Correct answers to questions about basic scientific facts<sup>a</sup> -> High -> Not at all scientific,Correct answers to questions about basic scientific facts<sup>a</sup>,High,Not at all scientific,3,na,na,na,na,na,74,75,71,72,68,na,78,76,74,70,78,71,74
+2287,r084,Correct answers to questions about basic scientific facts<sup>a</sup> -> High -> Don't know,Correct answers to questions about basic scientific facts<sup>a</sup>,High,Don't know,3,na,na,na,na,na,2,1,2,1,2,na,2,1,2,1,2,0.05,1
+2287,r085,Understanding of scientific inquiry<sup>b</sup>,Understanding of scientific inquiry<sup>b</sup>,,,1,,,,,,,,,,,,,,,,,,
+2287,r086,Understanding of scientific inquiry<sup>b</sup> -> Understands scientific inquiry,Understanding of scientific inquiry<sup>b</sup>,Understands scientific inquiry,,2,,,,,,,,,,,,,,,,,,
+2287,r087,Understanding of scientific inquiry<sup>b</sup> -> Understands scientific inquiry -> Very scientific,Understanding of scientific inquiry<sup>b</sup>,Understands scientific inquiry,Very scientific,3,na,na,na,na,na,na,2,3,4,4,2,4,3,2,5,3,5,3
+2287,r088,Understanding of scientific inquiry<sup>b</sup> -> Understands scientific inquiry -> Sort of scientific,Understanding of scientific inquiry<sup>b</sup>,Understands scientific inquiry,Sort of scientific,3,na,na,na,na,na,na,24,26,22,29,19,19,18,24,26,20,23,26
+2287,r089,Understanding of scientific inquiry<sup>b</sup> -> Understands scientific inquiry -> Not at all scientific,Understanding of scientific inquiry<sup>b</sup>,Understands scientific inquiry,Not at all scientific,3,na,na,na,na,na,na,74,70,73,66,78,75,77,73,68,76,72,69
+2287,r090,Understanding of scientific inquiry<sup>b</sup> -> Understands scientific inquiry -> Don't know,Understanding of scientific inquiry<sup>b</sup>,Understands scientific inquiry,Don't know,3,na,na,na,na,na,na,1,1,2,1,1,2,2,1,1,1,1,2
+2287,r091,Understanding of scientific inquiry<sup>b</sup> -> Doesn't understand scientific inquiry,Understanding of scientific inquiry<sup>b</sup>,Doesn't understand scientific inquiry,,2,,,,,,,,,,,,,,,,,,
+2287,r092,Understanding of scientific inquiry<sup>b</sup> -> Doesn't understand scientific inquiry -> Very scientific,Understanding of scientific inquiry<sup>b</sup>,Doesn't understand scientific inquiry,Very scientific,3,na,na,na,na,na,na,9,9,9,12,8,5,6,11,12,7,11,9
+2287,r093,Understanding of scientific inquiry<sup>b</sup> -> Doesn't understand scientific inquiry -> Sort of scientific,Understanding of scientific inquiry<sup>b</sup>,Doesn't understand scientific inquiry,Sort of scientific,3,na,na,na,na,na,na,29,31,32,33,31,31,33,32,35,32,34,38
+2287,r094,Understanding of scientific inquiry<sup>b</sup> -> Doesn't understand scientific inquiry -> Not at all scientific,Understanding of scientific inquiry<sup>b</sup>,Doesn't understand scientific inquiry,Not at all scientific,3,na,na,na,na,na,na,55,53,53,49,58,58,56,54,48,57,51,49
+2287,r095,Understanding of scientific inquiry<sup>b</sup> -> Doesn't understand scientific inquiry -> Don't know,Understanding of scientific inquiry<sup>b</sup>,Doesn't understand scientific inquiry,Don't know,3,na,na,na,na,na,na,6,7,7,6,3,5,5,4,5,4,4,5

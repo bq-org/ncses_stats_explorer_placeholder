@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Units and institutions with graduate students, postdoctoral appointees, and doctorate-holding nonfaculty researchers, by detailed field: 2020",
+  "identifier": "NCSES-6093",
+  "description": "Units and institutions with graduate students, postdoctoral appointees, and doctorate-holding nonfaculty researchers, by detailed field: 2020",
+  "url": "https://example.org/datasets/ncses/tables/6093",
+  "table_number": "4-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6093/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_detailed_field_b",
+      "description": "Detailed field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_detailed_field_b_level_1, _b_detailed_field_b_level_2, _b_detailed_field_b_level_3, _b_detailed_field_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_detailed_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_all_graduate_students_units",
+      "description": "Graduate Students All Graduate Students Units",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_all_graduate_students_institutions",
+      "description": "Graduate Students All Graduate Students Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_master_s_units",
+      "description": "Graduate Students Master S Units",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_master_s_institutions",
+      "description": "Graduate Students Master S Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_doctoral_units",
+      "description": "Graduate Students Doctoral Units",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_doctoral_institutions",
+      "description": "Graduate Students Doctoral Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_units",
+      "description": "Postdoctoral Appointees Units",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_institutions",
+      "description": "Postdoctoral Appointees Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_units",
+      "description": "Doctorate Holding Nonfaculty Researchers Units",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_institutions",
+      "description": "Doctorate Holding Nonfaculty Researchers Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "\"Field\" refers to the field of the unit that reports postdoctoral appointees and doctorate-holding nonfaculty researchers to the Survey of Graduate Students and Postdoctorates in Science and Engineering (GSS). Unit counts do not sum across columns. For more information on the mapping of GSS fields and codes, see technical table A-17.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2020."
+}

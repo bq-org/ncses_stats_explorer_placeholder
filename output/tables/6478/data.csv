@@ -1,0 +1,11 @@
+table_id,row_id,stratum_full_path,stratum_level_1,stratum_level_2,stratum_level_3,stratum_hierarchy_depth,field_total
+6478,r001,Total,Total,,,1,45500
+6478,r002,Total -> Known positive R&D,Total,Known positive R&D,,2,20000
+6478,r003,Total -> Known positive R&D -> Certainties,Total,Known positive R&D,Certainties,3,15500
+6478,r004,Total -> Known positive R&D -> Noncertainties,Total,Known positive R&D,Noncertainties,3,4600
+6478,r005,Total -> Known zero R&D,Total,Known zero R&D,,2,2300
+6478,r006,Total -> Known zero R&D -> Certainties,Total,Known zero R&D,Certainties,3,1600
+6478,r007,Total -> Known zero R&D -> Noncertainties,Total,Known zero R&D,Noncertainties,3,750
+6478,r008,Total -> Unknown R&D,Total,Unknown R&D,,2,23500
+6478,r009,Total -> Unknown R&D -> Certainties,Total,Unknown R&D,Certainties,3,5700
+6478,r010,Total -> Unknown R&D -> Noncertainties,Total,Unknown R&D,Noncertainties,3,18000

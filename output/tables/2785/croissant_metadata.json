@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Degrees earned by doctorate recipients before their doctoral award, by degree level: 2019",
+  "identifier": "NCSES-2785",
+  "description": "Degrees earned by doctorate recipients before their doctoral award, by degree level: 2019",
+  "url": "https://example.org/datasets/ncses/tables/2785",
+  "table_number": "A",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2785/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "degree_level",
+      "description": "Degree Level",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "one_prior_degree_at_this_level",
+      "description": "One Prior Degree At This Level",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "two_or_more_prior_degrees_at_this_level",
+      "description": "Two Or More Prior Degrees At This Level",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2019."
+}

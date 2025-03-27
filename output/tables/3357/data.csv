@@ -1,0 +1,9 @@
+table_id,row_id,budget_function_and_agency_full_path,budget_function_and_agency_level_1,budget_function_and_agency_level_2,budget_function_and_agency_level_3,budget_function_and_agency_hierarchy_depth,field_2019_actual,field_2020_preliminary,field_2021_proposed,field_2019_20_change_,field_2020_21_change_
+3357,r001,R&D and R&D plant,R&D and R&D plant,,,1,235,226,73,-3.8,-67.7
+3357,r002,R&D and R&D plant -> Agency for International Development (151),R&D and R&D plant,Agency for International Development (151),,2,162,153,0,-5.6,-100.0
+3357,r003,R&D and R&D plant -> Department of State (151),R&D and R&D plant,Department of State (151),,2,60,60,60,0.0,0.0
+3357,r004,R&D and R&D plant -> International Security Assistance (152),R&D and R&D plant,International Security Assistance (152),,2,13,13,13,0.0,0.0
+3357,r005,R&D and R&D plant -> R&D,R&D and R&D plant,R&D,,2,235,226,73,-3.8,-67.7
+3357,r006,R&D and R&D plant -> R&D -> Agency for International Development (151),R&D and R&D plant,R&D,Agency for International Development (151),3,162,153,0,-5.6,-100.0
+3357,r007,R&D and R&D plant -> R&D -> Department of State (151),R&D and R&D plant,R&D,Department of State (151),3,60,60,60,0.0,0.0
+3357,r008,R&D and R&D plant -> R&D -> International Security Assistance (152),R&D and R&D plant,R&D,International Security Assistance (152),3,13,13,13,0.0,0.0

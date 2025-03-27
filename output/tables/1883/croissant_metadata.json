@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Business expenditures for R&D, by selected countries and top R&D-performing industries: 2016 or most recent year",
+  "identifier": "NCSES-1883",
+  "description": "Business expenditures for R&D, by selected countries and top R&D-performing industries: 2016 or most recent year",
+  "url": "https://example.org/datasets/ncses/tables/1883",
+  "table_number": "4-13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1883/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4, industry_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_isic_rev_4_section",
+      "description": "Isic Rev 4 Section",
+      "valueType": "string",
+      "unitText": "PPP millions of current dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_isic_rev_4_division",
+      "description": "Isic Rev 4 Division",
+      "valueType": "string",
+      "unitText": "PPP millions of current dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_united_states_2016_",
+      "description": "United States 2016 ",
+      "valueType": "string",
+      "unitText": "PPP millions of current dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_france_2016_",
+      "description": "France 2016 ",
+      "valueType": "string",
+      "unitText": "PPP millions of current dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_germany_2016_",
+      "description": "Germany 2016 ",
+      "valueType": "string",
+      "unitText": "PPP millions of current dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_united_kingdom_2016_",
+      "description": "United Kingdom 2016 ",
+      "valueType": "string",
+      "unitText": "PPP millions of current dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_china_2016_",
+      "description": "China 2016 ",
+      "valueType": "string",
+      "unitText": "PPP millions of current dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_japan_2016_",
+      "description": "Japan 2016 ",
+      "valueType": "string",
+      "unitText": "PPP millions of current dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_south_korea_2015_",
+      "description": "South Korea 2015 ",
+      "valueType": "string",
+      "unitText": "PPP millions of current dollars and percent share"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classifications for all countries are based on main activity. The U.S. business R&D data are from the U.S. Business R&D and Innovation Survey 2016 (cross-walked to the ISIC Rev. 4 classifications). In general, the table includes industries with annual R&D expenditures of $10 billion or more (i.e., each country's largest R&D performers). See the Organisation for Economic Co-operation and Development's (OECD's) ANalytical Business Enterprise Research and Development (ANBERD) database for a more detailed set of industries by country.",
+  "sources": "OECD, ANalytical Business Enterprise Research and Development (ANBERD) database.Science and Engineering Indicators"
+}

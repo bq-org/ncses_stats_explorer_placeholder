@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research and development, by type of R&D, and for R&D plant: FYs 1951&#8211;2023",
+  "identifier": "NCSES-10797",
+  "description": "Federal obligations for research and development, by type of R&D, and for R&D plant: FYs 1951&#8211;2023",
+  "url": "https://example.org/datasets/ncses/tables/10797",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10797/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. FYs 2009 and 2010 obligations include additional funding provided by the American Recovery and Reinvestment Act of 2009. Beginning with FY 2016, the totals reported for development obligations represent a refinement to this category by more narrowly defining it to be \"experimental development.\" Most notably, totals for development do not include the Department of Defense (DOD) Budget Activity 7 (Operational System Development) obligations. Those funds, previously included in DOD's development obligation totals, support the development efforts to upgrade systems that have been fielded or have received approval for full-rate production and anticipate production funding in the current or subsequent fiscal year. Therefore, the data are not directly comparable with totals reported in previous years. FYs 2020, 2021, and 2022 obligations include additional funding provided by supplemental COVID-19 pandemic-related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development.",
+  "temporalCoverage": "19/20"
+}

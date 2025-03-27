@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Research doctorate recipients, by historical broad field of doctorate and citizenship status: Selected years, 1977&#8211;2022",
+  "identifier": "NCSES-9452",
+  "description": "Research doctorate recipients, by historical broad field of doctorate and citizenship status: Selected years, 1977&#8211;2022",
+  "url": "https://example.org/datasets/ncses/tables/9452",
+  "table_number": "1-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9452/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_and_citizenship_status_b",
+      "description": "Field and citizenship status hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_and_citizenship_status_b_level_1, _b_field_and_citizenship_status_b_level_2, _b_field_and_citizenship_status_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_and_citizenship_status_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1977",
+      "description": "1977",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1982",
+      "description": "1982",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1987",
+      "description": "1987",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1992",
+      "description": "1992",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1997",
+      "description": "1997",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002",
+      "description": "2002",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection; the historical fields were constructed using the SED-CIP code crosswalk in table A-6. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. For more information, see the \"Technical Notes\" and the SED 2021 Taxonomy Changes Working Paper (available at https://ncses.nsf.gov/pubs/ncses23200).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

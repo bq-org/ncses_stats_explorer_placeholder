@@ -1,0 +1,9 @@
+table_id,row_id,budget_function_and_agency_full_path,budget_function_and_agency_level_1,budget_function_and_agency_level_2,budget_function_and_agency_level_3,budget_function_and_agency_level_4,budget_function_and_agency_level_5,budget_function_and_agency_hierarchy_depth,field_2021_actual,field_2022_preliminarya,field_2023_proposed,field_2021_22_change_,field_2022_23_change_
+8459,r001,R&D and R&D plant,R&D and R&D plant,,,,,1,20,20,7,0.0,-65.0
+8459,r002,R&D and R&D plant -> Medicare (571),R&D and R&D plant,Medicare (571),,,,2,20,20,7,0.0,-65.0
+8459,r003,R&D and R&D plant -> Medicare (571) -> Department of Health and Human Services,R&D and R&D plant,Medicare (571),Department of Health and Human Services,,,3,20,20,7,0.0,-65.0
+8459,r004,R&D and R&D plant -> Medicare (571) -> Department of Health and Human Services -> Centers for Medicare and Medicaid Services,R&D and R&D plant,Medicare (571),Department of Health and Human Services,Centers for Medicare and Medicaid Services,,4,20,20,7,0.0,-65.0
+8459,r005,R&D and R&D plant -> R&D,R&D and R&D plant,R&D,,,,2,20,20,7,0.0,-65.0
+8459,r006,R&D and R&D plant -> R&D -> Medicare (571),R&D and R&D plant,R&D,Medicare (571),,,3,20,20,7,0.0,-65.0
+8459,r007,R&D and R&D plant -> R&D -> Medicare (571) -> Department of Health and Human Services,R&D and R&D plant,R&D,Medicare (571),Department of Health and Human Services,,4,20,20,7,0.0,-65.0
+8459,r008,R&D and R&D plant -> R&D -> Medicare (571) -> Department of Health and Human Services -> Centers for Medicare and Medicaid Services,R&D and R&D plant,R&D,Medicare (571),Department of Health and Human Services,Centers for Medicare and Medicaid Services,5,20,20,7,0.0,-65.0

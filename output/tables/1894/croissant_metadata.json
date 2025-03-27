@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. business-sector publications with other U.S. sectors and foreign institutions: 2008 and 2018",
+  "identifier": "NCSES-1894",
+  "description": "U.S. business-sector publications with other U.S. sectors and foreign institutions: 2008 and 2018",
+  "url": "https://example.org/datasets/ncses/tables/1894",
+  "table_number": "8-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1894/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "business_sector_publications",
+      "description": "Business-sector publications hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "business_sector_publications_level_1, business_sector_publications_level_2, business_sector_publications_level_3, business_sector_publications_level_4, business_sector_publications_level_5, business_sector_publications_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "business_sector_publications_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_2008_",
+      "description": "Number 2008 ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percent_2008_",
+      "description": "Percent 2008 ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_2018_",
+      "description": "Number 2018 ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percent_2018_",
+      "description": "Percent 2018 ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Publications are classified by their publication and are assigned to a sector based on the institutional address(es) listed within. Each publication is credited to a sector based on the institution type. Each collaborating institution is credited as co-authoring in this table when the listed authors come from different sectors. The publication is counted as one count in the sector (whole-counting). Publications can be authored by collaborators in multiple sectors, thus the sum of publications coauthored with various sectors can exceed the total. Publications from unknown U.S. sectors are not shown.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation; Science-Metrix; U.S. Patent and Trademark Office; Elsevier, Scopus abstract and citation database, accessed June 2019.Science and Engineering Indicators"
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Global KTI industries, by output and share of global GDP: 2018",
+  "identifier": "NCSES-1967",
+  "description": "Global KTI industries, by output and share of global GDP: 2018",
+  "url": "https://example.org/datasets/ncses/tables/1967",
+  "table_number": "6-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1967/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_value_added_billions_",
+      "description": "Value Added Billions ",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_share_of_global_gdp_",
+      "description": "Share Of Global Gdp ",
+      "valueType": "string",
+      "unitText": "Billions of dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Output of KTI industries is on a value-added basis. Value added is the amount contributed by a country, firm, or other entity to the value of a good or service and excludes purchases of domestic and imported materials and inputs. KTI industries include high R&D intensive and medium-high R&D intensive industries based on a classification by the Organisation for Economic Co-operation and Development. Data for the software publishing are not available; data on the larger publishing industry, which includes software publishing, is used as a proxy for this industry. Data are not available for medical and dental instruments. World total does not include all countries and economies due to limitations in data availability. See Table S6-2 through Table S6-16.",
+  "sources": "IHS Markit, special tabulations (2019) of Comparative Industry Service.Science and Engineering Indicators"
+}

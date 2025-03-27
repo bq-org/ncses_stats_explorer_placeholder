@@ -1,0 +1,67 @@
+table_id,row_id,occupation_and_employment_status_full_path,occupation_and_employment_status_level_1,occupation_and_employment_status_level_2,occupation_and_employment_status_level_3,occupation_and_employment_status_level_4,occupation_and_employment_status_hierarchy_depth,field_total_number,field_total_se,field_male_number,field_male_se,field_female_number,field_female_se
+8212,r001,All occupations,All occupations,,,,1,1021950,1950,639450,1975,382500,1050
+8212,r002,All occupations -> Full time,All occupations,Full time,,,2,779600,2425,496950,2175,282650,1275
+8212,r003,All occupations -> Part time,All occupations,Part time,,,2,92500,1375,46650,1025,45850,950
+8212,r004,All occupations -> Unemployed<sup>a</sup>,All occupations,Unemployed<sup>a</sup>,,,2,16600,750,10300,600,6350,425
+8212,r005,All occupations -> Retired,All occupations,Retired,,,2,114750,1525,79200,1350,35550,825
+8212,r006,All occupations -> Not employed or not seeking work<sup>b</sup>,All occupations,Not employed or not seeking work<sup>b</sup>,,,2,18500,700,6450,450,12100,550
+8212,r007,All occupations -> Science occupations,All occupations,Science occupations,,,2,585800,2750,355250,2300,230550,1600
+8212,r008,All occupations -> Science occupations -> Full time,All occupations,Science occupations,Full time,,3,447950,2700,275800,2200,172100,1525
+8212,r009,All occupations -> Science occupations -> Part time,All occupations,Science occupations,Part time,,3,54300,1025,25900,850,28400,800
+8212,r010,All occupations -> Science occupations -> Unemployed<sup>a</sup>,All occupations,Science occupations,Unemployed<sup>a</sup>,,3,8150,550,5100,450,3050,325
+8212,r011,All occupations -> Science occupations -> Retired,All occupations,Science occupations,Retired,,3,63650,1200,44700,1075,18950,600
+8212,r012,All occupations -> Science occupations -> Not employed or not seeking work<sup>b</sup>,All occupations,Science occupations,Not employed or not seeking work<sup>b</sup>,,3,11750,600,3800,350,7950,500
+8212,r013,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists",All occupations,Science occupations,"Biological, agricultural, and other life scientists",,3,186900,1825,106500,1475,80400,1050
+8212,r014,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Full time",All occupations,Science occupations,"Biological, agricultural, and other life scientists",Full time,4,149850,1700,84700,1350,65150,1000
+8212,r015,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Part time",All occupations,Science occupations,"Biological, agricultural, and other life scientists",Part time,4,11000,575,5850,400,5150,375
+8212,r016,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Unemployed<sup>a</sup>",All occupations,Science occupations,"Biological, agricultural, and other life scientists",Unemployed<sup>a</sup>,4,2550,275,1450,200,1100,200
+8212,r017,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Retired",All occupations,Science occupations,"Biological, agricultural, and other life scientists",Retired,4,19300,700,13300,600,6000,350
+8212,r018,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Not employed or not seeking work<sup>b</sup>",All occupations,Science occupations,"Biological, agricultural, and other life scientists",Not employed or not seeking work<sup>b</sup>,4,4200,350,1200,200,2950,300
+8212,r019,All occupations -> Science occupations -> Computer and information scientists,All occupations,Science occupations,Computer and information scientists,,3,74150,1025,60150,1025,14000,450
+8212,r020,All occupations -> Science occupations -> Computer and information scientists -> Full time,All occupations,Science occupations,Computer and information scientists,Full time,4,62000,1000,50650,1050,11350,425
+8212,r021,All occupations -> Science occupations -> Computer and information scientists -> Part time,All occupations,Science occupations,Computer and information scientists,Part time,4,3450,300,2600,275,850,150
+8212,r022,All occupations -> Science occupations -> Computer and information scientists -> Unemployed<sup>a</sup>,All occupations,Science occupations,Computer and information scientists,Unemployed<sup>a</sup>,4,1250,275,1050,250,200,50
+8212,r023,All occupations -> Science occupations -> Computer and information scientists -> Retired,All occupations,Science occupations,Computer and information scientists,Retired,4,6150,425,5200,425,950,125
+8212,r024,All occupations -> Science occupations -> Computer and information scientists -> Not employed or not seeking work<sup>b</sup>,All occupations,Science occupations,Computer and information scientists,Not employed or not seeking work<sup>b</sup>,4,1300,250,650,175,650,150
+8212,r025,All occupations -> Science occupations -> Mathematical scientists,All occupations,Science occupations,Mathematical scientists,,3,49750,950,35300,850,14450,500
+8212,r026,All occupations -> Science occupations -> Mathematical scientists -> Full time,All occupations,Science occupations,Mathematical scientists,Full time,4,41000,850,29400,775,11650,425
+8212,r027,All occupations -> Science occupations -> Mathematical scientists -> Part time,All occupations,Science occupations,Mathematical scientists,Part time,4,2950,300,2000,250,950,150
+8212,r028,All occupations -> Science occupations -> Mathematical scientists -> Unemployed<sup>a</sup>,All occupations,Science occupations,Mathematical scientists,Unemployed<sup>a</sup>,4,600,125,400,100,200,75
+8212,r029,All occupations -> Science occupations -> Mathematical scientists -> Retired,All occupations,Science occupations,Mathematical scientists,Retired,4,4250,375,3100,300,1150,175
+8212,r030,All occupations -> Science occupations -> Mathematical scientists -> Not employed or not seeking work<sup>b</sup>,All occupations,Science occupations,Mathematical scientists,Not employed or not seeking work<sup>b</sup>,4,900,200,400,150,500,125
+8212,r031,All occupations -> Science occupations -> Physical scientists,All occupations,Science occupations,Physical scientists,,3,101300,1425,75150,1275,26150,650
+8212,r032,All occupations -> Science occupations -> Physical scientists -> Full time,All occupations,Science occupations,Physical scientists,Full time,4,78300,1350,57350,1200,20950,650
+8212,r033,All occupations -> Science occupations -> Physical scientists -> Part time,All occupations,Science occupations,Physical scientists,Part time,4,6800,400,4800,350,2000,225
+8212,r034,All occupations -> Science occupations -> Physical scientists -> Unemployed<sup>a</sup>,All occupations,Science occupations,Physical scientists,Unemployed<sup>a</sup>,4,1450,225,1050,200,450,100
+8212,r035,All occupations -> Science occupations -> Physical scientists -> Retired,All occupations,Science occupations,Physical scientists,Retired,4,13050,525,11250,525,1800,200
+8212,r036,All occupations -> Science occupations -> Physical scientists -> Not employed or not seeking work<sup>b</sup>,All occupations,Science occupations,Physical scientists,Not employed or not seeking work<sup>b</sup>,4,1650,200,700,150,950,150
+8212,r037,All occupations -> Science occupations -> Psychologists,All occupations,Science occupations,Psychologists,,3,92550,950,34000,775,58550,850
+8212,r038,All occupations -> Science occupations -> Psychologists -> Full time,All occupations,Science occupations,Psychologists,Full time,4,56000,1025,20750,775,35300,800
+8212,r039,All occupations -> Science occupations -> Psychologists -> Part time,All occupations,Science occupations,Psychologists,Part time,4,22400,750,6800,475,15600,650
+8212,r040,All occupations -> Science occupations -> Psychologists -> Unemployed<sup>a</sup>,All occupations,Science occupations,Psychologists,Unemployed<sup>a</sup>,4,900,150,400,100,500,125
+8212,r041,All occupations -> Science occupations -> Psychologists -> Retired,All occupations,Science occupations,Psychologists,Retired,4,10850,550,5600,425,5200,375
+8212,r042,All occupations -> Science occupations -> Psychologists -> Not employed or not seeking work<sup>b</sup>,All occupations,Science occupations,Psychologists,Not employed or not seeking work<sup>b</sup>,4,2400,325,450,150,1950,300
+8212,r043,All occupations -> Science occupations -> Social scientists,All occupations,Science occupations,Social scientists,,3,81200,1225,44200,975,37000,800
+8212,r044,All occupations -> Science occupations -> Social scientists -> Full time,All occupations,Science occupations,Social scientists,Full time,4,60750,1000,33000,850,27750,650
+8212,r045,All occupations -> Science occupations -> Social scientists -> Part time,All occupations,Science occupations,Social scientists,Part time,4,7700,475,3900,375,3850,275
+8212,r046,All occupations -> Science occupations -> Social scientists -> Unemployed<sup>a</sup>,All occupations,Science occupations,Social scientists,Unemployed<sup>a</sup>,4,1400,225,800,200,600,150
+8212,r047,All occupations -> Science occupations -> Social scientists -> Retired,All occupations,Science occupations,Social scientists,Retired,4,10050,550,6150,425,3850,325
+8212,r048,All occupations -> Science occupations -> Social scientists -> Not employed or not seeking work<sup>b</sup>,All occupations,Science occupations,Social scientists,Not employed or not seeking work<sup>b</sup>,4,1300,225,400,125,950,200
+8212,r049,All occupations -> Engineering occupations,All occupations,Engineering occupations,,,2,138100,1575,115050,1525,23050,650
+8212,r050,All occupations -> Engineering occupations -> Full time,All occupations,Engineering occupations,Full time,,3,116050,1525,96100,1500,19950,625
+8212,r051,All occupations -> Engineering occupations -> Part time,All occupations,Engineering occupations,Part time,,3,6750,475,5600,450,1150,125
+8212,r052,All occupations -> Engineering occupations -> Unemployed<sup>a</sup>,All occupations,Engineering occupations,Unemployed<sup>a</sup>,,3,2150,275,1700,250,450,125
+8212,r053,All occupations -> Engineering occupations -> Retired,All occupations,Engineering occupations,Retired,,3,11850,600,11000,575,850,150
+8212,r054,All occupations -> Engineering occupations -> Not employed or not seeking work<sup>b</sup>,All occupations,Engineering occupations,Not employed or not seeking work<sup>b</sup>,,3,1250,200,650,150,650,125
+8212,r055,All occupations -> S&E-related occupations,All occupations,S&E-related occupations,,,2,119200,1700,66750,1350,52450,1100
+8212,r056,All occupations -> S&E-related occupations -> Full time,All occupations,S&E-related occupations,Full time,,3,91200,1425,52900,1100,38300,975
+8212,r057,All occupations -> S&E-related occupations -> Part time,All occupations,S&E-related occupations,Part time,,3,9300,600,3950,400,5300,400
+8212,r058,All occupations -> S&E-related occupations -> Unemployed<sup>a</sup>,All occupations,S&E-related occupations,Unemployed<sup>a</sup>,,3,2000,225,1050,200,950,150
+8212,r059,All occupations -> S&E-related occupations -> Retired,All occupations,S&E-related occupations,Retired,,3,14650,675,7950,475,6750,425
+8212,r060,All occupations -> S&E-related occupations -> Not employed or not seeking work<sup>b</sup>,All occupations,S&E-related occupations,Not employed or not seeking work<sup>b</sup>,,3,2050,300,900,200,1150,200
+8212,r061,All occupations -> Non-S&E occupations,All occupations,Non-S&E occupations,,,2,178900,1950,102450,1550,76450,1075
+8212,r062,All occupations -> Non-S&E occupations -> Full time,All occupations,Non-S&E occupations,Full time,,3,124450,1825,72100,1525,52300,900
+8212,r063,All occupations -> Non-S&E occupations -> Part time,All occupations,Non-S&E occupations,Part time,,3,22200,750,11200,550,10950,550
+8212,r064,All occupations -> Non-S&E occupations -> Unemployed<sup>a</sup>,All occupations,Non-S&E occupations,Unemployed<sup>a</sup>,,3,4300,400,2450,275,1850,250
+8212,r065,All occupations -> Non-S&E occupations -> Retired,All occupations,Non-S&E occupations,Retired,,3,24600,850,15550,700,9000,425
+8212,r066,All occupations -> Non-S&E occupations -> Not employed or not seeking work<sup>b</sup>,All occupations,Non-S&E occupations,Not employed or not seeking work<sup>b</sup>,,3,3450,275,1100,150,2300,250

@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Impact that the use of artificial intelligence technology had on workforce characteristics for companies that used the technology somewhat, a little, or a lot: 2021",
+  "identifier": "NCSES-11569",
+  "description": "Impact that the use of artificial intelligence technology had on workforce characteristics for companies that used the technology somewhat, a little, or a lot: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11569",
+  "table_number": "CET-57",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11569/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "impact",
+      "description": "Impact",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "increase",
+      "description": "Increase",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "decrease",
+      "description": "Decrease",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "no_impact",
+      "description": "No Impact",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "don_t_know",
+      "description": "Don T Know",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2022 Annual Business Survey: Data Year 2021."
+}

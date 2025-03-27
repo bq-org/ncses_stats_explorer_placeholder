@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Workers engaged in R&D or design and as a percentage of total employment, by alternative measures of R&D workers: 2015",
+  "identifier": "NCSES-4500",
+  "description": "Workers engaged in R&D or design and as a percentage of total employment, by alternative measures of R&D workers: 2015",
+  "url": "https://example.org/datasets/ncses/tables/4500",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4500/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "r_d_workers_measure",
+      "description": "R D Workers Measure",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "description_of_r_d_workers_measure",
+      "description": "Description Of R D Workers Measure",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weighted_r_d_workers_number_",
+      "description": "Weighted R D Workers Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "r_d_workers_as_a_percentage_of_total_employment_",
+      "description": "R D Workers As A Percentage Of Total Employment ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Weighted U.S. employment of college-educated individuals for percentage calculations is 45,941,000.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates (NSCG), 2015."
+}

@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Scholarly productivity of early career doctorates, by position type, employment setting, and position characteristics: 2017",
+  "identifier": "NCSES-3828",
+  "description": "Scholarly productivity of early career doctorates, by position type, employment setting, and position characteristics: 2017",
+  "url": "https://example.org/datasets/ncses/tables/3828",
+  "table_number": "6-7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3828/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "selected_characteristic",
+      "description": "Selected characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "selected_characteristic_level_1, selected_characteristic_level_2, selected_characteristic_level_3, selected_characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "selected_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_of_early_career_doctorates",
+      "description": "Number Of Early Career Doctorates",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_published_papers_in_conference_proceedings",
+      "description": "Published Papers In Conference Proceedings",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_authored_or_co_authored_conference_papers",
+      "description": "Authored Or Co Authored Conference Papers",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_submitted_articles_for_publication_in_a_peer_reviewed_journal",
+      "description": "Submitted Articles For Publication In A Peer Reviewed Journal",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_published_books_or_book_chapters",
+      "description": "Published Books Or Book Chapters",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mentored_or_supervised_students",
+      "description": "Mentored Or Supervised Students",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_taught_courses",
+      "description": "Taught Courses",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_named_as_an_inventor_on_a_patent_application",
+      "description": "Named As An Inventor On A Patent Application",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_provided_service_to_department_institution_or_professional_society",
+      "description": "Provided Service To Department Institution Or Professional Society",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Counts are rounded to the nearest 100. Percentages are calculated from unrounded counts and rounded to the nearest 10th of a percent. Details may not add to totals because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Early Career Doctorates Survey, 2017."
+}

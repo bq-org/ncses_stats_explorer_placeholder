@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Science and engineering research space in academic institutions, by field and research animal space: FYs 2007&#8211;19",
+  "identifier": "NCSES-3047",
+  "description": "Science and engineering research space in academic institutions, by field and research animal space: FYs 2007&#8211;19",
+  "url": "https://example.org/datasets/ncses/tables/3047",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3047/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_research_animal_space",
+      "description": "Field and research animal space hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_and_research_animal_space_level_1, field_and_research_animal_space_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_and_research_animal_space_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_research_animal_space_full_path",
+      "description": "And Research Animal Space Full Path",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_research_animal_space_level_1",
+      "description": "And Research Animal Space Level 1",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_research_animal_space_level_2",
+      "description": "And Research Animal Space Level 2",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_research_animal_space_hierarchy_depth",
+      "description": "And Research Animal Space Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2007",
+      "description": "Fy 2007",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2009",
+      "description": "Fy 2009",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2011",
+      "description": "Fy 2011",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2013",
+      "description": "Fy 2013",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2015",
+      "description": "Fy 2015",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2017",
+      "description": "Fy 2017",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2019",
+      "description": "Fy 2019",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Fields of science and engineering and their disciplines were revised in FY 2015. Specifically, \"Agricultural sciences and natural resources sciences\" was split into \"Agricultural sciences\" and \"Natural resources and conservation.\" Prior to FY 2015, data for \"Natural resources and conservation\" are included in \"Agricultural sciences.\" Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities."
+}

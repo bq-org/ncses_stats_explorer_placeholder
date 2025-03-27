@@ -1,0 +1,13 @@
+table_id,row_id,type_of_cost_full_path,type_of_cost_level_1,type_of_cost_level_2,type_of_cost_level_3,type_of_cost_hierarchy_depth,field_2010,field_2015,field_2020
+8541,r001,Total R&D costs ,Total R&D costs ,,,1,278977,355821,537619
+8541,r002,Total R&D costs  -> Labor costs,Total R&D costs ,Labor costs,,2,184499,238211,371845
+8541,r003,"Total R&D costs  -> Labor costs -> Salaries, wages, and fringe benefits",Total R&D costs ,Labor costs,"Salaries, wages, and fringe benefits",3,166124,204170,300046
+8541,r004,Total R&D costs  -> Labor costs -> Stock-based compensation,Total R&D costs ,Labor costs,Stock-based compensation,3,8025,19579,48343
+8541,r005,Total R&D costs  -> Labor costs -> Temporary staffing,Total R&D costs ,Labor costs,Temporary staffing,3,10350,14462,23456
+8541,r006,Total R&D costs  -> All other costs,Total R&D costs ,All other costs,,2,94478,117610,165774
+8541,r007,Share of domestic R&D performance (%),Share of domestic R&D performance (%),,,1,,,
+8541,r008,Share of domestic R&D performance (%) -> Labor costs,Share of domestic R&D performance (%),Labor costs,,2,66,67,69
+8541,r009,"Share of domestic R&D performance (%) -> Labor costs -> Salaries, wages, and fringe benefits",Share of domestic R&D performance (%),Labor costs,"Salaries, wages, and fringe benefits",3,60,57,56
+8541,r010,Share of domestic R&D performance (%) -> Labor costs -> Stock-based compensation,Share of domestic R&D performance (%),Labor costs,Stock-based compensation,3,3,6,9
+8541,r011,Share of domestic R&D performance (%) -> Labor costs -> Temporary staffing,Share of domestic R&D performance (%),Labor costs,Temporary staffing,3,4,4,4
+8541,r012,Share of domestic R&D performance (%) -> All other costs,Share of domestic R&D performance (%),All other costs,,2,34,33,31

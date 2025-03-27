@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Survey of Doctorate Recipients participant characteristics: 2017",
+  "identifier": "NCSES-6793",
+  "description": "Survey of Doctorate Recipients participant characteristics: 2017",
+  "url": "https://example.org/datasets/ncses/tables/6793",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6793/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sample_characteristic",
+      "description": "Sample hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sample_level_1, sample_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The population values presented here are provided for reference only because they are based on applying the sampling weights to the reduced sample used for the current project (n = 85,720) and therefore do not match the official values reported by the National Center for Science and Engineering Statistics. All participants who identified as Hispanic were included in the Hispanic category, and only in the Hispanic category, regardless of whether they also identified with one or more of the racial categories. The Other category included individuals who identified as multiracial.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2017.",
+  "temporalCoverage": "19/20"
+}

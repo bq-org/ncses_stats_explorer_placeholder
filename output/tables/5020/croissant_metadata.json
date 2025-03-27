@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research and experimental development to nonprofit institutions, ranked by total amount received, by agency: FY 2019",
+  "identifier": "NCSES-5020",
+  "description": "Federal obligations for research and experimental development to nonprofit institutions, ranked by total amount received, by agency: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/5020",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5020/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution_name",
+      "description": "Institution name hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "institution_name_level_1, institution_name_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "institution_name_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_agencies",
+      "description": "All Agencies",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dod",
+      "description": "Dod",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doe",
+      "description": "Doe",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ed",
+      "description": "Ed",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hhs",
+      "description": "Hhs",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nasa",
+      "description": "Nasa",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nsf",
+      "description": "Nsf",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_usda",
+      "description": "Usda",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_other_agenciesa",
+      "description": "All Other Agenciesa",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Details may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Science and Engineering Support to Universities, Colleges, and Nonprofit Institutions, FY 2019."
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Baccalaureate-origin institutions of doctorate recipients from 2010\u201320, by citizenship status, ethnicity, race, and institution characteristics",
+  "identifier": "NCSES-7141",
+  "description": "Baccalaureate-origin institutions of doctorate recipients from 2010\u201320, by citizenship status, ethnicity, race, and institution characteristics",
+  "url": "https://example.org/datasets/ncses/tables/7141",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7141/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2, column_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Baccalaureate-origin institutions in the United States are classified using the 2018 Basic Carnegie Classification. R1: doctoral universities are a single category of institution in the Carnegie classification with very high research activity. Other doctoral universities include the R2: doctoral universities with high research activity and doctoral/professional universities. Master's colleges and universities include smaller, medium, and larger programs. Baccalaureate colleges include baccalaureate colleges: arts and sciences focus, baccalaureate colleges: diverse fields, and mixed baccalaureate/associate's colleges. All other colleges include special focus institutions, tribal colleges, associate\u2019s colleges, and unclassified institutions. High-Hispanic-enrollment institutions are defined as those colleges and universities where at least 25% of the total undergraduate enrollment is Hispanic. High-AIAN-enrollment institutions are defined as those colleges and universities where at least 10% of the total undergraduate enrollment is American Indian or Alaska Native.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates.",
+  "temporalCoverage": "20/20"
+}

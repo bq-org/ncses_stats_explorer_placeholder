@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Summary of federal obligations and outlays for research, experimental development, and R&D plant, by type of R&D, performer, and field of R&D: FYs 2021&#8211;23",
+  "identifier": "NCSES-10798",
+  "description": "Summary of federal obligations and outlays for research, experimental development, and R&D plant, by type of R&D, performer, and field of R&D: FYs 2021&#8211;23",
+  "url": "https://example.org/datasets/ncses/tables/10798",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10798/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_type_of_r_d_performer_and_field_b",
+      "description": "Type of R&D, performer, and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_type_of_r_d_performer_and_field_b_level_1, _b_type_of_r_d_performer_and_field_b_level_2, _b_type_of_r_d_performer_and_field_b_level_3, _b_type_of_r_d_performer_and_field_b_level_4, _b_type_of_r_d_performer_and_field_b_level_5, _b_type_of_r_d_performer_and_field_b_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_type_of_r_d_performer_and_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023_preliminary_",
+      "description": "2023 Preliminary ",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_fy_2021_22",
+      "description": " Change Fy 2021 22",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_fy_2022_23_preliminary_",
+      "description": " Change Fy 2022 23 Preliminary ",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Percentages are computed using actual dollars reported. FYs 2021 and 2022 data include obligations from supplemental COVID-19 pandemic-related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act). See technical table A-3 for additional notes associated with the taxonomy changes to the fields listed in this table.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

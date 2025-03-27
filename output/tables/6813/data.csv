@@ -1,0 +1,51 @@
+table_id,row_id,class_prevalence_full_path,class_prevalence_level_1,class_prevalence_level_2,class_prevalence_hierarchy_depth,field_response_very_important,field_response_somewhat_important,field_response_somewhat_unimportant,field_response_not_important_at_all
+6813,r001,Class 1 (27.7%),Class 1 (27.7%),,1,,,,
+6813,r002,Class 1 (27.7%) -> Salary,Class 1 (27.7%),Salary,2,0.877,0.122,0.001,0.001
+6813,r003,Class 1 (27.7%) -> Benefits,Class 1 (27.7%),Benefits,2,0.96,0.033,0.004,0.003
+6813,r004,Class 1 (27.7%) -> Security,Class 1 (27.7%),Security,2,0.887,0.102,0.008,0.003
+6813,r005,Class 1 (27.7%) -> Location,Class 1 (27.7%),Location,2,0.756,0.222,0.019,0.003
+6813,r006,Class 1 (27.7%) -> Opportunities,Class 1 (27.7%),Opportunities,2,0.796,0.176,0.019,0.009
+6813,r007,Class 1 (27.7%) -> Challenge,Class 1 (27.7%),Challenge,2,0.992,0.008,0.0,0.0
+6813,r008,Class 1 (27.7%) -> Responsibility,Class 1 (27.7%),Responsibility,2,0.885,0.111,0.003,0.001
+6813,r009,Class 1 (27.7%) -> Independence,Class 1 (27.7%),Independence,2,0.959,0.04,0.001,0.0
+6813,r010,Class 1 (27.7%) -> Contribution,Class 1 (27.7%),Contribution,2,0.864,0.121,0.011,0.004
+6813,r011,Class 2 (26.7%),Class 2 (26.7%),,1,,,,
+6813,r012,Class 2 (26.7%) -> Salary,Class 2 (26.7%),Salary,2,0.168,0.794,0.037,0.001
+6813,r013,Class 2 (26.7%) -> Benefits,Class 2 (26.7%),Benefits,2,0.184,0.753,0.057,0.006
+6813,r014,Class 2 (26.7%) -> Security,Class 2 (26.7%),Security,2,0.317,0.582,0.095,0.006
+6813,r015,Class 2 (26.7%) -> Location,Class 2 (26.7%),Location,2,0.496,0.447,0.051,0.006
+6813,r016,Class 2 (26.7%) -> Opportunities,Class 2 (26.7%),Opportunities,2,0.386,0.498,0.098,0.019
+6813,r017,Class 2 (26.7%) -> Challenge,Class 2 (26.7%),Challenge,2,0.959,0.041,0.001,0.0
+6813,r018,Class 2 (26.7%) -> Responsibility,Class 2 (26.7%),Responsibility,2,0.613,0.367,0.018,0.002
+6813,r019,Class 2 (26.7%) -> Independence,Class 2 (26.7%),Independence,2,0.869,0.129,0.002,0.0
+6813,r020,Class 2 (26.7%) -> Contribution,Class 2 (26.7%),Contribution,2,0.727,0.251,0.019,0.002
+6813,r021,Class 3 (26.0%),Class 3 (26.0%),,1,,,,
+6813,r022,Class 3 (26.0%) -> Salary,Class 3 (26.0%),Salary,2,0.802,0.195,0.003,0.0
+6813,r023,Class 3 (26.0%) -> Benefits,Class 3 (26.0%),Benefits,2,0.907,0.088,0.003,0.002
+6813,r024,Class 3 (26.0%) -> Security,Class 3 (26.0%),Security,2,0.749,0.23,0.02,0.002
+6813,r025,Class 3 (26.0%) -> Location,Class 3 (26.0%),Location,2,0.546,0.407,0.044,0.002
+6813,r026,Class 3 (26.0%) -> Opportunities,Class 3 (26.0%),Opportunities,2,0.326,0.564,0.095,0.016
+6813,r027,Class 3 (26.0%) -> Challenge,Class 3 (26.0%),Challenge,2,0.507,0.459,0.032,0.002
+6813,r028,Class 3 (26.0%) -> Responsibility,Class 3 (26.0%),Responsibility,2,0.111,0.757,0.124,0.008
+6813,r029,Class 3 (26.0%) -> Independence,Class 3 (26.0%),Independence,2,0.459,0.498,0.041,0.002
+6813,r030,Class 3 (26.0%) -> Contribution,Class 3 (26.0%),Contribution,2,0.342,0.558,0.084,0.015
+6813,r031,Class 4 (13.9%),Class 4 (13.9%),,1,,,,
+6813,r032,Class 4 (13.9%) -> Salary,Class 4 (13.9%),Salary,2,0.118,0.841,0.04,0.0
+6813,r033,Class 4 (13.9%) -> Benefits,Class 4 (13.9%),Benefits,2,0.07,0.85,0.077,0.003
+6813,r034,Class 4 (13.9%) -> Security,Class 4 (13.9%),Security,2,0.184,0.702,0.108,0.007
+6813,r035,Class 4 (13.9%) -> Location,Class 4 (13.9%),Location,2,0.388,0.538,0.071,0.003
+6813,r036,Class 4 (13.9%) -> Opportunities,Class 4 (13.9%),Opportunities,2,0.091,0.672,0.222,0.016
+6813,r037,Class 4 (13.9%) -> Challenge,Class 4 (13.9%),Challenge,2,0.324,0.64,0.036,0.0
+6813,r038,Class 4 (13.9%) -> Responsibility,Class 4 (13.9%),Responsibility,2,0.015,0.811,0.17,0.004
+6813,r039,Class 4 (13.9%) -> Independence,Class 4 (13.9%),Independence,2,0.261,0.678,0.06,0.001
+6813,r040,Class 4 (13.9%) -> Contribution,Class 4 (13.9%),Contribution,2,0.222,0.673,0.099,0.005
+6813,r041,Class 5 (5.8%),Class 5 (5.8%),,1,,,,
+6813,r042,Class 5 (5.8%) -> Salary,Class 5 (5.8%),Salary,2,0.203,0.348,0.233,0.216
+6813,r043,Class 5 (5.8%) -> Benefits,Class 5 (5.8%),Benefits,2,0.096,0.154,0.267,0.483
+6813,r044,Class 5 (5.8%) -> Security,Class 5 (5.8%),Security,2,0.08,0.137,0.261,0.522
+6813,r045,Class 5 (5.8%) -> Location,Class 5 (5.8%),Location,2,0.547,0.219,0.085,0.148
+6813,r046,Class 5 (5.8%) -> Opportunities,Class 5 (5.8%),Opportunities,2,0.045,0.084,0.242,0.629
+6813,r047,Class 5 (5.8%) -> Challenge,Class 5 (5.8%),Challenge,2,0.646,0.232,0.039,0.084
+6813,r048,Class 5 (5.8%) -> Responsibility,Class 5 (5.8%),Responsibility,2,0.297,0.319,0.183,0.2
+6813,r049,Class 5 (5.8%) -> Independence,Class 5 (5.8%),Independence,2,0.611,0.25,0.056,0.084
+6813,r050,Class 5 (5.8%) -> Contribution,Class 5 (5.8%),Contribution,2,0.573,0.268,0.061,0.098

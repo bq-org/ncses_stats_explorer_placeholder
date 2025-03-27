@@ -1,0 +1,629 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Coauthored AI articles, by selected institution: 2003&#8211;22",
+  "identifier": "NCSES-10065",
+  "description": "Coauthored AI articles, by selected institution: 2003&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/10065",
+  "table_number": "SPBS-97",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10065/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution",
+      "description": "Institution",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "beihang_u_",
+      "description": "Beihang U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "beijing_institute_of_technology",
+      "description": "Beijing Institute Of Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "beijing_jiaotong_u_",
+      "description": "Beijing Jiaotong U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "beijing_u_posts_and_telecommunications",
+      "description": "Beijing U Posts And Telecommunications",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "beijing_u_technology",
+      "description": "Beijing U Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "cas_institute_of_automation",
+      "description": "Cas Institute Of Automation",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "cnrs",
+      "description": "Cnrs",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "carnegie_mellon_u_",
+      "description": "Carnegie Mellon U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "central_south_u_",
+      "description": "Central South U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "chinese_academy_of_sciences",
+      "description": "Chinese Academy Of Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "chinese_u_hong_kong",
+      "description": "Chinese U Hong Kong",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "chongqing_u_",
+      "description": "Chongqing U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "city_u_hong_kong",
+      "description": "City U Hong Kong",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "dalian_u_technology",
+      "description": "Dalian U Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "fudan_u_",
+      "description": "Fudan U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "georgia_institute_of_technology",
+      "description": "Georgia Institute Of Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "harbin_engineering_u_",
+      "description": "Harbin Engineering U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "harbin_institute_of_technology",
+      "description": "Harbin Institute Of Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "harvard_u_",
+      "description": "Harvard U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "hefei_u_technology",
+      "description": "Hefei U Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "hong_kong_polytechnic_u_",
+      "description": "Hong Kong Polytechnic U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "huazhong_u_science_and_technology",
+      "description": "Huazhong U Science And Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ibm",
+      "description": "Ibm",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "imperial_c_london",
+      "description": "Imperial C London",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "institut_mines_t_l_com",
+      "description": "Institut Mines T L Com",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "institut_national_de_recherche_en_informatique_et_en_automatique",
+      "description": "Institut National De Recherche En Informatique Et En Automatique",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "jilin_u_",
+      "description": "Jilin U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ku_leuven",
+      "description": "Ku Leuven",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "massachusetts_institute_of_technology",
+      "description": "Massachusetts Institute Of Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "microsoft_usa",
+      "description": "Microsoft Usa",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "nanjing_u_",
+      "description": "Nanjing U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "nanjing_u_aeronautics_and_astronautics",
+      "description": "Nanjing U Aeronautics And Astronautics",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "nanjing_u_posts_and_telecommunications",
+      "description": "Nanjing U Posts And Telecommunications",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "nanjing_u_science_and_technology",
+      "description": "Nanjing U Science And Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "nanyang_technological_u_",
+      "description": "Nanyang Technological U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "national_research_council_of_italy",
+      "description": "National Research Council Of Italy",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "national_u_defense_technology",
+      "description": "National U Defense Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "national_u_singapore",
+      "description": "National U Singapore",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "north_china_electric_power_u_",
+      "description": "North China Electric Power U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "northeastern_u_china",
+      "description": "Northeastern U China",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "northwestern_polytechnical_u_xi_an",
+      "description": "Northwestern Polytechnical U Xi An",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "osaka_u_",
+      "description": "Osaka U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "peking_u_",
+      "description": "Peking U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "polytechnic_u_catalonia",
+      "description": "Polytechnic U Catalonia",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "shandong_u_",
+      "description": "Shandong U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "shanghai_jiao_tong_u_",
+      "description": "Shanghai Jiao Tong U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "shanghai_u_",
+      "description": "Shanghai U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "shenzhen_u_",
+      "description": "Shenzhen U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sichuan_u_",
+      "description": "Sichuan U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sorbonne_universit_",
+      "description": "Sorbonne Universit ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "south_china_u_technology",
+      "description": "South China U Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "southeast_u_nanjing",
+      "description": "Southeast U Nanjing",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "southwest_jiaotong_u_",
+      "description": "Southwest Jiaotong U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "stanford_u_",
+      "description": "Stanford U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "state_grid_corporation_of_china",
+      "description": "State Grid Corporation Of China",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sun_yat_sen_u_",
+      "description": "Sun Yat Sen U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "swiss_federal_institute_of_technology_zurich",
+      "description": "Swiss Federal Institute Of Technology Zurich",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "technical_u_munich",
+      "description": "Technical U Munich",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tianjin_u_",
+      "description": "Tianjin U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tokyo_institute_of_technology",
+      "description": "Tokyo Institute Of Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tongji_u_",
+      "description": "Tongji U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tsinghua_u_",
+      "description": "Tsinghua U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_c_london",
+      "description": "U C London",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_california_at_berkeley",
+      "description": "U California At Berkeley",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_chinese_academy_of_sciences",
+      "description": "U Chinese Academy Of Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_electronic_science_and_technology_of_china",
+      "description": "U Electronic Science And Technology Of China",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_granada",
+      "description": "U Granada",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_illinois_at_urbana_champaign",
+      "description": "U Illinois At Urbana Champaign",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_new_south_wales",
+      "description": "U New South Wales",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_oxford",
+      "description": "U Oxford",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_science_and_technology_beijing",
+      "description": "U Science And Technology Beijing",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_science_and_technology_of_china",
+      "description": "U Science And Technology Of China",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_southern_california",
+      "description": "U Southern California",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_sydney",
+      "description": "U Sydney",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_technology_sydney",
+      "description": "U Technology Sydney",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_tokyo_the",
+      "description": "U Tokyo The",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "universit_f_d_rale_toulouse_midi_pyr_n_es",
+      "description": "Universit F D Rale Toulouse Midi Pyr N Es",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "universit_paris_saclay",
+      "description": "Universit Paris Saclay",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "waseda_u_",
+      "description": "Waseda U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "wuhan_u_",
+      "description": "Wuhan U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "wuhan_u_technology",
+      "description": "Wuhan U Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "xi_an_jiaotong_u_",
+      "description": "Xi An Jiaotong U ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "xidian_u_",
+      "description": "Xidian U ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "zhejiang_u_",
+      "description": "Zhejiang U ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "AI article counts refer to publications from a selection of conference proceedings and peer-reviewed journals in S&E fields from Scopus that were classified as AI in the All Science Journal Classification. Articles are classified by their year of publication and are assigned to an institution on the basis of the institutional address(es) of the author(s) listed in the article.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed April 2023.Science and Engineering Indicators"
+}

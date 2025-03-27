@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Imputed amounts for higher education R&D expenditures in a medical school, by institutional control: FY 2020",
+  "identifier": "NCSES-5378",
+  "description": "Imputed amounts for higher education R&D expenditures in a medical school, by institutional control: FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/5378",
+  "table_number": "A-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5378/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_institutional_control_b",
+      "description": "Institutional control hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_institutional_control_b_level_1, _b_institutional_control_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_institutional_control_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_expenditures",
+      "description": "All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_imputed_amount",
+      "description": "Imputed Amount",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_imputed_amount_as_of_total",
+      "description": "Imputed Amount As Of Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "This table includes only institutions reporting $1 million or more in total R&D expenditures in FY 2019. Institutions reporting less than $1 million in total R&D expenditures in FY 2019 completed a shorter version of the survey form in FY 2020 that did not include this question.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2020."
+}

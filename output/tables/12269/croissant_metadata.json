@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Worldwide, domestic, and foreign sales for companies located in the United States that performed or funded R&D, by business activity: 2022",
+  "identifier": "NCSES-12269",
+  "description": "Worldwide, domestic, and foreign sales for companies located in the United States that performed or funded R&D, by business activity: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12269",
+  "table_number": "9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12269/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "business_activity_sup_a_sup",
+      "description": "Business activitya hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "business_activity_sup_a_sup_level_1, business_activity_sup_a_sup_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "business_activity_sup_a_sup_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_codeb",
+      "description": "Business Codeb",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sales_worldwide",
+      "description": "Sales Worldwide",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sales_domestic",
+      "description": "Sales Domestic",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sales_foreign",
+      "description": "Sales Foreign",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Domestic sales are the amount of sales that originated from domestic operations. Foreign sales are the amount of sales that originated from foreign operations. Detail may not add to total because of rounding. For companies that did not report business codes, the classification used for sampling was assigned. Statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D and are not comparable with estimates published for years prior to 2018.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2022."
+}

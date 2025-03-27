@@ -1,0 +1,21 @@
+table_id,row_id,employment_size_full_path,employment_size_level_1,employment_size_level_2,employment_size_hierarchy_depth,field_digitalization_percent,field_digitalization_standard_error_of_mean,field_cloud_computing_percent,field_cloud_computing_standard_error_of_mean
+7222,r001,All firms,All firms,,1,,,,
+7222,r002,All firms -> 1&#8211;4,All firms,1&#8211;4,2,64.58,0.28,40.52,0.24
+7222,r003,All firms -> 5&#8211;9,All firms,5&#8211;9,2,71.96,0.52,47.27,0.59
+7222,r004,All firms -> 10&#8211;19,All firms,10&#8211;19,2,77.03,0.88,52.21,1.21
+7222,r005,All firms -> 20&#8211;49,All firms,20&#8211;49,2,80.8,1.97,55.89,3.08
+7222,r006,All firms -> 50&#8211;99,All firms,50&#8211;99,2,84.96,2.93,61.75,3.54
+7222,r007,All firms -> 100&#8211;249,All firms,100&#8211;249,2,86.58,2.91,63.21,3.98
+7222,r008,All firms -> 250&#8211;499,All firms,250&#8211;499,2,86.32,1.75,62.98,4.38
+7222,r009,All firms -> 500&#8211;999,All firms,500&#8211;999,2,83.94,14.83,58.83,12.81
+7222,r010,"All firms -> 1,000 or more",All firms,"1,000 or more",2,79.18,13.81,54.62,f
+7222,r011,Single-unit firms,Single-unit firms,,1,,,,
+7222,r012,Single-unit firms -> 1&#8211;4,Single-unit firms,1&#8211;4,2,64.57,0.28,40.51,0.23
+7222,r013,Single-unit firms -> 5&#8211;9,Single-unit firms,5&#8211;9,2,71.95,0.52,47.27,0.58
+7222,r014,Single-unit firms -> 10&#8211;19,Single-unit firms,10&#8211;19,2,77.02,0.88,52.2,1.21
+7222,r015,Single-unit firms -> 20&#8211;49,Single-unit firms,20&#8211;49,2,80.58,2.0,55.73,3.21
+7222,r016,Single-unit firms -> 50&#8211;99,Single-unit firms,50&#8211;99,2,84.51,3.62,61.87,3.97
+7222,r017,Single-unit firms -> 100&#8211;249,Single-unit firms,100&#8211;249,2,86.08,5.23,63.54,7.15
+7222,r018,Single-unit firms -> 250&#8211;499,Single-unit firms,250&#8211;499,2,86.2,3.48,63.64,12.05
+7222,r019,Single-unit firms -> 500&#8211;999,Single-unit firms,500&#8211;999,2,84.76,f,63.78,f
+7222,r020,"Single-unit firms -> 1,000 or more",Single-unit firms,"1,000 or more",2,81.94,f,61.28,f

@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Baccalaureate-origin institution characteristics of research doctorate recipients, by broad field of doctorate: 2022",
+  "identifier": "NCSES-9489",
+  "description": "Baccalaureate-origin institution characteristics of research doctorate recipients, by broad field of doctorate: 2022",
+  "url": "https://example.org/datasets/ncses/tables/9489",
+  "table_number": "5-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9489/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Tied countries or economies are listed alphabetically. Carnegie classification is based on the 2018 Carnegie Classifications: Doctoral universities - very high research (R1), Doctoral universities - high research (R2), Doctoral/ professional universities, and other universities, which includes all other Carnegie classifications (e.g., special focus institutions) and institutions without Carnegie classifications. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and new broad, major, and detailed fields are used in tables reporting data from 2021 to the present; see the field list in table A-4. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. For more information, see the \"Technical Notes\" and the SED 2021 Taxonomy Changes Working Paper (available at https://ncses.nsf.gov/pubs/ncses23200).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates.",
+  "temporalCoverage": "20/20"
+}

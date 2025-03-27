@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Years of UMETRICS data available from each institution with respect to an end year: AYs 2014\u201317",
+  "identifier": "NCSES-9336",
+  "description": "Years of UMETRICS data available from each institution with respect to an end year: AYs 2014\u201317",
+  "url": "https://example.org/datasets/ncses/tables/9336",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9336/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution_id",
+      "description": "Institution Id",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "The shaded cells denote that at least 3 years of research funding data is available with respect to an end year.",
+  "sources": "UMETRICS data, 2020 release."
+}

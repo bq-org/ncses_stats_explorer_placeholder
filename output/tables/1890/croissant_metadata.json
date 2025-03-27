@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for R&D and R&D plant, by agency, performer, and type of work: FY 2017",
+  "identifier": "NCSES-1890",
+  "description": "Federal obligations for R&D and R&D plant, by agency, performer, and type of work: FY 2017",
+  "url": "https://example.org/datasets/ncses/tables/1890",
+  "table_number": "S4-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1890/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_level_1, agency_level_2, agency_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_federal_obligations",
+      "description": "All Federal Obligations",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_intramurala",
+      "description": "Federal Intramurala",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performers_business_firms",
+      "description": "Extramural Performers Business Firms",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performers_united_states_and_u_s_territories_industry_ffrdcs",
+      "description": "Extramural Performers United States And U S Territories Industry Ffrdcs",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performers_united_states_and_u_s_territories_universities_and_colleges",
+      "description": "Extramural Performers United States And U S Territories Universities And Colleges",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performers_united_states_and_u_s_territories_university_ffrdcs",
+      "description": "Extramural Performers United States And U S Territories University Ffrdcs",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performers_united_states_and_u_s_territories_other_nonprofits",
+      "description": "Extramural Performers United States And U S Territories Other Nonprofits",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performers_united_states_and_u_s_territories_nonprofit_ffrdcs",
+      "description": "Extramural Performers United States And U S Territories Nonprofit Ffrdcs",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performers_united_states_and_u_s_territories_state_and_local_governments",
+      "description": "Extramural Performers United States And U S Territories State And Local Governments",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performers_foreign",
+      "description": "Extramural Performers Foreign",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Agencies included have total annual R&D obligations of $100 million or more. All other agencies include Department of Housing and Urban Development, Department of Labor, Department of State, Department of the Treasury, Appalachian Regional Commission, Consumer Product Safety Commission, Federal Communications Commission, Federal Trade Commission, Library of Congress, National Archives and Records Administration, Nuclear Regulatory Commission, Tennessee Valley Authority, and U.S. Postal Service.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Federal Funds for Research and Development, FYs 2018\u201319 (Volume 68).Science and Engineering Indicators"
+}

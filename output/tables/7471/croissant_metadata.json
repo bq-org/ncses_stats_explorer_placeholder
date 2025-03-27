@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Operating expenses, by company size and industry: 2019",
+  "identifier": "NCSES-7471",
+  "description": "Operating expenses, by company size and industry: 2019",
+  "url": "https://example.org/datasets/ncses/tables/7471",
+  "table_number": "87",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7471/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4, industry_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies",
+      "description": "All Companies",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1_4_employees",
+      "description": "1 4 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_5_9_employees",
+      "description": "5 9 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_10_19_employees",
+      "description": "10 19 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_20_49_employees",
+      "description": "20 49 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_50_99_employees",
+      "description": "50 99 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_100_249_employees",
+      "description": "100 249 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_250_499_employees",
+      "description": "250 499 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_500_999_employees",
+      "description": "500 999 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1_000_4_999_employees",
+      "description": "1 000 4 999 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_5_000_9_999_employees",
+      "description": "5 000 9 999 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_10_000_24_999_employees",
+      "description": "10 000 24 999 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_25_000_or_more_employees",
+      "description": "25 000 Or More Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding or unavailable NAICS detail for select records beyond the 4-digit industry classification. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2020 Annual Business Survey: Data Year 2019."
+}

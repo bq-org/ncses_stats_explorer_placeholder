@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed science, engineering, and health doctorate holders, by broad occupation, sex, sector of employment, and the extent work on principal job is related to doctoral degree: 2019",
+  "identifier": "NCSES-3326",
+  "description": "Employed science, engineering, and health doctorate holders, by broad occupation, sex, sector of employment, and the extent work on principal job is related to doctoral degree: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3326",
+  "table_number": "9-35",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3326/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation_and_sex",
+      "description": "Occupation and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_and_sex_level_1, occupation_and_sex_level_2, occupation_and_sex_level_3, occupation_and_sex_level_4, occupation_and_sex_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_and_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_at_4_year_educational_institution_relationship_between_principal_job_and_doctoral_degreea_closely_related",
+      "description": "Employed At 4 Year Educational Institution Relationship Between Principal Job And Doctoral Degreea Closely Related",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_at_4_year_educational_institution_relationship_between_principal_job_and_doctoral_degreea_somewhat_related",
+      "description": "Employed At 4 Year Educational Institution Relationship Between Principal Job And Doctoral Degreea Somewhat Related",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_at_4_year_educational_institution_relationship_between_principal_job_and_doctoral_degreea_not_related",
+      "description": "Employed At 4 Year Educational Institution Relationship Between Principal Job And Doctoral Degreea Not Related",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_in_another_employment_sector_relationship_between_principal_job_and_doctoral_degree_closely_related",
+      "description": "Employed In Another Employment Sector Relationship Between Principal Job And Doctoral Degree Closely Related",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_in_another_employment_sector_relationship_between_principal_job_and_doctoral_degree_somewhat_related",
+      "description": "Employed In Another Employment Sector Relationship Between Principal Job And Doctoral Degree Somewhat Related",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_in_another_employment_sector_relationship_between_principal_job_and_doctoral_degree_not_related",
+      "description": "Employed In Another Employment Sector Relationship Between Principal Job And Doctoral Degree Not Related",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers rounded to nearest 50. Detail may not add to total because of rounding and suppression. Estimates include those employed and living in the United States during the reference week. Question on relationship between job and degree asked on how principal job is related to respondent's first U.S. doctoral degree.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2019."
+}

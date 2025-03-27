@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research, experimental development, and R&D plant, by type of R&D, performer, and field of science and engineering: FYs 2016&#8211;20",
+  "identifier": "NCSES-3777",
+  "description": "Federal obligations for research, experimental development, and R&D plant, by type of R&D, performer, and field of science and engineering: FYs 2016&#8211;20",
+  "url": "https://example.org/datasets/ncses/tables/3777",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3777/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_r_d_performer_and_field",
+      "description": "Type of R&D, performer, and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_r_d_performer_and_field_level_1, type_of_r_d_performer_and_field_level_2, type_of_r_d_performer_and_field_level_3, type_of_r_d_performer_and_field_level_4, type_of_r_d_performer_and_field_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_r_d_performer_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_preliminary_2020",
+      "description": "Preliminary 2020",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_2016_17",
+      "description": " Change 2016 17",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_2017_18",
+      "description": " Change 2017 18",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_2018_19",
+      "description": " Change 2018 19",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_preliminary_change_2019_20",
+      "description": "Preliminary Change 2019 20",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Percentages are computed using actual dollars reported.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

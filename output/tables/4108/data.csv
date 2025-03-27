@@ -1,0 +1,108 @@
+table_id,row_id,teaching_field_and_selected_school_characteristic_full_path,teaching_field_and_selected_school_characteristic_level_1,teaching_field_and_selected_school_characteristic_level_2,teaching_field_and_selected_school_characteristic_level_3,teaching_field_and_selected_school_characteristic_level_4,teaching_field_and_selected_school_characteristic_hierarchy_depth,field_in_fielda,field_related_fieldb,field_general_educationc,field_otherd
+4108,r001,Public middle school,Public middle school,,,,1,,,,
+4108,r002,Public middle school -> Mathematics,Public middle school,Mathematics,,,2,69,2,24,5
+4108,r003,Public middle school -> Mathematics -> Minority enrollment (percent),Public middle school,Mathematics,Minority enrollment (percent),,3,,,,
+4108,r004,Public middle school -> Mathematics -> Minority enrollment (percent) -> 0&#8211;24,Public middle school,Mathematics,Minority enrollment (percent),0&#8211;24,4,75,3,20,2
+4108,r005,Public middle school -> Mathematics -> Minority enrollment (percent) -> 25&#8211;49,Public middle school,Mathematics,Minority enrollment (percent),25&#8211;49,4,75,s,20,4
+4108,r006,Public middle school -> Mathematics -> Minority enrollment (percent) -> 50&#8211;74,Public middle school,Mathematics,Minority enrollment (percent),50&#8211;74,4,63,s,30,6
+4108,r007,Public middle school -> Mathematics -> Minority enrollment (percent) -> 75 or more,Public middle school,Mathematics,Minority enrollment (percent),75 or more,4,61,2,29,8
+4108,r008,Public middle school -> Mathematics -> School poverty level (percent)<sup>e</sup>,Public middle school,Mathematics,School poverty level (percent)<sup>e</sup>,,3,,,,
+4108,r009,Public middle school -> Mathematics -> School poverty level (percent)<sup>e</sup> -> 0&#8211;34,Public middle school,Mathematics,School poverty level (percent)<sup>e</sup>,0&#8211;34,4,76,2,20,3
+4108,r010,Public middle school -> Mathematics -> School poverty level (percent)<sup>e</sup> -> 35&#8211;49,Public middle school,Mathematics,School poverty level (percent)<sup>e</sup>,35&#8211;49,4,73,s,19,7
+4108,r011,Public middle school -> Mathematics -> School poverty level (percent)<sup>e</sup> -> 50&#8211;74,Public middle school,Mathematics,School poverty level (percent)<sup>e</sup>,50&#8211;74,4,67,2,27,3
+4108,r012,Public middle school -> Mathematics -> School poverty level (percent)<sup>e</sup> -> 75 or more,Public middle school,Mathematics,School poverty level (percent)<sup>e</sup>,75 or more,4,62,2,28,7
+4108,r013,Public middle school -> Mathematics -> Community type ,Public middle school,Mathematics,Community type ,,3,,,,
+4108,r014,Public middle school -> Mathematics -> Community type  -> City,Public middle school,Mathematics,Community type ,City,4,67,1,26,6
+4108,r015,Public middle school -> Mathematics -> Community type  -> Suburban,Public middle school,Mathematics,Community type ,Suburban,4,71,2,22,5
+4108,r016,Public middle school -> Mathematics -> Community type  -> Town,Public middle school,Mathematics,Community type ,Town,4,68,2,26,5
+4108,r017,Public middle school -> Mathematics -> Community type  -> Rural,Public middle school,Mathematics,Community type ,Rural,4,72,s,25,s
+4108,r018,Public middle school -> Mathematics -> Region,Public middle school,Mathematics,Region,,3,,,,
+4108,r019,Public middle school -> Mathematics -> Region -> Northeast,Public middle school,Mathematics,Region,Northeast,4,75,3,15,7
+4108,r020,Public middle school -> Mathematics -> Region -> Midwest,Public middle school,Mathematics,Region,Midwest,4,72,3,22,s
+4108,r021,Public middle school -> Mathematics -> Region -> South,Public middle school,Mathematics,Region,South,4,65,s,29,5
+4108,r022,Public middle school -> Mathematics -> Region -> West,Public middle school,Mathematics,Region,West,4,71,2,23,4
+4108,r023,Public middle school -> Science,Public middle school,Science,,,2,76,na,20,4
+4108,r024,Public middle school -> Science -> Minority enrollment (percent),Public middle school,Science,Minority enrollment (percent),,3,,,,
+4108,r025,Public middle school -> Science -> Minority enrollment (percent) -> 0&#8211;24,Public middle school,Science,Minority enrollment (percent),0&#8211;24,4,77,na,19,4
+4108,r026,Public middle school -> Science -> Minority enrollment (percent) -> 25&#8211;49,Public middle school,Science,Minority enrollment (percent),25&#8211;49,4,74,na,22,4
+4108,r027,Public middle school -> Science -> Minority enrollment (percent) -> 50&#8211;74,Public middle school,Science,Minority enrollment (percent),50&#8211;74,4,79,na,19,s
+4108,r028,Public middle school -> Science -> Minority enrollment (percent) -> 75 or more,Public middle school,Science,Minority enrollment (percent),75 or more,4,76,na,19,6
+4108,r029,Public middle school -> Science -> School poverty level (percent)<sup>e</sup>,Public middle school,Science,School poverty level (percent)<sup>e</sup>,,3,,,,
+4108,r030,Public middle school -> Science -> School poverty level (percent)<sup>e</sup> -> 0&#8211;34,Public middle school,Science,School poverty level (percent)<sup>e</sup>,0&#8211;34,4,80,na,17,3
+4108,r031,Public middle school -> Science -> School poverty level (percent)<sup>e</sup> -> 35&#8211;49,Public middle school,Science,School poverty level (percent)<sup>e</sup>,35&#8211;49,4,78,na,18,s
+4108,r032,Public middle school -> Science -> School poverty level (percent)<sup>e</sup> -> 50&#8211;74,Public middle school,Science,School poverty level (percent)<sup>e</sup>,50&#8211;74,4,77,na,20,3
+4108,r033,Public middle school -> Science -> School poverty level (percent)<sup>e</sup> -> 75 or more,Public middle school,Science,School poverty level (percent)<sup>e</sup>,75 or more,4,68,na,26,6
+4108,r034,Public middle school -> Science -> Community type ,Public middle school,Science,Community type ,,3,,,,
+4108,r035,Public middle school -> Science -> Community type  -> City,Public middle school,Science,Community type ,City,4,72,na,24,4
+4108,r036,Public middle school -> Science -> Community type  -> Suburban,Public middle school,Science,Community type ,Suburban,4,80,na,17,3
+4108,r037,Public middle school -> Science -> Community type  -> Town,Public middle school,Science,Community type ,Town,4,70,na,21,8
+4108,r038,Public middle school -> Science -> Community type  -> Rural,Public middle school,Science,Community type ,Rural,4,78,na,20,s
+4108,r039,Public middle school -> Science -> Region,Public middle school,Science,Region,,3,,,,
+4108,r040,Public middle school -> Science -> Region -> Northeast,Public middle school,Science,Region,Northeast,4,82,na,13,s
+4108,r041,Public middle school -> Science -> Region -> Midwest,Public middle school,Science,Region,Midwest,4,79,na,20,s
+4108,r042,Public middle school -> Science -> Region -> South,Public middle school,Science,Region,South,4,72,na,23,4
+4108,r043,Public middle school -> Science -> Region -> West,Public middle school,Science,Region,West,4,77,na,18,5
+4108,r044,Public high school,Public high school,,,,1,,,,
+4108,r045,Public high school -> Mathematics,Public high school,Mathematics,,,2,87,3,4,6
+4108,r046,Public high school -> Mathematics -> Minority enrollment (percent),Public high school,Mathematics,Minority enrollment (percent),,3,,,,
+4108,r047,Public high school -> Mathematics -> Minority enrollment (percent) -> 0&#8211;24,Public high school,Mathematics,Minority enrollment (percent),0&#8211;24,4,88,2,4,5
+4108,r048,Public high school -> Mathematics -> Minority enrollment (percent) -> 25&#8211;49,Public high school,Mathematics,Minority enrollment (percent),25&#8211;49,4,91,2,3,4
+4108,r049,Public high school -> Mathematics -> Minority enrollment (percent) -> 50&#8211;74,Public high school,Mathematics,Minority enrollment (percent),50&#8211;74,4,87,2,6,5
+4108,r050,Public high school -> Mathematics -> Minority enrollment (percent) -> 75 or more,Public high school,Mathematics,Minority enrollment (percent),75 or more,4,83,4,4,9
+4108,r051,Public high school -> Mathematics -> School poverty level (percent)<sup>e</sup>,Public high school,Mathematics,School poverty level (percent)<sup>e</sup>,,3,,,,
+4108,r052,Public high school -> Mathematics -> School poverty level (percent)<sup>e</sup> -> 0&#8211;34,Public high school,Mathematics,School poverty level (percent)<sup>e</sup>,0&#8211;34,4,88,3,5,4
+4108,r053,Public high school -> Mathematics -> School poverty level (percent)<sup>e</sup> -> 35&#8211;49,Public high school,Mathematics,School poverty level (percent)<sup>e</sup>,35&#8211;49,4,87,3,4,6
+4108,r054,Public high school -> Mathematics -> School poverty level (percent)<sup>e</sup> -> 50&#8211;74,Public high school,Mathematics,School poverty level (percent)<sup>e</sup>,50&#8211;74,4,91,2,3,5
+4108,r055,Public high school -> Mathematics -> School poverty level (percent)<sup>e</sup> -> 75 or more,Public high school,Mathematics,School poverty level (percent)<sup>e</sup>,75 or more,4,83,3,5,9
+4108,r056,Public high school -> Mathematics -> Community type ,Public high school,Mathematics,Community type ,,3,,,,
+4108,r057,Public high school -> Mathematics -> Community type  -> City,Public high school,Mathematics,Community type ,City,4,86,3,4,8
+4108,r058,Public high school -> Mathematics -> Community type  -> Suburban,Public high school,Mathematics,Community type ,Suburban,4,88,3,5,5
+4108,r059,Public high school -> Mathematics -> Community type  -> Town,Public high school,Mathematics,Community type ,Town,4,89,s,5,5
+4108,r060,Public high school -> Mathematics -> Community type  -> Rural,Public high school,Mathematics,Community type ,Rural,4,88,4,3,5
+4108,r061,Public high school -> Mathematics -> Region,Public high school,Mathematics,Region,,3,,,,
+4108,r062,Public high school -> Mathematics -> Region -> Northeast,Public high school,Mathematics,Region,Northeast,4,85,4,5,7
+4108,r063,Public high school -> Mathematics -> Region -> Midwest,Public high school,Mathematics,Region,Midwest,4,91,s,3,4
+4108,r064,Public high school -> Mathematics -> Region -> South,Public high school,Mathematics,Region,South,4,87,3,5,5
+4108,r065,Public high school -> Mathematics -> Region -> West,Public high school,Mathematics,Region,West,4,86,3,4,7
+4108,r066,Public high school -> Biology and life sciences,Public high school,Biology and life sciences,,,2,90,6,2,3
+4108,r067,Public high school -> Biology and life sciences -> Minority enrollment (percent),Public high school,Biology and life sciences,Minority enrollment (percent),,3,,,,
+4108,r068,Public high school -> Biology and life sciences -> Minority enrollment (percent) -> 0&#8211;24,Public high school,Biology and life sciences,Minority enrollment (percent),0&#8211;24,4,92,3,3,s
+4108,r069,Public high school -> Biology and life sciences -> Minority enrollment (percent) -> 25&#8211;49,Public high school,Biology and life sciences,Minority enrollment (percent),25&#8211;49,4,87,7,3,s
+4108,r070,Public high school -> Biology and life sciences -> Minority enrollment (percent) -> 50&#8211;74,Public high school,Biology and life sciences,Minority enrollment (percent),50&#8211;74,4,93,5,s,s
+4108,r071,Public high school -> Biology and life sciences -> Minority enrollment (percent) -> 75 or more,Public high school,Biology and life sciences,Minority enrollment (percent),75 or more,4,85,11,s,4
+4108,r072,Public high school -> Biology and life sciences -> School poverty level (percent)<sup>e</sup>,Public high school,Biology and life sciences,School poverty level (percent)<sup>e</sup>,,3,,,,
+4108,r073,Public high school -> Biology and life sciences -> School poverty level (percent)<sup>e</sup> -> 0&#8211;34,Public high school,Biology and life sciences,School poverty level (percent)<sup>e</sup>,0&#8211;34,4,92,4,s,s
+4108,r074,Public high school -> Biology and life sciences -> School poverty level (percent)<sup>e</sup> -> 35&#8211;49,Public high school,Biology and life sciences,School poverty level (percent)<sup>e</sup>,35&#8211;49,4,93,5,s,s
+4108,r075,Public high school -> Biology and life sciences -> School poverty level (percent)<sup>e</sup> -> 50&#8211;74,Public high school,Biology and life sciences,School poverty level (percent)<sup>e</sup>,50&#8211;74,4,87,10,s,3
+4108,r076,Public high school -> Biology and life sciences -> School poverty level (percent)<sup>e</sup> -> 75 or more,Public high school,Biology and life sciences,School poverty level (percent)<sup>e</sup>,75 or more,4,87,8,s,3
+4108,r077,Public high school -> Biology and life sciences -> Community type ,Public high school,Biology and life sciences,Community type ,,3,,,,
+4108,r078,Public high school -> Biology and life sciences -> Community type  -> City,Public high school,Biology and life sciences,Community type ,City,4,88,8,3,s
+4108,r079,Public high school -> Biology and life sciences -> Community type  -> Suburban,Public high school,Biology and life sciences,Community type ,Suburban,4,92,4,s,4
+4108,r080,Public high school -> Biology and life sciences -> Community type  -> Town,Public high school,Biology and life sciences,Community type ,Town,4,90,8,s,s
+4108,r081,Public high school -> Biology and life sciences -> Community type  -> Rural,Public high school,Biology and life sciences,Community type ,Rural,4,87,8,s,s
+4108,r082,Public high school -> Biology and life sciences -> Region,Public high school,Biology and life sciences,Region,,3,,,,
+4108,r083,Public high school -> Biology and life sciences -> Region -> Northeast,Public high school,Biology and life sciences,Region,Northeast,4,96,s,s,s
+4108,r084,Public high school -> Biology and life sciences -> Region -> Midwest,Public high school,Biology and life sciences,Region,Midwest,4,94,4,s,s
+4108,r085,Public high school -> Biology and life sciences -> Region -> South,Public high school,Biology and life sciences,Region,South,4,81,12,2,5
+4108,r086,Public high school -> Biology and life sciences -> Region -> West,Public high school,Biology and life sciences,Region,West,4,95,4,s,s
+4108,r087,Public high school -> Physical sciences,Public high school,Physical sciences,,,2,76,21,1,3
+4108,r088,Public high school -> Physical sciences -> Minority enrollment (percent),Public high school,Physical sciences,Minority enrollment (percent),,3,,,,
+4108,r089,Public high school -> Physical sciences -> Minority enrollment (percent) -> 0&#8211;24,Public high school,Physical sciences,Minority enrollment (percent),0&#8211;24,4,80,17,2,s
+4108,r090,Public high school -> Physical sciences -> Minority enrollment (percent) -> 25&#8211;49,Public high school,Physical sciences,Minority enrollment (percent),25&#8211;49,4,78,20,s,s
+4108,r091,Public high school -> Physical sciences -> Minority enrollment (percent) -> 50&#8211;74,Public high school,Physical sciences,Minority enrollment (percent),50&#8211;74,4,69,28,#,3
+4108,r092,Public high school -> Physical sciences -> Minority enrollment (percent) -> 75 or more,Public high school,Physical sciences,Minority enrollment (percent),75 or more,4,73,19,s,8
+4108,r093,Public high school -> Physical sciences -> School poverty level (percent)<sup>e</sup>,Public high school,Physical sciences,School poverty level (percent)<sup>e</sup>,,3,,,,
+4108,r094,Public high school -> Physical sciences -> School poverty level (percent)<sup>e</sup> -> 0&#8211;34,Public high school,Physical sciences,School poverty level (percent)<sup>e</sup>,0&#8211;34,4,84,14,1,s
+4108,r095,Public high school -> Physical sciences -> School poverty level (percent)<sup>e</sup> -> 35&#8211;49,Public high school,Physical sciences,School poverty level (percent)<sup>e</sup>,35&#8211;49,4,70,27,s,s
+4108,r096,Public high school -> Physical sciences -> School poverty level (percent)<sup>e</sup> -> 50&#8211;74,Public high school,Physical sciences,School poverty level (percent)<sup>e</sup>,50&#8211;74,4,71,25,s,s
+4108,r097,Public high school -> Physical sciences -> School poverty level (percent)<sup>e</sup> -> 75 or more,Public high school,Physical sciences,School poverty level (percent)<sup>e</sup>,75 or more,4,71,21,#,8
+4108,r098,Public high school -> Physical sciences -> Community type ,Public high school,Physical sciences,Community type ,,3,,,,
+4108,r099,Public high school -> Physical sciences -> Community type  -> City,Public high school,Physical sciences,Community type ,City,4,72,23,s,5
+4108,r100,Public high school -> Physical sciences -> Community type  -> Suburban,Public high school,Physical sciences,Community type ,Suburban,4,83,15,s,1
+4108,r101,Public high school -> Physical sciences -> Community type  -> Town,Public high school,Physical sciences,Community type ,Town,4,72,26,#,s
+4108,r102,Public high school -> Physical sciences -> Community type  -> Rural,Public high school,Physical sciences,Community type ,Rural,4,67,28,s,4
+4108,r103,Public high school -> Physical sciences -> Region,Public high school,Physical sciences,Region,,3,,,,
+4108,r104,Public high school -> Physical sciences -> Region -> Northeast,Public high school,Physical sciences,Region,Northeast,4,91,6,s,s
+4108,r105,Public high school -> Physical sciences -> Region -> Midwest,Public high school,Physical sciences,Region,Midwest,4,79,18,s,2
+4108,r106,Public high school -> Physical sciences -> Region -> South,Public high school,Physical sciences,Region,South,4,60,36,s,3
+4108,r107,Public high school -> Physical sciences -> Region -> West,Public high school,Physical sciences,Region,West,4,80,14,s,s

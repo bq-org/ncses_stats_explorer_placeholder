@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Funds spent for business R&D performed in the United States, by size of company: Selected years, 2010&#8211;17",
+  "identifier": "NCSES-1882",
+  "description": "Funds spent for business R&D performed in the United States, by size of company: Selected years, 2010&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1882",
+  "table_number": "4-12",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1882/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "size_of_company_number_of_domestic_employees",
+      "description": "Size of company (number of domestic employees) hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "size_of_company_number_of_domestic_employees_level_1, size_of_company_number_of_domestic_employees_level_2, size_of_company_number_of_domestic_employees_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "size_of_company_number_of_domestic_employees_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_millions_of_dollars_2010",
+      "description": "Millions Of Dollars 2010",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_millions_of_dollars_2012",
+      "description": "Millions Of Dollars 2012",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_millions_of_dollars_2014",
+      "description": "Millions Of Dollars 2014",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_millions_of_dollars_2015",
+      "description": "Millions Of Dollars 2015",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_millions_of_dollars_2016",
+      "description": "Millions Of Dollars 2016",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_millions_of_dollars_2017",
+      "description": "Millions Of Dollars 2017",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_all_business_r_d_2010",
+      "description": "Percentage Of All Business R D 2010",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_all_business_r_d_2012",
+      "description": "Percentage Of All Business R D 2012",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_all_business_r_d_2014",
+      "description": "Percentage Of All Business R D 2014",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_all_business_r_d_2015",
+      "description": "Percentage Of All Business R D 2015",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_all_business_r_d_2016",
+      "description": "Percentage Of All Business R D 2016",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_all_business_r_d_2017",
+      "description": "Percentage Of All Business R D 2017",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. This table excludes data for federally funded R&D centers.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Business R&D and Innovation Survey (BRDIS), Business Research and Development Survey (BRDS) (annual series).Science and Engineering Indicators"
+}

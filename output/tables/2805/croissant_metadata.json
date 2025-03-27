@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Top 20 doctorate-granting institutions ranked by number of minority U.S. citizen and permanent resident doctorate recipients, by ethnicity and race: 5-year total, 2015&#8211;19",
+  "identifier": "NCSES-2805",
+  "description": "Top 20 doctorate-granting institutions ranked by number of minority U.S. citizen and permanent resident doctorate recipients, by ethnicity and race: 5-year total, 2015&#8211;19",
+  "url": "https://example.org/datasets/ncses/tables/2805",
+  "table_number": "9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2805/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "institution_level_1, institution_level_2, institution_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_recipients",
+      "description": "Doctorate Recipients",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Tied institutions are listed alphabetically.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

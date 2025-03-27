@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal facility R&D expenditures, by funding agency: FY 2022",
+  "identifier": "NCSES-12494",
+  "description": "Federal facility R&D expenditures, by funding agency: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/12494",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12494/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_agency_or_facility_b",
+      "description": "Agency or facility hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_agency_or_facility_b_level_1, _b_agency_or_facility_b_level_2, _b_agency_or_facility_b_level_3, _b_agency_or_facility_b_level_4, _b_agency_or_facility_b_level_5, _b_agency_or_facility_b_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_agency_or_facility_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_federally_funded_r_d_expenditures",
+      "description": "All Federally Funded R D Expenditures",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_department_of_agriculture",
+      "description": "Funding Agency Department Of Agriculture",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_department_of_commerce",
+      "description": "Funding Agency Department Of Commerce",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_department_of_defense",
+      "description": "Funding Agency Department Of Defense",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_department_of_energy",
+      "description": "Funding Agency Department Of Energy",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_department_of_health_and_human_services",
+      "description": "Funding Agency Department Of Health And Human Services",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_department_of_homeland_security",
+      "description": "Funding Agency Department Of Homeland Security",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_department_of_the_interior",
+      "description": "Funding Agency Department Of The Interior",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_department_of_transportation",
+      "description": "Funding Agency Department Of Transportation",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_department_of_veterans_affairs",
+      "description": "Funding Agency Department Of Veterans Affairs",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_environmental_protection_agency",
+      "description": "Funding Agency Environmental Protection Agency",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_national_aeronautics_and_space_administration",
+      "description": "Funding Agency National Aeronautics And Space Administration",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funding_agency_other_federal_agencies",
+      "description": "Funding Agency Other Federal Agencies",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Federal Facilities Research and Development Survey, FY 2022."
+}

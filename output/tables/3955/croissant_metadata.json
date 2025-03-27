@@ -1,0 +1,146 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research and experimental development, by state or location and selected agency: FY 2019",
+  "identifier": "NCSES-3955",
+  "description": "Federal obligations for research and experimental development, by state or location and selected agency: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3955",
+  "table_number": "91",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3955/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_or_location_b",
+      "description": "State or location hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_or_location_b_level_1, _b_state_or_location_b_level_2, _b_state_or_location_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_or_location_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dhs",
+      "description": "Dhs",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doc",
+      "description": "Doc",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dod",
+      "description": "Dod",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doe",
+      "description": "Doe",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doi",
+      "description": "Doi",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dot",
+      "description": "Dot",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_epa",
+      "description": "Epa",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hhs",
+      "description": "Hhs",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nasa",
+      "description": "Nasa",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nsf",
+      "description": "Nsf",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_usda",
+      "description": "Usda",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Eleven agencies are required to report data for this section of the survey: DHS, DOC, DOD, DOE, DOI, DOT, EPA, HHS, NASA, NSF, and USDA. Obligations of these 11 agencies represented more than 97% of total federal R&D obligations in FY 2019. Geographic distribution of DOD development funding to industry reflects location of prime contractors and not the numerous subcontractors who perform much of the R&D. See technical table A-2 for additional notes associated with the agencies listed in this table.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2019\u201320."
+}

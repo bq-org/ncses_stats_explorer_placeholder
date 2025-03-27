@@ -1,0 +1,13 @@
+table_id,row_id,budget_function_and_agency_full_path,budget_function_and_agency_level_1,budget_function_and_agency_level_2,budget_function_and_agency_level_3,budget_function_and_agency_level_4,budget_function_and_agency_level_5,budget_function_and_agency_hierarchy_depth,field_2022_actual,field_2023_preliminary,field_2024_proposed,field_2022_23_change_,field_2023_24_change_
+10440,r001,R&D and R&D plant,R&D and R&D plant,,,,,1,8,8,8,0.0,0.0
+10440,r002,R&D and R&D plant -> Community Development (451),R&D and R&D plant,Community Development (451),,,,2,0,0,0,-,-
+10440,r003,R&D and R&D plant -> Area and Regional Development (452),R&D and R&D plant,Area and Regional Development (452),,,,2,8,8,8,0.0,0.0
+10440,r004,R&D and R&D plant -> Area and Regional Development (452) -> Department of the Interior ,R&D and R&D plant,Area and Regional Development (452),Department of the Interior ,,,3,5,5,5,0.0,0.0
+10440,r005,R&D and R&D plant -> Area and Regional Development (452) -> Department of the Interior  -> Bureau of Indian Affairs and Bureau of Indian Education,R&D and R&D plant,Area and Regional Development (452),Department of the Interior ,Bureau of Indian Affairs and Bureau of Indian Education,,4,5,5,5,0.0,0.0
+10440,r006,R&D and R&D plant -> Area and Regional Development (452) -> Appalachian Regional Commission,R&D and R&D plant,Area and Regional Development (452),Appalachian Regional Commission,,,3,3,3,3,0.0,0.0
+10440,r007,R&D and R&D plant -> R&D,R&D and R&D plant,R&D,,,,2,8,8,8,0.0,0.0
+10440,r008,R&D and R&D plant -> R&D -> Community Development (451),R&D and R&D plant,R&D,Community Development (451),,,3,0,0,0,-,-
+10440,r009,R&D and R&D plant -> R&D -> Area and Regional Development (452),R&D and R&D plant,R&D,Area and Regional Development (452),,,3,8,8,8,0.0,0.0
+10440,r010,R&D and R&D plant -> R&D -> Area and Regional Development (452) -> Department of the Interior,R&D and R&D plant,R&D,Area and Regional Development (452),Department of the Interior,,4,5,5,5,0.0,0.0
+10440,r011,R&D and R&D plant -> R&D -> Area and Regional Development (452) -> Department of the Interior -> Bureau of Indian Affairs and Bureau of Indian Education,R&D and R&D plant,R&D,Area and Regional Development (452),Department of the Interior,Bureau of Indian Affairs and Bureau of Indian Education,5,5,5,5,0.0,0.0
+10440,r012,R&D and R&D plant -> R&D -> Area and Regional Development (452) -> Appalachian Regional Commission,R&D and R&D plant,R&D,Area and Regional Development (452),Appalachian Regional Commission,,4,3,3,3,0.0,0.0

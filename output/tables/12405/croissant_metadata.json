@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Share of research doctorates with definite non-postdoctoral employment commitments, by sector: 2002, 2012, and 2022",
+  "identifier": "NCSES-12405",
+  "description": "Share of research doctorates with definite non-postdoctoral employment commitments, by sector: 2002, 2012, and 2022",
+  "url": "https://example.org/datasets/ncses/tables/12405",
+  "table_number": "A-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12405/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "directorate",
+      "description": "Directorate",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "year",
+      "description": "Year",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "educational_institutiona",
+      "description": "Educational Institutiona",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "governmentb",
+      "description": "Governmentb",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "business_and_industryc",
+      "description": "Business And Industryc",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Excludes respondents who did not report employer type.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2022."
+}

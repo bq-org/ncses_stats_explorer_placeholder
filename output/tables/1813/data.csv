@@ -1,0 +1,485 @@
+table_id,row_id,state_or_location_and_institution_full_path,state_or_location_and_institution_level_1,state_or_location_and_institution_level_2,state_or_location_and_institution_level_3,state_or_location_and_institution_hierarchy_depth,field_all_fields,field_science_life_sciences_total,field_science_life_sciences_agricultural_sciences_and_natural_resources,field_science_life_sciences_biological_and_biomedical_sciences,field_science_life_sciences_health_sciences,field_science_physical_sciences_and_earth_sciences_total,field_science_physical_sciences_and_earth_sciences_chemistry,field_science_physical_sciences_and_earth_sciences_geosciences_atmospheric_sciences_and_ocean_sciences,field_science_physical_sciences_and_earth_sciences_physics_and_astronomy,field_science_mathematics_and_computer_sciences_total,field_science_mathematics_and_computer_sciences_computer_and_information_sciences,field_science_mathematics_and_computer_sciences_mathematics_and_statistics,field_science_psychology_and_social_sciences_total,field_science_psychology_and_social_sciences_psychology,field_science_psychology_and_social_sciences_anthropology,field_science_psychology_and_social_sciences_economics,field_science_psychology_and_social_sciences_political_science_and_government,field_science_psychology_and_social_sciences_sociology,field_science_psychology_and_social_sciences_other_social_sciences,field_engineering_total,field_engineering_aerospace_aeronautical_and_astronautical,field_engineering_bioengineering_and_biomedical,field_engineering_chemical,field_engineering_civil,field_engineering_electrical_electronics_and_communications,field_engineering_industrial_and_manufacturing,field_engineering_materials_science,field_engineering_mechanical,field_engineering_other_engineering
+1813,r001,All institutions,All institutions,,,1,55195,12780,1445,8801,2534,6335,2810,1185,2340,4030,2004,2026,8899,3837,424,1247,734,669,1988,10183,383,1134,981,677,1951,272,995,1504,2286
+1813,r002,All institutions -> Alabama,All institutions,Alabama,,2,667,206,29,129,48,42,15,8,19,35,20,15,82,63,1,6,5,2,5,128,7,6,14,15,19,13,16,21,17
+1813,r003,All institutions -> Alabama -> Alabama A&M U.,All institutions,Alabama,Alabama A&M U.,3,8,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r004,All institutions -> Alabama -> Alabama State U.,All institutions,Alabama,Alabama State U.,3,8,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r005,"All institutions -> Alabama -> Auburn U., Auburn",All institutions,Alabama,"Auburn U., Auburn",3,253,69,26,27,16,15,4,2,9,13,5,8,34,26,0,5,1,0,2,62,3,3,12,5,9,12,2,12,4
+1813,r006,All institutions -> Alabama -> Tuskegee U.,All institutions,Alabama,Tuskegee U.,3,3,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,0
+1813,r007,"All institutions -> Alabama -> U. Alabama, Birmingham",All institutions,Alabama,"U. Alabama, Birmingham",3,165,111,0,82,29,5,2,1,2,6,5,1,16,14,0,0,0,2,0,15,0,3,0,1,0,0,6,1,4
+1813,r008,"All institutions -> Alabama -> U. Alabama, Huntsville",All institutions,Alabama,"U. Alabama, Huntsville",3,25,3,0,3,0,5,0,2,3,5,4,1,0,0,0,0,0,0,0,12,0,0,2,1,3,1,1,2,2
+1813,r009,"All institutions -> Alabama -> U. Alabama, Tuscaloosa",All institutions,Alabama,"U. Alabama, Tuscaloosa",3,182,10,1,7,2,16,9,2,5,10,5,5,26,17,1,1,4,0,3,35,4,0,0,8,7,0,5,6,5
+1813,r010,All institutions -> Alabama -> U. South Alabama,All institutions,Alabama,U. South Alabama,3,23,8,0,7,1,1,0,1,0,1,1,0,6,6,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2
+1813,r011,All institutions -> Alaska,All institutions,Alaska,,2,56,17,7,10,0,15,0,13,2,0,0,0,15,5,0,2,0,0,8,3,0,0,0,0,0,0,0,0,3
+1813,r012,"All institutions -> Alaska -> U. Alaska, Anchorage",All institutions,Alaska,"U. Alaska, Anchorage",3,2,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r013,"All institutions -> Alaska -> U. Alaska, Fairbanks",All institutions,Alaska,"U. Alaska, Fairbanks",3,54,17,7,10,0,15,0,13,2,0,0,0,13,3,0,2,0,0,8,3,0,0,0,0,0,0,0,0,3
+1813,r014,All institutions -> Arizona,All institutions,Arizona,,2,764,130,15,84,31,95,24,31,40,52,22,30,139,38,8,8,10,3,72,144,3,13,14,5,37,7,15,13,37
+1813,r015,All institutions -> Arizona -> Arizona State U.,All institutions,Arizona,Arizona State U.,3,338,43,5,31,7,17,5,6,6,31,18,13,56,20,5,2,4,0,25,96,1,8,7,3,28,7,12,9,21
+1813,r016,All institutions -> Arizona -> Northern Arizona U.,All institutions,Arizona,Northern Arizona U.,3,27,8,0,7,1,2,0,2,0,0,0,0,13,1,0,0,5,0,7,1,0,0,0,0,0,0,0,0,1
+1813,r017,All institutions -> Arizona -> Prescott C.,All institutions,Arizona,Prescott C.,3,10,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r018,All institutions -> Arizona -> U. Arizona,All institutions,Arizona,U. Arizona,3,389,78,10,45,23,76,19,23,34,21,4,17,69,17,3,6,1,3,39,47,2,5,7,2,9,0,3,4,15
+1813,r019,All institutions -> Arkansas,All institutions,Arkansas,,2,266,93,29,44,20,23,6,3,14,13,8,5,20,7,3,2,0,0,8,54,0,3,4,5,12,8,5,6,11
+1813,r020,"All institutions -> Arkansas -> Arkansas State U., Jonesboro",All institutions,Arkansas,"Arkansas State U., Jonesboro",3,8,3,3,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,1,0,0,0,0,0,0,1,0,0
+1813,r021,All institutions -> Arkansas -> U. Arkansas for Medical Sciences,All institutions,Arkansas,U. Arkansas for Medical Sciences,3,33,32,0,21,11,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r022,"All institutions -> Arkansas -> U. Arkansas, Fayetteville",All institutions,Arkansas,"U. Arkansas, Fayetteville",3,197,53,26,18,9,17,3,3,11,5,3,2,16,7,3,2,0,0,4,48,0,3,4,5,12,8,4,4,8
+1813,r023,"All institutions -> Arkansas -> U. Arkansas, Little Rock",All institutions,Arkansas,"U. Arkansas, Little Rock",3,28,5,0,5,0,5,2,0,3,8,5,3,2,0,0,0,0,0,2,5,0,0,0,0,0,0,0,2,3
+1813,r024,All institutions -> California,All institutions,California,,2,6076,1232,97,1003,132,884,373,189,322,486,260,226,1180,513,57,173,100,90,247,1189,46,161,94,65,259,2,155,186,221
+1813,r025,All institutions -> California -> Alliant International U.,All institutions,California,Alliant International U.,3,93,0,0,0,0,0,0,0,0,0,0,0,89,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r026,All institutions -> California -> Azusa Pacific U.,All institutions,California,Azusa Pacific U.,3,19,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r027,All institutions -> California -> Biola U.,All institutions,California,Biola U.,3,22,0,0,0,0,0,0,0,0,0,0,0,13,9,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0
+1813,r028,All institutions -> California -> California Institute of Integral Studies,All institutions,California,California Institute of Integral Studies,3,31,1,0,0,1,0,0,0,0,0,0,0,16,12,1,0,0,1,2,0,0,0,0,0,0,0,0,0,0
+1813,r029,All institutions -> California -> California Institute of Technology,All institutions,California,California Institute of Technology,3,190,21,1,20,0,89,31,12,46,7,2,5,8,2,0,4,1,0,1,65,13,10,3,4,8,0,12,11,4
+1813,r030,All institutions -> California -> Chapman U.,All institutions,California,Chapman U.,3,14,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r031,"All institutions -> California -> City of Hope, Irell and Manella Graduate School of Biological Sciences",All institutions,California,"City of Hope, Irell and Manella Graduate School of Biological Sciences",3,11,11,0,10,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r032,All institutions -> California -> Claremont Graduate U.,All institutions,California,Claremont Graduate U.,3,111,2,0,2,0,0,0,0,0,14,9,5,49,20,0,13,13,0,3,0,0,0,0,0,0,0,0,0,0
+1813,r033,All institutions -> California -> Claremont School of Theology,All institutions,California,Claremont School of Theology,3,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r034,All institutions -> California -> Fielding Graduate U.,All institutions,California,Fielding Graduate U.,3,96,0,0,0,0,0,0,0,0,0,0,0,65,63,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+1813,r035,All institutions -> California -> Frederick S. Pardee RAND Graduate School,All institutions,California,Frederick S. Pardee RAND Graduate School,3,15,0,0,0,0,0,0,0,0,0,0,0,15,0,0,1,0,0,14,0,0,0,0,0,0,0,0,0,0
+1813,r036,All institutions -> California -> Fuller Theological Seminary,All institutions,California,Fuller Theological Seminary,3,29,0,0,0,0,0,0,0,0,0,0,0,17,16,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r037,All institutions -> California -> Graduate Theological Union,All institutions,California,Graduate Theological Union,3,22,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r038,All institutions -> California -> Keck Graduate Institute,All institutions,California,Keck Graduate Institute,3,3,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r039,All institutions -> California -> La Sierra U.,All institutions,California,La Sierra U.,3,6,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r040,All institutions -> California -> Loma Linda U.,All institutions,California,Loma Linda U.,3,40,22,0,12,10,3,0,3,0,0,0,0,14,13,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r041,All institutions -> California -> Naval Postgraduate School,All institutions,California,Naval Postgraduate School,3,6,0,0,0,0,1,0,0,1,1,0,1,1,0,0,0,0,0,1,3,0,0,0,0,1,0,0,1,1
+1813,r042,All institutions -> California -> Palo Alto U.,All institutions,California,Palo Alto U.,3,58,0,0,0,0,0,0,0,0,0,0,0,58,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r043,"All institutions -> California -> San Diego State U., San Diego",All institutions,California,"San Diego State U., San Diego",3,62,23,0,13,10,6,4,2,0,4,0,4,12,10,0,0,0,0,2,3,0,0,0,0,1,0,0,1,1
+1813,r044,"All institutions -> California -> Sanford-Burnham Medical Research Institute, La Jolla",All institutions,California,"Sanford-Burnham Medical Research Institute, La Jolla",3,5,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r045,All institutions -> California -> Santa Clara U.,All institutions,California,Santa Clara U.,3,6,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,5,0,0,0,0,1,0,0,1,3
+1813,r046,All institutions -> California -> Saybrook U.,All institutions,California,Saybrook U.,3,32,2,0,0,2,0,0,0,0,0,0,0,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r047,All institutions -> California -> Scripps Research Institute,All institutions,California,Scripps Research Institute,3,35,22,0,21,1,13,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r048,All institutions -> California -> Sofia U.,All institutions,California,Sofia U.,3,11,1,0,0,1,0,0,0,0,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r049,All institutions -> California -> Stanford U.,All institutions,California,Stanford U.,3,726,127,11,116,0,121,46,34,41,55,29,26,84,17,9,30,14,5,9,229,16,18,20,13,57,0,29,39,37
+1813,r050,"All institutions -> California -> U. California, Berkeley",All institutions,California,"U. California, Berkeley",3,852,156,23,127,6,130,68,16,46,78,44,34,137,17,10,26,11,19,54,191,0,18,14,16,40,0,13,32,58
+1813,r051,"All institutions -> California -> U. California, Davis",All institutions,California,"U. California, Davis",3,546,197,45,143,9,79,35,14,30,40,15,25,67,22,7,15,4,7,12,93,4,15,8,7,20,0,7,9,23
+1813,r052,"All institutions -> California -> U. California, Irvine",All institutions,California,"U. California, Irvine",3,380,54,0,50,4,76,42,13,21,43,29,14,73,25,5,13,8,8,14,77,5,13,8,8,9,0,6,14,14
+1813,r053,"All institutions -> California -> U. California, Los Angeles",All institutions,California,"U. California, Los Angeles",3,688,145,0,117,28,69,32,14,23,57,24,33,140,33,7,19,17,20,44,124,5,19,13,7,26,0,23,30,1
+1813,r054,"All institutions -> California -> U. California, Merced",All institutions,California,"U. California, Merced",3,53,7,2,4,1,12,1,2,9,6,3,3,14,11,0,0,2,1,0,13,0,2,0,0,1,0,2,5,3
+1813,r055,"All institutions -> California -> U. California, Riverside",All institutions,California,"U. California, Riverside",3,299,77,7,69,1,43,19,3,21,26,10,16,45,18,3,6,2,5,11,52,0,7,10,0,13,0,12,4,6
+1813,r056,"All institutions -> California -> U. California, San Diego",All institutions,California,"U. California, San Diego",3,471,91,0,90,1,99,22,45,32,39,25,14,56,5,7,14,11,6,13,125,1,23,1,0,28,0,23,15,34
+1813,r057,"All institutions -> California -> U. California, San Francisco",All institutions,California,"U. California, San Francisco",3,132,109,0,98,11,6,6,0,0,0,0,0,7,0,1,0,0,4,2,9,0,9,0,0,0,0,0,0,0
+1813,r058,"All institutions -> California -> U. California, Santa Barbara",All institutions,California,"U. California, Santa Barbara",3,355,22,4,18,0,73,25,11,37,39,20,19,65,23,0,11,6,6,19,74,0,5,12,0,19,0,24,9,5
+1813,r059,"All institutions -> California -> U. California, Santa Cruz",All institutions,California,"U. California, Santa Cruz",3,157,25,2,23,0,22,6,9,7,28,11,17,44,4,7,12,8,3,10,10,0,1,0,0,3,0,0,0,6
+1813,r060,All institutions -> California -> U. of the Pacific,All institutions,California,U. of the Pacific,3,4,2,0,1,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r061,All institutions -> California -> U. of the West,All institutions,California,U. of the West,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r062,All institutions -> California -> U. San Diego,All institutions,California,U. San Diego,3,30,13,0,0,13,0,0,0,0,0,0,0,3,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+1813,r063,All institutions -> California -> U. San Francisco,All institutions,California,U. San Francisco,3,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r064,All institutions -> California -> U. Southern California,All institutions,California,U. Southern California,3,435,90,2,61,27,40,21,11,8,46,36,10,53,12,0,9,3,5,24,116,2,21,5,10,32,2,4,15,25
+1813,r065,All institutions -> Colorado,All institutions,Colorado,,2,1052,221,32,154,35,181,54,61,66,62,30,32,141,74,1,15,10,6,35,220,20,18,24,24,37,0,9,28,60
+1813,r066,All institutions -> Colorado -> Colorado School of Mines,All institutions,Colorado,Colorado School of Mines,3,111,7,6,1,0,45,12,26,7,4,4,0,1,0,0,1,0,0,0,54,0,0,10,1,2,0,8,3,30
+1813,r067,"All institutions -> Colorado -> Colorado State U., Fort Collins",All institutions,Colorado,"Colorado State U., Fort Collins",3,250,95,23,60,12,40,16,13,11,15,6,9,32,16,0,10,2,1,3,43,0,9,4,7,8,0,0,7,8
+1813,r068,"All institutions -> Colorado -> U. CO, Denver, Aurora, Anschutz Medical Campus",All institutions,Colorado,"U. CO, Denver, Aurora, Anschutz Medical Campus",3,65,65,0,45,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r069,All institutions -> Colorado -> U. Colorado Boulder,All institutions,Colorado,U. Colorado Boulder,3,383,47,3,42,2,88,22,21,45,32,15,17,51,21,1,4,8,5,12,88,20,3,10,13,17,0,0,15,10
+1813,r070,All institutions -> Colorado -> U. Colorado Colorado Springs,All institutions,Colorado,U. Colorado Colorado Springs,3,23,0,0,0,0,1,0,0,1,2,2,0,3,3,0,0,0,0,0,11,0,0,0,0,1,0,0,1,9
+1813,r071,All institutions -> Colorado -> U. Colorado Denver,All institutions,Colorado,U. Colorado Denver,3,33,1,0,1,0,0,0,0,0,4,2,2,9,3,0,0,0,0,6,11,0,6,0,3,1,0,0,0,1
+1813,r072,All institutions -> Colorado -> U. Denver,All institutions,Colorado,U. Denver,3,103,4,0,4,0,6,3,1,2,1,1,0,27,14,0,0,0,0,13,13,0,0,0,0,8,0,1,2,2
+1813,r073,All institutions -> Colorado -> U. Northern Colorado,All institutions,Colorado,U. Northern Colorado,3,84,2,0,1,1,1,1,0,0,4,0,4,18,17,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r074,All institutions -> Connecticut,All institutions,Connecticut,,2,786,203,8,165,30,116,53,17,46,50,22,28,127,39,12,21,16,14,25,112,0,25,13,0,19,1,19,13,22
+1813,r075,All institutions -> Connecticut -> U. Bridgeport,All institutions,Connecticut,U. Bridgeport,3,14,0,0,0,0,0,0,0,0,12,12,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+1813,r076,"All institutions -> Connecticut -> U. Connecticut, Storrs",All institutions,Connecticut,"U. Connecticut, Storrs",3,334,79,5,50,24,41,26,3,12,25,8,17,59,26,2,8,7,6,10,75,0,13,8,0,14,0,16,9,15
+1813,r077,All institutions -> Connecticut -> U. Hartford,All institutions,Connecticut,U. Hartford,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r078,All institutions -> Connecticut -> U. New Haven,All institutions,Connecticut,U. New Haven,3,4,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0
+1813,r079,All institutions -> Connecticut -> Wesleyan U.,All institutions,Connecticut,Wesleyan U.,3,20,10,0,10,0,6,2,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r080,All institutions -> Connecticut -> Yale U.,All institutions,Connecticut,Yale U.,3,413,114,3,105,6,69,25,14,30,13,2,11,64,13,10,13,9,8,11,36,0,12,5,0,5,1,3,4,6
+1813,r081,All institutions -> Delaware,All institutions,Delaware,,2,238,39,12,19,8,48,28,7,13,21,12,9,36,8,0,11,1,1,15,83,0,3,28,6,15,0,7,11,13
+1813,r082,All institutions -> Delaware -> Delaware State U.,All institutions,Delaware,Delaware State U.,3,7,0,0,0,0,3,1,0,2,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r083,All institutions -> Delaware -> U. Delaware,All institutions,Delaware,U. Delaware,3,231,39,12,19,8,45,27,7,11,17,12,5,36,8,0,11,1,1,15,83,0,3,28,6,15,0,7,11,13
+1813,r084,All institutions -> District of Columbia,All institutions,District of Columbia,,2,588,75,1,69,5,38,26,0,12,33,20,13,168,60,9,29,27,2,41,66,2,7,0,2,11,0,1,10,33
+1813,r085,All institutions -> District of Columbia -> American U.,All institutions,District of Columbia,American U.,3,43,1,0,1,0,0,0,0,0,0,0,0,33,9,3,13,2,0,6,0,0,0,0,0,0,0,0,0,0
+1813,r086,All institutions -> District of Columbia -> Catholic U. of America,All institutions,District of Columbia,Catholic U. of America,3,86,5,0,2,3,3,0,0,3,4,4,0,15,9,0,0,4,0,2,10,0,5,0,1,2,0,0,1,1
+1813,r087,All institutions -> District of Columbia -> Gallaudet U.,All institutions,District of Columbia,Gallaudet U.,3,14,0,0,0,0,0,0,0,0,0,0,0,11,7,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0
+1813,r088,All institutions -> District of Columbia -> George Washington U.,All institutions,District of Columbia,George Washington U.,3,255,28,0,28,0,16,10,0,6,19,7,12,50,16,6,7,8,0,13,52,2,2,0,1,7,0,1,7,32
+1813,r089,All institutions -> District of Columbia -> Georgetown U.,All institutions,District of Columbia,Georgetown U.,3,108,23,0,23,0,14,11,0,3,7,7,0,30,3,0,4,12,0,11,0,0,0,0,0,0,0,0,0,0
+1813,r090,All institutions -> District of Columbia -> Howard U.,All institutions,District of Columbia,Howard U.,3,82,18,1,15,2,5,5,0,0,3,2,1,29,16,0,5,1,2,5,4,0,0,0,0,2,0,0,2,0
+1813,r091,All institutions -> Florida,All institutions,Florida,,2,2346,517,79,319,119,276,134,60,82,201,107,94,348,158,24,14,20,25,107,414,16,29,12,36,87,18,39,64,113
+1813,r092,All institutions -> Florida -> Barry U.,All institutions,Florida,Barry U.,3,29,0,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r093,"All institutions -> Florida -> Embry-Riddle Aeronautical U., Daytona Beach",All institutions,Florida,"Embry-Riddle Aeronautical U., Daytona Beach",3,13,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,11,6,0,0,0,0,0,0,0,5
+1813,r094,All institutions -> Florida -> Florida A&M U.,All institutions,Florida,Florida A&M U.,3,16,9,3,1,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+1813,r095,All institutions -> Florida -> Florida Atlantic U.,All institutions,Florida,Florida Atlantic U.,3,115,23,0,14,9,5,3,0,2,15,9,6,11,9,0,0,0,0,2,12,1,0,0,0,3,0,0,4,4
+1813,r096,All institutions -> Florida -> Florida Institute of Technology,All institutions,Florida,Florida Institute of Technology,3,57,4,0,4,0,10,6,2,2,14,9,5,7,7,0,0,0,0,0,17,3,1,0,1,4,0,0,2,6
+1813,r097,All institutions -> Florida -> Florida International U.,All institutions,Florida,Florida International U.,3,187,45,1,31,13,28,20,4,4,10,10,0,33,10,1,5,2,3,12,41,0,1,0,4,20,0,5,3,8
+1813,r098,All institutions -> Florida -> Florida State U.,All institutions,Florida,Florida State U.,3,373,41,0,34,7,47,22,14,11,49,6,43,59,30,0,4,3,5,17,35,0,0,2,2,8,2,6,10,5
+1813,r099,All institutions -> Florida -> Nova Southeastern U.,All institutions,Florida,Nova Southeastern U.,3,59,0,0,0,0,0,0,0,0,25,24,1,20,1,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0
+1813,r100,All institutions -> Florida -> U. Central Florida,All institutions,Florida,U. Central Florida,3,228,24,0,14,10,37,14,0,23,25,20,5,20,13,0,0,1,4,2,78,0,1,0,13,18,8,5,15,18
+1813,r101,All institutions -> Florida -> U. Florida,All institutions,Florida,U. Florida,3,738,247,67,130,50,76,43,12,21,40,20,20,102,35,19,1,6,7,34,151,5,16,10,9,13,0,21,21,56
+1813,r102,All institutions -> Florida -> U. Miami,All institutions,Florida,U. Miami,3,216,73,7,56,10,25,5,16,4,3,1,2,33,23,0,1,1,1,7,23,1,6,0,4,2,5,2,3,0
+1813,r103,"All institutions -> Florida -> U. South Florida, Tampa",All institutions,Florida,"U. South Florida, Tampa",3,310,51,1,35,15,47,20,12,15,20,8,12,54,21,4,3,7,5,14,45,0,4,0,3,19,2,0,6,11
+1813,r104,All institutions -> Florida -> U. West Florida,All institutions,Florida,U. West Florida,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r105,All institutions -> Georgia,All institutions,Georgia,,2,1511,407,52,264,91,142,81,25,36,120,66,54,202,71,8,27,24,20,52,336,40,36,33,16,75,15,26,38,57
+1813,r106,All institutions -> Georgia -> Clark Atlanta U.,All institutions,Georgia,Clark Atlanta U.,3,15,4,0,3,1,2,2,0,0,0,0,0,3,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r107,All institutions -> Georgia -> Emory U.,All institutions,Georgia,Emory U.,3,246,118,0,95,23,18,13,0,5,16,8,8,41,11,7,5,6,8,4,0,0,0,0,0,0,0,0,0,0
+1813,r108,All institutions -> Georgia -> Georgia Institute of Technology,All institutions,Georgia,Georgia Institute of Technology,3,512,31,2,25,4,67,28,19,20,59,37,22,19,6,0,3,0,0,10,323,40,34,33,16,74,15,25,37,49
+1813,r109,All institutions -> Georgia -> Georgia Regents U.,All institutions,Georgia,Georgia Regents U.,3,26,26,0,21,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r110,All institutions -> Georgia -> Georgia State U.,All institutions,Georgia,Georgia State U.,3,225,32,0,24,8,18,9,1,8,21,10,11,76,24,0,17,6,6,23,0,0,0,0,0,0,0,0,0,0
+1813,r111,All institutions -> Georgia -> Kennesaw State U.,All institutions,Georgia,Kennesaw State U.,3,6,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,1,5,0,0,0,0,0,0,0,0,0,0
+1813,r112,All institutions -> Georgia -> Mercer U.,All institutions,Georgia,Mercer U.,3,14,14,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r113,All institutions -> Georgia -> Morehouse School of Medicine,All institutions,Georgia,Morehouse School of Medicine,3,6,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r114,All institutions -> Georgia -> U. Georgia,All institutions,Georgia,U. Georgia,3,461,176,50,90,36,37,29,5,3,24,11,13,57,30,1,2,9,5,10,13,0,2,0,0,1,0,1,1,8
+1813,r115,All institutions -> Hawaii,All institutions,Hawaii,,2,201,46,4,28,14,27,3,11,13,2,1,1,48,10,0,6,10,1,21,13,0,2,0,2,6,0,0,2,1
+1813,r116,"All institutions -> Hawaii -> U. Hawaii, Manoa",All institutions,Hawaii,"U. Hawaii, Manoa",3,201,46,4,28,14,27,3,11,13,2,1,1,48,10,0,6,10,1,21,13,0,2,0,2,6,0,0,2,1
+1813,r117,All institutions -> Idaho,All institutions,Idaho,,2,97,28,10,14,4,11,2,6,3,1,1,0,12,9,0,0,3,0,0,25,0,1,1,2,2,0,6,4,9
+1813,r118,All institutions -> Idaho -> Boise State U.,All institutions,Idaho,Boise State U.,3,11,4,0,4,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,5,0,0
+1813,r119,All institutions -> Idaho -> Idaho State U.,All institutions,Idaho,Idaho State U.,3,39,4,0,1,3,1,0,0,1,0,0,0,8,8,0,0,0,0,0,9,0,0,0,0,1,0,0,1,7
+1813,r120,All institutions -> Idaho -> U. Idaho,All institutions,Idaho,U. Idaho,3,47,20,10,9,1,9,2,5,2,1,1,0,4,1,0,0,3,0,0,11,0,1,1,2,1,0,1,3,2
+1813,r121,All institutions -> Illinois,All institutions,Illinois,,2,2517,451,37,320,94,297,148,30,119,226,98,128,476,204,27,94,44,44,63,447,13,50,42,35,76,11,78,53,89
+1813,r122,All institutions -> Illinois -> Benedictine U.,All institutions,Illinois,Benedictine U.,3,16,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r123,All institutions -> Illinois -> Chicago Theological Seminary,All institutions,Illinois,Chicago Theological Seminary,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r124,All institutions -> Illinois -> DePaul U.,All institutions,Illinois,DePaul U.,3,22,0,0,0,0,0,0,0,0,2,2,0,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r125,All institutions -> Illinois -> Garrett-Evangelical Theological Seminary,All institutions,Illinois,Garrett-Evangelical Theological Seminary,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r126,All institutions -> Illinois -> Illinois Institute of Technology,All institutions,Illinois,Illinois Institute of Technology,3,90,2,0,2,0,4,2,0,2,15,8,7,17,17,0,0,0,0,0,46,2,8,3,5,13,0,6,5,4
+1813,r127,All institutions -> Illinois -> Illinois State U.,All institutions,Illinois,Illinois State U.,3,32,11,0,6,5,0,0,0,0,1,0,1,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r128,"All institutions -> Illinois -> Institute for Clinical Social Work, Chicago",All institutions,Illinois,"Institute for Clinical Social Work, Chicago",3,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r129,"All institutions -> Illinois -> Loyola U., Chicago",All institutions,Illinois,"Loyola U., Chicago",3,73,17,0,12,5,6,6,0,0,0,0,0,11,9,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+1813,r130,"All institutions -> Illinois -> Lutheran School of Theology, Chicago",All institutions,Illinois,"Lutheran School of Theology, Chicago",3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r131,All institutions -> Illinois -> National Louis U.,All institutions,Illinois,National Louis U.,3,19,0,0,0,0,0,0,0,0,0,0,0,19,17,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+1813,r132,All institutions -> Illinois -> Northern Illinois U.,All institutions,Illinois,Northern Illinois U.,3,82,3,0,3,0,9,5,1,3,4,0,4,35,22,0,5,7,0,1,1,0,0,0,0,0,0,0,0,1
+1813,r133,All institutions -> Illinois -> Northwestern U.,All institutions,Illinois,Northwestern U.,3,432,73,0,69,4,62,33,4,25,28,9,19,81,24,3,21,10,18,5,102,0,13,15,5,4,7,34,13,11
+1813,r134,All institutions -> Illinois -> Rosalind Franklin U. of Medicine and Science,All institutions,Illinois,Rosalind Franklin U. of Medicine and Science,3,18,7,0,7,0,0,0,0,0,0,0,0,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r135,All institutions -> Illinois -> Rush U.,All institutions,Illinois,Rush U.,3,13,12,0,5,7,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r136,"All institutions -> Illinois -> Southern Illinois U., Carbondale",All institutions,Illinois,"Southern Illinois U., Carbondale",3,165,28,6,19,3,4,1,1,2,10,4,6,35,20,1,8,2,2,2,30,0,0,0,1,17,0,1,2,9
+1813,r137,All institutions -> Illinois -> U. Chicago,All institutions,Illinois,U. Chicago,3,432,74,0,67,7,64,27,7,30,37,12,25,111,19,17,34,13,9,19,7,0,2,3,0,0,0,1,0,1
+1813,r138,"All institutions -> Illinois -> U. Illinois, Chicago",All institutions,Illinois,"U. Illinois, Chicago",3,325,99,0,53,46,36,25,2,9,33,15,18,48,12,1,8,3,6,18,50,0,20,6,3,6,1,4,5,5
+1813,r139,"All institutions -> Illinois -> U. Illinois, Urbana-Champaign",All institutions,Illinois,"U. Illinois, Urbana-Champaign",3,766,125,31,77,17,111,49,15,47,96,48,48,88,34,5,18,9,8,14,211,11,7,15,21,36,3,32,28,58
+1813,r140,"All institutions -> Illinois -> Wheaton C., Wheaton",All institutions,Illinois,"Wheaton C., Wheaton",3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r141,All institutions -> Indiana,All institutions,Indiana,,2,1631,342,51,229,62,180,108,20,52,142,87,55,209,67,9,28,35,21,49,333,41,26,32,26,60,16,15,49,68
+1813,r142,All institutions -> Indiana -> Ball State U.,All institutions,Indiana,Ball State U.,3,29,4,1,0,3,0,0,0,0,0,0,0,16,14,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+1813,r143,All institutions -> Indiana -> Indiana State U.,All institutions,Indiana,Indiana State U.,3,80,7,0,7,0,1,0,1,0,2,2,0,2,1,0,0,0,0,1,7,0,0,0,0,0,1,0,0,6
+1813,r144,"All institutions -> Indiana -> Indiana U., Bloomington",All institutions,Indiana,"Indiana U., Bloomington",3,427,75,2,47,26,41,25,4,12,41,25,16,88,20,8,13,10,6,31,2,0,0,0,0,0,0,2,0,0
+1813,r145,"All institutions -> Indiana -> Indiana U.-Purdue U., Indianapolis",All institutions,Indiana,"Indiana U.-Purdue U., Indianapolis",3,91,72,0,58,14,3,2,1,0,4,2,2,6,4,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+1813,r146,"All institutions -> Indiana -> Purdue U., West Lafayette",All institutions,Indiana,"Purdue U., West Lafayette",3,730,140,47,74,19,91,53,12,26,71,44,27,51,14,1,10,8,5,13,272,33,22,22,23,50,15,12,42,53
+1813,r147,All institutions -> Indiana -> U. Notre Dame,All institutions,Indiana,U. Notre Dame,3,274,44,1,43,0,44,28,2,14,24,14,10,46,14,0,5,17,10,0,52,8,4,10,3,10,0,1,7,9
+1813,r148,All institutions -> Iowa,All institutions,Iowa,,2,743,205,26,138,41,75,42,9,24,60,15,45,76,36,0,15,7,5,13,152,10,4,13,17,27,9,10,31,31
+1813,r149,All institutions -> Iowa -> Iowa State U.,All institutions,Iowa,Iowa State U.,3,390,91,26,57,8,34,19,4,11,46,14,32,31,17,0,9,0,2,3,123,10,1,8,16,22,7,10,23,26
+1813,r150,All institutions -> Iowa -> Maharishi U. of Management,All institutions,Iowa,Maharishi U. of Management,3,6,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r151,All institutions -> Iowa -> St. Ambrose U.,All institutions,Iowa,St. Ambrose U.,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r152,All institutions -> Iowa -> U. Iowa,All institutions,Iowa,U. Iowa,3,322,108,0,81,27,41,23,5,13,14,1,13,45,19,0,6,7,3,10,29,0,3,5,1,5,2,0,8,5
+1813,r153,All institutions -> Iowa -> U. Northern Iowa,All institutions,Iowa,U. Northern Iowa,3,22,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r154,All institutions -> Kansas,All institutions,Kansas,,2,534,132,24,80,28,62,42,5,15,32,9,23,94,58,3,9,5,3,16,68,3,5,6,5,12,11,0,14,12
+1813,r155,All institutions -> Kansas -> Kansas State U.,All institutions,Kansas,Kansas State U.,3,170,58,24,31,3,19,12,0,7,13,2,11,25,15,0,3,1,2,4,20,0,0,3,3,3,1,0,5,5
+1813,r156,All institutions -> Kansas -> U. Kansas,All institutions,Kansas,U. Kansas,3,318,72,0,48,24,37,24,5,8,15,7,8,58,32,3,6,4,1,12,25,3,5,3,2,6,0,0,1,5
+1813,r157,All institutions -> Kansas -> Wichita State U.,All institutions,Kansas,Wichita State U.,3,46,2,0,1,1,6,6,0,0,4,0,4,11,11,0,0,0,0,0,23,0,0,0,0,3,10,0,8,2
+1813,r158,All institutions -> Kentucky,All institutions,Kentucky,,2,494,157,22,89,46,38,24,1,13,26,8,18,72,33,5,7,5,8,14,55,0,4,6,5,12,4,2,14,8
+1813,r159,All institutions -> Kentucky -> Asbury Theological Seminary,All institutions,Kentucky,Asbury Theological Seminary,3,19,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+1813,r160,All institutions -> Kentucky -> Southern Baptist Theological Seminary,All institutions,Kentucky,Southern Baptist Theological Seminary,3,41,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r161,All institutions -> Kentucky -> U. Kentucky,All institutions,Kentucky,U. Kentucky,3,285,105,22,48,35,27,16,1,10,13,1,12,45,20,5,7,5,3,5,33,0,4,5,2,3,0,2,10,7
+1813,r162,All institutions -> Kentucky -> U. Louisville,All institutions,Kentucky,U. Louisville,3,149,52,0,41,11,11,8,0,3,13,7,6,23,12,0,0,0,5,6,22,0,0,1,3,9,4,0,4,1
+1813,r163,All institutions -> Louisiana,All institutions,Louisiana,,2,576,133,30,88,15,59,24,20,15,40,15,25,94,44,3,13,3,3,28,87,0,15,8,5,13,0,5,12,29
+1813,r164,All institutions -> Louisiana -> Grambling State U.,All institutions,Louisiana,Grambling State U.,3,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r165,"All institutions -> Louisiana -> Louisiana State U., Baton Rouge",All institutions,Louisiana,"Louisiana State U., Baton Rouge",3,283,61,25,31,5,46,20,16,10,17,8,9,40,14,2,6,3,3,12,49,0,1,5,5,10,0,1,10,17
+1813,r166,"All institutions -> Louisiana -> Louisiana State U., Health Sciences Center, New Orleans",All institutions,Louisiana,"Louisiana State U., Health Sciences Center, New Orleans",3,13,13,0,10,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r167,"All institutions -> Louisiana -> Louisiana State U., Health Sciences Center, Shreveport",All institutions,Louisiana,"Louisiana State U., Health Sciences Center, Shreveport",3,9,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r168,All institutions -> Louisiana -> Louisiana Tech U.,All institutions,Louisiana,Louisiana Tech U.,3,32,1,0,1,0,0,0,0,0,7,2,5,5,5,0,0,0,0,0,14,0,6,0,0,1,0,2,1,4
+1813,r169,All institutions -> Louisiana -> New Orleans Baptist Theological Seminary,All institutions,Louisiana,New Orleans Baptist Theological Seminary,3,19,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r170,"All institutions -> Louisiana -> Southern U. and A&M C., Baton Rouge",All institutions,Louisiana,"Southern U. and A&M C., Baton Rouge",3,15,6,3,1,2,0,0,0,0,0,0,0,6,0,0,1,0,0,5,0,0,0,0,0,0,0,0,0,0
+1813,r171,All institutions -> Louisiana -> Tulane U.,All institutions,Louisiana,Tulane U.,3,91,24,0,23,1,12,3,4,5,7,0,7,18,9,1,2,0,0,6,11,0,8,3,0,0,0,0,0,0
+1813,r172,"All institutions -> Louisiana -> U. Louisiana, Lafayette",All institutions,Louisiana,"U. Louisiana, Lafayette",3,41,11,1,8,2,0,0,0,0,7,3,4,1,1,0,0,0,0,0,6,0,0,0,0,1,0,0,0,5
+1813,r173,"All institutions -> Louisiana -> U. Louisiana, Monroe",All institutions,Louisiana,"U. Louisiana, Monroe",3,15,6,0,4,2,0,0,0,0,0,0,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r174,All institutions -> Louisiana -> U. New Orleans,All institutions,Louisiana,U. New Orleans,3,48,2,1,1,0,1,1,0,0,2,2,0,12,3,0,4,0,0,5,7,0,0,0,0,1,0,2,1,3
+1813,r175,All institutions -> Maine,All institutions,Maine,,2,50,22,10,12,0,7,2,4,1,0,0,0,3,3,0,0,0,0,0,9,0,0,2,2,1,0,0,3,1
+1813,r176,All institutions -> Maine -> U. Maine,All institutions,Maine,U. Maine,3,50,22,10,12,0,7,2,4,1,0,0,0,3,3,0,0,0,0,0,9,0,0,2,2,1,0,0,3,1
+1813,r177,All institutions -> Maryland,All institutions,Maryland,,2,1365,468,30,324,114,133,39,25,69,130,84,46,186,41,8,28,20,15,74,246,13,42,30,21,35,0,24,42,39
+1813,r178,All institutions -> Maryland -> Bowie State U.,All institutions,Maryland,Bowie State U.,3,4,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r179,All institutions -> Maryland -> Johns Hopkins U.,All institutions,Maryland,Johns Hopkins U.,3,507,244,0,178,66,44,16,6,22,30,19,11,50,1,5,11,10,5,18,99,0,29,12,9,9,0,9,13,18
+1813,r180,"All institutions -> Maryland -> Loyola U., Maryland",All institutions,Maryland,"Loyola U., Maryland",3,6,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r181,All institutions -> Maryland -> Morgan State U.,All institutions,Maryland,Morgan State U.,3,29,12,4,1,7,1,1,0,0,1,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+1813,r182,All institutions -> Maryland -> Notre Dame of Maryland U.,All institutions,Maryland,Notre Dame of Maryland U.,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r183,All institutions -> Maryland -> Towson U.,All institutions,Maryland,Towson U.,3,13,3,0,0,3,0,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r184,"All institutions -> Maryland -> U. Maryland, Baltimore",All institutions,Maryland,"U. Maryland, Baltimore",3,82,72,0,46,26,2,2,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r185,"All institutions -> Maryland -> U. Maryland, Baltimore County",All institutions,Maryland,"U. Maryland, Baltimore County",3,93,16,0,16,0,14,6,3,5,26,17,9,19,12,1,0,0,0,6,13,0,0,3,0,2,0,0,2,6
+1813,r186,"All institutions -> Maryland -> U. Maryland, College Park",All institutions,Maryland,"U. Maryland, College Park",3,586,95,20,63,12,70,14,14,42,59,34,25,108,21,2,17,10,10,48,133,13,13,15,11,24,0,15,27,15
+1813,r187,"All institutions -> Maryland -> U. Maryland, Eastern Shore",All institutions,Maryland,"U. Maryland, Eastern Shore",3,13,5,5,0,0,2,0,2,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r188,All institutions -> Maryland -> Uniformed Services U. of the Health Sciences,All institutions,Maryland,Uniformed Services U. of the Health Sciences,3,26,21,1,20,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r189,All institutions -> Massachusetts,All institutions,Massachusetts,,2,2946,721,21,550,150,397,168,49,180,199,108,91,460,130,14,108,45,45,118,606,20,85,68,17,89,11,57,95,164
+1813,r190,All institutions -> Massachusetts -> Bentley U.,All institutions,Massachusetts,Bentley U.,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r191,All institutions -> Massachusetts -> Boston C.,All institutions,Massachusetts,Boston C.,3,137,6,0,3,3,22,15,0,7,5,0,5,26,13,0,9,0,4,0,0,0,0,0,0,0,0,0,0,0
+1813,r192,All institutions -> Massachusetts -> Boston U.,All institutions,Massachusetts,Boston U.,3,343,98,1,68,29,34,10,2,22,12,7,5,69,19,5,19,7,7,12,49,0,22,0,0,7,0,5,7,8
+1813,r193,All institutions -> Massachusetts -> Brandeis U.,All institutions,Massachusetts,Brandeis U.,3,81,20,0,19,1,11,8,0,3,13,7,6,23,6,1,1,2,2,11,0,0,0,0,0,0,0,0,0,0
+1813,r194,All institutions -> Massachusetts -> Clark U.,All institutions,Massachusetts,Clark U.,3,14,3,0,3,0,3,1,0,2,0,0,0,7,1,0,3,0,0,3,0,0,0,0,0,0,0,0,0,0
+1813,r195,All institutions -> Massachusetts -> Harvard U.,All institutions,Massachusetts,Harvard U.,3,717,269,0,211,58,108,30,11,67,35,8,27,126,13,7,46,18,16,26,18,0,5,0,0,1,0,1,0,11
+1813,r196,All institutions -> Massachusetts -> Massachusetts Institute of Technology,All institutions,Massachusetts,Massachusetts Institute of Technology,3,645,63,1,54,8,107,45,22,40,70,41,29,70,12,0,22,12,1,23,296,17,30,33,9,32,0,35,59,81
+1813,r197,All institutions -> Massachusetts -> New England Conservatory,All institutions,Massachusetts,New England Conservatory,3,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r198,All institutions -> Massachusetts -> Northeastern U.,All institutions,Massachusetts,Northeastern U.,3,178,28,1,15,12,27,14,2,11,15,11,4,28,7,0,4,3,6,8,68,0,7,10,0,12,8,4,5,22
+1813,r199,All institutions -> Massachusetts -> Simmons C.,All institutions,Massachusetts,Simmons C.,3,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r200,All institutions -> Massachusetts -> Smith C.,All institutions,Massachusetts,Smith C.,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r201,All institutions -> Massachusetts -> Springfield C.,All institutions,Massachusetts,Springfield C.,3,13,6,0,1,5,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r202,All institutions -> Massachusetts -> Suffolk U.,All institutions,Massachusetts,Suffolk U.,3,15,0,0,0,0,0,0,0,0,0,0,0,13,12,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r203,"All institutions -> Massachusetts -> Tufts U., Medford",All institutions,Massachusetts,"Tufts U., Medford",3,156,58,1,54,3,21,13,2,6,7,3,4,15,6,0,0,0,0,9,37,0,6,8,2,11,0,0,4,6
+1813,r204,"All institutions -> Massachusetts -> U. Massachusetts, Amherst",All institutions,Massachusetts,"U. Massachusetts, Amherst",3,295,65,11,42,12,39,19,5,15,20,14,6,42,15,1,3,3,8,12,41,0,1,9,3,3,0,4,4,17
+1813,r205,"All institutions -> Massachusetts -> U. Massachusetts, Boston",All institutions,Massachusetts,"U. Massachusetts, Boston",3,74,18,6,5,7,7,6,1,0,4,4,0,36,23,0,0,0,1,12,0,0,0,0,0,0,0,0,0,0
+1813,r206,"All institutions -> Massachusetts -> U. Massachusetts, Dartmouth",All institutions,Massachusetts,"U. Massachusetts, Dartmouth",3,30,7,0,1,6,5,0,3,2,2,0,2,1,0,0,0,0,0,1,7,0,0,0,0,4,0,0,0,3
+1813,r207,"All institutions -> Massachusetts -> U. Massachusetts, Lowell",All institutions,Massachusetts,"U. Massachusetts, Lowell",3,84,12,0,8,4,10,5,1,4,6,6,0,1,0,0,0,0,0,1,39,0,9,4,0,9,0,0,10,7
+1813,r208,"All institutions -> Massachusetts -> U. Massachusetts, Medical School",All institutions,Massachusetts,"U. Massachusetts, Medical School",3,66,65,0,63,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r209,All institutions -> Massachusetts -> Western New England U.,All institutions,Massachusetts,Western New England U.,3,3,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,2,0,0,0,0,0,1,0,0,1
+1813,r210,All institutions -> Massachusetts -> Worcester Polytechnic Institute,All institutions,Massachusetts,Worcester Polytechnic Institute,3,66,3,0,3,0,2,1,0,1,10,7,3,0,0,0,0,0,0,0,49,3,5,4,3,10,2,8,6,8
+1813,r211,All institutions -> Michigan,All institutions,Michigan,,2,1953,402,39,290,73,223,118,22,83,149,75,74,310,141,29,48,25,24,43,422,34,34,36,20,90,10,38,89,71
+1813,r212,All institutions -> Michigan -> Andrews U.,All institutions,Michigan,Andrews U.,3,24,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r213,All institutions -> Michigan -> Calvin Theological Seminary,All institutions,Michigan,Calvin Theological Seminary,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r214,All institutions -> Michigan -> Central Michigan U.,All institutions,Michigan,Central Michigan U.,3,39,4,0,4,0,3,3,0,0,2,0,2,24,24,0,0,0,0,0,3,0,0,0,0,0,0,3,0,0
+1813,r215,All institutions -> Michigan -> Eastern Michigan U.,All institutions,Michigan,Eastern Michigan U.,3,48,0,0,0,0,0,0,0,0,0,0,0,16,12,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0
+1813,r216,All institutions -> Michigan -> Michigan State U.,All institutions,Michigan,Michigan State U.,3,497,126,26,84,16,44,26,0,18,37,18,19,75,24,10,10,3,7,21,69,0,1,5,3,17,0,6,19,18
+1813,r217,All institutions -> Michigan -> Michigan Technological U.,All institutions,Michigan,Michigan Technological U.,3,93,18,6,12,0,5,2,2,1,12,4,8,5,1,0,0,0,0,4,45,0,1,6,2,7,0,4,20,5
+1813,r218,All institutions -> Michigan -> Oakland U.,All institutions,Michigan,Oakland U.,3,52,4,0,4,0,0,0,0,0,9,6,3,1,1,0,0,0,0,0,16,0,0,0,0,3,0,0,8,5
+1813,r219,All institutions -> Michigan -> U. Detroit Mercy,All institutions,Michigan,U. Detroit Mercy,3,7,0,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r220,"All institutions -> Michigan -> U. Michigan, Ann Arbor",All institutions,Michigan,"U. Michigan, Ann Arbor",3,853,177,6,132,39,134,65,17,52,58,32,26,116,27,16,33,14,12,14,237,34,23,22,11,51,3,22,34,37
+1813,r221,"All institutions -> Michigan -> U. Michigan, Dearborn",All institutions,Michigan,"U. Michigan, Dearborn",3,5,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,2,1
+1813,r222,"All institutions -> Michigan -> U. Michigan, Flint",All institutions,Michigan,"U. Michigan, Flint",3,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r223,All institutions -> Michigan -> Van Andel Institute,All institutions,Michigan,Van Andel Institute,3,3,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r224,All institutions -> Michigan -> Wayne State U.,All institutions,Michigan,Wayne State U.,3,205,53,1,42,10,28,17,0,11,10,6,4,29,17,3,2,4,3,0,37,0,9,2,1,5,7,3,5,5
+1813,r225,All institutions -> Michigan -> Western Michigan U.,All institutions,Michigan,Western Michigan U.,3,124,16,0,9,7,9,5,3,1,19,7,12,34,25,0,3,4,2,0,12,0,0,1,3,7,0,0,1,0
+1813,r226,All institutions -> Minnesota,All institutions,Minnesota,,2,1437,382,26,146,210,78,36,9,33,42,26,16,388,224,6,20,12,5,121,155,10,26,27,7,29,3,13,21,19
+1813,r227,"All institutions -> Minnesota -> Mayo Clinic, Mayo Graduate School",All institutions,Minnesota,"Mayo Clinic, Mayo Graduate School",3,26,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,6,0,0,0,0,0,0,0
+1813,r228,"All institutions -> Minnesota -> U. Minnesota, Twin Cities",All institutions,Minnesota,"U. Minnesota, Twin Cities",3,665,186,25,110,51,78,36,9,33,39,23,16,90,34,6,20,11,5,14,146,10,20,27,7,29,3,13,21,16
+1813,r229,All institutions -> Minnesota -> Walden U.,All institutions,Minnesota,Walden U.,3,746,176,1,16,159,0,0,0,0,3,3,0,298,190,0,0,1,0,107,3,0,0,0,0,0,0,0,0,3
+1813,r230,All institutions -> Mississippi,All institutions,Mississippi,,2,471,136,39,48,49,43,23,10,10,20,9,11,69,46,0,7,4,1,11,43,4,2,6,2,5,2,1,9,12
+1813,r231,All institutions -> Mississippi -> Jackson State U.,All institutions,Mississippi,Jackson State U.,3,59,6,6,0,0,3,3,0,0,0,0,0,11,6,0,0,0,0,5,3,0,0,0,0,0,0,0,0,3
+1813,r232,All institutions -> Mississippi -> Mississippi State U.,All institutions,Mississippi,Mississippi State U.,3,175,60,31,19,10,17,5,7,5,8,5,3,11,9,0,1,0,1,0,32,4,2,4,1,5,2,1,9,4
+1813,r233,"All institutions -> Mississippi -> U. Mississippi, Jackson, Medical Center",All institutions,Mississippi,"U. Mississippi, Jackson, Medical Center",3,31,31,0,13,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r234,"All institutions -> Mississippi -> U. Mississippi, Oxford",All institutions,Mississippi,"U. Mississippi, Oxford",3,88,28,0,8,20,6,3,0,3,6,2,4,10,8,0,2,0,0,0,5,0,0,2,1,0,0,0,0,2
+1813,r235,All institutions -> Mississippi -> U. Southern Mississippi,All institutions,Mississippi,U. Southern Mississippi,3,118,11,2,8,1,17,12,3,2,6,2,4,37,23,0,4,4,0,6,3,0,0,0,0,0,0,0,0,3
+1813,r236,All institutions -> Missouri,All institutions,Missouri,,2,978,216,22,158,36,91,41,15,35,55,22,33,153,74,9,21,14,9,26,202,3,37,19,20,30,1,7,31,54
+1813,r237,All institutions -> Missouri -> Concordia Seminary,All institutions,Missouri,Concordia Seminary,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r238,All institutions -> Missouri -> Midwestern Baptist Theological Seminary,All institutions,Missouri,Midwestern Baptist Theological Seminary,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r239,All institutions -> Missouri -> Missouri U. of Science and Technology,All institutions,Missouri,Missouri U. of Science and Technology,3,116,2,0,2,0,16,5,4,7,12,2,10,0,0,0,0,0,0,0,85,0,0,9,13,13,0,3,15,32
+1813,r240,All institutions -> Missouri -> Saint Louis U.,All institutions,Missouri,Saint Louis U.,3,131,22,1,13,8,7,6,1,0,2,0,2,31,21,0,0,0,0,10,7,3,2,0,1,0,0,0,0,1
+1813,r241,"All institutions -> Missouri -> U. Missouri, Columbia",All institutions,Missouri,"U. Missouri, Columbia",3,357,83,20,46,17,29,11,4,14,26,12,14,52,22,4,6,6,9,5,50,0,4,4,5,9,1,0,10,17
+1813,r242,"All institutions -> Missouri -> U. Missouri, Kansas City",All institutions,Missouri,"U. Missouri, Kansas City",3,50,12,0,6,6,5,3,1,1,3,2,1,11,8,0,3,0,0,0,8,0,0,0,1,4,0,1,2,0
+1813,r243,"All institutions -> Missouri -> U. Missouri, Saint Louis",All institutions,Missouri,"U. Missouri, Saint Louis",3,57,10,0,8,2,7,6,0,1,1,0,1,21,12,0,0,3,0,6,0,0,0,0,0,0,0,0,0,0
+1813,r244,"All institutions -> Missouri -> Washington U., Saint Louis",All institutions,Missouri,"Washington U., Saint Louis",3,256,87,1,83,3,27,10,5,12,11,6,5,38,11,5,12,5,0,5,52,0,31,6,0,4,0,3,4,4
+1813,r245,All institutions -> Montana,All institutions,Montana,,2,112,38,10,28,0,16,9,2,5,4,3,1,11,6,2,0,0,0,3,10,0,0,1,1,1,0,3,1,3
+1813,r246,"All institutions -> Montana -> Montana State U., Bozeman",All institutions,Montana,"Montana State U., Bozeman",3,71,21,5,16,0,15,8,2,5,4,3,1,2,0,0,0,0,0,2,8,0,0,1,1,1,0,1,1,3
+1813,r247,All institutions -> Montana -> Montana Tech of U. Montana,All institutions,Montana,Montana Tech of U. Montana,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,0
+1813,r248,"All institutions -> Montana -> U. Montana, Missoula",All institutions,Montana,"U. Montana, Missoula",3,39,17,5,12,0,1,1,0,0,0,0,0,9,6,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r249,All institutions -> Nebraska,All institutions,Nebraska,,2,341,131,36,78,17,33,16,4,13,28,8,20,48,31,0,4,3,2,8,34,0,3,2,3,4,0,5,4,13
+1813,r250,All institutions -> Nebraska -> Creighton U.,All institutions,Nebraska,Creighton U.,3,4,4,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r251,"All institutions -> Nebraska -> U. Nebraska, Lincoln",All institutions,Nebraska,"U. Nebraska, Lincoln",3,257,64,36,27,1,33,16,4,13,26,6,20,33,19,0,4,3,2,5,34,0,3,2,3,4,0,5,4,13
+1813,r252,"All institutions -> Nebraska -> U. Nebraska, Medical Center",All institutions,Nebraska,"U. Nebraska, Medical Center",3,65,60,0,46,14,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r253,"All institutions -> Nebraska -> U. Nebraska, Omaha",All institutions,Nebraska,"U. Nebraska, Omaha",3,15,3,0,2,1,0,0,0,0,2,2,0,10,7,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+1813,r254,All institutions -> Nevada,All institutions,Nevada,,2,240,34,2,24,8,41,19,13,9,10,7,3,60,28,6,4,6,5,11,34,0,2,1,12,4,0,3,7,5
+1813,r255,"All institutions -> Nevada -> U. Nevada, Las Vegas",All institutions,Nevada,"U. Nevada, Las Vegas",3,116,14,0,6,8,16,10,1,5,6,3,3,29,11,5,0,2,5,6,14,0,0,0,5,2,0,0,5,2
+1813,r256,"All institutions -> Nevada -> U. Nevada, Reno",All institutions,Nevada,"U. Nevada, Reno",3,124,20,2,18,0,25,9,12,4,4,4,0,31,17,1,4,4,0,5,20,0,2,1,7,2,0,3,2,3
+1813,r257,All institutions -> New Hampshire,All institutions,New Hampshire,,2,165,48,12,34,2,33,10,5,18,13,6,7,14,10,0,0,0,2,2,40,0,2,6,4,5,0,4,2,17
+1813,r258,"All institutions -> New Hampshire -> Antioch U., Keene",All institutions,New Hampshire,"Antioch U., Keene",3,5,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0
+1813,r259,All institutions -> New Hampshire -> Dartmouth C.,All institutions,New Hampshire,Dartmouth C.,3,82,30,0,28,2,17,5,2,10,10,5,5,7,6,0,0,0,0,1,18,0,2,0,0,2,0,1,0,13
+1813,r260,All institutions -> New Hampshire -> Southern New Hampshire U.,All institutions,New Hampshire,Southern New Hampshire U.,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r261,"All institutions -> New Hampshire -> U. New Hampshire, Durham",All institutions,New Hampshire,"U. New Hampshire, Durham",3,75,15,9,6,0,16,5,3,8,3,1,2,7,4,0,0,0,2,1,20,0,0,6,4,1,0,3,2,4
+1813,r262,All institutions -> New Jersey,All institutions,New Jersey,,2,1124,188,17,150,21,127,57,14,56,101,39,62,176,41,13,32,31,15,44,210,3,23,34,11,29,6,24,31,49
+1813,r263,All institutions -> New Jersey -> Drew U.,All institutions,New Jersey,Drew U.,3,13,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r264,"All institutions -> New Jersey -> Fairleigh Dickinson U., Teaneck",All institutions,New Jersey,"Fairleigh Dickinson U., Teaneck",3,12,0,0,0,0,0,0,0,0,0,0,0,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r265,All institutions -> New Jersey -> Montclair State U.,All institutions,New Jersey,Montclair State U.,3,21,1,1,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r266,All institutions -> New Jersey -> New Jersey Institute of Technology,All institutions,New Jersey,New Jersey Institute of Technology,3,72,2,0,2,0,9,3,0,6,18,8,10,0,0,0,0,0,0,0,42,0,7,6,3,8,2,4,8,4
+1813,r267,All institutions -> New Jersey -> Princeton Theological Seminary,All institutions,New Jersey,Princeton Theological Seminary,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r268,All institutions -> New Jersey -> Princeton U.,All institutions,New Jersey,Princeton U.,3,396,39,1,38,0,69,24,9,36,41,15,26,73,9,4,19,21,9,11,65,3,2,15,1,13,0,4,9,18
+1813,r269,All institutions -> New Jersey -> Rowan U.,All institutions,New Jersey,Rowan U.,3,4,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r270,All institutions -> New Jersey -> Rutgers School of Biomedical and Health Sciences,All institutions,New Jersey,Rutgers School of Biomedical and Health Sciences,3,45,42,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0
+1813,r271,"All institutions -> New Jersey -> Rutgers, State U. New Jersey, Camden",All institutions,New Jersey,"Rutgers, State U. New Jersey, Camden",3,6,3,0,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r272,"All institutions -> New Jersey -> Rutgers, State U. New Jersey, New Brunswick",All institutions,New Jersey,"Rutgers, State U. New Jersey, New Brunswick",3,390,67,14,48,5,34,19,4,11,37,15,22,73,15,9,12,9,6,22,71,0,7,12,7,7,4,13,9,12
+1813,r273,"All institutions -> New Jersey -> Rutgers, State U. New Jersey, Newark",All institutions,New Jersey,"Rutgers, State U. New Jersey, Newark",3,74,13,1,10,2,4,4,0,0,2,1,1,12,2,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0
+1813,r274,All institutions -> New Jersey -> Seton Hall U.,All institutions,New Jersey,Seton Hall U.,3,33,16,0,2,14,2,2,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r275,All institutions -> New Jersey -> Stevens Institute of Technology,All institutions,New Jersey,Stevens Institute of Technology,3,50,1,0,1,0,9,5,1,3,2,0,2,0,0,0,0,0,0,0,29,0,4,1,0,1,0,3,5,15
+1813,r276,All institutions -> New Mexico,All institutions,New Mexico,,2,322,47,4,30,13,55,13,12,30,16,9,7,45,21,3,7,1,2,11,57,0,5,6,12,13,2,4,3,12
+1813,r277,All institutions -> New Mexico -> New Mexico Institute of Mining and Technology,All institutions,New Mexico,New Mexico Institute of Mining and Technology,3,13,0,0,0,0,10,1,5,4,1,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,0
+1813,r278,"All institutions -> New Mexico -> New Mexico State U., Las Cruces",All institutions,New Mexico,"New Mexico State U., Las Cruces",3,118,24,4,13,7,17,4,2,11,4,1,3,11,11,0,0,0,0,0,18,0,0,1,4,6,2,0,2,3
+1813,r279,"All institutions -> New Mexico -> U. New Mexico, Albuquerque",All institutions,New Mexico,"U. New Mexico, Albuquerque",3,191,23,0,17,6,28,8,5,15,11,7,4,34,10,3,7,1,2,11,37,0,5,5,8,7,0,2,1,9
+1813,r280,All institutions -> New York,All institutions,New York,,2,4260,925,62,749,114,451,167,82,202,339,171,168,880,385,63,137,80,90,125,600,16,80,67,25,124,14,60,88,126
+1813,r281,All institutions -> New York -> Adelphi U.,All institutions,New York,Adelphi U.,3,28,4,0,0,4,0,0,0,0,0,0,0,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r282,All institutions -> New York -> Albany Medical C.,All institutions,New York,Albany Medical C.,3,5,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r283,All institutions -> New York -> Alfred U.,All institutions,New York,Alfred U.,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,0
+1813,r284,All institutions -> New York -> Clarkson U.,All institutions,New York,Clarkson U.,3,45,4,1,3,0,5,3,1,1,4,0,4,0,0,0,0,0,0,0,32,0,0,7,3,7,0,0,8,7
+1813,r285,All institutions -> New York -> Cold Spring Harbor Laboratory,All institutions,New York,Cold Spring Harbor Laboratory,3,5,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r286,All institutions -> New York -> Columbia U. in the City of New York,All institutions,New York,Columbia U. in the City of New York,3,659,132,1,105,26,78,18,19,41,46,22,24,149,52,16,36,21,13,11,83,0,14,9,4,20,0,3,8,25
+1813,r287,"All institutions -> New York -> Columbia U., Teachers C.",All institutions,New York,"Columbia U., Teachers C.",3,98,6,0,2,4,0,0,0,0,0,0,0,3,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+1813,r288,All institutions -> New York -> Cornell U.,All institutions,New York,Cornell U.,3,539,130,47,83,0,94,35,14,45,55,29,26,71,12,7,18,10,10,14,109,2,19,10,5,21,0,14,13,25
+1813,r289,"All institutions -> New York -> Cornell U., Weill Cornell Medical College",All institutions,New York,"Cornell U., Weill Cornell Medical College",3,55,52,0,52,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r290,"All institutions -> New York -> CUNY, City C.",All institutions,New York,"CUNY, City C.",3,34,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,32,0,9,5,4,7,0,0,4,3
+1813,r291,"All institutions -> New York -> CUNY, Graduate Center",All institutions,New York,"CUNY, Graduate Center",3,410,53,2,37,14,35,15,3,17,30,17,13,139,67,10,18,8,13,23,0,0,0,0,0,0,0,0,0,0
+1813,r292,All institutions -> New York -> Fordham U.,All institutions,New York,Fordham U.,3,114,11,0,10,1,0,0,0,0,0,0,0,46,38,0,6,0,0,2,0,0,0,0,0,0,0,0,0,0
+1813,r293,All institutions -> New York -> Hofstra U.,All institutions,New York,Hofstra U.,3,22,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r294,All institutions -> New York -> Icahn School of Medicine at Mt. Sinai,All institutions,New York,Icahn School of Medicine at Mt. Sinai,3,47,46,0,44,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+1813,r295,All institutions -> New York -> Juilliard School,All institutions,New York,Juilliard School,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r296,"All institutions -> New York -> Long Island U., Brooklyn",All institutions,New York,"Long Island U., Brooklyn",3,22,0,0,0,0,0,0,0,0,0,0,0,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r297,"All institutions -> New York -> Long Island U., Brookville",All institutions,New York,"Long Island U., Brookville",3,2,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r298,All institutions -> New York -> Memorial Sloan Kettering Cancer Center,All institutions,New York,Memorial Sloan Kettering Cancer Center,3,9,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r299,All institutions -> New York -> New School,All institutions,New York,New School,3,71,0,0,0,0,0,0,0,0,0,0,0,57,18,8,11,6,10,4,0,0,0,0,0,0,0,0,0,0
+1813,r300,All institutions -> New York -> New York Medical C.,All institutions,New York,New York Medical C.,3,15,15,0,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r301,All institutions -> New York -> New York U.,All institutions,New York,New York U.,3,429,90,1,72,17,25,16,0,9,39,17,22,82,18,6,13,11,16,18,28,0,2,1,1,17,0,1,2,4
+1813,r302,All institutions -> New York -> Pace U.,All institutions,New York,Pace U.,3,12,0,0,0,0,0,0,0,0,7,7,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r303,"All institutions -> New York -> Rensselaer Polytechnic Institute, Troy",All institutions,New York,"Rensselaer Polytechnic Institute, Troy",3,164,15,1,14,0,18,8,3,7,20,15,5,8,4,1,0,0,0,3,87,9,9,13,0,9,2,6,25,14
+1813,r304,All institutions -> New York -> Rochester Institute of Technology,All institutions,New York,Rochester Institute of Technology,3,31,1,1,0,0,6,0,0,6,4,4,0,0,0,0,0,0,0,0,14,0,2,0,0,0,0,1,0,11
+1813,r305,All institutions -> New York -> Rockefeller U.,All institutions,New York,Rockefeller U.,3,30,26,0,26,0,4,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r306,"All institutions -> New York -> St. John's U., Queens",All institutions,New York,"St. John's U., Queens",3,33,7,0,5,2,2,2,0,0,0,0,0,11,9,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r307,All institutions -> New York -> Syracuse U.,All institutions,New York,Syracuse U.,3,149,7,0,4,3,18,7,3,8,17,11,6,36,12,4,8,3,5,4,29,3,2,4,4,6,0,1,5,4
+1813,r308,"All institutions -> New York -> SUNY, Binghamton U.",All institutions,New York,"SUNY, Binghamton U.",3,150,14,0,10,4,11,6,1,4,19,6,13,38,17,5,3,6,5,2,29,0,1,0,0,6,8,2,7,5
+1813,r309,"All institutions -> New York -> SUNY, C. of Environmental Science and Forestry",All institutions,New York,"SUNY, C. of Environmental Science and Forestry",3,21,12,6,6,0,3,2,1,0,0,0,0,0,0,0,0,0,0,0,6,0,3,1,0,0,0,1,0,1
+1813,r310,"All institutions -> New York -> SUNY, C. of Optometry",All institutions,New York,"SUNY, C. of Optometry",3,7,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r311,"All institutions -> New York -> SUNY, Downstate Medical Center",All institutions,New York,"SUNY, Downstate Medical Center",3,3,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+1813,r312,"All institutions -> New York -> SUNY, Stony Brook U.",All institutions,New York,"SUNY, Stony Brook U.",3,257,49,0,44,5,49,15,15,19,48,14,34,41,11,1,9,3,6,11,38,0,5,0,0,6,0,19,4,4
+1813,r313,"All institutions -> New York -> SUNY, U. Albany",All institutions,New York,"SUNY, U. Albany",3,168,26,1,21,4,28,7,14,7,6,4,2,46,23,3,3,2,7,8,16,0,0,0,0,1,0,4,0,11
+1813,r314,"All institutions -> New York -> SUNY, U. Buffalo",All institutions,New York,"SUNY, U. Buffalo",3,332,70,1,46,23,32,19,5,8,27,15,12,45,8,1,6,3,5,22,65,2,6,14,4,17,4,1,9,8
+1813,r315,"All institutions -> New York -> SUNY, Upstate Medical U.",All institutions,New York,"SUNY, Upstate Medical U.",3,20,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r316,All institutions -> New York -> Union Theological Seminary,All institutions,New York,Union Theological Seminary,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r317,All institutions -> New York -> U. Rochester,All institutions,New York,U. Rochester,3,207,63,0,60,3,38,8,1,29,15,8,7,27,14,0,6,7,0,0,28,0,6,3,0,7,0,5,3,4
+1813,r318,All institutions -> New York -> Yeshiva U.,All institutions,New York,Yeshiva U.,3,60,44,0,43,1,0,0,0,0,0,0,0,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r319,All institutions -> North Carolina,All institutions,North Carolina,,2,1736,541,62,363,116,178,92,34,52,157,66,91,209,71,14,42,13,21,48,309,7,46,12,20,71,18,22,46,67
+1813,r320,All institutions -> North Carolina -> Duke U.,All institutions,North Carolina,Duke U.,3,400,136,14,104,18,46,17,13,16,26,8,18,59,10,8,19,8,6,8,63,0,25,0,0,16,0,4,7,11
+1813,r321,All institutions -> North Carolina -> East Carolina U.,All institutions,North Carolina,East Carolina U.,3,41,28,0,17,11,0,0,0,0,0,0,0,9,8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r322,All institutions -> North Carolina -> North Carolina Agricultural and Technical State U.,All institutions,North Carolina,North Carolina Agricultural and Technical State U.,3,54,9,4,1,4,2,1,0,1,1,0,1,2,0,0,0,0,0,2,28,0,2,0,0,5,7,1,5,8
+1813,r323,All institutions -> North Carolina -> North Carolina State U.,All institutions,North Carolina,North Carolina State U.,3,495,100,37,63,0,52,35,10,7,68,26,42,37,19,0,9,0,7,2,171,7,11,12,17,41,11,14,19,39
+1813,r324,All institutions -> North Carolina -> Southeastern Baptist Theological Seminary,All institutions,North Carolina,Southeastern Baptist Theological Seminary,3,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r325,"All institutions -> North Carolina -> U. North Carolina, Chapel Hill",All institutions,North Carolina,"U. North Carolina, Chapel Hill",3,473,208,4,146,58,51,35,6,10,36,18,18,68,16,6,10,5,7,24,12,0,5,0,0,0,0,2,0,5
+1813,r326,"All institutions -> North Carolina -> U. North Carolina, Charlotte",All institutions,North Carolina,"U. North Carolina, Charlotte",3,114,11,2,6,3,13,0,0,13,19,13,6,15,7,0,0,0,1,7,30,0,0,0,3,9,0,0,15,3
+1813,r327,"All institutions -> North Carolina -> U. North Carolina, Greensboro",All institutions,North Carolina,"U. North Carolina, Greensboro",3,106,27,1,4,22,2,2,0,0,7,1,6,19,11,0,4,0,0,4,2,0,0,0,0,0,0,1,0,1
+1813,r328,"All institutions -> North Carolina -> U. North Carolina, Wilmington",All institutions,North Carolina,"U. North Carolina, Wilmington",3,6,1,0,1,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r329,All institutions -> North Carolina -> Wake Forest U.,All institutions,North Carolina,Wake Forest U.,3,31,21,0,21,0,7,2,0,5,0,0,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0
+1813,r330,All institutions -> North Dakota,All institutions,North Dakota,,2,193,74,26,27,21,21,13,2,6,8,3,5,24,18,0,0,0,0,6,26,1,1,2,2,11,1,2,1,5
+1813,r331,All institutions -> North Dakota -> North Dakota State U.,All institutions,North Dakota,North Dakota State U.,3,120,60,25,18,17,10,8,0,2,8,3,5,9,5,0,0,0,0,4,17,0,0,0,0,8,1,2,1,5
+1813,r332,All institutions -> North Dakota -> U. North Dakota,All institutions,North Dakota,U. North Dakota,3,73,14,1,9,4,11,5,2,4,0,0,0,15,13,0,0,0,0,2,9,1,1,2,2,3,0,0,0,0
+1813,r333,All institutions -> Ohio,All institutions,Ohio,,2,2051,455,52,311,92,262,133,18,111,125,60,65,262,151,10,14,17,25,45,391,21,40,48,21,74,8,34,53,92
+1813,r334,All institutions -> Ohio -> Air Force Institute of Technology,All institutions,Ohio,Air Force Institute of Technology,3,36,0,0,0,0,9,0,0,9,11,6,5,0,0,0,0,0,0,0,14,5,0,0,0,4,0,0,0,5
+1813,r335,"All institutions -> Ohio -> Bowling Green State U., Bowling Green",All institutions,Ohio,"Bowling Green State U., Bowling Green",3,89,12,1,8,3,5,5,0,0,8,1,7,29,19,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0
+1813,r336,All institutions -> Ohio -> Case Western Reserve U.,All institutions,Ohio,Case Western Reserve U.,3,200,69,0,61,8,24,13,2,9,5,4,1,7,5,0,0,0,2,0,55,1,14,6,1,4,0,7,7,15
+1813,r337,All institutions -> Ohio -> Cleveland State U.,All institutions,Ohio,Cleveland State U.,3,45,7,0,7,0,10,9,0,1,1,1,0,10,7,0,0,0,0,3,9,0,2,1,1,0,0,0,1,4
+1813,r338,"All institutions -> Ohio -> Hebrew Union C.-Jewish Institute of Religion, Cincinnati",All institutions,Ohio,"Hebrew Union C.-Jewish Institute of Religion, Cincinnati",3,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r339,"All institutions -> Ohio -> Kent State U., Kent",All institutions,Ohio,"Kent State U., Kent",3,159,36,0,18,18,20,6,0,14,18,10,8,24,13,0,0,4,3,4,0,0,0,0,0,0,0,0,0,0
+1813,r340,"All institutions -> Ohio -> Miami U., Oxford",All institutions,Ohio,"Miami U., Oxford",3,49,14,0,14,0,5,5,0,0,0,0,0,16,14,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r341,"All institutions -> Ohio -> Ohio State U., Columbus",All institutions,Ohio,"Ohio State U., Columbus",3,749,184,45,103,36,89,33,13,43,56,23,33,87,28,10,13,10,8,18,139,7,10,20,7,40,3,12,18,22
+1813,r342,"All institutions -> Ohio -> Ohio U., Athens",All institutions,Ohio,"Ohio U., Athens",3,130,15,1,10,4,13,5,0,8,5,0,5,20,19,0,0,0,0,1,12,0,0,4,4,1,1,0,0,2
+1813,r343,"All institutions -> Ohio -> U. Akron, Akron",All institutions,Ohio,"U. Akron, Akron",3,137,11,0,11,0,36,25,0,11,0,0,0,25,19,0,0,0,4,2,55,0,3,8,7,7,1,1,4,24
+1813,r344,"All institutions -> Ohio -> U. Cincinnati, Uptown West Campus",All institutions,Ohio,"U. Cincinnati, Uptown West Campus",3,240,61,0,42,19,27,22,3,2,13,8,5,30,14,0,1,1,3,11,40,6,2,5,0,2,0,4,12,9
+1813,r345,All institutions -> Ohio -> U. Dayton,All institutions,Ohio,U. Dayton,3,41,1,0,1,0,5,0,0,5,0,0,0,0,0,0,0,0,0,0,24,2,0,0,0,9,0,5,7,1
+1813,r346,All institutions -> Ohio -> U. Toledo,All institutions,Ohio,U. Toledo,3,117,28,1,23,4,18,10,0,8,1,1,0,9,8,0,0,0,0,1,24,0,6,4,1,2,2,2,3,4
+1813,r347,"All institutions -> Ohio -> Wright State U., Dayton",All institutions,Ohio,"Wright State U., Dayton",3,47,17,4,13,0,1,0,0,1,7,6,1,5,5,0,0,0,0,0,16,0,3,0,0,5,1,0,1,6
+1813,r348,All institutions -> Ohio -> Youngstown State U.,All institutions,Ohio,Youngstown State U.,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3,0,0
+1813,r349,All institutions -> Oklahoma,All institutions,Oklahoma,,2,504,105,21,60,24,47,18,16,13,13,8,5,80,51,3,6,5,4,11,82,0,8,4,5,13,8,1,7,36
+1813,r350,All institutions -> Oklahoma -> Oklahoma City U.,All institutions,Oklahoma,Oklahoma City U.,3,5,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r351,"All institutions -> Oklahoma -> Oklahoma State U., Center for Health Sciences",All institutions,Oklahoma,"Oklahoma State U., Center for Health Sciences",3,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r352,"All institutions -> Oklahoma -> Oklahoma State U., Stillwater",All institutions,Oklahoma,"Oklahoma State U., Stillwater",3,228,44,19,22,3,21,13,3,5,5,4,1,40,29,0,2,0,2,7,23,0,3,1,2,2,4,1,4,6
+1813,r353,"All institutions -> Oklahoma -> U. Oklahoma, Norman",All institutions,Oklahoma,"U. Oklahoma, Norman",3,233,53,2,34,17,24,4,13,7,6,3,3,32,14,3,4,5,2,4,43,0,5,3,3,11,4,0,1,16
+1813,r354,All institutions -> Oklahoma -> U. Tulsa,All institutions,Oklahoma,U. Tulsa,3,36,2,0,2,0,2,1,0,1,2,1,1,8,8,0,0,0,0,0,16,0,0,0,0,0,0,0,2,14
+1813,r355,All institutions -> Oregon,All institutions,Oregon,,2,537,158,42,94,22,90,50,19,21,40,15,25,94,39,7,10,6,11,21,90,0,9,7,14,17,3,5,10,25
+1813,r356,All institutions -> Oregon -> Oregon Health and Science U.,All institutions,Oregon,Oregon Health and Science U.,3,53,44,2,35,7,1,1,0,0,2,2,0,1,1,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0
+1813,r357,"All institutions -> Oregon -> Oregon State U., Corvallis",All institutions,Oregon,"Oregon State U., Corvallis",3,238,76,34,28,14,47,26,15,6,21,7,14,12,5,1,2,0,0,4,67,0,2,7,13,14,3,5,7,16
+1813,r358,All institutions -> Oregon -> Portland State U.,All institutions,Oregon,Portland State U.,3,78,15,2,12,1,13,7,1,5,5,3,2,23,6,0,0,2,3,12,16,0,0,0,1,3,0,0,3,9
+1813,r359,All institutions -> Oregon -> U. Oregon,All institutions,Oregon,U. Oregon,3,168,23,4,19,0,29,16,3,10,12,3,9,58,27,6,8,4,8,5,2,0,2,0,0,0,0,0,0,0
+1813,r360,All institutions -> Pennsylvania,All institutions,Pennsylvania,,2,2623,547,26,397,124,235,107,32,96,225,135,90,331,119,15,37,16,31,113,601,7,88,73,21,81,21,70,89,151
+1813,r361,All institutions -> Pennsylvania -> Bryn Mawr C.,All institutions,Pennsylvania,Bryn Mawr C.,3,15,0,0,0,0,3,2,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r362,All institutions -> Pennsylvania -> Carnegie Mellon U.,All institutions,Pennsylvania,Carnegie Mellon U.,3,307,16,1,15,0,34,13,2,19,63,46,17,21,4,0,2,0,0,15,142,0,3,16,5,19,0,16,19,64
+1813,r363,All institutions -> Pennsylvania -> Drexel U.,All institutions,Pennsylvania,Drexel U.,3,163,38,0,30,8,8,2,0,6,20,15,5,18,18,0,0,0,0,0,66,0,19,4,3,11,0,8,8,13
+1813,r364,All institutions -> Pennsylvania -> Duquesne U.,All institutions,Pennsylvania,Duquesne U.,3,77,20,0,6,14,7,7,0,0,0,0,0,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r365,All institutions -> Pennsylvania -> Indiana U. Pennsylvania,All institutions,Pennsylvania,Indiana U. Pennsylvania,3,59,2,0,0,2,0,0,0,0,0,0,0,17,1,0,0,0,4,12,0,0,0,0,0,0,0,0,0,0
+1813,r366,All institutions -> Pennsylvania -> Lehigh U.,All institutions,Pennsylvania,Lehigh U.,3,110,9,0,9,0,12,5,1,6,5,1,4,9,8,0,1,0,0,0,58,0,1,10,1,7,3,7,22,7
+1813,r367,All institutions -> Pennsylvania -> Marywood U.,All institutions,Pennsylvania,Marywood U.,3,10,2,0,0,2,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r368,"All institutions -> Pennsylvania -> Pennsylvania State U., University Park and Hershey Medical Center",All institutions,Pennsylvania,"Pennsylvania State U., University Park and Hershey Medical Center",3,699,130,24,96,10,81,18,27,36,50,26,24,95,34,4,9,8,11,29,177,7,9,22,8,19,16,26,24,46
+1813,r369,All institutions -> Pennsylvania -> Temple U.,All institutions,Pennsylvania,Temple U.,3,227,31,0,24,7,12,3,1,8,18,5,13,42,16,3,3,2,7,11,15,0,9,0,0,2,0,0,3,1
+1813,r370,All institutions -> Pennsylvania -> Thomas Jefferson U.,All institutions,Pennsylvania,Thomas Jefferson U.,3,13,13,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r371,All institutions -> Pennsylvania -> U. Pennsylvania,All institutions,Pennsylvania,U. Pennsylvania,3,448,123,1,106,16,40,29,0,11,29,19,10,69,15,3,16,4,4,27,53,0,15,11,0,8,0,8,5,6
+1813,r372,"All institutions -> Pennsylvania -> U. Pittsburgh, Pittsburgh",All institutions,Pennsylvania,"U. Pittsburgh, Pittsburgh",3,404,127,0,86,41,38,28,1,9,39,23,16,35,9,5,6,2,5,8,79,0,31,8,4,13,2,5,6,10
+1813,r373,All institutions -> Pennsylvania -> U. of the Sciences Philadelphia,All institutions,Pennsylvania,U. of the Sciences Philadelphia,3,29,21,0,12,9,0,0,0,0,0,0,0,8,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0
+1813,r374,All institutions -> Pennsylvania -> Villanova U.,All institutions,Pennsylvania,Villanova U.,3,32,8,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,1,2,0,2,0,0,2,4
+1813,r375,All institutions -> Pennsylvania -> Westminster Theological Seminary,All institutions,Pennsylvania,Westminster Theological Seminary,3,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r376,"All institutions -> Pennsylvania -> Widener U., Chester",All institutions,Pennsylvania,"Widener U., Chester",3,23,7,0,0,7,0,0,0,0,0,0,0,5,2,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+1813,r377,All institutions -> Puerto Rico,All institutions,Puerto Rico,,2,148,31,7,24,0,15,10,2,3,5,2,3,61,55,0,0,0,0,6,13,0,0,9,1,0,0,1,0,2
+1813,r378,"All institutions -> Puerto Rico -> Carlos Albizu U., San Juan",All institutions,Puerto Rico,"Carlos Albizu U., San Juan",3,22,0,0,0,0,0,0,0,0,0,0,0,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r379,"All institutions -> Puerto Rico -> Inter American U. Puerto Rico, San Juan",All institutions,Puerto Rico,"Inter American U. Puerto Rico, San Juan",3,16,0,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r380,"All institutions -> Puerto Rico -> Pontifical Catholic U. Puerto Rico, Ponce",All institutions,Puerto Rico,"Pontifical Catholic U. Puerto Rico, Ponce",3,16,0,0,0,0,0,0,0,0,0,0,0,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r381,All institutions -> Puerto Rico -> U. Central del Caribe,All institutions,Puerto Rico,U. Central del Caribe,3,6,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r382,"All institutions -> Puerto Rico -> U. Puerto Rico, Mayaguez",All institutions,Puerto Rico,"U. Puerto Rico, Mayaguez",3,21,2,0,2,0,5,3,2,0,2,2,0,0,0,0,0,0,0,0,12,0,0,9,1,0,0,0,0,2
+1813,r383,"All institutions -> Puerto Rico -> U. Puerto Rico, Medical Sciences Campus",All institutions,Puerto Rico,"U. Puerto Rico, Medical Sciences Campus",3,8,8,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r384,"All institutions -> Puerto Rico -> U. Puerto Rico, Rio Piedras",All institutions,Puerto Rico,"U. Puerto Rico, Rio Piedras",3,59,15,6,9,0,10,7,0,3,3,0,3,19,13,0,0,0,0,6,1,0,0,0,0,0,0,1,0,0
+1813,r385,All institutions -> Rhode Island,All institutions,Rhode Island,,2,326,72,4,52,16,53,27,13,13,35,12,23,45,14,0,16,5,4,6,39,0,5,4,0,6,2,6,3,13
+1813,r386,All institutions -> Rhode Island -> Brown U.,All institutions,Rhode Island,Brown U.,3,208,43,1,38,4,31,14,7,10,31,10,21,31,4,0,13,5,4,5,24,0,5,1,0,4,0,6,1,7
+1813,r387,All institutions -> Rhode Island -> Salve Regina U.,All institutions,Rhode Island,Salve Regina U.,3,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r388,All institutions -> Rhode Island -> U. Rhode Island,All institutions,Rhode Island,U. Rhode Island,3,105,29,3,14,12,22,13,6,3,4,2,2,14,10,0,3,0,0,1,15,0,0,3,0,2,2,0,2,6
+1813,r389,All institutions -> South Carolina,All institutions,South Carolina,,2,568,157,14,92,51,56,36,8,12,36,12,24,53,20,1,13,0,1,18,139,1,17,17,18,28,8,8,23,19
+1813,r390,All institutions -> South Carolina -> Clemson U.,All institutions,South Carolina,Clemson U.,3,232,37,13,23,1,24,16,1,7,17,4,13,27,9,0,11,0,0,7,87,0,13,5,12,14,8,8,11,16
+1813,r391,All institutions -> South Carolina -> Medical U. South Carolina,All institutions,South Carolina,Medical U. South Carolina,3,57,54,0,34,20,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r392,"All institutions -> South Carolina -> U. South Carolina, Columbia",All institutions,South Carolina,"U. South Carolina, Columbia",3,279,66,1,35,30,29,19,5,5,19,8,11,26,11,1,2,0,1,11,52,1,4,12,6,14,0,0,12,3
+1813,r393,All institutions -> South Dakota,All institutions,South Dakota,,2,114,42,11,24,7,9,4,2,3,14,6,8,14,7,0,0,3,3,1,24,0,4,0,2,1,0,10,3,4
+1813,r394,All institutions -> South Dakota -> Dakota State U.,All institutions,South Dakota,Dakota State U.,3,7,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r395,All institutions -> South Dakota -> South Dakota School of Mines and Technology,All institutions,South Dakota,South Dakota School of Mines and Technology,3,18,0,0,0,0,3,0,1,2,0,0,0,0,0,0,0,0,0,0,15,0,3,0,0,0,0,8,3,1
+1813,r396,All institutions -> South Dakota -> South Dakota State U.,All institutions,South Dakota,South Dakota State U.,3,52,29,11,14,4,5,4,1,0,8,0,8,4,0,0,0,0,3,1,6,0,0,0,2,1,0,0,0,3
+1813,r397,All institutions -> South Dakota -> U. South Dakota,All institutions,South Dakota,U. South Dakota,3,37,13,0,10,3,1,0,0,1,1,1,0,10,7,0,0,3,0,0,3,0,1,0,0,0,0,2,0,0
+1813,r398,All institutions -> Tennessee,All institutions,Tennessee,,2,955,226,25,162,39,74,39,14,21,50,19,31,131,73,8,16,8,12,14,192,2,18,15,19,40,4,15,18,61
+1813,r399,All institutions -> Tennessee -> East Tennessee State U.,All institutions,Tennessee,East Tennessee State U.,3,29,9,0,4,5,0,0,0,0,0,0,0,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r400,All institutions -> Tennessee -> Meharry Medical C.,All institutions,Tennessee,Meharry Medical C.,3,3,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r401,All institutions -> Tennessee -> Mid-America Baptist Theological Seminary,All institutions,Tennessee,Mid-America Baptist Theological Seminary,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r402,All institutions -> Tennessee -> Middle Tennessee State U.,All institutions,Tennessee,Middle Tennessee State U.,3,48,20,0,7,13,0,0,0,0,1,0,1,5,0,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r403,All institutions -> Tennessee -> Tennessee State U.,All institutions,Tennessee,Tennessee State U.,3,24,10,3,7,0,0,0,0,0,1,1,0,7,7,0,0,0,0,0,3,0,0,0,0,0,0,0,0,3
+1813,r404,All institutions -> Tennessee -> Tennessee Technological U.,All institutions,Tennessee,Tennessee Technological U.,3,19,3,2,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,7,0,0,2,0,2,0,0,3,0
+1813,r405,All institutions -> Tennessee -> U. Memphis,All institutions,Tennessee,U. Memphis,3,151,17,1,12,4,6,1,5,0,4,2,2,24,20,0,2,0,0,2,11,0,3,0,3,2,0,0,0,3
+1813,r406,"All institutions -> Tennessee -> U. Tennessee, Chattanooga",All institutions,Tennessee,"U. Tennessee, Chattanooga",3,6,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2
+1813,r407,"All institutions -> Tennessee -> U. Tennessee, Health Science Center",All institutions,Tennessee,"U. Tennessee, Health Science Center",3,13,12,0,9,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r408,"All institutions -> Tennessee -> U. Tennessee, Knoxville",All institutions,Tennessee,"U. Tennessee, Knoxville",3,374,61,19,34,8,35,18,6,11,21,3,18,46,19,7,6,2,4,8,119,2,4,6,9,22,4,13,10,49
+1813,r409,All institutions -> Tennessee -> Vanderbilt U.,All institutions,Tennessee,Vanderbilt U.,3,280,91,0,85,6,32,19,3,10,20,12,8,41,19,1,4,6,8,3,50,0,11,7,7,14,0,2,5,4
+1813,r410,All institutions -> Texas,All institutions,Texas,,2,4074,875,86,644,145,457,159,119,179,289,128,161,534,256,15,62,44,39,118,897,21,68,70,76,210,17,91,134,210
+1813,r411,All institutions -> Texas -> Baylor C. of Medicine,All institutions,Texas,Baylor C. of Medicine,3,67,66,0,66,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r412,All institutions -> Texas -> Baylor U.,All institutions,Texas,Baylor U.,3,80,11,1,8,2,13,5,3,5,10,0,10,8,2,0,0,1,5,0,8,0,0,0,0,5,0,0,2,1
+1813,r413,All institutions -> Texas -> Brite Divinity S.,All institutions,Texas,Brite Divinity S.,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r414,All institutions -> Texas -> Dallas Theological Seminary,All institutions,Texas,Dallas Theological Seminary,3,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r415,All institutions -> Texas -> Lamar U.,All institutions,Texas,Lamar U.,3,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,5,2,1,2,0,2,1
+1813,r416,All institutions -> Texas -> Prairie View A&M U.,All institutions,Texas,Prairie View A&M U.,3,5,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,3,0,0,0,0,3,0,0,0,0
+1813,r417,All institutions -> Texas -> Rice U.,All institutions,Texas,Rice U.,3,206,12,0,12,0,58,21,9,28,24,6,18,25,5,2,6,5,4,3,61,0,15,10,7,9,0,9,2,9
+1813,r418,All institutions -> Texas -> Sam Houston State U.,All institutions,Texas,Sam Houston State U.,3,21,0,0,0,0,1,1,0,0,0,0,0,14,9,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0
+1813,r419,All institutions -> Texas -> Southern Methodist U.,All institutions,Texas,Southern Methodist U.,3,72,4,0,3,1,11,5,2,4,9,3,6,12,2,0,9,0,0,1,21,0,0,0,0,8,0,0,6,7
+1813,r420,All institutions -> Texas -> Southwestern Baptist Theological Seminary,All institutions,Texas,Southwestern Baptist Theological Seminary,3,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r421,"All institutions -> Texas -> St. Mary's U., San Antonio",All institutions,Texas,"St. Mary's U., San Antonio",3,9,0,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r422,All institutions -> Texas -> Stephen F. Austin State U.,All institutions,Texas,Stephen F. Austin State U.,3,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r423,"All institutions -> Texas -> Texas A&M U., College Station and Health Science Center",All institutions,Texas,"Texas A&M U., College Station and Health Science Center",3,730,179,54,110,15,85,34,22,29,38,11,27,75,32,2,13,3,9,16,230,11,16,12,14,39,4,16,36,82
+1813,r424,All institutions -> Texas -> Texas A&M U.-Commerce,All institutions,Texas,Texas A&M U.-Commerce,3,19,0,0,0,0,0,0,0,0,0,0,0,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r425,All institutions -> Texas -> Texas A&M U.-Corpus Christi,All institutions,Texas,Texas A&M U.-Corpus Christi,3,20,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r426,All institutions -> Texas -> Texas A&M U.-Kingsville,All institutions,Texas,Texas A&M U.-Kingsville,3,6,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2
+1813,r427,All institutions -> Texas -> Texas Christian U.,All institutions,Texas,Texas Christian U.,3,32,1,0,1,0,4,3,0,1,2,0,2,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r428,All institutions -> Texas -> Texas Southern U.,All institutions,Texas,Texas Southern U.,3,25,9,0,9,0,0,0,0,0,0,0,0,5,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0
+1813,r429,All institutions -> Texas -> Texas State U.,All institutions,Texas,Texas State U.,3,51,3,0,3,0,3,0,2,1,0,0,0,7,0,0,0,0,0,7,7,0,0,0,0,0,0,7,0,0
+1813,r430,All institutions -> Texas -> Texas Tech U.,All institutions,Texas,Texas Tech U.,3,304,43,22,21,0,17,7,6,4,18,3,15,42,28,0,8,5,0,1,57,0,1,5,6,7,3,1,14,20
+1813,r431,"All institutions -> Texas -> Texas Tech U., Health Sciences Center",All institutions,Texas,"Texas Tech U., Health Sciences Center",3,14,13,0,10,3,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r432,All institutions -> Texas -> Texas Woman's U.,All institutions,Texas,Texas Woman's U.,3,97,34,0,5,29,0,0,0,0,0,0,0,35,28,0,0,0,5,2,0,0,0,0,0,0,0,0,0,0
+1813,r433,All institutions -> Texas -> U. Dallas,All institutions,Texas,U. Dallas,3,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r434,All institutions -> Texas -> U. Houston,All institutions,Texas,U. Houston,3,325,41,0,29,12,66,15,30,21,31,17,14,42,21,0,8,8,0,5,80,0,6,16,7,22,1,12,8,8
+1813,r435,"All institutions -> Texas -> U. North Texas, Denton",All institutions,Texas,"U. North Texas, Denton",3,193,19,1,15,3,13,7,0,6,21,14,7,49,36,0,0,6,5,2,13,0,0,0,0,1,0,10,1,1
+1813,r436,"All institutions -> Texas -> U. North Texas, Health Science Center",All institutions,Texas,"U. North Texas, Health Science Center",3,22,22,0,21,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r437,"All institutions -> Texas -> U. of St. Thomas, Houston",All institutions,Texas,"U. of St. Thomas, Houston",3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r438,All institutions -> Texas -> U. of the Incarnate Word,All institutions,Texas,U. of the Incarnate Word,3,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r439,"All institutions -> Texas -> U. Texas Health Science Center, Houston<sup>a</sup>",All institutions,Texas,"U. Texas Health Science Center, Houston<sup>a</sup>",3,129,124,0,97,27,0,0,0,0,0,0,0,4,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0
+1813,r440,"All institutions -> Texas -> U. Texas Health Science Center, San Antonio",All institutions,Texas,"U. Texas Health Science Center, San Antonio",3,33,32,0,28,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+1813,r441,All institutions -> Texas -> U. Texas Medical Branch,All institutions,Texas,U. Texas Medical Branch,3,41,40,0,30,10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r442,All institutions -> Texas -> U. Texas Pan American,All institutions,Texas,U. Texas Pan American,3,22,4,0,0,4,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r443,All institutions -> Texas -> U. Texas Southwestern Medical Center,All institutions,Texas,U. Texas Southwestern Medical Center,3,78,59,0,59,0,5,5,0,0,0,0,0,10,10,0,0,0,0,0,4,0,4,0,0,0,0,0,0,0
+1813,r444,"All institutions -> Texas -> U. Texas, Arlington",All institutions,Texas,"U. Texas, Arlington",3,185,19,2,14,3,18,10,1,7,28,11,17,12,4,0,0,0,0,8,80,4,8,0,13,19,6,8,13,9
+1813,r445,"All institutions -> Texas -> U. Texas, Austin",All institutions,Texas,"U. Texas, Austin",3,764,89,0,63,26,97,24,31,42,55,25,30,98,30,7,11,13,11,26,195,6,6,22,21,46,0,10,29,55
+1813,r446,"All institutions -> Texas -> U. Texas, Dallas",All institutions,Texas,"U. Texas, Dallas",3,222,19,0,16,3,29,9,8,12,30,21,9,35,8,0,7,2,0,18,68,0,4,0,0,36,0,11,10,7
+1813,r447,"All institutions -> Texas -> U. Texas, El Paso",All institutions,Texas,"U. Texas, El Paso",3,75,11,0,9,2,7,5,2,0,6,2,4,8,8,0,0,0,0,0,21,0,1,0,3,4,0,6,6,1
+1813,r448,"All institutions -> Texas -> U. Texas, San Antonio",All institutions,Texas,"U. Texas, San Antonio",3,154,14,1,13,0,25,6,0,19,17,15,2,22,5,4,0,0,0,13,33,0,6,0,3,10,1,1,5,7
+1813,r449,All institutions -> Texas -> West Texas A&M U.,All institutions,Texas,West Texas A&M U.,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r450,All institutions -> Utah,All institutions,Utah,,2,512,137,9,92,36,62,31,14,17,42,18,24,76,51,0,6,3,6,10,110,0,14,15,4,28,0,2,22,25
+1813,r451,"All institutions -> Utah -> Brigham Young U., Provo",All institutions,Utah,"Brigham Young U., Provo",3,93,24,0,20,4,13,8,0,5,1,0,1,25,25,0,0,0,0,0,17,0,0,6,0,5,0,1,2,3
+1813,r452,All institutions -> Utah -> U. Utah,All institutions,Utah,U. Utah,3,332,91,0,62,29,41,22,9,10,31,15,16,43,21,0,4,3,6,9,74,0,10,9,1,19,0,1,14,20
+1813,r453,"All institutions -> Utah -> Utah State U., Logan",All institutions,Utah,"Utah State U., Logan",3,87,22,9,10,3,8,1,5,2,10,3,7,8,5,0,2,0,0,1,19,0,4,0,3,4,0,0,6,2
+1813,r454,All institutions -> Vermont,All institutions,Vermont,,2,63,29,7,19,3,5,5,0,0,2,1,1,15,12,0,2,0,0,1,9,0,0,0,1,1,0,0,4,3
+1813,r455,All institutions -> Vermont -> Middlebury C.,All institutions,Vermont,Middlebury C.,3,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r456,All institutions -> Vermont -> U. Vermont,All institutions,Vermont,U. Vermont,3,59,29,7,19,3,5,5,0,0,2,1,1,14,12,0,2,0,0,0,9,0,0,0,1,1,0,0,4,3
+1813,r457,All institutions -> Virginia,All institutions,Virginia,,2,1518,270,47,158,65,151,53,40,58,119,77,42,261,91,11,44,17,15,83,315,14,31,17,27,58,6,26,44,92
+1813,r458,All institutions -> Virginia -> C. of William and Mary,All institutions,Virginia,C. of William and Mary,3,76,4,2,2,0,27,0,10,17,9,9,0,6,0,3,0,0,0,3,2,0,0,0,0,0,0,2,0,0
+1813,r459,All institutions -> Virginia -> George Mason U.,All institutions,Virginia,George Mason U.,3,272,36,10,19,7,24,2,18,4,36,28,8,91,23,0,19,6,6,37,24,0,2,0,4,6,1,0,0,11
+1813,r460,All institutions -> Virginia -> Hampton U.,All institutions,Virginia,Hampton U.,3,17,2,0,0,2,3,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r461,All institutions -> Virginia -> James Madison U.,All institutions,Virginia,James Madison U.,3,13,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r462,All institutions -> Virginia -> Norfolk State U.,All institutions,Virginia,Norfolk State U.,3,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,8,0,0
+1813,r463,All institutions -> Virginia -> Old Dominion U.,All institutions,Virginia,Old Dominion U.,3,136,13,0,4,9,8,3,1,4,8,6,2,22,9,0,0,0,0,13,25,2,2,0,6,5,0,0,4,6
+1813,r464,All institutions -> Virginia -> Regent U.,All institutions,Virginia,Regent U.,3,45,0,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r465,All institutions -> Virginia -> Union Presbyterian Seminary,All institutions,Virginia,Union Presbyterian Seminary,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r466,"All institutions -> Virginia -> U. Virginia, Charlottesville",All institutions,Virginia,"U. Virginia, Charlottesville",3,324,64,5,50,9,32,12,2,18,23,8,15,56,17,8,17,9,5,0,65,1,8,9,3,12,0,12,4,16
+1813,r467,All institutions -> Virginia -> Virginia Commonwealth U.,All institutions,Virginia,Virginia Commonwealth U.,3,194,74,0,43,31,20,16,0,4,6,2,4,33,20,0,0,0,0,13,26,0,4,6,0,3,0,0,4,9
+1813,r468,All institutions -> Virginia -> Virginia Polytechnic Institute and State U.,All institutions,Virginia,Virginia Polytechnic Institute and State U.,3,426,77,30,40,7,37,20,8,9,37,24,13,46,16,0,8,2,4,16,165,11,15,2,14,32,5,4,32,50
+1813,r469,All institutions -> Washington,All institutions,Washington,,2,964,301,64,176,61,118,44,35,39,72,42,30,168,53,11,38,15,16,35,135,4,20,12,8,24,3,26,20,18
+1813,r470,All institutions -> Washington -> Gonzaga U.,All institutions,Washington,Gonzaga U.,3,16,1,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+1813,r471,All institutions -> Washington -> Seattle Pacific U.,All institutions,Washington,Seattle Pacific U.,3,31,0,0,0,0,0,0,0,0,0,0,0,18,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r472,"All institutions -> Washington -> U. Washington, Seattle",All institutions,Washington,"U. Washington, Seattle",3,619,195,15,134,46,97,34,31,32,62,37,25,80,17,7,15,12,12,17,82,4,19,7,6,18,2,11,10,5
+1813,r473,All institutions -> Washington -> Washington State U.,All institutions,Washington,Washington State U.,3,298,105,49,42,14,21,10,4,7,10,5,5,68,18,4,23,3,4,16,53,0,1,5,2,6,1,15,10,13
+1813,r474,All institutions -> West Virginia,All institutions,West Virginia,,2,219,46,10,20,16,20,11,1,8,11,1,10,33,16,0,8,6,0,3,38,1,1,9,1,8,0,2,9,7
+1813,r475,All institutions -> West Virginia -> Marshall U.,All institutions,West Virginia,Marshall U.,3,19,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r476,All institutions -> West Virginia -> West Virginia U.,All institutions,West Virginia,West Virginia U.,3,200,44,10,18,16,20,11,1,8,11,1,10,33,16,0,8,6,0,3,38,1,1,9,1,8,0,2,9,7
+1813,r477,All institutions -> Wisconsin,All institutions,Wisconsin,,2,1081,297,30,201,66,125,68,23,34,70,28,42,158,59,5,35,10,18,31,154,0,15,15,3,38,9,23,21,30
+1813,r478,All institutions -> Wisconsin -> Cardinal Stritch U.,All institutions,Wisconsin,Cardinal Stritch U.,3,31,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1813,r479,All institutions -> Wisconsin -> Marquette U.,All institutions,Wisconsin,Marquette U.,3,64,15,0,7,8,7,6,0,1,4,4,0,7,7,0,0,0,0,0,9,0,4,0,1,2,0,0,0,2
+1813,r480,All institutions -> Wisconsin -> Medical C. Wisconsin,All institutions,Wisconsin,Medical C. Wisconsin,3,32,30,0,29,1,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1813,r481,All institutions -> Wisconsin -> U. Wisconsin-Madison,All institutions,Wisconsin,U. Wisconsin-Madison,3,770,222,30,152,40,103,54,22,27,54,20,34,98,29,3,26,9,14,17,124,0,10,15,2,27,8,22,15,25
+1813,r482,All institutions -> Wisconsin -> U. Wisconsin-Milwaukee,All institutions,Wisconsin,U. Wisconsin-Milwaukee,3,184,30,0,13,17,14,8,1,5,11,4,7,51,22,2,9,1,4,13,21,0,1,0,0,9,1,1,6,3
+1813,r483,All institutions -> Wyoming,All institutions,Wyoming,,2,102,25,7,18,0,20,5,11,4,9,3,6,8,3,1,2,0,0,2,22,0,0,3,6,4,0,0,2,7
+1813,r484,All institutions -> Wyoming -> U. Wyoming,All institutions,Wyoming,U. Wyoming,3,102,25,7,18,0,20,5,11,4,9,3,6,8,3,1,2,0,0,2,22,0,0,3,6,4,0,0,2,7

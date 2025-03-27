@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Top baccalaureate institutions of black or African American engineering doctorate recipients, by sex: 2013&#8211;17",
+  "identifier": "NCSES-1218",
+  "description": "Top baccalaureate institutions of black or African American engineering doctorate recipients, by sex: 2013&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1218",
+  "table_number": "7-13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1218/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "academic_institution",
+      "description": "Academic institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "academic_institution_level_1, academic_institution_level_2, academic_institution_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "academic_institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_recipients",
+      "description": "Doctorate Recipients",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Includes all black or African American engineering doctorate recipients except those who reported that they did not receive a baccalaureate degree. Baccalaureate institutions with fewer than 5 doctorate recipients are not shown. Institutions with the same number of doctorate recipients are listed alphabetically. Data in this table refer to research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or other health sciences. Reporting categories for race and ethnicity were expanded in 2013; comparisons to prior-year data should be made with caution.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Research doctorate recipients reporting one or more functional limitations, by broad field of doctorate, sex, and citizenship status: 2023",
+  "identifier": "NCSES-11664",
+  "description": "Research doctorate recipients reporting one or more functional limitations, by broad field of doctorate, sex, and citizenship status: 2023",
+  "url": "https://example.org/datasets/ncses/tables/11664",
+  "table_number": "5-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11664/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_and_demographic_characteristic_b",
+      "description": "Field and demographic characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_and_demographic_characteristic_b_level_1, _b_field_and_demographic_characteristic_b_level_2, _b_field_and_demographic_characteristic_b_level_3, _b_field_and_demographic_characteristic_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_and_demographic_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_one_or_more_limitations_of_any_type_number",
+      "description": "One Or More Limitations Of Any Type Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_one_or_more_limitations_of_any_type_percent",
+      "description": "One Or More Limitations Of Any Type Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_visual_limitations_number",
+      "description": "Visual Limitations Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_visual_limitations_percent",
+      "description": "Visual Limitations Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hearing_limitations_number",
+      "description": "Hearing Limitations Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hearing_limitations_percent",
+      "description": "Hearing Limitations Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_walking_limitations_number",
+      "description": "Walking Limitations Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_walking_limitations_percent",
+      "description": "Walking Limitations Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_lifting_limitations_number",
+      "description": "Lifting Limitations Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_lifting_limitations_percent",
+      "description": "Lifting Limitations Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_cognitive_limitations_number",
+      "description": "Cognitive Limitations Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_cognitive_limitations_percent",
+      "description": "Cognitive Limitations Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Doctorate recipients could report more than one functional limitation; thus, counts and percentages for the specific limitations will not sum to the \"One or more limitations\" columns. Survey asks degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014that an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a functional limitation. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and new broad, major, and detailed fields are used in tables reporting data from 2021 to the present; see the field list in table A-4. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. For more information about the 2021 taxonomy change, see the \"Technical Notes.\"National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

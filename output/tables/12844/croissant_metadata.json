@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Science and engineering research space in academic institutions, by field, medical school space, research animal space, and type of institution: FY 2023",
+  "identifier": "NCSES-12844",
+  "description": "Science and engineering research space in academic institutions, by field, medical school space, research animal space, and type of institution: FY 2023",
+  "url": "https://example.org/datasets/ncses/tables/12844",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12844/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_medical_school_space_and_research_animal_space_b",
+      "description": "Field, medical school space, and research animal space hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_medical_school_space_and_research_animal_space_b_level_1, _b_field_medical_school_space_and_research_animal_space_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_medical_school_space_and_research_animal_space_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions",
+      "description": "All Institutions",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_granting_all",
+      "description": "Doctorate Granting All",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_granting_public",
+      "description": "Doctorate Granting Public",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_granting_private",
+      "description": "Doctorate Granting Private",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nondoctorate_granting",
+      "description": "Nondoctorate Granting",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities, FY 2023."
+}

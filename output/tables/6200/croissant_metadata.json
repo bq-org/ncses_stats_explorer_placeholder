@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Annual rates of change in U.S. KTI value added and GDP: 2002\u201320",
+  "identifier": "NCSES-6200",
+  "description": "Annual rates of change in U.S. KTI value added and GDP: 2002\u201320",
+  "url": "https://example.org/datasets/ncses/tables/6200",
+  "table_number": "KTI-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6200/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_isic_rev_4_industry_code",
+      "description": "Isic Rev 4 Industry Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_longer_term_trends_2002_05",
+      "description": "Longer Term Trends 2002 05",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_longer_term_trends_2005_10",
+      "description": "Longer Term Trends 2005 10",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_longer_term_trends_2010_15",
+      "description": "Longer Term Trends 2010 15",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_years_2015_16",
+      "description": "Recent Years 2015 16",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_years_2016_17",
+      "description": "Recent Years 2016 17",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_years_2017_18",
+      "description": "Recent Years 2017 18",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_years_2018_19",
+      "description": "Recent Years 2018 19",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_years_2019_20",
+      "description": "Recent Years 2019 20",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Value added is a net measure of output; it is the difference between the value of goods and services produced by an industry (gross output) and the total cost of intermediate inputs that were used in production, including energy, materials, and services purchased from other businesses. Industry value added is a measure of an industry's contribution to overall GDP. KTI industries include high R&D intensive and medium-high R&D intensive industries based on a classification by the Organisation for Economic Co-operation and Development. The data have been crosswalked to the ISIC, Rev.4, classification. See the Technical Appendix for the crosswalking method and Table SKTI-1 for historical data on these industries. Longer-term trend rates are calculated as compound annual growth rates.",
+  "sources": "U.S. Bureau of Economic Analysis, Value Added by Industry, accessed 5 October 2021.Science and Engineering Indicators"
+}

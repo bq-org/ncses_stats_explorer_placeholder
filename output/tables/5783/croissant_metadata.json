@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "International undergraduate student enrollment in U.S. universities, by field and selected regions, countries, or economies of origin: 2019\u201320",
+  "identifier": "NCSES-5783",
+  "description": "International undergraduate student enrollment in U.S. universities, by field and selected regions, countries, or economies of origin: 2019\u201320",
+  "url": "https://example.org/datasets/ncses/tables/5783",
+  "table_number": "SHED-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5783/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include active foreign national students on F-1 visas and exclude those on optional practical training. Undergraduate enrollment includes associate's and bachelor's degrees. Numbers are rounded to the nearest 10. Places of origin are ordered by total number of S&E students. Detail may not add to total because of rounding and the inclusion of a small number of students who could not be classified according to field of study. Physical sciences include earth, atmospheric, and ocean sciences. The data reflect fall enrollment in a given year and include students with active status as of 15 November of that year.",
+  "sources": "U.S. Department of Homeland Security, U.S. Immigration and Customs Enforcement, special tabulations (2021) of the Student and Exchange Visitor Information System (SEVIS) database.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

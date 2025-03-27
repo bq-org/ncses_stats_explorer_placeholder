@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Primary source of support for U.S. citizen and permanent resident S&E doctorate recipients, by race, ethnicity, sex, and historical broad field: 2017&#8211;21",
+  "identifier": "NCSES-9332",
+  "description": "Primary source of support for U.S. citizen and permanent resident S&E doctorate recipients, by race, ethnicity, sex, and historical broad field: 2017&#8211;21",
+  "url": "https://example.org/datasets/ncses/tables/9332",
+  "table_number": "SURD-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9332/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_primary_source_of_support_race_ethnicity_and_sex_b",
+      "description": "Primary source of support, race, ethnicity, and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_primary_source_of_support_race_ethnicity_and_sex_b_level_1, _b_primary_source_of_support_race_ethnicity_and_sex_b_level_2, _b_primary_source_of_support_race_ethnicity_and_sex_b_level_3, _b_primary_source_of_support_race_ethnicity_and_sex_b_level_4, _b_primary_source_of_support_race_ethnicity_and_sex_b_level_5, _b_primary_source_of_support_race_ethnicity_and_sex_b_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_primary_source_of_support_race_ethnicity_and_sex_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_s_e",
+      "description": "All S E",
+      "valueType": "string",
+      "unitText": "Percent distribution and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_all_science",
+      "description": "Science All Science",
+      "valueType": "string",
+      "unitText": "Percent distribution and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_life_sciencesa",
+      "description": "Science Life Sciencesa",
+      "valueType": "string",
+      "unitText": "Percent distribution and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_physical_sciences_and_earth_sciences_",
+      "description": "Science Physical Sciences And Earth Sciences ",
+      "valueType": "string",
+      "unitText": "Percent distribution and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_mathematics_and_computer_sciences",
+      "description": "Science Mathematics And Computer Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_and_social_sciences",
+      "description": "Science Psychology And Social Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Percent distribution and number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data in this table include all U.S. citizen and permanent resident S&E doctorate recipients; temporary visa holders are excluded. American Indian or Alaska Native doctorate recipients with unknown or refused citizenship status are counted as U.S. citizens and thus are included. Data in this table refer to research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or other health sciences, which are fields with many professional doctorates.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2021) of the 2021 Survey of Earned Doctorates.Science and Engineering Indicators"
+}

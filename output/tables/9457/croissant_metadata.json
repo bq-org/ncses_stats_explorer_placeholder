@@ -1,0 +1,172 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. citizen and permanent resident research doctorate recipients, by historical broad field of doctorate, ethnicity, and race: Selected years, 1977\u20132022",
+  "identifier": "NCSES-9457",
+  "description": "U.S. citizen and permanent resident research doctorate recipients, by historical broad field of doctorate, ethnicity, and race: Selected years, 1977\u20132022",
+  "url": "https://example.org/datasets/ncses/tables/9457",
+  "table_number": "1-11",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9457/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_ethnicity_and_race",
+      "description": "Field, ethnicity, and race hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_ethnicity_and_race_level_1, field_ethnicity_and_race_level_2, field_ethnicity_and_race_level_3, field_ethnicity_and_race_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_ethnicity_and_race_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ethnicity_and_race_full_path",
+      "description": "Ethnicity And Race Full Path",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ethnicity_and_race_level_1",
+      "description": "Ethnicity And Race Level 1",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ethnicity_and_race_level_2",
+      "description": "Ethnicity And Race Level 2",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ethnicity_and_race_level_3",
+      "description": "Ethnicity And Race Level 3",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ethnicity_and_race_level_4",
+      "description": "Ethnicity And Race Level 4",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ethnicity_and_race_hierarchy_depth",
+      "description": "Ethnicity And Race Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1977",
+      "description": "1977",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1982",
+      "description": "1982",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1987",
+      "description": "1987",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1992",
+      "description": "1992",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1997",
+      "description": "1997",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002",
+      "description": "2002",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection; the historical fields were constructed using the SED-CIP code crosswalk in table A-6. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. For more information, see the \"Technical Notes\" and the SED 2021 Taxonomy Changes Working Paper (available at https://ncses.nsf.gov/pubs/ncses23200).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

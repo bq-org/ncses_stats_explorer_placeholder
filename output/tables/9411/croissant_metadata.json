@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average TIMSS mathematics and science scores of students in grades 4 and 8: 1995\u20132019\u00a0 ",
+  "identifier": "NCSES-9411",
+  "description": "Average TIMSS mathematics and science scores of students in grades 4 and 8: 1995\u20132019\u00a0 ",
+  "url": "https://example.org/datasets/ncses/tables/9411",
+  "table_number": "K12-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9411/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "grade_and_subject",
+      "description": "Grade And Subject",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1995",
+      "description": "1995",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1999",
+      "description": "1999",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "International Association for the Evaluation of Educational Achievement, TIMSS, 1995, 1999, 2003, 2007, 2011, 2015, and 2019. Science and Engineering Indicators"
+}

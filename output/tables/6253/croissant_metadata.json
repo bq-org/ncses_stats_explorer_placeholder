@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Concordance for KTI employment data",
+  "identifier": "NCSES-6253",
+  "description": "Concordance for KTI employment data",
+  "url": "https://example.org/datasets/ncses/tables/6253",
+  "table_number": "SAKTI-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6253/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "isic_rev_4",
+      "description": "Isic Rev 4",
+      "valueType": "string",
+      "unitText": "List of industries and rate of partial employment"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "industry_title",
+      "description": "Industry Title",
+      "valueType": "string",
+      "unitText": "List of industries and rate of partial employment"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "naics_codea",
+      "description": "Naics Codea",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "modified_naics_codeb",
+      "description": "Modified Naics Codeb",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rate_of_partial_employment_in_naicsc",
+      "description": "Rate Of Partial Employment In Naicsc",
+      "valueType": "string",
+      "unitText": "List of industries and rate of partial employment"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "This concordance was developed using the Census Bureau 2012 NAICS to ISIC, Rev.4, concordance available at: https://www.census.gov/naics/. More information on 2012 NAICS classification is available at: https://www.census.gov/naics/. More information on ISIC, Rev.4, is available at: https://unstats.un.org/unsd/classifications/Econ/Structure.Science and Engineering Indicators"
+}

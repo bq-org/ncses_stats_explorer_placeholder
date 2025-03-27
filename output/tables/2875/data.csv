@@ -1,0 +1,13 @@
+table_id,row_id,ffrdcs_and_postdocs_full_path,ffrdcs_and_postdocs_level_1,ffrdcs_and_postdocs_level_2,ffrdcs_and_postdocs_level_3,ffrdcs_and_postdocs_level_4,ffrdcs_and_postdocs_hierarchy_depth,field_2012,field_2013,field_2015,field_2017a_b,field_2019a,field_change_2012_19,field_change_2017_19
+2875,r001,FFRDCs,FFRDCs,,,,1,,,,,,,
+2875,r002,FFRDCs -> All FFRDCs,FFRDCs,All FFRDCs,,,2,39,40,42,42,42,3,0
+2875,r003,FFRDCs -> FFRDCs with postdocs,FFRDCs,FFRDCs with postdocs,,,2,22,21,24,23,24,2,1
+2875,r004,Postdocs,Postdocs,,,,1,,,,,,,
+2875,r005,Postdocs -> All postdocs,Postdocs,All postdocs,,,2,2793,2613,2696,2975,3335,542,360
+2875,r006,Postdocs -> All postdocs -> FFRDC type,Postdocs,All postdocs,FFRDC type,,3,,,,,,,
+2875,r007,Postdocs -> All postdocs -> FFRDC type -> University administered,Postdocs,All postdocs,FFRDC type,University administered,4,1248,1204,1227,1296,1398,150,102
+2875,r008,Postdocs -> All postdocs -> FFRDC type -> Nonprofit administered,Postdocs,All postdocs,FFRDC type,Nonprofit administered,4,681,653,698,788,912,231,124
+2875,r009,Postdocs -> All postdocs -> FFRDC type -> Industry administered,Postdocs,All postdocs,FFRDC type,Industry administered,4,864,756,771,891,1025,161,134
+2875,r010,Postdocs -> All postdocs -> Federal sponsoring agency,Postdocs,All postdocs,Federal sponsoring agency,,3,,,,,,,
+2875,r011,Postdocs -> All postdocs -> Federal sponsoring agency -> Department of Energy,Postdocs,All postdocs,Federal sponsoring agency,Department of Energy,4,2579,2367,2463,2685,3034,455,349
+2875,r012,Postdocs -> All postdocs -> Federal sponsoring agency -> All other sponsors,Postdocs,All postdocs,Federal sponsoring agency,All other sponsors,4,214,246,233,290,301,87,11

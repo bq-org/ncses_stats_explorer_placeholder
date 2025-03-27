@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for basic research in social sciences, by agency and detailed field: FY 2020",
+  "identifier": "NCSES-6373",
+  "description": "Federal obligations for basic research in social sciences, by agency and detailed field: FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/6373",
+  "table_number": "38",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6373/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_agency_b",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_agency_b_level_1, _b_agency_b_level_2, _b_agency_b_level_3, _b_agency_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_agency_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_anthropology",
+      "description": "Anthropology",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_economics",
+      "description": "Economics",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_political_science",
+      "description": "Political Science",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sociology",
+      "description": "Sociology",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_social_sciences",
+      "description": "Other Social Sciences",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Only those agencies and subdivisions that had obligations in variables represented by this table appear in the table. FYs 2020 obligations include additional funding provided by supplemental COVID-19 related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act). See technical table A-2 for additional notes associated with the agencies listed in this table.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2020\u201321."
+}

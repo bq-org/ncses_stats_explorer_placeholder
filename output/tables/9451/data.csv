@@ -1,0 +1,737 @@
+table_id,row_id,time_period,column_level_1,column_level_2,column_hierarchy_depth,value
+9451,r001,1975,All graduates,,1,51
+9451,r002,1975,Sex,Male,2,53
+9451,r003,1975,Sex,Female,2,49
+9451,r004,1975,Family incomea,Low,2,31
+9451,r005,1975,Family incomea,Middle,2,46
+9451,r006,1975,Family incomea,High,2,65
+9451,r007,1975,Race or ethnicityb,White,2,49
+9451,r008,1975,Race or ethnicityb,Black,2,45
+9451,r009,1975,Race or ethnicityb,Hispanic,2,53
+9451,r010,1975,Race or ethnicityb,Asian,2,NA
+9451,r011,1975,Parents' highest education levelc,Less than high school,2,NA
+9451,r012,1975,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r013,1975,Parents' highest education levelc,Some college,2,NA
+9451,r014,1975,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r015,1975,Institution type,2-year,2,18
+9451,r016,1975,Institution type,4-year,2,33
+9451,r017,1976,All graduates,,1,49
+9451,r018,1976,Sex,Male,2,47
+9451,r019,1976,Sex,Female,2,50
+9451,r020,1976,Family incomea,Low,2,39
+9451,r021,1976,Family incomea,Middle,2,41
+9451,r022,1976,Family incomea,High,2,63
+9451,r023,1976,Race or ethnicityb,White,2,50
+9451,r024,1976,Race or ethnicityb,Black,2,45
+9451,r025,1976,Race or ethnicityb,Hispanic,2,54
+9451,r026,1976,Race or ethnicityb,Asian,2,NA
+9451,r027,1976,Parents' highest education levelc,Less than high school,2,NA
+9451,r028,1976,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r029,1976,Parents' highest education levelc,Some college,2,NA
+9451,r030,1976,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r031,1976,Institution type,2-year,2,16
+9451,r032,1976,Institution type,4-year,2,33
+9451,r033,1977,All graduates,,1,51
+9451,r034,1977,Sex,Male,2,52
+9451,r035,1977,Sex,Female,2,49
+9451,r036,1977,Family incomea,Low,2,28
+9451,r037,1977,Family incomea,Middle,2,44
+9451,r038,1977,Family incomea,High,2,66
+9451,r039,1977,Race or ethnicityb,White,2,50
+9451,r040,1977,Race or ethnicityb,Black,2,47
+9451,r041,1977,Race or ethnicityb,Hispanic,2,49
+9451,r042,1977,Race or ethnicityb,Asian,2,NA
+9451,r043,1977,Parents' highest education levelc,Less than high school,2,NA
+9451,r044,1977,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r045,1977,Parents' highest education levelc,Some college,2,NA
+9451,r046,1977,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r047,1977,Institution type,2-year,2,17
+9451,r048,1977,Institution type,4-year,2,33
+9451,r049,1978,All graduates,,1,50
+9451,r050,1978,Sex,Male,2,51
+9451,r051,1978,Sex,Female,2,49
+9451,r052,1978,Family incomea,Low,2,31
+9451,r053,1978,Family incomea,Middle,2,44
+9451,r054,1978,Family incomea,High,2,64
+9451,r055,1978,Race or ethnicityb,White,2,50
+9451,r056,1978,Race or ethnicityb,Black,2,48
+9451,r057,1978,Race or ethnicityb,Hispanic,2,46
+9451,r058,1978,Race or ethnicityb,Asian,2,NA
+9451,r059,1978,Parents' highest education levelc,Less than high school,2,NA
+9451,r060,1978,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r061,1978,Parents' highest education levelc,Some college,2,NA
+9451,r062,1978,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r063,1978,Institution type,2-year,2,17
+9451,r064,1978,Institution type,4-year,2,33
+9451,r065,1979,All graduates,,1,49
+9451,r066,1979,Sex,Male,2,50
+9451,r067,1979,Sex,Female,2,48
+9451,r068,1979,Family incomea,Low,2,31
+9451,r069,1979,Family incomea,Middle,2,43
+9451,r070,1979,Family incomea,High,2,63
+9451,r071,1979,Race or ethnicityb,White,2,50
+9451,r072,1979,Race or ethnicityb,Black,2,45
+9451,r073,1979,Race or ethnicityb,Hispanic,2,46
+9451,r074,1979,Race or ethnicityb,Asian,2,NA
+9451,r075,1979,Parents' highest education levelc,Less than high school,2,NA
+9451,r076,1979,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r077,1979,Parents' highest education levelc,Some college,2,NA
+9451,r078,1979,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r079,1979,Institution type,2-year,2,18
+9451,r080,1979,Institution type,4-year,2,32
+9451,r081,1980,All graduates,,1,49
+9451,r082,1980,Sex,Male,2,47
+9451,r083,1980,Sex,Female,2,52
+9451,r084,1980,Family incomea,Low,2,33
+9451,r085,1980,Family incomea,Middle,2,43
+9451,r086,1980,Family incomea,High,2,65
+9451,r087,1980,Race or ethnicityb,White,2,52
+9451,r088,1980,Race or ethnicityb,Black,2,44
+9451,r089,1980,Race or ethnicityb,Hispanic,2,50
+9451,r090,1980,Race or ethnicityb,Asian,2,NA
+9451,r091,1980,Parents' highest education levelc,Less than high school,2,NA
+9451,r092,1980,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r093,1980,Parents' highest education levelc,Some college,2,NA
+9451,r094,1980,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r095,1980,Institution type,2-year,2,19
+9451,r096,1980,Institution type,4-year,2,30
+9451,r097,1981,All graduates,,1,54
+9451,r098,1981,Sex,Male,2,55
+9451,r099,1981,Sex,Female,2,53
+9451,r100,1981,Family incomea,Low,2,34
+9451,r101,1981,Family incomea,Middle,2,49
+9451,r102,1981,Family incomea,High,2,68
+9451,r103,1981,Race or ethnicityb,White,2,52
+9451,r104,1981,Race or ethnicityb,Black,2,40
+9451,r105,1981,Race or ethnicityb,Hispanic,2,49
+9451,r106,1981,Race or ethnicityb,Asian,2,NA
+9451,r107,1981,Parents' highest education levelc,Less than high school,2,NA
+9451,r108,1981,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r109,1981,Parents' highest education levelc,Some college,2,NA
+9451,r110,1981,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r111,1981,Institution type,2-year,2,20
+9451,r112,1981,Institution type,4-year,2,33
+9451,r113,1982,All graduates,,1,51
+9451,r114,1982,Sex,Male,2,49
+9451,r115,1982,Sex,Female,2,52
+9451,r116,1982,Family incomea,Low,2,33
+9451,r117,1982,Family incomea,Middle,2,42
+9451,r118,1982,Family incomea,High,2,71
+9451,r119,1982,Race or ethnicityb,White,2,54
+9451,r120,1982,Race or ethnicityb,Black,2,39
+9451,r121,1982,Race or ethnicityb,Hispanic,2,49
+9451,r122,1982,Race or ethnicityb,Asian,2,NA
+9451,r123,1982,Parents' highest education levelc,Less than high school,2,NA
+9451,r124,1982,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r125,1982,Parents' highest education levelc,Some college,2,NA
+9451,r126,1982,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r127,1982,Institution type,2-year,2,19
+9451,r128,1982,Institution type,4-year,2,32
+9451,r129,1983,All graduates,,1,53
+9451,r130,1983,Sex,Male,2,52
+9451,r131,1983,Sex,Female,2,53
+9451,r132,1983,Family incomea,Low,2,35
+9451,r133,1983,Family incomea,Middle,2,45
+9451,r134,1983,Family incomea,High,2,70
+9451,r135,1983,Race or ethnicityb,White,2,56
+9451,r136,1983,Race or ethnicityb,Black,2,38
+9451,r137,1983,Race or ethnicityb,Hispanic,2,47
+9451,r138,1983,Race or ethnicityb,Asian,2,NA
+9451,r139,1983,Parents' highest education levelc,Less than high school,2,NA
+9451,r140,1983,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r141,1983,Parents' highest education levelc,Some college,2,NA
+9451,r142,1983,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r143,1983,Institution type,2-year,2,19
+9451,r144,1983,Institution type,4-year,2,34
+9451,r145,1984,All graduates,,1,55
+9451,r146,1984,Sex,Male,2,56
+9451,r147,1984,Sex,Female,2,54
+9451,r148,1984,Family incomea,Low,2,35
+9451,r149,1984,Family incomea,Middle,2,48
+9451,r150,1984,Family incomea,High,2,74
+9451,r151,1984,Race or ethnicityb,White,2,58
+9451,r152,1984,Race or ethnicityb,Black,2,40
+9451,r153,1984,Race or ethnicityb,Hispanic,2,49
+9451,r154,1984,Race or ethnicityb,Asian,2,NA
+9451,r155,1984,Parents' highest education levelc,Less than high school,2,NA
+9451,r156,1984,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r157,1984,Parents' highest education levelc,Some college,2,NA
+9451,r158,1984,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r159,1984,Institution type,2-year,2,19
+9451,r160,1984,Institution type,4-year,2,36
+9451,r161,1985,All graduates,,1,58
+9451,r162,1985,Sex,Male,2,59
+9451,r163,1985,Sex,Female,2,57
+9451,r164,1985,Family incomea,Low,2,40
+9451,r165,1985,Family incomea,Middle,2,51
+9451,r166,1985,Family incomea,High,2,75
+9451,r167,1985,Race or ethnicityb,White,2,59
+9451,r168,1985,Race or ethnicityb,Black,2,40
+9451,r169,1985,Race or ethnicityb,Hispanic,2,46
+9451,r170,1985,Race or ethnicityb,Asian,2,NA
+9451,r171,1985,Parents' highest education levelc,Less than high school,2,NA
+9451,r172,1985,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r173,1985,Parents' highest education levelc,Some college,2,NA
+9451,r174,1985,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r175,1985,Institution type,2-year,2,20
+9451,r176,1985,Institution type,4-year,2,38
+9451,r177,1986,All graduates,,1,54
+9451,r178,1986,Sex,Male,2,56
+9451,r179,1986,Sex,Female,2,52
+9451,r180,1986,Family incomea,Low,2,34
+9451,r181,1986,Family incomea,Middle,2,49
+9451,r182,1986,Family incomea,High,2,71
+9451,r183,1986,Race or ethnicityb,White,2,58
+9451,r184,1986,Race or ethnicityb,Black,2,43
+9451,r185,1986,Race or ethnicityb,Hispanic,2,42
+9451,r186,1986,Race or ethnicityb,Asian,2,NA
+9451,r187,1986,Parents' highest education levelc,Less than high school,2,NA
+9451,r188,1986,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r189,1986,Parents' highest education levelc,Some college,2,NA
+9451,r190,1986,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r191,1986,Institution type,2-year,2,19
+9451,r192,1986,Institution type,4-year,2,35
+9451,r193,1987,All graduates,,1,57
+9451,r194,1987,Sex,Male,2,58
+9451,r195,1987,Sex,Female,2,55
+9451,r196,1987,Family incomea,Low,2,37
+9451,r197,1987,Family incomea,Middle,2,50
+9451,r198,1987,Family incomea,High,2,74
+9451,r199,1987,Race or ethnicityb,White,2,59
+9451,r200,1987,Race or ethnicityb,Black,2,44
+9451,r201,1987,Race or ethnicityb,Hispanic,2,45
+9451,r202,1987,Race or ethnicityb,Asian,2,NA
+9451,r203,1987,Parents' highest education levelc,Less than high school,2,NA
+9451,r204,1987,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r205,1987,Parents' highest education levelc,Some college,2,NA
+9451,r206,1987,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r207,1987,Institution type,2-year,2,19
+9451,r208,1987,Institution type,4-year,2,38
+9451,r209,1988,All graduates,,1,59
+9451,r210,1988,Sex,Male,2,57
+9451,r211,1988,Sex,Female,2,61
+9451,r212,1988,Family incomea,Low,2,43
+9451,r213,1988,Family incomea,Middle,2,55
+9451,r214,1988,Family incomea,High,2,73
+9451,r215,1988,Race or ethnicityb,White,2,60
+9451,r216,1988,Race or ethnicityb,Black,2,50
+9451,r217,1988,Race or ethnicityb,Hispanic,2,49
+9451,r218,1988,Race or ethnicityb,Asian,2,NA
+9451,r219,1988,Parents' highest education levelc,Less than high school,2,NA
+9451,r220,1988,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r221,1988,Parents' highest education levelc,Some college,2,NA
+9451,r222,1988,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r223,1988,Institution type,2-year,2,22
+9451,r224,1988,Institution type,4-year,2,37
+9451,r225,1989,All graduates,,1,60
+9451,r226,1989,Sex,Male,2,58
+9451,r227,1989,Sex,Female,2,62
+9451,r228,1989,Family incomea,Low,2,48
+9451,r229,1989,Family incomea,Middle,2,55
+9451,r230,1989,Family incomea,High,2,71
+9451,r231,1989,Race or ethnicityb,White,2,62
+9451,r232,1989,Race or ethnicityb,Black,2,48
+9451,r233,1989,Race or ethnicityb,Hispanic,2,53
+9451,r234,1989,Race or ethnicityb,Asian,2,NA
+9451,r235,1989,Parents' highest education levelc,Less than high school,2,NA
+9451,r236,1989,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r237,1989,Parents' highest education levelc,Some college,2,NA
+9451,r238,1989,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r239,1989,Institution type,2-year,2,21
+9451,r240,1989,Institution type,4-year,2,39
+9451,r241,1990,All graduates,,1,60
+9451,r242,1990,Sex,Male,2,58
+9451,r243,1990,Sex,Female,2,62
+9451,r244,1990,Family incomea,Low,2,47
+9451,r245,1990,Family incomea,Middle,2,54
+9451,r246,1990,Family incomea,High,2,77
+9451,r247,1990,Race or ethnicityb,White,2,63
+9451,r248,1990,Race or ethnicityb,Black,2,49
+9451,r249,1990,Race or ethnicityb,Hispanic,2,52
+9451,r250,1990,Race or ethnicityb,Asian,2,81
+9451,r251,1990,Parents' highest education levelc,Less than high school,2,NA
+9451,r252,1990,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r253,1990,Parents' highest education levelc,Some college,2,NA
+9451,r254,1990,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r255,1990,Institution type,2-year,2,20
+9451,r256,1990,Institution type,4-year,2,40
+9451,r257,1991,All graduates,,1,63
+9451,r258,1991,Sex,Male,2,58
+9451,r259,1991,Sex,Female,2,67
+9451,r260,1991,Family incomea,Low,2,40
+9451,r261,1991,Family incomea,Middle,2,58
+9451,r262,1991,Family incomea,High,2,78
+9451,r263,1991,Race or ethnicityb,White,2,64
+9451,r264,1991,Race or ethnicityb,Black,2,47
+9451,r265,1991,Race or ethnicityb,Hispanic,2,53
+9451,r266,1991,Race or ethnicityb,Asian,2,81
+9451,r267,1991,Parents' highest education levelc,Less than high school,2,NA
+9451,r268,1991,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r269,1991,Parents' highest education levelc,Some college,2,NA
+9451,r270,1991,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r271,1991,Institution type,2-year,2,25
+9451,r272,1991,Institution type,4-year,2,38
+9451,r273,1992,All graduates,,1,62
+9451,r274,1992,Sex,Male,2,60
+9451,r275,1992,Sex,Female,2,64
+9451,r276,1992,Family incomea,Low,2,41
+9451,r277,1992,Family incomea,Middle,2,57
+9451,r278,1992,Family incomea,High,2,79
+9451,r279,1992,Race or ethnicityb,White,2,64
+9451,r280,1992,Race or ethnicityb,Black,2,50
+9451,r281,1992,Race or ethnicityb,Hispanic,2,58
+9451,r282,1992,Race or ethnicityb,Asian,2,81
+9451,r283,1992,Parents' highest education levelc,Less than high school,2,33
+9451,r284,1992,Parents' highest education levelc,High school diploma or equivalent,2,56
+9451,r285,1992,Parents' highest education levelc,Some college,2,68
+9451,r286,1992,Parents' highest education levelc,Bachelor's or higher degree,2,81
+9451,r287,1992,Institution type,2-year,2,23
+9451,r288,1992,Institution type,4-year,2,39
+9451,r289,1993,All graduates,,1,63
+9451,r290,1993,Sex,Male,2,60
+9451,r291,1993,Sex,Female,2,65
+9451,r292,1993,Family incomea,Low,2,50
+9451,r293,1993,Family incomea,Middle,2,57
+9451,r294,1993,Family incomea,High,2,79
+9451,r295,1993,Race or ethnicityb,White,2,64
+9451,r296,1993,Race or ethnicityb,Black,2,51
+9451,r297,1993,Race or ethnicityb,Hispanic,2,56
+9451,r298,1993,Race or ethnicityb,Asian,2,83
+9451,r299,1993,Parents' highest education levelc,Less than high school,2,47
+9451,r300,1993,Parents' highest education levelc,High school diploma or equivalent,2,52
+9451,r301,1993,Parents' highest education levelc,Some college,2,63
+9451,r302,1993,Parents' highest education levelc,Bachelor's or higher degree,2,88
+9451,r303,1993,Institution type,2-year,2,23
+9451,r304,1993,Institution type,4-year,2,40
+9451,r305,1994,All graduates,,1,62
+9451,r306,1994,Sex,Male,2,61
+9451,r307,1994,Sex,Female,2,63
+9451,r308,1994,Family incomea,Low,2,43
+9451,r309,1994,Family incomea,Middle,2,58
+9451,r310,1994,Family incomea,High,2,78
+9451,r311,1994,Race or ethnicityb,White,2,64
+9451,r312,1994,Race or ethnicityb,Black,2,52
+9451,r313,1994,Race or ethnicityb,Hispanic,2,55
+9451,r314,1994,Race or ethnicityb,Asian,2,82
+9451,r315,1994,Parents' highest education levelc,Less than high school,2,43
+9451,r316,1994,Parents' highest education levelc,High school diploma or equivalent,2,50
+9451,r317,1994,Parents' highest education levelc,Some college,2,65
+9451,r318,1994,Parents' highest education levelc,Bachelor's or higher degree,2,83
+9451,r319,1994,Institution type,2-year,2,21
+9451,r320,1994,Institution type,4-year,2,41
+9451,r321,1995,All graduates,,1,62
+9451,r322,1995,Sex,Male,2,63
+9451,r323,1995,Sex,Female,2,61
+9451,r324,1995,Family incomea,Low,2,34
+9451,r325,1995,Family incomea,Middle,2,56
+9451,r326,1995,Family incomea,High,2,84
+9451,r327,1995,Race or ethnicityb,White,2,65
+9451,r328,1995,Race or ethnicityb,Black,2,53
+9451,r329,1995,Race or ethnicityb,Hispanic,2,52
+9451,r330,1995,Race or ethnicityb,Asian,2,83
+9451,r331,1995,Parents' highest education levelc,Less than high school,2,27
+9451,r332,1995,Parents' highest education levelc,High school diploma or equivalent,2,47
+9451,r333,1995,Parents' highest education levelc,Some college,2,70
+9451,r334,1995,Parents' highest education levelc,Bachelor's or higher degree,2,88
+9451,r335,1995,Institution type,2-year,2,22
+9451,r336,1995,Institution type,4-year,2,40
+9451,r337,1996,All graduates,,1,65
+9451,r338,1996,Sex,Male,2,60
+9451,r339,1996,Sex,Female,2,70
+9451,r340,1996,Family incomea,Low,2,49
+9451,r341,1996,Family incomea,Middle,2,63
+9451,r342,1996,Family incomea,High,2,78
+9451,r343,1996,Race or ethnicityb,White,2,67
+9451,r344,1996,Race or ethnicityb,Black,2,55
+9451,r345,1996,Race or ethnicityb,Hispanic,2,58
+9451,r346,1996,Race or ethnicityb,Asian,2,83
+9451,r347,1996,Parents' highest education levelc,Less than high school,2,45
+9451,r348,1996,Parents' highest education levelc,High school diploma or equivalent,2,56
+9451,r349,1996,Parents' highest education levelc,Some college,2,67
+9451,r350,1996,Parents' highest education levelc,Bachelor's or higher degree,2,85
+9451,r351,1996,Institution type,2-year,2,23
+9451,r352,1996,Institution type,4-year,2,42
+9451,r353,1997,All graduates,,1,67
+9451,r354,1997,Sex,Male,2,64
+9451,r355,1997,Sex,Female,2,70
+9451,r356,1997,Family incomea,Low,2,57
+9451,r357,1997,Family incomea,Middle,2,61
+9451,r358,1997,Family incomea,High,2,82
+9451,r359,1997,Race or ethnicityb,White,2,68
+9451,r360,1997,Race or ethnicityb,Black,2,59
+9451,r361,1997,Race or ethnicityb,Hispanic,2,55
+9451,r362,1997,Race or ethnicityb,Asian,2,83
+9451,r363,1997,Parents' highest education levelc,Less than high school,2,51
+9451,r364,1997,Parents' highest education levelc,High school diploma or equivalent,2,62
+9451,r365,1997,Parents' highest education levelc,Some college,2,63
+9451,r366,1997,Parents' highest education levelc,Bachelor's or higher degree,2,86
+9451,r367,1997,Institution type,2-year,2,23
+9451,r368,1997,Institution type,4-year,2,44
+9451,r369,1998,All graduates,,1,66
+9451,r370,1998,Sex,Male,2,62
+9451,r371,1998,Sex,Female,2,69
+9451,r372,1998,Family incomea,Low,2,46
+9451,r373,1998,Family incomea,Middle,2,65
+9451,r374,1998,Family incomea,High,2,78
+9451,r375,1998,Race or ethnicityb,White,2,68
+9451,r376,1998,Race or ethnicityb,Black,2,60
+9451,r377,1998,Race or ethnicityb,Hispanic,2,52
+9451,r378,1998,Race or ethnicityb,Asian,2,84
+9451,r379,1998,Parents' highest education levelc,Less than high school,2,50
+9451,r380,1998,Parents' highest education levelc,High school diploma or equivalent,2,57
+9451,r381,1998,Parents' highest education levelc,Some college,2,68
+9451,r382,1998,Parents' highest education levelc,Bachelor's or higher degree,2,82
+9451,r383,1998,Institution type,2-year,2,24
+9451,r384,1998,Institution type,4-year,2,41
+9451,r385,1999,All graduates,,1,63
+9451,r386,1999,Sex,Male,2,61
+9451,r387,1999,Sex,Female,2,64
+9451,r388,1999,Family incomea,Low,2,48
+9451,r389,1999,Family incomea,Middle,2,60
+9451,r390,1999,Family incomea,High,2,75
+9451,r391,1999,Race or ethnicityb,White,2,67
+9451,r392,1999,Race or ethnicityb,Black,2,59
+9451,r393,1999,Race or ethnicityb,Hispanic,2,47
+9451,r394,1999,Race or ethnicityb,Asian,2,81
+9451,r395,1999,Parents' highest education levelc,Less than high school,2,36
+9451,r396,1999,Parents' highest education levelc,High school diploma or equivalent,2,54
+9451,r397,1999,Parents' highest education levelc,Some college,2,60
+9451,r398,1999,Parents' highest education levelc,Bachelor's or higher degree,2,82
+9451,r399,1999,Institution type,2-year,2,21
+9451,r400,1999,Institution type,4-year,2,42
+9451,r401,2000,All graduates,,1,63
+9451,r402,2000,Sex,Male,2,60
+9451,r403,2000,Sex,Female,2,66
+9451,r404,2000,Family incomea,Low,2,50
+9451,r405,2000,Family incomea,Middle,2,60
+9451,r406,2000,Family incomea,High,2,77
+9451,r407,2000,Race or ethnicityb,White,2,65
+9451,r408,2000,Race or ethnicityb,Black,2,56
+9451,r409,2000,Race or ethnicityb,Hispanic,2,49
+9451,r410,2000,Race or ethnicityb,Asian,2,81
+9451,r411,2000,Parents' highest education levelc,Less than high school,2,44
+9451,r412,2000,Parents' highest education levelc,High school diploma or equivalent,2,52
+9451,r413,2000,Parents' highest education levelc,Some college,2,64
+9451,r414,2000,Parents' highest education levelc,Bachelor's or higher degree,2,81
+9451,r415,2000,Institution type,2-year,2,21
+9451,r416,2000,Institution type,4-year,2,42
+9451,r417,2001,All graduates,,1,62
+9451,r418,2001,Sex,Male,2,60
+9451,r419,2001,Sex,Female,2,63
+9451,r420,2001,Family incomea,Low,2,44
+9451,r421,2001,Family incomea,Middle,2,56
+9451,r422,2001,Family incomea,High,2,80
+9451,r423,2001,Race or ethnicityb,White,2,66
+9451,r424,2001,Race or ethnicityb,Black,2,56
+9451,r425,2001,Race or ethnicityb,Hispanic,2,53
+9451,r426,2001,Race or ethnicityb,Asian,2,78
+9451,r427,2001,Parents' highest education levelc,Less than high school,2,39
+9451,r428,2001,Parents' highest education levelc,High school diploma or equivalent,2,52
+9451,r429,2001,Parents' highest education levelc,Some college,2,62
+9451,r430,2001,Parents' highest education levelc,Bachelor's or higher degree,2,81
+9451,r431,2001,Institution type,2-year,2,20
+9451,r432,2001,Institution type,4-year,2,42
+9451,r433,2002,All graduates,,1,65
+9451,r434,2002,Sex,Male,2,62
+9451,r435,2002,Sex,Female,2,68
+9451,r436,2002,Family incomea,Low,2,56
+9451,r437,2002,Family incomea,Middle,2,61
+9451,r438,2002,Family incomea,High,2,78
+9451,r439,2002,Race or ethnicityb,White,2,67
+9451,r440,2002,Race or ethnicityb,Black,2,57
+9451,r441,2002,Race or ethnicityb,Hispanic,2,55
+9451,r442,2002,Race or ethnicityb,Asian,2,72
+9451,r443,2002,Parents' highest education levelc,Less than high school,2,43
+9451,r444,2002,Parents' highest education levelc,High school diploma or equivalent,2,52
+9451,r445,2002,Parents' highest education levelc,Some college,2,66
+9451,r446,2002,Parents' highest education levelc,Bachelor's or higher degree,2,83
+9451,r447,2002,Institution type,2-year,2,22
+9451,r448,2002,Institution type,4-year,2,44
+9451,r449,2003,All graduates,,1,64
+9451,r450,2003,Sex,Male,2,61
+9451,r451,2003,Sex,Female,2,67
+9451,r452,2003,Family incomea,Low,2,53
+9451,r453,2003,Family incomea,Middle,2,58
+9451,r454,2003,Family incomea,High,2,80
+9451,r455,2003,Race or ethnicityb,White,2,68
+9451,r456,2003,Race or ethnicityb,Black,2,60
+9451,r457,2003,Race or ethnicityb,Hispanic,2,58
+9451,r458,2003,Race or ethnicityb,Asian,2,74
+9451,r459,2003,Parents' highest education levelc,Less than high school,2,43
+9451,r460,2003,Parents' highest education levelc,High school diploma or equivalent,2,54
+9451,r461,2003,Parents' highest education levelc,Some college,2,63
+9451,r462,2003,Parents' highest education levelc,Bachelor's or higher degree,2,82
+9451,r463,2003,Institution type,2-year,2,21
+9451,r464,2003,Institution type,4-year,2,42
+9451,r465,2004,All graduates,,1,67
+9451,r466,2004,Sex,Male,2,61
+9451,r467,2004,Sex,Female,2,72
+9451,r468,2004,Family incomea,Low,2,48
+9451,r469,2004,Family incomea,Middle,2,63
+9451,r470,2004,Family incomea,High,2,80
+9451,r471,2004,Race or ethnicityb,White,2,69
+9451,r472,2004,Race or ethnicityb,Black,2,59
+9451,r473,2004,Race or ethnicityb,Hispanic,2,58
+9451,r474,2004,Race or ethnicityb,Asian,2,82
+9451,r475,2004,Parents' highest education levelc,Less than high school,2,40
+9451,r476,2004,Parents' highest education levelc,High school diploma or equivalent,2,55
+9451,r477,2004,Parents' highest education levelc,Some college,2,67
+9451,r478,2004,Parents' highest education levelc,Bachelor's or higher degree,2,86
+9451,r479,2004,Institution type,2-year,2,22
+9451,r480,2004,Institution type,4-year,2,44
+9451,r481,2005,All graduates,,1,69
+9451,r482,2005,Sex,Male,2,66
+9451,r483,2005,Sex,Female,2,70
+9451,r484,2005,Family incomea,Low,2,54
+9451,r485,2005,Family incomea,Middle,2,65
+9451,r486,2005,Family incomea,High,2,81
+9451,r487,2005,Race or ethnicityb,White,2,73
+9451,r488,2005,Race or ethnicityb,Black,2,58
+9451,r489,2005,Race or ethnicityb,Hispanic,2,58
+9451,r490,2005,Race or ethnicityb,Asian,2,81
+9451,r491,2005,Parents' highest education levelc,Less than high school,2,43
+9451,r492,2005,Parents' highest education levelc,High school diploma or equivalent,2,62
+9451,r493,2005,Parents' highest education levelc,Some college,2,66
+9451,r494,2005,Parents' highest education levelc,Bachelor's or higher degree,2,89
+9451,r495,2005,Institution type,2-year,2,24
+9451,r496,2005,Institution type,4-year,2,45
+9451,r497,2006,All graduates,,1,66
+9451,r498,2006,Sex,Male,2,66
+9451,r499,2006,Sex,Female,2,66
+9451,r500,2006,Family incomea,Low,2,51
+9451,r501,2006,Family incomea,Middle,2,61
+9451,r502,2006,Family incomea,High,2,81
+9451,r503,2006,Race or ethnicityb,White,2,70
+9451,r504,2006,Race or ethnicityb,Black,2,56
+9451,r505,2006,Race or ethnicityb,Hispanic,2,58
+9451,r506,2006,Race or ethnicityb,Asian,2,85
+9451,r507,2006,Parents' highest education levelc,Less than high school,2,43
+9451,r508,2006,Parents' highest education levelc,High school diploma or equivalent,2,56
+9451,r509,2006,Parents' highest education levelc,Some college,2,67
+9451,r510,2006,Parents' highest education levelc,Bachelor's or higher degree,2,78
+9451,r511,2006,Institution type,2-year,2,25
+9451,r512,2006,Institution type,4-year,2,41
+9451,r513,2007,All graduates,,1,67
+9451,r514,2007,Sex,Male,2,66
+9451,r515,2007,Sex,Female,2,68
+9451,r516,2007,Family incomea,Low,2,58
+9451,r517,2007,Family incomea,Middle,2,63
+9451,r518,2007,Family incomea,High,2,78
+9451,r519,2007,Race or ethnicityb,White,2,70
+9451,r520,2007,Race or ethnicityb,Black,2,56
+9451,r521,2007,Race or ethnicityb,Hispanic,2,62
+9451,r522,2007,Race or ethnicityb,Asian,2,86
+9451,r523,2007,Parents' highest education levelc,Less than high school,2,45
+9451,r524,2007,Parents' highest education levelc,High school diploma or equivalent,2,52
+9451,r525,2007,Parents' highest education levelc,Some college,2,65
+9451,r526,2007,Parents' highest education levelc,Bachelor's or higher degree,2,86
+9451,r527,2007,Institution type,2-year,2,24
+9451,r528,2007,Institution type,4-year,2,43
+9451,r529,2008,All graduates,,1,69
+9451,r530,2008,Sex,Male,2,66
+9451,r531,2008,Sex,Female,2,72
+9451,r532,2008,Family incomea,Low,2,56
+9451,r533,2008,Family incomea,Middle,2,65
+9451,r534,2008,Family incomea,High,2,82
+9451,r535,2008,Race or ethnicityb,White,2,71
+9451,r536,2008,Race or ethnicityb,Black,2,60
+9451,r537,2008,Race or ethnicityb,Hispanic,2,62
+9451,r538,2008,Race or ethnicityb,Asian,2,90
+9451,r539,2008,Parents' highest education levelc,Less than high school,2,44
+9451,r540,2008,Parents' highest education levelc,High school diploma or equivalent,2,57
+9451,r541,2008,Parents' highest education levelc,Some college,2,72
+9451,r542,2008,Parents' highest education levelc,Bachelor's or higher degree,2,82
+9451,r543,2008,Institution type,2-year,2,28
+9451,r544,2008,Institution type,4-year,2,41
+9451,r545,2009,All graduates,,1,70
+9451,r546,2009,Sex,Male,2,66
+9451,r547,2009,Sex,Female,2,74
+9451,r548,2009,Family incomea,Low,2,54
+9451,r549,2009,Family incomea,Middle,2,67
+9451,r550,2009,Family incomea,High,2,84
+9451,r551,2009,Race or ethnicityb,White,2,71
+9451,r552,2009,Race or ethnicityb,Black,2,62
+9451,r553,2009,Race or ethnicityb,Hispanic,2,61
+9451,r554,2009,Race or ethnicityb,Asian,2,88
+9451,r555,2009,Parents' highest education levelc,Less than high school,2,40
+9451,r556,2009,Parents' highest education levelc,High school diploma or equivalent,2,58
+9451,r557,2009,Parents' highest education levelc,Some college,2,74
+9451,r558,2009,Parents' highest education levelc,Bachelor's or higher degree,2,82
+9451,r559,2009,Institution type,2-year,2,28
+9451,r560,2009,Institution type,4-year,2,42
+9451,r561,2010,All graduates,,1,68
+9451,r562,2010,Sex,Male,2,63
+9451,r563,2010,Sex,Female,2,74
+9451,r564,2010,Family incomea,Low,2,51
+9451,r565,2010,Family incomea,Middle,2,67
+9451,r566,2010,Family incomea,High,2,82
+9451,r567,2010,Race or ethnicityb,White,2,70
+9451,r568,2010,Race or ethnicityb,Black,2,66
+9451,r569,2010,Race or ethnicityb,Hispanic,2,62
+9451,r570,2010,Race or ethnicityb,Asian,2,87
+9451,r571,2010,Parents' highest education levelc,Less than high school,2,51
+9451,r572,2010,Parents' highest education levelc,High school diploma or equivalent,2,58
+9451,r573,2010,Parents' highest education levelc,Some college,2,71
+9451,r574,2010,Parents' highest education levelc,Bachelor's or higher degree,2,84
+9451,r575,2010,Institution type,2-year,2,27
+9451,r576,2010,Institution type,4-year,2,41
+9451,r577,2011,All graduates,,1,68
+9451,r578,2011,Sex,Male,2,65
+9451,r579,2011,Sex,Female,2,72
+9451,r580,2011,Family incomea,Low,2,54
+9451,r581,2011,Family incomea,Middle,2,66
+9451,r582,2011,Family incomea,High,2,82
+9451,r583,2011,Race or ethnicityb,White,2,68
+9451,r584,2011,Race or ethnicityb,Black,2,62
+9451,r585,2011,Race or ethnicityb,Hispanic,2,66
+9451,r586,2011,Race or ethnicityb,Asian,2,84
+9451,r587,2011,Parents' highest education levelc,Less than high school,2,s
+9451,r588,2011,Parents' highest education levelc,High school diploma or equivalent,2,54
+9451,r589,2011,Parents' highest education levelc,Some college,2,67
+9451,r590,2011,Parents' highest education levelc,Bachelor's or higher degree,2,83
+9451,r591,2011,Institution type,2-year,2,26
+9451,r592,2011,Institution type,4-year,2,42
+9451,r593,2012,All graduates,,1,66
+9451,r594,2012,Sex,Male,2,61
+9451,r595,2012,Sex,Female,2,71
+9451,r596,2012,Family incomea,Low,2,51
+9451,r597,2012,Family incomea,Middle,2,65
+9451,r598,2012,Family incomea,High,2,81
+9451,r599,2012,Race or ethnicityb,White,2,68
+9451,r600,2012,Race or ethnicityb,Black,2,60
+9451,r601,2012,Race or ethnicityb,Hispanic,2,66
+9451,r602,2012,Race or ethnicityb,Asian,2,82
+9451,r603,2012,Parents' highest education levelc,Less than high school,2,61
+9451,r604,2012,Parents' highest education levelc,High school diploma or equivalent,2,57
+9451,r605,2012,Parents' highest education levelc,Some college,2,66
+9451,r606,2012,Parents' highest education levelc,Bachelor's or higher degree,2,77
+9451,r607,2012,Institution type,2-year,2,29
+9451,r608,2012,Institution type,4-year,2,37
+9451,r609,2013,All graduates,,1,66
+9451,r610,2013,Sex,Male,2,64
+9451,r611,2013,Sex,Female,2,68
+9451,r612,2013,Family incomea,Low,2,46
+9451,r613,2013,Family incomea,Middle,2,64
+9451,r614,2013,Family incomea,High,2,79
+9451,r615,2013,Race or ethnicityb,White,2,67
+9451,r616,2013,Race or ethnicityb,Black,2,61
+9451,r617,2013,Race or ethnicityb,Hispanic,2,65
+9451,r618,2013,Race or ethnicityb,Asian,2,84
+9451,r619,2013,Parents' highest education levelc,Less than high school,2,43
+9451,r620,2013,Parents' highest education levelc,High school diploma or equivalent,2,52
+9451,r621,2013,Parents' highest education levelc,Some college,2,64
+9451,r622,2013,Parents' highest education levelc,Bachelor's or higher degree,2,83
+9451,r623,2013,Institution type,2-year,2,24
+9451,r624,2013,Institution type,4-year,2,42
+9451,r625,2014,All graduates,,1,68
+9451,r626,2014,Sex,Male,2,64
+9451,r627,2014,Sex,Female,2,73
+9451,r628,2014,Family incomea,Low,2,58
+9451,r629,2014,Family incomea,Middle,2,64
+9451,r630,2014,Family incomea,High,2,84
+9451,r631,2014,Race or ethnicityb,White,2,69
+9451,r632,2014,Race or ethnicityb,Black,2,61
+9451,r633,2014,Race or ethnicityb,Hispanic,2,65
+9451,r634,2014,Race or ethnicityb,Asian,2,84
+9451,r635,2014,Parents' highest education levelc,Less than high school,2,54
+9451,r636,2014,Parents' highest education levelc,High school diploma or equivalent,2,56
+9451,r637,2014,Parents' highest education levelc,Some college,2,67
+9451,r638,2014,Parents' highest education levelc,Bachelor's or higher degree,2,81
+9451,r639,2014,Institution type,2-year,2,25
+9451,r640,2014,Institution type,4-year,2,44
+9451,r641,2015,All graduates,,1,69
+9451,r642,2015,Sex,Male,2,66
+9451,r643,2015,Sex,Female,2,73
+9451,r644,2015,Family incomea,Low,2,69
+9451,r645,2015,Family incomea,Middle,2,62
+9451,r646,2015,Family incomea,High,2,83
+9451,r647,2015,Race or ethnicityb,White,2,70
+9451,r648,2015,Race or ethnicityb,Black,2,61
+9451,r649,2015,Race or ethnicityb,Hispanic,2,69
+9451,r650,2015,Race or ethnicityb,Asian,2,88
+9451,r651,2015,Parents' highest education levelc,Less than high school,2,56
+9451,r652,2015,Parents' highest education levelc,High school diploma or equivalent,2,57
+9451,r653,2015,Parents' highest education levelc,Some college,2,65
+9451,r654,2015,Parents' highest education levelc,Bachelor's or higher degree,2,82
+9451,r655,2015,Institution type,2-year,2,25
+9451,r656,2015,Institution type,4-year,2,44
+9451,r657,2016,All graduates,,1,70
+9451,r658,2016,Sex,Male,2,67
+9451,r659,2016,Sex,Female,2,72
+9451,r660,2016,Family incomea,Low,2,65
+9451,r661,2016,Family incomea,Middle,2,65
+9451,r662,2016,Family incomea,High,2,83
+9451,r663,2016,Race or ethnicityb,White,2,70
+9451,r664,2016,Race or ethnicityb,Black,2,57
+9451,r665,2016,Race or ethnicityb,Hispanic,2,68
+9451,r666,2016,Race or ethnicityb,Asian,2,86
+9451,r667,2016,Parents' highest education levelc,Less than high school,2,50
+9451,r668,2016,Parents' highest education levelc,High school diploma or equivalent,2,57
+9451,r669,2016,Parents' highest education levelc,Some college,2,67
+9451,r670,2016,Parents' highest education levelc,Bachelor's or higher degree,2,84
+9451,r671,2016,Institution type,2-year,2,24
+9451,r672,2016,Institution type,4-year,2,46
+9451,r673,2017,All graduates,,1,67
+9451,r674,2017,Sex,Male,2,61
+9451,r675,2017,Sex,Female,2,72
+9451,r676,2017,Family incomea,Low,2,NA
+9451,r677,2017,Family incomea,Middle,2,NA
+9451,r678,2017,Family incomea,High,2,NA
+9451,r679,2017,Race or ethnicityb,White,2,70
+9451,r680,2017,Race or ethnicityb,Black,2,61
+9451,r681,2017,Race or ethnicityb,Hispanic,2,67
+9451,r682,2017,Race or ethnicityb,Asian,2,82
+9451,r683,2017,Parents' highest education levelc,Less than high school,2,47
+9451,r684,2017,Parents' highest education levelc,High school diploma or equivalent,2,62
+9451,r685,2017,Parents' highest education levelc,Some college,2,62
+9451,r686,2017,Parents' highest education levelc,Bachelor's or higher degree,2,77
+9451,r687,2017,Institution type,2-year,2,23
+9451,r688,2017,Institution type,4-year,2,44
+9451,r689,2018,All graduates,,1,69
+9451,r690,2018,Sex,Male,2,67
+9451,r691,2018,Sex,Female,2,71
+9451,r692,2018,Family incomea,Low,2,NA
+9451,r693,2018,Family incomea,Middle,2,NA
+9451,r694,2018,Family incomea,High,2,NA
+9451,r695,2018,Race or ethnicityb,White,2,69
+9451,r696,2018,Race or ethnicityb,Black,2,58
+9451,r697,2018,Race or ethnicityb,Hispanic,2,63
+9451,r698,2018,Race or ethnicityb,Asian,2,82
+9451,r699,2018,Parents' highest education levelc,Less than high school,2,58
+9451,r700,2018,Parents' highest education levelc,High school diploma or equivalent,2,54
+9451,r701,2018,Parents' highest education levelc,Some college,2,69
+9451,r702,2018,Parents' highest education levelc,Bachelor's or higher degree,2,79
+9451,r703,2018,Institution type,2-year,2,26
+9451,r704,2018,Institution type,4-year,2,44
+9451,r705,2020,All graduates,,1,63
+9451,r706,2020,Sex,Male,2,59
+9451,r707,2020,Sex,Female,2,66
+9451,r708,2020,Family incomea,Low,2,NA
+9451,r709,2020,Family incomea,Middle,2,NA
+9451,r710,2020,Family incomea,High,2,NA
+9451,r711,2020,Race or ethnicityb,White,2,65
+9451,r712,2020,Race or ethnicityb,Black,2,55
+9451,r713,2020,Race or ethnicityb,Hispanic,2,59
+9451,r714,2020,Race or ethnicityb,Asian,2,86
+9451,r715,2020,Parents' highest education levelc,Less than high school,2,NA
+9451,r716,2020,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r717,2020,Parents' highest education levelc,Some college,2,NA
+9451,r718,2020,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r719,2020,Institution type,2-year,2,20
+9451,r720,2020,Institution type,4-year,2,43
+9451,r721,2021,All graduates,,1,62
+9451,r722,2021,Sex,Male,2,55
+9451,r723,2021,Sex,Female,2,70
+9451,r724,2021,Family incomea,Low,2,NA
+9451,r725,2021,Family incomea,Middle,2,NA
+9451,r726,2021,Family incomea,High,2,NA
+9451,r727,2021,Race or ethnicityb,White,2,64
+9451,r728,2021,Race or ethnicityb,Black,2,58
+9451,r729,2021,Race or ethnicityb,Hispanic,2,57
+9451,r730,2021,Race or ethnicityb,Asian,2,84
+9451,r731,2021,Parents' highest education levelc,Less than high school,2,NA
+9451,r732,2021,Parents' highest education levelc,High school diploma or equivalent,2,NA
+9451,r733,2021,Parents' highest education levelc,Some college,2,NA
+9451,r734,2021,Parents' highest education levelc,Bachelor's or higher degree,2,NA
+9451,r735,2021,Institution type,2-year,2,19
+9451,r736,2021,Institution type,4-year,2,43

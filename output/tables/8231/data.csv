@@ -1,0 +1,64 @@
+table_id,row_id,employer_location_full_path,employer_location_level_1,employer_location_level_2,employer_location_level_3,employer_location_hierarchy_depth,field_all_employed_number,field_all_employed_se,field_science_occupations_total_number,field_science_occupations_total_se,field_science_occupations_biological_agricultural_and_other_life_scientists_number,field_science_occupations_biological_agricultural_and_other_life_scientists_se,field_science_occupations_computer_and_information_scientists_number,field_science_occupations_computer_and_information_scientists_se,field_science_occupations_mathematical_scientists_number,field_science_occupations_mathematical_scientists_se,field_science_occupations_physical_scientists_number,field_science_occupations_physical_scientists_se,field_science_occupations_psychologists_number,field_science_occupations_psychologists_se,field_science_occupations_social_scientists_number,field_science_occupations_social_scientists_se,field_engineering_occupations_number,field_engineering_occupations_se,field_s_e_related_occupations_number,field_s_e_related_occupations_se,field_non_s_e_occupations_number,field_non_s_e_occupations_se
+8231,r001,All locations,All locations,,,1,872100,2425,502250,2725,160850,1700,65450,1025,43950,875,85100,1375,78400,1025,68450,1150,122800,1575,100450,1525,146600,1825
+8231,r002,All locations -> New England,All locations,New England,,2,81350,1750,47900,1275,18650,775,6300,425,4000,300,6250,375,6750,525,5950,475,8950,600,9950,500,14550,700
+8231,r003,All locations -> New England -> Connecticut,All locations,New England,Connecticut,3,12650,625,7200,500,2450,325,600,175,550,150,1300,175,1200,175,1050,200,1850,275,1500,225,2100,250
+8231,r004,All locations -> New England -> Maine,All locations,New England,Maine,3,3350,350,2300,300,550,125,50,50,150,50,350,100,850,250,300,75,250,100,250,125,550,125
+8231,r005,All locations -> New England -> Massachusetts,All locations,New England,Massachusetts,3,55450,1375,32500,975,14100,650,5300,425,2950,250,3750,300,3300,350,3150,325,5800,475,7150,475,10050,575
+8231,r006,All locations -> New England -> New Hampshire,All locations,New England,New Hampshire,3,3800,350,1950,225,600,150,50,50,150,75,300,100,350,100,450,100,500,125,350,100,1000,225
+8231,r007,All locations -> New England -> Rhode Island,All locations,New England,Rhode Island,3,3650,375,2400,300,550,150,150,50,200,75,350,125,650,200,500,125,350,125,500,125,400,100
+8231,r008,All locations -> New England -> Vermont,All locations,New England,Vermont,3,2450,275,1600,225,400,100,150,75,50,50,150,75,400,125,450,150,250,100,100,50,450,100
+8231,r009,All locations -> Middle Atlantic,All locations,Middle Atlantic,,2,117150,1750,70800,1350,20900,850,8200,450,8350,500,10350,500,12300,550,10700,550,11800,625,13000,700,21550,800
+8231,r010,All locations -> Middle Atlantic -> New Jersey,All locations,Middle Atlantic,New Jersey,3,22250,775,13200,600,4250,400,1750,275,1800,250,2450,275,1700,225,1250,200,2600,300,2100,275,4350,350
+8231,r011,All locations -> Middle Atlantic -> New York,All locations,Middle Atlantic,New York,3,59150,1400,36250,1150,9300,575,4550,350,4200,425,4450,375,7500,475,6300,425,5000,400,6500,500,11400,625
+8231,r012,All locations -> Middle Atlantic -> Pennsylvania,All locations,Middle Atlantic,Pennsylvania,3,35750,1000,21350,725,7300,475,1950,200,2400,300,3450,350,3100,300,3150,325,4200,375,4400,425,5800,400
+8231,r013,All locations -> East North Central,All locations,East North Central,,2,101700,1550,57350,1225,17750,750,5500,400,5500,400,11300,550,9350,450,7900,400,14650,725,12900,675,16800,650
+8231,r014,All locations -> East North Central -> Illinois,All locations,East North Central,Illinois,3,29200,1025,16850,675,4550,400,1900,225,1750,250,3350,300,2600,300,2750,275,3450,400,3200,325,5700,375
+8231,r015,All locations -> East North Central -> Indiana,All locations,East North Central,Indiana,3,13100,675,7550,525,3050,325,750,175,650,150,1350,200,950,175,800,150,1800,275,1450,225,2250,275
+8231,r016,All locations -> East North Central -> Michigan,All locations,East North Central,Michigan,3,22450,875,12200,550,3550,350,1400,225,950,175,2350,275,2300,275,1700,225,4450,400,2800,325,3000,275
+8231,r017,All locations -> East North Central -> Ohio,All locations,East North Central,Ohio,3,24800,850,13550,700,4050,350,700,125,1500,250,3150,325,2650,300,1550,175,3700,400,3750,375,3750,350
+8231,r018,All locations -> East North Central -> Wisconsin,All locations,East North Central,Wisconsin,3,12100,600,7150,450,2600,275,750,150,650,125,1200,175,900,200,1100,175,1200,200,1650,250,2050,250
+8231,r019,All locations -> West North Central,All locations,West North Central,,2,48800,1175,29650,950,11700,575,2200,250,2350,275,4750,375,4650,400,4000,375,6050,450,5400,350,7700,500
+8231,r020,All locations -> West North Central -> Iowa,All locations,West North Central,Iowa,3,6900,500,4250,375,1900,275,300,100,650,150,500,125,450,100,500,100,850,200,800,150,950,150
+8231,r021,All locations -> West North Central -> Kansas,All locations,West North Central,Kansas,3,5350,400,3800,325,1250,175,200,75,300,100,700,200,650,125,700,150,350,100,300,100,900,150
+8231,r022,All locations -> West North Central -> Minnesota,All locations,West North Central,Minnesota,3,16950,700,9750,550,3400,300,900,175,650,175,1800,225,1700,250,1300,200,2650,300,1800,225,2700,325
+8231,r023,All locations -> West North Central -> Missouri,All locations,West North Central,Missouri,3,12600,575,7550,450,3100,275,650,150,500,100,1100,175,1200,225,1000,200,1500,250,1450,200,2100,275
+8231,r024,All locations -> West North Central -> Nebraska,All locations,West North Central,Nebraska,3,4100,325,2500,250,1200,175,150,75,100,50,400,125,400,100,250,75,400,100,550,125,650,150
+8231,r025,All locations -> West North Central -> North Dakota,All locations,West North Central,North Dakota,3,1200,175,750,125,300,100,,,,,150,75,100,75,100,50,200,75,150,75,150,75
+8231,r026,All locations -> West North Central -> South Dakota,All locations,West North Central,South Dakota,3,1750,250,1100,200,550,175,,,S,S,100,50,150,75,150,75,100,50,300,100,250,75
+8231,r027,All locations -> South Atlantic,All locations,South Atlantic,,2,167250,1950,98300,1650,32050,950,8850,475,8500,450,17200,675,14950,725,16750,650,19250,800,19300,700,30450,875
+8231,r028,All locations -> South Atlantic -> Delaware,All locations,South Atlantic,Delaware,3,3800,350,2200,250,800,150,100,50,150,75,750,150,300,125,S,S,600,150,350,125,700,150
+8231,r029,All locations -> South Atlantic -> District of Columbia,All locations,South Atlantic,District of Columbia,3,18500,750,11400,600,2150,275,400,100,750,150,1650,250,1100,200,5350,375,1200,225,1250,175,4600,350
+8231,r030,All locations -> South Atlantic -> Florida,All locations,South Atlantic,Florida,3,24950,750,13150,500,3750,275,1300,200,1350,225,1900,225,3200,300,1600,175,3350,350,3650,350,4850,400
+8231,r031,All locations -> South Atlantic -> Georgia,All locations,South Atlantic,Georgia,3,19200,725,11300,525,3800,300,1200,200,950,150,1750,250,1950,250,1750,200,2100,275,2500,250,3300,350
+8231,r032,All locations -> South Atlantic -> Maryland,All locations,South Atlantic,Maryland,3,38000,1125,23550,850,10250,550,2000,250,1700,200,4850,375,2400,325,2350,275,4400,375,4450,375,5600,425
+8231,r033,All locations -> South Atlantic -> North Carolina,All locations,South Atlantic,North Carolina,3,27800,900,16700,600,6000,425,1550,250,1600,200,2300,275,2850,325,2350,250,2700,275,3300,300,5100,400
+8231,r034,All locations -> South Atlantic -> South Carolina,All locations,South Atlantic,South Carolina,3,6600,450,4000,325,1050,175,200,75,300,100,1150,200,700,150,600,125,950,175,850,175,850,125
+8231,r035,All locations -> South Atlantic -> Virginia,All locations,South Atlantic,Virginia,3,26200,875,14850,675,3750,325,2100,250,1600,200,2750,250,2350,350,2350,225,3600,325,2550,275,5200,400
+8231,r036,All locations -> South Atlantic -> West Virginia,All locations,South Atlantic,West Virginia,3,2200,225,1150,175,500,100,,,100,50,150,50,S,S,300,100,400,150,350,100,350,100
+8231,r037,All locations -> East South Central,All locations,East South Central,,2,30000,900,18200,750,6400,450,1200,225,1500,200,3700,350,3300,325,2150,200,3750,325,3950,300,4100,325
+8231,r038,All locations -> East South Central -> Alabama,All locations,East South Central,Alabama,3,8750,475,5150,375,1700,250,450,150,400,100,850,150,1100,200,600,125,1350,225,1050,125,1200,200
+8231,r039,All locations -> East South Central -> Kentucky,All locations,East South Central,Kentucky,3,6000,425,3750,350,1250,200,100,50,350,100,800,175,800,175,500,100,500,125,800,150,900,175
+8231,r040,All locations -> East South Central -> Mississippi,All locations,East South Central,Mississippi,3,3550,300,2100,250,950,200,50,50,100,50,400,125,200,75,350,100,450,125,650,125,350,75
+8231,r041,All locations -> East South Central -> Tennessee,All locations,East South Central,Tennessee,3,11700,625,7150,475,2500,325,550,150,650,125,1600,225,1250,200,650,125,1450,200,1450,225,1650,200
+8231,r042,All locations -> West South Central,All locations,West South Central,,2,66900,1325,36000,1075,11400,600,3550,325,3500,350,6900,400,5900,425,4800,400,11950,625,7850,500,11050,500
+8231,r043,All locations -> West South Central -> Arkansas,All locations,West South Central,Arkansas,3,4300,400,2750,300,1050,200,250,100,250,100,300,100,450,125,450,125,300,100,600,150,600,125
+8231,r044,All locations -> West South Central -> Louisiana,All locations,West South Central,Louisiana,3,6050,400,3650,350,1300,200,50,25,250,75,850,175,600,150,600,175,800,150,550,125,1050,200
+8231,r045,All locations -> West South Central -> Oklahoma,All locations,West South Central,Oklahoma,3,5150,375,2950,275,1250,200,S,S,150,50,500,100,550,125,400,125,750,175,650,125,850,150
+8231,r046,All locations -> West South Central -> Texas,All locations,West South Central,Texas,3,51350,1275,26700,975,7800,525,3150,325,2850,325,5250,350,4300,425,3350,325,10100,525,6050,450,8550,425
+8231,r047,All locations -> Mountain,All locations,Mountain,,2,59300,1150,33300,850,9500,500,3050,300,2600,275,8150,450,5300,450,4650,375,10300,550,6650,475,9050,500
+8231,r048,All locations -> Mountain -> Arizona,All locations,Mountain,Arizona,3,12650,550,6150,375,1600,225,550,125,650,150,1250,150,850,150,1250,200,2800,325,1300,175,2400,300
+8231,r049,All locations -> Mountain -> Colorado,All locations,Mountain,Colorado,3,18550,650,11150,550,3100,300,1050,150,700,150,2750,225,2050,300,1500,200,2250,250,2500,325,2650,250
+8231,r050,All locations -> Mountain -> Idaho,All locations,Mountain,Idaho,3,3250,325,1600,200,600,125,50,50,100,50,450,125,150,75,200,75,800,150,400,125,450,125
+8231,r051,All locations -> Mountain -> Montana,All locations,Mountain,Montana,3,2900,300,1850,250,900,150,,,S,S,350,125,200,75,250,75,250,100,350,75,450,125
+8231,r052,All locations -> Mountain -> Nevada,All locations,Mountain,Nevada,3,3150,325,2000,250,600,150,150,75,100,50,450,125,400,125,350,100,250,75,400,125,500,125
+8231,r053,All locations -> Mountain -> New Mexico,All locations,Mountain,New Mexico,3,8800,500,4500,325,950,175,450,150,350,100,1800,200,600,150,350,150,2600,300,800,200,900,150
+8231,r054,All locations -> Mountain -> Utah,All locations,Mountain,Utah,3,9000,525,5200,375,1600,250,700,175,450,125,900,150,850,150,700,175,1300,250,900,150,1550,225
+8231,r055,All locations -> Mountain -> Wyoming,All locations,Mountain,Wyoming,3,1000,200,800,175,150,50,,,,,300,125,200,100,150,75,,,50,25,150,75
+8231,r056,All locations -> Pacific,All locations,Pacific,,2,193000,2200,107300,1825,31500,875,26250,800,7450,475,15950,700,15250,675,10900,525,34950,1075,21000,875,29700,1000
+8231,r057,All locations -> Pacific -> Alaska,All locations,Pacific,Alaska,3,1500,225,1000,175,400,100,,,S,S,250,75,S,S,100,50,150,75,150,75,150,75
+8231,r058,All locations -> Pacific -> California,All locations,Pacific,California,3,145600,1875,79850,1525,23200,800,20150,700,5250,375,12250,600,11100,600,7900,475,26400,1000,16050,725,23250,875
+8231,r059,All locations -> Pacific -> Hawaii,All locations,Pacific,Hawaii,3,3050,325,2050,250,500,100,S,S,100,50,350,75,400,150,550,125,400,150,200,50,450,125
+8231,r060,All locations -> Pacific -> Oregon,All locations,Pacific,Oregon,3,15300,550,7500,450,2500,275,1350,200,500,150,1000,175,1250,200,900,125,4450,325,1500,225,1850,225
+8231,r061,All locations -> Pacific -> Washington,All locations,Pacific,Washington,3,27550,1025,16950,725,4950,375,4600,400,1450,225,2100,275,2400,300,1450,200,3550,350,3050,350,4000,350
+8231,r062,All locations -> Puerto Rico,All locations,Puerto Rico,,2,2700,275,1600,200,500,100,S,S,50,25,250,75,500,125,150,75,400,125,100,50,600,150
+8231,r063,All locations -> U.S. territories and other areas,All locations,U.S. territories and other areas,,2,3950,325,1800,225,550,125,200,75,150,75,300,100,150,75,450,150,650,175,400,150,1100,225

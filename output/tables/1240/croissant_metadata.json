@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Undergraduate enrollment in engineering programs, by enrollment status, sex, ethnicity, race, and citizenship: 2002&#8211;16",
+  "identifier": "NCSES-1240",
+  "description": "Undergraduate enrollment in engineering programs, by enrollment status, sex, ethnicity, race, and citizenship: 2002&#8211;16",
+  "url": "https://example.org/datasets/ncses/tables/1240",
+  "table_number": "2-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1240/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "These data are only published in even-numbered years by the source. Race or ethnicity breakouts are for U.S. citizens and permanent residents only. Temporary resident includes all racial and ethnic groups. Starting with 2011, data reflect the Office of Management and Budget\u2019s latest race and ethnicity categories. Institutions were classified by their sector in the year reported in the table, as provided in the source data. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs and do not match previously published data that were based on accredited higher education institutions. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs. This table will not match previously published tables exactly due to source change.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, special tabulations (2018) from the Integrated Postsecondary Education Data System Fall Enrollment Survey, National Center for Education Statistics, U.S. Department of Education, accessed November 2018.",
+  "temporalCoverage": "20/20"
+}

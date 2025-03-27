@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies using select technologies, by company size: 2021",
+  "identifier": "NCSES-11306",
+  "description": "Companies using select technologies, by company size: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11306",
+  "table_number": "59",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11306/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "technology",
+      "description": "Technology",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "all_companies",
+      "description": "All Companies",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1_4_employees",
+      "description": "1 4 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "5_9_employees",
+      "description": "5 9 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "10_19_employees",
+      "description": "10 19 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "20_49_employees",
+      "description": "20 49 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "50_99_employees",
+      "description": "50 99 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "100_249_employees",
+      "description": "100 249 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "250_499_employees",
+      "description": "250 499 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "500_999_employees",
+      "description": "500 999 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1_000_4_999_employees",
+      "description": "1 000 4 999 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "5_000_9_999_employees",
+      "description": "5 000 9 999 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "10_000_24_999_employees",
+      "description": "10 000 24 999 Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "25_000_or_more_employees",
+      "description": "25 000 Or More Employees",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Statistics are representative of companies located in the United States. Estimates represent the percentage of companies reporting using each technology to any extent (a lot, somewhat, or a little).",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2022 Annual Business Survey: Data Year 2021."
+}

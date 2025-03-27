@@ -1,0 +1,355 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "USPTO patents and patent families granted in transport, by region, country, or economy: 1998\u20132018",
+  "identifier": "NCSES-1938",
+  "description": "USPTO patents and patent families granted in transport, by region, country, or economy: 1998\u20132018",
+  "url": "https://example.org/datasets/ncses/tables/1938",
+  "table_number": "S8-36",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1938/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy",
+      "description": "Region, country, or economy hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "region_country_or_economy_level_1, region_country_or_economy_level_2, region_country_or_economy_level_3, region_country_or_economy_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "region_country_or_economy_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1998_uspto_patents",
+      "description": "1998 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1998_patent_families",
+      "description": "1998 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999_uspto_patents",
+      "description": "1999 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999_patent_families",
+      "description": "1999 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_uspto_patents",
+      "description": "2000 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_patent_families",
+      "description": "2000 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_uspto_patents",
+      "description": "2001 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_patent_families",
+      "description": "2001 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002_uspto_patents",
+      "description": "2002 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002_patent_families",
+      "description": "2002 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_uspto_patents",
+      "description": "2003 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_patent_families",
+      "description": "2003 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004_uspto_patents",
+      "description": "2004 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004_patent_families",
+      "description": "2004 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005_uspto_patents",
+      "description": "2005 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005_patent_families",
+      "description": "2005 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_uspto_patents",
+      "description": "2006 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_patent_families",
+      "description": "2006 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007_uspto_patents",
+      "description": "2007 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007_patent_families",
+      "description": "2007 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008_uspto_patents",
+      "description": "2008 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008_patent_families",
+      "description": "2008 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009_uspto_patents",
+      "description": "2009 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009_patent_families",
+      "description": "2009 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_uspto_patents",
+      "description": "2010 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_patent_families",
+      "description": "2010 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_uspto_patents",
+      "description": "2011 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_patent_families",
+      "description": "2011 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_uspto_patents",
+      "description": "2012 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_patent_families",
+      "description": "2012 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013_uspto_patents",
+      "description": "2013 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013_patent_families",
+      "description": "2013 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014_uspto_patents",
+      "description": "2014 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014_patent_families",
+      "description": "2014 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015_uspto_patents",
+      "description": "2015 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015_patent_families",
+      "description": "2015 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_uspto_patents",
+      "description": "2016 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_patent_families",
+      "description": "2016 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_uspto_patents",
+      "description": "2017 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_patent_families",
+      "description": "2017 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_uspto_patents",
+      "description": "2018 Uspto Patents",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_patent_families",
+      "description": "2018 Patent Families",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "USPTO patents are allocated according to patent inventorship information. USPTO patents are fractionally allocated among regions, countries, or economies based on the proportion of residences of all named inventors. Patents are classified under the World Intellectual Property Organization (WIPO) classification of patents, which classifies International Patent Classification (IPC) codes under 35 technical fields. IPC reformed codes take into account changes that were made to the WIPO classification in 2006 under the eighth version of the classification and were used to prepare these data. However, because PatentsView only provides the original IPC codes as they appeared on patents and not the IPC reformed codes, current Cooperative Patent Classification codes on patents were converted back to the most recent IPC classification to prepare these statistics. Fractional counts of patents were assigned to each technological field on patents to assign the proper weight of a patent to the corresponding technological fields under the classification. International Patent Documentation (INPADOC) patent families across all patent offices covered in the Worldwide Patent Statistical Database (PATSTAT) are counted according to the year of the first granted patent in the patent family. Patent families are allocated according to patent inventorship information found on the priority patent of the INPADOC patent families. To account for missing ownership information in PATSTAT for some offices, a method designed by de Rassenfosse et al. (2012) is used to fill in missing information on priority patents using information in successive filings within the patent families (see technical documentation for details). Patent families are fractionally allocated among regions, countries, or economies based on the proportion of residences of all named inventors. Because of data coverage issues for some patent offices in PATSTAT, statistics for some countries may be underestimated partially for some years or across the whole trend. Countries with identified issues include India (missing data) and South Africa (no data for 2018). For Italy, because of data gaps regarding information on granted patents, patent applications are used instead, which slightly overestimates Italy's output and creates a small shift in the year for which its output is accounted. The EU includes 28 member countries. China includes Hong Kong.",
+  "sources": "Science-Metrix; PATSTAT, accessed April 2019; PatentsView, USPTO, accessed June 2019.Science and Engineering Indicators"
+}

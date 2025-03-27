@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. residing doctoral scientists and engineers, by occupation and employment status: 2021",
+  "identifier": "NCSES-8211",
+  "description": "U.S. residing doctoral scientists and engineers, by occupation and employment status: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8211",
+  "table_number": "29",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8211/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2, occupation_level_3, occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number",
+      "description": "Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_se",
+      "description": "Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_total_number",
+      "description": "Employed Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_total_se",
+      "description": "Employed Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_full_time_number",
+      "description": "Employed Full Time Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_full_time_se",
+      "description": "Employed Full Time Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_part_time_number",
+      "description": "Employed Part Time Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_part_time_se",
+      "description": "Employed Part Time Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployeda_number",
+      "description": "Unemployeda Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployeda_se",
+      "description": "Unemployeda Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_retired_number",
+      "description": "Retired Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_retired_se",
+      "description": "Retired Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_employed_or_not_seeking_workb_number",
+      "description": "Not Employed Or Not Seeking Workb Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_employed_or_not_seeking_workb_se",
+      "description": "Not Employed Or Not Seeking Workb Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 50. Standard errors are rounded up to the nearest 25. Detail may not add to total because of rounding. If respondent was not employed during survey reference period, occupation when last employed was reported. Excludes 350 individuals who reported never having worked so could not be classified by occupation. Designation of full-time and part-time employment status is based on principal job only, not on all jobs held in labor force. For example, an individual could work part time in his or her principal job but full time in the labor force. Full time is based on working 35 or more hours per week. Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

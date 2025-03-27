@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Students whose degree program was taught entirely online, by program level and field: 2012 and 2016",
+  "identifier": "NCSES-10077",
+  "description": "Students whose degree program was taught entirely online, by program level and field: 2012 and 2016",
+  "url": "https://example.org/datasets/ncses/tables/10077",
+  "table_number": "SHED-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10077/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "program_level_and_field",
+      "description": "Program level and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "program_level_and_field_level_1, program_level_and_field_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "program_level_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data are based on institutions eligible to participate in Title IV federal financial aid programs. Certificates include only awards of less than 2 academic years below the associate's degree level. Doctoral degree programs include research doctoral degree programs only and do not include professional doctoral programs (e.g., Doctor of Medicine). Students had formally declared their field at their institution.",
+  "sources": "National Center for Education Statistics, 2011\u201312 National Postsecondary Student Aid Study (NPSAS:12) and 2015\u201316 National Postsecondary Student Aid Study (NPSAS:16).Science and Engineering Indicators"
+}

@@ -1,0 +1,202 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. residing employed doctoral scientists and engineers, by selected demographic characteristics and broad field of doctorate: 2021",
+  "identifier": "NCSES-8203",
+  "description": "U.S. residing employed doctoral scientists and engineers, by selected demographic characteristics and broad field of doctorate: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8203",
+  "table_number": "24",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8203/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2, characteristic_level_3, characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_number",
+      "description": "All Employed Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_se",
+      "description": "All Employed Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_total_number",
+      "description": "Science Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_total_se",
+      "description": "Science Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_biological_agricultural_and_environmental_life_sciences_number",
+      "description": "Science Biological Agricultural And Environmental Life Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_biological_agricultural_and_environmental_life_sciences_se",
+      "description": "Science Biological Agricultural And Environmental Life Sciences Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_computer_and_information_sciences_number",
+      "description": "Science Computer And Information Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_computer_and_information_sciences_se",
+      "description": "Science Computer And Information Sciences Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_mathematics_and_statistics_number",
+      "description": "Science Mathematics And Statistics Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_mathematics_and_statistics_se",
+      "description": "Science Mathematics And Statistics Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_physical_sciences_number",
+      "description": "Science Physical Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_physical_sciences_se",
+      "description": "Science Physical Sciences Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_number",
+      "description": "Science Psychology Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_se",
+      "description": "Science Psychology Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_social_sciences_number",
+      "description": "Science Social Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_social_sciences_se",
+      "description": "Science Social Sciences Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_number",
+      "description": "Engineering Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_se",
+      "description": "Engineering Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_health_number",
+      "description": "Health Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_health_se",
+      "description": "Health Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 50. Standard errors are rounded up to the nearest 25. Detail may not add to total because of rounding. Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

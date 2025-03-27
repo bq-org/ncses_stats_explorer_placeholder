@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "R&D and design activity of scientists and engineers employed in S&E occupations, by broad occupational category and highest degree level: 2019",
+  "identifier": "NCSES-4421",
+  "description": "R&D and design activity of scientists and engineers employed in S&E occupations, by broad occupational category and highest degree level: 2019",
+  "url": "https://example.org/datasets/ncses/tables/4421",
+  "table_number": "LBR-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4421/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "highest_degree_level",
+      "description": "Highest degree level hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "highest_degree_level_level_1, highest_degree_level_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "highest_degree_level_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_agricultural_and_environmental_life_scientists",
+      "description": "Biological Agricultural And Environmental Life Scientists",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_and_mathematical_scientists",
+      "description": "Computer And Mathematical Scientists",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_scientists",
+      "description": "Physical Scientists",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_scientists",
+      "description": "Social Scientists",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineers",
+      "description": "Engineers",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Scientists and engineers include adults up to 75 years old with an S&E or S&E-related degree or occupation. R&D and design activity refer to the share of workers reporting basic research, applied research, development, or design as a primary or secondary work activity in their principal job (activities ranking first or second in work hours). All degree levels include professional degrees not broken out separately.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates (NSCG), 2019.Science and Engineering Indicators"
+}

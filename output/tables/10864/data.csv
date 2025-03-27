@@ -1,0 +1,50 @@
+table_id,row_id,_b_agency_b_full_path,_b_agency_b_level_1,_b_agency_b_level_2,_b_agency_b_level_3,_b_agency_b_level_4,_b_agency_b_level_5,_b_agency_b_hierarchy_depth,field_2003,field_2004,field_2005,field_2006,field_2007,field_2008,field_2009,field_2010,field_2011,field_2012,field_2013
+10864,r001,All agencies,All agencies,,,,,1,4158,3856,3832,2041,2123,2066,2824,6135,4301,2470,1859
+10864,r002,All agencies -> Departments,All agencies,Departments,,,,2,,,,,,,,,,,
+10864,r003,All agencies -> Departments -> Department of Agriculture,All agencies,Departments,Department of Agriculture,,,3,77,113,149,185,216,148,74,126,119,70,25
+10864,r004,All agencies -> Departments -> Department of Agriculture -> Agricultural Research Service,All agencies,Departments,Department of Agriculture,Agricultural Research Service,,4,61,94,131,171,191,127,43,56,102,58,15
+10864,r005,All agencies -> Departments -> Department of Agriculture -> Forest Service,All agencies,Departments,Department of Agriculture,Forest Service,,4,16,19,18,14,25,21,32,70,17,10,8
+10864,r006,"All agencies -> Departments -> Department of Agriculture -> Grain Inspection, Packers, and Stockyards Administration",All agencies,Departments,Department of Agriculture,"Grain Inspection, Packers, and Stockyards Administration",,4,0,0,0,0,0,0,0,0,0,2,2
+10864,r007,All agencies -> Departments -> Department of Commerce,All agencies,Departments,Department of Commerce,,,3,93,80,40,46,68,114,248,288,323,290,180
+10864,r008,All agencies -> Departments -> Department of Commerce -> Economic Development Administration,All agencies,Departments,Department of Commerce,Economic Development Administration,,4,0,0,0,0,0,18,25,26,15,NA,NA
+10864,r009,All agencies -> Departments -> Department of Commerce -> National Institute of Standards and Technology,All agencies,Departments,Department of Commerce,National Institute of Standards and Technology,,4,77,49,38,46,35,49,47,102,171,150,52
+10864,r010,All agencies -> Departments -> Department of Commerce -> National Oceanic and Atmospheric Administration,All agencies,Departments,Department of Commerce,National Oceanic and Atmospheric Administration,,4,16,31,2,0,33,46,176,159,137,141,128
+10864,r011,All agencies -> Departments -> Department of Defense,All agencies,Departments,Department of Defense,,,3,237,188,210,93,152,130,196,148,132,139,87
+10864,r012,All agencies -> Departments -> Department of Defense -> Defense agencies and activities,All agencies,Departments,Department of Defense,Defense agencies and activities,,4,138,67,77,35,36,38,8,0.05,na,na,na
+10864,r013,All agencies -> Departments -> Department of Defense -> Department of the Air Force,All agencies,Departments,Department of Defense,Department of the Air Force,,4,7,10,36,39,15,92,111,129,116,136,68
+10864,r014,All agencies -> Departments -> Department of Defense -> Department of the Army,All agencies,Departments,Department of Defense,Department of the Army,,4,0,0,0,0,0,0,77,0,0,0,0
+10864,r015,All agencies -> Departments -> Department of Defense -> Department of the Navy,All agencies,Departments,Department of Defense,Department of the Navy,,4,92,111,97,20,100,0,0,19,16,1,18
+10864,r016,All agencies -> Departments -> Department of Defense -> Other defense agencies,All agencies,Departments,Department of Defense,Other defense agencies,,4,na,na,na,na,na,na,na,na,0,2,1
+10864,r017,All agencies -> Departments -> Department of Energy,All agencies,Departments,Department of Energy,,,3,1052,1026,847,780,651,748,1225,904,771,714,559
+10864,r018,All agencies -> Departments -> Department of Energy -> Bonneville Power Administration,All agencies,Departments,Department of Energy,Bonneville Power Administration,,4,0,0,0,0,0,0,0,0,0,0,14
+10864,r019,All agencies -> Departments -> Department of Energy -> Energy Efficiency and Renewable Energy,All agencies,Departments,Department of Energy,Energy Efficiency and Renewable Energy,,4,6,20,25,26,2,65,17,53,36,0,16
+10864,r020,All agencies -> Departments -> Department of Energy -> Fossil Energy,All agencies,Departments,Department of Energy,Fossil Energy,,4,3,6,6,21,12,19,15,15,15,12,16
+10864,r021,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration,All agencies,Departments,Department of Energy,National Nuclear Security Administration,,4,447,426,300,310,205,269,172,280,152,93,75
+10864,r022,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration -> Defense Programs,All agencies,Departments,Department of Energy,National Nuclear Security Administration,Defense Programs,5,420,408,268,272,171,232,132,201,119,53,75
+10864,r023,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration -> Naval Nuclear Propulsion Program,All agencies,Departments,Department of Energy,National Nuclear Security Administration,Naval Nuclear Propulsion Program,5,27,18,32,39,34,37,40,79,33,40,0.05
+10864,r024,All agencies -> Departments -> Department of Energy -> Office of Science,All agencies,Departments,Department of Energy,Office of Science,,4,596,574,516,423,433,396,1020,556,569,609,437
+10864,r025,All agencies -> Departments -> Department of Health and Human Services,All agencies,Departments,Department of Health and Human Services,,,3,817,429,429,359,252,147,151,1682,79,155,148
+10864,r026,All agencies -> Departments -> Department of Health and Human Services -> Centers for Disease Control and Prevention,All agencies,Departments,Department of Health and Human Services,Centers for Disease Control and Prevention,,4,0,0,0,144,134,6,0,0,0,0,0
+10864,r027,All agencies -> Departments -> Department of Health and Human Services -> Food and Drug Administration,All agencies,Departments,Department of Health and Human Services,Food and Drug Administration,,4,9,7,3,2,6,5,5,13,8,21,22
+10864,r028,All agencies -> Departments -> Department of Health and Human Services -> Health Resources and Services Administration,All agencies,Departments,Department of Health and Human Services,Health Resources and Services Administration,,4,0.05,1,1,1,1,1,0.05,1,1,1,1
+10864,r029,All agencies -> Departments -> Department of Health and Human Services -> National Institutes of Health,All agencies,Departments,Department of Health and Human Services,National Institutes of Health,,4,808,421,426,213,111,135,146,1669,70,133,126
+10864,r030,All agencies -> Departments -> Department of Homeland Security,All agencies,Departments,Department of Homeland Security,,,3,NA,56,61,121,259,210,346,393,694,234,279
+10864,r031,All agencies -> Departments -> Department of Homeland Security -> Coast Guard,All agencies,Departments,Department of Homeland Security,Coast Guard,,4,NA,1,1,0.05,1,0.05,1,1,1,1,1
+10864,r032,All agencies -> Departments -> Department of Homeland Security -> Science and Technology Directorate,All agencies,Departments,Department of Homeland Security,Science and Technology Directorate,,4,NA,55,60,121,258,210,345,392,693,233,278
+10864,r033,All agencies -> Departments -> Department of the Interior,All agencies,Departments,Department of the Interior,,,3,4,8,7,5,10,9,7,6,8,6,7
+10864,r034,All agencies -> Departments -> Department of the Interior -> Bureau of Ocean Energy Management,All agencies,Departments,Department of the Interior,Bureau of Ocean Energy Management,,4,2,2,3,3,3,3,2,2,5,0,0
+10864,r035,All agencies -> Departments -> Department of the Interior -> Bureau of Reclamation,All agencies,Departments,Department of the Interior,Bureau of Reclamation,,4,2,5,5,2,7,6,5,4,4,2,3
+10864,r036,All agencies -> Departments -> Department of the Interior -> Bureau of Safety and Environmental Enforcement,All agencies,Departments,Department of the Interior,Bureau of Safety and Environmental Enforcement,,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,4
+10864,r037,All agencies -> Departments -> Department of Justice,All agencies,Departments,Department of Justice,,,3,0,0,0,0,0,1,0,0,0,0,0
+10864,r038,All agencies -> Departments -> Department of Justice -> Office of Justice Programs,All agencies,Departments,Department of Justice,Office of Justice Programs,,4,0,0,0,0,0,1,0,0,0,0,0
+10864,r039,All agencies -> Departments -> Department of Labor,All agencies,Departments,Department of Labor,,,3,0,0,0,0,1,1,1,1,1,1,0.05
+10864,r040,All agencies -> Departments -> Department of Labor -> Occupational Safety and Health Administration,All agencies,Departments,Department of Labor,Occupational Safety and Health Administration,,4,0,0,0,0,1,1,1,1,1,1,0.05
+10864,r041,All agencies -> Departments -> Department of Transportation,All agencies,Departments,Department of Transportation,,,3,7,15,16,18,20,19,19,20,18,21,22
+10864,r042,All agencies -> Departments -> Department of Transportation -> Federal Aviation Administration,All agencies,Departments,Department of Transportation,Federal Aviation Administration,,4,6,14,15,17,18,17,17,19,17,18,16
+10864,r043,All agencies -> Departments -> Department of Transportation -> Federal Railroad Administration,All agencies,Departments,Department of Transportation,Federal Railroad Administration,,4,1,1,1,1,2,2,2,1,1,3,6
+10864,r044,All agencies -> Departments -> Department of Veterans Affairs,All agencies,Departments,Department of Veterans Affairs,,,3,0.05,0.05,0.05,0.05,0.05,0.05,0,0,0,0,0
+10864,r045,All agencies -> Other agencies,All agencies,Other agencies,,,,2,,,,,,,,,,,
+10864,r046,All agencies -> Other agencies -> Environmental Protection Agency,All agencies,Other agencies,Environmental Protection Agency,,,3,0,0,0,0,0,0,0,0,5,5,7
+10864,r047,All agencies -> Other agencies -> National Aeronautics and Space Administration,All agencies,Other agencies,National Aeronautics and Space Administration,,,3,1596,1581,1697,12,12,72,76,1565,1578,169,65
+10864,r048,All agencies -> Other agencies -> National Science Foundation,All agencies,Other agencies,National Science Foundation,,,3,272,357,368,395,453,424,433,949,515,616,434
+10864,r049,All agencies -> Other agencies -> Smithsonian Institution,All agencies,Other agencies,Smithsonian Institution,,,3,3,3,6,26,30,42,49,53,57,50,47

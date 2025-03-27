@@ -1,0 +1,208 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. residing doctoral scientists and engineers, by field of doctorate, sex, and employment status: 2019",
+  "identifier": "NCSES-3670",
+  "description": "U.S. residing doctoral scientists and engineers, by field of doctorate, sex, and employment status: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3670",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3670/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_sex",
+      "description": "Field of study and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_and_sex_level_1, field_of_study_and_sex_level_2, field_of_study_and_sex_level_3, field_of_study_and_sex_level_4, field_of_study_and_sex_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_and_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_sex_full_path",
+      "description": "Of Study And Sex Full Path",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_sex_level_1",
+      "description": "Of Study And Sex Level 1",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_sex_level_2",
+      "description": "Of Study And Sex Level 2",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_sex_level_3",
+      "description": "Of Study And Sex Level 3",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_sex_level_4",
+      "description": "Of Study And Sex Level 4",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_sex_level_5",
+      "description": "Of Study And Sex Level 5",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_sex_hierarchy_depth",
+      "description": "Of Study And Sex Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number",
+      "description": "Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_se",
+      "description": "Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_total_number",
+      "description": "Employed Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_total_se",
+      "description": "Employed Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_full_time_number",
+      "description": "Employed Full Time Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_full_time_se",
+      "description": "Employed Full Time Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_part_time_number",
+      "description": "Employed Part Time Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_part_time_se",
+      "description": "Employed Part Time Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployeda_number",
+      "description": "Unemployeda Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployeda_se",
+      "description": "Unemployeda Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_retired_number",
+      "description": "Retired Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_retired_se",
+      "description": "Retired Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_employed_or_not_seeking_workb_number",
+      "description": "Not Employed Or Not Seeking Workb Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_employed_or_not_seeking_workb_se",
+      "description": "Not Employed Or Not Seeking Workb Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 50. Standard errors are rounded up to the nearest 25. Detail may not add to total because of rounding. Designation of full-time and part-time employment status is based on principal job only, not on all jobs held in labor force. For example, an individual could work part time in his or her principal job but full time in the labor force. Full time is based on working 35 or more hours per week. Residence location is based on reported living location on 1 February 2019.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients: 2019."
+}

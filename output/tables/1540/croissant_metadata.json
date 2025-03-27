@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Distribution of occupation and median standardized hourly wage for current or most recent job of students in grade 9 in fall 2009 who had not enrolled in postsecondary education and had worked for pay since leaving high school, by career and technical education preparation in high school: 2016",
+  "identifier": "NCSES-1540",
+  "description": "Distribution of occupation and median standardized hourly wage for current or most recent job of students in grade 9 in fall 2009 who had not enrolled in postsecondary education and had worked for pay since leaving high school, by career and technical education preparation in high school: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1540",
+  "table_number": "1-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1540/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "cte_preparation",
+      "description": "CTE preparation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "cte_preparation_level_1, cte_preparation_level_2, cte_preparation_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "cte_preparation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_occupation_stw",
+      "description": "Occupation Stw",
+      "valueType": "string",
+      "unitText": "Percent and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_occupation_non_stw",
+      "description": "Occupation Non Stw",
+      "valueType": "string",
+      "unitText": "Percent and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_standardized_hourly_wage_a_most_recent_stw_job",
+      "description": "Median Standardized Hourly Wage A Most Recent Stw Job",
+      "valueType": "string",
+      "unitText": "Percent and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_standardized_hourly_wage_a_most_recent_non_stw_job",
+      "description": "Median Standardized Hourly Wage A Most Recent Non Stw Job",
+      "valueType": "string",
+      "unitText": "Percent and dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "About 28% of students in grade 9 in fall 2009 had not enrolled in postsecondary education as of February 2016.",
+  "sources": "Radford AW, Fritch LB, Leu K, and Duprey M, High School Longitudinal Study of 2009 (HSLS:09) Second Follow-Up: A First Look at Fall 2009 Ninth-Graders in 2016, NCES 2018-139 (2018); National Center for Science and Engineering Statistics, National Science Foundation, special tabulations (2018) of HSLS:09, National Center for Education Statistics, Department of Education.Science and Engineering Indicators"
+}

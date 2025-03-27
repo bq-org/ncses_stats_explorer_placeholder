@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Top 20 doctorate-granting institutions ranked by total number of research doctorate recipients, by broad field of doctorate and sex: 2023",
+  "identifier": "NCSES-11708",
+  "description": "Top 20 doctorate-granting institutions ranked by total number of research doctorate recipients, by broad field of doctorate and sex: 2023",
+  "url": "https://example.org/datasets/ncses/tables/11708",
+  "table_number": "7-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11708/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_and_institution_b",
+      "description": "Field and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_and_institution_b_level_1, _b_field_and_institution_b_level_2, _b_field_and_institution_b_level_3, _b_field_and_institution_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_and_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_totala",
+      "description": "Totala",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male",
+      "description": "Male",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female",
+      "description": "Female",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Tied institutions are listed alphabetically. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and new broad, major, and detailed fields are used in tables reporting data from 2021 to the present; see the field list in table A-4. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. For more information about the 2021 taxonomy change, see the \"Technical Notes.\"",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

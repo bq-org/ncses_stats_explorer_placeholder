@@ -1,0 +1,110 @@
+table_id,row_id,student_age_and_characteristic_full_path,student_age_and_characteristic_level_1,student_age_and_characteristic_level_2,student_age_and_characteristic_level_3,student_age_and_characteristic_hierarchy_depth,field_1978,field_1982,field_1986,field_1990,field_1992,field_1994,field_1996,field_1999,field_2004,field_2008,field_2012,field_2020,field_2022,field_2023
+9440,r001,All 9-year-old students,All 9-year-old students,,,1,219,219,222,230,230,231,231,232,239,243,244,241,234,NA
+9440,r002,All 9-year-old students -> Sex,All 9-year-old students,Sex,,2,,,,,,,,,,,,,,
+9440,r003,All 9-year-old students -> Sex -> Female,All 9-year-old students,Sex,Female,3,220,221,222,230,228,230,229,231,240,243,244,239,231,NA
+9440,r004,All 9-year-old students -> Sex -> Male,All 9-year-old students,Sex,Male,3,217,217,222,229,231,232,233,233,239,242,244,243,236,NA
+9440,r005,"All 9-year-old students -> Race or ethnicity<sup>a,b</sup>",All 9-year-old students,"Race or ethnicity<sup>a,b</sup>",,2,,,,,,,,,,,,,,
+9440,r006,"All 9-year-old students -> Race or ethnicity<sup>a,b</sup> -> American Indian or Alaska Native",All 9-year-old students,"Race or ethnicity<sup>a,b</sup>",American Indian or Alaska Native,3,s,s,205,s,s,s,s,s,224,237,s,232,230,NA
+9440,r007,"All 9-year-old students -> Race or ethnicity<sup>a,b</sup> -> Asian or Pacific Islander",All 9-year-old students,"Race or ethnicity<sup>a,b</sup>",Asian or Pacific Islander,3,229,242,235,236,243,234,235,245,263,265,265,263,257,NA
+9440,r008,"All 9-year-old students -> Race or ethnicity<sup>a,b</sup> -> Black",All 9-year-old students,"Race or ethnicity<sup>a,b</sup>",Black,3,192,195,202,208,208,212,212,211,221,224,226,225,212,NA
+9440,r009,"All 9-year-old students -> Race or ethnicity<sup>a,b</sup> -> Hispanic",All 9-year-old students,"Race or ethnicity<sup>a,b</sup>",Hispanic,3,203,204,205,214,212,210,215,213,229,234,234,232,223,NA
+9440,r010,"All 9-year-old students -> Race or ethnicity<sup>a,b</sup> -> Two or more races<sup>c</sup>",All 9-year-old students,"Race or ethnicity<sup>a,b</sup>",Two or more races<sup>c</sup>,3,s,s,s,s,s,s,s,s,233,246,242,244,236,NA
+9440,r011,"All 9-year-old students -> Race or ethnicity<sup>a,b</sup> -> White",All 9-year-old students,"Race or ethnicity<sup>a,b</sup>",White,3,224,224,227,235,235,237,237,239,245,250,252,250,244,NA
+9440,r012,All 9-year-old students -> Socioeconomic status<sup>d</sup>,All 9-year-old students,Socioeconomic status<sup>d</sup>,,2,,,,,,,,,,,,,,
+9440,r013,All 9-year-old students -> Socioeconomic status<sup>d</sup> -> Eligible for free or reduced-price lunch,All 9-year-old students,Socioeconomic status<sup>d</sup>,Eligible for free or reduced-price lunch,3,NA,NA,NA,NA,NA,NA,NA,NA,225,229,232,229,221,NA
+9440,r014,All 9-year-old students -> Socioeconomic status<sup>d</sup> -> Not eligible for free or reduced-price lunch,All 9-year-old students,Socioeconomic status<sup>d</sup>,Not eligible for free or reduced-price lunch,3,NA,NA,NA,NA,NA,NA,NA,NA,249,253,257,254,249,NA
+9440,r015,All 9-year-old students -> Student disability status<sup>e</sup>,All 9-year-old students,Student disability status<sup>e</sup>,,2,,,,,,,,,,,,,,
+9440,r016,All 9-year-old students -> Student disability status<sup>e</sup> -> Identified as student with a disability,All 9-year-old students,Student disability status<sup>e</sup>,Identified as student with a disability,3,NA,NA,NA,NA,NA,NA,NA,NA,209,214,216,215,206,NA
+9440,r017,All 9-year-old students -> Student disability status<sup>e</sup> -> Not identified as student with a disability,All 9-year-old students,Student disability status<sup>e</sup>,Not identified as student with a disability,3,NA,NA,NA,NA,NA,NA,NA,NA,243,246,247,245,238,NA
+9440,r018,All 9-year-old students -> English language learner status<sup>e</sup>,All 9-year-old students,English language learner status<sup>e</sup>,,2,,,,,,,,,,,,,,
+9440,r019,All 9-year-old students -> English language learner status<sup>e</sup> -> English language learner,All 9-year-old students,English language learner status<sup>e</sup>,English language learner,3,NA,NA,NA,NA,NA,NA,NA,NA,222,224,225,222,215,NA
+9440,r020,All 9-year-old students -> English language learner status<sup>e</sup> -> Not English language learner,All 9-year-old students,English language learner status<sup>e</sup>,Not English language learner,3,NA,NA,NA,NA,NA,NA,NA,NA,241,245,247,244,237,NA
+9440,r021,All 9-year-old students -> U.S. region,All 9-year-old students,U.S. region,,2,,,,,,,,,,,,,,
+9440,r022,All 9-year-old students -> U.S. region -> Midwest,All 9-year-old students,U.S. region,Midwest,3,NA,NA,NA,NA,NA,NA,NA,NA,240,244,242,243,234,NA
+9440,r023,All 9-year-old students -> U.S. region -> Northeast,All 9-year-old students,U.S. region,Northeast,3,NA,NA,NA,NA,NA,NA,NA,NA,244,250,248,248,240,NA
+9440,r024,All 9-year-old students -> U.S. region -> South,All 9-year-old students,U.S. region,South,3,NA,NA,NA,NA,NA,NA,NA,NA,236,239,244,241,233,NA
+9440,r025,All 9-year-old students -> U.S. region -> West,All 9-year-old students,U.S. region,West,3,NA,NA,NA,NA,NA,NA,NA,NA,239,242,244,236,231,NA
+9440,r026,All 9-year-old students -> School location ,All 9-year-old students,School location ,,2,,,,,,,,,,,,,,
+9440,r027,All 9-year-old students -> School location  -> City,All 9-year-old students,School location ,City,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,239,239,236,229,NA
+9440,r028,All 9-year-old students -> School location  -> Rural,All 9-year-old students,School location ,Rural,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,243,244,242,237,NA
+9440,r029,All 9-year-old students -> School location  -> Suburb,All 9-year-old students,School location ,Suburb,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,247,250,245,236,NA
+9440,r030,All 9-year-old students -> School location  -> Town,All 9-year-old students,School location ,Town,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,238,238,242,236,NA
+9440,r031,All 9-year-old students -> Percentile,All 9-year-old students,Percentile,,2,,,,,,,,,,,,,,
+9440,r032,All 9-year-old students -> Percentile -> 10th percentile,All 9-year-old students,Percentile,10th percentile,3,171,173,177,186,185,187,187,187,193,198,197,191,178,NA
+9440,r033,All 9-year-old students -> Percentile -> 25th percentile,All 9-year-old students,Percentile,25th percentile,3,195,196,199,208,208,209,208,209,218,222,223,219,208,NA
+9440,r034,All 9-year-old students -> Percentile -> 50th percentile,All 9-year-old students,Percentile,50th percentile,3,220,220,223,231,231,233,232,234,243,246,247,245,238,NA
+9440,r035,All 9-year-old students -> Percentile -> 75th percentile,All 9-year-old students,Percentile,75th percentile,3,244,243,246,253,253,255,255,256,263,266,268,267,262,NA
+9440,r036,All 9-year-old students -> Percentile -> 90th percentile,All 9-year-old students,Percentile,90th percentile,3,264,263,264,271,271,272,274,275,280,284,286,286,283,NA
+9440,r037,All 13-year-old students,All 13-year-old students,,,1,264,269,269,270,273,274,274,276,279,281,285,280,NA,271
+9440,r038,All 13-year-old students -> Sex,All 13-year-old students,Sex,,2,,,,,,,,,,,,,,
+9440,r039,All 13-year-old students -> Sex -> Female,All 13-year-old students,Sex,Female,3,265,268,268,270,272,273,272,274,278,279,284,278,NA,267
+9440,r040,All 13-year-old students -> Sex -> Male,All 13-year-old students,Sex,Male,3,264,269,270,271,274,276,276,277,279,284,286,281,NA,274
+9440,r041,"All 13-year-old students -> Race or ethnicity<sup>a,b</sup>",All 13-year-old students,"Race or ethnicity<sup>a,b</sup>",,2,,,,,,,,,,,,,,
+9440,r042,"All 13-year-old students -> Race or ethnicity<sup>a,b</sup> -> American Indian or Alaska Native",All 13-year-old students,"Race or ethnicity<sup>a,b</sup>",American Indian or Alaska Native,3,s,257,s,s,s,s,s,s,s,274,s,275,NA,255
+9440,r043,"All 13-year-old students -> Race or ethnicity<sup>a,b</sup> -> Asian",All 13-year-old students,"Race or ethnicity<sup>a,b</sup>",Asian,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,314,312,NA,303
+9440,r044,"All 13-year-old students -> Race or ethnicity<sup>a,b</sup> -> Asian or Pacific Islander",All 13-year-old students,"Race or ethnicity<sup>a,b</sup>",Asian or Pacific Islander,3,274,280,290,274,286,286,282,286,297,304,311,310,NA,300
+9440,r045,"All 13-year-old students -> Race or ethnicity<sup>a,b</sup> -> Black",All 13-year-old students,"Race or ethnicity<sup>a,b</sup>",Black,3,230,240,249,249,250,252,252,251,257,262,264,256,NA,243
+9440,r046,"All 13-year-old students -> Race or ethnicity<sup>a,b</sup> -> Hispanic",All 13-year-old students,"Race or ethnicity<sup>a,b</sup>",Hispanic,3,238,252,254,255,259,256,256,259,264,268,271,267,NA,257
+9440,r047,"All 13-year-old students -> Race or ethnicity<sup>a,b</sup> -> Two or more races<sup>c</sup>",All 13-year-old students,"Race or ethnicity<sup>a,b</sup>",Two or more races<sup>c</sup>,3,s,s,s,s,s,s,s,s,276,278,290,285,NA,277
+9440,r048,"All 13-year-old students -> Race or ethnicity<sup>a,b</sup> -> White",All 13-year-old students,"Race or ethnicity<sup>a,b</sup>",White,3,272,274,274,276,279,281,281,283,287,290,293,291,NA,285
+9440,r049,All 13-year-old students -> Socioeconomic status<sup>d</sup>,All 13-year-old students,Socioeconomic status<sup>d</sup>,,2,,,,,,,,,,,,,,
+9440,r050,All 13-year-old students -> Socioeconomic status<sup>d</sup> -> Eligible for free or reduced-price lunch,All 13-year-old students,Socioeconomic status<sup>d</sup>,Eligible for free or reduced-price lunch,3,NA,NA,NA,NA,NA,NA,NA,NA,262,266,269,264,NA,253
+9440,r051,All 13-year-old students -> Socioeconomic status<sup>d</sup> -> Not eligible for free or reduced-price lunch,All 13-year-old students,Socioeconomic status<sup>d</sup>,Not eligible for free or reduced-price lunch,3,NA,NA,NA,NA,NA,NA,NA,NA,288,290,296,294,NA,287
+9440,r052,All 13-year-old students -> Student disability status<sup>e</sup>,All 13-year-old students,Student disability status<sup>e</sup>,,2,,,,,,,,,,,,,,
+9440,r053,All 13-year-old students -> Student disability status<sup>e</sup> -> Identified as student with a disability,All 13-year-old students,Student disability status<sup>e</sup>,Identified as student with a disability,3,NA,NA,NA,NA,NA,NA,NA,NA,243,246,249,242,NA,234
+9440,r054,All 13-year-old students -> Student disability status<sup>e</sup> -> Not identified as student with a disability,All 13-year-old students,Student disability status<sup>e</sup>,Not identified as student with a disability,3,NA,NA,NA,NA,NA,NA,NA,NA,282,285,289,285,NA,276
+9440,r055,All 13-year-old students -> English language learner status<sup>e</sup>,All 13-year-old students,English language learner status<sup>e</sup>,,2,,,,,,,,,,,,,,
+9440,r056,All 13-year-old students -> English language learner status<sup>e</sup> -> English language learner,All 13-year-old students,English language learner status<sup>e</sup>,English language learner,3,NA,NA,NA,NA,NA,NA,NA,NA,245,252,250,242,NA,236
+9440,r057,All 13-year-old students -> English language learner status<sup>e</sup> -> Not English language learner,All 13-year-old students,English language learner status<sup>e</sup>,Not English language learner,3,NA,NA,NA,NA,NA,NA,NA,NA,280,283,287,283,NA,274
+9440,r058,All 13-year-old students -> U.S. region,All 13-year-old students,U.S. region,,2,,,,,,,,,,,,,,
+9440,r059,All 13-year-old students -> U.S. region -> Midwest,All 13-year-old students,U.S. region,Midwest,3,NA,NA,NA,NA,NA,NA,NA,NA,281,284,285,284,NA,273
+9440,r060,All 13-year-old students -> U.S. region -> Northeast,All 13-year-old students,U.S. region,Northeast,3,NA,NA,NA,NA,NA,NA,NA,NA,282,285,291,284,NA,273
+9440,r061,All 13-year-old students -> U.S. region -> South,All 13-year-old students,U.S. region,South,3,NA,NA,NA,NA,NA,NA,NA,NA,276,281,282,276,NA,269
+9440,r062,All 13-year-old students -> U.S. region -> West,All 13-year-old students,U.S. region,West,3,NA,NA,NA,NA,NA,NA,NA,NA,278,278,285,279,NA,270
+9440,r063,All 13-year-old students -> School location ,All 13-year-old students,School location ,,2,,,,,,,,,,,,,,
+9440,r064,All 13-year-old students -> School location  -> City,All 13-year-old students,School location ,City,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,277,282,273,NA,263
+9440,r065,All 13-year-old students -> School location  -> Rural,All 13-year-old students,School location ,Rural,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,280,283,281,NA,270
+9440,r066,All 13-year-old students -> School location  -> Suburb,All 13-year-old students,School location ,Suburb,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,286,291,285,NA,277
+9440,r067,All 13-year-old students -> School location  -> Town,All 13-year-old students,School location ,Town,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,282,276,274,NA,268
+9440,r068,All 13-year-old students -> Percentile,All 13-year-old students,Percentile,,2,,,,,,,,,,,,,,
+9440,r069,All 13-year-old students -> Percentile -> 10th percentile,All 13-year-old students,Percentile,10th percentile,3,213,225,230,230,233,233,233,234,234,237,240,228,NA,213
+9440,r070,All 13-year-old students -> Percentile -> 25th percentile,All 13-year-old students,Percentile,25th percentile,3,238,246,248,250,253,253,254,254,257,261,263,255,NA,244
+9440,r071,All 13-year-old students -> Percentile -> 50th percentile,All 13-year-old students,Percentile,50th percentile,3,265,269,269,271,274,276,275,276,280,283,287,282,NA,274
+9440,r072,All 13-year-old students -> Percentile -> 75th percentile,All 13-year-old students,Percentile,75th percentile,3,291,292,290,292,294,296,296,298,303,305,309,307,NA,301
+9440,r073,All 13-year-old students -> Percentile -> 90th percentile,All 13-year-old students,Percentile,90th percentile,3,313,311,309,310,312,315,314,317,322,323,329,329,NA,322
+9440,r074,All 17-year-old students,All 17-year-old students,,,1,300,298,302,305,307,306,307,308,305,306,306,NA,NA,NA
+9440,r075,All 17-year-old students -> Sex,All 17-year-old students,Sex,,2,,,,,,,,,,,,,,
+9440,r076,All 17-year-old students -> Sex -> Female,All 17-year-old students,Sex,Female,3,297,296,299,303,305,304,305,307,304,303,304,NA,NA,NA
+9440,r077,All 17-year-old students -> Sex -> Male,All 17-year-old students,Sex,Male,3,304,301,305,306,309,309,310,310,307,309,308,NA,NA,NA
+9440,r078,"All 17-year-old students -> Race or ethnicity<sup>a,b</sup>",All 17-year-old students,"Race or ethnicity<sup>a,b</sup>",,2,,,,,,,,,,,,,,
+9440,r079,"All 17-year-old students -> Race or ethnicity<sup>a,b</sup> -> American Indian or Alaska Native",All 17-year-old students,"Race or ethnicity<sup>a,b</sup>",American Indian or Alaska Native,3,297,s,s,s,s,s,s,s,s,305,s,NA,NA,NA
+9440,r080,"All 17-year-old students -> Race or ethnicity<sup>a,b</sup> -> Asian or Pacific Islander",All 17-year-old students,"Race or ethnicity<sup>a,b</sup>",Asian or Pacific Islander,3,317,313,316,311,320,317,313,320,315,321,322,NA,NA,NA
+9440,r081,"All 17-year-old students -> Race or ethnicity<sup>a,b</sup> -> Black",All 17-year-old students,"Race or ethnicity<sup>a,b</sup>",Black,3,268,272,279,289,286,286,286,283,284,287,288,NA,NA,NA
+9440,r082,"All 17-year-old students -> Race or ethnicity<sup>a,b</sup> -> Hispanic",All 17-year-old students,"Race or ethnicity<sup>a,b</sup>",Hispanic,3,276,277,283,284,292,291,292,293,292,293,294,NA,NA,NA
+9440,r083,"All 17-year-old students -> Race or ethnicity<sup>a,b</sup> -> Two or more races<sup>c</sup>",All 17-year-old students,"Race or ethnicity<sup>a,b</sup>",Two or more races<sup>c</sup>,3,s,s,s,s,s,s,s,s,s,300,305,NA,NA,NA
+9440,r084,"All 17-year-old students -> Race or ethnicity<sup>a,b</sup> -> White",All 17-year-old students,"Race or ethnicity<sup>a,b</sup>",White,3,306,304,308,309,312,312,313,315,311,314,314,NA,NA,NA
+9440,r085,All 17-year-old students -> Socioeconomic status<sup>d</sup>,All 17-year-old students,Socioeconomic status<sup>d</sup>,,2,,,,,,,,,,,,,,
+9440,r086,All 17-year-old students -> Socioeconomic status<sup>d</sup> -> Eligible for free or reduced-price lunch,All 17-year-old students,Socioeconomic status<sup>d</sup>,Eligible for free or reduced-price lunch,3,NA,NA,NA,NA,NA,NA,NA,NA,289,292,293,NA,NA,NA
+9440,r087,All 17-year-old students -> Socioeconomic status<sup>d</sup> -> Not eligible for free or reduced-price lunch,All 17-year-old students,Socioeconomic status<sup>d</sup>,Not eligible for free or reduced-price lunch,3,NA,NA,NA,NA,NA,NA,NA,NA,309,312,314,NA,NA,NA
+9440,r088,All 17-year-old students -> Student disability status<sup>e</sup>,All 17-year-old students,Student disability status<sup>e</sup>,,2,,,,,,,,,,,,,,
+9440,r089,All 17-year-old students -> Student disability status<sup>e</sup> -> Identified as student with a disability,All 17-year-old students,Student disability status<sup>e</sup>,Identified as student with a disability,3,NA,NA,NA,NA,NA,NA,NA,NA,276,277,276,NA,NA,NA
+9440,r090,All 17-year-old students -> Student disability status<sup>e</sup> -> Not identified as student with a disability,All 17-year-old students,Student disability status<sup>e</sup>,Not identified as student with a disability,3,NA,NA,NA,NA,NA,NA,NA,NA,308,309,310,NA,NA,NA
+9440,r091,All 17-year-old students -> English language learner status<sup>e</sup>,All 17-year-old students,English language learner status<sup>e</sup>,,2,,,,,,,,,,,,,,
+9440,r092,All 17-year-old students -> English language learner status<sup>e</sup> -> English language learner,All 17-year-old students,English language learner status<sup>e</sup>,English language learner,3,NA,NA,NA,NA,NA,NA,NA,NA,280,279,271,NA,NA,NA
+9440,r093,All 17-year-old students -> English language learner status<sup>e</sup> -> Not English language learner,All 17-year-old students,English language learner status<sup>e</sup>,Not English language learner,3,NA,NA,NA,NA,NA,NA,NA,NA,306,307,308,NA,NA,NA
+9440,r094,All 17-year-old students -> U.S. region,All 17-year-old students,U.S. region,,2,,,,,,,,,,,,,,
+9440,r095,All 17-year-old students -> U.S. region -> Midwest,All 17-year-old students,U.S. region,Midwest,3,NA,NA,NA,NA,NA,NA,NA,NA,310,309,308,NA,NA,NA
+9440,r096,All 17-year-old students -> U.S. region -> Northeast,All 17-year-old students,U.S. region,Northeast,3,NA,NA,NA,NA,NA,NA,NA,NA,308,307,312,NA,NA,NA
+9440,r097,All 17-year-old students -> U.S. region -> South,All 17-year-old students,U.S. region,South,3,NA,NA,NA,NA,NA,NA,NA,NA,299,304,304,NA,NA,NA
+9440,r098,All 17-year-old students -> U.S. region -> West,All 17-year-old students,U.S. region,West,3,NA,NA,NA,NA,NA,NA,NA,NA,308,305,304,NA,NA,NA
+9440,r099,All 17-year-old students -> School location ,All 17-year-old students,School location ,,2,,,,,,,,,,,,,,
+9440,r100,All 17-year-old students -> School location  -> City,All 17-year-old students,School location ,City,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,302,302,NA,NA,NA
+9440,r101,All 17-year-old students -> School location  -> Rural,All 17-year-old students,School location ,Rural,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,306,307,NA,NA,NA
+9440,r102,All 17-year-old students -> School location  -> Suburb,All 17-year-old students,School location ,Suburb,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,310,311,NA,NA,NA
+9440,r103,All 17-year-old students -> School location  -> Town,All 17-year-old students,School location ,Town,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,304,298,NA,NA,NA
+9440,r104,All 17-year-old students -> Percentile,All 17-year-old students,Percentile,,2,,,,,,,,,,,,,,
+9440,r105,All 17-year-old students -> Percentile -> 10th percentile,All 17-year-old students,Percentile,10th percentile,3,254,256,263,264,267,267,267,268,266,267,266,NA,NA,NA
+9440,r106,All 17-year-old students -> Percentile -> 25th percentile,All 17-year-old students,Percentile,25th percentile,3,276,276,281,283,286,286,286,287,286,287,287,NA,NA,NA
+9440,r107,All 17-year-old students -> Percentile -> 50th percentile,All 17-year-old students,Percentile,50th percentile,3,301,299,301,305,308,306,308,309,306,307,307,NA,NA,NA
+9440,r108,All 17-year-old students -> Percentile -> 75th percentile,All 17-year-old students,Percentile,75th percentile,3,325,321,323,327,328,327,329,330,327,327,328,NA,NA,NA
+9440,r109,All 17-year-old students -> Percentile -> 90th percentile,All 17-year-old students,Percentile,90th percentile,3,345,341,343,345,345,345,346,347,343,343,345,NA,NA,NA

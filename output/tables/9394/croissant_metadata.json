@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Match rate for doctorate recipients from UMETRICS institutions with full coverage in UMETRICS: AYs 2014\u201317",
+  "identifier": "NCSES-9394",
+  "description": "Match rate for doctorate recipients from UMETRICS institutions with full coverage in UMETRICS: AYs 2014\u201317",
+  "url": "https://example.org/datasets/ncses/tables/9394",
+  "table_number": "A-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9394/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "graduation_year_ay_characteristic",
+      "description": "Graduation year (AY) hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "graduation_year_ay_level_1, graduation_year_ay_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent and number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table reports the match rate and the number of people in the SED by year for graduates for whom full coverage from their institution was available at their reported graduation date. Institutions are considered to have full coverage if they are active in UMETRICS at their reported graduation date and have been active for at least three years before that.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, AYs 2014\u201317; Institute for Research on Innovation and Science, UMETRICS, 2020 release data."
+}

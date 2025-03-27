@@ -1,0 +1,195 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Postgraduation plans of research doctorate recipients, by ethnicity, race, and citizenship status: 2021",
+  "identifier": "NCSES-7656",
+  "description": "Postgraduation plans of research doctorate recipients, by ethnicity, race, and citizenship status: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7656",
+  "table_number": "9-19",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7656/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_characteristic_b",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_characteristic_b_level_1, _b_characteristic_b_level_2, _b_characteristic_b_level_3, _b_characteristic_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_totala",
+      "description": "Totala",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen",
+      "description": "U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen",
+      "description": "Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino_u_s_citizen",
+      "description": "Hispanic Or Latino U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino_non_u_s_citizen",
+      "description": "Hispanic Or Latino Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_american_indian_or_alaska_native_u_s_citizen",
+      "description": "Not Hispanic Or Latino American Indian Or Alaska Native U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_american_indian_or_alaska_native_non_u_s_citizen",
+      "description": "Not Hispanic Or Latino American Indian Or Alaska Native Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_asian_u_s_citizen",
+      "description": "Not Hispanic Or Latino Asian U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_asian_non_u_s_citizen",
+      "description": "Not Hispanic Or Latino Asian Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_black_or_african_american_u_s_citizen",
+      "description": "Not Hispanic Or Latino Black Or African American U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_black_or_african_american_non_u_s_citizen",
+      "description": "Not Hispanic Or Latino Black Or African American Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_white_u_s_citizen",
+      "description": "Not Hispanic Or Latino White U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_white_non_u_s_citizen",
+      "description": "Not Hispanic Or Latino White Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_more_than_one_race_u_s_citizen",
+      "description": "Not Hispanic Or Latino More Than One Race U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_more_than_one_race_non_u_s_citizen",
+      "description": "Not Hispanic Or Latino More Than One Race Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_other_race_or_race_not_reported_u_s_citizen",
+      "description": "Not Hispanic Or Latino Other Race Or Race Not Reported U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_other_race_or_race_not_reported_non_u_s_citizen",
+      "description": "Not Hispanic Or Latino Other Race Or Race Not Reported Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ethnicity_not_reported_u_s_citizen",
+      "description": "Ethnicity Not Reported U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ethnicity_not_reported_non_u_s_citizen",
+      "description": "Ethnicity Not Reported Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "U.S. citizen refers to U.S. citizens and permanent residents. Non-U.S. citizen refers to temporary visa holders. Due to rounding, percentages may not sum to 100.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

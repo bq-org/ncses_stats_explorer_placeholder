@@ -1,0 +1,152 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Lower secondary mathematics and science teachers who reported various elements included in their formal education and training, by education system: 2018 ",
+  "identifier": "NCSES-4114",
+  "description": "Lower secondary mathematics and science teachers who reported various elements included in their formal education and training, by education system: 2018 ",
+  "url": "https://example.org/datasets/ncses/tables/4114",
+  "table_number": "SK12-20",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4114/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "education_system",
+      "description": "Education system hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "education_system_level_1, education_system_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "education_system_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_teachers_content_of_some_or_all_subject_s_i_teach",
+      "description": "Mathematics Teachers Content Of Some Or All Subject S I Teach",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_teachers_pedagogy_of_some_or_all_subject_s_i_teach",
+      "description": "Mathematics Teachers Pedagogy Of Some Or All Subject S I Teach",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_teachers_general_pedagogy",
+      "description": "Mathematics Teachers General Pedagogy",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_teachers_classroom_practice_in_some_or_all_subject_s_i_teach",
+      "description": "Mathematics Teachers Classroom Practice In Some Or All Subject S I Teach",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_teachers_teaching_cross_curricular_skills_e_g_creativity_critical_thinking_problem_solving_",
+      "description": "Mathematics Teachers Teaching Cross Curricular Skills E G Creativity Critical Thinking Problem Solving ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_teachers_use_of_information_and_communications_technologies_for_teaching",
+      "description": "Mathematics Teachers Use Of Information And Communications Technologies For Teaching",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_teachers_content_of_some_or_all_subject_s_i_teach",
+      "description": "Science Teachers Content Of Some Or All Subject S I Teach",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_teachers_pedagogy_of_some_or_all_subject_s_i_teach",
+      "description": "Science Teachers Pedagogy Of Some Or All Subject S I Teach",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_teachers_general_pedagogy",
+      "description": "Science Teachers General Pedagogy",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_teachers_classroom_practice_in_some_or_all_subject_s_i_teach",
+      "description": "Science Teachers Classroom Practice In Some Or All Subject S I Teach",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_teachers_teaching_cross_curricular_skills_e_g_creativity_critical_thinking_problem_solving_",
+      "description": "Science Teachers Teaching Cross Curricular Skills E G Creativity Critical Thinking Problem Solving ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_teachers_use_of_information_and_communications_technologies_for_teaching",
+      "description": "Science Teachers Use Of Information And Communications Technologies For Teaching",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_oecd_country_and_education_system",
+      "description": "Oecd Country And Education System",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Lower secondary education in the United States includes grades 7\u20139. Mathematics and science teachers are identified through teacher reports of the subject taught in their target class, which is defined as the first class that teachers taught in their school after 11 a.m. Tuesday in the week before the interview. If a teacher did not teach on Tuesday, the target class can be a class taught on a day following the last Tuesday. Teachers whose target class consisted of entirely or mainly special needs students were not asked about the subject taught in their target class and were, therefore, excluded in the table. The table does not include teachers from Belgium-Flemish and Iceland because the Belgium-Flemish data do not meet international technical standards, and Iceland does not permit secondary data analyses unless the data files are obtained directly from the country.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the OECD, TALIS, 2018.Science and Engineering Indicators"
+}

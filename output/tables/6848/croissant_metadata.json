@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed college graduates, by sex, major occupation, job satisfaction, and primary work activity: 2017",
+  "identifier": "NCSES-6848",
+  "description": "Employed college graduates, by sex, major occupation, job satisfaction, and primary work activity: 2017",
+  "url": "https://example.org/datasets/ncses/tables/6848",
+  "table_number": "3-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6848/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_occupation_and_job_satisfaction",
+      "description": "Sex, occupation, and job satisfaction hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_occupation_and_job_satisfaction_level_1, sex_occupation_and_job_satisfaction_level_2, sex_occupation_and_job_satisfaction_level_3, sex_occupation_and_job_satisfaction_level_4, sex_occupation_and_job_satisfaction_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_occupation_and_job_satisfaction_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_computer_applications",
+      "description": "Primary Work Activity Computer Applications",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_management_and_administrationa",
+      "description": "Primary Work Activity Management And Administrationa",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_research_and_developmentb",
+      "description": "Primary Work Activity Research And Developmentb",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_teaching",
+      "description": "Primary Work Activity Teaching",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_otherc",
+      "description": "Primary Work Activity Otherc",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

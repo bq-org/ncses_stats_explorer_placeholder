@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Response rates for the Higher Education Research and Development Survey, by survey population, highest degree granted, and institutional control: FY 2019",
+  "identifier": "NCSES-3202",
+  "description": "Response rates for the Higher Education Research and Development Survey, by survey population, highest degree granted, and institutional control: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3202",
+  "table_number": "A-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3202/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_survey_population_and_type_of_institution_b",
+      "description": "Survey population and type of institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_survey_population_and_type_of_institution_b_level_1, _b_survey_population_and_type_of_institution_b_level_2, _b_survey_population_and_type_of_institution_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_survey_population_and_type_of_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_in_survey_universe",
+      "description": "Number In Survey Universe",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_complete_responses",
+      "description": "Complete Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_partial_responses",
+      "description": "Partial Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_responses",
+      "description": "Total Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_rate_",
+      "description": "Response Rate ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2019."
+}

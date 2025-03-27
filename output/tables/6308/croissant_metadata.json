@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Funds spent for business R&D performed in the United States, by source of funds and selected industry: 2019",
+  "identifier": "NCSES-6308",
+  "description": "Funds spent for business R&D performed in the United States, by source of funds and selected industry: 2019",
+  "url": "https://example.org/datasets/ncses/tables/6308",
+  "table_number": "RD-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6308/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_naics_code",
+      "description": "Industry and NAICS code hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_naics_code_level_1, industry_and_naics_code_level_2, industry_and_naics_code_level_3, industry_and_naics_code_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_naics_code_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_da",
+      "description": "All R Da",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_the_companyb",
+      "description": "Paid For By The Companyb",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_total",
+      "description": "Paid For By Others Total",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_federal",
+      "description": "Paid For By Others Federal",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_companies_domestic",
+      "description": "Paid For By Others Companies Domestic",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_companies_foreignc",
+      "description": "Paid For By Others Companies Foreignc",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_all_other_organizationsd",
+      "description": "Paid For By Others All Other Organizationsd",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Beginning in survey year 2018, companies that performed or funded less than $50,000 of R&D were excluded from tabulation. These companies in aggregate represented a very small share of total R&D expenditures in prior years. Had the companies under this threshold been included in the 2018 estimates, they would have contributed approximately $90 million to overall R&D expenditures. Industry classification was based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Excludes data for federally funded research and development centers. An estimate range may be displayed in place of a single estimate to avoid disclosing operations of individual companies. The Business Enterprise Research and Development Survey includes only companies with 10 or more domestic employees.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Business Enterprise Research and Development Survey, 2019.Science and Engineering Indicators"
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Logistic regression of various types of innovation",
+  "identifier": "NCSES-7228",
+  "description": "Logistic regression of various types of innovation",
+  "url": "https://example.org/datasets/ncses/tables/7228",
+  "table_number": "8",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7228/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "product_innovation_characteristic",
+      "description": "Product innovation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "product_innovation_level_1, product_innovation_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Odds ratio and 95% Wald confidence limit"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Settlement size defined by rural-urban continuum code category, industry, and firm size fixed effects not reported. More information on the RUCCs available here: https://www.ers.usda.gov/data-products/rural-urban-continuum-codes.aspx.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2018 Annual Business Survey: Data Year 2017."
+}

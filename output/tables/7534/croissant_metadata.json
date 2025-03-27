@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Highest educational attainment of either parent of research doctorate recipients: 1970&#8211;2021",
+  "identifier": "NCSES-7534",
+  "description": "Highest educational attainment of either parent of research doctorate recipients: 1970&#8211;2021",
+  "url": "https://example.org/datasets/ncses/tables/7534",
+  "table_number": "1-14",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7534/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Percentages may not sum to 100 due to rounding and doctorate recipients who reported \"not applicable or unknown\" for both parents' education or did not report either parent's education. If a respondent provided data for one parent, that response is used; for respondents who provided data for two parents, the higher attainment is reported in this table.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates.",
+  "temporalCoverage": "19/20"
+}

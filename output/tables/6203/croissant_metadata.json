@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Any product innovation and new-to-market innovation rates, by settlement size category",
+  "identifier": "NCSES-6203",
+  "description": "Any product innovation and new-to-market innovation rates, by settlement size category",
+  "url": "https://example.org/datasets/ncses/tables/6203",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6203/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent innovating firms"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "A statistically larger indicator is applied at the 0.05 level. These estimates are derived from companies with only a single location and may differ from the published innovation counts and estimates based on single- and multi-unit firms (Kindlon 2021). Limiting analysis to single-unit firms eliminates the potential headquarters\u2019 bias resulting from attributing innovation to the reporting location of multi-unit firms and reduces potential measurement error resulting from attributing company reports of innovation to all branch locations. The statistics allow inferences regarding the population of single-unit firms but do not allow inferences regarding the population of all firms.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2018 Annual Business Survey: Data Year 2017."
+}

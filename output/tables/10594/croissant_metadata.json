@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Registered USPTO trademarks in the business sector of transportation, by region, country, or economy: 1998\u20132022",
+  "identifier": "NCSES-10594",
+  "description": "Registered USPTO trademarks in the business sector of transportation, by region, country, or economy: 1998\u20132022",
+  "url": "https://example.org/datasets/ncses/tables/10594",
+  "table_number": "SINV-47",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10594/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Trademarks are allocated according to holder information.\u00a0Trademarks are fractionally allocated among regions,\u00a0countries,\u00a0or\u00a0economies based on the proportion of residences of all named holders. China includes Hong Kong. The United States includes Puerto Rico and all other U.S. territories. Trademarks are classified under the 11th edition of the Nice Classification of goods and services, which classifies trademarks under 34 categories of goods and 11 categories of services. Fractional counts of trademarks were assigned to each category to assign the proper weight of a trademark to the corresponding category under the classification. These counts are then grouped under 10 industry sectors following a mapping defined by Edital.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; USPTO data hosted by Reed Tech (LexisNexis), accessed June 2023.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

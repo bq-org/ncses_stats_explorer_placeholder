@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research, by agency: FYs 2012&#8211;21",
+  "identifier": "NCSES-6443",
+  "description": "Federal obligations for research, by agency: FYs 2012&#8211;21",
+  "url": "https://example.org/datasets/ncses/tables/6443",
+  "table_number": "109",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6443/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_agency_b",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_agency_b_level_1, _b_agency_b_level_2, _b_agency_b_level_3, _b_agency_b_level_4, _b_agency_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_agency_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_preliminary_",
+      "description": "2021 Preliminary ",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Only those agencies and subdivisions that had obligations in variables represented by this table appear in the table. FYs 2020 and 2021 obligations include additional funding provided by supplemental COVID-19 related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act). See technical table A-2 for additional notes associated with the agencies listed in this table.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

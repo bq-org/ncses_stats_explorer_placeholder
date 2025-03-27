@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed foreign-born college graduates, by broad field of highest degree, place of birth, and broad occupation: 2019",
+  "identifier": "NCSES-5592",
+  "description": "Employed foreign-born college graduates, by broad field of highest degree, place of birth, and broad occupation: 2019",
+  "url": "https://example.org/datasets/ncses/tables/5592",
+  "table_number": "5-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5592/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_place_of_birth",
+      "description": "Field of highest degree and place of birth hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_highest_degree_and_place_of_birth_level_1, field_of_highest_degree_and_place_of_birth_level_2, field_of_highest_degree_and_place_of_birth_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_highest_degree_and_place_of_birth_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_place_of_birth_full_path",
+      "description": "Of Highest Degree And Place Of Birth Full Path",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_place_of_birth_level_1",
+      "description": "Of Highest Degree And Place Of Birth Level 1",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_place_of_birth_level_2",
+      "description": "Of Highest Degree And Place Of Birth Level 2",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_place_of_birth_level_3",
+      "description": "Of Highest Degree And Place Of Birth Level 3",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_place_of_birth_hierarchy_depth",
+      "description": "Of Highest Degree And Place Of Birth Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations",
+      "description": "S E Occupations",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related_occupations",
+      "description": "S E Related Occupations",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e_occupations",
+      "description": "Non S E Occupations",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding. For each broad degree field, data are presented for the 25 countries with the largest numbers of foreign-born college graduates employed in the United States during the survey reference week. Data include non-U.S. citizens who are on permanent or temporary visas.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates: 2019."
+}

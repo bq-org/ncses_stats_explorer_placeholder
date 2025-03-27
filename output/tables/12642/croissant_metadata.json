@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Imputed amounts for higher education R&D expenditures, by type of cost: FY 2023",
+  "identifier": "NCSES-12642",
+  "description": "Imputed amounts for higher education R&D expenditures, by type of cost: FY 2023",
+  "url": "https://example.org/datasets/ncses/tables/12642",
+  "table_number": "A-17",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12642/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_type_of_cost_b",
+      "description": "Type of cost hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_type_of_cost_b_level_1, _b_type_of_cost_b_level_2, _b_type_of_cost_b_level_3, _b_type_of_cost_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_type_of_cost_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_expenditures",
+      "description": "All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_imputed_amount",
+      "description": "Imputed Amount",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_imputed_amount_as_of_total",
+      "description": "Imputed Amount As Of Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Imputation rate at total level is lower than imputation rates at detail levels because some institutions could provide totals but not details. This table includes only institutions reporting $1 million or more in total R&D expenditures in FY 2022. Institutions reporting less than $1 million in total R&D expenditures in FY 2022 completed a shorter version of the survey form in FY 2023 that did not include this question.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2023."
+}

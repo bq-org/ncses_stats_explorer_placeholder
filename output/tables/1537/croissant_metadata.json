@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Students in grade 9 in fall 2009 who had enrolled in postsecondary education by the end of 2013 and declared a STEM major for their most recent undergraduate degree or certificate, by selected demographic characteristics, and mathematics and science preparation in high school: 2016",
+  "identifier": "NCSES-1537",
+  "description": "Students in grade 9 in fall 2009 who had enrolled in postsecondary education by the end of 2013 and declared a STEM major for their most recent undergraduate degree or certificate, by selected demographic characteristics, and mathematics and science preparation in high school: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1537",
+  "table_number": "1-7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1537/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "demographic_characteristic_and_mathematics_and_science_preparation",
+      "description": "Demographic characteristic and mathematics and science preparation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "demographic_characteristic_and_mathematics_and_science_preparation_level_1, demographic_characteristic_and_mathematics_and_science_preparation_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "demographic_characteristic_and_mathematics_and_science_preparation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_students_who_had_enrolled_in_postsecondary_education_by_the_end_of_2013_stem_major_total",
+      "description": "Students Who Had Enrolled In Postsecondary Education By The End Of 2013 Stem Major Total",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_students_who_had_enrolled_in_postsecondary_education_by_the_end_of_2013_mathematics_science_computer_science_and_engineering",
+      "description": "Students Who Had Enrolled In Postsecondary Education By The End Of 2013 Mathematics Science Computer Science And Engineering",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_students_who_had_enrolled_in_postsecondary_education_by_the_end_of_2013_social_science_and_psychology",
+      "description": "Students Who Had Enrolled In Postsecondary Education By The End Of 2013 Social Science And Psychology",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "STEM major considers both first and second majors declared by students for their most recent undergraduate degree or certificate. Estimates for mathematics, science, computer science, and engineering majors and social science and psychology majors do not add to total because some students declared majors in both areas. Columns do not add to 100% because each category represents the percentage of all students in that category who declared a STEM major. Social science courses study human society and social relationships and include such courses as anthropology, economics, political science, and sociology.",
+  "sources": "Radford AW, Fritch LB, Leu K, and Duprey M, High School Longitudinal Study of 2009 (HSLS:09) Second Follow-Up: A First Look at Fall 2009 Ninth-Graders in 2016, NCES 2018-139 (2018); National Center for Science and Engineering Statistics, National Science Foundation, special tabulations (2018) of HSLS:09, National Center for Education Statistics, Department of Education.Science and Engineering Indicators"
+}

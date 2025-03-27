@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Institutional rankings for master's students: 2022",
+  "identifier": "NCSES-10646",
+  "description": "Institutional rankings for master's students: 2022",
+  "url": "https://example.org/datasets/ncses/tables/10646",
+  "table_number": "5-4b",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10646/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_institution_b",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_institution_b_level_1, _b_institution_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_master_s_students_rank",
+      "description": "All Master S Students Rank",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_master_s_students_total",
+      "description": "All Master S Students Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_master_s_students_science",
+      "description": "All Master S Students Science",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_master_s_students_engineering",
+      "description": "All Master S Students Engineering",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_master_s_students_health",
+      "description": "All Master S Students Health",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_master_s_students_rank",
+      "description": "Full Time Master S Students Rank",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_master_s_students_total",
+      "description": "Full Time Master S Students Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_master_s_students_science",
+      "description": "Full Time Master S Students Science",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_master_s_students_engineering",
+      "description": "Full Time Master S Students Engineering",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_master_s_students_health",
+      "description": "Full Time Master S Students Health",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_master_s_students_rank",
+      "description": "Part Time Master S Students Rank",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_master_s_students_total",
+      "description": "Part Time Master S Students Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_master_s_students_science",
+      "description": "Part Time Master S Students Science",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_master_s_students_engineering",
+      "description": "Part Time Master S Students Engineering",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_master_s_students_health",
+      "description": "Part Time Master S Students Health",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Sorted by overall number of master's students. Tied institutions are ranked first by number of full-time master's students and then alphabetically. For more information on the mapping of Survey of Graduate Students and Postdoctorates in Science and Engineering fields and codes, see technical table A-17. Graduate student data in this table include master's students in health sciences. For more information on the comparability of these counts to other data published by the National Center for Science and Engineering Statistics, see the \"Technical Notes.\"",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2022."
+}

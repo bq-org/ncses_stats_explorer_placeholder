@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies that introduced new or significantly improved processes, by industry, industry proportions, and company size: 2014&#8211;16",
+  "identifier": "NCSES-1435",
+  "description": "Companies that introduced new or significantly improved processes, by industry, industry proportions, and company size: 2014&#8211;16",
+  "url": "https://example.org/datasets/ncses/tables/1435",
+  "table_number": "65",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1435/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_or_processes_companies_number_",
+      "description": "New Or Significantly Improved Products Or Processes Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_or_processes_yesa",
+      "description": "New Or Significantly Improved Products Or Processes Yesa",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_or_processes_nob",
+      "description": "New Or Significantly Improved Products Or Processes Nob",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_companies_number_",
+      "description": "New Or Significantly Improved Processes Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_any_processes_yesc",
+      "description": "New Or Significantly Improved Processes Any Processes Yesc",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_any_processes_nod",
+      "description": "New Or Significantly Improved Processes Any Processes Nod",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_manufacturing_or_production_methods_yes",
+      "description": "New Or Significantly Improved Processes Manufacturing Or Production Methods Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_manufacturing_or_production_methods_no",
+      "description": "New Or Significantly Improved Processes Manufacturing Or Production Methods No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_logistics_delivery_or_distribution_methods_yes",
+      "description": "New Or Significantly Improved Processes Logistics Delivery Or Distribution Methods Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_logistics_delivery_or_distribution_methods_no",
+      "description": "New Or Significantly Improved Processes Logistics Delivery Or Distribution Methods No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_support_activities_yes",
+      "description": "New Or Significantly Improved Processes Support Activities Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_support_activities_no",
+      "description": "New Or Significantly Improved Processes Support Activities No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. These statistics include an adjustment to account for item nonresponse beginning in survey year 2016. This change has affected the comparability of these company count estimates with estimates published for years prior to 2016. These statistics do not include an adjustment to account for unit nonresponse. Statistics are representative of companies located in the United States, regardless of whether the company performed or funded R&D.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Business R&D and Innovation Survey."
+}

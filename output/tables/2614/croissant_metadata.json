@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Product innovation in companies, by firm classification of sex and R&D activity: 2015&#8211;17",
+  "identifier": "NCSES-2614",
+  "description": "Product innovation in companies, by firm classification of sex and R&D activity: 2015&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/2614",
+  "table_number": "49",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2614/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_of_owners",
+      "description": "Sex of owners hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_of_owners_level_1, sex_of_owners_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_of_owners_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_in_house_or_external_r_d_number_yes",
+      "description": "In House Or External R D Number Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_in_house_or_external_r_d_number_no",
+      "description": "In House Or External R D Number No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_in_house_or_external_r_d_percent_yes",
+      "description": "In House Or External R D Percent Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_in_house_or_external_r_d_percent_no",
+      "description": "In House Or External R D Percent No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. R&D activity is based on unedited company responses to innovation questions, not R&D expenditures. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Annual Business Survey, 2017."
+}

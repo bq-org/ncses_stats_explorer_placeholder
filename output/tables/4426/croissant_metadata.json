@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Measures and size of U.S. S&E workforce with a bachelor's degree or higher: 2019",
+  "identifier": "NCSES-4426",
+  "description": "Measures and size of U.S. S&E workforce with a bachelor's degree or higher: 2019",
+  "url": "https://example.org/datasets/ncses/tables/4426",
+  "table_number": "LBR-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4426/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "measure",
+      "description": "Measure hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "measure_level_1, measure_level_2, measure_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "measure_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_individuals",
+      "description": "Individuals",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The data source is NSCG unless otherwise noted. The NSCG estimate of the number of workers in S&E occupations includes postsecondary teachers of S&E fields, and the ACS estimate excludes them. The totals for at least one degree in S&E field and highest degree in S&E field include individuals who are employed and those who are unemployed and out of the labor force. Scientists and engineers are individuals under the age of 76 with a bachelor's degree or higher, are living in the United States, and have an S&E or S&E-related degree or occupation.",
+  "sources": "National Center for Science and Engineering Statistics, NSCG, 2019; U.S. Census Bureau, ACS, 2019, Public Use Microdata Sample (PUMS), data as of 25 October 2020.Science and Engineering Indicators"
+}

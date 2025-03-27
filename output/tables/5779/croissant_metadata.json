@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "International students enrolled in U.S. higher education institutions, by broad field and academic level: 2012&#8211;20",
+  "identifier": "NCSES-5779",
+  "description": "International students enrolled in U.S. higher education institutions, by broad field and academic level: 2012&#8211;20",
+  "url": "https://example.org/datasets/ncses/tables/5779",
+  "table_number": "HED-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5779/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "broad_field_and_academic_level",
+      "description": "Broad field and academic level hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "broad_field_and_academic_level_level_1, broad_field_and_academic_level_level_2, broad_field_and_academic_level_level_3, broad_field_and_academic_level_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "broad_field_and_academic_level_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include active foreign national students on F-1 visas and exclude those on optional practical training. Undergraduate level includes associate's and bachelor's degrees; graduate level includes master's and doctoral degrees. Numbers are rounded to the nearest 10. Detail may not add to total because of rounding and the inclusion of a small number of students who could not be classified according to field of study. The data reflect fall enrollment in a given year and include students with active status as of 15 November of that year. Data in this table differ from previously published numbers due to improved classification of S&E fields.",
+  "sources": "U.S. Department of Homeland Security, U.S. Immigration and Customs Enforcement, special tabulations (2021) of the Student and Exchange Visitor Information System (SEVIS) database.Science and Engineering Indicators"
+}

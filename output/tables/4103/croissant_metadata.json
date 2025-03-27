@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average CIL and CT scores of male and female students in grade 8 and female-male score differences, by education system: 2018",
+  "identifier": "NCSES-4103",
+  "description": "Average CIL and CT scores of male and female students in grade 8 and female-male score differences, by education system: 2018",
+  "url": "https://example.org/datasets/ncses/tables/4103",
+  "table_number": "SK12-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4103/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "average_cil_score_characteristic",
+      "description": "Average CIL score hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "average_cil_score_level_1, average_cil_score_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The scale of CIL and CT scores is 100\u2013700. The ICILS 2018 average is the average of all participating education systems meeting international technical standards, with each education system weighted equally. Italics indicate the benchmarking participants.",
+  "sources": "International Association for the Evaluation of Educational Achievement (IEA), ICILS, 2018. https://nces.ed.gov/surveys/icils/icils2018/theme1.asp?tabontop. Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

@@ -1,0 +1,156 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. citizen and permanent resident doctorate recipients, by major field of study, ethnicity, and race: 2017",
+  "identifier": "NCSES-969",
+  "description": "U.S. citizen and permanent resident doctorate recipients, by major field of study, ethnicity, and race: 2017",
+  "url": "https://example.org/datasets/ncses/tables/969",
+  "table_number": "24",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/969/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_level_1, field_of_study_level_2, field_of_study_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_full_path",
+      "description": "Of Study Full Path",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_1",
+      "description": "Of Study Level 1",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_2",
+      "description": "Of Study Level 2",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_3",
+      "description": "Of Study Level 3",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_hierarchy_depth",
+      "description": "Of Study Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_u_s_citizen_and_permanent_resident_doctorate_recipients_number_",
+      "description": "All U S Citizen And Permanent Resident Doctorate Recipients Number ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_or_permanent_resident_hispanic_or_latino",
+      "description": "U S Citizen Or Permanent Resident Hispanic Or Latino",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_or_permanent_resident_not_hispanic_or_latino_american_indian_or_alaska_native",
+      "description": "U S Citizen Or Permanent Resident Not Hispanic Or Latino American Indian Or Alaska Native",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_or_permanent_resident_not_hispanic_or_latino_asian",
+      "description": "U S Citizen Or Permanent Resident Not Hispanic Or Latino Asian",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_or_permanent_resident_not_hispanic_or_latino_black_or_african_american",
+      "description": "U S Citizen Or Permanent Resident Not Hispanic Or Latino Black Or African American",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_or_permanent_resident_not_hispanic_or_latino_white",
+      "description": "U S Citizen Or Permanent Resident Not Hispanic Or Latino White",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_or_permanent_resident_not_hispanic_or_latino_more_than_one_race",
+      "description": "U S Citizen Or Permanent Resident Not Hispanic Or Latino More Than One Race",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_or_permanent_resident_not_hispanic_or_latino_other_race_or_race_not_reported",
+      "description": "U S Citizen Or Permanent Resident Not Hispanic Or Latino Other Race Or Race Not Reported",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_or_permanent_resident_ethnicity_not_reported",
+      "description": "U S Citizen Or Permanent Resident Ethnicity Not Reported",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "See table A-6 in the technical notes for a listing of major fields and their constituent subfields. Due to rounding, percentages may not sum to 100.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2017."
+}

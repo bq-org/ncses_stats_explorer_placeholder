@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "University technology licenses or license options executed, by company characteristic: 2009, 2014, and 2019",
+  "identifier": "NCSES-5811",
+  "description": "University technology licenses or license options executed, by company characteristic: 2009, 2014, and 2019",
+  "url": "https://example.org/datasets/ncses/tables/5811",
+  "table_number": "INV-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5811/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "company_characteristic",
+      "description": "Company characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "company_characteristic_level_1, company_characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "company_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "AUTM collects data on invention and patent-related activities of its member universities and hospitals. The number of member universities varies slightly from year to year. There were 248 in 2009, 252 in 2014, and 236 in 2019. Responding institutions may report for any 12-month period ending in the identified year. Startup companies reported by universities in AUTM data refer only to those companies that were formed in the reporting year specifically to develop the technology being licensed. Counts of licenses to startups and small companies are mutually exclusive. Small companies are those with fewer than 500 employees.",
+  "sources": "AUTM, AUTM Licensing Survey (various years), accessed February 2021.Science and Engineering Indicators"
+}

@@ -1,0 +1,215 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by field of doctorate and primary work activity: 2021",
+  "identifier": "NCSES-9268",
+  "description": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by field of doctorate and primary work activity: 2021",
+  "url": "https://example.org/datasets/ncses/tables/9268",
+  "table_number": "57-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9268/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_level_1, field_of_study_level_2, field_of_study_level_3, field_of_study_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_full_path",
+      "description": "Of Study Full Path",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_1",
+      "description": "Of Study Level 1",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_2",
+      "description": "Of Study Level 2",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_3",
+      "description": "Of Study Level 3",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_4",
+      "description": "Of Study Level 4",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_hierarchy_depth",
+      "description": "Of Study Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_median_salary",
+      "description": "All Full Time Employed Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_se",
+      "description": "All Full Time Employed Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_applications_median_salary",
+      "description": "Computer Applications Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_applications_se",
+      "description": "Computer Applications Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_design_median_salary",
+      "description": "Design Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_design_se",
+      "description": "Design Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_management_sales_or_administrationa_median_salary",
+      "description": "Management Sales Or Administrationa Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_management_sales_or_administrationa_se",
+      "description": "Management Sales Or Administrationa Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_services_median_salary",
+      "description": "Professional Services Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_services_se",
+      "description": "Professional Services Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_any_r_db_median_salary",
+      "description": "Any R Db Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_any_r_db_se",
+      "description": "Any R Db Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teaching_median_salary",
+      "description": "Teaching Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teaching_se",
+      "description": "Teaching Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherc_median_salary",
+      "description": "Otherc Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherc_se",
+      "description": "Otherc Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Median annual salaries are for principal job and are rounded to nearest $1,000. Standard errors are rounded up to the nearest $500. Full time is based on working 35 or more hours per week. Primary and secondary work activities were self-defined by respondent in response to the question: \"On which two activities...did you work the most hours during a typical week on this job?\" Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

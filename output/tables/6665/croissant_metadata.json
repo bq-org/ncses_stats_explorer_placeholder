@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Foreign employment and R&D employment, by location: 2019",
+  "identifier": "NCSES-6665",
+  "description": "Foreign employment and R&D employment, by location: 2019",
+  "url": "https://example.org/datasets/ncses/tables/6665",
+  "table_number": "63",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6665/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "location",
+      "description": "Location hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "location_level_1, location_level_2, location_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "location_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employees_total",
+      "description": "Employees Total",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employees_r_d",
+      "description": "Employees R D",
+      "valueType": "string",
+      "unitText": "Thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Beginning in survey year 2018, statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D. No systematic item imputation was applied. These statistics include an adjustment to the weight to account for unit nonresponse.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2019."
+}

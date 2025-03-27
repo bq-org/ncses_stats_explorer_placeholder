@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Bachelor's degrees awarded, by citizenship, ethnicity, race, sex, and field: 2016",
+  "identifier": "NCSES-1150",
+  "description": "Bachelor's degrees awarded, by citizenship, ethnicity, race, sex, and field: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1150",
+  "table_number": "5-7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1150/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "citizenship_ethnicity_race_and_sex",
+      "description": "Citizenship, ethnicity, race, and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "citizenship_ethnicity_race_and_sex_level_1, citizenship_ethnicity_race_and_sex_level_2, citizenship_ethnicity_race_and_sex_level_3, citizenship_ethnicity_race_and_sex_level_4, citizenship_ethnicity_race_and_sex_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "citizenship_ethnicity_race_and_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields",
+      "description": "All Fields",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e",
+      "description": "S E",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_all_sciences",
+      "description": "Science All Sciences",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_agricultural_sciences",
+      "description": "Science Agricultural Sciences",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_biological_sciences",
+      "description": "Science Biological Sciences",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_computer_sciences",
+      "description": "Science Computer Sciences",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_earth_atmospheric_and_ocean_sciences",
+      "description": "Science Earth Atmospheric And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_mathematics_and_statistics",
+      "description": "Science Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_physical_sciences",
+      "description": "Science Physical Sciences",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology",
+      "description": "Science Psychology",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_social_sciences",
+      "description": "Science Social Sciences",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e",
+      "description": "Non S E",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Race and ethnicity breakouts are for U.S. citizens and permanent residents only. Temporary resident includes all racial and ethnic groups. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs and do not match previously published data that were based on accredited higher education institutions.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, special tabulations of U.S. Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System, Completions Survey, unrevised provisional release data, 2016."
+}

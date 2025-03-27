@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Prevalence of STEM workers in select industries, by occupation group: 2021        ",
+  "identifier": "NCSES-11017",
+  "description": "Prevalence of STEM workers in select industries, by occupation group: 2021        ",
+  "url": "https://example.org/datasets/ncses/tables/11017",
+  "table_number": "SLBR-20",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11017/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data include the employed, civilian, non-institutionalized population ages 16\u201375 and exclude those currently enrolled in primary or secondary school. Industries were selected if the percentage of S&E, S&E-related, or STEM-middle skill workers in that industry was at least 2.5 times the percentage of all U.S. workers in the indicated STEM group. In 2021, 24.2% of workers were in STEM occupations, 6.2% were in S&E occupations, 8.9% were in S&E-related occupations, and 9.1% were in STEM middle-skill occupations.",
+  "sources": "Census Bureau, American Community Survey (ACS), 1-Year Public-Use File, 2021, data as of October 2022.Science and Engineering Indicators",
+  "temporalCoverage": "19/19"
+}

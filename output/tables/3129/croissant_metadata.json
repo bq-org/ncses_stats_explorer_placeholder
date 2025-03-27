@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federally financed higher education R&D expenditures, by federal agency and R&D field: FY 2019",
+  "identifier": "NCSES-3129",
+  "description": "Federally financed higher education R&D expenditures, by federal agency and R&D field: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3129",
+  "table_number": "13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3129/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_b",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_b_level_1, _b_field_b_level_2, _b_field_b_level_3, _b_field_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_federal_r_d_expenditures",
+      "description": "All Federal R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dod",
+      "description": "Dod",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doe",
+      "description": "Doe",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hhs",
+      "description": "Hhs",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nasa",
+      "description": "Nasa",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nsf",
+      "description": "Nsf",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_usda",
+      "description": "Usda",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_othera",
+      "description": "Othera",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table includes only institutions reporting $1 million or more in total R&D expenditures in 2018. Institutions reporting less than $1 million in total R&D expenditures in 2018 completed a shorter version of the survey form in FY 2019, and that form did not collect federally financed R&D expenditures by source and detailed field. For federally financed R&D expenditures by major field at institutions completing the shorter version of the survey, see table 83.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2019."
+}

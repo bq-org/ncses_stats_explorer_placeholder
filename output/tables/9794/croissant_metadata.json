@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Borrowing, debt, repayment, and repayment amount among 2015\u201316 bachelor's degree recipients who borrowed to pay for undergraduate or graduate education: 2020",
+  "identifier": "NCSES-9794",
+  "description": "Borrowing, debt, repayment, and repayment amount among 2015\u201316 bachelor's degree recipients who borrowed to pay for undergraduate or graduate education: 2020",
+  "url": "https://example.org/datasets/ncses/tables/9794",
+  "table_number": "HED-7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9794/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "amount_borrowed_characteristic",
+      "description": "Amount borrowed ($) hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "amount_borrowed_level_1, amount_borrowed_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Average and median in current dollars; percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Estimates pertain to individuals who completed the requirements for a bachelor\u2019s degree in 2015\u201316 and were awarded their degree by a Title IV\u2013eligible postsecondary institution in the 50 states, the District of Columbia, or Puerto Rico no later than 30 June 2017. Federal student loans include subsidized and unsubsidized Direct Loans (formerly called Stafford Loans), excluding Direct Unsubsidized Loans to students who received a TEACH Grant and failed to fulfill the service obligation; Perkins Loans; and Graduate PLUS Loans. Loans exclude Parent PLUS Loans. Respondents may owe more on their federal student loans than originally borrowed due to accumulating loan interest; thus, the ratio of amount owed to amount borrowed may be greater than 100%. Average and median monthly payment amount for student loans is calculated among those with at least one student loan in repayment. Monthly payment amounts include monthly payments of $0 for federal student loans under an income-driven repayment plan. Respondents with multiple majors were classified by the first field of study reported. General studies and other includes liberal arts and sciences, general studies, and humanities; multidisciplinary and interdisciplinary studies; basic skills; citizenship activities; health-related knowledge and skills; interpersonal and social skills; leisure and recreational activities; personal awareness and self-improvement; high school or secondary diplomas and certificates; and other majors. Other applied includes personal and consumer services; manufacturing, construction, repair, and transportation; military technology and protective services; architecture; communications; public administration and human services; design and applied arts; law and legal studies; library sciences; and theology and religious vocations.",
+  "sources": "National Center for Education Statistics, 2016/20 Baccalaureate and Beyond Longitudinal Study (B&B:16/20).Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

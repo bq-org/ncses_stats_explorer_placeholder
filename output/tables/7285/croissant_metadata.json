@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Relative standard errors for funds provided by nonprofit organizations to others for R&D, by type of organization and source of funds: FY 2016",
+  "identifier": "NCSES-7285",
+  "description": "Relative standard errors for funds provided by nonprofit organizations to others for R&D, by type of organization and source of funds: FY 2016",
+  "url": "https://example.org/datasets/ncses/tables/7285",
+  "table_number": "9-B",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7285/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_organization",
+      "description": "Type of organization hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_organization_level_1, type_of_organization_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_organization_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_funds_for_r_d",
+      "description": "Total Funds For R D",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_for_r_d_federal_funds_for_r_d",
+      "description": "Source Of Funds For R D Federal Funds For R D",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_for_r_d_nonfederal_funds_for_r_d",
+      "description": "Source Of Funds For R D Nonfederal Funds For R D",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Nonprofit Research Activities, FY 2016."
+}

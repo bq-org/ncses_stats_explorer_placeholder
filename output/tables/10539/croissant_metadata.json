@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Perceived knowledge about science, by country: 2020",
+  "identifier": "NCSES-10539",
+  "description": "Perceived knowledge about science, by country: 2020",
+  "url": "https://example.org/datasets/ncses/tables/10539",
+  "table_number": "SPPS-12",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10539/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "country",
+      "description": "Country",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "a_lot",
+      "description": "A Lot",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "some",
+      "description": "Some",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "not_much",
+      "description": "Not Much",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "nothing_at_all",
+      "description": "Nothing At All",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "don_t_know_or_refused",
+      "description": "Don T Know Or Refused",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Countries are those with top 16 gross domestic expenditures on R&D as a percentage of gross domestic product in 2019, listed in order from highest to lowest (see Indicators 2022 report \"Research and Development: U.S. Trends and International Comparisons\"). In 2019, Iceland was ranked in the top 16 but was not included in the Wellcome Global Monitor 2020 survey; therefore, only 15 of the top 16 countries are shown. Responses are to the following: How much do you, personally, know about science? Do you know a lot, some, not much, or nothing at all?",
+  "sources": "Gallup. 2021. Wellcome Global Monitor 2020.Science and Engineering Indicators"
+}

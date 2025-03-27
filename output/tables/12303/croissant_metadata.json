@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D performance, by source of funds, performer, industry, and company size: 2022",
+  "identifier": "NCSES-12303",
+  "description": "Domestic R&D performance, by source of funds, performer, industry, and company size: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12303",
+  "table_number": "43",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12303/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_the_company_total",
+      "description": "Paid For By The Company Total",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_the_company_r_d_performed_by_others_purchased_and_collaborative_r_d_",
+      "description": "Paid For By The Company R D Performed By Others Purchased And Collaborative R D ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_the_company_r_d_performed_by_the_company",
+      "description": "Paid For By The Company R D Performed By The Company",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_total",
+      "description": "Paid For By Others Total",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_r_d_performed_by_others_subcontracted_or_passed_through_r_d_costs_",
+      "description": "Paid For By Others R D Performed By Others Subcontracted Or Passed Through R D Costs ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_r_d_performed_by_the_company_total",
+      "description": "Paid For By Others R D Performed By The Company Total",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_r_d_performed_by_the_company_paid_for_by_the_u_s_government",
+      "description": "Paid For By Others R D Performed By The Company Paid For By The U S Government",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others_r_d_performed_by_the_company_paid_for_by_non_u_s_government_sources",
+      "description": "Paid For By Others R D Performed By The Company Paid For By Non U S Government Sources",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D and are not comparable with estimates published for years prior to 2018.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2022."
+}

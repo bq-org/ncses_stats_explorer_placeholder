@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Survey forms mailed, by type: 2008\u201315",
+  "identifier": "NCSES-796",
+  "description": "Survey forms mailed, by type: 2008\u201315",
+  "url": "https://example.org/datasets/ncses/tables/796",
+  "table_number": "A-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/796/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Companies were sent the detailed survey form (BRDI-1) if their R&D spending was at least $1.8 million in 2007 for the 2008 survey; at least $7.0 million in 2009 for the 2010 and 2011 surveys; at least $7.0 million in 2010 for the 2012 survey; or at least $1.0 million in 2011 or 2012 for the 2013 survey (except companies that did not respond in these prior 2 years), at least $1.0 million in 2012 or 2013 for the 2014 survey (except companies that did not respond in these prior 2 years) and at least $1.0 million in 2013 or 2014 for the 2015 survey (except companies that did not respond in these prior 2 years). All other companies received an abbreviated form (BRDI-1A for 2008-11; BRDI-1(S) for 2012\u201315). For 2010, some companies received BRDI-1B, an abbreviated form that tested questions on innovation. In 2012, we switched from the BRDI-1A to the BRDI-1(S) form.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Business R&D and Innovation Survey.",
+  "temporalCoverage": "20/20"
+}

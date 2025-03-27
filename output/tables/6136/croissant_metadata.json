@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research and experimental development, by selected departments, agencies, and performer: FY 2020",
+  "identifier": "NCSES-6136",
+  "description": "Federal obligations for research and experimental development, by selected departments, agencies, and performer: FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/6136",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6136/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_level_1, agency_level_2, agency_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_r_d",
+      "description": "Total R D",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_intramurala",
+      "description": "Intramurala",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_united_states_and_u_s_territories_industry",
+      "description": "Extramural United States And U S Territories Industry",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_united_states_and_u_s_territories_all_ffrdcs",
+      "description": "Extramural United States And U S Territories All Ffrdcs",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_united_states_and_u_s_territories_universities_and_colleges",
+      "description": "Extramural United States And U S Territories Universities And Colleges",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_united_states_and_u_s_territories_other_nonprofits",
+      "description": "Extramural United States And U S Territories Other Nonprofits",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_united_states_and_u_s_territories_state_local_governments",
+      "description": "Extramural United States And U S Territories State Local Governments",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_foreign",
+      "description": "Extramural Foreign",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, details may not add to total. FY 2020 obligations include additional funding provided by supplemental COVID-19\u2013related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2020\u201321."
+}

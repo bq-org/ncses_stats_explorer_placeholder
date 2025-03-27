@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Graduate students, postdoctoral appointees, and doctorate-holding nonfaculty researchers in science, engineering, and health broad fields at HBCUs: 2022",
+  "identifier": "NCSES-10740",
+  "description": "Graduate students, postdoctoral appointees, and doctorate-holding nonfaculty researchers in science, engineering, and health broad fields at HBCUs: 2022",
+  "url": "https://example.org/datasets/ncses/tables/10740",
+  "table_number": "5-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10740/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_sex_citizenship_ethnicity_race_and_broad_field_b",
+      "description": "Sex, citizenship, ethnicity, race, and broad field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_sex_citizenship_ethnicity_race_and_broad_field_b_level_1, _b_sex_citizenship_ethnicity_race_and_broad_field_b_level_2, _b_sex_citizenship_ethnicity_race_and_broad_field_b_level_3, _b_sex_citizenship_ethnicity_race_and_broad_field_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_sex_citizenship_ethnicity_race_and_broad_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_all_graduate_students_total_number",
+      "description": "Graduate Students All Graduate Students Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_all_graduate_students_percent_in_hbcus",
+      "description": "Graduate Students All Graduate Students Percent In Hbcus",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_master_s_total_number",
+      "description": "Graduate Students Master S Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_master_s_percent_in_hbcus",
+      "description": "Graduate Students Master S Percent In Hbcus",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_doctoral_total_number",
+      "description": "Graduate Students Doctoral Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_doctoral_percent_in_hbcus",
+      "description": "Graduate Students Doctoral Percent In Hbcus",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_total_number",
+      "description": "Postdoctoral Appointees Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_percent_in_hbcus",
+      "description": "Postdoctoral Appointees Percent In Hbcus",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_total_number",
+      "description": "Doctorate Holding Nonfaculty Researchers Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_percent_in_hbcus",
+      "description": "Doctorate Holding Nonfaculty Researchers Percent In Hbcus",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "For postdoctoral appointees and doctorate-holding nonfaculty researchers, \"field\" refers to the field of the unit that reports information on these groups to the Survey of Graduate Students and Postdoctorates in Science and Engineering (GSS). Percentages may not add to total because of rounding. For more information on the mapping of GSS fields and codes, see technical table A-17. Graduate student data in this table include master's students in health sciences. For more information on the comparability of these counts to other data published by the National Center for Science and Engineering Statistics, see the \"Technical Notes.\"",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2022."
+}

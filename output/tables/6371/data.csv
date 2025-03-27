@@ -1,0 +1,33 @@
+table_id,row_id,_b_agency_b_full_path,_b_agency_b_level_1,_b_agency_b_level_2,_b_agency_b_level_3,_b_agency_b_level_4,_b_agency_b_level_5,_b_agency_b_hierarchy_depth,field_total,field_astronomy,field_chemistry,field_physics,field_other_physical_sciences
+6371,r001,All agencies,All agencies,,,,,1,6512990.9,870437.6,754054.9,2515870.5,2372627.9
+6371,r002,All agencies -> Departments,All agencies,Departments,,,,2,,,,,
+6371,r003,All agencies -> Departments -> Department of Agriculture,All agencies,Departments,Department of Agriculture,,,3,54742.0,0.0,53033.7,1708.2,0.0
+6371,r004,All agencies -> Departments -> Department of Agriculture -> Agricultural Research Service,All agencies,Departments,Department of Agriculture,Agricultural Research Service,,4,45695.3,0.0,43987.0,1708.2,0.0
+6371,r005,All agencies -> Departments -> Department of Agriculture -> Forest Service,All agencies,Departments,Department of Agriculture,Forest Service,,4,3133.0,0.0,3133.0,0.0,0.0
+6371,r006,All agencies -> Departments -> Department of Agriculture -> National Institute of Food and Agriculture,All agencies,Departments,Department of Agriculture,National Institute of Food and Agriculture,,4,5913.8,0.0,5913.8,0.0,0.0
+6371,r007,All agencies -> Departments -> Department of Commerce,All agencies,Departments,Department of Commerce,,,3,187914.2,0.0,22295.8,163650.5,1967.9
+6371,r008,All agencies -> Departments -> Department of Commerce -> National Institute of Standards and Technology,All agencies,Departments,Department of Commerce,National Institute of Standards and Technology,,4,187914.2,0.0,22295.8,163650.5,1967.9
+6371,r009,All agencies -> Departments -> Department of Defense,All agencies,Departments,Department of Defense,,,3,248492.1,3803.2,53688.7,135822.4,55177.7
+6371,r010,All agencies -> Departments -> Department of Defense -> Defense Advanced Research Projects Agency,All agencies,Departments,Department of Defense,Defense Advanced Research Projects Agency,,4,34094.4,0.0,550.0,33544.4,0.0
+6371,r011,All agencies -> Departments -> Department of Defense -> Department of the Air Force,All agencies,Departments,Department of Defense,Department of the Air Force,,4,86843.8,3803.2,13193.9,53378.8,16468.0
+6371,r012,All agencies -> Departments -> Department of Defense -> Department of the Army,All agencies,Departments,Department of Defense,Department of the Army,,4,39980.7,0.0,17060.5,19221.8,3698.4
+6371,r013,All agencies -> Departments -> Department of Defense -> Department of the Navy,All agencies,Departments,Department of Defense,Department of the Navy,,4,42576.1,0.0,3175.3,6088.9,33311.9
+6371,r014,All agencies -> Departments -> Department of Defense -> Other defense agencies,All agencies,Departments,Department of Defense,Other defense agencies,,4,44997.0,0.0,19709.1,23588.4,1699.5
+6371,r015,All agencies -> Departments -> Department of Energy,All agencies,Departments,Department of Energy,,,3,3477728.3,0.0,313507.9,1928376.1,1235844.4
+6371,r016,All agencies -> Departments -> Department of Energy -> Fossil Energy,All agencies,Departments,Department of Energy,Fossil Energy,,4,33967.0,0.0,33967.0,0.0,0.0
+6371,r017,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration,All agencies,Departments,Department of Energy,National Nuclear Security Administration,,4,103668.0,0.0,8396.5,33077.1,62194.3
+6371,r018,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration -> Office of Defense Nuclear Nonproliferation,All agencies,Departments,Department of Energy,National Nuclear Security Administration,Office of Defense Nuclear Nonproliferation,5,103668.0,0.0,8396.5,33077.1,62194.3
+6371,r019,All agencies -> Departments -> Department of Energy -> Office of Science,All agencies,Departments,Department of Energy,Office of Science,,4,3340093.3,0.0,271144.3,1895298.9,1173650.1
+6371,r020,All agencies -> Departments -> Department of Health and Human Services,All agencies,Departments,Department of Health and Human Services,,,3,55669.5,0.0,54982.0,687.6,0.0
+6371,r021,All agencies -> Departments -> Department of Health and Human Services -> National Institutes of Health,All agencies,Departments,Department of Health and Human Services,National Institutes of Health,,4,55669.5,0.0,54982.0,687.6,0.0
+6371,r022,All agencies -> Departments -> Department of Homeland Security,All agencies,Departments,Department of Homeland Security,,,3,3649.5,0.0,386.6,3263.0,0.0
+6371,r023,All agencies -> Departments -> Department of Homeland Security -> Countering Weapons of Mass Destruction Office,All agencies,Departments,Department of Homeland Security,Countering Weapons of Mass Destruction Office,,4,3263.0,0.0,0.0,3263.0,0.0
+6371,r024,All agencies -> Departments -> Department of Homeland Security -> Science and Technology Directorate,All agencies,Departments,Department of Homeland Security,Science and Technology Directorate,,4,386.6,0.0,386.6,0.0,0.0
+6371,r025,All agencies -> Departments -> Department of the Interior,All agencies,Departments,Department of the Interior,,,3,707.3,0.0,376.9,330.4,0.0
+6371,r026,All agencies -> Departments -> Department of the Interior -> Bureau of Safety and Environmental Enforcement,All agencies,Departments,Department of the Interior,Bureau of Safety and Environmental Enforcement,,4,707.3,0.0,376.9,330.4,0.0
+6371,r027,All agencies -> Departments -> Department of the Treasury,All agencies,Departments,Department of the Treasury,,,3,5521.0,0.0,0.0,0.0,5521.0
+6371,r028,All agencies -> Departments -> Department of the Treasury -> Bureau of Engraving and Printing,All agencies,Departments,Department of the Treasury,Bureau of Engraving and Printing,,4,5521.0,0.0,0.0,0.0,5521.0
+6371,r029,All agencies -> Other agencies,All agencies,Other agencies,,,,2,,,,,
+6371,r030,All agencies -> Other agencies -> National Aeronautics and Space Administration,All agencies,Other agencies,National Aeronautics and Space Administration,,,3,1460448.9,612490.2,0.0,0.0,847958.6
+6371,r031,All agencies -> Other agencies -> National Science Foundation,All agencies,Other agencies,National Science Foundation,,,3,1016352.8,252378.8,255783.4,282032.4,226158.2
+6371,r032,All agencies -> Other agencies -> Smithsonian Institution,All agencies,Other agencies,Smithsonian Institution,,,3,1765.3,1765.3,0.0,0.0,0.0

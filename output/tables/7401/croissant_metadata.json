@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D performed by the company, by selected industry and R&D program size, for companies with 1\u20139 employees: 2019 ",
+  "identifier": "NCSES-7401",
+  "description": "Domestic R&D performed by the company, by selected industry and R&D program size, for companies with 1\u20139 employees: 2019 ",
+  "url": "https://example.org/datasets/ncses/tables/7401",
+  "table_number": "10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7401/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_program_size_total_total",
+      "description": "R D Program Size Total Total",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_program_size_total_50_000_99_999",
+      "description": "R D Program Size Total 50 000 99 999",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_program_size_total_100_000_499_999",
+      "description": "R D Program Size Total 100 000 499 999",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_program_size_total_500_000_999_999",
+      "description": "R D Program Size Total 500 000 999 999",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_program_size_total_1_million_or_more",
+      "description": "R D Program Size Total 1 Million Or More",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding or unavailable NAICS detail for select records beyond the 4-digit industry classification. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2020 Annual Business Survey: Data Year 2019."
+}

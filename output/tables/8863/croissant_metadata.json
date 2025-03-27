@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "R&D expenditures at nonprofit organizations, by selected state and type of organization: ranked by FY 2020 total expenditures",
+  "identifier": "NCSES-8863",
+  "description": "R&D expenditures at nonprofit organizations, by selected state and type of organization: ranked by FY 2020 total expenditures",
+  "url": "https://example.org/datasets/ncses/tables/8863",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8863/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state",
+      "description": "State",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "health_care",
+      "description": "Health Care",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "science_and_technology",
+      "description": "Science And Technology",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "other",
+      "description": "Other",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "These data exclude nonprofit universities and colleges and federally funded research and development centers administered by nonprofit organizations. Organizations are assigned to states based on their mailing address. States were selected for this table based on large amounts of estimated R&D performed by nonprofit organizations. Rankings are based on point estimates and do not consider the variance of the survey sample. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Nonprofit Research Activities FY 2020 module of the 2021 Annual Business Survey."
+}

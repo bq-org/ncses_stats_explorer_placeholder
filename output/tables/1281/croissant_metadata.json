@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Scientists and engineers employed part time, by sex, ethnicity, race, disability status, preference for full-time employment, and reason for working part time: 2017",
+  "identifier": "NCSES-1281",
+  "description": "Scientists and engineers employed part time, by sex, ethnicity, race, disability status, preference for full-time employment, and reason for working part time: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1281",
+  "table_number": "9-11",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1281/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_ethnicity_race_and_disability_status",
+      "description": "Sex, ethnicity, race, and disability status hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_ethnicity_race_and_disability_status_level_1, sex_ethnicity_race_and_disability_status_level_2, sex_ethnicity_race_and_disability_status_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_ethnicity_race_and_disability_status_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_part_time",
+      "description": "All Part Time",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_preference_for_full_time_status_did_not_want_full_time",
+      "description": "Preference For Full Time Status Did Not Want Full Time",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_preference_for_full_time_status_wanted_full_time",
+      "description": "Preference For Full Time Status Wanted Full Time",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reason_for_part_time_status_did_not_need_or_want_to_work_full_time",
+      "description": "Reason For Part Time Status Did Not Need Or Want To Work Full Time",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reason_for_part_time_status_family_responsibilities",
+      "description": "Reason For Part Time Status Family Responsibilities",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reason_for_part_time_status_full_time_job_not_available",
+      "description": "Reason For Part Time Status Full Time Job Not Available",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reason_for_part_time_status_hold_another_job",
+      "description": "Reason For Part Time Status Hold Another Job",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reason_for_part_time_status_retired",
+      "description": "Reason For Part Time Status Retired",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reason_for_part_time_status_student",
+      "description": "Reason For Part Time Status Student",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reason_for_part_time_status_other",
+      "description": "Reason For Part Time Status Other",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to nearest 1,000. Detail may not add to total because of rounding and suppression and because respondents could select more than one reason. The National Survey of College Graduates asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Scientists and engineers are individuals under the age of 76 who have a bachelor's or higher degree, are living in the United States, and have an S&E or S&E-related degree or occupation.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

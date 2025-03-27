@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Crosswalk of historical broad fields and their constituent fields in the SED data tables and the summary report",
+  "identifier": "NCSES-9568",
+  "description": "Crosswalk of historical broad fields and their constituent fields in the SED data tables and the summary report",
+  "url": "https://example.org/datasets/ncses/tables/9568",
+  "table_number": "B-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9568/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_historical_field_aggregations_in_the_data_tables_b",
+      "description": "Historical field aggregations in the data tables hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_historical_field_aggregations_in_the_data_tables_b_level_1, _b_historical_field_aggregations_in_the_data_tables_b_level_2, _b_historical_field_aggregations_in_the_data_tables_b_level_3, _b_historical_field_aggregations_in_the_data_tables_b_level_4, _b_historical_field_aggregations_in_the_data_tables_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_historical_field_aggregations_in_the_data_tables_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_trend_field_aggregations_in_the_summary_report",
+      "description": "Trend Aggregations In The Summary Report",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection; the historical fields were constructed using the SED-CIP code crosswalk in table A-6. The trend data at the broad field level are comparable across the years but may be less so at the detailed field level. For more information, see the \"Technical Notes\" and the SED 2021 Taxonomy Changes Working Paper (available at https://ncses.nsf.gov/pubs/ncses23200). The data tables that present trend data use 5 broad science and engineering (S&E) fields: life sciences; mathematics and computer sciences; engineering, physical sciences and earth sciences; psychology and social sciences; and 3 broad non-S&E fields: education, humanities; and other non-science and engineering. The trend data presented in the summary report use 10 broad S&E fields: agricultural sciences and natural resources; biological and biomedical sciences; computer and information sciences; engineering; geosciences, atmospheric sciences, and ocean sciences; health sciences; mathematics and statistics; physical sciences; psychology; social sciences; and the non-S&E field total, or 4 broad non-S&E fields: business, education, humanities and arts; and other non-S&E fields.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

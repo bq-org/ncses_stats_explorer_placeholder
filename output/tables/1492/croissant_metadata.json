@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Types of business funding sources for companies with 1&#8211;4 employees: 2016",
+  "identifier": "NCSES-1492",
+  "description": "Types of business funding sources for companies with 1&#8211;4 employees: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1492",
+  "table_number": "20",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1492/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "business_funding_sources",
+      "description": "Business Funding Sources",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "yes_got_funding",
+      "description": "Yes Got Funding",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "yes_tried_but_did_not_get_funding",
+      "description": "Yes Tried But Did Not Get Funding",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "no_did_not_try",
+      "description": "No Did Not Try",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Statistics are representative of companies located in the United States.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Microbusiness R&D and Innovation Survey, 2016."
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Male research doctorate recipients with definite postgraduation commitments, by major field of doctorate: 2022",
+  "identifier": "NCSES-9609",
+  "description": "Male research doctorate recipients with definite postgraduation commitments, by major field of doctorate: 2022",
+  "url": "https://example.org/datasets/ncses/tables/9609",
+  "table_number": "6-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9609/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_of_doctorate_b",
+      "description": "Field of doctorate hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_of_doctorate_b_level_1, _b_field_of_doctorate_b_level_2, _b_field_of_doctorate_b_level_3, _b_field_of_doctorate_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_of_doctorate_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_doctorate_recipients",
+      "description": "Male Doctorate Recipients",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_recipients_with_definite_commitments",
+      "description": "Doctorate Recipients With Definite Commitments",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_total",
+      "description": "Location Of Definite Commitments United States Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_postdoctoral_study",
+      "description": "Location Of Definite Commitments United States Postdoctoral Study",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_academic_employment",
+      "description": "Location Of Definite Commitments United States Academic Employment",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_industry_employmenta",
+      "description": "Location Of Definite Commitments United States Industry Employmenta",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_otherb",
+      "description": "Location Of Definite Commitments United States Otherb",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_abroad",
+      "description": "Location Of Definite Commitments Abroad",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_unknown",
+      "description": "Location Of Definite Commitments Unknown",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "A definite postgraduation commitment includes accepting new employment or a postdoctoral study (postdoc) position or returning to predoctoral employment. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and new broad, major, and detailed fields are used in tables reporting data from 2021 to the present; see the field list in table A-4. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. For more information, see the \"Technical Notes\" and the SED 2021 Taxonomy Changes Working Paper (available at https://ncses.nsf.gov/pubs/ncses23200).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

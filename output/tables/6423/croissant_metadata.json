@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research and experimental development and for R&D plant for selected agencies, by state or location: FY 2020",
+  "identifier": "NCSES-6423",
+  "description": "Federal obligations for research and experimental development and for R&D plant for selected agencies, by state or location: FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/6423",
+  "table_number": "88",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6423/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_or_location_b",
+      "description": "State or location hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_or_location_b_level_1, _b_state_or_location_b_level_2, _b_state_or_location_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_or_location_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d",
+      "description": "R D",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_plant",
+      "description": "R D Plant",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Eleven agencies are required to report data for this section of the survey: the Departments of Agriculture, Commerce, Defense, Energy, Health and Human Services, Homeland Security, the Interior, and Transportation; the Environmental Protection Agency; the National Aeronautics and Space Administration; and the National Science Foundation. Obligations of these 11 agencies represented more than 97% of total federal R&D and R&D plant obligations in FY 2020. Geographic distribution of DOD development funding to industry reflects location of prime contractors and not the numerous subcontractors who perform much of the R&D. FYs 2020 obligations include additional funding provided by supplemental COVID-19 related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2020\u201321."
+}

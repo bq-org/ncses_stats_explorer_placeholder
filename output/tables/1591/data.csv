@@ -1,0 +1,24 @@
+table_id,row_id,occupation_full_path,occupation_level_1,occupation_level_2,occupation_level_3,occupation_level_4,occupation_hierarchy_depth,field_mean_annual_salaries_in_2014,field_mean_annual_salaries_in_2017,field_mean_compound_annual_growth_rate_2014_17_,field_median_annual_salaries_in_2014,field_median_annual_salaries_in_2017,field_median_compound_annual_growth_rate_2014_17_
+1591,r001,All U.S. employment,All U.S. employment,,,,1,47230,50620,2.3,35540,37690,2.0
+1591,r002,All U.S. employment -> STEM occupations,All U.S. employment,STEM occupations,,,2,85530,91430,2.2,78730,83400,1.9
+1591,r003,All U.S. employment -> STEM occupations -> S&E occupations,All U.S. employment,STEM occupations,S&E occupations,,3,85980,91510,2.1,80920,85390,1.8
+1591,r004,All U.S. employment -> STEM occupations -> S&E occupations -> Computer and mathematical scientists,All U.S. employment,STEM occupations,S&E occupations,Computer and mathematical scientists,4,83750,89780,2.3,79230,84420,2.1
+1591,r005,All U.S. employment -> STEM occupations -> S&E occupations -> Life scientists,All U.S. employment,STEM occupations,S&E occupations,Life scientists,4,81300,86290,2.0,71950,74650,1.2
+1591,r006,All U.S. employment -> STEM occupations -> S&E occupations -> Physical scientists,All U.S. employment,STEM occupations,S&E occupations,Physical scientists,4,85140,89560,1.7,76390,79270,1.2
+1591,r007,All U.S. employment -> STEM occupations -> S&E occupations -> Social scientists,All U.S. employment,STEM occupations,S&E occupations,Social scientists,4,75320,82410,3.0,68910,74180,2.5
+1591,r008,All U.S. employment -> STEM occupations -> S&E occupations -> Engineers,All U.S. employment,STEM occupations,S&E occupations,Engineers,4,94250,98820,1.6,89090,92590,1.3
+1591,r009,All U.S. employment -> STEM occupations -> Technology occupations,All U.S. employment,STEM occupations,Technology occupations,,3,82300,88940,2.6,67650,71870,2.0
+1591,r010,All U.S. employment -> S&E-related occupations,All U.S. employment,S&E-related occupations,,,2,76200,82730,2.8,62600,66540,2.1
+1591,r011,All U.S. employment -> S&E-related occupations -> Health-related occupations,All U.S. employment,S&E-related occupations,Health-related occupations,,3,77570,82650,2.1,62980,66290,1.7
+1591,r012,All U.S. employment -> S&E-related occupations -> Health-related occupations -> Registered nurses,All U.S. employment,S&E-related occupations,Health-related occupations,Registered nurses,4,69790,73550,1.8,66640,70000,1.7
+1591,r013,"All U.S. employment -> S&E-related occupations -> Health-related occupations -> Dentists, general",All U.S. employment,S&E-related occupations,Health-related occupations,"Dentists, general",4,166810,199980,6.2,149540,190840,8.5
+1591,r014,All U.S. employment -> S&E-related occupations -> Health-related occupations -> Family and general practitioners,All U.S. employment,S&E-related occupations,Health-related occupations,Family and general practitioners,4,186320,208560,3.8,180180,198740,3.3
+1591,r015,All U.S. employment -> S&E-related occupations -> Other S&E-related occupations,All U.S. employment,S&E-related occupations,Other S&E-related occupations,,3,82400,87530,2.0,74500,77790,1.5
+1591,r016,All U.S. employment -> Non-STEM occupations,All U.S. employment,Non-STEM occupations,,,2,42380,45320,2.3,32390,34530,2.2
+1591,r017,All U.S. employment -> Non-STEM occupations -> Chief executives,All U.S. employment,Non-STEM occupations,Chief executives,,3,180700,196050,2.8,173320,183270,1.9
+1591,r018,All U.S. employment -> Non-STEM occupations -> General and operations manager,All U.S. employment,Non-STEM occupations,General and operations manager,,3,117200,123460,1.7,97270,100410,1.1
+1591,r019,"All U.S. employment -> Non-STEM occupations -> Education administrators, postsecondary",All U.S. employment,Non-STEM occupations,"Education administrators, postsecondary",,3,101910,107670,1.8,88390,92360,1.5
+1591,r020,All U.S. employment -> Non-STEM occupations -> Management analysts,All U.S. employment,Non-STEM occupations,Management analysts,,3,90860,93440,0.9,80880,82450,0.6
+1591,r021,All U.S. employment -> Non-STEM occupations -> Financial analysts,All U.S. employment,Non-STEM occupations,Financial analysts,,3,92250,99430,2.5,78620,84300,2.4
+1591,r022,All U.S. employment -> Non-STEM occupations -> Lawyers,All U.S. employment,Non-STEM occupations,Lawyers,,3,133470,141890,2.1,114300,119250,1.4
+1591,r023,All U.S. employment -> Non-STEM occupations -> Technical writers,All U.S. employment,Non-STEM occupations,Technical writers,,3,71950,74440,1.1,69030,70930,0.9

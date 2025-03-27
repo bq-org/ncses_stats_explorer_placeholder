@@ -1,0 +1,50 @@
+table_id,row_id,supervisory_status_sex_ethnicity_race_and_disability_status_full_path,supervisory_status_sex_ethnicity_race_and_disability_status_level_1,supervisory_status_sex_ethnicity_race_and_disability_status_level_2,supervisory_status_sex_ethnicity_race_and_disability_status_level_3,supervisory_status_sex_ethnicity_race_and_disability_status_level_4,supervisory_status_sex_ethnicity_race_and_disability_status_hierarchy_depth,field_age_years_75_and_younger,field_age_years_younger_than_35,field_age_years_35_44,field_age_years_45_54,field_age_years_55_75
+1273,r001,Total,Total,,,,1,2901000,660000,706000,784000,751000
+1273,r002,Total -> Supervisors,Total,Supervisors,,,2,1184000,200000,307000,352000,325000
+1273,r003,Total -> Nonsupervisors,Total,Nonsupervisors,,,2,1716000,460000,398000,432000,426000
+1273,r004,Total -> Supervisors (%),Total,Supervisors (%),,,2,40.8,30.3,43.5,44.9,43.3
+1273,r005,Total -> Female,Total,Female,,,2,1346000,325000,345000,372000,304000
+1273,r006,Total -> Female -> Supervisors,Total,Female,Supervisors,,3,495000,84000,135000,154000,122000
+1273,r007,Total -> Female -> Nonsupervisors,Total,Female,Nonsupervisors,,3,851000,240000,210000,218000,182000
+1273,r008,Total -> Female -> Supervisors (%),Total,Female,Supervisors (%),,3,36.8,25.8,39.1,41.4,40.1
+1273,r009,Total -> Male,Total,Male,,,2,1555000,335000,360000,412000,447000
+1273,r010,Total -> Male -> Supervisors,Total,Male,Supervisors,,3,689000,116000,172000,198000,203000
+1273,r011,Total -> Male -> Nonsupervisors,Total,Male,Nonsupervisors,,3,865000,219000,188000,214000,244000
+1273,r012,Total -> Male -> Supervisors (%),Total,Male,Supervisors (%),,3,44.3,34.6,47.8,48.1,45.4
+1273,r013,Total -> Hispanic or Latino<sup>a</sup>&#160;,Total,Hispanic or Latino<sup>a</sup>&#160;,,,2,318000,118000,84000,70000,46000
+1273,r014,Total -> Hispanic or Latino<sup>a</sup>&#160; -> Supervisors,Total,Hispanic or Latino<sup>a</sup>&#160;,Supervisors,,3,109000,33000,37000,19000,20000
+1273,r015,Total -> Hispanic or Latino<sup>a</sup>&#160; -> Nonsupervisors,Total,Hispanic or Latino<sup>a</sup>&#160;,Nonsupervisors,,3,209000,85000,47000,51000,27000
+1273,r016,Total -> Hispanic or Latino<sup>a</sup>&#160; -> Supervisors (%),Total,Hispanic or Latino<sup>a</sup>&#160;,Supervisors (%),,3,34.3,28.0,44.0,27.1,43.5
+1273,r017,Total -> Not Hispanic or Latino,Total,Not Hispanic or Latino,,,2,,,,,
+1273,r018,Total -> Not Hispanic or Latino -> American Indian or Alaska Native,Total,Not Hispanic or Latino,American Indian or Alaska Native,,3,14000,S,,2000,4000
+1273,r019,Total -> Not Hispanic or Latino -> American Indian or Alaska Native -> Supervisors,Total,Not Hispanic or Latino,American Indian or Alaska Native,Supervisors,4,3000,,,S,1000
+1273,r020,Total -> Not Hispanic or Latino -> American Indian or Alaska Native -> Nonsupervisors,Total,Not Hispanic or Latino,American Indian or Alaska Native,Nonsupervisors,4,11000,S,,S,S
+1273,r021,Total -> Not Hispanic or Latino -> American Indian or Alaska Native -> Supervisors (%),Total,Not Hispanic or Latino,American Indian or Alaska Native,Supervisors (%),4,21.4,,,S,S
+1273,r022,Total -> Not Hispanic or Latino -> Asian,Total,Not Hispanic or Latino,Asian,,3,292000,58000,69000,99000,66000
+1273,r023,Total -> Not Hispanic or Latino -> Asian -> Supervisors,Total,Not Hispanic or Latino,Asian,Supervisors,4,83000,14000,20000,33000,16000
+1273,r024,Total -> Not Hispanic or Latino -> Asian -> Nonsupervisors,Total,Not Hispanic or Latino,Asian,Nonsupervisors,4,208000,44000,49000,65000,50000
+1273,r025,Total -> Not Hispanic or Latino -> Asian -> Supervisors (%),Total,Not Hispanic or Latino,Asian,Supervisors (%),4,28.4,24.1,29.0,33.3,24.2
+1273,r026,Total -> Not Hispanic or Latino -> Black or African American,Total,Not Hispanic or Latino,Black or African American,,3,384000,80000,90000,148000,66000
+1273,r027,Total -> Not Hispanic or Latino -> Black or African American -> Supervisors,Total,Not Hispanic or Latino,Black or African American,Supervisors,4,132000,14000,19000,71000,28000
+1273,r028,Total -> Not Hispanic or Latino -> Black or African American -> Nonsupervisors,Total,Not Hispanic or Latino,Black or African American,Nonsupervisors,4,252000,65000,71000,77000,38000
+1273,r029,Total -> Not Hispanic or Latino -> Black or African American -> Supervisors (%),Total,Not Hispanic or Latino,Black or African American,Supervisors (%),4,34.4,17.5,21.1,48.0,42.4
+1273,r030,Total -> Not Hispanic or Latino -> Native Hawaiian or Other Pacific Islander,Total,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,,3,11000,3000,S,3000,3000
+1273,r031,Total -> Not Hispanic or Latino -> Native Hawaiian or Other Pacific Islander -> Supervisors,Total,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Supervisors,4,3000,S,,,
+1273,r032,Total -> Not Hispanic or Latino -> Native Hawaiian or Other Pacific Islander -> Nonsupervisors,Total,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Nonsupervisors,4,8000,2000,S,2000,2000
+1273,r033,Total -> Not Hispanic or Latino -> Native Hawaiian or Other Pacific Islander -> Supervisors (%),Total,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Supervisors (%),4,27.3,S,,,
+1273,r034,Total -> Not Hispanic or Latino -> White,Total,Not Hispanic or Latino,White,,3,1810000,375000,428000,455000,553000
+1273,r035,Total -> Not Hispanic or Latino -> White -> Supervisors,Total,Not Hispanic or Latino,White,Supervisors,4,819000,132000,212000,222000,253000
+1273,r036,Total -> Not Hispanic or Latino -> White -> Nonsupervisors,Total,Not Hispanic or Latino,White,Nonsupervisors,4,990000,242000,216000,233000,299000
+1273,r037,Total -> Not Hispanic or Latino -> White -> Supervisors (%),Total,Not Hispanic or Latino,White,Supervisors (%),4,45.2,35.2,49.5,48.8,45.8
+1273,r038,Total -> Not Hispanic or Latino -> More than one race,Total,Not Hispanic or Latino,More than one race,,3,71000,21000,32000,7000,12000
+1273,r039,Total -> Not Hispanic or Latino -> More than one race -> Supervisors,Total,Not Hispanic or Latino,More than one race,Supervisors,4,34000,6000,19000,S,6000
+1273,r040,Total -> Not Hispanic or Latino -> More than one race -> Nonsupervisors,Total,Not Hispanic or Latino,More than one race,Nonsupervisors,4,37000,15000,13000,2000,6000
+1273,r041,Total -> Not Hispanic or Latino -> More than one race -> Supervisors (%),Total,Not Hispanic or Latino,More than one race,Supervisors (%),4,47.9,28.6,59.4,S,50.0
+1273,r042,Total -> Without disability&#160;,Total,Without disability&#160;,,,2,2569000,626000,657000,665000,621000
+1273,r043,Total -> Without disability&#160; -> Supervisors,Total,Without disability&#160;,Supervisors,,3,1070000,191000,291000,309000,279000
+1273,r044,Total -> Without disability&#160; -> Nonsupervisors,Total,Without disability&#160;,Nonsupervisors,,3,1499000,435000,367000,355000,342000
+1273,r045,Total -> Without disability&#160; -> Supervisors (%),Total,Without disability&#160;,Supervisors (%),,3,41.7,30.5,44.3,46.5,44.9
+1273,r046,Total -> With disability,Total,With disability,,,2,332000,34000,48000,119000,130000
+1273,r047,Total -> With disability -> Supervisors,Total,With disability,Supervisors,,3,114000,9000,17000,43000,46000
+1273,r048,Total -> With disability -> Nonsupervisors,Total,With disability,Nonsupervisors,,3,217000,25000,32000,77000,84000
+1273,r049,Total -> With disability -> Supervisors (%),Total,With disability,Supervisors (%),,3,34.3,26.5,35.4,36.1,35.4

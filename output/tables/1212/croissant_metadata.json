@@ -1,0 +1,180 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E doctorate recipients reporting one or more disabilities, by broad field of study, sex, citizenship, ethnicity, and race: 2017",
+  "identifier": "NCSES-1212",
+  "description": "S&E doctorate recipients reporting one or more disabilities, by broad field of study, sex, citizenship, ethnicity, and race: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1212",
+  "table_number": "7-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1212/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "demographic_characteristic",
+      "description": "Demographic characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "demographic_characteristic_level_1, demographic_characteristic_level_2, demographic_characteristic_level_3, demographic_characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "demographic_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_recipientsa_number_",
+      "description": "All Recipientsa Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_disability_respondents_number",
+      "description": "All Disability Respondents Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_disability_respondents_percent",
+      "description": "All Disability Respondents Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability_number",
+      "description": "With Disability Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability_percent",
+      "description": "With Disability Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_visual_disabilities_number",
+      "description": "Visual Disabilities Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_visual_disabilities_percent",
+      "description": "Visual Disabilities Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hearing_disabilities_number",
+      "description": "Hearing Disabilities Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hearing_disabilities_percent",
+      "description": "Hearing Disabilities Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_walking_disabilities_number",
+      "description": "Walking Disabilities Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_walking_disabilities_percent",
+      "description": "Walking Disabilities Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_lifting_disabilities_number",
+      "description": "Lifting Disabilities Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_lifting_disabilities_percent",
+      "description": "Lifting Disabilities Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_cognitive_disabilitiesb_number",
+      "description": "Cognitive Disabilitiesb Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_cognitive_disabilitiesb_percent",
+      "description": "Cognitive Disabilitiesb Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability_number",
+      "description": "Without Disability Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability_percent",
+      "description": "Without Disability Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Percentages are based on doctorate recipients who answered the disability question. Doctorate recipients could report more than one disability. Survey asks degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Data in this table are based on research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or other health sciences.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2017."
+}

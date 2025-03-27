@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Services and goods innovating companies, by industry and size of company: 2016\u201318 and 2017\u201319",
+  "identifier": "NCSES-8034",
+  "description": "Services and goods innovating companies, by industry and size of company: 2016\u201318 and 2017\u201319",
+  "url": "https://example.org/datasets/ncses/tables/8034",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8034/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_industry_and_size_of_company_b",
+      "description": "Industry and size of company hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_industry_and_size_of_company_b_level_1, _b_industry_and_size_of_company_b_level_2, _b_industry_and_size_of_company_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_industry_and_size_of_company_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_services_innovation_2016_18",
+      "description": "Services Innovation 2016 18",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_services_innovation_2017_19",
+      "description": "Services Innovation 2017 19",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_goods_innovation_2016_18",
+      "description": "Goods Innovation 2016 18",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_goods_innovation_2017_19",
+      "description": "Goods Innovation 2017 19",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification based on dominant establishment payroll. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2020 Annual Business Survey: Data Year 2019."
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Share of research doctorates with graduate education-related debt among those with graduate debt: 2022",
+  "identifier": "NCSES-12404",
+  "description": "Share of research doctorates with graduate education-related debt among those with graduate debt: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12404",
+  "table_number": "A-7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12404/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "directorate",
+      "description": "Directorate",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "_10_000_or_less",
+      "description": " 10 000 Or Less",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "_10_001_30_000",
+      "description": " 10 001 30 000",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "_30_001_60_000",
+      "description": " 30 001 60 000",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "_60_001_or_more",
+      "description": " 60 001 Or More",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Excludes respondents who did not report debt.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2022."
+}

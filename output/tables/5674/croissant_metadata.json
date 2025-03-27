@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with product or business process innovation activities, by company size: 2016&#8211;18",
+  "identifier": "NCSES-5674",
+  "description": "Companies with product or business process innovation activities, by company size: 2016&#8211;18",
+  "url": "https://example.org/datasets/ncses/tables/5674",
+  "table_number": "62",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5674/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "innovation_activity",
+      "description": "Innovation activity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "innovation_activity_level_1, innovation_activity_level_2, innovation_activity_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "innovation_activity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies",
+      "description": "All Companies",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_micro_companies_1_9_employees_",
+      "description": "Micro Companies 1 9 Employees ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_small_companies_10_49_employees_",
+      "description": "Small Companies 10 49 Employees ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_medium_companies_50_249_employees_",
+      "description": "Medium Companies 50 249 Employees ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_large_companies_250_employees_",
+      "description": "Large Companies 250 Employees ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail by size category may not add to total because of rounding. Companies may by counted in zero, one, or more innovation activity categories. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2019 Annual Business Survey: Data Year 2018."
+}

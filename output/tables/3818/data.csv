@@ -1,0 +1,40 @@
+table_id,row_id,field_full_path,field_level_1,field_level_2,field_level_3,field_level_4,field_hierarchy_depth,field_field_included_in_data_tablesa,field_code,field_variable_level,field_number_of_cip_codes_reported_to_ecds
+3818,r001,Science and engineering,Science and engineering,,,,1,X,1,1,489
+3818,r002,"Science and engineering -> Biological, agricultural, and environmental life sciences",Science and engineering,"Biological, agricultural, and environmental life sciences",,,2,X,10,2,151
+3818,r003,"Science and engineering -> Biological, agricultural, and environmental life sciences -> Agricultural, and environmental life sciences",Science and engineering,"Biological, agricultural, and environmental life sciences","Agricultural, and environmental life sciences",,3,X,11,3,62
+3818,r004,"Science and engineering -> Biological, agricultural, and environmental life sciences -> Agricultural, and environmental life sciences -> Agricultural sciences",Science and engineering,"Biological, agricultural, and environmental life sciences","Agricultural, and environmental life sciences",Agricultural sciences,4,,12,4,43
+3818,r005,"Science and engineering -> Biological, agricultural, and environmental life sciences -> Agricultural, and environmental life sciences -> Natural resources and conservation",Science and engineering,"Biological, agricultural, and environmental life sciences","Agricultural, and environmental life sciences",Natural resources and conservation,4,,13,4,19
+3818,r006,"Science and engineering -> Biological, agricultural, and environmental life sciences -> Biological and biomedical sciences",Science and engineering,"Biological, agricultural, and environmental life sciences",Biological and biomedical sciences,,3,X,15,3,89
+3818,r007,Science and engineering -> Engineering,Science and engineering,Engineering,,,2,X,30,2,58
+3818,r008,"Science and engineering -> Engineering -> Engineering, general",Science and engineering,Engineering,"Engineering, general",,3,,31,4,3
+3818,r009,Science and engineering -> Engineering -> Bioengineering and biomedical engineering,Science and engineering,Engineering,Bioengineering and biomedical engineering,,3,,32,4,7
+3818,r010,Science and engineering -> Engineering -> Chemical engineering,Science and engineering,Engineering,Chemical engineering,,3,,33,4,11
+3818,r011,Science and engineering -> Engineering -> Civil engineering,Science and engineering,Engineering,Civil engineering,,3,,34,4,8
+3818,r012,"Science and engineering -> Engineering -> Electrical, electronics, communications, and computer engineering",Science and engineering,Engineering,"Electrical, electronics, communications, and computer engineering",,3,,35,4,2
+3818,r013,Science and engineering -> Engineering -> Mechanical engineering,Science and engineering,Engineering,Mechanical engineering,,3,,36,4,24
+3818,r014,"Science and engineering -> Engineering -> Engineering, other",Science and engineering,Engineering,"Engineering, other",,3,,39,4,3
+3818,r015,Science and engineering -> Mathematics and computer sciences,Science and engineering,Mathematics and computer sciences,,,2,X,40,2,39
+3818,r016,Science and engineering -> Mathematics and computer sciences -> Mathematics and statistics,Science and engineering,Mathematics and computer sciences,Mathematics and statistics,,3,X,41,3,21
+3818,r017,Science and engineering -> Mathematics and computer sciences -> Computer and information sciences,Science and engineering,Mathematics and computer sciences,Computer and information sciences,,3,X,49,3,18
+3818,r018,Science and engineering -> Multidisciplinary fields and science and engineering related fields,Science and engineering,Multidisciplinary fields and science and engineering related fields,,,2,X,50,2,72
+3818,r019,Science and engineering -> Multidisciplinary fields and science and engineering related fields -> Multidisciplinary fields,Science and engineering,Multidisciplinary fields and science and engineering related fields,Multidisciplinary fields,,3,,51,4,21
+3818,r020,Science and engineering -> Multidisciplinary fields and science and engineering related fields -> Science and engineering related,Science and engineering,Multidisciplinary fields and science and engineering related fields,Science and engineering related,,3,,52,4,51
+3818,r021,"Science and engineering -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Science and engineering,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",,,2,X,60,2,46
+3818,r022,"Science and engineering -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Physical sciences",Science and engineering,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Physical sciences,,3,,61,4,30
+3818,r023,"Science and engineering -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Geosciences, atmospheric sciences, and ocean sciences",Science and engineering,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences","Geosciences, atmospheric sciences, and ocean sciences",,3,,66,4,16
+3818,r024,Science and engineering -> Psychology and social sciences,Science and engineering,Psychology and social sciences,,,2,X,70,2,123
+3818,r025,Science and engineering -> Psychology and social sciences -> Psychology,Science and engineering,Psychology and social sciences,Psychology,,3,X,71,3,26
+3818,r026,Science and engineering -> Psychology and social sciences -> Social sciences,Science and engineering,Psychology and social sciences,Social sciences,,3,X,80,3,97
+3818,r027,Health,Health,,,,1,X,2,1,209
+3818,r028,"Health -> Health sciences, except medicine",Health,"Health sciences, except medicine",,,2,,110,2,145
+3818,r029,Health -> Medicine,Health,Medicine,,,2,,120,2,64
+3818,r030,Non-science and engineering,Non-science and engineering,,,,1,X,3,1,392
+3818,r031,Non-science and engineering -> Education,Non-science and engineering,Education,,,2,X,210,2,92
+3818,r032,Non-science and engineering -> Humanities,Non-science and engineering,Humanities,,,2,X,220,2,84
+3818,r033,Non-science and engineering -> Other non-science and engineering,Non-science and engineering,Other non-science and engineering,,,2,X,230,2,216
+3818,r034,Non-science and engineering -> Other non-science and engineering -> Business management and administration,Non-science and engineering,Other non-science and engineering,Business management and administration,,3,,231,4,63
+3818,r035,Non-science and engineering -> Other non-science and engineering -> Communication and communications technologies,Non-science and engineering,Other non-science and engineering,Communication and communications technologies,,3,,232,4,26
+3818,r036,Non-science and engineering -> Other non-science and engineering -> Law,Non-science and engineering,Other non-science and engineering,Law,,3,,233,4,13
+3818,r037,Non-science and engineering -> Other non-science and engineering -> Social work,Non-science and engineering,Other non-science and engineering,Social work,,3,,234,4,58
+3818,r038,Non-science and engineering -> Other non-science and engineering -> Visual and performing arts,Non-science and engineering,Other non-science and engineering,Visual and performing arts,,3,,235,4,3
+3818,r039,Non-science and engineering -> Other non-science and engineering -> Other non-science and engineering,Non-science and engineering,Other non-science and engineering,Other non-science and engineering,,3,,239,4,53

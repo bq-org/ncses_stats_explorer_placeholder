@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate recipients, by selected field and disability status: 2019",
+  "identifier": "NCSES-3281",
+  "description": "Doctorate recipients, by selected field and disability status: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3281",
+  "table_number": "7-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3281/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_level_1, field_level_2, field_level_3, field_level_4, field_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_path",
+      "description": "Full Path",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_1",
+      "description": "Level 1",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_2",
+      "description": "Level 2",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_3",
+      "description": "Level 3",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_4",
+      "description": "Level 4",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_5",
+      "description": "Level 5",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hierarchy_depth",
+      "description": "Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_recipients_number_a",
+      "description": "All Recipients Number A",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_disability_respondents_number_",
+      "description": "All Disability Respondents Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability_number",
+      "description": "Without Disability Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability_percent",
+      "description": "Without Disability Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability_number",
+      "description": "With Disability Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability_percent",
+      "description": "With Disability Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Percentages are based on doctorate recipients who answered the disability question. Doctorate recipients could report more than one disability. Survey asks degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Data in this table are based on research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or other health sciences, which are fields with many professional doctorates.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2019 Survey of Earned Doctorates."
+}

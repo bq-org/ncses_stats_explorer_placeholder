@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average mathematics assessment test scores of children who were in kindergarten for the first time in the 2010&#8211;11 school year and in grade 5 in the 2015&#8211;16 school year, by child and family characteristics",
+  "identifier": "NCSES-1541",
+  "description": "Average mathematics assessment test scores of children who were in kindergarten for the first time in the 2010&#8211;11 school year and in grade 5 in the 2015&#8211;16 school year, by child and family characteristics",
+  "url": "https://example.org/datasets/ncses/tables/1541",
+  "table_number": "S1-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1541/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The possible range of scores for the mathematics assessment was 0\u2013159. The fall kindergarten mathematics scores have a mean of 36.8 and a standard deviation of 11.23, and the spring grade 5 mathematics scores have a mean of 121.4 and a standard deviation of 15.90.",
+  "sources": "Mulligan GM, McCarroll JC, Flanagan KD, and McPhee C, Findings From the Fifth-Grade Round of the Early Childhood Longitudinal Study, Kindergarten Class of 2010\u201311 (ECLS-K:2011), NCES 2019-130 (2019).Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

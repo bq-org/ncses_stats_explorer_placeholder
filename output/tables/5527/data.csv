@@ -1,0 +1,17 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_percent
+5527,r001,Collaboration,Collaboration,,1,
+5527,r002,Collaboration -> Yes,Collaboration,Yes,2,16.1
+5527,r003,Collaboration -> No,Collaboration,No,2,83.9
+5527,r004,Number of people who were part of the collaboration,Number of people who were part of the collaboration,,1,
+5527,r005,Number of people who were part of the collaboration -> 1,Number of people who were part of the collaboration,1,2,52.0
+5527,r006,Number of people who were part of the collaboration -> 2 to 3,Number of people who were part of the collaboration,2 to 3,2,40.0
+5527,r007,Number of people who were part of the collaboration -> 4 to 5,Number of people who were part of the collaboration,4 to 5,2,2.0
+5527,r008,Number of people who were part of the collaboration -> 6 or more,Number of people who were part of the collaboration,6 or more,2,6.0
+5527,r009,Investment in Innovation,Investment in Innovation,,1,
+5527,r010,Investment in Innovation -> Yes,Investment in Innovation,Yes,2,58.2
+5527,r011,Investment in Innovation -> No,Investment in Innovation,No,2,41.8
+5527,r012,Willingness to share,Willingness to share,,1,
+5527,r013,"Willingness to share -> Yes, have already made innovation available to others for free or at a price",Willingness to share,"Yes, have already made innovation available to others for free or at a price",2,39.4
+5527,r014,"Willingness to share -> No, have not already made innovation freely available but would do so in the future",Willingness to share,"No, have not already made innovation freely available but would do so in the future",2,22.1
+5527,r015,"Willingness to share -> No, have not already made innovation freely available but would selectively share it in the future",Willingness to share,"No, have not already made innovation freely available but would selectively share it in the future",2,30.4
+5527,r016,Willingness to share -> Not willing to share,Willingness to share,Not willing to share,2,8.1

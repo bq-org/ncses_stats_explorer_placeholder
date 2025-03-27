@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Headcount and full-time equivalent counts of R&D employees of nonprofit organizations, by occupation category and type of nonprofit organization: FY 2022",
+  "identifier": "NCSES-12346",
+  "description": "Headcount and full-time equivalent counts of R&D employees of nonprofit organizations, by occupation category and type of nonprofit organization: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/12346",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12346/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_occupation_category_b",
+      "description": "Occupation category hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_occupation_category_b_level_1, _b_occupation_category_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_occupation_category_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_headcount_all_organizations_",
+      "description": "Type Of Nonprofit Organizationa Headcount All Organizations ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_headcount_healthcare",
+      "description": "Type Of Nonprofit Organizationa Headcount Healthcare",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_headcount_science_and_technology",
+      "description": "Type Of Nonprofit Organizationa Headcount Science And Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_headcount_other_nonprofit_organizations_",
+      "description": "Type Of Nonprofit Organizationa Headcount Other Nonprofit Organizations ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_full_time_equivalent_all_organizations_",
+      "description": "Type Of Nonprofit Organizationa Full Time Equivalent All Organizations ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_full_time_equivalent_healthcare",
+      "description": "Type Of Nonprofit Organizationa Full Time Equivalent Healthcare",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_full_time_equivalent_science_and_technology",
+      "description": "Type Of Nonprofit Organizationa Full Time Equivalent Science And Technology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_full_time_equivalent_other_nonprofit_organizations_",
+      "description": "Type Of Nonprofit Organizationa Full Time Equivalent Other Nonprofit Organizations ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "These data exclude nonprofit universities and colleges and federally funded research and development centers administered by nonprofit organizations. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Nonprofit Research Activities FY 2022 module of the 2023 Annual Business Survey."
+}

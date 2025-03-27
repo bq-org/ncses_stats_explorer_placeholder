@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average scores of students in grades 4 and 8 on the main NAEP mathematics assessment, by state and U.S. jurisdiction: 2022",
+  "identifier": "NCSES-9443",
+  "description": "Average scores of students in grades 4 and 8 on the main NAEP mathematics assessment, by state and U.S. jurisdiction: 2022",
+  "url": "https://example.org/datasets/ncses/tables/9443",
+  "table_number": "SK12-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9443/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state",
+      "description": "State hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "state_level_1, state_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "state_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_grade_4",
+      "description": "Grade 4",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_grade_8",
+      "description": "Grade 8",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The scale for NAEP mathematics assessment scores is 0\u2013500 for grades 4 and 8. Data shown are for students allowed to use testing accommodations.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2022) of the 2022 main NAEP mathematics assessment, National Center for Education Statistics.Science and Engineering Indicators"
+}

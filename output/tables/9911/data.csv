@@ -1,0 +1,24 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_level_3,characteristic_level_4,characteristic_hierarchy_depth,field_fy_2021,field_fy_2022,field_percent_change
+9911,r001,All R&D and R&D plant expenditures,All R&D and R&D plant expenditures,,,,1,2542503,2675831,5.2
+9911,r002,All R&D and R&D plant expenditures -> All R&D plant expenditures,All R&D and R&D plant expenditures,All R&D plant expenditures,,,2,29270,31840,8.8
+9911,r003,All R&D and R&D plant expenditures -> All R&D expenditures,All R&D and R&D plant expenditures,All R&D expenditures,,,2,2513233,2643991,5.2
+9911,r004,All R&D and R&D plant expenditures -> All R&D expenditures -> Source of funds,All R&D and R&D plant expenditures,All R&D expenditures,Source of funds,,3,,,
+9911,r005,All R&D and R&D plant expenditures -> All R&D expenditures -> Source of funds -> Federal government,All R&D and R&D plant expenditures,All R&D expenditures,Source of funds,Federal government,4,608778,691149,13.5
+9911,r006,All R&D and R&D plant expenditures -> All R&D expenditures -> Source of funds -> State government and other nonfederal sources,All R&D and R&D plant expenditures,All R&D expenditures,Source of funds,State government and other nonfederal sources,4,1904456,1952842,2.5
+9911,r007,All R&D and R&D plant expenditures -> Performer,All R&D and R&D plant expenditures,Performer,,,2,,,
+9911,r008,All R&D and R&D plant expenditures -> Performer -> Intramural<sup>a </sup>,All R&D and R&D plant expenditures,Performer,Intramural<sup>a </sup>,,3,675326,696625,3.2
+9911,r009,All R&D and R&D plant expenditures -> Performer -> Extramural,All R&D and R&D plant expenditures,Performer,Extramural,,3,1837907,1947367,6.0
+9911,r010,All R&D and R&D plant expenditures -> Performer -> Extramural -> Higher education institutions,All R&D and R&D plant expenditures,Performer,Extramural,Higher education institutions,4,987411,1032713,4.6
+9911,r011,All R&D and R&D plant expenditures -> Performer -> Extramural -> Companies and individuals,All R&D and R&D plant expenditures,Performer,Extramural,Companies and individuals,4,508736,454746,-10.6
+9911,r012,All R&D and R&D plant expenditures -> Performer -> Extramural -> Other,All R&D and R&D plant expenditures,Performer,Extramural,Other,4,341761,459908,34.6
+9911,r013,All R&D and R&D plant expenditures -> Intramural by type of R&D,All R&D and R&D plant expenditures,Intramural by type of R&D,,,2,,,
+9911,r014,All R&D and R&D plant expenditures -> Intramural by type of R&D -> Basic research,All R&D and R&D plant expenditures,Intramural by type of R&D,Basic research,,3,120427,121065,0.5
+9911,r015,All R&D and R&D plant expenditures -> Intramural by type of R&D -> Applied research,All R&D and R&D plant expenditures,Intramural by type of R&D,Applied research,,3,506204,535739,5.8
+9911,r016,All R&D and R&D plant expenditures -> Intramural by type of R&D -> Experimental development,All R&D and R&D plant expenditures,Intramural by type of R&D,Experimental development,,3,48695,39821,-18.2
+9911,r017,All R&D and R&D plant expenditures -> R&D project by government function,All R&D and R&D plant expenditures,R&D project by government function,,,2,,,
+9911,r018,All R&D and R&D plant expenditures -> R&D project by government function -> Agriculture,All R&D and R&D plant expenditures,R&D project by government function,Agriculture,,3,119860,127264,6.2
+9911,r019,All R&D and R&D plant expenditures -> R&D project by government function -> Energy,All R&D and R&D plant expenditures,R&D project by government function,Energy,,3,410274,327116,-20.3
+9911,r020,All R&D and R&D plant expenditures -> R&D project by government function -> Environment and natural resources,All R&D and R&D plant expenditures,R&D project by government function,Environment and natural resources,,3,428067,540876,26.4
+9911,r021,All R&D and R&D plant expenditures -> R&D project by government function -> Health,All R&D and R&D plant expenditures,R&D project by government function,Health,,3,1077324,1100992,2.2
+9911,r022,All R&D and R&D plant expenditures -> R&D project by government function -> Transportation,All R&D and R&D plant expenditures,R&D project by government function,Transportation,,3,300353,290871,-3.2
+9911,r023,All R&D and R&D plant expenditures -> R&D project by government function -> Other<sup>b</sup>,All R&D and R&D plant expenditures,R&D project by government function,Other<sup>b</sup>,,3,177356,256873,44.8

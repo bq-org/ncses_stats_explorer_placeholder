@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Description of variables in simultaneous equations model&#8212;rural and urban commuting zones",
+  "identifier": "NCSES-6153",
+  "description": "Description of variables in simultaneous equations model&#8212;rural and urban commuting zones",
+  "url": "https://example.org/datasets/ncses/tables/6153",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6153/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Equations 2 and 3 additionally include categorical controls for Census region and ERS Rural-Urban Continuum Code of the commuting zone's most urban county.",
+  "sources": "U.S. Patent and Trade Organization; Census Bureau, Special Tabulation (2000), Census of Population and Housing, Summary File 1 and Summary File 4, and Shapefile; Integrated Postsecondary Education Data System, 2000; Department of Justice, 2000; Department of Agriculture Economic Research Service, 1999, 2000; Bureau of Labor Statistics, Quarterly Census of Employment and Wages, 1998; Florida R, 2002, The Rise of the Creative Class: And How It\u2019s Transforming Work, Leisure, Community, and Everyday Life, New York: Basic Books; McGranahan D, Wojan T, 2007, Recasting the Creative Class to Examine Growth Processes in Rural and Urban Counties. Regional Studies 41(2):197\u2013216.",
+  "temporalCoverage": "19/19"
+}

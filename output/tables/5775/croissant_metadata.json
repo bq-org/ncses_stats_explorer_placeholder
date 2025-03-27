@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Certificates awarded for selected levels, by institutional Carnegie Classification and field: 2019 ",
+  "identifier": "NCSES-5775",
+  "description": "Certificates awarded for selected levels, by institutional Carnegie Classification and field: 2019 ",
+  "url": "https://example.org/datasets/ncses/tables/5775",
+  "table_number": "SHED-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5775/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "degree_level_and_field",
+      "description": "Degree level and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "degree_level_and_field_level_1, degree_level_and_field_level_2, degree_level_and_field_level_3, degree_level_and_field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "degree_level_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions",
+      "description": "All Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_universities",
+      "description": "Doctoral Universities",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_colleges_and_universities",
+      "description": "Master S Colleges And Universities",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_baccalaureate_colleges",
+      "description": "Baccalaureate Colleges",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mixed_baccalaureate_associate_s_colleges",
+      "description": "Mixed Baccalaureate Associate S Colleges",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_special_focus_4_year_institutions",
+      "description": "Special Focus 4 Year Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_associate_s_colleges",
+      "description": "Associate S Colleges",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_special_focus_2_year_institutions",
+      "description": "Special Focus 2 Year Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_or_not_applicable",
+      "description": "Other Or Not Applicable",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Carnegie institution type corresponds to the 2018 Carnegie Classification of Institutions of Higher Education.",
+  "sources": "National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Completions Survey.Science and Engineering Indicators"
+}

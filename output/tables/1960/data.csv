@@ -1,0 +1,54 @@
+table_id,row_id,region_country_or_economy_full_path,region_country_or_economy_level_1,region_country_or_economy_level_2,region_country_or_economy_level_3,region_country_or_economy_level_4,region_country_or_economy_hierarchy_depth,field_1998_uspto,field_1998_euipo,field_1999_uspto,field_1999_euipo,field_2000_uspto,field_2000_euipo,field_2001_uspto,field_2001_euipo,field_2002_uspto,field_2002_euipo,field_2003_uspto,field_2003_euipo,field_2004_uspto,field_2004_euipo,field_2005_uspto,field_2005_euipo,field_2006_uspto,field_2006_euipo,field_2007_uspto,field_2007_euipo,field_2008_uspto,field_2008_euipo,field_2009_uspto,field_2009_euipo,field_2010_uspto,field_2010_euipo,field_2011_uspto,field_2011_euipo,field_2012_uspto,field_2012_euipo,field_2013_uspto,field_2013_euipo,field_2014_uspto,field_2014_euipo,field_2015_uspto,field_2015_euipo,field_2016_uspto,field_2016_euipo,field_2017_uspto,field_2017_euipo,field_2018_uspto,field_2018_euipo
+1960,r001,World,World,,,,1,975,0,1414,0,1270,0,782,0,958,0,635,0,754,0,462,0,592,0,637,0,593,0,600,0,526,1,492,0,504,0,471,1,508,1,462,0,458,1,501,0,387,0
+1960,r002,World -> North America,World,North America,,,2,198,0,166,0,256,0,230,0,391,0,299,0,282,0,271,0,401,0,438,0,427,0,469,0,441,1,380,0,396,0,371,1,389,0,381,0,339,1,388,0,364,0
+1960,r003,World -> North America -> Canada,World,North America,Canada,,3,2,0,5,0,0,0,4,0,4,0,3,0,3,0,4,0,8,0,7,0,5,0,7,0,6,0,2,0,8,0,8,0,7,0,8,0,6,0,6,0,3,0
+1960,r004,World -> North America -> Mexico,World,North America,Mexico,,3,0,0,0,0,0,0,0,0,2,0,0,0,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+1960,r005,World -> North America -> Puerto Rico,World,North America,Puerto Rico,,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r006,World -> North America -> United States,World,North America,United States,,3,196,0,161,0,256,0,226,0,384,0,295,0,278,0,264,0,391,0,431,0,422,0,462,0,435,1,378,0,388,0,363,1,381,0,373,0,333,1,381,0,361,0
+1960,r007,World -> North America -> All others,World,North America,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r008,World -> Central and South America,World,Central and South America,,,2,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,4,0,4,0,3,0,0,0,0,0,6,0,1,0,2,0,0,0,2,0,4,0,0,0
+1960,r009,World -> Central and South America -> Argentina,World,Central and South America,Argentina,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r010,World -> Central and South America -> Brazil,World,Central and South America,Brazil,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0
+1960,r011,World -> Central and South America -> All others,World,Central and South America,All others,,3,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,2,0,3,0,0,0,0,0,6,0,0,0,1,0,0,0,2,0,3,0,0,0
+1960,r012,World -> Europe,World,Europe,,,2,6,0,8,0,8,0,8,0,10,0,10,0,13,0,11,0,8,0,11,0,17,0,9,0,9,0,9,0,13,0,17,0,8,1,4,0,9,0,7,0,8,0
+1960,r013,World -> Europe -> EU,World,Europe,EU,,3,5,0,7,0,7,0,6,0,8,0,9,0,13,0,7,0,5,0,10,0,16,0,9,0,6,0,8,0,10,0,11,0,7,1,4,0,9,0,7,0,6,0
+1960,r014,World -> Europe -> EU -> Austria,World,Europe,EU,Austria,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+1960,r015,World -> Europe -> EU -> Belgium,World,Europe,EU,Belgium,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r016,World -> Europe -> EU -> Denmark,World,Europe,EU,Denmark,4,0,0,0,0,0,0,2,0,0,0,2,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r017,World -> Europe -> EU -> Finland,World,Europe,EU,Finland,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r018,World -> Europe -> EU -> France,World,Europe,EU,France,4,0,0,1,0,2,0,0,0,0,0,0,0,0,0,1,0,2,0,2,0,2,0,0,0,1,0,1,0,2,0,1,0,1,0,2,0,4,0,3,0,0,0
+1960,r019,World -> Europe -> EU -> Germany,World,Europe,EU,Germany,4,1,0,2,0,2,0,2,0,3,0,0,0,0,0,2,0,1,0,0,0,0,0,2,0,1,0,1,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+1960,r020,World -> Europe -> EU -> Hungary,World,Europe,EU,Hungary,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r021,World -> Europe -> EU -> Ireland,World,Europe,EU,Ireland,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0
+1960,r022,World -> Europe -> EU -> Italy,World,Europe,EU,Italy,4,1,0,1,0,2,0,2,0,1,0,1,0,7,0,1,0,0,0,5,0,11,0,3,0,0,0,0,0,1,0,2,0,2,0,0,0,3,0,2,0,3,0
+1960,r023,World -> Europe -> EU -> Netherlands,World,Europe,EU,Netherlands,4,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0
+1960,r024,World -> Europe -> EU -> Spain,World,Europe,EU,Spain,4,0,0,1,0,1,0,0,0,0,0,2,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0
+1960,r025,World -> Europe -> EU -> Sweden,World,Europe,EU,Sweden,4,0,0,0,0,0,0,0,0,1,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+1960,r026,World -> Europe -> EU -> United Kingdom,World,Europe,EU,United Kingdom,4,1,0,1,0,0,0,0,0,2,0,3,0,2,0,1,0,0,0,0,0,0,0,3,0,2,0,5,0,4,0,1,0,2,0,1,0,0,0,0,0,1,0
+1960,r027,World -> Europe -> EU -> All others,World,Europe,EU,All others,4,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0
+1960,r028,World -> Europe -> Other Europe,World,Europe,Other Europe,,3,1,0,1,0,1,0,2,0,3,0,1,0,0,0,4,0,3,0,1,0,1,0,0,0,3,0,1,0,3,0,7,0,1,0,0,0,0,0,0,0,2,0
+1960,r029,World -> Europe -> Other Europe -> Former Soviet Union,World,Europe,Other Europe,Former Soviet Union,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r030,World -> Europe -> Other Europe -> Norway,World,Europe,Other Europe,Norway,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r031,World -> Europe -> Other Europe -> Russia,World,Europe,Other Europe,Russia,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r032,World -> Europe -> Other Europe -> Switzerland,World,Europe,Other Europe,Switzerland,4,1,0,1,0,1,0,2,0,3,0,1,0,0,0,4,0,2,0,1,0,1,0,0,0,3,0,1,0,3,0,7,0,1,0,0,0,0,0,0,0,2,0
+1960,r033,World -> Europe -> Other Europe -> All others,World,Europe,Other Europe,All others,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r034,World -> Asia,World,Asia,,,2,0,0,1,0,1,0,0,0,1,0,2,0,2,0,1,0,2,0,2,0,1,0,7,0,1,0,1,0,8,0,1,0,7,0,4,0,2,0,7,0,0,0
+1960,r035,World -> Asia -> China,World,Asia,China,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r036,World -> Asia -> India,World,Asia,India,,3,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+1960,r037,World -> Asia -> Japan,World,Asia,Japan,,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+1960,r038,World -> Asia -> Malaysia,World,Asia,Malaysia,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1960,r039,World -> Asia -> Singapore,World,Asia,Singapore,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r040,World -> Asia -> South Korea,World,Asia,South Korea,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,0,0,0
+1960,r041,World -> Asia -> Taiwan,World,Asia,Taiwan,,3,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,0,0,0,6,0,0,0
+1960,r042,World -> Asia -> All others,World,Asia,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,6,0,1,0,1,0,8,0,0,0,1,0,0,0,0,0,1,0,0,0
+1960,r043,World -> Middle East,World,Middle East,,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,6,0,2,0,0,0,0,0,0,0,1,0,0,0
+1960,r044,World -> Middle East -> Israel,World,Middle East,Israel,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1960,r045,World -> Middle East -> All others,World,Middle East,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,6,0,2,0,0,0,0,0,0,0,0,0,0,0
+1960,r046,World -> Africa,World,Africa,,,2,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+1960,r047,World -> Africa -> South Africa,World,Africa,South Africa,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r048,World -> Africa -> All others,World,Africa,All others,,3,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+1960,r049,World -> Australia and Oceania,World,Australia and Oceania,,,2,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,2,0,0,0,5,0,0,0,2,0,0,0,0,0
+1960,r050,World -> Australia and Oceania -> Australia,World,Australia and Oceania,Australia,,3,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,2,0,0,0,2,0,0,0,0,0
+1960,r051,World -> Australia and Oceania -> New Zealand,World,Australia and Oceania,New Zealand,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,r052,World -> Australia and Oceania -> All others,World,Australia and Oceania,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+1960,r053,World -> Unclassified,World,Unclassified,,,2,771,0,1238,0,1004,0,544,0,556,0,322,0,455,0,178,0,181,0,182,0,143,0,111,0,75,0,95,0,73,0,79,0,97,0,74,0,104,0,94,0,14,0

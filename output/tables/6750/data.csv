@@ -1,0 +1,177 @@
+table_id,row_id,time_period,population_subset_level_1,population_subset_level_2,population_subset_level_3,population_subset_hierarchy_depth,value
+6750,r001,Patents dependent variable,Population subset,Inventive class (IC),Coefficient estimate,3,"['&nbsp;', '&nbsp;']"
+6750,r002,Patents dependent variable,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['&nbsp;', '&nbsp;']"
+6750,r003,Patents dependent variable,Population subset,Creative class (CC),Coefficient estimate,3,"['&nbsp;', '&nbsp;']"
+6750,r004,Patents dependent variable,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['&nbsp;', '&nbsp;']"
+6750,r005,Patents dependent variable -> IC,Population subset,Inventive class (IC),Coefficient estimate,3,"['0.053 ', '***']"
+6750,r006,Patents dependent variable -> IC,Population subset,Inventive class (IC),p-value,3,5.22E−05
+6750,r007,Patents dependent variable -> IC,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['-', '-']"
+6750,r008,Patents dependent variable -> IC,Population subset,"Science, engineering, and technical (SET) employment",p-value,3,-
+6750,r009,Patents dependent variable -> IC,Population subset,Creative class (CC),Coefficient estimate,3,"['-', '-']"
+6750,r010,Patents dependent variable -> IC,Population subset,Creative class (CC),p-value,3,-
+6750,r011,Patents dependent variable -> IC,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['-', '-']"
+6750,r012,Patents dependent variable -> IC,Population subset,At least 4-year college degree (BA),p-value,3,-
+6750,r013,Patents dependent variable -> SET,Population subset,Inventive class (IC),Coefficient estimate,3,"['-', '-']"
+6750,r014,Patents dependent variable -> SET,Population subset,Inventive class (IC),p-value,3,-
+6750,r015,Patents dependent variable -> SET,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['0.102 ', '***']"
+6750,r016,Patents dependent variable -> SET,Population subset,"Science, engineering, and technical (SET) employment",p-value,3,2.66E−04
+6750,r017,Patents dependent variable -> SET,Population subset,Creative class (CC),Coefficient estimate,3,"['-', '-']"
+6750,r018,Patents dependent variable -> SET,Population subset,Creative class (CC),p-value,3,-
+6750,r019,Patents dependent variable -> SET,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['-', '-']"
+6750,r020,Patents dependent variable -> SET,Population subset,At least 4-year college degree (BA),p-value,3,-
+6750,r021,Patents dependent variable -> CC,Population subset,Inventive class (IC),Coefficient estimate,3,"['-', '-']"
+6750,r022,Patents dependent variable -> CC,Population subset,Inventive class (IC),p-value,3,-
+6750,r023,Patents dependent variable -> CC,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['-', '-']"
+6750,r024,Patents dependent variable -> CC,Population subset,"Science, engineering, and technical (SET) employment",p-value,3,-
+6750,r025,Patents dependent variable -> CC,Population subset,Creative class (CC),Coefficient estimate,3,"['0.022 ', '***']"
+6750,r026,Patents dependent variable -> CC,Population subset,Creative class (CC),p-value,3,0.003
+6750,r027,Patents dependent variable -> CC,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['-', '-']"
+6750,r028,Patents dependent variable -> CC,Population subset,At least 4-year college degree (BA),p-value,3,-
+6750,r029,Patents dependent variable -> BA,Population subset,Inventive class (IC),Coefficient estimate,3,"['-', '-']"
+6750,r030,Patents dependent variable -> BA,Population subset,Inventive class (IC),p-value,3,-
+6750,r031,Patents dependent variable -> BA,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['-', '-']"
+6750,r032,Patents dependent variable -> BA,Population subset,"Science, engineering, and technical (SET) employment",p-value,3,-
+6750,r033,Patents dependent variable -> BA,Population subset,Creative class (CC),Coefficient estimate,3,"['-', '-']"
+6750,r034,Patents dependent variable -> BA,Population subset,Creative class (CC),p-value,3,-
+6750,r035,Patents dependent variable -> BA,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['0.017 ', '***']"
+6750,r036,Patents dependent variable -> BA,Population subset,At least 4-year college degree (BA),p-value,3,0.009
+6750,r037,Patents dependent variable -> 1975&#8211;80 patent stock (PatStock),Population subset,Inventive class (IC),Coefficient estimate,3,"['0.077 ', '**']"
+6750,r038,Patents dependent variable -> 1975&#8211;80 patent stock (PatStock),Population subset,Inventive class (IC),p-value,3,0.037
+6750,r039,Patents dependent variable -> 1975&#8211;80 patent stock (PatStock),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['0.021 ', '&nbsp;']"
+6750,r040,Patents dependent variable -> 1975&#8211;80 patent stock (PatStock),Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.67
+6750,r041,Patents dependent variable -> 1975&#8211;80 patent stock (PatStock),Population subset,Creative class (CC),Coefficient estimate,3,"['0.047 ', '&nbsp;']"
+6750,r042,Patents dependent variable -> 1975&#8211;80 patent stock (PatStock),Population subset,Creative class (CC),p-value,3,0.345
+6750,r043,Patents dependent variable -> 1975&#8211;80 patent stock (PatStock),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['0.015 ', '&nbsp;']"
+6750,r044,Patents dependent variable -> 1975&#8211;80 patent stock (PatStock),Population subset,At least 4-year college degree (BA),p-value,3,0.806
+6750,r045,Patents dependent variable -> Population density (PopDens),Population subset,Inventive class (IC),Coefficient estimate,3,"['0.028 ', '&nbsp;']"
+6750,r046,Patents dependent variable -> Population density (PopDens),Population subset,Inventive class (IC),p-value,3,0.877
+6750,r047,Patents dependent variable -> Population density (PopDens),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['&#8722;0.024', '&nbsp;']"
+6750,r048,Patents dependent variable -> Population density (PopDens),Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.905
+6750,r049,Patents dependent variable -> Population density (PopDens),Population subset,Creative class (CC),Coefficient estimate,3,"['&#8722;0.079', '&nbsp;']"
+6750,r050,Patents dependent variable -> Population density (PopDens),Population subset,Creative class (CC),p-value,3,0.815
+6750,r051,Patents dependent variable -> Population density (PopDens),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['&#8722;0.080', '&nbsp;']"
+6750,r052,Patents dependent variable -> Population density (PopDens),Population subset,At least 4-year college degree (BA),p-value,3,0.831
+6750,r053,Patents dependent variable -> Wage-rental ratio (WageRentR),Population subset,Inventive class (IC),Coefficient estimate,3,"['2.231 ', '&nbsp;']"
+6750,r054,Patents dependent variable -> Wage-rental ratio (WageRentR),Population subset,Inventive class (IC),p-value,3,0.38
+6750,r055,Patents dependent variable -> Wage-rental ratio (WageRentR),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['2.729 ', '&nbsp;']"
+6750,r056,Patents dependent variable -> Wage-rental ratio (WageRentR),Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.338
+6750,r057,Patents dependent variable -> Wage-rental ratio (WageRentR),Population subset,Creative class (CC),Coefficient estimate,3,"['3.025 ', '&nbsp;']"
+6750,r058,Patents dependent variable -> Wage-rental ratio (WageRentR),Population subset,Creative class (CC),p-value,3,0.384
+6750,r059,Patents dependent variable -> Wage-rental ratio (WageRentR),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['2.260 ', '&nbsp;']"
+6750,r060,Patents dependent variable -> Wage-rental ratio (WageRentR),Population subset,At least 4-year college degree (BA),p-value,3,0.571
+6750,r061,Patents dependent variable -> Natural amenity rank (NatAmen),Population subset,Inventive class (IC),Coefficient estimate,3,"['2.041 ', '&nbsp;']"
+6750,r062,Patents dependent variable -> Natural amenity rank (NatAmen),Population subset,Inventive class (IC),p-value,3,0.459
+6750,r063,Patents dependent variable -> Natural amenity rank (NatAmen),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['1.287 ', '&nbsp;']"
+6750,r064,Patents dependent variable -> Natural amenity rank (NatAmen),Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.673
+6750,r065,Patents dependent variable -> Natural amenity rank (NatAmen),Population subset,Creative class (CC),Coefficient estimate,3,"['&#8722;3.280', '&nbsp;']"
+6750,r066,Patents dependent variable -> Natural amenity rank (NatAmen),Population subset,Creative class (CC),p-value,3,0.414
+6750,r067,Patents dependent variable -> Natural amenity rank (NatAmen),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['&#8722;6.944', '&nbsp;']"
+6750,r068,Patents dependent variable -> Natural amenity rank (NatAmen),Population subset,At least 4-year college degree (BA),p-value,3,0.193
+6750,r069,Patents dependent variable -> University research expenditures (UniResExp),Population subset,Inventive class (IC),Coefficient estimate,3,"['0.619 ', '**']"
+6750,r070,Patents dependent variable -> University research expenditures (UniResExp),Population subset,Inventive class (IC),p-value,3,0.042
+6750,r071,Patents dependent variable -> University research expenditures (UniResExp),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['0.113 ', '&nbsp;']"
+6750,r072,Patents dependent variable -> University research expenditures (UniResExp),Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.829
+6750,r073,Patents dependent variable -> University research expenditures (UniResExp),Population subset,Creative class (CC),Coefficient estimate,3,"['0.294 ', '&nbsp;']"
+6750,r074,Patents dependent variable -> University research expenditures (UniResExp),Population subset,Creative class (CC),p-value,3,0.589
+6750,r075,Patents dependent variable -> University research expenditures (UniResExp),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['0.025 ', '&nbsp;']"
+6750,r076,Patents dependent variable -> University research expenditures (UniResExp),Population subset,At least 4-year college degree (BA),p-value,3,0.974
+6750,r077,Patents dependent variable -> Location quotient for patent-intensive industries (LQPatInd),Population subset,Inventive class (IC),Coefficient estimate,3,"['&#8722;4.380', '&nbsp;']"
+6750,r078,Patents dependent variable -> Location quotient for patent-intensive industries (LQPatInd),Population subset,Inventive class (IC),p-value,3,0.376
+6750,r079,Patents dependent variable -> Location quotient for patent-intensive industries (LQPatInd),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['&#8722;0.026', '&nbsp;']"
+6750,r080,Patents dependent variable -> Location quotient for patent-intensive industries (LQPatInd),Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.996
+6750,r081,Patents dependent variable -> Location quotient for patent-intensive industries (LQPatInd),Population subset,Creative class (CC),Coefficient estimate,3,"['4.006 ', '&nbsp;']"
+6750,r082,Patents dependent variable -> Location quotient for patent-intensive industries (LQPatInd),Population subset,Creative class (CC),p-value,3,0.38
+6750,r083,Patents dependent variable -> Location quotient for patent-intensive industries (LQPatInd),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['11.275 ', '**']"
+6750,r084,Patents dependent variable -> Location quotient for patent-intensive industries (LQPatInd),Population subset,At least 4-year college degree (BA),p-value,3,0.017
+6750,r085,Patents dependent variable -> Root mean square error (RMSE),Population subset,Inventive class (IC),Coefficient estimate,3,"['35.140 ', '&nbsp;']"
+6750,r086,Patents dependent variable -> Root mean square error (RMSE),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['39.431 ', '&nbsp;']"
+6750,r087,Patents dependent variable -> Root mean square error (RMSE),Population subset,Creative class (CC),Coefficient estimate,3,"['50.411 ', '&nbsp;']"
+6750,r088,Patents dependent variable -> Root mean square error (RMSE),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['57.763 ', '&nbsp;']"
+6750,r089,Patents dependent variable -> Chi-squared,Population subset,Inventive class (IC),Coefficient estimate,3,"['665.812 ', '&nbsp;']"
+6750,r090,Patents dependent variable -> Chi-squared,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['673.690 ', '&nbsp;']"
+6750,r091,Patents dependent variable -> Chi-squared,Population subset,Creative class (CC),Coefficient estimate,3,"['495.559 ', '&nbsp;']"
+6750,r092,Patents dependent variable -> Chi-squared,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['502.329 ', '&nbsp;']"
+6750,r093,Patents dependent variable -> <i>p</i>-value,Population subset,Inventive class (IC),Coefficient estimate,3,"['<0.0001', '&nbsp;']"
+6750,r094,Patents dependent variable -> <i>p</i>-value,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['<0.0001', '&nbsp;']"
+6750,r095,Patents dependent variable -> <i>p</i>-value,Population subset,Creative class (CC),Coefficient estimate,3,"['<0.0001', '&nbsp;']"
+6750,r096,Patents dependent variable -> <i>p</i>-value,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['<0.0001', '&nbsp;']"
+6750,r097,Patents dependent variable -> Mean variance inflation factor (VIF),Population subset,Inventive class (IC),Coefficient estimate,3,"['3.391 ', '&nbsp;']"
+6750,r098,Patents dependent variable -> Mean variance inflation factor (VIF),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['3.402 ', '&nbsp;']"
+6750,r099,Patents dependent variable -> Mean variance inflation factor (VIF),Population subset,Creative class (CC),Coefficient estimate,3,"['3.362 ', '&nbsp;']"
+6750,r100,Patents dependent variable -> Mean variance inflation factor (VIF),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['3.383 ', '&nbsp;']"
+6750,r101,Population subset equation,Population subset,Inventive class (IC),Coefficient estimate,3,"['&nbsp;', '&nbsp;']"
+6750,r102,Population subset equation,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['&nbsp;', '&nbsp;']"
+6750,r103,Population subset equation,Population subset,Creative class (CC),Coefficient estimate,3,"['&nbsp;', '&nbsp;']"
+6750,r104,Population subset equation,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['&nbsp;', '&nbsp;']"
+6750,r105,Population subset equation -> Patents,Population subset,Inventive class (IC),Coefficient estimate,3,"['12.621 ', '***']"
+6750,r106,Population subset equation -> Patents,Population subset,Inventive class (IC),p-value,3,<1.00E−08
+6750,r107,Population subset equation -> Patents,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['9.068 ', '***']"
+6750,r108,Population subset equation -> Patents,Population subset,"Science, engineering, and technical (SET) employment",p-value,3,<1.00E−08
+6750,r109,Population subset equation -> Patents,Population subset,Creative class (CC),Coefficient estimate,3,"['38.334 ', '***']"
+6750,r110,Population subset equation -> Patents,Population subset,Creative class (CC),p-value,3,<1.00E−08
+6750,r111,Population subset equation -> Patents,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['57.478 ', '***']"
+6750,r112,Population subset equation -> Patents,Population subset,At least 4-year college degree (BA),p-value,3,<1.00E−08
+6750,r113,Population subset equation -> Unemployment rate (UR),Population subset,Inventive class (IC),Coefficient estimate,3,"['&#8722;9.702', '&nbsp;']"
+6750,r114,Population subset equation -> Unemployment rate (UR),Population subset,Inventive class (IC),p-value,3,0.316
+6750,r115,Population subset equation -> Unemployment rate (UR),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['&#8722;1.970', '&nbsp;']"
+6750,r116,Population subset equation -> Unemployment rate (UR),Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.626
+6750,r117,Population subset equation -> Unemployment rate (UR),Population subset,Creative class (CC),Coefficient estimate,3,"['&#8722;19.472', '&nbsp;']"
+6750,r118,Population subset equation -> Unemployment rate (UR),Population subset,Creative class (CC),p-value,3,0.531
+6750,r119,Population subset equation -> Unemployment rate (UR),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['&#8722;5.228', '&nbsp;']"
+6750,r120,Population subset equation -> Unemployment rate (UR),Population subset,At least 4-year college degree (BA),p-value,3,0.923
+6750,r121,Population subset equation -> WageRentR,Population subset,Inventive class (IC),Coefficient estimate,3,"['&#8722;74.166', '&nbsp;']"
+6750,r122,Population subset equation -> WageRentR,Population subset,Inventive class (IC),p-value,3,0.125
+6750,r123,Population subset equation -> WageRentR,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['&#8722;32.340', '&nbsp;']"
+6750,r124,Population subset equation -> WageRentR,Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.282
+6750,r125,Population subset equation -> WageRentR,Population subset,Creative class (CC),Coefficient estimate,3,"['&#8722;202.734', '&nbsp;']"
+6750,r126,Population subset equation -> WageRentR,Population subset,Creative class (CC),p-value,3,0.273
+6750,r127,Population subset equation -> WageRentR,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['&#8722;164.034', '&nbsp;']"
+6750,r128,Population subset equation -> WageRentR,Population subset,At least 4-year college degree (BA),p-value,3,0.553
+6750,r129,Population subset equation -> NatAmen,Population subset,Inventive class (IC),Coefficient estimate,3,"['&#8722;35.807', '&nbsp;']"
+6750,r130,Population subset equation -> NatAmen,Population subset,Inventive class (IC),p-value,3,0.488
+6750,r131,Population subset equation -> NatAmen,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['&#8722;11.760', '&nbsp;']"
+6750,r132,Population subset equation -> NatAmen,Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.715
+6750,r133,Population subset equation -> NatAmen,Population subset,Creative class (CC),Coefficient estimate,3,"['161.523 ', '&nbsp;']"
+6750,r134,Population subset equation -> NatAmen,Population subset,Creative class (CC),p-value,3,0.414
+6750,r135,Population subset equation -> NatAmen,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['417.482 ', '&nbsp;']"
+6750,r136,Population subset equation -> NatAmen,Population subset,At least 4-year college degree (BA),p-value,3,0.152
+6750,r137,Population subset equation -> Crime,Population subset,Inventive class (IC),Coefficient estimate,3,"['&#8722;2.556', '&nbsp;']"
+6750,r138,Population subset equation -> Crime,Population subset,Inventive class (IC),p-value,3,0.367
+6750,r139,Population subset equation -> Crime,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['&#8722;0.191', '&nbsp;']"
+6750,r140,Population subset equation -> Crime,Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.915
+6750,r141,Population subset equation -> Crime,Population subset,Creative class (CC),Coefficient estimate,3,"['&#8722;2.052', '&nbsp;']"
+6750,r142,Population subset equation -> Crime,Population subset,Creative class (CC),p-value,3,0.844
+6750,r143,Population subset equation -> Crime,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['0.313 ', '&nbsp;']"
+6750,r144,Population subset equation -> Crime,Population subset,At least 4-year college degree (BA),p-value,3,0.983
+6750,r145,Population subset equation -> Proximity to urban center (ProxUrbCen),Population subset,Inventive class (IC),Coefficient estimate,3,"['&#8722;0.355', '&nbsp;']"
+6750,r146,Population subset equation -> Proximity to urban center (ProxUrbCen),Population subset,Inventive class (IC),p-value,3,0.17
+6750,r147,Population subset equation -> Proximity to urban center (ProxUrbCen),Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['&#8722;0.040', '&nbsp;']"
+6750,r148,Population subset equation -> Proximity to urban center (ProxUrbCen),Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.71
+6750,r149,Population subset equation -> Proximity to urban center (ProxUrbCen),Population subset,Creative class (CC),Coefficient estimate,3,"['&#8722;0.458', '&nbsp;']"
+6750,r150,Population subset equation -> Proximity to urban center (ProxUrbCen),Population subset,Creative class (CC),p-value,3,0.592
+6750,r151,Population subset equation -> Proximity to urban center (ProxUrbCen),Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['&#8722;0.172', '&nbsp;']"
+6750,r152,Population subset equation -> Proximity to urban center (ProxUrbCen),Population subset,At least 4-year college degree (BA),p-value,3,0.871
+6750,r153,Population subset equation -> LQPatInd,Population subset,Inventive class (IC),Coefficient estimate,3,"['173.306 ', '***']"
+6750,r154,Population subset equation -> LQPatInd,Population subset,Inventive class (IC),p-value,3,0.003
+6750,r155,Population subset equation -> LQPatInd,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['12.274 ', '&nbsp;']"
+6750,r156,Population subset equation -> LQPatInd,Population subset,"Science, engineering, and technical (SET) employment",p-value,3,0.74
+6750,r157,Population subset equation -> LQPatInd,Population subset,Creative class (CC),Coefficient estimate,3,"['&#8722;43.419', '&nbsp;']"
+6750,r158,Population subset equation -> LQPatInd,Population subset,Creative class (CC),p-value,3,0.849
+6750,r159,Population subset equation -> LQPatInd,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['&#8722;610.417', '*']"
+6750,r160,Population subset equation -> LQPatInd,Population subset,At least 4-year college degree (BA),p-value,3,0.069
+6750,r161,Population subset equation -> RMSE,Population subset,Inventive class (IC),Coefficient estimate,3,"['604.616 ', '&nbsp;']"
+6750,r162,Population subset equation -> RMSE,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['379.259 ', '&nbsp;']"
+6750,r163,Population subset equation -> RMSE,Population subset,Creative class (CC),Coefficient estimate,3,"['2,327.936 ', '&nbsp;']"
+6750,r164,Population subset equation -> RMSE,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['3,436.582 ', '&nbsp;']"
+6750,r165,Population subset equation -> Chi-squared,Population subset,Inventive class (IC),Coefficient estimate,3,"['839.564 ', '&nbsp;']"
+6750,r166,Population subset equation -> Chi-squared,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['810.320 ', '&nbsp;']"
+6750,r167,Population subset equation -> Chi-squared,Population subset,Creative class (CC),Coefficient estimate,3,"['662.437 ', '&nbsp;']"
+6750,r168,Population subset equation -> Chi-squared,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['626.077 ', '&nbsp;']"
+6750,r169,Population subset equation -> <i>p</i>-value,Population subset,Inventive class (IC),Coefficient estimate,3,"['<0.0001', '&nbsp;']"
+6750,r170,Population subset equation -> <i>p</i>-value,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['<0.0001', '&nbsp;']"
+6750,r171,Population subset equation -> <i>p</i>-value,Population subset,Creative class (CC),Coefficient estimate,3,"['<0.0001', '&nbsp;']"
+6750,r172,Population subset equation -> <i>p</i>-value,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['<0.0001', '&nbsp;']"
+6750,r173,Population subset equation -> Mean VIF,Population subset,Inventive class (IC),Coefficient estimate,3,"['3.164 ', '&nbsp;']"
+6750,r174,Population subset equation -> Mean VIF,Population subset,"Science, engineering, and technical (SET) employment",Coefficient estimate,3,"['3.164 ', '&nbsp;']"
+6750,r175,Population subset equation -> Mean VIF,Population subset,Creative class (CC),Coefficient estimate,3,"['3.164 ', '&nbsp;']"
+6750,r176,Population subset equation -> Mean VIF,Population subset,At least 4-year college degree (BA),Coefficient estimate,3,"['3.164 ', '&nbsp;']"

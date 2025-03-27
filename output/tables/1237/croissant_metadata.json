@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed women 16 years and older, by detailed occupation: 2008&#8211;17",
+  "identifier": "NCSES-1237",
+  "description": "Employed women 16 years and older, by detailed occupation: 2008&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1237",
+  "table_number": "9-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1237/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2, occupation_level_3, occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__women_2008",
+      "description": " Women 2008",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__women_2017",
+      "description": " Women 2017",
+      "valueType": "string",
+      "unitText": "Number in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data from the Current Population Survey (CPS) cover employed persons 16 years and older. Annual estimates are based on CPS monthly data. In 2011, the CPS taxonomy for occupations was revised; therefore, data from 2011 to 2015 may not be comparable to data for previous years. Detail may not add to total because of rounding. This table will not match previously published tables exactly due to source change and an error correction.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, special tabulations (2018) from the National Bureau of Economic Research, Merged Outgoing Rotation Group files (2008\u201317), Current Population Survey, Bureau of Labor Statistics."
+}

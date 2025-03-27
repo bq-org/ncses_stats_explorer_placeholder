@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federally financed higher education R&D expenditures in the social sciences, ranked by all FY 2022 social sciences: FYs 2019&#8211;22 and by subfield for FY 2022",
+  "identifier": "NCSES-10146",
+  "description": "Federally financed higher education R&D expenditures in the social sciences, ranked by all FY 2022 social sciences: FYs 2019&#8211;22 and by subfield for FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/10146",
+  "table_number": "54",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10146/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_institution_b",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_institution_b_level_1, _b_institution_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_all_social_sciences",
+      "description": "2022 All Social Sciences",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_anthropology",
+      "description": "2022 Anthropology",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_economics",
+      "description": "2022 Economics",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_political_science_and_government",
+      "description": "2022 Political Science And Government",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_sociology_demography_and_population_studies",
+      "description": "2022 Sociology Demography And Population Studies",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_social_sciences_nec",
+      "description": "2022 Social Sciences Nec",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutions reporting zero expenditures in ranked total for FY 2022 are not listed in this table. Tied institutions are ranked alphabetically. Ranked institutions are geographically separate campuses headed by a campus-level president or chancellor. Some campuses are part of large, multi-campus universities; some are part of state university systems. For a complete list of campuses that belong to a larger university or system and their aggregate R&D expenditures, see table 6.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

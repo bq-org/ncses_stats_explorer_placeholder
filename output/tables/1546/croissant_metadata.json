@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "High school graduates enrolled in college in October after completing high school, by demographic characteristics and institution type: 1975&#8211;2016",
+  "identifier": "NCSES-1546",
+  "description": "High school graduates enrolled in college in October after completing high school, by demographic characteristics and institution type: 1975&#8211;2016",
+  "url": "https://example.org/datasets/ncses/tables/1546",
+  "table_number": "S1-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1546/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "The table includes students ages 16 to 24 who completed high school in the survey year. Before 1992, high school graduates referred to those who had completed 12 years of schooling. As of 1992, high school graduates refer to those who have received a high school diploma or equivalency certificate.",
+  "sources": "Parents' education: National Center for Education Statistics special tabulations (2019) of the 1992\u20132016 Current Population Survey, Bureau of Labor Statistics. All other data: McFarland J, Hussar B, Wang X, Zhang J, Wang K, Rathbun A, Barmer A, Forrest Cataldi E, and Bullock Mann F, The Condition of Education 2018, NCES 2018-144 (2018), Tables 302.10, 302.20, 302.30.Science and Engineering Indicators",
+  "temporalCoverage": "19/20"
+}

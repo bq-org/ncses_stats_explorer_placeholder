@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Foreign R&D performed and employment reported by U.S.-located businesses, by selected host country: 2018\u201319",
+  "identifier": "NCSES-6635",
+  "description": "Foreign R&D performed and employment reported by U.S.-located businesses, by selected host country: 2018\u201319",
+  "url": "https://example.org/datasets/ncses/tables/6635",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6635/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "country",
+      "description": "Country hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "country_level_1, country_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "country_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_foreign_r_d",
+      "description": "2018 Foreign R D",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_foreign_employment_total",
+      "description": "2018 Foreign Employment Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_foreign_employment_r_d",
+      "description": "2018 Foreign Employment R D",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_foreign_r_d",
+      "description": "2019 Foreign R D",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_foreign_employment_total",
+      "description": "2019 Foreign Employment Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_foreign_employment_r_d",
+      "description": "2019 Foreign Employment R D",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_19_change_foreign_r_d",
+      "description": "2018 19 Change Foreign R D",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_19_change_foreign_employment_total",
+      "description": "2018 19 Change Foreign Employment Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_19_change_foreign_employment_r_d",
+      "description": "2018 19 Change Foreign Employment R D",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_intensitya_2018",
+      "description": "R D Employment Intensitya 2018",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_intensitya_2019",
+      "description": "R D Employment Intensitya 2019",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and thousands of employees"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey."
+}

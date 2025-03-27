@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Sales, R&D intensity, and employment for companies that performed or funded R&D, by selected industry: 2019",
+  "identifier": "NCSES-6309",
+  "description": "Sales, R&D intensity, and employment for companies that performed or funded R&D, by selected industry: 2019",
+  "url": "https://example.org/datasets/ncses/tables/6309",
+  "table_number": "RD-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6309/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_naics_code",
+      "description": "Industry and NAICS code hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_naics_code_level_1, industry_and_naics_code_level_2, industry_and_naics_code_level_3, industry_and_naics_code_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_naics_code_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_net_sales_us_millions_a",
+      "description": "Domestic Net Sales Us Millions A",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent, and thousands of domestic employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_intensity_b",
+      "description": "R D Intensity B",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent, and thousands of domestic employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_employment_thousands_c_total",
+      "description": "Domestic Employment Thousands C Total",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent, and thousands of domestic employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_employment_thousands_c_r_dd",
+      "description": "Domestic Employment Thousands C R Dd",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent, and thousands of domestic employees"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Beginning in survey year 2018, companies that performed or funded less than $50,000 of R&D were excluded from tabulation. These companies in aggregate represented a very small share of total R&D expenditures in prior years. Had the companies under this threshold been included in the 2018 estimates, they would have contributed approximately $90 million to overall R&D expenditures. Estimates of aggregate sales and total domestic employment would have been similarly affected. Industry classification was based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Excludes data for federally funded research and development centers. The Business Enterprise Research and Development Survey includes only companies with 10 or more domestic employees.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Business Enterprise Research and Development Survey, 2019.Science and Engineering Indicators"
+}

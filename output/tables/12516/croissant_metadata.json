@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies using critical and emerging technologies, by company size: 2021",
+  "identifier": "NCSES-12516",
+  "description": "Companies using critical and emerging technologies, by company size: 2021",
+  "url": "https://example.org/datasets/ncses/tables/12516",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12516/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_size",
+      "description": "Employment size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_size_level_1, employment_size_level_2, employment_size_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_advanced_computing",
+      "description": "Advanced Computing",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_advanced_sensing",
+      "description": "Advanced Sensing",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_artificial_intelligence",
+      "description": "Artificial Intelligence",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_autonomous_systems_and_robotics",
+      "description": "Autonomous Systems And Robotics",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_additive_manufacturing",
+      "description": "Additive Manufacturing",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biotechnology",
+      "description": "Biotechnology",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_human_machine_interface",
+      "description": "Human Machine Interface",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_communication_and_networking_technologies",
+      "description": "Communication And Networking Technologies",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_advanced_financial_technologies",
+      "description": "Advanced Financial Technologies",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_advanced_semiconductors_and_microelectronics",
+      "description": "Advanced Semiconductors And Microelectronics",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_advanced_engineering_materials",
+      "description": "Advanced Engineering Materials",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_renewable_energy_generation_and_storage",
+      "description": "Renewable Energy Generation And Storage",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_advanced_gas_turbine_engine_technologies",
+      "description": "Advanced Gas Turbine Engine Technologies",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_advanced_nuclear_energy_technologies",
+      "description": "Advanced Nuclear Energy Technologies",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail across rows may not add to total because of rounding. Detail across columns have been adjusted to add to total. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States. Use is defined as \"a lot,\" \"somewhat,\" and \"a little.\"",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2022 Annual Business Survey: Data Year 2021."
+}

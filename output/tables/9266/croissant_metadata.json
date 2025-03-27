@@ -1,0 +1,229 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by field of doctorate and sector of employment: 2021",
+  "identifier": "NCSES-9266",
+  "description": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by field of doctorate and sector of employment: 2021",
+  "url": "https://example.org/datasets/ncses/tables/9266",
+  "table_number": "54",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9266/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_level_1, field_of_study_level_2, field_of_study_level_3, field_of_study_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_full_path",
+      "description": "Of Study Full Path",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_1",
+      "description": "Of Study Level 1",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_2",
+      "description": "Of Study Level 2",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_3",
+      "description": "Of Study Level 3",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_4",
+      "description": "Of Study Level 4",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_hierarchy_depth",
+      "description": "Of Study Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_median_salary",
+      "description": "All Full Time Employed Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_se",
+      "description": "All Full Time Employed Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_4_year_educational_institutiona_median_salary",
+      "description": "4 Year Educational Institutiona Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_4_year_educational_institutiona_se",
+      "description": "4 Year Educational Institutiona Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_educational_institutionb_median_salary",
+      "description": "Other Educational Institutionb Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_educational_institutionb_se",
+      "description": "Other Educational Institutionb Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_for_profitc_median_salary",
+      "description": "Private For Profitc Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_for_profitc_se",
+      "description": "Private For Profitc Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_nonprofit_median_salary",
+      "description": "Private Nonprofit Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_nonprofit_se",
+      "description": "Private Nonprofit Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_government_median_salary",
+      "description": "Federal Government Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_government_se",
+      "description": "Federal Government Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_state_or_local_government_median_salary",
+      "description": "State Or Local Government Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_state_or_local_government_se",
+      "description": "State Or Local Government Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_self_employedd_median_salary",
+      "description": "Self Employedd Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_self_employedd_se",
+      "description": "Self Employedd Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_othere_median_salary",
+      "description": "Othere Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_othere_se",
+      "description": "Othere Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Median annual salaries are for principal job and are rounded to nearest $1,000. Standard errors are rounded up to the nearest $500. Full time is based on working 35 or more hours per week. Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

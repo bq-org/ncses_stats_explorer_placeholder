@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed college graduates, by level of highest degree, minor field of highest degree, and major occupation: 2017",
+  "identifier": "NCSES-6836",
+  "description": "Employed college graduates, by level of highest degree, minor field of highest degree, and major occupation: 2017",
+  "url": "https://example.org/datasets/ncses/tables/6836",
+  "table_number": "1-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6836/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "level_and_field_of_highest_degree",
+      "description": "Level and field of highest degree hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "level_and_field_of_highest_degree_level_1, level_and_field_of_highest_degree_level_2, level_and_field_of_highest_degree_level_3, level_and_field_of_highest_degree_level_4, level_and_field_of_highest_degree_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "level_and_field_of_highest_degree_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations_total",
+      "description": "S E Occupations Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations_biological_agricultural_and_other_life_scientists",
+      "description": "S E Occupations Biological Agricultural And Other Life Scientists",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations_computer_and_mathematical_scientists",
+      "description": "S E Occupations Computer And Mathematical Scientists",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations_physical_and_related_scientists",
+      "description": "S E Occupations Physical And Related Scientists",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations_social_and_related_scientists",
+      "description": "S E Occupations Social And Related Scientists",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations_engineers",
+      "description": "S E Occupations Engineers",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related_occupations",
+      "description": "S E Related Occupations",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e_occupations",
+      "description": "Non S E Occupations",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

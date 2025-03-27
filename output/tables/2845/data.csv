@@ -1,0 +1,22 @@
+table_id,row_id,field_of_study_full_path,field_of_study_level_1,field_of_study_level_2,field_of_study_level_3,field_of_study_level_4,field_of_study_hierarchy_depth,field_totala,field_academe,field_industry_or_businessb,field_government,field_nonprofit_organization,field_other_or_unknownc
+2845,r001,All fields,All fields,,,,1,83000,65000,110000,86000,80000,70000
+2845,r002,All fields -> Science and engineering,All fields,Science and engineering,,,2,92000,67000,110000,87000,88000,65000
+2845,r003,All fields -> Science and engineering -> Life sciences,All fields,Science and engineering,Life sciences,,3,82000,67000,100000,80000,89000,55500
+2845,r004,All fields -> Science and engineering -> Life sciences -> Agricultural sciences and natural resources,All fields,Science and engineering,Life sciences,Agricultural sciences and natural resources,4,75000,65000,89000,70000,77000,35000
+2845,r005,All fields -> Science and engineering -> Life sciences -> Biological and biomedical sciences,All fields,Science and engineering,Life sciences,Biological and biomedical sciences,4,85000,60000,100000,70000,75000,55000
+2845,r006,All fields -> Science and engineering -> Life sciences -> Health sciences,All fields,Science and engineering,Life sciences,Health sciences,4,85000,73500,100000,90000,100000,68000
+2845,r007,All fields -> Science and engineering -> Physical sciences and earth sciences,All fields,Science and engineering,Physical sciences and earth sciences,,3,96000,54000,109000,78785,86000,51000
+2845,r008,All fields -> Science and engineering -> Physical sciences and earth sciences -> Chemistry,All fields,Science and engineering,Physical sciences and earth sciences,Chemistry,4,95000,54000,102158,80000,81000,50000
+2845,r009,"All fields -> Science and engineering -> Physical sciences and earth sciences -> Geosciences, atmospheric sciences, and ocean sciences",All fields,Science and engineering,Physical sciences and earth sciences,"Geosciences, atmospheric sciences, and ocean sciences",4,70000,52380,100000,68000,68000,66000
+2845,r010,All fields -> Science and engineering -> Physical sciences and earth sciences -> Physics and astronomy,All fields,Science and engineering,Physical sciences and earth sciences,Physics and astronomy,4,109350,54000,117500,102900,105000,51000
+2845,r011,All fields -> Science and engineering -> Mathematics and computer sciences,All fields,Science and engineering,Mathematics and computer sciences,,3,120000,74000,140000,106000,119000,67500
+2845,r012,All fields -> Science and engineering -> Psychology and social sciences ,All fields,Science and engineering,Psychology and social sciences ,,3,71000,64000,100000,80000,75000,70000
+2845,r013,All fields -> Science and engineering -> Psychology and social sciences  -> Psychology,All fields,Science and engineering,Psychology and social sciences ,Psychology,4,68000,60000,85500,70000,75500,70000
+2845,r014,All fields -> Science and engineering -> Psychology and social sciences  -> Economics,All fields,Science and engineering,Psychology and social sciences ,Economics,4,115000,95000,130000,108000,120000,115500
+2845,r015,All fields -> Science and engineering -> Psychology and social sciences  -> Social sciences<sup>d</sup>,All fields,Science and engineering,Psychology and social sciences ,Social sciences<sup>d</sup>,4,66000,60500,91000,81976,70000,63000
+2845,r016,All fields -> Science and engineering -> Engineering,All fields,Science and engineering,Engineering,,3,102500,83000,110000,97000,108000,85000
+2845,r017,All fields -> Non-science and engineering,All fields,Non-science and engineering,,,2,65000,63000,80000,84000,65000,73000
+2845,r018,All fields -> Non-science and engineering -> Education,All fields,Non-science and engineering,Education,,3,70000,65000,80000,83191,80000,76869
+2845,r019,All fields -> Non-science and engineering -> Humanities and arts,All fields,Non-science and engineering,Humanities and arts,,3,53000,52000,52750,72000,55000,54000
+2845,r020,All fields -> Non-science and engineering -> Business management and administration,All fields,Non-science and engineering,Business management and administration,,3,130000,130000,130000,113000,115000,98500
+2845,r021,All fields -> Non-science and engineering -> Other non-S&E fields<sup>e</sup>,All fields,Non-science and engineering,Other non-S&E fields<sup>e</sup>,,3,65500,65000,90050,91480,68500,62500

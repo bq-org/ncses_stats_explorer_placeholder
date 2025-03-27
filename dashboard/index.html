@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCSES Data Dashboard</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .card {
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .tab-button.active, .example-tab-button.active {
+            background-color: #3b82f6;
+            color: white;
+        }
+        .chart-container {
+            height: 320px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        #tab-table-types .flex.hover\:bg-gray-200 {
+            transition: all 0.2s ease;
+            padding: 4px;
+            border-radius: 4px;
+        }
+        #tab-table-types .flex.hover\:bg-gray-200:hover {
+            background-color: rgba(229, 231, 235, 0.5);
+        }
+        .table-container {
+            max-height: 400px;
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+        
+        .table-container table {
+            table-layout: fixed;
+            width: 100%;
+        }
+        
+        .table-container td.truncate {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        @media (min-width: 768px) {
+            .dashboard-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+        }
+        @media (min-width: 1024px) {
+            .dashboard-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-700 text-white p-3 shadow-md">
+        <div class="container mx-auto">
+            <h1 class="text-2xl font-bold">NCSES Data Dashboard</h1>
+            <p class="mt-1 text-sm">Exploring the National Center for Science and Engineering Statistics dataset collection</p>
+        </div>
+    </header>
+
+    <div class="container mx-auto p-3 mt-3">
+        <!-- Loading indicator -->
+        <div id="loading" class="flex flex-col items-center justify-center p-8">
+            <div class="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-blue-600"></div>
+            <p class="mt-3 text-lg text-gray-700">Loading dashboard data...</p>
+        </div>
+
+        <!-- Dashboard content (hidden until loaded) -->
+        <div id="dashboard-content" class="hidden">
+            <!-- Summary Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-4">
+                <div class="card bg-white rounded-lg shadow p-3">
+                    <div class="flex items-center">
+                        <div class="p-2 rounded-full bg-indigo-100 text-indigo-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                            </svg>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-gray-500 text-sm">Total Tables</p>
+                            <p id="total-tables" class="text-xl font-semibold">0</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bg-white rounded-lg shadow p-3">
+                    <div class="flex items-center">
+                        <div class="p-2 rounded-full bg-blue-100 text-blue-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-gray-500 text-sm">Time Series Tables</p>
+                            <div class="flex items-end">
+                                <p id="time-series-count" class="text-xl font-semibold">0</p>
+                                <p id="time-series-percent" class="ml-2 text-xs text-gray-600">0%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bg-white rounded-lg shadow p-3">
+                    <div class="flex items-center">
+                        <div class="p-2 rounded-full bg-yellow-100 text-yellow-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-gray-500 text-sm">Max Hierarchy Depth</p>
+                            <p id="max-hierarchy-depth" class="text-xl font-semibold">0</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bg-white rounded-lg shadow p-3">
+                    <div class="flex items-center">
+                        <div class="p-2 rounded-full bg-green-100 text-green-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                            </svg>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-gray-500 text-sm">Most Common Unit</p>
+                            <p id="most-common-unit" class="text-sm font-semibold">-</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabs -->
+            <div class="mb-3">
+                <div class="flex flex-wrap border-b border-gray-300">
+                    <button class="tab-button active px-3 py-1 text-blue-600 text-sm font-medium" data-tab="table-types">Table Types</button>
+                    <button class="tab-button px-3 py-1 text-blue-600 text-sm font-medium" data-tab="hierarchy-depths">Hierarchy Depths</button>
+                    <button class="tab-button px-3 py-1 text-blue-600 text-sm font-medium" data-tab="special-values">Special Values</button>
+                    <button class="tab-button px-3 py-1 text-blue-600 text-sm font-medium" data-tab="topics">Topics</button>
+                    <button class="tab-button px-3 py-1 text-blue-600 text-sm font-medium" data-tab="units">Units</button>
+                </div>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="bg-white rounded-lg shadow p-3 mb-4">
+                <!-- Table Types Tab -->
+                <div id="tab-table-types" class="tab-content">
+                    <h2 class="text-lg font-bold mb-2">Distribution of Table Types</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div class="chart-container">
+                            <canvas id="table-types-chart"></canvas>
+                        </div>
+                        <div>
+                            <h3 class="text-md font-semibold mb-1">Table Type Legend</h3>
+                            <div class="space-y-1 text-sm">
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-blue-500 rounded mr-2"></div>
+                                    <p>RH - Row Hierarchical: Tables with hierarchies in row headers</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-green-500 rounded mr-2"></div>
+                                    <p>MH - Matrix Hierarchical: Tables with hierarchies in both rows and columns</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-yellow-500 rounded mr-2"></div>
+                                    <p>TS - Time Series: Data tracked over multiple time periods</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-orange-500 rounded mr-2"></div>
+                                    <p>CH - Column Hierarchical: Tables with hierarchies in column headers</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-purple-500 rounded mr-2"></div>
+                                    <p>ST - Simple Tabular: Flat data without hierarchies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hierarchy Depths Tab -->
+                <div id="tab-hierarchy-depths" class="tab-content hidden">
+                    <h2 class="text-lg font-bold mb-2">Distribution of Hierarchy Depths</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="text-md font-semibold mb-1">Row Hierarchy Depths</h3>
+                            <div class="chart-container">
+                                <canvas id="row-depths-chart"></canvas>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-md font-semibold mb-1">Column Hierarchy Depths</h3>
+                            <div class="chart-container">
+                                <canvas id="col-depths-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Values Tab -->
+                <div id="tab-special-values" class="tab-content hidden">
+                    <h2 class="text-lg font-bold mb-2">Special Values Distribution</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="chart-container">
+                            <canvas id="special-values-chart"></canvas>
+                        </div>
+                        <div>
+                            <h3 class="text-md font-semibold mb-1">Special Value Legend</h3>
+                            <div class="space-y-1 text-sm">
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-red-500 rounded mr-2"></div>
+                                    <p>D - Suppressed to avoid disclosure of confidential information</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-blue-500 rounded mr-2"></div>
+                                    <p>* - Value between 0.00% and 0.05%</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-green-500 rounded mr-2"></div>
+                                    <p>r - Revised value</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 bg-yellow-500 rounded mr-2"></div>
+                                    <p>i - Imputed value</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Topics Tab -->
+                <div id="tab-topics" class="tab-content hidden">
+                    <h2 class="text-lg font-bold mb-2">Top Topics in Datasets</h2>
+                    <div class="chart-container" style="height: 300px;">
+                        <canvas id="topics-chart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Units Tab -->
+                <div id="tab-units" class="tab-content hidden">
+                    <h2 class="text-lg font-bold mb-2">Distribution of Measurement Units</h2>
+                    <div class="chart-container">
+                        <canvas id="units-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Table Browser (Simplified for this version) -->
+            <div class="bg-white rounded-lg shadow p-3">
+                <h2 class="text-lg font-bold mb-2">Table Quick Search</h2>
+                <div class="mb-2">
+                    <input id="table-search" type="text" placeholder="Search by table ID or title..." 
+                           class="w-full p-2 text-sm border border-gray-300 rounded">
+                </div>
+                <div class="table-container">
+                    <table class="min-w-full divide-y divide-gray-200 text-sm">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-24">Table ID</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-24">Modal ID</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-56">Title</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-24">Type</th>
+                                <th class="px-4 py-2 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-24">Time Series</th>
+                                <th class="px-4 py-2 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-24">Row Depth</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-list" class="bg-white divide-y divide-gray-200">
+                            <!-- Table rows will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                <div id="table-pagination" class="flex justify-between mt-3 text-sm">
+                    <button id="prev-page" class="px-3 py-1 bg-blue-600 text-white rounded disabled:opacity-50">Previous</button>
+                    <span id="page-info" class="py-1">Page 1 of 1</span>
+                    <button id="next-page" class="px-3 py-1 bg-blue-600 text-white rounded disabled:opacity-50">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-800 text-white p-3 mt-4 text-sm">
+        <div class="container mx-auto">
+            <p>National Center for Science and Engineering Statistics (NCSES) Data Dashboard</p>
+            <p class="text-xs mt-1">Created to explore transformed NCSES tables in machine-readable format</p>
+        </div>
+    </footer>
+
+    <!-- Javascript for dashboard functionality -->
+    <script src="dashboard.js"></script>
+    
+    <!-- Special Values chart fix -->
+    <script src="fix_special_values_chart.js"></script>
+    
+    <!-- Table Type Examples -->
+    <script src="table_type_examples.js"></script>
+</body>
+</html>

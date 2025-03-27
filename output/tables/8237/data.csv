@@ -1,0 +1,12 @@
+table_id,row_id,employment_status_full_path,employment_status_level_1,employment_status_level_2,employment_status_level_3,employment_status_hierarchy_depth,field_u_s_residing_2019_number,field_u_s_residing_2019_percent,field_u_s_residing_2021_number,field_u_s_residing_2021_percent,field_non_u_s_residing_2019_number,field_non_u_s_residing_2019_percent,field_non_u_s_residing_2021_number,field_non_u_s_residing_2021_percent
+8237,r001,Total,Total,,,1,1008950,100.0,1023650,100.0,139850,100.0,162100,100.0
+8237,r002,Employed,Employed,,,1,857200,85.0,872100,85.2,126050,90.1,145250,89.6
+8237,r003,Employed -> Full time,Employed,Full time,,2,763350,75.7,779600,76.2,113400,81.1,128100,79.0
+8237,r004,Employed -> Part time,Employed,Part time,,2,93900,9.3,92500,9.0,12650,9.0,17150,10.6
+8237,r005,Employed -> Part time -> Reported COVID-related reasons for working part time<sup>a</sup>,Employed,Part time,Reported COVID-related reasons for working part time<sup>a</sup>,3,na,na,20300,2.0,na,na,3000,1.8
+8237,r006,Unemployed<sup>b</sup>,Unemployed<sup>b</sup>,,,1,14100,1.4,16650,1.6,1950,1.4,3200,2.0
+8237,r007,Unemployed<sup>b</sup> -> Reported COVID-related reasons for not working<sup>c</sup>,Unemployed<sup>b</sup>,Reported COVID-related reasons for not working<sup>c</sup>,,2,na,na,6750,0.7,na,na,1050,0.6
+8237,r008,Retired,Retired,,,1,120000,11.9,114750,11.2,9900,7.1,10750,6.6
+8237,r009,Not employed or not seeking work<sup>d</sup> ,Not employed or not seeking work<sup>d</sup> ,,,1,17650,1.7,20150,2.0,2000,1.4,2900,1.8
+8237,r010,Not employed or not seeking work<sup>d</sup>  -> Reported COVID-related reasons for not working<sup>c</sup>,Not employed or not seeking work<sup>d</sup> ,Reported COVID-related reasons for not working<sup>c</sup>,,2,na,na,3600,0.4,na,na,150,0.1
+8237,r011,Overall (employment status affected by COVID)<sup>e</sup>,Overall (employment status affected by COVID)<sup>e</sup>,,,1,na,na,30700,3.0,na,na,4200,2.6

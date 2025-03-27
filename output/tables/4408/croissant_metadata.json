@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Certification and licenses held by workers with a bachelor's degree or higher, by broad occupational group: 2019",
+  "identifier": "NCSES-4408",
+  "description": "Certification and licenses held by workers with a bachelor's degree or higher, by broad occupational group: 2019",
+  "url": "https://example.org/datasets/ncses/tables/4408",
+  "table_number": "SLBR-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4408/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "certification_or_license_held_and_primary_subject_of_certification_or_license",
+      "description": "Certification or license held and primary subject of certification or license hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "certification_or_license_held_and_primary_subject_of_certification_or_license_level_1, certification_or_license_held_and_primary_subject_of_certification_or_license_level_2, certification_or_license_held_and_primary_subject_of_certification_or_license_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "certification_or_license_held_and_primary_subject_of_certification_or_license_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_broad_occupational_group_s_e",
+      "description": "Broad Occupational Group S E",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_broad_occupational_group_s_e_related",
+      "description": "Broad Occupational Group S E Related",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_broad_occupational_group_non_s_e",
+      "description": "Broad Occupational Group Non S E",
+      "valueType": "string",
+      "unitText": "Thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Workers in non-S&E occupations include those with a bachelor's degree or higher in STEM middle-skill and non-STEM occupations.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates (NSCG), 2019. Science and Engineering Indicators"
+}

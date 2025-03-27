@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Knowledge products posted by selected federal agencies: 2020",
+  "identifier": "NCSES-10514",
+  "description": "Knowledge products posted by selected federal agencies: 2020",
+  "url": "https://example.org/datasets/ncses/tables/10514",
+  "table_number": "INV-D",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10514/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "data_sets",
+      "description": "Data Sets",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "software_code",
+      "description": "Software Code",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data are cumulative as of March 2020. Data are reported for the agencies whose laboratories have the largest R&D budgets.",
+  "sources": "National Academies of Sciences, Engineering, and Medicine, 2021, Advancing Commercialization of Digital Products from Federal Laboratories, Table 7.2, https://doi.org/10.17226/26006; Data.gov; Code.gov.Science and Engineering Indicators"
+}

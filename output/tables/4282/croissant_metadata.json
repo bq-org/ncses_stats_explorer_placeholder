@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Adults who reported time that their children spent on all learning activities in the past week relative to a school day before the COVID-19 pandemic, by selected adult characteristics: 16\u221228 September 2020",
+  "identifier": "NCSES-4282",
+  "description": "Adults who reported time that their children spent on all learning activities in the past week relative to a school day before the COVID-19 pandemic, by selected adult characteristics: 16\u221228 September 2020",
+  "url": "https://example.org/datasets/ncses/tables/4282",
+  "table_number": "K12-8",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4282/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "adult_characteristic",
+      "description": "Adult characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "adult_characteristic_level_1, adult_characteristic_level_2, adult_characteristic_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "adult_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_time_that_children_spent_on_all_learning_activities_in_the_past_week_relative_to_a_school_day_before_the_covid_19_pandemic_much_less_than_a_school_day_before",
+      "description": "Time That Children Spent On All Learning Activities In The Past Week Relative To A School Day Before The Covid 19 Pandemic Much Less Than A School Day Before",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_time_that_children_spent_on_all_learning_activities_in_the_past_week_relative_to_a_school_day_before_the_covid_19_pandemic_a_little_bit_less_than_a_school_day_before",
+      "description": "Time That Children Spent On All Learning Activities In The Past Week Relative To A School Day Before The Covid 19 Pandemic A Little Bit Less Than A School Day Before",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_time_that_children_spent_on_all_learning_activities_in_the_past_week_relative_to_a_school_day_before_the_covid_19_pandemic_as_much_as_a_school_day_before",
+      "description": "Time That Children Spent On All Learning Activities In The Past Week Relative To A School Day Before The Covid 19 Pandemic As Much As A School Day Before",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_time_that_children_spent_on_all_learning_activities_in_the_past_week_relative_to_a_school_day_before_the_covid_19_pandemic_a_little_bit_more_than_a_school_day_before",
+      "description": "Time That Children Spent On All Learning Activities In The Past Week Relative To A School Day Before The Covid 19 Pandemic A Little Bit More Than A School Day Before",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_time_that_children_spent_on_all_learning_activities_in_the_past_week_relative_to_a_school_day_before_the_covid_19_pandemic_much_more_than_a_school_day_before",
+      "description": "Time That Children Spent On All Learning Activities In The Past Week Relative To A School Day Before The Covid 19 Pandemic Much More Than A School Day Before",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The table includes adults 18 years and older in households with children enrolled in K\u221212 school. Adults in households with only homeschooled children are not included. Percentages may not add to 100% because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2020 U.S. Census Bureau Household Pulse Survey. Science and Engineering Indicators"
+}

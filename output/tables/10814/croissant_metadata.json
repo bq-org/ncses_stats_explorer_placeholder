@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations to federally funded research and development centers, by sponsoring agency, type of R&D, and R&D plant: FY 2022",
+  "identifier": "NCSES-10814",
+  "description": "Federal obligations to federally funded research and development centers, by sponsoring agency, type of R&D, and R&D plant: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/10814",
+  "table_number": "18",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10814/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_ffrdc_b",
+      "description": "FFRDC hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_ffrdc_b_level_1, _b_ffrdc_b_level_2, _b_ffrdc_b_level_3, _b_ffrdc_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_ffrdc_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_r_d_and_r_d_plant",
+      "description": "Total R D And R D Plant",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_r_d_total_r_d",
+      "description": "Type Of R D Total R D",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_r_d_basic_research",
+      "description": "Type Of R D Basic Research",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_r_d_applied_research",
+      "description": "Type Of R D Applied Research",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_r_d_experimental_development",
+      "description": "Type Of R D Experimental Development",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_plant",
+      "description": "R D Plant",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Only those agencies and subdivisions that had obligations in variables represented by this table appear in the table. FY 2022 obligations include additional funding provided by supplemental COVID-19 pandemic-related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act). See technical table A-2 for additional notes associated with the agencies listed in this table.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2022\u201323."
+}

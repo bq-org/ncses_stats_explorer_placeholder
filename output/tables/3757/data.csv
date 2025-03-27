@@ -1,0 +1,33 @@
+table_id,row_id,field_of_study_full_path,field_of_study_level_1,field_of_study_level_2,field_of_study_level_3,field_of_study_level_4,field_of_study_hierarchy_depth,field_total_number,field_total_se,field_employed_number,field_employed_se,field_unemployeda_number,field_unemployeda_se,field_not_in_the_labor_forceb_number,field_not_in_the_labor_forceb_se
+3757,r001,All fields,All fields,,,,1,139850,1350,126050,1450,1950,300,11900,625
+3757,r002,All fields -> Science,All fields,Science,,,2,100200,1250,89250,1275,1450,250,9500,500
+3757,r003,"All fields -> Science -> Biological, agricultural, and environmental life sciences",All fields,Science,"Biological, agricultural, and environmental life sciences",,3,29350,775,25950,725,700,175,2700,300
+3757,r004,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Agricultural and food sciences",All fields,Science,"Biological, agricultural, and environmental life sciences",Agricultural and food sciences,4,5750,300,5000,300,50,50,700,125
+3757,r005,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Biochemistry and biophysics",All fields,Science,"Biological, agricultural, and environmental life sciences",Biochemistry and biophysics,4,2700,325,2250,275,,,400,175
+3757,r006,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Cell, cellular biology, and molecular biology",All fields,Science,"Biological, agricultural, and environmental life sciences","Cell, cellular biology, and molecular biology",4,2750,300,2450,275,,,100,50
+3757,r007,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Microbiological sciences and immunology",All fields,Science,"Biological, agricultural, and environmental life sciences",Microbiological sciences and immunology,4,2400,275,2250,275,,,100,75
+3757,r008,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Natural resources and conservation",All fields,Science,"Biological, agricultural, and environmental life sciences",Natural resources and conservation,4,2400,200,2100,200,50,25,250,75
+3757,r009,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Zoology",All fields,Science,"Biological, agricultural, and environmental life sciences",Zoology,4,1350,200,1050,175,,,200,100
+3757,r010,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Other biological sciences",All fields,Science,"Biological, agricultural, and environmental life sciences",Other biological sciences,4,12050,550,10800,550,300,125,950,175
+3757,r011,All fields -> Science -> Computer and information sciences,All fields,Science,Computer and information sciences,,3,4850,350,4700,350,,,150,75
+3757,r012,All fields -> Science -> Mathematics and statistics,All fields,Science,Mathematics and statistics,,3,7650,325,6800,350,,,800,175
+3757,r013,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",,3,22750,800,20300,800,300,125,2100,275
+3757,r014,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Astronomy and astrophysics",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Astronomy and astrophysics,4,1000,125,900,125,,,100,50
+3757,r015,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Chemistry, except biochemistry",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences","Chemistry, except biochemistry",4,7400,450,6650,450,,,700,175
+3757,r016,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Geosciences, atmospheric sciences, and ocean sciences",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences","Geosciences, atmospheric sciences, and ocean sciences",4,4650,250,4000,225,150,75,500,100
+3757,r017,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Physics",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Physics,4,9700,525,8700,525,S,S,900,225
+3757,r018,All fields -> Science -> Psychology,All fields,Science,Psychology,,3,6250,375,5400,350,S,S,800,150
+3757,r019,All fields -> Science -> Social sciences,All fields,Science,Social sciences,,3,29350,750,26050,775,350,125,2900,325
+3757,r020,All fields -> Science -> Social sciences -> Economics,All fields,Science,Social sciences,Economics,4,13400,500,12200,500,,,1200,225
+3757,r021,All fields -> Science -> Social sciences -> Political science and government,All fields,Science,Social sciences,Political science and government,4,3450,325,3250,325,,,,
+3757,r022,"All fields -> Science -> Social sciences -> Sociology, demography, and population studies",All fields,Science,Social sciences,"Sociology, demography, and population studies",4,2900,275,2250,250,,,650,175
+3757,r023,All fields -> Science -> Social sciences -> Other social sciences,All fields,Science,Social sciences,Other social sciences,4,9650,450,8400,425,250,100,950,175
+3757,r024,All fields -> Engineering,All fields,Engineering,,,2,35050,950,32450,900,450,150,2150,350
+3757,r025,"All fields -> Engineering -> Aerospace, aeronautical, and astronautical engineering",All fields,Engineering,"Aerospace, aeronautical, and astronautical engineering",,3,1150,200,1100,200,,,,
+3757,r026,All fields -> Engineering -> Chemical engineering,All fields,Engineering,Chemical engineering,,3,3950,400,3700,375,,,,
+3757,r027,All fields -> Engineering -> Civil engineering,All fields,Engineering,Civil engineering,,3,5700,425,5400,400,,,250,125
+3757,r028,All fields -> Engineering -> Electrical and computer engineering,All fields,Engineering,Electrical and computer engineering,,3,9000,525,8200,500,S,S,600,225
+3757,r029,All fields -> Engineering -> Mechanical engineering,All fields,Engineering,Mechanical engineering,,3,4050,400,3700,375,,,350,150
+3757,r030,All fields -> Engineering -> Metallurgical and materials engineering,All fields,Engineering,Metallurgical and materials engineering,,3,3100,250,2900,275,,,150,50
+3757,r031,All fields -> Engineering -> Other engineering,All fields,Engineering,Other engineering,,3,8150,425,7450,400,S,S,650,175
+3757,r032,All fields -> Health,All fields,Health,,,2,4600,350,4350,350,S,S,200,75

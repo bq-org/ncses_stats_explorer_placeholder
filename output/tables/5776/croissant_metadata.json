@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Women's share of S&E bachelor's degrees in selected fields for U.S. citizens and permanent residents, by race and ethnicity: 2019",
+  "identifier": "NCSES-5776",
+  "description": "Women's share of S&E bachelor's degrees in selected fields for U.S. citizens and permanent residents, by race and ethnicity: 2019",
+  "url": "https://example.org/datasets/ncses/tables/5776",
+  "table_number": "HED-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5776/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "citizenship_status_race_and_ethnicity",
+      "description": "Citizenship status, race, and ethnicity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "citizenship_status_race_and_ethnicity_level_1, citizenship_status_race_and_ethnicity_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "citizenship_status_race_and_ethnicity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_sciences",
+      "description": "Biological Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_earth_atmospheric_and_ocean_sciences",
+      "description": "Earth Atmospheric And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_computer_sciences",
+      "description": "Mathematics And Computer Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences",
+      "description": "Physical Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology",
+      "description": "Psychology",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_sciences",
+      "description": "Social Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Hispanic may be any race; race categories exclude Hispanic origin. For each demographic group, the cells shaded in green indicate that women\u2019s share of S&E bachelor\u2019s degrees earned is 50% or higher. The shading becomes darker as shares rise. Cells shaded in yellow or orange indicate that women\u2019s share of S&E bachelor\u2019s degrees earned is less than 50% and the shading becomes darker as shares fall.",
+  "sources": "National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Completions Survey. Science and Engineering Indicators"
+}

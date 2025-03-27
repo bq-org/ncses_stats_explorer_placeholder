@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Technical fields by fields of technology in patent data",
+  "identifier": "NCSES-5814",
+  "description": "Technical fields by fields of technology in patent data",
+  "url": "https://example.org/datasets/ncses/tables/5814",
+  "table_number": "SINV-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5814/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "technical_field",
+      "description": "Technical Field",
+      "valueType": "string",
+      "unitText": "Category"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "fields_of_technology",
+      "description": "Fields Of Technology",
+      "valueType": "string",
+      "unitText": "Category"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "U.S. Patent and Trademark Office patents and international patent families are classified under the World Intellectual Property Organization (WIPO) classification of patents, which classifies International Patent Classification codes under 35 technical fields and five fields of technology.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; International Patent Classification, WIPO, accessed June 2021.Science and Engineering Indicators"
+}

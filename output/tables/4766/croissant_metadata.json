@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "SED taxonomy of disciplines including aggregated fields and their constituent fine fields: 2020",
+  "identifier": "NCSES-4766",
+  "description": "SED taxonomy of disciplines including aggregated fields and their constituent fine fields: 2020",
+  "url": "https://example.org/datasets/ncses/tables/4766",
+  "table_number": "A-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4766/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_aggregated_field_name_and_constituent_fields_b",
+      "description": "Aggregated field name and constituent fields hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_aggregated_field_name_and_constituent_fields_b_level_1, _b_aggregated_field_name_and_constituent_fields_b_level_2, _b_aggregated_field_name_and_constituent_fields_b_level_3, _b_aggregated_field_name_and_constituent_fields_b_level_4, _b_aggregated_field_name_and_constituent_fields_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_aggregated_field_name_and_constituent_fields_b_full_path"
+        }
+      ]
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Aggregated fields appear in tables\u00a016 and\u00a022 only.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

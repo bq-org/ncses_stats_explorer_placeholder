@@ -1,0 +1,133 @@
+table_id,row_id,citizenship_status_and_major_field_of_study_full_path,citizenship_status_and_major_field_of_study_level_1,citizenship_status_and_major_field_of_study_level_2,citizenship_status_and_major_field_of_study_level_3,citizenship_status_and_major_field_of_study_hierarchy_depth,field_all_recipients,field_recipients_with_definite_commitments,field_location_of_definite_commitments_united_states_total,field_location_of_definite_commitments_united_states_postdoctoral_study,field_location_of_definite_commitments_united_states_academic_employment,field_location_of_definite_commitments_united_states_industry_employmenta,field_location_of_definite_commitments_united_states_otherb,field_location_of_definite_commitments_abroad,field_location_of_definite_commitments_unknown
+1776,r001,All doctorate recipients<sup>c</sup>,All doctorate recipients<sup>c</sup>,,,1,55195,34289,30762,11840,8172,6967,3783,3514,13
+1776,r002,All doctorate recipients<sup>c</sup> -> Life sciences,All doctorate recipients<sup>c</sup>,Life sciences,,2,12780,7754,7170,4353,1119,1055,643,583,1
+1776,r003,All doctorate recipients<sup>c</sup> -> Life sciences -> Agricultural sciences and natural resources,All doctorate recipients<sup>c</sup>,Life sciences,Agricultural sciences and natural resources,3,1445,865,708,338,137,136,97,157,0
+1776,r004,All doctorate recipients<sup>c</sup> -> Life sciences -> Biological and biomedical sciences,All doctorate recipients<sup>c</sup>,Life sciences,Biological and biomedical sciences,3,8801,5308,4994,3492,465,738,299,313,1
+1776,r005,All doctorate recipients<sup>c</sup> -> Life sciences -> Health sciences,All doctorate recipients<sup>c</sup>,Life sciences,Health sciences,3,2534,1581,1468,523,517,181,247,113,0
+1776,r006,All doctorate recipients<sup>c</sup> -> Physical sciences and earth sciences,All doctorate recipients<sup>c</sup>,Physical sciences and earth sciences,,2,6335,3950,3480,1965,283,1025,207,469,1
+1776,r007,All doctorate recipients<sup>c</sup> -> Physical sciences and earth sciences -> Chemistry,All doctorate recipients<sup>c</sup>,Physical sciences and earth sciences,Chemistry,3,2810,1696,1550,833,129,514,74,146,0
+1776,r008,"All doctorate recipients<sup>c</sup> -> Physical sciences and earth sciences -> Geosciences, atmospheric sciences, and ocean sciences",All doctorate recipients<sup>c</sup>,Physical sciences and earth sciences,"Geosciences, atmospheric sciences, and ocean sciences",3,1185,751,659,420,76,97,66,92,0
+1776,r009,All doctorate recipients<sup>c</sup> -> Physical sciences and earth sciences -> Physics and astronomy,All doctorate recipients<sup>c</sup>,Physical sciences and earth sciences,Physics and astronomy,3,2340,1503,1271,712,78,414,67,231,1
+1776,r010,All doctorate recipients<sup>c</sup> -> Mathematics and computer sciences,All doctorate recipients<sup>c</sup>,Mathematics and computer sciences,,2,4030,2775,2443,722,530,1053,138,332,0
+1776,r011,All doctorate recipients<sup>c</sup> -> Mathematics and computer sciences -> Computer and information sciences,All doctorate recipients<sup>c</sup>,Mathematics and computer sciences,Computer and information sciences,3,2004,1370,1243,233,258,682,70,127,0
+1776,r012,All doctorate recipients<sup>c</sup> -> Mathematics and computer sciences -> Mathematics and statistics,All doctorate recipients<sup>c</sup>,Mathematics and computer sciences,Mathematics and statistics,3,2026,1405,1200,489,272,371,68,205,0
+1776,r013,All doctorate recipients<sup>c</sup> -> Psychology and social sciences,All doctorate recipients<sup>c</sup>,Psychology and social sciences,,2,8899,5880,5140,2068,1673,650,749,737,3
+1776,r014,All doctorate recipients<sup>c</sup> -> Psychology and social sciences -> Psychology,All doctorate recipients<sup>c</sup>,Psychology and social sciences,Psychology,3,3837,2581,2477,1460,438,283,296,103,1
+1776,r015,All doctorate recipients<sup>c</sup> -> Psychology and social sciences -> Anthropology,All doctorate recipients<sup>c</sup>,Psychology and social sciences,Anthropology,3,424,233,189,77,76,16,20,43,1
+1776,r016,All doctorate recipients<sup>c</sup> -> Psychology and social sciences -> Economics,All doctorate recipients<sup>c</sup>,Psychology and social sciences,Economics,3,1247,940,667,105,285,179,98,273,0
+1776,r017,All doctorate recipients<sup>c</sup> -> Psychology and social sciences -> Political science and government,All doctorate recipients<sup>c</sup>,Psychology and social sciences,Political science and government,3,734,494,411,127,191,33,60,83,0
+1776,r018,All doctorate recipients<sup>c</sup> -> Psychology and social sciences -> Sociology,All doctorate recipients<sup>c</sup>,Psychology and social sciences,Sociology,3,669,444,402,102,232,24,44,42,0
+1776,r019,All doctorate recipients<sup>c</sup> -> Psychology and social sciences -> Other social sciences,All doctorate recipients<sup>c</sup>,Psychology and social sciences,Other social sciences,3,1988,1188,994,197,451,115,231,193,1
+1776,r020,All doctorate recipients<sup>c</sup> -> Engineering,All doctorate recipients<sup>c</sup>,Engineering,,2,10183,6109,5507,1881,466,2699,461,598,4
+1776,r021,"All doctorate recipients<sup>c</sup> -> Engineering -> Aerospace, aeronautical, and astronautical engineering",All doctorate recipients<sup>c</sup>,Engineering,"Aerospace, aeronautical, and astronautical engineering",3,383,245,228,64,23,85,56,16,1
+1776,r022,All doctorate recipients<sup>c</sup> -> Engineering -> Bioengineering and biomedical engineering,All doctorate recipients<sup>c</sup>,Engineering,Bioengineering and biomedical engineering,3,1134,634,577,326,42,186,23,57,0
+1776,r023,All doctorate recipients<sup>c</sup> -> Engineering -> Chemical engineering,All doctorate recipients<sup>c</sup>,Engineering,Chemical engineering,3,981,551,513,188,18,284,23,37,1
+1776,r024,All doctorate recipients<sup>c</sup> -> Engineering -> Civil engineering,All doctorate recipients<sup>c</sup>,Engineering,Civil engineering,3,677,396,336,135,44,127,30,59,1
+1776,r025,"All doctorate recipients<sup>c</sup> -> Engineering -> Electrical, electronics, and communications engineering",All doctorate recipients<sup>c</sup>,Engineering,"Electrical, electronics, and communications engineering",3,1951,1289,1180,264,66,756,94,109,0
+1776,r026,All doctorate recipients<sup>c</sup> -> Engineering -> Industrial and manufacturing engineering,All doctorate recipients<sup>c</sup>,Engineering,Industrial and manufacturing engineering,3,272,166,141,28,36,65,12,25,0
+1776,r027,All doctorate recipients<sup>c</sup> -> Engineering -> Materials science engineering,All doctorate recipients<sup>c</sup>,Engineering,Materials science engineering,3,995,561,513,211,23,247,32,48,0
+1776,r028,All doctorate recipients<sup>c</sup> -> Engineering -> Mechanical engineering,All doctorate recipients<sup>c</sup>,Engineering,Mechanical engineering,3,1504,862,784,289,85,341,69,78,0
+1776,r029,All doctorate recipients<sup>c</sup> -> Engineering -> Other engineering,All doctorate recipients<sup>c</sup>,Engineering,Other engineering,3,2286,1405,1235,376,129,608,122,169,1
+1776,r030,All doctorate recipients<sup>c</sup> -> Education,All doctorate recipients<sup>c</sup>,Education,,2,4834,3121,2913,257,1468,172,1016,207,1
+1776,r031,All doctorate recipients<sup>c</sup> -> Education -> Education administration,All doctorate recipients<sup>c</sup>,Education,Education administration,3,898,583,558,16,238,26,278,25,0
+1776,r032,All doctorate recipients<sup>c</sup> -> Education -> Education research,All doctorate recipients<sup>c</sup>,Education,Education research,3,2507,1628,1518,168,755,106,489,109,1
+1776,r033,All doctorate recipients<sup>c</sup> -> Education -> Teacher education,All doctorate recipients<sup>c</sup>,Education,Teacher education,3,97,60,,,29,8,19,,0
+1776,r034,All doctorate recipients<sup>c</sup> -> Education -> Teaching fields,All doctorate recipients<sup>c</sup>,Education,Teaching fields,3,963,654,594,50,360,22,162,60,0
+1776,r035,All doctorate recipients<sup>c</sup> -> Education -> Other education,All doctorate recipients<sup>c</sup>,Education,Other education,3,369,196,,,86,10,68,,0
+1776,r036,All doctorate recipients<sup>c</sup> -> Humanities and arts,All doctorate recipients<sup>c</sup>,Humanities and arts,,2,5145,2742,2437,444,1485,137,371,303,2
+1776,r037,All doctorate recipients<sup>c</sup> -> Humanities and arts -> Foreign languages and literature,All doctorate recipients<sup>c</sup>,Humanities and arts,Foreign languages and literature,3,617,346,305,52,212,7,34,41,0
+1776,r038,All doctorate recipients<sup>c</sup> -> Humanities and arts -> History,All doctorate recipients<sup>c</sup>,Humanities and arts,History,3,948,510,441,124,229,18,70,67,2
+1776,r039,All doctorate recipients<sup>c</sup> -> Humanities and arts -> Letters,All doctorate recipients<sup>c</sup>,Humanities and arts,Letters,3,1442,787,725,110,505,43,67,62,0
+1776,r040,All doctorate recipients<sup>c</sup> -> Humanities and arts -> Other humanities and arts,All doctorate recipients<sup>c</sup>,Humanities and arts,Other humanities and arts,3,2138,1099,966,158,539,69,200,133,0
+1776,r041,All doctorate recipients<sup>c</sup> -> Other<sup>d</sup>,All doctorate recipients<sup>c</sup>,Other<sup>d</sup>,,2,2989,1958,1672,150,1148,176,198,285,1
+1776,r042,All doctorate recipients<sup>c</sup> -> Other<sup>d</sup> -> Business management and administration,All doctorate recipients<sup>c</sup>,Other<sup>d</sup>,Business management and administration,3,1481,1063,867,51,640,106,70,195,1
+1776,r043,All doctorate recipients<sup>c</sup> -> Other<sup>d</sup> -> Communication,All doctorate recipients<sup>c</sup>,Other<sup>d</sup>,Communication,3,631,395,363,38,274,31,20,32,0
+1776,r044,All doctorate recipients<sup>c</sup> -> Other<sup>d</sup> -> Non-S&E fields nec,All doctorate recipients<sup>c</sup>,Other<sup>d</sup>,Non-S&E fields nec,3,877,500,442,61,234,39,108,58,0
+1776,r045,U.S. citizen or permanent resident,U.S. citizen or permanent resident,,,1,35404,22944,22002,7870,6716,3929,3487,937,5
+1776,r046,U.S. citizen or permanent resident -> Life sciences,U.S. citizen or permanent resident,Life sciences,,2,9041,5671,5492,3120,1005,769,598,178,1
+1776,r047,U.S. citizen or permanent resident -> Life sciences -> Agricultural sciences and natural resources,U.S. citizen or permanent resident,Life sciences,Agricultural sciences and natural resources,3,793,493,468,166,115,102,85,25,0
+1776,r048,U.S. citizen or permanent resident -> Life sciences -> Biological and biomedical sciences,U.S. citizen or permanent resident,Life sciences,Biological and biomedical sciences,3,6406,3961,3822,2580,417,547,278,138,1
+1776,r049,U.S. citizen or permanent resident -> Life sciences -> Health sciences,U.S. citizen or permanent resident,Life sciences,Health sciences,3,1842,1217,1202,374,473,120,235,15,0
+1776,r050,U.S. citizen or permanent resident -> Physical sciences and earth sciences,U.S. citizen or permanent resident,Physical sciences and earth sciences,,2,3771,2406,2237,1160,228,660,189,168,1
+1776,r051,U.S. citizen or permanent resident -> Physical sciences and earth sciences -> Chemistry,U.S. citizen or permanent resident,Physical sciences and earth sciences,Chemistry,3,1711,1055,1005,474,106,357,68,50,0
+1776,r052,"U.S. citizen or permanent resident -> Physical sciences and earth sciences -> Geosciences, atmospheric sciences, and ocean sciences",U.S. citizen or permanent resident,Physical sciences and earth sciences,"Geosciences, atmospheric sciences, and ocean sciences",3,760,511,476,280,68,65,63,35,0
+1776,r053,U.S. citizen or permanent resident -> Physical sciences and earth sciences -> Physics and astronomy,U.S. citizen or permanent resident,Physical sciences and earth sciences,Physics and astronomy,3,1300,840,756,406,54,238,58,83,1
+1776,r054,U.S. citizen or permanent resident -> Mathematics and computer sciences,U.S. citizen or permanent resident,Mathematics and computer sciences,,2,1739,1251,1182,349,327,395,111,69,0
+1776,r055,U.S. citizen or permanent resident -> Mathematics and computer sciences -> Computer and information sciences,U.S. citizen or permanent resident,Mathematics and computer sciences,Computer and information sciences,3,743,542,528,95,148,233,52,14,0
+1776,r056,U.S. citizen or permanent resident -> Mathematics and computer sciences -> Mathematics and statistics,U.S. citizen or permanent resident,Mathematics and computer sciences,Mathematics and statistics,3,996,709,654,254,179,162,59,55,0
+1776,r057,U.S. citizen or permanent resident -> Psychology and social sciences,U.S. citizen or permanent resident,Psychology and social sciences,,2,6704,4632,4418,1802,1398,537,681,213,1
+1776,r058,U.S. citizen or permanent resident -> Psychology and social sciences -> Psychology,U.S. citizen or permanent resident,Psychology and social sciences,Psychology,3,3321,2380,2331,1370,406,267,288,49,0
+1776,r059,U.S. citizen or permanent resident -> Psychology and social sciences -> Anthropology,U.S. citizen or permanent resident,Psychology and social sciences,Anthropology,3,335,193,172,68,70,16,18,20,1
+1776,r060,U.S. citizen or permanent resident -> Psychology and social sciences -> Economics,U.S. citizen or permanent resident,Psychology and social sciences,Economics,3,484,392,365,48,155,102,60,27,0
+1776,r061,U.S. citizen or permanent resident -> Psychology and social sciences -> Political science and government,U.S. citizen or permanent resident,Psychology and social sciences,Political science and government,3,543,379,350,,168,,58,29,0
+1776,r062,U.S. citizen or permanent resident -> Psychology and social sciences -> Sociology,U.S. citizen or permanent resident,Psychology and social sciences,Sociology,3,556,386,364,,217,,42,22,0
+1776,r063,U.S. citizen or permanent resident -> Psychology and social sciences -> Other social sciences,U.S. citizen or permanent resident,Psychology and social sciences,Other social sciences,3,1465,902,836,138,382,101,215,66,0
+1776,r064,U.S. citizen or permanent resident -> Engineering,U.S. citizen or permanent resident,Engineering,,2,4218,2650,2566,758,287,1141,380,83,1
+1776,r065,"U.S. citizen or permanent resident -> Engineering -> Aerospace, aeronautical, and astronautical engineering",U.S. citizen or permanent resident,Engineering,"Aerospace, aeronautical, and astronautical engineering",3,221,160,,26,16,62,,,1
+1776,r066,U.S. citizen or permanent resident -> Engineering -> Bioengineering and biomedical engineering,U.S. citizen or permanent resident,Engineering,Bioengineering and biomedical engineering,3,744,410,392,203,37,131,21,18,0
+1776,r067,U.S. citizen or permanent resident -> Engineering -> Chemical engineering,U.S. citizen or permanent resident,Engineering,Chemical engineering,3,469,262,257,80,,145,,5,0
+1776,r068,U.S. citizen or permanent resident -> Engineering -> Civil engineering,U.S. citizen or permanent resident,Engineering,Civil engineering,3,200,138,132,37,27,45,23,6,0
+1776,r069,"U.S. citizen or permanent resident -> Engineering -> Electrical, electronics, and communications engineering",U.S. citizen or permanent resident,Engineering,"Electrical, electronics, and communications engineering",3,544,399,392,66,38,219,69,7,0
+1776,r070,U.S. citizen or permanent resident -> Engineering -> Industrial and manufacturing engineering,U.S. citizen or permanent resident,Engineering,Industrial and manufacturing engineering,3,62,43,,6,,17,9,,0
+1776,r071,U.S. citizen or permanent resident -> Engineering -> Materials science engineering,U.S. citizen or permanent resident,Engineering,Materials science engineering,3,463,272,260,76,15,140,29,12,0
+1776,r072,U.S. citizen or permanent resident -> Engineering -> Mechanical engineering,U.S. citizen or permanent resident,Engineering,Mechanical engineering,3,608,380,369,108,59,150,52,11,0
+1776,r073,U.S. citizen or permanent resident -> Engineering -> Other engineering,U.S. citizen or permanent resident,Engineering,Other engineering,3,907,586,568,156,72,232,108,18,0
+1776,r074,U.S. citizen or permanent resident -> Education,U.S. citizen or permanent resident,Education,,2,4033,2793,2756,216,1382,160,998,36,1
+1776,r075,U.S. citizen or permanent resident -> Education -> Education administration,U.S. citizen or permanent resident,Education,Education administration,3,784,556,,,,26,278,,0
+1776,r076,U.S. citizen or permanent resident -> Education -> Education research,U.S. citizen or permanent resident,Education,Education research,3,2060,1432,1411,,698,,474,20,1
+1776,r077,U.S. citizen or permanent resident -> Education -> Teacher education,U.S. citizen or permanent resident,Education,Teacher education,3,88,,,,,8,19,0,0
+1776,r078,U.S. citizen or permanent resident -> Education -> Teaching fields,U.S. citizen or permanent resident,Education,Teaching fields,3,788,567,558,,337,,161,9,0
+1776,r079,U.S. citizen or permanent resident -> Education -> Other education,U.S. citizen or permanent resident,Education,Other education,3,313,,178,,,10,66,,0
+1776,r080,U.S. citizen or permanent resident -> Humanities and arts,U.S. citizen or permanent resident,Humanities and arts,,2,4150,2331,2185,370,1331,130,354,146,0
+1776,r081,U.S. citizen or permanent resident -> Humanities and arts -> Foreign languages and literature,U.S. citizen or permanent resident,Humanities and arts,Foreign languages and literature,3,406,243,226,34,156,7,29,17,0
+1776,r082,U.S. citizen or permanent resident -> Humanities and arts -> History,U.S. citizen or permanent resident,Humanities and arts,History,3,800,438,400,,212,,68,38,0
+1776,r083,U.S. citizen or permanent resident -> Humanities and arts -> Letters,U.S. citizen or permanent resident,Humanities and arts,Letters,3,1235,710,681,100,473,43,65,29,0
+1776,r084,U.S. citizen or permanent resident -> Humanities and arts -> Other humanities and arts,U.S. citizen or permanent resident,Humanities and arts,Other humanities and arts,3,1709,940,878,,490,,192,62,0
+1776,r085,U.S. citizen or permanent resident -> Other<sup>d</sup>,U.S. citizen or permanent resident,Other<sup>d</sup>,,2,1748,1210,1166,95,758,137,176,44,0
+1776,r086,U.S. citizen or permanent resident -> Other<sup>d</sup> -> Business management and administration,U.S. citizen or permanent resident,Other<sup>d</sup>,Business management and administration,3,744,551,519,25,362,75,57,32,0
+1776,r087,U.S. citizen or permanent resident -> Other<sup>d</sup> -> Communication,U.S. citizen or permanent resident,Other<sup>d</sup>,Communication,3,435,280,274,,202,,19,6,0
+1776,r088,U.S. citizen or permanent resident -> Other<sup>d</sup> -> Non-S&E fields nec,U.S. citizen or permanent resident,Other<sup>d</sup>,Non-S&E fields nec,3,569,379,373,,194,,100,6,0
+1776,r089,Temporary visa holder,Temporary visa holder,,,1,17604,11229,8666,3939,1432,3015,280,2559,4
+1776,r090,Temporary visa holder -> Life sciences,Temporary visa holder,Life sciences,,2,3364,2065,1662,1225,112,281,44,403,0
+1776,r091,Temporary visa holder -> Life sciences -> Agricultural sciences and natural resources,Temporary visa holder,Life sciences,Agricultural sciences and natural resources,3,609,371,239,172,22,33,12,132,0
+1776,r092,Temporary visa holder -> Life sciences -> Biological and biomedical sciences,Temporary visa holder,Life sciences,Biological and biomedical sciences,3,2160,1336,1163,907,48,187,21,173,0
+1776,r093,Temporary visa holder -> Life sciences -> Health sciences,Temporary visa holder,Life sciences,Health sciences,3,595,358,260,146,42,61,11,98,0
+1776,r094,Temporary visa holder -> Physical sciences and earth sciences,Temporary visa holder,Physical sciences and earth sciences,,2,2375,1535,1237,801,55,364,17,298,0
+1776,r095,Temporary visa holder -> Physical sciences and earth sciences -> Chemistry,Temporary visa holder,Physical sciences and earth sciences,Chemistry,3,1022,636,541,357,23,156,5,95,0
+1776,r096,"Temporary visa holder -> Physical sciences and earth sciences -> Geosciences, atmospheric sciences, and ocean sciences",Temporary visa holder,Physical sciences and earth sciences,"Geosciences, atmospheric sciences, and ocean sciences",3,392,239,182,139,8,32,3,57,0
+1776,r097,Temporary visa holder -> Physical sciences and earth sciences -> Physics and astronomy,Temporary visa holder,Physical sciences and earth sciences,Physics and astronomy,3,961,660,514,305,24,176,9,146,0
+1776,r098,Temporary visa holder -> Mathematics and computer sciences,Temporary visa holder,Mathematics and computer sciences,,2,2130,1510,1249,370,201,652,26,261,0
+1776,r099,Temporary visa holder -> Mathematics and computer sciences -> Computer and information sciences,Temporary visa holder,Mathematics and computer sciences,Computer and information sciences,3,1166,819,707,136,109,444,18,112,0
+1776,r100,Temporary visa holder -> Mathematics and computer sciences -> Mathematics and statistics,Temporary visa holder,Mathematics and computer sciences,Mathematics and statistics,3,964,691,542,234,92,208,8,149,0
+1776,r101,Temporary visa holder -> Psychology and social sciences,Temporary visa holder,Psychology and social sciences,,2,1771,1227,706,259,270,111,66,521,0
+1776,r102,Temporary visa holder -> Psychology and social sciences -> Psychology,Temporary visa holder,Psychology and social sciences,Psychology,3,285,191,138,84,31,16,7,53,0
+1776,r103,Temporary visa holder -> Psychology and social sciences -> Anthropology,Temporary visa holder,Psychology and social sciences,Anthropology,3,70,40,17,9,6,0,2,23,0
+1776,r104,Temporary visa holder -> Psychology and social sciences -> Economics,Temporary visa holder,Psychology and social sciences,Economics,3,707,544,298,57,128,76,37,246,0
+1776,r105,Temporary visa holder -> Psychology and social sciences -> Political science and government,Temporary visa holder,Psychology and social sciences,Political science and government,3,159,115,61,,23,,2,54,0
+1776,r106,Temporary visa holder -> Psychology and social sciences -> Sociology,Temporary visa holder,Psychology and social sciences,Sociology,3,89,57,37,,15,,2,20,0
+1776,r107,Temporary visa holder -> Psychology and social sciences -> Other social sciences,Temporary visa holder,Psychology and social sciences,Other social sciences,3,461,280,155,58,67,14,16,125,0
+1776,r108,Temporary visa holder -> Engineering,Temporary visa holder,Engineering,,2,5583,3438,2925,1117,179,1550,79,510,3
+1776,r109,"Temporary visa holder -> Engineering -> Aerospace, aeronautical, and astronautical engineering",Temporary visa holder,Engineering,"Aerospace, aeronautical, and astronautical engineering",3,146,84,,37,7,23,,,0
+1776,r110,Temporary visa holder -> Engineering -> Bioengineering and biomedical engineering,Temporary visa holder,Engineering,Bioengineering and biomedical engineering,3,362,222,183,121,5,55,2,39,0
+1776,r111,Temporary visa holder -> Engineering -> Chemical engineering,Temporary visa holder,Engineering,Chemical engineering,3,478,289,256,108,,139,,32,1
+1776,r112,Temporary visa holder -> Engineering -> Civil engineering,Temporary visa holder,Engineering,Civil engineering,3,443,257,204,98,17,82,7,52,1
+1776,r113,"Temporary visa holder -> Engineering -> Electrical, electronics, and communications engineering",Temporary visa holder,Engineering,"Electrical, electronics, and communications engineering",3,1319,884,784,198,28,534,24,100,0
+1776,r114,Temporary visa holder -> Engineering -> Industrial and manufacturing engineering,Temporary visa holder,Engineering,Industrial and manufacturing engineering,3,196,123,,22,,48,3,,0
+1776,r115,Temporary visa holder -> Engineering -> Materials science engineering,Temporary visa holder,Engineering,Materials science engineering,3,502,287,251,133,8,107,3,36,0
+1776,r116,Temporary visa holder -> Engineering -> Mechanical engineering,Temporary visa holder,Engineering,Mechanical engineering,3,831,477,410,181,26,187,16,67,0
+1776,r117,Temporary visa holder -> Engineering -> Other engineering,Temporary visa holder,Engineering,Other engineering,3,1306,815,665,219,57,375,14,149,1
+1776,r118,Temporary visa holder -> Education,Temporary visa holder,Education,,2,613,319,149,39,83,12,15,170,0
+1776,r119,Temporary visa holder -> Education -> Education administration,Temporary visa holder,Education,Education administration,3,53,27,,,,0,0,,0
+1776,r120,Temporary visa holder -> Education -> Education research,Temporary visa holder,Education,Education research,3,367,190,102,,55,,13,88,0
+1776,r121,Temporary visa holder -> Education -> Teacher education,Temporary visa holder,Education,Teacher education,3,8,,,,,0,0,,0
+1776,r122,Temporary visa holder -> Education -> Teaching fields,Temporary visa holder,Education,Teaching fields,3,155,85,34,,22,,1,51,0
+1776,r123,Temporary visa holder -> Education -> Other education,Temporary visa holder,Education,Other education,3,30,,,,,0,1,7,0
+1776,r124,Temporary visa holder -> Humanities and arts,Temporary visa holder,Humanities and arts,,2,738,398,241,73,149,6,13,156,1
+1776,r125,Temporary visa holder -> Humanities and arts -> Foreign languages and literature,Temporary visa holder,Humanities and arts,Foreign languages and literature,3,180,103,79,18,56,0,5,24,0
+1776,r126,Temporary visa holder -> Humanities and arts -> History,Temporary visa holder,Humanities and arts,History,3,112,69,39,,16,,1,29,1
+1776,r127,Temporary visa holder -> Humanities and arts -> Letters,Temporary visa holder,Humanities and arts,Letters,3,139,75,42,10,30,0,2,33,0
+1776,r128,Temporary visa holder -> Humanities and arts -> Other humanities and arts,Temporary visa holder,Humanities and arts,Other humanities and arts,3,307,151,81,,47,,5,70,0
+1776,r129,Temporary visa holder -> Other<sup>d</sup>,Temporary visa holder,Other<sup>d</sup>,,2,1030,737,497,55,383,39,20,240,0
+1776,r130,Temporary visa holder -> Other<sup>d</sup> -> Business management and administration,Temporary visa holder,Other<sup>d</sup>,Business management and administration,3,644,505,342,26,272,31,13,163,0
+1776,r131,Temporary visa holder -> Other<sup>d</sup> -> Communication,Temporary visa holder,Other<sup>d</sup>,Communication,3,165,115,89,,72,,1,26,0
+1776,r132,Temporary visa holder -> Other<sup>d</sup> -> Non-S&E fields nec,Temporary visa holder,Other<sup>d</sup>,Non-S&E fields nec,3,221,117,66,,39,,6,51,0

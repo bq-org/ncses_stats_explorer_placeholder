@@ -1,0 +1,352 @@
+table_id,row_id,time_period,broad_field_e_g_ndgmebg_level_1,broad_field_e_g_ndgmebg_level_2,broad_field_e_g_ndgmebg_hierarchy_depth,value
+5280,r001_1,1,"Broad field (e.g., NDGMEBG)",Label,2,S&E fields
+5280,r001_2,1,"Major field (e.g., NDGMEMG)",Code,2,1
+5280,r001_3,1,"Major field (e.g., NDGMEMG)",Label,2,Computer and mathematical sciences
+5280,r001_4,1,"Minor field (e.g., NDGMENG)",Code,2,11
+5280,r001_5,1,"Minor field (e.g., NDGMENG)",Label,2,Computer and information sciences
+5280,r001_6,1,"Detailed field (e.g., N2DGRMED)",Code,2,116710
+5280,r001_7,1,"Detailed field (e.g., N2DGRMED)",Label,2,Computer and information sciences
+5280,r002_6,,"Detailed field (e.g., N2DGRMED)",Code,2,116730
+5280,r002_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Computer science
+5280,r003_6,,"Detailed field (e.g., N2DGRMED)",Code,2,116740
+5280,r003_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Computer systems analysis
+5280,r004_6,,"Detailed field (e.g., N2DGRMED)",Code,2,116760
+5280,r004_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Information services and systems
+5280,r005_6,,"Detailed field (e.g., N2DGRMED)",Code,2,116770
+5280,r005_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other computer and information sciences
+5280,r006_4,,"Minor field (e.g., NDGMENG)",Code,2,12
+5280,r006_5,,"Minor field (e.g., NDGMENG)",Label,2,Mathematics and statistics
+5280,r006_6,,"Detailed field (e.g., N2DGRMED)",Code,2,128410
+5280,r006_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Applied mathematics
+5280,r007_6,,"Detailed field (e.g., N2DGRMED)",Code,2,128420
+5280,r007_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Mathematics, general"
+5280,r008_6,,"Detailed field (e.g., N2DGRMED)",Code,2,128430
+5280,r008_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Operations research
+5280,r009_6,,"Detailed field (e.g., N2DGRMED)",Code,2,128440
+5280,r009_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Statistics
+5280,r010_6,,"Detailed field (e.g., N2DGRMED)",Code,2,128450
+5280,r010_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other mathematics
+5280,r011_2,,"Major field (e.g., NDGMEMG)",Code,2,2
+5280,r011_3,,"Major field (e.g., NDGMEMG)",Label,2,"Biological, agricultural, and environmental life sciences"
+5280,r011_4,,"Minor field (e.g., NDGMENG)",Code,2,21
+5280,r011_5,,"Minor field (e.g., NDGMENG)",Label,2,Agricultural and food sciences
+5280,r011_6,,"Detailed field (e.g., N2DGRMED)",Code,2,216050
+5280,r011_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Animal sciences
+5280,r012_6,,"Detailed field (e.g., N2DGRMED)",Code,2,216060
+5280,r012_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Food sciences and technology
+5280,r013_6,,"Detailed field (e.g., N2DGRMED)",Code,2,216070
+5280,r013_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Plant sciences
+5280,r014_6,,"Detailed field (e.g., N2DGRMED)",Code,2,216080
+5280,r014_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other agricultural sciences
+5280,r015_4,,"Minor field (e.g., NDGMENG)",Code,2,22
+5280,r015_5,,"Minor field (e.g., NDGMENG)",Label,2,Biological sciences
+5280,r015_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226310
+5280,r015_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Biochemistry and biophysics
+5280,r016_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226320
+5280,r016_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Biology, general"
+5280,r017_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226330
+5280,r017_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Botany
+5280,r018_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226340
+5280,r018_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Cell and molecular biology
+5280,r019_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226350
+5280,r019_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Ecology
+5280,r020_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226360
+5280,r020_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Genetics, animal and plant"
+5280,r021_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226370
+5280,r021_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Microbiological sciences and immunology
+5280,r022_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226380
+5280,r022_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Nutritional sciences
+5280,r023_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226390
+5280,r023_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Pharmacology, human and animal"
+5280,r024_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226400
+5280,r024_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Physiology and pathology, human and animal"
+5280,r025_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226410
+5280,r025_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Zoology, general"
+5280,r026_6,,"Detailed field (e.g., N2DGRMED)",Code,2,226420
+5280,r026_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other biological sciences
+5280,r027_4,,"Minor field (e.g., NDGMENG)",Code,2,23
+5280,r027_5,,"Minor field (e.g., NDGMENG)",Label,2,Environmental life sciences
+5280,r027_6,,"Detailed field (e.g., N2DGRMED)",Code,2,236800
+5280,r027_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Environmental science or studies
+5280,r028_6,,"Detailed field (e.g., N2DGRMED)",Code,2,236810
+5280,r028_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Forestry sciences
+5280,r029_2,,"Major field (e.g., NDGMEMG)",Code,2,3
+5280,r029_3,,"Major field (e.g., NDGMEMG)",Label,2,Physical and related sciences
+5280,r029_4,,"Minor field (e.g., NDGMENG)",Code,2,31
+5280,r029_5,,"Minor field (e.g., NDGMENG)",Label,2,"Chemistry, except biochemistry"
+5280,r029_6,,"Detailed field (e.g., N2DGRMED)",Code,2,318730
+5280,r029_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Chemistry, except biochemistry"
+5280,r030_4,,"Minor field (e.g., NDGMENG)",Code,2,32
+5280,r030_5,,"Minor field (e.g., NDGMENG)",Label,2,"Earth, atmospheric, and ocean sciences"
+5280,r030_6,,"Detailed field (e.g., N2DGRMED)",Code,2,328720
+5280,r030_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Atmospheric sciences and meteorology
+5280,r031_6,,"Detailed field (e.g., N2DGRMED)",Code,2,328740
+5280,r031_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Earth sciences
+5280,r032_6,,"Detailed field (e.g., N2DGRMED)",Code,2,328750
+5280,r032_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Geology
+5280,r033_6,,"Detailed field (e.g., N2DGRMED)",Code,2,328760
+5280,r033_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Geological sciences, other (including oceanography)a"
+5280,r034_4,,"Minor field (e.g., NDGMENG)",Code,2,33
+5280,r034_5,,"Minor field (e.g., NDGMENG)",Label,2,Physics and astronomy
+5280,r034_6,,"Detailed field (e.g., N2DGRMED)",Code,2,338710
+5280,r034_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Astronomy and astrophysics
+5280,r035_6,,"Detailed field (e.g., N2DGRMED)",Code,2,338780
+5280,r035_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Physics
+5280,r036_4,,"Minor field (e.g., NDGMENG)",Code,2,34
+5280,r036_5,,"Minor field (e.g., NDGMENG)",Label,2,Other physical sciences
+5280,r036_6,,"Detailed field (e.g., N2DGRMED)",Code,2,348790
+5280,r036_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other physical sciences
+5280,r037_2,,"Major field (e.g., NDGMEMG)",Code,2,4
+5280,r037_3,,"Major field (e.g., NDGMEMG)",Label,2,Social and related sciences
+5280,r037_4,,"Minor field (e.g., NDGMENG)",Code,2,41
+5280,r037_5,,"Minor field (e.g., NDGMENG)",Label,2,Economics
+5280,r037_6,,"Detailed field (e.g., N2DGRMED)",Code,2,416010
+5280,r037_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Agricultural economics
+5280,r038_6,,"Detailed field (e.g., N2DGRMED)",Code,2,419230
+5280,r038_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Economics
+5280,r039_4,,"Minor field (e.g., NDGMENG)",Code,2,42
+5280,r039_5,,"Minor field (e.g., NDGMENG)",Label,2,Political and related sciences
+5280,r039_6,,"Detailed field (e.g., N2DGRMED)",Code,2,429020
+5280,r039_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Public policy studies
+5280,r040_6,,"Detailed field (e.g., N2DGRMED)",Code,2,429270
+5280,r040_7,,"Detailed field (e.g., N2DGRMED)",Label,2,International relations
+5280,r041_6,,"Detailed field (e.g., N2DGRMED)",Code,2,429280
+5280,r041_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Political science and government
+5280,r042_4,,"Minor field (e.g., NDGMENG)",Code,2,43
+5280,r042_5,,"Minor field (e.g., NDGMENG)",Label,2,Psychology
+5280,r042_6,,"Detailed field (e.g., N2DGRMED)",Code,2,437040
+5280,r042_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Educational psychology
+5280,r043_6,,"Detailed field (e.g., N2DGRMED)",Code,2,438910
+5280,r043_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Clinical psychology
+5280,r044_6,,"Detailed field (e.g., N2DGRMED)",Code,2,438920
+5280,r044_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Counseling psychology
+5280,r045_6,,"Detailed field (e.g., N2DGRMED)",Code,2,438930
+5280,r045_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Experimental psychology
+5280,r046_6,,"Detailed field (e.g., N2DGRMED)",Code,2,438940
+5280,r046_7,,"Detailed field (e.g., N2DGRMED)",Label,2,General psychology
+5280,r047_6,,"Detailed field (e.g., N2DGRMED)",Code,2,438950
+5280,r047_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Industrial/ organizational psychology
+5280,r048_6,,"Detailed field (e.g., N2DGRMED)",Code,2,438960
+5280,r048_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Social psychology
+5280,r049_6,,"Detailed field (e.g., N2DGRMED)",Code,2,438970
+5280,r049_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other psychology
+5280,r050_4,,"Minor field (e.g., NDGMENG)",Code,2,44
+5280,r050_5,,"Minor field (e.g., NDGMENG)",Label,2,Sociology and anthropology
+5280,r050_6,,"Detailed field (e.g., N2DGRMED)",Code,2,449210
+5280,r050_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Anthropology and archaeology
+5280,r051_6,,"Detailed field (e.g., N2DGRMED)",Code,2,449220
+5280,r051_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Criminology
+5280,r052_6,,"Detailed field (e.g., N2DGRMED)",Code,2,449290
+5280,r052_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Sociology
+5280,r053_4,,"Minor field (e.g., NDGMENG)",Code,2,45
+5280,r053_5,,"Minor field (e.g., NDGMENG)",Label,2,Other social sciences
+5280,r053_6,,"Detailed field (e.g., N2DGRMED)",Code,2,456200
+5280,r053_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Area and ethnic studies
+5280,r054_6,,"Detailed field (e.g., N2DGRMED)",Code,2,457710
+5280,r054_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Linguistics
+5280,r055_6,,"Detailed field (e.g., N2DGRMED)",Code,2,458610
+5280,r055_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Philosophy of science
+5280,r056_6,,"Detailed field (e.g., N2DGRMED)",Code,2,459240
+5280,r056_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Geography
+5280,r057_6,,"Detailed field (e.g., N2DGRMED)",Code,2,459300
+5280,r057_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Other social sciences, including history of scienceb"
+5280,r058_2,,"Major field (e.g., NDGMEMG)",Code,2,5
+5280,r058_3,,"Major field (e.g., NDGMEMG)",Label,2,Engineering
+5280,r058_4,,"Minor field (e.g., NDGMENG)",Code,2,51
+5280,r058_5,,"Minor field (e.g., NDGMENG)",Label,2,"Aerospace, aeronautical, and astronautical engineering"
+5280,r058_6,,"Detailed field (e.g., N2DGRMED)",Code,2,517210
+5280,r058_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Aerospace, aeronautical, and astronautical/ space engineering"
+5280,r059_4,,"Minor field (e.g., NDGMENG)",Code,2,52
+5280,r059_5,,"Minor field (e.g., NDGMENG)",Label,2,Chemical engineering
+5280,r059_6,,"Detailed field (e.g., N2DGRMED)",Code,2,527250
+5280,r059_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Chemical engineering
+5280,r060_4,,"Minor field (e.g., NDGMENG)",Code,2,53
+5280,r060_5,,"Minor field (e.g., NDGMENG)",Label,2,Civil and architectural engineering
+5280,r060_6,,"Detailed field (e.g., N2DGRMED)",Code,2,537230
+5280,r060_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Architectural engineering
+5280,r061_6,,"Detailed field (e.g., N2DGRMED)",Code,2,537260
+5280,r061_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Civil engineering
+5280,r062_4,,"Minor field (e.g., NDGMENG)",Code,2,54
+5280,r062_5,,"Minor field (e.g., NDGMENG)",Label,2,Electrical and computer engineering
+5280,r062_6,,"Detailed field (e.g., N2DGRMED)",Code,2,547270
+5280,r062_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Computer and systems engineering
+5280,r063_6,,"Detailed field (e.g., N2DGRMED)",Code,2,547280
+5280,r063_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Electrical, electronics, and communications engineering"
+5280,r064_4,,"Minor field (e.g., NDGMENG)",Code,2,55
+5280,r064_5,,"Minor field (e.g., NDGMENG)",Label,2,Industrial engineering
+5280,r064_6,,"Detailed field (e.g., N2DGRMED)",Code,2,557330
+5280,r064_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Industrial and manufacturing engineering
+5280,r065_4,,"Minor field (e.g., NDGMENG)",Code,2,56
+5280,r065_5,,"Minor field (e.g., NDGMENG)",Label,2,Mechanical engineering
+5280,r065_6,,"Detailed field (e.g., N2DGRMED)",Code,2,567350
+5280,r065_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Mechanical engineering
+5280,r066_4,,"Minor field (e.g., NDGMENG)",Code,2,57
+5280,r066_5,,"Minor field (e.g., NDGMENG)",Label,2,Other engineering
+5280,r066_6,,"Detailed field (e.g., N2DGRMED)",Code,2,577220
+5280,r066_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Agricultural engineering
+5280,r067_6,,"Detailed field (e.g., N2DGRMED)",Code,2,577240
+5280,r067_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Bioengineering and biomedical engineering
+5280,r068_6,,"Detailed field (e.g., N2DGRMED)",Code,2,577290
+5280,r068_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Engineering sciences, mechanics and physics"
+5280,r069_6,,"Detailed field (e.g., N2DGRMED)",Code,2,577300
+5280,r069_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Environmental engineering
+5280,r070_6,,"Detailed field (e.g., N2DGRMED)",Code,2,577310
+5280,r070_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Engineering, general"
+5280,r071_6,,"Detailed field (e.g., N2DGRMED)",Code,2,577340
+5280,r071_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Materials engineering, including ceramics and textiles"
+5280,r072_6,,"Detailed field (e.g., N2DGRMED)",Code,2,577360
+5280,r072_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Metallurgical engineering
+5280,r073_6,,"Detailed field (e.g., N2DGRMED)",Code,2,577390
+5280,r073_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Nuclear engineering
+5280,r074_6,,"Detailed field (e.g., N2DGRMED)",Code,2,577410
+5280,r074_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Other engineering, including geophysical, geological, mining, mineral, naval architecture, marine, and petroleumc"
+5280,r075_1,2,"Broad field (e.g., NDGMEBG)",Label,2,S&E-related fields
+5280,r075_2,2,"Major field (e.g., NDGMEMG)",Code,2,6
+5280,r075_3,2,"Major field (e.g., NDGMEMG)",Label,2,S&E-related fields
+5280,r075_4,2,"Minor field (e.g., NDGMENG)",Code,2,61
+5280,r075_5,2,"Minor field (e.g., NDGMENG)",Label,2,Health
+5280,r075_6,2,"Detailed field (e.g., N2DGRMED)",Code,2,617810
+5280,r075_7,2,"Detailed field (e.g., N2DGRMED)",Label,2,Audiology and speech pathology
+5280,r076_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617820
+5280,r076_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Health services administration
+5280,r077_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617830
+5280,r077_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Health/ medical assistants
+5280,r078_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617840
+5280,r078_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Health/ medical technologies
+5280,r079_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617850
+5280,r079_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Medical preparatory programs (e.g., pre-dentistry, pre-medical, pre-veterinary)"
+5280,r080_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617860
+5280,r080_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Medicine (dentistry, optometry, osteopathic, podiatry, veterinary)"
+5280,r081_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617870
+5280,r081_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Nursing (4 years or longer program)
+5280,r082_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617880
+5280,r082_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Pharmacy
+5280,r083_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617890
+5280,r083_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Physical therapy and other rehabilitation/ therapeutic services
+5280,r084_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617900
+5280,r084_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Public health (including environmental health and epidemiology)
+5280,r085_6,,"Detailed field (e.g., N2DGRMED)",Code,2,617910
+5280,r085_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other health/ medical sciences
+5280,r086_4,,"Minor field (e.g., NDGMENG)",Code,2,62
+5280,r086_5,,"Minor field (e.g., NDGMENG)",Label,2,Science and mathematics teacher education
+5280,r086_6,,"Detailed field (e.g., N2DGRMED)",Code,2,627020
+5280,r086_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Computer teacher education
+5280,r087_6,,"Detailed field (e.g., N2DGRMED)",Code,2,627060
+5280,r087_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Mathematics teacher education
+5280,r088_6,,"Detailed field (e.g., N2DGRMED)",Code,2,627090
+5280,r088_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Science teacher education
+5280,r089_6,,"Detailed field (e.g., N2DGRMED)",Code,2,627120
+5280,r089_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Social science teacher education
+5280,r090_4,,"Minor field (e.g., NDGMENG)",Code,2,63
+5280,r090_5,,"Minor field (e.g., NDGMENG)",Label,2,Technology and technical fields
+5280,r090_6,,"Detailed field (e.g., N2DGRMED)",Code,2,636720
+5280,r090_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Computer programming
+5280,r091_6,,"Detailed field (e.g., N2DGRMED)",Code,2,636750
+5280,r091_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Data processing
+5280,r092_6,,"Detailed field (e.g., N2DGRMED)",Code,2,637510
+5280,r092_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Electrical and electronic technologies
+5280,r093_6,,"Detailed field (e.g., N2DGRMED)",Code,2,637520
+5280,r093_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Industrial production technologies
+5280,r094_6,,"Detailed field (e.g., N2DGRMED)",Code,2,637530
+5280,r094_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Mechanical engineering-related technologies
+5280,r095_6,,"Detailed field (e.g., N2DGRMED)",Code,2,637540
+5280,r095_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other engineering-related technologies
+5280,r096_4,,"Minor field (e.g., NDGMENG)",Code,2,64
+5280,r096_5,,"Minor field (e.g., NDGMENG)",Label,2,Other science and engineering-related fields
+5280,r096_6,,"Detailed field (e.g., N2DGRMED)",Code,2,646100
+5280,r096_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Architecture/ environmental design
+5280,r097_6,,"Detailed field (e.g., N2DGRMED)",Code,2,646520
+5280,r097_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Actuarial science
+5280,r098_1,3,"Broad field (e.g., NDGMEBG)",Label,2,Non-S&E fields
+5280,r098_2,3,"Major field (e.g., NDGMEMG)",Code,2,7
+5280,r098_3,3,"Major field (e.g., NDGMEMG)",Label,2,Non-S&E fields
+5280,r098_4,3,"Minor field (e.g., NDGMENG)",Code,2,71
+5280,r098_5,3,"Minor field (e.g., NDGMENG)",Label,2,Management and administration fields
+5280,r098_6,3,"Detailed field (e.g., N2DGRMED)",Code,2,716020
+5280,r098_7,3,"Detailed field (e.g., N2DGRMED)",Label,2,Other agricultural business and production
+5280,r099_6,,"Detailed field (e.g., N2DGRMED)",Code,2,716510
+5280,r099_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Accounting
+5280,r100_6,,"Detailed field (e.g., N2DGRMED)",Code,2,716530
+5280,r100_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Business administration and management
+5280,r101_6,,"Detailed field (e.g., N2DGRMED)",Code,2,716540
+5280,r101_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Business, general"
+5280,r102_6,,"Detailed field (e.g., N2DGRMED)",Code,2,716550
+5280,r102_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Business and managerial economics
+5280,r103_6,,"Detailed field (e.g., N2DGRMED)",Code,2,716570
+5280,r103_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Financial management
+5280,r104_6,,"Detailed field (e.g., N2DGRMED)",Code,2,716590
+5280,r104_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other business management/ administrative services
+5280,r105_4,,"Minor field (e.g., NDGMENG)",Code,2,72
+5280,r105_5,,"Minor field (e.g., NDGMENG)",Label,2,"Education, except science and math teacher education"
+5280,r105_6,,"Detailed field (e.g., N2DGRMED)",Code,2,727010
+5280,r105_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Education administration
+5280,r106_6,,"Detailed field (e.g., N2DGRMED)",Code,2,727030
+5280,r106_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Counselor education and guidance services
+5280,r107_6,,"Detailed field (e.g., N2DGRMED)",Code,2,727050
+5280,r107_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Elementary teacher education
+5280,r108_6,,"Detailed field (e.g., N2DGRMED)",Code,2,727070
+5280,r108_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Physical education and coaching
+5280,r109_6,,"Detailed field (e.g., N2DGRMED)",Code,2,727080
+5280,r109_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Pre-school/ kindergarten/ early childhood teacher education
+5280,r110_6,,"Detailed field (e.g., N2DGRMED)",Code,2,727100
+5280,r110_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Secondary teacher education
+5280,r111_6,,"Detailed field (e.g., N2DGRMED)",Code,2,727110
+5280,r111_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Special education
+5280,r112_6,,"Detailed field (e.g., N2DGRMED)",Code,2,727130
+5280,r112_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other education
+5280,r113_4,,"Minor field (e.g., NDGMENG)",Code,2,73
+5280,r113_5,,"Minor field (e.g., NDGMENG)",Label,2,Social service and related fields
+5280,r113_6,,"Detailed field (e.g., N2DGRMED)",Code,2,738620
+5280,r113_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Other philosophy, religion, theology"
+5280,r114_6,,"Detailed field (e.g., N2DGRMED)",Code,2,739100
+5280,r114_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Social work
+5280,r115_4,,"Minor field (e.g., NDGMENG)",Code,2,74
+5280,r115_5,,"Minor field (e.g., NDGMENG)",Label,2,Sales and marketing fields
+5280,r115_6,,"Detailed field (e.g., N2DGRMED)",Code,2,746560
+5280,r115_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Business marketing/ marketing management
+5280,r116_6,,"Detailed field (e.g., N2DGRMED)",Code,2,746580
+5280,r116_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Marketing research
+5280,r117_4,,"Minor field (e.g., NDGMENG)",Code,2,75
+5280,r117_5,,"Minor field (e.g., NDGMENG)",Label,2,Art and humanities fields
+5280,r117_6,,"Detailed field (e.g., N2DGRMED)",Code,2,757600
+5280,r117_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"English language, literature and letters"
+5280,r118_6,,"Detailed field (e.g., N2DGRMED)",Code,2,757720
+5280,r118_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other foreign languages and literature
+5280,r119_6,,"Detailed field (e.g., N2DGRMED)",Code,2,758200
+5280,r119_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Liberal arts/ general studies
+5280,r120_6,,"Detailed field (e.g., N2DGRMED)",Code,2,759260
+5280,r120_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"History, other"
+5280,r121_6,,"Detailed field (e.g., N2DGRMED)",Code,2,759410
+5280,r121_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Dramatic arts
+5280,r122_6,,"Detailed field (e.g., N2DGRMED)",Code,2,759420
+5280,r122_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Fine arts, all fields"
+5280,r123_6,,"Detailed field (e.g., N2DGRMED)",Code,2,759430
+5280,r123_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Music, all fields"
+5280,r124_6,,"Detailed field (e.g., N2DGRMED)",Code,2,759440
+5280,r124_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other visual and performing arts
+5280,r125_4,,"Minor field (e.g., NDGMENG)",Code,2,76
+5280,r125_5,,"Minor field (e.g., NDGMENG)",Label,2,Other non-S&E fields
+5280,r125_6,,"Detailed field (e.g., N2DGRMED)",Code,2,766610
+5280,r125_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Communications, general"
+5280,r126_6,,"Detailed field (e.g., N2DGRMED)",Code,2,766620
+5280,r126_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Journalism
+5280,r127_6,,"Detailed field (e.g., N2DGRMED)",Code,2,766630
+5280,r127_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other communications
+5280,r128_6,,"Detailed field (e.g., N2DGRMED)",Code,2,766820
+5280,r128_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other natural resources and conservation
+5280,r129_6,,"Detailed field (e.g., N2DGRMED)",Code,2,766900
+5280,r129_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Criminal justice/ protective services
+5280,r130_6,,"Detailed field (e.g., N2DGRMED)",Code,2,768000
+5280,r130_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Home economics
+5280,r131_6,,"Detailed field (e.g., N2DGRMED)",Code,2,768100
+5280,r131_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Law/ prelaw/ legal studies
+5280,r132_6,,"Detailed field (e.g., N2DGRMED)",Code,2,768300
+5280,r132_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Library science
+5280,r133_6,,"Detailed field (e.g., N2DGRMED)",Code,2,768500
+5280,r133_7,,"Detailed field (e.g., N2DGRMED)",Label,2,"Parks, recreation, leisure, and fitness studies"
+5280,r134_6,,"Detailed field (e.g., N2DGRMED)",Code,2,769010
+5280,r134_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Public administration
+5280,r135_6,,"Detailed field (e.g., N2DGRMED)",Code,2,769030
+5280,r135_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other public affairs
+5280,r136_6,,"Detailed field (e.g., N2DGRMED)",Code,2,769950
+5280,r136_7,,"Detailed field (e.g., N2DGRMED)",Label,2,Other fields (not listed)

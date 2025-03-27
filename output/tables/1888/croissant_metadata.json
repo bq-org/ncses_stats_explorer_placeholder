@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Gross expenditures on R&D and expenditures for R&D as a share of gross domestic product, for selected countries or regions: 1981&#8211;2017",
+  "identifier": "NCSES-1888",
+  "description": "Gross expenditures on R&D and expenditures for R&D as a share of gross domestic product, for selected countries or regions: 1981&#8211;2017",
+  "url": "https://example.org/datasets/ncses/tables/1888",
+  "table_number": "S4-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1888/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "PPP in billions and in constant 2012 billions of dollars, GERD-to-GDP ratio, and annual growth rates"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Top eight R&D-performing countries in 2017. Conversions of foreign currencies to U.S. dollars are calculated with each country\u2019s GDP implicit price deflator and with Organisation for Economic Co-operation and Development (OECD) PPP exchange rates. Data for the United States in this table reflect international standards for calculating GERD, which vary slightly from the National Science Foundation's protocol for tallying U.S. total R&D. Data for Japan for 1996 onward may not be consistent with earlier data because of changes in methodology. Data for Germany for 1981\u201390 are for West Germany.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Patterns of R&D Resources (annual series); Organisation for Economic Co-operation and Development, Main Science and Technology Indicators (2019/1); United Nations Educational, Scientific and Cultural Organization Institute for Statistics Data Centre.Science and Engineering Indicators",
+  "temporalCoverage": "19/20"
+}

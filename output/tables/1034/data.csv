@@ -1,0 +1,145 @@
+table_id,row_id,variable_name,variable_description,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017
+1034,r001,AAEMONTHa,First associate’s degree start month,na,na,na,na,na,na,na,na,na,96.9
+1034,r002,AAEYEARa,First associate’s degree start year,na,na,na,na,na,na,na,na,na,97.6
+1034,r003,AAFIELDa,First associate’s degree field,na,na,na,na,na,na,na,na,na,80.7
+1034,r004,AAINSTa,First associate’s degree institution,na,na,na,na,na,na,na,na,na,93.4
+1034,r005,AAMONTHa,First associate’s degree month,na,na,na,na,na,na,na,na,na,97.6
+1034,r006,AANIDa,First associate’s degree institution (NCSES institution identification),na,na,na,na,na,na,na,na,na,93.0
+1034,r007,AAYEARa,First associate’s degree year,na,na,na,na,na,na,na,na,na,98.3
+1034,r008,AADEGRNa,Number of associate’s degrees received,na,na,na,na,na,na,na,na,na,90.2
+1034,r009,AGEDOCb,Age at doctorate ,na,na,na,na,na,na,0.0,92.1,94.1,94.6
+1034,r010,AMERIND ,American Indian or Alaska Native race indicator ,91.2,91.9,91.6,91.6,91.5,91.9,90.2,91.0,93.0,92.7
+1034,r011,ASIAN ,Asian race indicator ,91.2,91.9,91.6,91.6,91.5,91.9,90.2,91.0,93.0,92.7
+1034,r012,AUDIDISc,Deaf or hearing disability indicator ,90.7,90.8,89.7,89.8,na,na,na,na,na,na
+1034,r013,BA2EMONTHa,Most recent baccalaureate start month,na,na,na,na,na,na,na,na,na,89.8
+1034,r014,BA2EYEARa,Most recent baccalaureate start year,na,na,na,na,na,na,na,na,na,90.2
+1034,r015,BA2FIELDa,Most recent baccalaureate degree field,na,na,na,na,na,na,na,na,na,89.7
+1034,r016,BA2INSTa,Most recent baccalaureate institution,na,na,na,na,na,na,na,na,na,88.4
+1034,r017,BA2MONTHa,Most recent baccalaureate month,na,na,na,na,na,na,na,na,na,90.0
+1034,r018,BA2NIDa,Most recent baccalaureate institution (NCSES institution identification),na,na,na,na,na,na,na,na,na,88.4
+1034,r019,BA2YEARa,Most recent baccalaureate year,na,na,na,na,na,na,na,na,na,90.4
+1034,r020,BADEGRNa,Number of bachelor’s degrees received,na,na,na,na,na,na,na,na,na,91.1
+1034,r021,BADBLFIELDa,First baccalaureate double major field,na,na,na,na,na,na,na,na,na,96.3
+1034,r022,BADBLMAJa,First baccalaureate double major indicator,na,na,na,na,na,na,na,na,na,89.5
+1034,r023,BAEMONTHd,First baccalaureate start month,na,na,na,na,na,na,86.9,87.0,88.9,89.6
+1034,r024,BAEYEARe,First baccalaureate start year,85.5,86.3,86.9,87.6,88.2,88.8,87.3,87.3,89.3,89.7
+1034,r025,BAFIELD ,First baccalaureate field ,88.2,88.8,89.3,89.8,89.3,90.4,89.3,89.2,91.0,91.3
+1034,r026,BAINST ,First baccalaureate institution,92.3,92.9,92.5,93.4,92.3,93.2,91.6,92.3,94.2,94.5
+1034,r027,BAMONTH ,First baccalaureate month,87.3,88.0,88.5,89.1,89.7,90.2,89.0,88.9,90.6,90.6
+1034,r028,BANID,First baccalaureate institution (NCSES institution identification),91.4,92.1,91.6,92.5,91.5,92.2,90.2,91.0,92.9,93.6
+1034,r029,BANONEf,No bachelor’s and/or master's degree indicator,12.7,13.6,14.6,16.4,18.2,20.4,21.4,21.7,22.4,22.0
+1034,r030,BAPLACE,First baccalaureate institution location,92.3,92.9,92.5,93.4,92.3,93.2,91.6,92.3,94.2,94.4
+1034,r031,BAYEAR ,First baccalaureate year,92.4,93.1,92.6,93.2,92.8,93.2,91.7,92.2,94.4,95.2
+1034,r032,BIRTHMO ,Month of birth ,93.0,93.4,92.3,92.2,92.1,92.5,90.7,91.6,93.2,93.9
+1034,r033,BIRTHPL ,Place of birth ,93.6,93.7,93.4,94.3,94.2,93.5,91.9,92.1,94.5,94.4
+1034,r034,BIRTHYR ,Year of birth ,93.7,94.3,93.0,93.0,92.8,93.1,91.3,92.1,94.1,94.4
+1034,r035,BLACK ,Black race indicator ,91.2,91.9,91.6,91.6,91.5,91.9,90.2,91.0,93.0,92.7
+1034,r036,CITIZ ,Type of citizenship ,94.5,95.0,94.2,94.0,93.8,94.2,92.3,93.3,95.1,95.3
+1034,r037,CNTRYCITg,Country of citizenship ,94.2,94.7,93.8,93.7,93.6,93.8,92.1,93.1,94.8,95.0
+1034,r038,COGNDISc,Learning or cognitive disability indicator ,90.7,90.8,89.7,89.8,na,na,na,na,na,na
+1034,r039,DDSDEGh,Earned a professional dental degree ,na,na,87.7,88.6,88.9,88.8,87.6,87.9,88.2,88.0
+1034,r040,DDSSTUDYh,Earning a professional dental degree ,na,na,87.7,88.6,88.9,88.8,87.6,87.9,88.2,88.0
+1034,r041,DEPEND18,Number of dependents-ages 6–18,88.7,88.2,88.3,89.2,89.9,89.5,88.4,88.3,89.7,90.1
+1034,r042,DEPEND19,Number of dependents-ages 19 and older,88.7,88.2,88.3,89.2,89.9,89.5,88.4,88.3,89.7,90.1
+1034,r043,DEPEND5,Number of dependents-ages 5 or younger,88.7,88.2,88.3,89.2,89.9,89.5,88.4,88.3,89.7,90.1
+1034,r044,DIFAGEi,Earliest age experienced difficulties ,na,na,na,na,90.4,90.8,89.4,89.4,90.9,89.8
+1034,r045,DIFCOGNi,"Degree of difficulty concentrating, remembering, or making decisions ",na,na,na,na,91.1,91.0,89.6,89.6,91.1,90.0
+1034,r046,DIFHEARi,Degree of difficulty hearing ,na,na,na,na,91.1,91.0,89.6,89.6,91.1,90.0
+1034,r047,DIFLIFTi,Degree of difficulty lifting ,na,na,na,na,90.5,91.0,89.6,89.6,91.1,90.0
+1034,r048,DIFSEEi,Degree of difficulty seeing ,na,na,na,na,91.1,91.0,89.6,89.6,91.1,90.0
+1034,r049,DIFWALKi,Degree of difficulty walking ,na,na,na,na,90.5,91.0,89.6,89.6,91.1,90.0
+1034,r050,DISABILITY1c,Disability status ,90.7,90.8,89.7,89.8,na,na,na,na,na,na
+1034,r051,DISABILITY2i,Moderate or greater degree of difficulty in any domain ,na,na,na,na,91.1,91.0,89.6,89.6,91.1,90.0
+1034,r052,DOCCODE,Type of doctorate (since 2004) ,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+1034,r053,EDFATHER ,Father/male guardian's education ,90.3,90.7,90.8,90.8,90.7,90.0,88.6,88.4,89.8,89.8
+1034,r054,EDMOTHER ,Mother/female guardian's education ,90.4,90.9,90.9,90.9,90.8,90.1,88.6,88.5,89.9,89.8
+1034,r055,GDEBTLVL,Graduate debt level ,92.0,92.6,92.7,93.2,92.9,89.7,88.2,90.1,93.0,92.2
+1034,r056,GEMONTH,Month of graduate program entry ,87.0,89.7,87.4,88.0,88.4,88.5,90.1,89.7,90.6,90.2
+1034,r057,GEYEAR ,Year of graduate program entry ,87.6,90.4,87.8,88.3,88.6,88.7,90.2,89.9,90.9,90.3
+1034,r058,HAWAIIAN,Native Hawaiian or Other Pacific Islander race indicator ,91.2,91.9,91.6,91.6,91.5,91.9,90.2,91.0,93.0,92.7
+1034,r059,HISPANIC ,Hispanic origin indicator ,92.0,92.0,91.4,92.2,92.0,92.1,90.3,91.5,93.0,93.7
+1034,r060,HSPLACE ,Place of high school ,90.9,91.1,90.8,91.8,91.7,91.2,89.7,89.5,91.6,90.1
+1034,r061,JRCOLL ,Junior college indicator ,90.0,90.5,91.2,93.1,93.0,92.6,91.0,90.8,93.3,93.2
+1034,r062,MA1CREDa,Credits from first master’s degree counted toward doctoral degree,na,na,na,na,na,na,na,na,na,92.4
+1034,r063,MA1EMONTHa,First master’s degree start month,na,na,na,na,na,na,na,na,na,96.9
+1034,r064,MA1EYEARa,First master’s degree start year,na,na,na,na,na,na,na,na,na,97.1
+1034,r065,MA1FIELDa,First master’s degree field,na,na,na,na,na,na,na,na,na,96.6
+1034,r066,MA1INSTa,First master’s degree institution,na,na,na,na,na,na,na,na,na,63.7
+1034,r067,MA1MONTHa,First master’s degree month,na,na,na,na,na,na,na,na,na,97.1
+1034,r068,MA1NIDa,First master’s degree institution (NCSES institution identification),na,na,na,na,na,na,na,na,na,63.7
+1034,r069,MA1PARTa,First master’s degree was required for doctoral program,na,na,na,na,na,na,na,na,na,95.3
+1034,r070,MA1YEARa,First master’s degree year,na,na,na,na,na,na,na,na,na,97.4
+1034,r071,MACREDa,Credits from most recent master’s degree counted toward doctoral degree,na,na,na,na,na,na,na,na,na,99.8
+1034,r072,MADEGRNa,Number of master's degrees received,na,na,na,na,na,na,na,na,na,92.7
+1034,r073,MAEMONTHd,Most recent master's degree start month,na,na,na,na,na,na,67.8,67.5,68.7,69.1
+1034,r074,MAEYEARd,Most recent master's degree start year,na,na,na,na,na,na,68.0,67.7,68.9,69.1
+1034,r075,MAFIELD ,Most recent master's degree field ,83.7,84.1,84.9,86.5,88.1,89.8,89.2,89.2,90.9,90.5
+1034,r076,MAINST ,Most recent master's degree institution ,84.4,85.2,85.5,87.1,88.4,89.7,89.1,88.9,90.7,90.8
+1034,r077,MAMONTH ,Most recent master's degree month,82.4,83.5,84.1,85.7,87.8,89.6,88.9,88.9,90.6,90.5
+1034,r078,MANID,Most recent master's degree institution (NCSES institution identification),72.5,72.2,71.6,71.5,70.8,70.0,68.5,68.0,69.1,69.5
+1034,r079,MAPARTa,Most recent master’s degree was required for doctoral program,na,na,na,na,na,na,na,na,na,69.3
+1034,r080,MARITAL ,Marital status ,90.4,90.9,91.0,91.0,91.0,90.4,88.9,88.9,90.4,90.2
+1034,r081,MAYEAR ,Most recent master's degree year,84.1,85.1,85.5,86.9,88.5,90.0,89.2,89.1,90.9,91.2
+1034,r082,MDDEGh,Earned a professional medical degree ,na,na,87.7,88.6,88.9,88.8,87.6,87.9,88.2,88.0
+1034,r083,MDSTUDYh,Earning a professional medical degree ,na,na,87.7,88.6,88.9,88.8,87.6,87.9,88.2,88.0
+1034,r084,MEDDENT,Additional professional medical or dental degree ,87.8,88.6,89.9,90.3,90.5,90.4,89.1,89.2,90.4,90.0
+1034,r085,MSPREREQ,Prerequisite master's degree for doctoral program,90.1,90.5,91.5,91.5,91.1,90.7,89.2,89.1,90.8,91.1
+1034,r086,ORTHDISc,Physical or orthopedic disability indicator ,90.7,90.8,89.7,89.8,na,na,na,na,na,na
+1034,r087,OTHRDISc,Other or unknown disability indicator ,90.7,90.8,89.7,89.8,na,na,na,na,na,na
+1034,r088,PDEMPLOY ,Postgraduation employer type ,98.0,98.0,97.8,98.6,98.5,99.0,99.5,99.3,98.1,99.7
+1034,r089,PDFORGNf,Postgraduation affiliation with a non-U.S. college or university ,3.4,3.7,3.8,3.7,3.5,3.7,3.4,3.1,3.2,3.8
+1034,r090,PDLOC ,Postgraduation location ,91.9,92.6,93.0,92.9,92.5,91.6,89.9,90.0,92.1,92.4
+1034,r091,PDOCCODEf,Postgraduation institution affiliation in the U.S. (IPEDS) ,31.7,32.5,31.9,31.1,30.6,28.4,26.7,26.1,26.4,22.0
+1034,r092,PDOCNIDf,Postgraduation institution affiliation in the U.S. (NCSES institution identification),31.7,32.5,31.9,31.1,30.6,28.4,26.7,26.1,26.4,27.7
+1034,r093,PDOCPLAN ,Postgraduation plans ,96.9,97.4,97.2,94.7,93.8,92.4,91.7,91.5,95.2,97.6
+1034,r094,PDOCSTAT ,Postgraduation status ,90.2,90.7,91.3,91.4,91.4,90.8,89.3,89.3,90.8,90.7
+1034,r095,PDSAMEEMPa,Postgraduation employer was employer before or during doctoral studies,na,na,na,na,na,na,na,na,na,97.2
+1034,r096,PDSTDSUP ,Postdoctoral study support ,95.9,95.1,93.9,94.6,95.8,96.7,97.5,97.8,95.5,96.9
+1034,r097,PDUSFOR ,Postgraduation location: U.S. or foreign ,91.9,92.6,93.0,92.9,92.5,91.6,89.9,90.0,92.1,92.4
+1034,r098,PDWK1ED ,Edited primary work activity ,92.4,92.7,92.8,91.8,91.5,90.7,90.8,90.5,91.3,97.6
+1034,r099,PDWK2EDf,Edited secondary work activity ,53.1,52.6,50.6,50.1,50.8,50.2,49.8,49.4,50.6,48.9
+1034,r100,PDWKPRIM ,Primary work activity ,92.4,92.7,92.8,91.8,91.5,90.7,90.8,90.5,91.3,97.6
+1034,r101,PDWKSECf,Secondary work activity ,53.1,52.6,50.6,50.1,50.8,50.2,49.8,49.4,50.6,48.9
+1034,r102,PHDCY ,Calendar year of doctorate ,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+1034,r103,PHDDISS ,Dissertation field ,92.1,92.2,92.5,92.4,91.8,91.6,90.2,90.0,91.6,89.2
+1034,r104,PHDDISS2f,Secondary dissertation field ,26.4,26.8,30.2,32.1,34.7,36.2,35.0,35.0,41.0,34.8
+1034,r105,PHDEMONTHd,Doctoral program start month ,na,na,na,na,na,na,89.6,89.5,91.2,91.3
+1034,r106,PHDEYEARj,Doctoral program start year ,89.7,90.0,90.4,90.7,90.8,90.9,89.8,89.7,91.4,91.3
+1034,r107,PHDFIELD ,Doctorate field ,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+1034,r108,PHDFY ,Fiscal year of doctorate ,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+1034,r109,PHDINST ,Doctoral institution ,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+1034,r110,PHDMONTH ,Month of doctorate ,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+1034,r111,PHDNID,Doctoral institution (NCSES institution identification),100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+1034,r112,POSTDOCk,Intention to take postdoc position ,90.4,90.9,91.5,91.5,91.6,91.1,89.6,89.6,91.5,na
+1034,r113,PROFDEGf,Type of professional doctorate ,0.9,0.9,0.9,1.0,0.8,0.8,0.9,1.0,1.0,2.3
+1034,r114,PROFEARNa,Earned or earning a professional doctoral degree,na,na,na,na,na,na,na,na,na,90.7
+1034,r115,PROFEMONTHa,Professional doctorate start month,na,na,na,na,na,na,na,na,na,99.7
+1034,r116,PROFEYEARa,Professional doctorate start year,na,na,na,na,na,na,na,na,na,99.8
+1034,r117,PROFINSTa,Professional doctorate institution,na,na,na,na,na,na,na,na,na,98.0
+1034,r118,PROFMONTHa,Professional doctorate month,na,na,na,na,na,na,na,na,na,99.8
+1034,r119,PROFNIDa,Professional doctorate institution (NCSES institution identification),na,na,na,na,na,na,na,na,na,94.7
+1034,r120,PROFYEARf,Professional doctorate year,1.0,1.0,0.9,0.9,0.7,0.8,0.9,0.9,1.0,2.3
+1034,r121,QUESTMONb,Month questionnaire filled out ,na,na,na,na,na,na,na,90.0,91.9,93.2
+1034,r122,QUESTYRll,Year questionnaire filled out ,96.8,75.2,92.2,92.8,92.4,92.0,90.6,90.3,91.9,93.4
+1034,r123,RACE ,Edited race or ethnicity code ,93.6,94.3,93.4,93.2,93.0,93.2,91.4,92.4,94.3,94.6
+1034,r124,RACE2b,Edited ethnicity or race code (NSF-revised),93.6,94.3,93.4,93.2,93.0,93.2,91.4,92.4,94.3,94.9
+1034,r125,"SALARYRm,n",Range of expected basic annual salary ,92.0,91.9,91.0,89.7,89.0,87.6,88.7,88.7,89.3,97.3
+1034,r126,SALARYVm,Expected basic annual salary ,54.3,52.2,51.5,46.6,41.2,36.8,76.9,83.9,85.5,94.2
+1034,r127,SALMONTHm,Number of months expected basic annual salary covers,87.6,90.0,90.9,90.1,89.5,88.7,89.0,88.9,89.1,95.2
+1034,r128,SEX ,Sex of doctorate recipient ,100.0,99.9,100.0,100.0,99.9,100.0,99.7,100.0,100.0,100.0
+1034,r129,SRCE1ED ,Edited primary source of support ,90.5,90.5,90.9,91.0,91.1,90.7,89.6,89.5,91.2,89.9
+1034,r130,SRCEPRIM ,Primary source of support ,90.5,90.5,90.9,91.0,91.1,90.7,89.6,89.5,91.2,89.9
+1034,r131,SRCESEC,Secondary source of support ,80.6,80.9,80.8,80.8,80.3,79.6,79.2,78.8,82.9,78.4
+1034,r132,TICEPHD,Time in from college entry to doctorate ,85.5,86.3,86.9,87.6,88.2,88.8,87.3,87.3,89.3,89.7
+1034,r133,TOBAGE,Time out between baccalaureate to graduate school entry ,85.2,88.0,85.8,86.4,86.9,87.2,87.2,87.2,88.4,86.7
+1034,r134,TTDBAPHD,Total time elapsed from baccalaureate to doctorate ,91.5,92.3,91.7,92.3,92.0,92.3,90.3,90.8,93.1,94.4
+1034,r135,TTDDOCd,Total elapsed time in doctorate ,na,na,na,na,na,na,89.9,89.8,91.4,91.1
+1034,r136,TTDGEPHD,Total time elapsed from graduate entry to doctorate ,87.6,90.4,87.8,88.3,88.6,88.7,90.2,89.9,90.9,89.6
+1034,r137,TUITREMS,Tuition remission-full or partial,89.5,89.9,90.4,91.3,91.5,91.2,90.0,89.8,91.4,91.0
+1034,r138,UDEBTLVL,Undergraduate debt level ,91.7,92.5,92.7,93.4,93.3,86.1,84.7,90.9,93.7,92.6
+1034,r139,VISUDISc,Blind or visual disability indicator ,90.7,90.8,89.7,89.8,na,na,na,na,na,na
+1034,r140,VOCLDISc,Vocal or speech disability indicator ,90.7,90.8,89.7,89.8,na,na,na,na,na,na
+1034,r141,WHITE ,White race indicator ,91.2,91.9,91.6,91.6,91.5,91.9,90.2,91.0,93.0,92.7
+1034,r142,YRSCOURS,Years of doctoral coursework,89.8,90.4,90.9,91.0,90.9,90.4,88.9,89.0,90.5,89.0
+1034,r143,YRSDISST,Years preparing doctorate dissertation ,89.7,90.2,90.9,91.1,91.0,90.5,89.0,89.0,90.5,88.9
+1034,r144,YRSNOTWRK,Years not working on doctoral degree,90.1,90.6,91.0,91.2,91.0,90.8,89.2,89.2,90.8,90.8

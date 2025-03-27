@@ -1,0 +1,205 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. residing employed doctoral scientists and engineers, by fine field of doctorate and citizenship status: 2021",
+  "identifier": "NCSES-8182",
+  "description": "U.S. residing employed doctoral scientists and engineers, by fine field of doctorate and citizenship status: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8182",
+  "table_number": "9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8182/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_level_1, field_of_study_level_2, field_of_study_level_3, field_of_study_level_4, field_of_study_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_full_path",
+      "description": "Of Study Full Path",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_1",
+      "description": "Of Study Level 1",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_2",
+      "description": "Of Study Level 2",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_3",
+      "description": "Of Study Level 3",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_4",
+      "description": "Of Study Level 4",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_5",
+      "description": "Of Study Level 5",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_hierarchy_depth",
+      "description": "Of Study Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_number",
+      "description": "All Employed Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_se",
+      "description": "All Employed Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_total_number",
+      "description": "U S Citizen Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_total_se",
+      "description": "U S Citizen Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_native_born_number",
+      "description": "U S Citizen Native Born Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_native_born_se",
+      "description": "U S Citizen Native Born Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_naturalized_number",
+      "description": "U S Citizen Naturalized Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_naturalized_se",
+      "description": "U S Citizen Naturalized Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_total_number",
+      "description": "Non U S Citizen Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_total_se",
+      "description": "Non U S Citizen Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_permanent_resident_number",
+      "description": "Non U S Citizen Permanent Resident Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_permanent_resident_se",
+      "description": "Non U S Citizen Permanent Resident Se",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_temporary_resident_number",
+      "description": "Non U S Citizen Temporary Resident Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_temporary_resident_se",
+      "description": "Non U S Citizen Temporary Resident Se",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 50. Standard errors are rounded up to the nearest 25. Detail may not add to total because of rounding. Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

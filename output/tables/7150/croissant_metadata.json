@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Response for the Survey of Nonprofit Research Activities, by survey form, sampling stratum, and response type (unweighted): FY 2016",
+  "identifier": "NCSES-7150",
+  "description": "Response for the Survey of Nonprofit Research Activities, by survey form, sampling stratum, and response type (unweighted): FY 2016",
+  "url": "https://example.org/datasets/ncses/tables/7150",
+  "table_number": "A-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7150/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_survey_form_and_sampling_stratum_b",
+      "description": "Survey form and sampling stratum hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_survey_form_and_sampling_stratum_b_level_1, _b_survey_form_and_sampling_stratum_b_level_2, _b_survey_form_and_sampling_stratum_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_survey_form_and_sampling_stratum_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sampled_organizationsa",
+      "description": "Sampled Organizationsa",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_total_responses",
+      "description": "Overall Response Total Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_does_not_perform_or_fund_r_d_activity",
+      "description": "Overall Response Does Not Perform Or Fund R D Activity",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_performs_r_d_activity",
+      "description": "Overall Response Performs R D Activity",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_funds_r_d_activity",
+      "description": "Overall Response Funds R D Activity",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_performs_and_funds_r_d_activity",
+      "description": "Overall Response Performs And Funds R D Activity",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_response_rate_",
+      "description": "Overall Response Response Rate ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performer_response_total_responsesb",
+      "description": "Performer Response Total Responsesb",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performer_response_response_rate_",
+      "description": "Performer Response Response Rate ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funder_response_total_responsesc",
+      "description": "Funder Response Total Responsesc",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funder_response_response_rate_",
+      "description": "Funder Response Response Rate ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Nonprofit Research Activities, FY 2016."
+}

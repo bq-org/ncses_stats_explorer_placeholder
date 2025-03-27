@@ -1,0 +1,61 @@
+table_id,row_id,sex_and_field_full_path,sex_and_field_level_1,sex_and_field_level_2,sex_and_field_level_3,sex_and_field_level_4,sex_and_field_level_5,sex_and_field_level_6,sex_and_field_hierarchy_depth,field_2006,field_2007,field_2008,field_2009,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016
+1147,r001,Both sexes,Both sexes,,,,,,1,,,,,,,,,,,
+1147,r002,Both sexes -> All fields,Both sexes,All fields,,,,,2,718182,733151,755598,793279,856381,949963,1026536,1015211,1012523,1024187,1017860
+1147,r003,Both sexes -> All fields -> S&E,Both sexes,All fields,S&E,,,,3,49850,47485,49166,54284,62211,76021,84785,85798,87976,90589,88832
+1147,r004,Both sexes -> All fields -> S&E -> Science,Both sexes,All fields,S&E,Science,,,4,47559,45213,46763,51955,59546,73027,81248,81927,83567,85585,83418
+1147,r005,Both sexes -> All fields -> S&E -> Science -> Agricultural sciences,Both sexes,All fields,S&E,Science,Agricultural sciences,,5,1934,1790,1762,1811,1952,2138,2526,2392,2484,2678,2673
+1147,r006,Both sexes -> All fields -> S&E -> Science -> Biological sciences,Both sexes,All fields,S&E,Science,Biological sciences,,5,2028,2224,2379,2546,2881,3440,4028,4340,4689,5071,5461
+1147,r007,Both sexes -> All fields -> S&E -> Science -> Computer sciences,Both sexes,All fields,S&E,Science,Computer sciences,,5,31170,27680,28327,30050,32514,37675,41190,38897,37643,36421,30512
+1147,r008,"Both sexes -> All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences",Both sexes,All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",,5,67,69,67,98,99,95,103,112,136,153,152
+1147,r009,Both sexes -> All fields -> S&E -> Science -> Mathematics and statistics,Both sexes,All fields,S&E,Science,Mathematics and statistics,,5,753,827,855,930,1051,1645,1529,1802,2140,2697,3029
+1147,r010,Both sexes -> All fields -> S&E -> Science -> Physical sciences,Both sexes,All fields,S&E,Science,Physical sciences,,5,1670,1946,1909,2101,2304,3068,3567,3992,4399,4909,5390
+1147,r011,Both sexes -> All fields -> S&E -> Science -> Psychology,Both sexes,All fields,S&E,Science,Psychology,,5,1944,2213,2412,3949,6582,3866,4713,6118,7529,8736,10602
+1147,r012,Both sexes -> All fields -> S&E -> Science -> Social sciences,Both sexes,All fields,S&E,Science,Social sciences,,5,7993,8464,9052,10470,12163,21100,23592,24274,24547,24920,25599
+1147,r013,Both sexes -> All fields -> S&E -> Engineering,Both sexes,All fields,S&E,Engineering,,,4,2291,2272,2403,2329,2665,2994,3537,3871,4409,5004,5414
+1147,r014,Both sexes -> All fields -> Non-S&E,Both sexes,All fields,Non-S&E,,,,3,668332,685666,706432,738995,794170,873942,941751,929413,924547,933598,929028
+1147,r015,Both sexes -> All fields -> Non-S&E -> S&E technologies,Both sexes,All fields,Non-S&E,S&E technologies,,,4,96772,101898,106183,111172,124476,148636,165632,156573,148966,144098,136580
+1147,r016,Both sexes -> All fields -> Non-S&E -> S&E technologies -> Science technologies,Both sexes,All fields,Non-S&E,S&E technologies,Science technologies,,5,1225,1429,1448,1474,1818,1981,2230,2357,2465,2592,3033
+1147,r017,Both sexes -> All fields -> Non-S&E -> S&E technologies -> Engineering technologies,Both sexes,All fields,Non-S&E,S&E technologies,Engineering technologies,,5,29710,30097,31643,33243,34553,38222,40630,37475,34638,34764,31704
+1147,r018,Both sexes -> All fields -> Non-S&E -> S&E technologies -> Health technologies,Both sexes,All fields,Non-S&E,S&E technologies,Health technologies,,5,65227,69591,72241,75734,87437,107577,121786,115739,110779,105513,100796
+1147,r019,Both sexes -> All fields -> Non-S&E -> S&E technologies -> Other S&E technologies,Both sexes,All fields,Non-S&E,S&E technologies,Other S&E technologies,,5,610,781,851,721,668,856,986,1002,1084,1229,1047
+1147,r020,Both sexes -> All fields -> Non-S&E -> Other non-S&E<sup>a</sup>,Both sexes,All fields,Non-S&E,Other non-S&E<sup>a</sup>,,,4,571560,583768,600249,627823,669694,725306,776119,772840,775581,789500,792448
+1147,r021,Both sexes -> Female,Both sexes,Female,,,,,2,,,,,,,,,,,
+1147,r022,Both sexes -> Female -> All fields,Both sexes,Female,All fields,,,,3,446231,456145,471155,493013,530895,585965,631193,623395,618354,623780,622196
+1147,r023,Both sexes -> Female -> All fields -> S&E,Both sexes,Female,All fields,S&E,,,4,19170,18416,18900,21778,25743,32531,35921,37191,38223,40049,41129
+1147,r024,Both sexes -> Female -> All fields -> S&E -> Science,Both sexes,Female,All fields,S&E,Science,,5,18849,18088,18586,21451,25386,32094,35432,36649,37633,39354,40331
+1147,r025,Both sexes -> Female -> All fields -> S&E -> Science -> Agricultural sciences,Both sexes,Female,All fields,S&E,Science,Agricultural sciences,6,740,674,635,687,795,774,941,923,999,1055,1145
+1147,r026,Both sexes -> Female -> All fields -> S&E -> Science -> Biological sciences,Both sexes,Female,All fields,S&E,Science,Biological sciences,6,1326,1473,1638,1723,1939,2248,2671,2935,3147,3382,3599
+1147,r027,Both sexes -> Female -> All fields -> S&E -> Science -> Computer sciences,Both sexes,Female,All fields,S&E,Science,Computer sciences,6,8688,7188,7084,7442,7784,8560,8830,8229,7631,7564,6378
+1147,r028,"Both sexes -> Female -> All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences",Both sexes,Female,All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",6,29,25,33,33,34,32,34,35,42,56,57
+1147,r029,Both sexes -> Female -> All fields -> S&E -> Science -> Mathematics and statistics,Both sexes,Female,All fields,S&E,Science,Mathematics and statistics,6,270,279,280,295,326,620,479,559,648,782,869
+1147,r030,Both sexes -> Female -> All fields -> S&E -> Science -> Physical sciences,Both sexes,Female,All fields,S&E,Science,Physical sciences,6,680,841,803,891,920,1395,1559,1720,1836,2054,2224
+1147,r031,Both sexes -> Female -> All fields -> S&E -> Science -> Psychology,Both sexes,Female,All fields,S&E,Science,Psychology,6,1498,1696,1858,3205,5311,2970,3621,4622,5734,6686,8011
+1147,r032,Both sexes -> Female -> All fields -> S&E -> Science -> Social sciences,Both sexes,Female,All fields,S&E,Science,Social sciences,6,5618,5912,6255,7175,8277,15495,17297,17626,17596,17775,18048
+1147,r033,Both sexes -> Female -> All fields -> S&E -> Engineering,Both sexes,Female,All fields,S&E,Engineering,,5,321,328,314,327,357,437,489,542,590,695,798
+1147,r034,Both sexes -> Female -> All fields -> Non-S&E,Both sexes,Female,All fields,Non-S&E,,,4,427061,437729,452255,471235,505152,553434,595272,586204,580131,583731,581067
+1147,r035,Both sexes -> Female -> All fields -> Non-S&E -> S&E technologies,Both sexes,Female,All fields,Non-S&E,S&E technologies,,5,59121,62835,64975,68275,78730,95841,107364,102007,96988,92755,88729
+1147,r036,Both sexes -> Female -> All fields -> Non-S&E -> S&E technologies -> Science technologies,Both sexes,Female,All fields,Non-S&E,S&E technologies,Science technologies,6,508,605,610,592,675,716,852,865,986,993,1128
+1147,r037,Both sexes -> Female -> All fields -> Non-S&E -> S&E technologies -> Engineering technologies,Both sexes,Female,All fields,Non-S&E,S&E technologies,Engineering technologies,6,4415,4309,4460,4738,4689,4921,4913,4776,4285,4363,4300
+1147,r038,Both sexes -> Female -> All fields -> Non-S&E -> S&E technologies -> Health technologies,Both sexes,Female,All fields,Non-S&E,S&E technologies,Health technologies,6,54098,57781,59748,62787,73229,90041,101383,96137,91531,87185,83126
+1147,r039,Both sexes -> Female -> All fields -> Non-S&E -> S&E technologies -> Other S&E technologies,Both sexes,Female,All fields,Non-S&E,S&E technologies,Other S&E technologies,6,100,140,157,158,137,163,216,229,186,214,175
+1147,r040,Both sexes -> Female -> All fields -> Non-S&E -> Other non-S&E<sup>a</sup>,Both sexes,Female,All fields,Non-S&E,Other non-S&E<sup>a</sup>,,5,367940,374894,387280,402960,426422,457593,487908,484197,483143,490976,492338
+1147,r041,Both sexes -> Male,Both sexes,Male,,,,,2,,,,,,,,,,,
+1147,r042,Both sexes -> Male -> All fields,Both sexes,Male,All fields,,,,3,271951,277006,284443,300266,325486,363998,395343,391816,394169,400407,395664
+1147,r043,Both sexes -> Male -> All fields -> S&E,Both sexes,Male,All fields,S&E,,,4,30680,29069,30266,32506,36468,43490,48864,48607,49753,50540,47703
+1147,r044,Both sexes -> Male -> All fields -> S&E -> Science,Both sexes,Male,All fields,S&E,Science,,5,28710,27125,28177,30504,34160,40933,45816,45278,45934,46231,43087
+1147,r045,Both sexes -> Male -> All fields -> S&E -> Science -> Agricultural sciences,Both sexes,Male,All fields,S&E,Science,Agricultural sciences,6,1194,1116,1127,1124,1157,1364,1585,1469,1485,1623,1528
+1147,r046,Both sexes -> Male -> All fields -> S&E -> Science -> Biological sciences,Both sexes,Male,All fields,S&E,Science,Biological sciences,6,702,751,741,823,942,1192,1357,1405,1542,1689,1862
+1147,r047,Both sexes -> Male -> All fields -> S&E -> Science -> Computer sciences,Both sexes,Male,All fields,S&E,Science,Computer sciences,6,22482,20492,21243,22608,24730,29115,32360,30668,30012,28857,24134
+1147,r048,"Both sexes -> Male -> All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences",Both sexes,Male,All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",6,38,44,34,65,65,63,69,77,94,97,95
+1147,r049,Both sexes -> Male -> All fields -> S&E -> Science -> Mathematics and statistics,Both sexes,Male,All fields,S&E,Science,Mathematics and statistics,6,483,548,575,635,725,1025,1050,1243,1492,1915,2160
+1147,r050,Both sexes -> Male -> All fields -> S&E -> Science -> Physical sciences,Both sexes,Male,All fields,S&E,Science,Physical sciences,6,990,1105,1106,1210,1384,1673,2008,2272,2563,2855,3166
+1147,r051,Both sexes -> Male -> All fields -> S&E -> Science -> Psychology,Both sexes,Male,All fields,S&E,Science,Psychology,6,446,517,554,744,1271,896,1092,1496,1795,2050,2591
+1147,r052,Both sexes -> Male -> All fields -> S&E -> Science -> Social sciences,Both sexes,Male,All fields,S&E,Science,Social sciences,6,2375,2552,2797,3295,3886,5605,6295,6648,6951,7145,7551
+1147,r053,Both sexes -> Male -> All fields -> S&E -> Engineering,Both sexes,Male,All fields,S&E,Engineering,,5,1970,1944,2089,2002,2308,2557,3048,3329,3819,4309,4616
+1147,r054,Both sexes -> Male -> All fields -> Non-S&E,Both sexes,Male,All fields,Non-S&E,,,4,241271,247937,254177,267760,289018,320508,346479,343209,344416,349867,347961
+1147,r055,Both sexes -> Male -> All fields -> Non-S&E -> S&E technologies,Both sexes,Male,All fields,Non-S&E,S&E technologies,,5,37651,39063,41208,42897,45746,52795,58268,54566,51978,51343,47851
+1147,r056,Both sexes -> Male -> All fields -> Non-S&E -> S&E technologies -> Science technologies,Both sexes,Male,All fields,Non-S&E,S&E technologies,Science technologies,6,717,824,838,882,1143,1265,1378,1492,1479,1599,1905
+1147,r057,Both sexes -> Male -> All fields -> Non-S&E -> S&E technologies -> Engineering technologies,Both sexes,Male,All fields,Non-S&E,S&E technologies,Engineering technologies,6,25295,25788,27183,28505,29864,33301,35717,32699,30353,30401,27404
+1147,r058,Both sexes -> Male -> All fields -> Non-S&E -> S&E technologies -> Health technologies,Both sexes,Male,All fields,Non-S&E,S&E technologies,Health technologies,6,11129,11810,12493,12947,14208,17536,20403,19602,19248,18328,17670
+1147,r059,Both sexes -> Male -> All fields -> Non-S&E -> S&E technologies -> Other S&E technologies,Both sexes,Male,All fields,Non-S&E,S&E technologies,Other S&E technologies,6,510,641,694,563,531,693,770,773,898,1015,872
+1147,r060,Both sexes -> Male -> All fields -> Non-S&E -> Other non-S&E<sup>a</sup>,Both sexes,Male,All fields,Non-S&E,Other non-S&E<sup>a</sup>,,5,203620,208874,212969,224863,243272,267713,288211,288643,292438,298524,300110

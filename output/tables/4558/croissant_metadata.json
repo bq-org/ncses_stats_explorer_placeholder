@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment of early career S&E doctorate recipients, by citizenship status at graduation (2006\u201315) and occupation: 2017",
+  "identifier": "NCSES-4558",
+  "description": "Employment of early career S&E doctorate recipients, by citizenship status at graduation (2006\u201315) and occupation: 2017",
+  "url": "https://example.org/datasets/ncses/tables/4558",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4558/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "citizenship_status_at_graduation",
+      "description": "Citizenship Status At Graduation",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "s_e_occupation_in_major_degree_field",
+      "description": "S E Occupation In Major Degree Field",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "s_e_occupation_not_in_major_degree_field",
+      "description": "S E Occupation Not In Major Degree Field",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "s_e_related_occupation",
+      "description": "S E Related Occupation",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "non_s_e_occupation",
+      "description": "Non S E Occupation",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "not_working",
+      "description": "Not Working",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Percentages are based on the number of doctorate recipients who reported citizenship status at graduation. Early career stayers are U.S.-trained S&E doctorate holders who had a temporary visa at graduation (2006\u201315) and who reside in the United States after graduation (2017). S&E, S&E-related, and non-S&E occupations are based on the major occupational classification used in the SDR (see https://ncsesdata.nsf.gov/doctoratework/2017/html/sdr17-dt-taba003.html). S&E-related occupations include health-related occupations. \"Not working\" includes early career S&E doctorate recipients who are unemployed or are not in the labor force.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2017 and Survey of Earned Doctorates, 2006\u201315."
+}

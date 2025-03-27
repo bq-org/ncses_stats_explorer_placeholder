@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "State agency expenditures for R&D for intramural performers, by state, department or agency, and source of funds: FY 2019",
+  "identifier": "NCSES-2467",
+  "description": "State agency expenditures for R&D for intramural performers, by state, department or agency, and source of funds: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/2467",
+  "table_number": "19",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2467/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state_and_department_or_agency",
+      "description": "State and department or agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "state_and_department_or_agency_level_1, state_and_department_or_agency_level_2, state_and_department_or_agency_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "state_and_department_or_agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expenditures_for_intramural_performers",
+      "description": "R D Expenditures For Intramural Performers",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_federal_government",
+      "description": "Source Of Funds Federal Government",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_own_state_government",
+      "description": "Source Of Funds Own State Government",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_other_nonfederal_governments",
+      "description": "Source Of Funds Other Nonfederal Governments",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_nonprofit_organizations",
+      "description": "Source Of Funds Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_businesses_and_individuals",
+      "description": "Source Of Funds Businesses And Individuals",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_higher_education_institutions",
+      "description": "Source Of Funds Higher Education Institutions",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Intramural performers include a department\u2019s or agency\u2019s own employees who perform R&D and services performed by others in support of an internal R&D project.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of State Government Research and Development, FY 2019."
+}

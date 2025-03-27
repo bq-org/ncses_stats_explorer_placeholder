@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Postgraduation plans of research doctorate recipients with definite commitments, by sex, citizenship status, ethnicity, and race: Selected years, 1992&#8211;2022",
+  "identifier": "NCSES-9465",
+  "description": "Postgraduation plans of research doctorate recipients with definite commitments, by sex, citizenship status, ethnicity, and race: Selected years, 1992&#8211;2022",
+  "url": "https://example.org/datasets/ncses/tables/9465",
+  "table_number": "2-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9465/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2, column_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Percentages based on number of doctorate recipients reporting definite postgraduation commitments and the type of plan (employment or postdoctoral study). A definite postgraduation commitment includes accepting new employment or a postdoctoral study (postdoc) position or returning to predoctoral employment.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates.",
+  "temporalCoverage": "19/20"
+}

@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Citizenship and foreign-born status of workers with bachelor's degrees or higher, by STEM occupation category: 2021",
+  "identifier": "NCSES-11024",
+  "description": "Citizenship and foreign-born status of workers with bachelor's degrees or higher, by STEM occupation category: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11024",
+  "table_number": "SLBR-27",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11024/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_occupations_b",
+      "description": "Occupations hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_occupations_b_level_1, _b_occupations_b_level_2, _b_occupations_b_level_3, _b_occupations_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_occupations_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_born_citizens",
+      "description": "U S Born Citizens",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_born_workers_all_foreign_born_workers",
+      "description": "Foreign Born Workers All Foreign Born Workers",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_born_workers_naturalized_citizens",
+      "description": "Foreign Born Workers Naturalized Citizens",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_born_workers_permanent_residents",
+      "description": "Foreign Born Workers Permanent Residents",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_born_workers_temporary_visa_holders",
+      "description": "Foreign Born Workers Temporary Visa Holders",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Numbers and percentages may not sum due to rounding. Non-S&E occupations includes STEM middle-skill and non-STEM occupations.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates (NSCG), Public-Use File, 2021.Science and Engineering Indicators"
+}

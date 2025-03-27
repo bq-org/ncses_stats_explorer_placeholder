@@ -1,0 +1,180 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate-granting institutions, by state or location and major non-science and engineering fields of study: 2017",
+  "identifier": "NCSES-948",
+  "description": "Doctorate-granting institutions, by state or location and major non-science and engineering fields of study: 2017",
+  "url": "https://example.org/datasets/ncses/tables/948",
+  "table_number": "8",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/948/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state_or_location_and_institution",
+      "description": "State or location and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "state_or_location_and_institution_level_1, state_or_location_and_institution_level_2, state_or_location_and_institution_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "state_or_location_and_institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields",
+      "description": "All Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_total",
+      "description": "Education Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_education_administration",
+      "description": "Education Education Administration",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_education_research",
+      "description": "Education Education Research",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_teacher_education",
+      "description": "Education Teacher Education",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_teaching_fields",
+      "description": "Education Teaching Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_other_education",
+      "description": "Education Other Education",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_total",
+      "description": "Humanities And Arts Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_foreign_languages_and_literature",
+      "description": "Humanities And Arts Foreign Languages And Literature",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_history",
+      "description": "Humanities And Arts History",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_letters",
+      "description": "Humanities And Arts Letters",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_other_humanities_and_arts",
+      "description": "Humanities And Arts Other Humanities And Arts",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_othera_total",
+      "description": "Othera Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_othera_business_management_and_administration",
+      "description": "Othera Business Management And Administration",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_othera_communication",
+      "description": "Othera Communication",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_othera_non_s_e_fields_nec",
+      "description": "Othera Non S E Fields Nec",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_othera_unknown_field",
+      "description": "Othera Unknown Field",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "See table A-6 in the technical notes for a listing of major fields and their constituent subfields.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2017."
+}

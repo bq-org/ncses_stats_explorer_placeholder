@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median years to doctorate, by broad field of study: Selected years, 1992&#8211;2017",
+  "identifier": "NCSES-974",
+  "description": "Median years to doctorate, by broad field of study: Selected years, 1992&#8211;2017",
+  "url": "https://example.org/datasets/ncses/tables/974",
+  "table_number": "31",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/974/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_time_to_degree",
+      "description": "Field of study and time to degree hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_and_time_to_degree_level_1, field_of_study_and_time_to_degree_level_2, field_of_study_and_time_to_degree_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_and_time_to_degree_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_time_to_degree_full_path",
+      "description": "Of Study And Time To Degree Full Path",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_time_to_degree_level_1",
+      "description": "Of Study And Time To Degree Level 1",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_time_to_degree_level_2",
+      "description": "Of Study And Time To Degree Level 2",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_time_to_degree_level_3",
+      "description": "Of Study And Time To Degree Level 3",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_time_to_degree_hierarchy_depth",
+      "description": "Of Study And Time To Degree Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1992",
+      "description": "1992",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1997",
+      "description": "1997",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002",
+      "description": "2002",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Median years"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

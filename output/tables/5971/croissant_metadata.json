@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Inventive occupations",
+  "identifier": "NCSES-5971",
+  "description": "Inventive occupations",
+  "url": "https://example.org/datasets/ncses/tables/5971",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5971/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_census_code_s_",
+      "description": "Census Code S ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rural_czs",
+      "description": "Rural Czs",
+      "valueType": "string",
+      "unitText": "Percent positive and significant coefficients in iterative estimation of equation 1"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_urban_czs",
+      "description": "Urban Czs",
+      "valueType": "string",
+      "unitText": "Percent positive and significant coefficients in iterative estimation of equation 1"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Summaries of coefficients for the iterative regression analysis are available in Dotzel (2017:165\u201370).",
+  "sources": "Dotzel K, 2017, Three Essays on Human Capital and Innovation in the United States, PhD dissertation, Graduate School of The Ohio State University."
+}

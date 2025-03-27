@@ -1,0 +1,485 @@
+table_id,row_id,time_period,column_level_1,column_level_2,column_hierarchy_depth,value
+5787,r001,2019 -> Total,All fields,,1,363290
+5787,r002,2019 -> Total,S&E,All S&E fields,2,230770
+5787,r003,2019 -> Total,S&E,Engineering,2,81550
+5787,r004,2019 -> Total,S&E,Agricultural sciences,2,4490
+5787,r005,2019 -> Total,S&E,Biological sciences,2,16990
+5787,r006,2019 -> Total,S&E,Computer sciences,2,63760
+5787,r007,2019 -> Total,S&E,Mathematics and statistics,2,21220
+5787,r008,2019 -> Total,S&E,Physical sciences,2,18480
+5787,r009,2019 -> Total,S&E,Psychology,2,3790
+5787,r010,2019 -> Total,S&E,Social sciences,2,20520
+5787,r011,2019 -> Total,Non-S&E,,1,132520
+5787,r012,2019 -> Total -> China,All fields,,1,129340
+5787,r013,2019 -> Total -> China,S&E,All S&E fields,2,86110
+5787,r014,2019 -> Total -> China,S&E,Engineering,2,30470
+5787,r015,2019 -> Total -> China,S&E,Agricultural sciences,2,1410
+5787,r016,2019 -> Total -> China,S&E,Biological sciences,2,6270
+5787,r017,2019 -> Total -> China,S&E,Computer sciences,2,18350
+5787,r018,2019 -> Total -> China,S&E,Mathematics and statistics,2,13590
+5787,r019,2019 -> Total -> China,S&E,Physical sciences,2,7230
+5787,r020,2019 -> Total -> China,S&E,Psychology,2,1070
+5787,r021,2019 -> Total -> China,S&E,Social sciences,2,7730
+5787,r022,2019 -> Total -> China,Non-S&E,,1,43230
+5787,r023,2019 -> Total -> India,All fields,,1,89760
+5787,r024,2019 -> Total -> India,S&E,All S&E fields,2,69900
+5787,r025,2019 -> Total -> India,S&E,Engineering,2,25470
+5787,r026,2019 -> Total -> India,S&E,Agricultural sciences,2,570
+5787,r027,2019 -> Total -> India,S&E,Biological sciences,2,3070
+5787,r028,2019 -> Total -> India,S&E,Computer sciences,2,33940
+5787,r029,2019 -> Total -> India,S&E,Mathematics and statistics,2,2460
+5787,r030,2019 -> Total -> India,S&E,Physical sciences,2,2560
+5787,r031,2019 -> Total -> India,S&E,Psychology,2,390
+5787,r032,2019 -> Total -> India,S&E,Social sciences,2,1450
+5787,r033,2019 -> Total -> India,Non-S&E,,1,19860
+5787,r034,2019 -> Total -> South Korea,All fields,,1,16130
+5787,r035,2019 -> Total -> South Korea,S&E,All S&E fields,2,6910
+5787,r036,2019 -> Total -> South Korea,S&E,Engineering,2,2220
+5787,r037,2019 -> Total -> South Korea,S&E,Agricultural sciences,2,140
+5787,r038,2019 -> Total -> South Korea,S&E,Biological sciences,2,600
+5787,r039,2019 -> Total -> South Korea,S&E,Computer sciences,2,810
+5787,r040,2019 -> Total -> South Korea,S&E,Mathematics and statistics,2,530
+5787,r041,2019 -> Total -> South Korea,S&E,Physical sciences,2,610
+5787,r042,2019 -> Total -> South Korea,S&E,Psychology,2,320
+5787,r043,2019 -> Total -> South Korea,S&E,Social sciences,2,1690
+5787,r044,2019 -> Total -> South Korea,Non-S&E,,1,9220
+5787,r045,2019 -> Total -> Iran,All fields,,1,7770
+5787,r046,2019 -> Total -> Iran,S&E,All S&E fields,2,6480
+5787,r047,2019 -> Total -> Iran,S&E,Engineering,2,4040
+5787,r048,2019 -> Total -> Iran,S&E,Agricultural sciences,2,100
+5787,r049,2019 -> Total -> Iran,S&E,Biological sciences,2,280
+5787,r050,2019 -> Total -> Iran,S&E,Computer sciences,2,920
+5787,r051,2019 -> Total -> Iran,S&E,Mathematics and statistics,2,170
+5787,r052,2019 -> Total -> Iran,S&E,Physical sciences,2,670
+5787,r053,2019 -> Total -> Iran,S&E,Psychology,2,60
+5787,r054,2019 -> Total -> Iran,S&E,Social sciences,2,250
+5787,r055,2019 -> Total -> Iran,Non-S&E,,1,1290
+5787,r056,2019 -> Total -> Taiwan,All fields,,1,8760
+5787,r057,2019 -> Total -> Taiwan,S&E,All S&E fields,2,4920
+5787,r058,2019 -> Total -> Taiwan,S&E,Engineering,2,1920
+5787,r059,2019 -> Total -> Taiwan,S&E,Agricultural sciences,2,90
+5787,r060,2019 -> Total -> Taiwan,S&E,Biological sciences,2,480
+5787,r061,2019 -> Total -> Taiwan,S&E,Computer sciences,2,1140
+5787,r062,2019 -> Total -> Taiwan,S&E,Mathematics and statistics,2,400
+5787,r063,2019 -> Total -> Taiwan,S&E,Physical sciences,2,490
+5787,r064,2019 -> Total -> Taiwan,S&E,Psychology,2,110
+5787,r065,2019 -> Total -> Taiwan,S&E,Social sciences,2,280
+5787,r066,2019 -> Total -> Taiwan,Non-S&E,,1,3840
+5787,r067,2019 -> Total -> Bangladesh,All fields,,1,5810
+5787,r068,2019 -> Total -> Bangladesh,S&E,All S&E fields,2,4910
+5787,r069,2019 -> Total -> Bangladesh,S&E,Engineering,2,2440
+5787,r070,2019 -> Total -> Bangladesh,S&E,Agricultural sciences,2,80
+5787,r071,2019 -> Total -> Bangladesh,S&E,Biological sciences,2,370
+5787,r072,2019 -> Total -> Bangladesh,S&E,Computer sciences,2,890
+5787,r073,2019 -> Total -> Bangladesh,S&E,Mathematics and statistics,2,180
+5787,r074,2019 -> Total -> Bangladesh,S&E,Physical sciences,2,610
+5787,r075,2019 -> Total -> Bangladesh,S&E,Psychology,2,10
+5787,r076,2019 -> Total -> Bangladesh,S&E,Social sciences,2,340
+5787,r077,2019 -> Total -> Bangladesh,Non-S&E,,1,900
+5787,r078,2019 -> Total -> Saudi Arabia,All fields,,1,8270
+5787,r079,2019 -> Total -> Saudi Arabia,S&E,All S&E fields,2,4100
+5787,r080,2019 -> Total -> Saudi Arabia,S&E,Engineering,2,1610
+5787,r081,2019 -> Total -> Saudi Arabia,S&E,Agricultural sciences,2,60
+5787,r082,2019 -> Total -> Saudi Arabia,S&E,Biological sciences,2,470
+5787,r083,2019 -> Total -> Saudi Arabia,S&E,Computer sciences,2,870
+5787,r084,2019 -> Total -> Saudi Arabia,S&E,Mathematics and statistics,2,310
+5787,r085,2019 -> Total -> Saudi Arabia,S&E,Physical sciences,2,330
+5787,r086,2019 -> Total -> Saudi Arabia,S&E,Psychology,2,100
+5787,r087,2019 -> Total -> Saudi Arabia,S&E,Social sciences,2,330
+5787,r088,2019 -> Total -> Saudi Arabia,Non-S&E,,1,4180
+5787,r089,2019 -> Total -> Nepal,All fields,,1,4020
+5787,r090,2019 -> Total -> Nepal,S&E,All S&E fields,2,3160
+5787,r091,2019 -> Total -> Nepal,S&E,Engineering,2,710
+5787,r092,2019 -> Total -> Nepal,S&E,Agricultural sciences,2,260
+5787,r093,2019 -> Total -> Nepal,S&E,Biological sciences,2,480
+5787,r094,2019 -> Total -> Nepal,S&E,Computer sciences,2,630
+5787,r095,2019 -> Total -> Nepal,S&E,Mathematics and statistics,2,110
+5787,r096,2019 -> Total -> Nepal,S&E,Physical sciences,2,750
+5787,r097,2019 -> Total -> Nepal,S&E,Psychology,2,20
+5787,r098,2019 -> Total -> Nepal,S&E,Social sciences,2,190
+5787,r099,2019 -> Total -> Nepal,Non-S&E,,1,860
+5787,r100,2019 -> Total -> Nigeria,All fields,,1,5960
+5787,r101,2019 -> Total -> Nigeria,S&E,All S&E fields,2,3060
+5787,r102,2019 -> Total -> Nigeria,S&E,Engineering,2,980
+5787,r103,2019 -> Total -> Nigeria,S&E,Agricultural sciences,2,160
+5787,r104,2019 -> Total -> Nigeria,S&E,Biological sciences,2,350
+5787,r105,2019 -> Total -> Nigeria,S&E,Computer sciences,2,600
+5787,r106,2019 -> Total -> Nigeria,S&E,Mathematics and statistics,2,170
+5787,r107,2019 -> Total -> Nigeria,S&E,Physical sciences,2,350
+5787,r108,2019 -> Total -> Nigeria,S&E,Psychology,2,60
+5787,r109,2019 -> Total -> Nigeria,S&E,Social sciences,2,400
+5787,r110,2019 -> Total -> Nigeria,Non-S&E,,1,2900
+5787,r111,2019 -> Total -> Canada,All fields,,1,9010
+5787,r112,2019 -> Total -> Canada,S&E,All S&E fields,2,2700
+5787,r113,2019 -> Total -> Canada,S&E,Engineering,2,590
+5787,r114,2019 -> Total -> Canada,S&E,Agricultural sciences,2,70
+5787,r115,2019 -> Total -> Canada,S&E,Biological sciences,2,430
+5787,r116,2019 -> Total -> Canada,S&E,Computer sciences,2,240
+5787,r117,2019 -> Total -> Canada,S&E,Mathematics and statistics,2,210
+5787,r118,2019 -> Total -> Canada,S&E,Physical sciences,2,310
+5787,r119,2019 -> Total -> Canada,S&E,Psychology,2,360
+5787,r120,2019 -> Total -> Canada,S&E,Social sciences,2,510
+5787,r121,2019 -> Total -> Canada,Non-S&E,,1,6300
+5787,r122,2019 -> Total -> Turkey,All fields,,1,3390
+5787,r123,2019 -> Total -> Turkey,S&E,All S&E fields,2,2160
+5787,r124,2019 -> Total -> Turkey,S&E,Engineering,2,850
+5787,r125,2019 -> Total -> Turkey,S&E,Agricultural sciences,2,20
+5787,r126,2019 -> Total -> Turkey,S&E,Biological sciences,2,180
+5787,r127,2019 -> Total -> Turkey,S&E,Computer sciences,2,320
+5787,r128,2019 -> Total -> Turkey,S&E,Mathematics and statistics,2,100
+5787,r129,2019 -> Total -> Turkey,S&E,Physical sciences,2,140
+5787,r130,2019 -> Total -> Turkey,S&E,Psychology,2,100
+5787,r131,2019 -> Total -> Turkey,S&E,Social sciences,2,450
+5787,r132,2019 -> Total -> Turkey,Non-S&E,,1,1230
+5787,r133,2019 -> Total -> Vietnam,All fields,,1,3530
+5787,r134,2019 -> Total -> Vietnam,S&E,All S&E fields,2,1840
+5787,r135,2019 -> Total -> Vietnam,S&E,Engineering,2,430
+5787,r136,2019 -> Total -> Vietnam,S&E,Agricultural sciences,2,20
+5787,r137,2019 -> Total -> Vietnam,S&E,Biological sciences,2,170
+5787,r138,2019 -> Total -> Vietnam,S&E,Computer sciences,2,500
+5787,r139,2019 -> Total -> Vietnam,S&E,Mathematics and statistics,2,260
+5787,r140,2019 -> Total -> Vietnam,S&E,Physical sciences,2,230
+5787,r141,2019 -> Total -> Vietnam,S&E,Psychology,2,50
+5787,r142,2019 -> Total -> Vietnam,S&E,Social sciences,2,190
+5787,r143,2019 -> Total -> Vietnam,Non-S&E,,1,1680
+5787,r144,2019 -> Total -> Brazil,All fields,,1,4550
+5787,r145,2019 -> Total -> Brazil,S&E,All S&E fields,2,1770
+5787,r146,2019 -> Total -> Brazil,S&E,Engineering,2,500
+5787,r147,2019 -> Total -> Brazil,S&E,Agricultural sciences,2,210
+5787,r148,2019 -> Total -> Brazil,S&E,Biological sciences,2,240
+5787,r149,2019 -> Total -> Brazil,S&E,Computer sciences,2,190
+5787,r150,2019 -> Total -> Brazil,S&E,Mathematics and statistics,2,70
+5787,r151,2019 -> Total -> Brazil,S&E,Physical sciences,2,140
+5787,r152,2019 -> Total -> Brazil,S&E,Psychology,2,70
+5787,r153,2019 -> Total -> Brazil,S&E,Social sciences,2,350
+5787,r154,2019 -> Total -> Brazil,Non-S&E,,1,2780
+5787,r155,2019 -> Total -> Pakistan,All fields,,1,2400
+5787,r156,2019 -> Total -> Pakistan,S&E,All S&E fields,2,1580
+5787,r157,2019 -> Total -> Pakistan,S&E,Engineering,2,560
+5787,r158,2019 -> Total -> Pakistan,S&E,Agricultural sciences,2,20
+5787,r159,2019 -> Total -> Pakistan,S&E,Biological sciences,2,90
+5787,r160,2019 -> Total -> Pakistan,S&E,Computer sciences,2,450
+5787,r161,2019 -> Total -> Pakistan,S&E,Mathematics and statistics,2,70
+5787,r162,2019 -> Total -> Pakistan,S&E,Physical sciences,2,140
+5787,r163,2019 -> Total -> Pakistan,S&E,Psychology,2,20
+5787,r164,2019 -> Total -> Pakistan,S&E,Social sciences,2,220
+5787,r165,2019 -> Total -> Pakistan,Non-S&E,,1,820
+5787,r166,2019 -> Total -> Sri Lanka,All fields,,1,1760
+5787,r167,2019 -> Total -> Sri Lanka,S&E,All S&E fields,2,1540
+5787,r168,2019 -> Total -> Sri Lanka,S&E,Engineering,2,290
+5787,r169,2019 -> Total -> Sri Lanka,S&E,Agricultural sciences,2,40
+5787,r170,2019 -> Total -> Sri Lanka,S&E,Biological sciences,2,140
+5787,r171,2019 -> Total -> Sri Lanka,S&E,Computer sciences,2,100
+5787,r172,2019 -> Total -> Sri Lanka,S&E,Mathematics and statistics,2,180
+5787,r173,2019 -> Total -> Sri Lanka,S&E,Physical sciences,2,740
+5787,r174,2019 -> Total -> Sri Lanka,S&E,Psychology,2,10
+5787,r175,2019 -> Total -> Sri Lanka,S&E,Social sciences,2,50
+5787,r176,2019 -> Total -> Sri Lanka,Non-S&E,,1,210
+5787,r177,2019 -> Total -> Mexico,All fields,,1,3190
+5787,r178,2019 -> Total -> Mexico,S&E,All S&E fields,2,1540
+5787,r179,2019 -> Total -> Mexico,S&E,Engineering,2,440
+5787,r180,2019 -> Total -> Mexico,S&E,Agricultural sciences,2,80
+5787,r181,2019 -> Total -> Mexico,S&E,Biological sciences,2,230
+5787,r182,2019 -> Total -> Mexico,S&E,Computer sciences,2,100
+5787,r183,2019 -> Total -> Mexico,S&E,Mathematics and statistics,2,100
+5787,r184,2019 -> Total -> Mexico,S&E,Physical sciences,2,190
+5787,r185,2019 -> Total -> Mexico,S&E,Psychology,2,50
+5787,r186,2019 -> Total -> Mexico,S&E,Social sciences,2,370
+5787,r187,2019 -> Total -> Mexico,Non-S&E,,1,1650
+5787,r188,2019 -> Total -> Ghana,All fields,,1,2230
+5787,r189,2019 -> Total -> Ghana,S&E,All S&E fields,2,1350
+5787,r190,2019 -> Total -> Ghana,S&E,Engineering,2,270
+5787,r191,2019 -> Total -> Ghana,S&E,Agricultural sciences,2,70
+5787,r192,2019 -> Total -> Ghana,S&E,Biological sciences,2,150
+5787,r193,2019 -> Total -> Ghana,S&E,Computer sciences,2,120
+5787,r194,2019 -> Total -> Ghana,S&E,Mathematics and statistics,2,240
+5787,r195,2019 -> Total -> Ghana,S&E,Physical sciences,2,150
+5787,r196,2019 -> Total -> Ghana,S&E,Psychology,2,20
+5787,r197,2019 -> Total -> Ghana,S&E,Social sciences,2,330
+5787,r198,2019 -> Total -> Ghana,Non-S&E,,1,880
+5787,r199,2019 -> Total -> Colombia,All fields,,1,2700
+5787,r200,2019 -> Total -> Colombia,S&E,All S&E fields,2,1320
+5787,r201,2019 -> Total -> Colombia,S&E,Engineering,2,420
+5787,r202,2019 -> Total -> Colombia,S&E,Agricultural sciences,2,80
+5787,r203,2019 -> Total -> Colombia,S&E,Biological sciences,2,170
+5787,r204,2019 -> Total -> Colombia,S&E,Computer sciences,2,90
+5787,r205,2019 -> Total -> Colombia,S&E,Mathematics and statistics,2,90
+5787,r206,2019 -> Total -> Colombia,S&E,Physical sciences,2,140
+5787,r207,2019 -> Total -> Colombia,S&E,Psychology,2,30
+5787,r208,2019 -> Total -> Colombia,S&E,Social sciences,2,300
+5787,r209,2019 -> Total -> Colombia,Non-S&E,,1,1380
+5787,r210,2019 -> Total -> Germany,All fields,,1,2230
+5787,r211,2019 -> Total -> Germany,S&E,All S&E fields,2,1040
+5787,r212,2019 -> Total -> Germany,S&E,Engineering,2,200
+5787,r213,2019 -> Total -> Germany,S&E,Agricultural sciences,2,40
+5787,r214,2019 -> Total -> Germany,S&E,Biological sciences,2,150
+5787,r215,2019 -> Total -> Germany,S&E,Computer sciences,2,100
+5787,r216,2019 -> Total -> Germany,S&E,Mathematics and statistics,2,100
+5787,r217,2019 -> Total -> Germany,S&E,Physical sciences,2,130
+5787,r218,2019 -> Total -> Germany,S&E,Psychology,2,50
+5787,r219,2019 -> Total -> Germany,S&E,Social sciences,2,290
+5787,r220,2019 -> Total -> Germany,Non-S&E,,1,1190
+5787,r221,2019 -> Total -> France,All fields,,1,2200
+5787,r222,2019 -> Total -> France,S&E,All S&E fields,2,1040
+5787,r223,2019 -> Total -> France,S&E,Engineering,2,450
+5787,r224,2019 -> Total -> France,S&E,Agricultural sciences,2,20
+5787,r225,2019 -> Total -> France,S&E,Biological sciences,2,80
+5787,r226,2019 -> Total -> France,S&E,Computer sciences,2,100
+5787,r227,2019 -> Total -> France,S&E,Mathematics and statistics,2,110
+5787,r228,2019 -> Total -> France,S&E,Physical sciences,2,80
+5787,r229,2019 -> Total -> France,S&E,Psychology,2,30
+5787,r230,2019 -> Total -> France,S&E,Social sciences,2,190
+5787,r231,2019 -> Total -> France,Non-S&E,,1,1160
+5787,r232,2019 -> Total -> Other locations,All fields,,1,50300
+5787,r233,2019 -> Total -> Other locations,S&E,All S&E fields,2,23340
+5787,r234,2019 -> Total -> Other locations,S&E,Engineering,2,6680
+5787,r235,2019 -> Total -> Other locations,S&E,Agricultural sciences,2,930
+5787,r236,2019 -> Total -> Other locations,S&E,Biological sciences,2,2610
+5787,r237,2019 -> Total -> Other locations,S&E,Computer sciences,2,3340
+5787,r238,2019 -> Total -> Other locations,S&E,Mathematics and statistics,2,1770
+5787,r239,2019 -> Total -> Other locations,S&E,Physical sciences,2,2490
+5787,r240,2019 -> Total -> Other locations,S&E,Psychology,2,890
+5787,r241,2019 -> Total -> Other locations,S&E,Social sciences,2,4630
+5787,r242,2019 -> Total -> Other locations,Non-S&E,,1,26960
+5787,r243,2020 -> Total,All fields,,1,290140
+5787,r244,2020 -> Total,S&E,All S&E fields,2,188200
+5787,r245,2020 -> Total,S&E,Engineering,2,65450
+5787,r246,2020 -> Total,S&E,Agricultural sciences,2,4160
+5787,r247,2020 -> Total,S&E,Biological sciences,2,15420
+5787,r248,2020 -> Total,S&E,Computer sciences,2,50870
+5787,r249,2020 -> Total,S&E,Mathematics and statistics,2,16460
+5787,r250,2020 -> Total,S&E,Physical sciences,2,16470
+5787,r251,2020 -> Total,S&E,Psychology,2,3270
+5787,r252,2020 -> Total,S&E,Social sciences,2,16090
+5787,r253,2020 -> Total,Non-S&E,,1,101940
+5787,r254,2020 -> Total -> China,All fields,,1,98170
+5787,r255,2020 -> Total -> China,S&E,All S&E fields,2,68290
+5787,r256,2020 -> Total -> China,S&E,Engineering,2,24290
+5787,r257,2020 -> Total -> China,S&E,Agricultural sciences,2,1200
+5787,r258,2020 -> Total -> China,S&E,Biological sciences,2,5470
+5787,r259,2020 -> Total -> China,S&E,Computer sciences,2,14780
+5787,r260,2020 -> Total -> China,S&E,Mathematics and statistics,2,9730
+5787,r261,2020 -> Total -> China,S&E,Physical sciences,2,6260
+5787,r262,2020 -> Total -> China,S&E,Psychology,2,940
+5787,r263,2020 -> Total -> China,S&E,Social sciences,2,5620
+5787,r264,2020 -> Total -> China,Non-S&E,,1,29880
+5787,r265,2020 -> Total -> India,All fields,,1,68920
+5787,r266,2020 -> Total -> India,S&E,All S&E fields,2,52990
+5787,r267,2020 -> Total -> India,S&E,Engineering,2,18390
+5787,r268,2020 -> Total -> India,S&E,Agricultural sciences,2,510
+5787,r269,2020 -> Total -> India,S&E,Biological sciences,2,2670
+5787,r270,2020 -> Total -> India,S&E,Computer sciences,2,25630
+5787,r271,2020 -> Total -> India,S&E,Mathematics and statistics,2,2010
+5787,r272,2020 -> Total -> India,S&E,Physical sciences,2,2330
+5787,r273,2020 -> Total -> India,S&E,Psychology,2,340
+5787,r274,2020 -> Total -> India,S&E,Social sciences,2,1120
+5787,r275,2020 -> Total -> India,Non-S&E,,1,15940
+5787,r276,2020 -> Total -> South Korea,All fields,,1,13830
+5787,r277,2020 -> Total -> South Korea,S&E,All S&E fields,2,6310
+5787,r278,2020 -> Total -> South Korea,S&E,Engineering,2,2040
+5787,r279,2020 -> Total -> South Korea,S&E,Agricultural sciences,2,140
+5787,r280,2020 -> Total -> South Korea,S&E,Biological sciences,2,580
+5787,r281,2020 -> Total -> South Korea,S&E,Computer sciences,2,730
+5787,r282,2020 -> Total -> South Korea,S&E,Mathematics and statistics,2,490
+5787,r283,2020 -> Total -> South Korea,S&E,Physical sciences,2,560
+5787,r284,2020 -> Total -> South Korea,S&E,Psychology,2,300
+5787,r285,2020 -> Total -> South Korea,S&E,Social sciences,2,1480
+5787,r286,2020 -> Total -> South Korea,Non-S&E,,1,7520
+5787,r287,2020 -> Total -> Iran,All fields,,1,6390
+5787,r288,2020 -> Total -> Iran,S&E,All S&E fields,2,5270
+5787,r289,2020 -> Total -> Iran,S&E,Engineering,2,3230
+5787,r290,2020 -> Total -> Iran,S&E,Agricultural sciences,2,90
+5787,r291,2020 -> Total -> Iran,S&E,Biological sciences,2,250
+5787,r292,2020 -> Total -> Iran,S&E,Computer sciences,2,760
+5787,r293,2020 -> Total -> Iran,S&E,Mathematics and statistics,2,140
+5787,r294,2020 -> Total -> Iran,S&E,Physical sciences,2,550
+5787,r295,2020 -> Total -> Iran,S&E,Psychology,2,50
+5787,r296,2020 -> Total -> Iran,S&E,Social sciences,2,200
+5787,r297,2020 -> Total -> Iran,Non-S&E,,1,1110
+5787,r298,2020 -> Total -> Bangladesh,All fields,,1,5320
+5787,r299,2020 -> Total -> Bangladesh,S&E,All S&E fields,2,4570
+5787,r300,2020 -> Total -> Bangladesh,S&E,Engineering,2,2330
+5787,r301,2020 -> Total -> Bangladesh,S&E,Agricultural sciences,2,80
+5787,r302,2020 -> Total -> Bangladesh,S&E,Biological sciences,2,340
+5787,r303,2020 -> Total -> Bangladesh,S&E,Computer sciences,2,820
+5787,r304,2020 -> Total -> Bangladesh,S&E,Mathematics and statistics,2,160
+5787,r305,2020 -> Total -> Bangladesh,S&E,Physical sciences,2,570
+5787,r306,2020 -> Total -> Bangladesh,S&E,Psychology,2,10
+5787,r307,2020 -> Total -> Bangladesh,S&E,Social sciences,2,260
+5787,r308,2020 -> Total -> Bangladesh,Non-S&E,,1,760
+5787,r309,2020 -> Total -> Taiwan,All fields,,1,6950
+5787,r310,2020 -> Total -> Taiwan,S&E,All S&E fields,2,4170
+5787,r311,2020 -> Total -> Taiwan,S&E,Engineering,2,1560
+5787,r312,2020 -> Total -> Taiwan,S&E,Agricultural sciences,2,90
+5787,r313,2020 -> Total -> Taiwan,S&E,Biological sciences,2,430
+5787,r314,2020 -> Total -> Taiwan,S&E,Computer sciences,2,940
+5787,r315,2020 -> Total -> Taiwan,S&E,Mathematics and statistics,2,340
+5787,r316,2020 -> Total -> Taiwan,S&E,Physical sciences,2,470
+5787,r317,2020 -> Total -> Taiwan,S&E,Psychology,2,100
+5787,r318,2020 -> Total -> Taiwan,S&E,Social sciences,2,240
+5787,r319,2020 -> Total -> Taiwan,Non-S&E,,1,2780
+5787,r320,2020 -> Total -> Saudi Arabia,All fields,,1,6780
+5787,r321,2020 -> Total -> Saudi Arabia,S&E,All S&E fields,2,3390
+5787,r322,2020 -> Total -> Saudi Arabia,S&E,Engineering,2,1350
+5787,r323,2020 -> Total -> Saudi Arabia,S&E,Agricultural sciences,2,50
+5787,r324,2020 -> Total -> Saudi Arabia,S&E,Biological sciences,2,380
+5787,r325,2020 -> Total -> Saudi Arabia,S&E,Computer sciences,2,750
+5787,r326,2020 -> Total -> Saudi Arabia,S&E,Mathematics and statistics,2,240
+5787,r327,2020 -> Total -> Saudi Arabia,S&E,Physical sciences,2,260
+5787,r328,2020 -> Total -> Saudi Arabia,S&E,Psychology,2,80
+5787,r329,2020 -> Total -> Saudi Arabia,S&E,Social sciences,2,270
+5787,r330,2020 -> Total -> Saudi Arabia,Non-S&E,,1,3390
+5787,r331,2020 -> Total -> Nepal,All fields,,1,3690
+5787,r332,2020 -> Total -> Nepal,S&E,All S&E fields,2,2950
+5787,r333,2020 -> Total -> Nepal,S&E,Engineering,2,650
+5787,r334,2020 -> Total -> Nepal,S&E,Agricultural sciences,2,240
+5787,r335,2020 -> Total -> Nepal,S&E,Biological sciences,2,450
+5787,r336,2020 -> Total -> Nepal,S&E,Computer sciences,2,630
+5787,r337,2020 -> Total -> Nepal,S&E,Mathematics and statistics,2,130
+5787,r338,2020 -> Total -> Nepal,S&E,Physical sciences,2,670
+5787,r339,2020 -> Total -> Nepal,S&E,Psychology,2,20
+5787,r340,2020 -> Total -> Nepal,S&E,Social sciences,2,180
+5787,r341,2020 -> Total -> Nepal,Non-S&E,,1,740
+5787,r342,2020 -> Total -> Nigeria,All fields,,1,5070
+5787,r343,2020 -> Total -> Nigeria,S&E,All S&E fields,2,2770
+5787,r344,2020 -> Total -> Nigeria,S&E,Engineering,2,920
+5787,r345,2020 -> Total -> Nigeria,S&E,Agricultural sciences,2,140
+5787,r346,2020 -> Total -> Nigeria,S&E,Biological sciences,2,360
+5787,r347,2020 -> Total -> Nigeria,S&E,Computer sciences,2,510
+5787,r348,2020 -> Total -> Nigeria,S&E,Mathematics and statistics,2,160
+5787,r349,2020 -> Total -> Nigeria,S&E,Physical sciences,2,320
+5787,r350,2020 -> Total -> Nigeria,S&E,Psychology,2,50
+5787,r351,2020 -> Total -> Nigeria,S&E,Social sciences,2,310
+5787,r352,2020 -> Total -> Nigeria,Non-S&E,,1,2300
+5787,r353,2020 -> Total -> Canada,All fields,,1,7680
+5787,r354,2020 -> Total -> Canada,S&E,All S&E fields,2,2430
+5787,r355,2020 -> Total -> Canada,S&E,Engineering,2,530
+5787,r356,2020 -> Total -> Canada,S&E,Agricultural sciences,2,110
+5787,r357,2020 -> Total -> Canada,S&E,Biological sciences,2,420
+5787,r358,2020 -> Total -> Canada,S&E,Computer sciences,2,240
+5787,r359,2020 -> Total -> Canada,S&E,Mathematics and statistics,2,170
+5787,r360,2020 -> Total -> Canada,S&E,Physical sciences,2,290
+5787,r361,2020 -> Total -> Canada,S&E,Psychology,2,290
+5787,r362,2020 -> Total -> Canada,S&E,Social sciences,2,390
+5787,r363,2020 -> Total -> Canada,Non-S&E,,1,5250
+5787,r364,2020 -> Total -> Turkey,All fields,,1,2950
+5787,r365,2020 -> Total -> Turkey,S&E,All S&E fields,2,1950
+5787,r366,2020 -> Total -> Turkey,S&E,Engineering,2,770
+5787,r367,2020 -> Total -> Turkey,S&E,Agricultural sciences,2,20
+5787,r368,2020 -> Total -> Turkey,S&E,Biological sciences,2,170
+5787,r369,2020 -> Total -> Turkey,S&E,Computer sciences,2,280
+5787,r370,2020 -> Total -> Turkey,S&E,Mathematics and statistics,2,100
+5787,r371,2020 -> Total -> Turkey,S&E,Physical sciences,2,130
+5787,r372,2020 -> Total -> Turkey,S&E,Psychology,2,90
+5787,r373,2020 -> Total -> Turkey,S&E,Social sciences,2,390
+5787,r374,2020 -> Total -> Turkey,Non-S&E,,1,1010
+5787,r375,2020 -> Total -> Vietnam,All fields,,1,3290
+5787,r376,2020 -> Total -> Vietnam,S&E,All S&E fields,2,1790
+5787,r377,2020 -> Total -> Vietnam,S&E,Engineering,2,410
+5787,r378,2020 -> Total -> Vietnam,S&E,Agricultural sciences,2,20
+5787,r379,2020 -> Total -> Vietnam,S&E,Biological sciences,2,190
+5787,r380,2020 -> Total -> Vietnam,S&E,Computer sciences,2,480
+5787,r381,2020 -> Total -> Vietnam,S&E,Mathematics and statistics,2,240
+5787,r382,2020 -> Total -> Vietnam,S&E,Physical sciences,2,240
+5787,r383,2020 -> Total -> Vietnam,S&E,Psychology,2,40
+5787,r384,2020 -> Total -> Vietnam,S&E,Social sciences,2,160
+5787,r385,2020 -> Total -> Vietnam,Non-S&E,,1,1500
+5787,r386,2020 -> Total -> Brazil,All fields,,1,3730
+5787,r387,2020 -> Total -> Brazil,S&E,All S&E fields,2,1620
+5787,r388,2020 -> Total -> Brazil,S&E,Engineering,2,450
+5787,r389,2020 -> Total -> Brazil,S&E,Agricultural sciences,2,210
+5787,r390,2020 -> Total -> Brazil,S&E,Biological sciences,2,220
+5787,r391,2020 -> Total -> Brazil,S&E,Computer sciences,2,180
+5787,r392,2020 -> Total -> Brazil,S&E,Mathematics and statistics,2,80
+5787,r393,2020 -> Total -> Brazil,S&E,Physical sciences,2,140
+5787,r394,2020 -> Total -> Brazil,S&E,Psychology,2,50
+5787,r395,2020 -> Total -> Brazil,S&E,Social sciences,2,280
+5787,r396,2020 -> Total -> Brazil,Non-S&E,,1,2110
+5787,r397,2020 -> Total -> Mexico,All fields,,1,2890
+5787,r398,2020 -> Total -> Mexico,S&E,All S&E fields,2,1460
+5787,r399,2020 -> Total -> Mexico,S&E,Engineering,2,420
+5787,r400,2020 -> Total -> Mexico,S&E,Agricultural sciences,2,70
+5787,r401,2020 -> Total -> Mexico,S&E,Biological sciences,2,220
+5787,r402,2020 -> Total -> Mexico,S&E,Computer sciences,2,100
+5787,r403,2020 -> Total -> Mexico,S&E,Mathematics and statistics,2,100
+5787,r404,2020 -> Total -> Mexico,S&E,Physical sciences,2,190
+5787,r405,2020 -> Total -> Mexico,S&E,Psychology,2,40
+5787,r406,2020 -> Total -> Mexico,S&E,Social sciences,2,310
+5787,r407,2020 -> Total -> Mexico,Non-S&E,,1,1440
+5787,r408,2020 -> Total -> Pakistan,All fields,,1,2150
+5787,r409,2020 -> Total -> Pakistan,S&E,All S&E fields,2,1440
+5787,r410,2020 -> Total -> Pakistan,S&E,Engineering,2,510
+5787,r411,2020 -> Total -> Pakistan,S&E,Agricultural sciences,2,20
+5787,r412,2020 -> Total -> Pakistan,S&E,Biological sciences,2,90
+5787,r413,2020 -> Total -> Pakistan,S&E,Computer sciences,2,450
+5787,r414,2020 -> Total -> Pakistan,S&E,Mathematics and statistics,2,70
+5787,r415,2020 -> Total -> Pakistan,S&E,Physical sciences,2,130
+5787,r416,2020 -> Total -> Pakistan,S&E,Psychology,2,20
+5787,r417,2020 -> Total -> Pakistan,S&E,Social sciences,2,150
+5787,r418,2020 -> Total -> Pakistan,Non-S&E,,1,710
+5787,r419,2020 -> Total -> Sri Lanka,All fields,,1,1520
+5787,r420,2020 -> Total -> Sri Lanka,S&E,All S&E fields,2,1360
+5787,r421,2020 -> Total -> Sri Lanka,S&E,Engineering,2,260
+5787,r422,2020 -> Total -> Sri Lanka,S&E,Agricultural sciences,2,40
+5787,r423,2020 -> Total -> Sri Lanka,S&E,Biological sciences,2,130
+5787,r424,2020 -> Total -> Sri Lanka,S&E,Computer sciences,2,90
+5787,r425,2020 -> Total -> Sri Lanka,S&E,Mathematics and statistics,2,160
+5787,r426,2020 -> Total -> Sri Lanka,S&E,Physical sciences,2,630
+5787,r427,2020 -> Total -> Sri Lanka,S&E,Psychology,2,10
+5787,r428,2020 -> Total -> Sri Lanka,S&E,Social sciences,2,40
+5787,r429,2020 -> Total -> Sri Lanka,Non-S&E,,1,160
+5787,r430,2020 -> Total -> Colombia,All fields,,1,2340
+5787,r431,2020 -> Total -> Colombia,S&E,All S&E fields,2,1230
+5787,r432,2020 -> Total -> Colombia,S&E,Engineering,2,420
+5787,r433,2020 -> Total -> Colombia,S&E,Agricultural sciences,2,70
+5787,r434,2020 -> Total -> Colombia,S&E,Biological sciences,2,170
+5787,r435,2020 -> Total -> Colombia,S&E,Computer sciences,2,70
+5787,r436,2020 -> Total -> Colombia,S&E,Mathematics and statistics,2,100
+5787,r437,2020 -> Total -> Colombia,S&E,Physical sciences,2,140
+5787,r438,2020 -> Total -> Colombia,S&E,Psychology,2,30
+5787,r439,2020 -> Total -> Colombia,S&E,Social sciences,2,240
+5787,r440,2020 -> Total -> Colombia,Non-S&E,,1,1110
+5787,r441,2020 -> Total -> Ghana,All fields,,1,1960
+5787,r442,2020 -> Total -> Ghana,S&E,All S&E fields,2,1210
+5787,r443,2020 -> Total -> Ghana,S&E,Engineering,2,270
+5787,r444,2020 -> Total -> Ghana,S&E,Agricultural sciences,2,70
+5787,r445,2020 -> Total -> Ghana,S&E,Biological sciences,2,150
+5787,r446,2020 -> Total -> Ghana,S&E,Computer sciences,2,100
+5787,r447,2020 -> Total -> Ghana,S&E,Mathematics and statistics,2,210
+5787,r448,2020 -> Total -> Ghana,S&E,Physical sciences,2,150
+5787,r449,2020 -> Total -> Ghana,S&E,Psychology,2,20
+5787,r450,2020 -> Total -> Ghana,S&E,Social sciences,2,240
+5787,r451,2020 -> Total -> Ghana,Non-S&E,,1,750
+5787,r452,2020 -> Total -> Egypt,All fields,,1,1310
+5787,r453,2020 -> Total -> Egypt,S&E,All S&E fields,2,970
+5787,r454,2020 -> Total -> Egypt,S&E,Engineering,2,520
+5787,r455,2020 -> Total -> Egypt,S&E,Agricultural sciences,2,10
+5787,r456,2020 -> Total -> Egypt,S&E,Biological sciences,2,80
+5787,r457,2020 -> Total -> Egypt,S&E,Computer sciences,2,160
+5787,r458,2020 -> Total -> Egypt,S&E,Mathematics and statistics,2,20
+5787,r459,2020 -> Total -> Egypt,S&E,Physical sciences,2,110
+5787,r460,2020 -> Total -> Egypt,S&E,Psychology,2,10
+5787,r461,2020 -> Total -> Egypt,S&E,Social sciences,2,70
+5787,r462,2020 -> Total -> Egypt,Non-S&E,,1,340
+5787,r463,2020 -> Total -> Japan,All fields,,1,1960
+5787,r464,2020 -> Total -> Japan,S&E,All S&E fields,2,900
+5787,r465,2020 -> Total -> Japan,S&E,Engineering,2,190
+5787,r466,2020 -> Total -> Japan,S&E,Agricultural sciences,2,30
+5787,r467,2020 -> Total -> Japan,S&E,Biological sciences,2,100
+5787,r468,2020 -> Total -> Japan,S&E,Computer sciences,2,130
+5787,r469,2020 -> Total -> Japan,S&E,Mathematics and statistics,2,50
+5787,r470,2020 -> Total -> Japan,S&E,Physical sciences,2,80
+5787,r471,2020 -> Total -> Japan,S&E,Psychology,2,30
+5787,r472,2020 -> Total -> Japan,S&E,Social sciences,2,280
+5787,r473,2020 -> Total -> Japan,Non-S&E,,1,1060
+5787,r474,2020 -> Total -> Other locations,All fields,,1,43240
+5787,r475,2020 -> Total -> Other locations,S&E,All S&E fields,2,21150
+5787,r476,2020 -> Total -> Other locations,S&E,Engineering,2,5930
+5787,r477,2020 -> Total -> Other locations,S&E,Agricultural sciences,2,940
+5787,r478,2020 -> Total -> Other locations,S&E,Biological sciences,2,2570
+5787,r479,2020 -> Total -> Other locations,S&E,Computer sciences,2,3060
+5787,r480,2020 -> Total -> Other locations,S&E,Mathematics and statistics,2,1780
+5787,r481,2020 -> Total -> Other locations,S&E,Physical sciences,2,2240
+5787,r482,2020 -> Total -> Other locations,S&E,Psychology,2,760
+5787,r483,2020 -> Total -> Other locations,S&E,Social sciences,2,3860
+5787,r484,2020 -> Total -> Other locations,Non-S&E,,1,22100

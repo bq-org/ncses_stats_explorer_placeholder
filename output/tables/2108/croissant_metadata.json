@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Unit response rates, by industry and company size: 2017",
+  "identifier": "NCSES-2108",
+  "description": "Unit response rates, by industry and company size: 2017",
+  "url": "https://example.org/datasets/ncses/tables/2108",
+  "table_number": "A-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2108/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_active_reporting_unitsa_",
+      "description": "Active Reporting Unitsa ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reporting_units_that_met_the_response_criteriab_number",
+      "description": "Reporting Units That Met The Response Criteriab Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reporting_units_that_met_the_response_criteriab_percent",
+      "description": "Reporting Units That Met The Response Criteriab Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reporting_units_that_met_the_response_criteria_and_reported_domestic_r_d_paid_for_by_the_company_and_others_and_performed_by_the_company_of_1_million_or_more_number",
+      "description": "Reporting Units That Met The Response Criteria And Reported Domestic R D Paid For By The Company And Others And Performed By The Company Of 1 Million Or More Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_reporting_units_that_met_the_response_criteria_and_reported_domestic_r_d_paid_for_by_the_company_and_others_and_performed_by_the_company_of_1_million_or_more_percent",
+      "description": "Reporting Units That Met The Response Criteria And Reported Domestic R D Paid For By The Company And Others And Performed By The Company Of 1 Million Or More Percent",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Business Research and Development Survey, 2017."
+}

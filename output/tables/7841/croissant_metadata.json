@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Science and engineering research space in academic institutions, by field, medical school space, and research animal space: FYs 2007&#8211;21",
+  "identifier": "NCSES-7841",
+  "description": "Science and engineering research space in academic institutions, by field, medical school space, and research animal space: FYs 2007&#8211;21",
+  "url": "https://example.org/datasets/ncses/tables/7841",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7841/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_medical_school_space_and_research_animal_space_b",
+      "description": "Field, medical school space, and research animal space hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_medical_school_space_and_research_animal_space_b_level_1, _b_field_medical_school_space_and_research_animal_space_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_medical_school_space_and_research_animal_space_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2007",
+      "description": "Fy 2007",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2009",
+      "description": "Fy 2009",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2011",
+      "description": "Fy 2011",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2013",
+      "description": "Fy 2013",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2015",
+      "description": "Fy 2015",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2017",
+      "description": "Fy 2017",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2019",
+      "description": "Fy 2019",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2021",
+      "description": "Fy 2021",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "In FY 2015, \"Agricultural sciences and natural resources sciences\" was split into \"Agricultural sciences\" and \"Natural resources and conservation.\" Prior to FY 2015, data for \"Natural resources and conservation\" are included in \"Agricultural sciences.\" For details on field changes in FY 2021, see \"Changes in the questionnaire\" in the \"Technical Notes\" section. Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities."
+}

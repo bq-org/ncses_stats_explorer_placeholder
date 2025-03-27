@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Sales, R&D, R&D-to-sales ratio, employment, and R&D-to-employment ratio for companies that performed or funded business R&D in the United States, by selected industry: 2021",
+  "identifier": "NCSES-12568",
+  "description": "Sales, R&D, R&D-to-sales ratio, employment, and R&D-to-employment ratio for companies that performed or funded business R&D in the United States, by selected industry: 2021",
+  "url": "https://example.org/datasets/ncses/tables/12568",
+  "table_number": "6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12568/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_industry_and_naics_code_b",
+      "description": "Industry and NAICS code hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_industry_and_naics_code_b_level_1, _b_industry_and_naics_code_b_level_2, _b_industry_and_naics_code_b_level_3, _b_industry_and_naics_code_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_industry_and_naics_code_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_net_salesa_millions_",
+      "description": "Domestic Net Salesa Millions ",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent R&D intensity, and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_db_millions_",
+      "description": "All R Db Millions ",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent R&D intensity, and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_to_sales_ratioc_",
+      "description": "R D To Sales Ratioc ",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent R&D intensity, and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_employmentd_headcounts_in_thousands_total",
+      "description": "Domestic Employmentd Headcounts In Thousands Total",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent R&D intensity, and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_employmentd_headcounts_in_thousands_r_de",
+      "description": "Domestic Employmentd Headcounts In Thousands R De",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent R&D intensity, and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_to_employment_ratiof_",
+      "description": "R D To Employment Ratiof ",
+      "valueType": "string",
+      "unitText": "Millions of dollars, percent R&D intensity, and thousands of employees"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data are for companies with 10 or more domestic employees. Detail may not add to total because of rounding. Industry classification was based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2021."
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employees of nonprofit organizations with R&D activity, by state: FY 2021",
+  "identifier": "NCSES-9810",
+  "description": "Employees of nonprofit organizations with R&D activity, by state: FY 2021",
+  "url": "https://example.org/datasets/ncses/tables/9810",
+  "table_number": "14",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9810/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_b",
+      "description": "State hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_b_level_1, _b_state_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "These data exclude nonprofit universities and colleges and federally funded research and development centers administered by nonprofit organizations. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Nonprofit Research Activities FY 2021 module of the 2022 Annual Business Survey."
+}

@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federally financed higher education R&D expenditures in non-science and engineering fields, ranked by all FY 2020 non-S&E fields: FYs 2018\u201320 and by subfield for FY 2020",
+  "identifier": "NCSES-5440",
+  "description": "Federally financed higher education R&D expenditures in non-science and engineering fields, ranked by all FY 2020 non-S&E fields: FYs 2018\u201320 and by subfield for FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/5440",
+  "table_number": "58",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5440/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_institution_b",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_institution_b_level_1, _b_institution_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_all_non_s_e_fields",
+      "description": "2020 All Non S E Fields",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_business_management_and_business_administration",
+      "description": "2020 Business Management And Business Administration",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_communication_and_communications_technologies",
+      "description": "2020 Communication And Communications Technologies",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_education",
+      "description": "2020 Education",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_humanities",
+      "description": "2020 Humanities",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_law",
+      "description": "2020 Law",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_social_work",
+      "description": "2020 Social Work",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_visual_and_performing_arts",
+      "description": "2020 Visual And Performing Arts",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_other",
+      "description": "2020 Other",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutions reporting zero expenditures in ranked total for FY 2020 are not listed in this table. Tied institutions are ranked alphabetically. Ranked institutions are geographically separate campuses headed by a campus-level president or chancellor. Some campuses are part of large, multi-campus universities; some are part of state university systems. For a complete list of campuses that belong to a larger university or system and their aggregate R&D expenditures, see table 6.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

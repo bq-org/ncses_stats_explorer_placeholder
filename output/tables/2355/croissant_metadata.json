@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Funds spent for business R&D performed in the United States, by type of R&D, source of funds, and size of company: 2017\u201318",
+  "identifier": "NCSES-2355",
+  "description": "Funds spent for business R&D performed in the United States, by type of R&D, source of funds, and size of company: 2017\u201318",
+  "url": "https://example.org/datasets/ncses/tables/2355",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2355/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "selected_characteristic_and_company_size",
+      "description": "Selected characteristic and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "selected_characteristic_and_company_size_level_1, selected_characteristic_and_company_size_level_2, selected_characteristic_and_company_size_level_3, selected_characteristic_and_company_size_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "selected_characteristic_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Beginning in survey year 2018, companies that performed or funded less than $50,000 of R&D were excluded from tabulation. These companies in aggregate represented a very small share of total R&D expenditures in prior years. Had the companies under this threshold been included in the 2018 estimates, they would have contributed approximately $90 million to overall R&D expenditures. Excludes data for federally funded research and development centers.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Business Research and Development Survey."
+}

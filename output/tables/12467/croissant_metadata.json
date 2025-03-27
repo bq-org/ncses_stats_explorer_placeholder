@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D performed by the company, by selected industry and source of funds, for companies with 1&#8211;9 employees: 2022",
+  "identifier": "NCSES-12467",
+  "description": "Domestic R&D performed by the company, by selected industry and source of funds, for companies with 1&#8211;9 employees: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12467",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12467/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_the_company",
+      "description": "Paid For By The Company",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_owner",
+      "description": "Foreign Owner",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_another_u_s_company",
+      "description": "Another U S Company",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_businesses_outside_the_united_states",
+      "description": "Other Businesses Outside The United States",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_university_or_college",
+      "description": "U S University Or College",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_nonprofit_organization",
+      "description": "U S Nonprofit Organization",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_federal_government",
+      "description": "U S Federal Government",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_state_or_local_government",
+      "description": "U S State Or Local Government",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_other_organizations_outside_the_united_states",
+      "description": "All Other Organizations Outside The United States",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding or unavailable NAICS detail for select records beyond the 4-digit industry classification. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2023 Annual Business Survey: Data Year 2022."
+}

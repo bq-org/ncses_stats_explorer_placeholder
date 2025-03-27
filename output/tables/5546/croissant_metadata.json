@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal budget authority for Education, training, employment, and social services (500) R&D and R&D plant: FYs 2020&#8211;22",
+  "identifier": "NCSES-5546",
+  "description": "Federal budget authority for Education, training, employment, and social services (500) R&D and R&D plant: FYs 2020&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/5546",
+  "table_number": "16",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5546/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "budget_function_and_agency",
+      "description": "Budget function and agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "budget_function_and_agency_level_1, budget_function_and_agency_level_2, budget_function_and_agency_level_3, budget_function_and_agency_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "budget_function_and_agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_actual",
+      "description": "2020 Actual",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_preliminary",
+      "description": "2021 Preliminary",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_proposed",
+      "description": "2022 Proposed",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_21_change_",
+      "description": "2020 21 Change ",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_22_change_",
+      "description": "2021 22 Change ",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Percent change is calculated on unrounded data.",
+  "sources": "Agencies' submissions to the Office of Management and Budget per MAX Schedule C, agencies' budget justification documents, and supplemental data obtained from agencies' budget offices."
+}

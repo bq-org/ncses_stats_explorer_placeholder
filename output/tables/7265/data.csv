@@ -1,0 +1,50 @@
+table_id,row_id,_b_variable_b_full_path,_b_variable_b_level_1,_b_variable_b_level_2,_b_variable_b_level_3,_b_variable_b_hierarchy_depth,field_performed_r_d_n_912_total_r_d_expenditures_thousands_of_dollars_,field_performed_r_d_n_912_coefficient_of_variationa,field_performed_r_d_n_912_meets_standard_30_,field_funded_r_d_n_823_total_r_d_expenditures_thousands_of_dollars_,field_funded_r_d_n_823_coefficient_of_variationa,field_funded_r_d_n_823_meets_standard_30_
+7265,r001,Total,Total,,,1,22572535,10,Y,10528134,11,Y
+7265,r002,Total -> Grant,Total,Grant,,2,,,,8134119,14,Y
+7265,r003,Total -> Subcontract,Total,Subcontract,,2,,,,2394015,12,Y
+7265,r004,Organization type funded,Organization type funded,,,1,,,,,,
+7265,r005,Organization type funded -> Universities,Organization type funded,Universities,,2,,,,7596196,13,Y
+7265,r006,Organization type funded -> Other nonprofits,Organization type funded,Other nonprofits,,2,,,,1829889,13,Y
+7265,r007,Organization type funded -> Businesses,Organization type funded,Businesses,,2,,,,869874,13,Y
+7265,r008,Organization type funded -> Other,Organization type funded,Other,,2,,,,232176,18,Y
+7265,r009,Source,Source,,,1,,,,,,
+7265,r010,Source -> Federal government,Source,Federal government,,2,8256784,12,Y,1921505,12,Y
+7265,r011,Source -> Businesses,Source,Businesses,,2,1992503,12,Y,651919,16,Y
+7265,r012,Source -> Nonprofits,Source,Nonprofits,,2,3540258,29,Y,952692,12,Y
+7265,r013,Source -> Nonprofits -> Foundations,Source,Nonprofits,Foundations,3,2957181,34,N,806515,13,Y
+7265,r014,Source -> Nonprofits -> All other nonprofits,Source,Nonprofits,All other nonprofits,3,583077,19,Y,146177,20,Y
+7265,r015,Source -> Internal funds,Source,Internal funds,,2,6706461,11,Y,5050277,20,Y
+7265,r016,Source -> Individual donors,Source,Individual donors,,2,779928,12,Y,1450523,19,Y
+7265,r017,Source -> All other,Source,All other,,2,1296601,11,Y,501218,18,Y
+7265,r018,Source -> All other -> State and local government,Source,All other,State and local government,3,475380,11,Y,238467,31,N
+7265,r019,Source -> All other -> Universities,Source,All other,Universities,3,330963,29,Y,58192,32,N
+7265,r020,Source -> All other -> Other,Source,All other,Other,3,490258,14,Y,204559,22,Y
+7265,r021,R&D type,R&D type,,,1,,,,,,
+7265,r022,R&D type -> Basic research,R&D type,Basic research,,2,7548392,12,Y,5142431,18,Y
+7265,r023,R&D type -> Basic research -> Federal ,R&D type,Basic research,Federal ,3,2400950,14,Y,429564,13,Y
+7265,r024,R&D type -> Basic research -> Nonfederal ,R&D type,Basic research,Nonfederal ,3,5147442,13,Y,4712867,20,Y
+7265,r025,R&D type -> Applied research,R&D type,Applied research,,2,10939764,13,Y,3800364,9,Y
+7265,r026,R&D type -> Applied research -> Federal ,R&D type,Applied research,Federal ,3,4541427,13,Y,985592,13,Y
+7265,r027,R&D type -> Applied research -> Nonfederal ,R&D type,Applied research,Nonfederal ,3,6398337,17,Y,2814772,11,Y
+7265,r028,R&D type -> Experimental development,R&D type,Experimental development,,2,4084379,11,Y,1585339,18,Y
+7265,r029,R&D type -> Experimental development -> Federal ,R&D type,Experimental development,Federal ,3,1314407,12,Y,506348,17,Y
+7265,r030,R&D type -> Experimental development -> Nonfederal ,R&D type,Experimental development,Nonfederal ,3,2769972,12,Y,1078990,24,Y
+7265,r031,Field,Field,,,1,,,,,,
+7265,r032,"Field -> Agriculture, natural resources, conservation",Field,"Agriculture, natural resources, conservation",,2,981586,16,Y,379743,21,Y
+7265,r033,"Field -> Biological, biomedical, health",Field,"Biological, biomedical, health",,2,15290337,11,Y,6435535,11,Y
+7265,r034,Field -> Engineering,Field,Engineering,,2,1101236,26,Y,497150,16,Y
+7265,r035,"Field -> Geosciences, atmospheric sciences, ocean sciences",Field,"Geosciences, atmospheric sciences, ocean sciences",,2,429001,20,Y,959508,40,N
+7265,r036,"Field -> Math, statistics, computer, information sciences",Field,"Math, statistics, computer, information sciences",,2,590775,50,N,599127,47,N
+7265,r037,Field -> Physical sciences,Field,Physical sciences,,2,368664,39,N,387297,16,Y
+7265,r038,Field -> Psychology and social sciences,Field,Psychology and social sciences,,2,2843690,33,N,679540,17,Y
+7265,r039,Field -> Humanities,Field,Humanities,,2,144100,42,N,213706,17,Y
+7265,r040,Field -> Other,Field,Other,,2,823145,15,Y,376527,16,Y
+7265,r041,Full-time equivalent,Full-time equivalent,,,1,,,,,,
+7265,r042,Full-time equivalent -> Total,Full-time equivalent,Total,,2,87,12,Y,,,
+7265,r043,Full-time equivalent -> Researchers,Full-time equivalent,Researchers,,2,32,13,Y,,,
+7265,r044,Full-time equivalent -> Technicians and support,Full-time equivalent,Technicians and support,,2,52,14,Y,,,
+7265,r045,Organization type,Organization type,,,1,,,,,,
+7265,r046,Organization type -> Health and medical (<i>n</i> = 402),Organization type,Health and medical (<i>n</i> = 402),,2,14557442,12,Y,4564632,14,Y
+7265,r047,"Organization type -> International, foreign affairs, and national security (<i>n</i> = 27)",Organization type,"International, foreign affairs, and national security (<i>n</i> = 27)",,2,378943,23,Y,254382,29,Y
+7265,r048,Organization type -> Science and technology (<i>n</i> = 84),Organization type,Science and technology (<i>n</i> = 84),,2,1880278,25,Y,710899,17,Y
+7265,r049,Organization type -> Other nonprofit organizations (<i>n</i> = 399),Organization type,Other nonprofit organizations (<i>n</i> = 399),,2,5755872,22,Y,4998221,20,Y

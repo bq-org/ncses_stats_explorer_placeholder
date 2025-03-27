@@ -1,0 +1,19 @@
+table_id,row_id,primary_source_of_support_full_path,primary_source_of_support_level_1,primary_source_of_support_level_2,primary_source_of_support_level_3,primary_source_of_support_level_4,primary_source_of_support_hierarchy_depth,field_all_recipientsa,field_without_disability,field_with_disability
+3289,r001,All recipients (number),All recipients (number),,,,1,25718,21613,2234
+3289,r002,All recipients (number) -> All sources,All recipients (number),All sources,,,2,100.0,100.0,100.0
+3289,r003,All recipients (number) -> All sources -> Personal or family funds,All recipients (number),All sources,Personal or family funds,,3,14.27,15.0,18.62
+3289,r004,All recipients (number) -> All sources -> Personal or family funds -> Loans,All recipients (number),All sources,Personal or family funds,Loans,4,6.51,6.59,10.92
+3289,r005,All recipients (number) -> All sources -> Personal or family funds -> Savings,All recipients (number),All sources,Personal or family funds,Savings,4,1.14,1.15,1.92
+3289,r006,All recipients (number) -> All sources -> Personal or family funds -> Other earnings in graduate school,All recipients (number),All sources,Personal or family funds,Other earnings in graduate school,4,2.87,3.13,2.6
+3289,r007,All recipients (number) -> All sources -> Personal or family funds -> Other family earnings or savings,All recipients (number),All sources,Personal or family funds,Other family earnings or savings,4,3.74,4.12,3.18
+3289,r008,All recipients (number) -> All sources -> Teaching assistantship ,All recipients (number),All sources,Teaching assistantship ,,3,17.37,18.3,21.75
+3289,r009,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship",All recipients (number),All sources,"Research assistantship, traineeship, or internship",,3,30.69,33.18,31.02
+3289,r010,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship -> Research assistantship",All recipients (number),All sources,"Research assistantship, traineeship, or internship",Research assistantship,4,27.65,29.93,27.57
+3289,r011,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship -> Traineeship",All recipients (number),All sources,"Research assistantship, traineeship, or internship",Traineeship,4,1.99,2.12,2.33
+3289,r012,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship -> Internship or clinical residency",All recipients (number),All sources,"Research assistantship, traineeship, or internship",Internship or clinical residency,4,0.27,0.29,0.36
+3289,r013,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship -> Other assistantship",All recipients (number),All sources,"Research assistantship, traineeship, or internship",Other assistantship,4,0.79,0.85,0.76
+3289,r014,"All recipients (number) -> All sources -> Fellowship, scholarship, or grant",All recipients (number),All sources,"Fellowship, scholarship, or grant",,3,26.53,28.9,24.71
+3289,r015,"All recipients (number) -> All sources -> Fellowship, scholarship, or grant -> Fellowship or scholarship ",All recipients (number),All sources,"Fellowship, scholarship, or grant",Fellowship or scholarship ,4,25.51,27.77,23.81
+3289,r016,"All recipients (number) -> All sources -> Fellowship, scholarship, or grant -> Grant<sup>b</sup> ",All recipients (number),All sources,"Fellowship, scholarship, or grant",Grant<sup>b</sup> ,4,1.03,1.13,0.9
+3289,r017,All recipients (number) -> All sources -> Employer reimbursement or assistance,All recipients (number),All sources,Employer reimbursement or assistance,,3,2.87,3.18,2.01
+3289,r018,All recipients (number) -> All sources -> Other,All recipients (number),All sources,Other,,3,8.27,1.44,1.88

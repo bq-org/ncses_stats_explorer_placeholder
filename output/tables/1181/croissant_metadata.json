@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed scientists and engineers, by occupation, highest degree level, and sex: 2017",
+  "identifier": "NCSES-1181",
+  "description": "Employed scientists and engineers, by occupation, highest degree level, and sex: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1181",
+  "table_number": "9-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1181/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation_160_160_160_160_160_160_160_160_160_160_160_160_160",
+      "description": "Occupation\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_160_160_160_160_160_160_160_160_160_160_160_160_160_level_1, occupation_160_160_160_160_160_160_160_160_160_160_160_160_160_level_2, occupation_160_160_160_160_160_160_160_160_160_160_160_160_160_level_3, occupation_160_160_160_160_160_160_160_160_160_160_160_160_160_level_4, occupation_160_160_160_160_160_160_160_160_160_160_160_160_160_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_160_160_160_160_160_160_160_160_160_160_160_160_160_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_degreesa_both_sexes",
+      "description": "All Degreesa Both Sexes",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_degreesa_female",
+      "description": "All Degreesa Female",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_degreesa_male",
+      "description": "All Degreesa Male",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_both_sexes",
+      "description": "Bachelor S Both Sexes",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_female",
+      "description": "Bachelor S Female",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_male",
+      "description": "Bachelor S Male",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_both_sexes",
+      "description": "Master S Both Sexes",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_female",
+      "description": "Master S Female",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_male",
+      "description": "Master S Male",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_both_sexes",
+      "description": "Doctorate Both Sexes",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_female",
+      "description": "Doctorate Female",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_male",
+      "description": "Doctorate Male",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers are rounded to nearest 1,000. Detail may not add to total because of rounding and suppression. Scientists and engineers are individuals under the age of 76 who have a bachelor's or higher degree, are living in the United States, and have an S&E or S&E-related degree or occupation.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

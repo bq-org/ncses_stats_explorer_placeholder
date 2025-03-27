@@ -1,0 +1,37 @@
+table_id,row_id,field_full_path,field_level_1,field_level_2,field_level_3,field_level_4,field_level_5,field_hierarchy_depth,field_2006,field_2007,field_2008,field_2009,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016,field_percent_2006,field_percent_2016
+1173,r001,All fields,All fields,,,,,1,27607,30551,31115,31225,28397,29513,30859,32148,33831,34660,35026,49.0,50.2
+1173,r002,All fields -> S&E,All fields,S&E,,,,2,12129,13159,13578,13689,13411,14013,14523,15237,16195,16264,15876,39.8,40.7
+1173,r003,All fields -> S&E -> Science,All fields,S&E,Science,,,3,10645,11474,11830,11977,11596,12115,12517,13060,13884,13838,13447,46.2,46.9
+1173,r004,All fields -> S&E -> Science -> Agricultural sciences,All fields,S&E,Science,Agricultural sciences,,4,425,438,445,506,455,491,540,570,593,665,628,41.0,46.8
+1173,r005,All fields -> S&E -> Science -> Biological sciences,All fields,S&E,Science,Biological sciences,,4,3013,3284,3707,3894,4007,3987,4152,4167,4375,4179,4136,49.1,52.6
+1173,r006,All fields -> S&E -> Science -> Computer sciences,All fields,S&E,Science,Computer sciences,,4,307,328,373,351,336,311,361,351,403,439,389,21.7,20.1
+1173,r007,"All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences",All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",,4,218,286,244,288,289,267,319,365,374,359,373,36.3,40.9
+1173,r008,"All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences -> Atmospheric sciences",All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",Atmospheric sciences,5,33,33,21,33,34,36,49,58,41,55,51,34.7,35.9
+1173,r009,"All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences -> Earth sciences",All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",Earth sciences,5,148,195,174,195,204,186,215,232,261,249,252,34.4,39.9
+1173,r010,"All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences -> Ocean sciences",All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",Ocean sciences,5,37,58,49,60,51,45,55,75,72,55,70,49.3,50.4
+1173,r011,All fields -> S&E -> Science -> Mathematics and statistics,All fields,S&E,Science,Mathematics and statistics,,4,384,406,423,476,476,454,471,531,539,503,528,29.6,28.5
+1173,r012,All fields -> S&E -> Science -> Physical sciences,All fields,S&E,Science,Physical sciences,,4,1169,1282,1234,1385,1371,1418,1444,1516,1574,1647,1571,29.3,30.9
+1173,r013,All fields -> S&E -> Science -> Physical sciences -> Astronomy,All fields,S&E,Science,Physical sciences,Astronomy,5,40,43,39,54,61,57,57,63,62,52,59,35.1,34.9
+1173,r014,All fields -> S&E -> Science -> Physical sciences -> Chemistry,All fields,S&E,Science,Physical sciences,Chemistry,5,893,964,901,1024,994,1047,1028,1102,1150,1206,1134,35.7,37.8
+1173,r015,All fields -> S&E -> Science -> Physical sciences -> Physics,All fields,S&E,Science,Physical sciences,Physics,5,234,265,280,293,305,302,350,335,331,367,354,17.4,19.3
+1173,r016,All fields -> S&E -> Science -> Physical sciences -> Other,All fields,S&E,Science,Physical sciences,Other,5,2,10,14,14,11,12,9,16,31,22,24,6.9,32.4
+1173,r017,All fields -> S&E -> Science -> Psychology,All fields,S&E,Science,Psychology,,4,3248,3414,3311,2912,2537,2863,2808,3118,3361,3343,3293,72.4,72.8
+1173,r018,All fields -> S&E -> Science -> Social sciences,All fields,S&E,Science,Social sciences,,4,1881,2036,2093,2165,2125,2324,2422,2442,2665,2703,2529,46.0,48.8
+1173,r019,All fields -> S&E -> Science -> Social sciences -> Anthropology,All fields,S&E,Science,Social sciences,Anthropology,5,272,320,301,315,314,358,374,389,378,353,343,56.7,58.0
+1173,r020,All fields -> S&E -> Science -> Social sciences -> Area and ethnic studies,All fields,S&E,Science,Social sciences,Area and ethnic studies,5,122,131,143,138,131,141,161,142,187,184,174,55.5,57.6
+1173,r021,All fields -> S&E -> Science -> Social sciences -> Economics,All fields,S&E,Science,Social sciences,Economics,5,324,358,408,419,380,406,421,436,415,466,450,30.7,34.7
+1173,r022,All fields -> S&E -> Science -> Social sciences -> History of science,All fields,S&E,Science,Social sciences,History of science,5,17,14,17,7,14,8,7,18,18,16,19,50.0,61.3
+1173,r023,All fields -> S&E -> Science -> Social sciences -> Linguistics,All fields,S&E,Science,Social sciences,Linguistics,5,131,130,120,152,115,142,133,140,146,149,158,60.6,61.0
+1173,r024,All fields -> S&E -> Science -> Social sciences -> Political science and public administration,All fields,S&E,Science,Social sciences,Political science and public administration,5,456,516,520,546,588,598,652,699,780,766,745,41.5,49.1
+1173,r025,All fields -> S&E -> Science -> Social sciences -> Sociology,All fields,S&E,Science,Social sciences,Sociology,5,368,362,360,380,378,419,402,367,435,441,377,64.1,57.3
+1173,r026,All fields -> S&E -> Science -> Social sciences -> Other ,All fields,S&E,Science,Social sciences,Other ,5,191,205,224,208,205,252,272,251,306,328,263,46.2,49.6
+1173,r027,All fields -> S&E -> Engineering,All fields,S&E,Engineering,,,3,1484,1685,1748,1712,1815,1898,2006,2177,2311,2426,2429,20.0,23.5
+1173,r028,All fields -> S&E -> Engineering -> Aerospace engineering,All fields,S&E,Engineering,Aerospace engineering,,4,25,30,24,33,40,30,40,49,53,47,49,12.0,14.8
+1173,r029,All fields -> S&E -> Engineering -> Chemical engineering,All fields,S&E,Engineering,Chemical engineering,,4,244,233,249,237,269,280,293,298,328,361,363,26.8,30.7
+1173,r030,All fields -> S&E -> Engineering -> Civil engineering,All fields,S&E,Engineering,Civil engineering,,4,197,250,232,214,246,239,241,298,314,371,314,22.8,26.9
+1173,r031,All fields -> S&E -> Engineering -> Electrical engineering,All fields,S&E,Engineering,Electrical engineering,,4,298,376,388,338,382,387,424,364,413,390,418,14.0,16.0
+1173,r032,All fields -> S&E -> Engineering -> Industrial engineering,All fields,S&E,Engineering,Industrial engineering,,4,82,104,97,86,72,100,104,113,122,121,113,27.2,30.1
+1173,r033,All fields -> S&E -> Engineering -> Materials engineering,All fields,S&E,Engineering,Materials engineering,,4,155,169,156,172,166,156,172,202,197,217,216,25.4,25.7
+1173,r034,All fields -> S&E -> Engineering -> Mechanical engineering,All fields,S&E,Engineering,Mechanical engineering,,4,151,147,160,160,125,162,194,212,217,223,241,13.3,15.7
+1173,r035,All fields -> S&E -> Engineering -> Other ,All fields,S&E,Engineering,Other ,,4,332,376,442,472,515,544,538,641,667,696,715,26.7,31.0
+1173,r036,All fields -> Non-S&E,All fields,Non-S&E,,,,2,15478,17392,17537,17536,14986,15500,16336,16911,17636,18396,19150,59.9,62.2

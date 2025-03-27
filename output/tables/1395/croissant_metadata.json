@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D paid for by the company and others and performed by the company, by business activity: 2016",
+  "identifier": "NCSES-1395",
+  "description": "Domestic R&D paid for by the company and others and performed by the company, by business activity: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1395",
+  "table_number": "16",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1395/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "business_activity_sup_a_sup",
+      "description": "Business activitya hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "business_activity_sup_a_sup_level_1, business_activity_sup_a_sup_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "business_activity_sup_a_sup_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_codeb",
+      "description": "Business Codeb",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_the_company",
+      "description": "Paid For By The Company",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_by_others",
+      "description": "Paid For By Others",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. For companies that did not report business codes, the classification used for sampling was assigned. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Business R&D and Innovation Survey, 2016."
+}

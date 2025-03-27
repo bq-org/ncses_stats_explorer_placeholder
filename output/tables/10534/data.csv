@@ -1,0 +1,18 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_level_3,characteristic_hierarchy_depth,field_level_of_confidence_in_scientists_a_great_deal,field_level_of_confidence_in_scientists_a_fair_amount,field_level_of_confidence_in_scientists_not_too_much,field_level_of_confidence_in_scientists_none_at_all
+10534,r001,"All adults (<i>n</i> = 5,277)","All adults (<i>n</i> = 5,277)",,,1,0.9,1.1,0.9,0.5
+10534,r002,"All adults (<i>n</i> = 5,277) -> Sex","All adults (<i>n</i> = 5,277)",Sex,,2,,,,
+10534,r003,"All adults (<i>n</i> = 5,277) -> Sex -> Male (<i>n</i> = 2,314)","All adults (<i>n</i> = 5,277)",Sex,"Male (<i>n</i> = 2,314)",3,1.5,1.7,1.3,0.8
+10534,r004,"All adults (<i>n</i> = 5,277) -> Sex -> Female (<i>n</i> = 2,905)","All adults (<i>n</i> = 5,277)",Sex,"Female (<i>n</i> = 2,905)",3,1.1,1.4,1.1,0.6
+10534,r005,"All adults (<i>n</i> = 5,277) -> Race or ethnicity","All adults (<i>n</i> = 5,277)",Race or ethnicity,,2,,,,
+10534,r006,"All adults (<i>n</i> = 5,277) -> Race or ethnicity -> White (<i>n</i> = 3,589)","All adults (<i>n</i> = 5,277)",Race or ethnicity,"White (<i>n</i> = 3,589)",3,1.1,1.2,1.0,0.5
+10534,r007,"All adults (<i>n</i> = 5,277) -> Race or ethnicity -> Black (<i>n</i> = 598)","All adults (<i>n</i> = 5,277)",Race or ethnicity,Black (<i>n</i> = 598),3,2.9,3.2,2.6,1.4
+10534,r008,"All adults (<i>n</i> = 5,277) -> Race or ethnicity -> Hispanic (<i>n</i> = 687)","All adults (<i>n</i> = 5,277)",Race or ethnicity,Hispanic (<i>n</i> = 687),3,2.5,3.3,2.4,1.6
+10534,r009,"All adults (<i>n</i> = 5,277) -> Family income<sup>a</sup>","All adults (<i>n</i> = 5,277)",Family income<sup>a</sup>,,2,,,,
+10534,r010,"All adults (<i>n</i> = 5,277) -> Family income<sup>a</sup> -> Upper income (<i>n</i> = 1,299)","All adults (<i>n</i> = 5,277)",Family income<sup>a</sup>,"Upper income (<i>n</i> = 1,299)",3,1.8,1.9,1.4,0.7
+10534,r011,"All adults (<i>n</i> = 5,277) -> Family income<sup>a</sup> -> Middle income (<i>n</i> = 2,564)","All adults (<i>n</i> = 5,277)",Family income<sup>a</sup>,"Middle income (<i>n</i> = 2,564)",3,1.3,1.5,1.2,0.6
+10534,r012,"All adults (<i>n</i> = 5,277) -> Family income<sup>a</sup> -> Lower income (<i>n</i> = 1,138)","All adults (<i>n</i> = 5,277)",Family income<sup>a</sup>,"Lower income (<i>n</i> = 1,138)",3,2.0,2.3,1.8,1.1
+10534,r013,"All adults (<i>n</i> = 5,277) -> Education","All adults (<i>n</i> = 5,277)",Education,,2,,,,
+10534,r014,"All adults (<i>n</i> = 5,277) -> Education -> Postgraduate (<i>n</i> = 1,145)","All adults (<i>n</i> = 5,277)",Education,"Postgraduate (<i>n</i> = 1,145)",3,1.9,1.9,1.1,0.6
+10534,r015,"All adults (<i>n</i> = 5,277) -> Education -> College graduate (<i>n</i> = 1,429)","All adults (<i>n</i> = 5,277)",Education,"College graduate (<i>n</i> = 1,429)",3,1.5,1.7,1.2,0.6
+10534,r016,"All adults (<i>n</i> = 5,277) -> Education -> Some college (<i>n</i> = 1,728)","All adults (<i>n</i> = 5,277)",Education,"Some college (<i>n</i> = 1,728)",3,1.6,1.8,1.4,0.6
+10534,r017,"All adults (<i>n</i> = 5,277) -> Education -> High school or less (<i>n</i> = 960)","All adults (<i>n</i> = 5,277)",Education,High school or less (<i>n</i> = 960),3,1.8,2.2,1.8,1.1

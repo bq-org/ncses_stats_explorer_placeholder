@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Resident population of the United States, by sex, ethnicity, race, and age: 2017",
+  "identifier": "NCSES-1234",
+  "description": "Resident population of the United States, by sex, ethnicity, race, and age: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1234",
+  "table_number": "1-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1234/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_ethnicity_and_race",
+      "description": "Sex, ethnicity, and race hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_ethnicity_and_race_level_1, sex_ethnicity_and_race_level_2, sex_ethnicity_and_race_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_ethnicity_and_race_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_ages",
+      "description": "All Ages",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_younger_than_18",
+      "description": "Age Years Younger Than 18",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_18_24",
+      "description": "Age Years 18 24",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_25_44",
+      "description": "Age Years 25 44",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_45_64",
+      "description": "Age Years 45 64",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_65_and_older",
+      "description": "Age Years 65 And Older",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Hispanic may be of any race.",
+  "sources": "U.S. Census Bureau, Population Division, Annual Estimates of the Resident Population by Sex, Age, Race, and Hispanic Origin for the United States and States: April 1, 2010 to July 1, 2017, released June 2018, https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml."
+}

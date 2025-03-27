@@ -1,0 +1,207 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E doctorate holders employed in academia, by type of position, race or ethnicity, and degree field: 1973&#8211;2019",
+  "identifier": "NCSES-4411",
+  "description": "S&E doctorate holders employed in academia, by type of position, race or ethnicity, and degree field: 1973&#8211;2019",
+  "url": "https://example.org/datasets/ncses/tables/4411",
+  "table_number": "SLBR-29",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4411/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "position_race_or_ethnicity_and_field",
+      "description": "Position, race or ethnicity, and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "position_race_or_ethnicity_and_field_level_1, position_race_or_ethnicity_and_field_level_2, position_race_or_ethnicity_and_field_level_3, position_race_or_ethnicity_and_field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "position_race_or_ethnicity_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1973",
+      "description": "1973",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1977",
+      "description": "1977",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1981",
+      "description": "1981",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1983",
+      "description": "1983",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1985",
+      "description": "1985",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1987",
+      "description": "1987",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1989",
+      "description": "1989",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1991",
+      "description": "1991",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1993",
+      "description": "1993",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1995",
+      "description": "1995",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1997",
+      "description": "1997",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999",
+      "description": "1999",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001",
+      "description": "2001",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006",
+      "description": "2006",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Academic employment is limited to U.S. doctorate holders employed at 2- or 4-year colleges or universities, medical schools, and university research institutes. Physical sciences include earth, atmospheric, and ocean sciences; life sciences include biological, agricultural, and environmental life and health sciences. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2018) of the 1973\u20132019 Survey of Doctorate Recipients (SDR).Science and Engineering Indicators"
+}

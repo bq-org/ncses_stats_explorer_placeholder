@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for experimental development, by agency: FYs 2019\u201320",
+  "identifier": "NCSES-6135",
+  "description": "Federal obligations for experimental development, by agency: FYs 2019\u201320",
+  "url": "https://example.org/datasets/ncses/tables/6135",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6135/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_level_1, agency_level_2, agency_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_total_experimental_development",
+      "description": "2019 Total Experimental Development",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_advanced_technology_development",
+      "description": "2019 Advanced Technology Development",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_major_systems_development",
+      "description": "2019 Major Systems Development",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_total_experimental_development",
+      "description": "2020 Total Experimental Development",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_advanced_technology_development",
+      "description": "2020 Advanced Technology Development",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_major_systems_development",
+      "description": "2020 Major Systems Development",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, details may not add to total. FY 2020 obligations include additional funding provided by supplemental COVID-19\u2013related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

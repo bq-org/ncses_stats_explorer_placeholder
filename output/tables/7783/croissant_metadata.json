@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed foreign-born college graduates, by broad degree field, country of birth, and broad occupation: 2021",
+  "identifier": "NCSES-7783",
+  "description": "Employed foreign-born college graduates, by broad degree field, country of birth, and broad occupation: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7783",
+  "table_number": "5-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7783/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "degree_field_and_country_of_birth",
+      "description": "Degree field and country of birth hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "degree_field_and_country_of_birth_level_1, degree_field_and_country_of_birth_level_2, degree_field_and_country_of_birth_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "degree_field_and_country_of_birth_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations",
+      "description": "S E Occupations",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related_occupations",
+      "description": "S E Related Occupations",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e_occupations",
+      "description": "Non S E Occupations",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding. For each broad degree field, data are presented for the 25 countries with the largest numbers of foreign-born college graduates employed in the United States during the survey reference week. Data include noncitizen college graduates who are on permanent or temporary visas.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2021."
+}

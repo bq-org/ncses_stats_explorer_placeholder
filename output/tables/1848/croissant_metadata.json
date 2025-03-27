@@ -1,0 +1,190 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Share of S&E publications in the top 1% most-cited articles in social sciences, for the 15 largest publication-producing regions, countries, or economies: 1996\u20132016",
+  "identifier": "NCSES-1848",
+  "description": "Share of S&E publications in the top 1% most-cited articles in social sciences, for the 15 largest publication-producing regions, countries, or economies: 1996\u20132016",
+  "url": "https://example.org/datasets/ncses/tables/1848",
+  "table_number": "S5a-49",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1848/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy",
+      "description": "Region Country Or Economy",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1996",
+      "description": "1996",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1997",
+      "description": "1997",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1998",
+      "description": "1998",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1999",
+      "description": "1999",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2000",
+      "description": "2000",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2001",
+      "description": "2001",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2002",
+      "description": "2002",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2004",
+      "description": "2004",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2005",
+      "description": "2005",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2006",
+      "description": "2006",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) of the author(s) listed in the article. Citation data by field are only presented for the 15 largest publication-producing countries because of high year-to-year variation for countries, regions, or economies with small annual publication output (Table 5a-1). Citation data are based on all citations made to articles in their publication year and all following years and are normalized by subfield and publication year to allow for comparisons across subfields and over time, resulting in the world-level standing at 1% for each subfield and year. A minimum 2-year citation window is needed for a relative citation (RC) score to be computed. This results in scores regarding highly cited articles not being computed after 2016 because the citation window for more recent years is not yet complete. The share of articles in the top 1% is computed as follows: Sx = HCAx/Ax, where Sx is the share of output from country x in the top 1% most-cited articles; HCAx is the number of articles from country x that are among the top 1% of most-cited articles (using full counting, with the exception of papers at the limit of the top 1%, which are fractioned so the world average can stand at 1%); and Ax is the total number of articles from country x with an RC score, which excludes articles released after 2016 and unclassified publications.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed June 2019.Science and Engineering Indicators"
+}

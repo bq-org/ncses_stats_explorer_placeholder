@@ -1,0 +1,217 @@
+table_id,row_id,region_country_or_economy_full_path,region_country_or_economy_level_1,region_country_or_economy_level_2,region_country_or_economy_level_3,region_country_or_economy_level_4,region_country_or_economy_hierarchy_depth,field_2000,field_2001,field_2002,field_2003,field_2004,field_2005,field_2006,field_2007,field_2008,field_2009,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016,field_2017,field_2018
+1839,r001,World,World,,,,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+1839,r002,World -> North America,World,North America,,,2,0.6,0.57,0.65,0.61,0.59,0.58,0.59,0.61,0.64,0.63,0.65,0.65,0.63,0.63,0.61,0.59,0.61,0.6,0.59
+1839,r003,World -> North America -> Canada,World,North America,Canada,,3,0.66,0.67,0.68,0.68,0.67,0.62,0.67,0.63,0.65,0.68,0.67,0.71,0.68,0.64,0.62,0.64,0.63,0.65,0.62
+1839,r004,World -> North America -> Greenland,World,North America,Greenland,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne,na,na,na
+1839,r005,World -> North America -> Mexico,World,North America,Mexico,,3,0.74,0.74,0.68,0.78,0.81,0.82,0.59,0.81,0.82,0.85,0.81,0.75,0.76,0.78,0.74,0.72,0.75,0.86,0.84
+1839,r006,World -> North America -> United States,World,North America,United States,,3,0.59,0.55,0.65,0.59,0.58,0.57,0.58,0.61,0.63,0.61,0.65,0.64,0.62,0.62,0.61,0.58,0.6,0.59,0.57
+1839,r007,World -> Central America and Caribbean,World,Central America and Caribbean,,,2,0.57,0.55,0.48,0.61,0.7,0.46,0.42,0.57,0.54,0.55,0.45,0.52,0.57,0.4,0.4,0.37,0.39,0.46,0.41
+1839,r008,World -> Central America and Caribbean -> Antigua and Barbuda,World,Central America and Caribbean,Antigua and Barbuda,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r009,"World -> Central America and Caribbean -> Bahamas, The",World,Central America and Caribbean,"Bahamas, The",,3,na,na,na,na,na,na,na,na,na,na,na,ne,na,na,na,na,na,na,na
+1839,r010,World -> Central America and Caribbean -> Barbados,World,Central America and Caribbean,Barbados,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r011,World -> Central America and Caribbean -> Belize,World,Central America and Caribbean,Belize,,3,na,na,na,na,ne,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r012,World -> Central America and Caribbean -> Costa Rica,World,Central America and Caribbean,Costa Rica,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r013,World -> Central America and Caribbean -> Cuba,World,Central America and Caribbean,Cuba,,3,0.66,0.58,0.51,0.86,0.98,0.51,0.46,0.66,0.59,0.5,ne,0.45,0.51,0.34,ne,ne,ne,ne,ne
+1839,r014,World -> Central America and Caribbean -> Dominica,World,Central America and Caribbean,Dominica,,3,na,ne,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r015,World -> Central America and Caribbean -> Dominican Republic,World,Central America and Caribbean,Dominican Republic,,3,na,na,na,na,na,na,na,na,na,na,ne,ne,ne,ne,na,ne,ne,ne,na
+1839,r016,World -> Central America and Caribbean -> El Salvador,World,Central America and Caribbean,El Salvador,,3,na,na,na,na,na,na,na,na,na,na,na,ne,ne,na,na,ne,ne,na,ne
+1839,r017,World -> Central America and Caribbean -> Grenada,World,Central America and Caribbean,Grenada,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne,na,ne,na,na
+1839,r018,World -> Central America and Caribbean -> Guatemala,World,Central America and Caribbean,Guatemala,,3,na,ne,na,na,na,na,ne,ne,na,na,ne,na,ne,na,na,na,ne,ne,ne
+1839,r019,World -> Central America and Caribbean -> Haiti,World,Central America and Caribbean,Haiti,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne
+1839,r020,World -> Central America and Caribbean -> Honduras,World,Central America and Caribbean,Honduras,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne,na,na,na
+1839,r021,World -> Central America and Caribbean -> Jamaica,World,Central America and Caribbean,Jamaica,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r022,World -> Central America and Caribbean -> Nicaragua,World,Central America and Caribbean,Nicaragua,,3,na,na,na,na,ne,ne,na,na,na,ne,na,ne,ne,na,na,ne,na,na,ne
+1839,r023,World -> Central America and Caribbean -> Panama,World,Central America and Caribbean,Panama,,3,ne,na,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r024,World -> Central America and Caribbean -> Puerto Rico,World,Central America and Caribbean,Puerto Rico,,3,ne,ne,ne,ne,ne,ne,ne,0.77,ne,1.09,0.85,0.88,1.1,ne,1.05,0.83,ne,0.95,ne
+1839,r025,World -> Central America and Caribbean -> Saint Kitts and Nevis,World,Central America and Caribbean,Saint Kitts and Nevis,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r026,World -> Central America and Caribbean -> Saint Lucia,World,Central America and Caribbean,Saint Lucia,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r027,World -> Central America and Caribbean -> Saint Vincent and the Grenadines,World,Central America and Caribbean,Saint Vincent and the Grenadines,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r028,World -> Central America and Caribbean -> Trinidad and Tobago,World,Central America and Caribbean,Trinidad and Tobago,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r029,World -> South America,World,South America,,,2,1.19,1.13,1.07,1.1,1.02,1.08,0.91,0.94,0.91,0.85,0.82,0.8,0.75,0.74,0.71,0.67,0.68,0.73,0.72
+1839,r030,World -> South America -> Argentina,World,South America,Argentina,,3,1.47,1.12,1.16,1.25,1.01,1.17,0.92,1.0,1.1,0.96,0.93,0.94,0.84,0.9,0.8,0.84,0.86,0.88,0.85
+1839,r031,World -> South America -> Bolivia,World,South America,Bolivia,,3,ne,na,na,ne,ne,na,ne,ne,ne,ne,ne,ne,na,ne,ne,ne,ne,ne,ne
+1839,r032,World -> South America -> Brazil,World,South America,Brazil,,3,1.02,1.08,1.02,1.0,0.99,1.03,0.91,0.92,0.89,0.84,0.8,0.77,0.75,0.73,0.73,0.69,0.71,0.78,0.77
+1839,r033,World -> South America -> Chile,World,South America,Chile,,3,1.45,1.47,1.14,1.48,1.1,1.05,0.86,0.8,0.74,0.87,0.81,0.84,0.73,0.79,0.64,0.58,0.67,0.6,0.66
+1839,r034,World -> South America -> Colombia,World,South America,Colombia,,3,1.01,ne,0.92,0.72,0.81,0.76,0.52,0.56,0.72,0.7,0.73,0.74,0.49,0.49,0.45,0.42,0.38,0.5,0.49
+1839,r035,World -> South America -> Ecuador,World,South America,Ecuador,,3,na,ne,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r036,World -> South America -> Guyana,World,South America,Guyana,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,na,na,na,na,ne
+1839,r037,World -> South America -> Paraguay,World,South America,Paraguay,,3,ne,ne,ne,na,na,na,na,na,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r038,World -> South America -> Peru,World,South America,Peru,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r039,World -> South America -> Suriname,World,South America,Suriname,,3,na,na,na,ne,na,na,na,na,ne,na,na,na,na,na,na,na,na,na,na
+1839,r040,World -> South America -> Uruguay,World,South America,Uruguay,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.98,0.63
+1839,r041,World -> South America -> Venezuela,World,South America,Venezuela,,3,2.02,1.84,1.69,1.96,2.07,2.18,1.55,2.05,1.75,1.38,1.38,1.28,1.28,1.26,0.97,0.71,0.59,0.75,1.09
+1839,r042,World -> Europe,World,Europe,,,2,1.12,1.13,1.07,1.09,1.09,1.02,0.98,1.0,0.99,0.98,0.99,0.96,0.93,0.93,0.89,0.89,0.9,0.9,0.87
+1839,r043,World -> Europe -> EU,World,Europe,EU,,3,1.02,1.03,0.99,0.99,1.0,0.94,0.92,0.93,0.92,0.91,0.92,0.9,0.88,0.88,0.84,0.84,0.87,0.87,0.86
+1839,r044,World -> Europe -> EU -> Austria,World,Europe,EU,Austria,4,0.9,0.94,0.83,0.93,1.05,0.86,0.86,0.85,0.89,0.89,0.89,0.79,0.78,0.84,0.86,0.8,0.84,0.95,0.83
+1839,r045,World -> Europe -> EU -> Belgium,World,Europe,EU,Belgium,4,0.97,0.86,0.87,0.9,0.88,0.87,0.77,0.79,0.74,0.72,0.84,0.82,0.8,0.81,0.81,0.82,0.8,0.83,0.79
+1839,r046,World -> Europe -> EU -> Bulgaria,World,Europe,EU,Bulgaria,4,1.73,1.44,1.46,1.52,1.57,1.48,1.59,1.42,1.77,1.22,1.43,1.61,1.46,1.65,1.21,1.27,0.95,1.04,1.64
+1839,r047,World -> Europe -> EU -> Croatia,World,Europe,EU,Croatia,4,1.09,1.14,1.05,1.0,1.09,1.12,0.95,1.01,0.97,0.82,0.89,0.83,0.84,0.83,0.73,0.67,0.68,0.82,0.74
+1839,r048,World -> Europe -> EU -> Cyprus,World,Europe,EU,Cyprus,4,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.93,0.75,0.81,0.82,0.86,0.8,0.83,0.56,0.49,0.58
+1839,r049,World -> Europe -> EU -> Czechia,World,Europe,EU,Czechia,4,1.63,1.61,1.56,1.49,1.54,1.74,1.43,1.47,1.61,1.37,1.26,1.39,1.22,1.35,1.1,1.06,1.05,1.07,1.09
+1839,r050,World -> Europe -> EU -> Denmark,World,Europe,EU,Denmark,4,0.65,0.66,0.67,0.72,0.66,0.72,0.63,0.65,0.59,0.66,0.66,0.66,0.6,0.59,0.58,0.56,0.56,0.54,0.53
+1839,r051,World -> Europe -> EU -> Estonia,World,Europe,EU,Estonia,4,ne,ne,0.95,ne,0.73,0.8,0.84,0.9,0.69,0.79,0.68,0.74,0.74,0.71,0.69,0.84,0.62,0.77,0.71
+1839,r052,World -> Europe -> EU -> Finland,World,Europe,EU,Finland,4,0.73,0.72,0.65,0.58,0.64,0.59,0.57,0.62,0.61,0.63,0.71,0.6,0.58,0.63,0.61,0.64,0.58,0.62,0.61
+1839,r053,World -> Europe -> EU -> France,World,Europe,EU,France,4,1.03,1.02,0.98,0.98,0.95,0.91,0.92,0.94,0.96,0.91,0.94,0.91,0.91,0.9,0.87,0.88,0.9,0.9,0.87
+1839,r054,World -> Europe -> EU -> Germany,World,Europe,EU,Germany,4,1.16,1.13,1.04,1.06,1.09,1.02,1.02,1.02,1.03,1.05,1.07,1.05,1.03,1.02,0.99,1.01,0.99,1.03,0.99
+1839,r055,World -> Europe -> EU -> Greece,World,Europe,EU,Greece,4,0.83,0.96,0.89,0.84,0.82,0.69,0.73,0.73,0.7,0.67,0.62,0.63,0.59,0.6,0.59,0.64,0.63,0.62,0.72
+1839,r056,World -> Europe -> EU -> Hungary,World,Europe,EU,Hungary,4,1.93,1.83,1.86,1.57,1.68,1.43,1.45,1.18,1.25,1.23,1.27,1.15,1.14,1.1,1.05,1.15,1.11,1.19,1.15
+1839,r057,World -> Europe -> EU -> Ireland,World,Europe,EU,Ireland,4,0.66,0.77,0.78,0.94,0.75,0.67,0.7,0.71,0.83,0.77,0.87,0.89,0.86,0.83,0.78,0.77,0.74,0.76,0.78
+1839,r058,World -> Europe -> EU -> Italy,World,Europe,EU,Italy,4,0.91,0.97,0.92,0.92,0.92,0.85,0.79,0.81,0.79,0.77,0.75,0.76,0.7,0.71,0.68,0.68,0.72,0.68,0.7
+1839,r059,World -> Europe -> EU -> Latvia,World,Europe,EU,Latvia,4,3.0,2.54,3.47,2.59,2.15,1.32,1.38,1.78,1.27,1.53,0.84,0.69,1.08,0.95,1.08,1.14,0.88,0.42,0.64
+1839,r060,World -> Europe -> EU -> Lithuania,World,Europe,EU,Lithuania,4,1.74,1.1,1.11,0.87,0.82,0.56,0.82,0.84,0.89,1.26,0.95,1.01,1.04,1.22,1.16,1.36,0.94,0.98,1.04
+1839,r061,World -> Europe -> EU -> Luxembourg,World,Europe,EU,Luxembourg,4,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r062,World -> Europe -> EU -> Malta,World,Europe,EU,Malta,4,ne,ne,ne,ne,ne,ne,ne,ne,na,na,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r063,World -> Europe -> EU -> Netherlands,World,Europe,EU,Netherlands,4,0.73,0.76,0.7,0.73,0.7,0.66,0.6,0.57,0.57,0.59,0.62,0.57,0.51,0.56,0.52,0.5,0.58,0.54,0.53
+1839,r064,World -> Europe -> EU -> Poland,World,Europe,EU,Poland,4,1.65,1.5,1.45,1.61,1.47,1.41,1.43,1.44,1.37,1.35,1.28,1.32,1.37,1.35,1.14,1.16,1.27,1.3,1.25
+1839,r065,World -> Europe -> EU -> Portugal,World,Europe,EU,Portugal,4,1.16,1.38,1.19,1.26,1.26,1.28,1.15,1.21,1.18,1.22,1.11,1.05,1.02,1.06,0.99,0.87,0.9,0.85,0.85
+1839,r066,World -> Europe -> EU -> Romania,World,Europe,EU,Romania,4,3.3,3.87,3.57,3.41,3.27,3.17,2.95,2.28,2.03,1.87,1.88,1.88,1.77,1.92,1.81,1.94,2.28,2.11,2.39
+1839,r067,World -> Europe -> EU -> Slovakia,World,Europe,EU,Slovakia,4,1.79,1.75,1.51,1.47,1.53,1.84,1.42,1.53,1.73,1.36,1.02,1.54,1.1,1.1,0.92,0.83,0.72,0.74,0.81
+1839,r068,World -> Europe -> EU -> Slovenia,World,Europe,EU,Slovenia,4,1.32,1.56,1.41,1.31,1.31,1.2,1.23,1.29,1.27,1.18,1.12,0.96,1.04,1.09,1.05,1.13,1.1,1.08,1.01
+1839,r069,World -> Europe -> EU -> Spain,World,Europe,EU,Spain,4,1.39,1.38,1.38,1.32,1.34,1.3,1.22,1.31,1.13,1.14,1.15,1.08,1.1,1.09,1.04,1.01,1.08,1.04,1.05
+1839,r070,World -> Europe -> EU -> Sweden,World,Europe,EU,Sweden,4,0.66,0.72,0.72,0.66,0.79,0.69,0.71,0.66,0.63,0.64,0.67,0.65,0.63,0.63,0.65,0.6,0.63,0.65,0.6
+1839,r071,World -> Europe -> EU -> United Kingdom,World,Europe,EU,United Kingdom,4,0.73,0.72,0.73,0.74,0.74,0.65,0.67,0.65,0.66,0.66,0.69,0.67,0.63,0.59,0.61,0.62,0.64,0.65,0.61
+1839,r072,World -> Europe -> Other Europe,World,Europe,Other Europe,,3,1.7,1.67,1.54,1.58,1.58,1.46,1.35,1.43,1.42,1.39,1.38,1.3,1.19,1.22,1.13,1.08,1.04,1.01,0.93
+1839,r073,World -> Europe -> Other Europe -> Albania,World,Europe,Other Europe,Albania,4,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r074,World -> Europe -> Other Europe -> Andorra,World,Europe,Other Europe,Andorra,4,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r075,World -> Europe -> Other Europe -> Belarus,World,Europe,Other Europe,Belarus,4,1.85,1.75,1.67,1.68,1.67,1.52,1.77,1.62,1.63,1.59,1.79,1.39,1.5,1.42,1.62,1.41,1.12,1.15,1.12
+1839,r076,World -> Europe -> Other Europe -> Bosnia and Herzegovina,World,Europe,Other Europe,Bosnia and Herzegovina,4,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r077,World -> Europe -> Other Europe -> Holy See (Vatican City),World,Europe,Other Europe,Holy See (Vatican City),4,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne,ne
+1839,r078,World -> Europe -> Other Europe -> Iceland,World,Europe,Other Europe,Iceland,4,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r079,World -> Europe -> Other Europe -> Kosovo,World,Europe,Other Europe,Kosovo,4,na,na,na,na,na,na,na,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r080,World -> Europe -> Other Europe -> Liechtenstein,World,Europe,Other Europe,Liechtenstein,4,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r081,World -> Europe -> Other Europe -> Moldova,World,Europe,Other Europe,Moldova,4,5.39,4.94,4.48,4.03,5.11,3.92,3.59,ne,5.25,4.38,4.41,4.06,3.27,2.92,3.11,ne,2.73,2.32,2.58
+1839,r082,World -> Europe -> Other Europe -> Monaco,World,Europe,Other Europe,Monaco,4,ne,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r083,World -> Europe -> Other Europe -> Montenegro<sup>a</sup>,World,Europe,Other Europe,Montenegro<sup>a</sup>,4,na,na,na,na,na,na,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r084,World -> Europe -> Other Europe -> North Macedonia,World,Europe,Other Europe,North Macedonia,4,ne,4.23,ne,3.93,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r085,World -> Europe -> Other Europe -> Norway,World,Europe,Other Europe,Norway,4,0.57,0.58,0.41,0.44,0.55,0.51,0.47,0.49,0.41,0.39,0.39,0.37,0.35,0.34,0.33,0.34,0.34,0.33,0.32
+1839,r086,World -> Europe -> Other Europe -> Russia,World,Europe,Other Europe,Russia,4,2.2,2.16,2.01,2.2,2.16,2.09,1.99,2.16,2.1,2.12,2.11,2.04,1.8,1.85,1.58,1.48,1.33,1.26,1.06
+1839,r087,World -> Europe -> Other Europe -> San Marino,World,Europe,Other Europe,San Marino,4,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r088,World -> Europe -> Other Europe -> Serbia<sup>a</sup>,World,Europe,Other Europe,Serbia<sup>a</sup>,4,na,na,na,na,na,na,na,1.4,1.51,1.49,1.35,1.23,1.17,1.31,1.26,1.22,1.2,1.15,1.12
+1839,r089,World -> Europe -> Other Europe -> Serbia and Montenegro<sup>b</sup>,World,Europe,Other Europe,Serbia and Montenegro<sup>b</sup>,4,1.94,1.84,1.51,2.05,1.98,1.53,1.39,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r090,World -> Europe -> Other Europe -> Switzerland,World,Europe,Other Europe,Switzerland,4,1.11,1.13,1.1,1.1,1.19,1.09,1.02,0.97,1.0,0.99,1.04,0.98,0.97,0.94,0.98,0.91,0.9,0.89,0.85
+1839,r091,World -> Europe -> Other Europe -> Turkey,World,Europe,Other Europe,Turkey,4,1.07,1.07,0.94,0.88,0.98,0.88,0.96,1.1,1.07,1.03,0.99,0.89,0.87,0.91,0.84,0.78,0.84,0.87,0.92
+1839,r092,World -> Europe -> Other Europe -> Ukraine,World,Europe,Other Europe,Ukraine,4,1.77,1.56,1.79,1.7,1.82,1.72,1.51,1.6,1.65,1.63,1.63,1.44,1.43,1.33,1.29,1.22,0.95,0.84,0.78
+1839,r093,World -> Middle East,World,Middle East,,,2,0.91,1.05,1.07,1.18,1.2,1.27,1.23,1.36,1.3,1.29,1.32,1.27,1.37,1.33,1.31,1.32,1.28,1.25,1.23
+1839,r094,World -> Middle East -> Armenia,World,Middle East,Armenia,,3,1.64,1.77,ne,2.05,2.09,2.04,2.42,2.95,2.61,1.48,2.01,0.91,1.26,1.21,1.54,1.38,1.51,1.27,1.56
+1839,r095,World -> Middle East -> Azerbaijan,World,Middle East,Azerbaijan,,3,3.62,3.78,2.18,2.19,2.09,2.98,2.74,1.86,2.07,3.3,3.32,3.23,2.41,3.14,2.52,1.76,1.57,1.82,2.07
+1839,r096,World -> Middle East -> Bahrain,World,Middle East,Bahrain,,3,na,na,ne,ne,ne,ne,ne,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r097,World -> Middle East -> Gaza Strip,World,Middle East,Gaza Strip,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r098,World -> Middle East -> Georgia,World,Middle East,Georgia,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r099,World -> Middle East -> Iran,World,Middle East,Iran,,3,3.27,3.8,3.06,3.05,2.77,2.57,2.24,2.24,1.96,1.85,1.74,1.61,1.78,1.73,1.66,1.71,1.59,1.54,1.56
+1839,r100,World -> Middle East -> Iraq,World,Middle East,Iraq,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,1.06,0.88,1.15,1.32,1.65,1.19,0.98,0.78,0.59
+1839,r101,World -> Middle East -> Israel,World,Middle East,Israel,,3,0.51,0.53,0.55,0.58,0.53,0.55,0.55,0.56,0.6,0.55,0.59,0.58,0.49,0.58,0.56,0.58,0.6,0.56,0.63
+1839,r102,World -> Middle East -> Jordan,World,Middle East,Jordan,,3,0.89,1.09,1.3,0.98,0.83,0.9,1.05,1.31,0.96,0.98,0.75,0.71,0.73,0.77,0.72,0.61,0.5,0.61,0.68
+1839,r103,World -> Middle East -> Kuwait,World,Middle East,Kuwait,,3,ne,ne,ne,ne,ne,0.88,ne,0.84,0.93,0.66,0.81,ne,ne,0.74,0.91,ne,ne,0.85,0.79
+1839,r104,World -> Middle East -> Lebanon,World,Middle East,Lebanon,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.51,0.48,0.42,0.46
+1839,r105,World -> Middle East -> Oman,World,Middle East,Oman,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.83,0.72,0.74,1.07,0.72
+1839,r106,World -> Middle East -> Qatar,World,Middle East,Qatar,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.63,0.78,0.86,0.84
+1839,r107,World -> Middle East -> Saudi Arabia,World,Middle East,Saudi Arabia,,3,0.91,0.9,1.14,1.02,1.11,1.19,0.9,0.97,0.84,0.96,1.38,1.48,1.74,1.35,1.48,1.43,1.54,1.44,1.36
+1839,r108,World -> Middle East -> Syria,World,Middle East,Syria,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r109,World -> Middle East -> United Arab Emirates,World,Middle East,United Arab Emirates,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.45,0.4,0.47,0.46,0.45,0.45,0.5,0.8
+1839,r110,World -> Middle East -> West Bank,World,Middle East,West Bank,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r111,World -> Middle East -> Yemen,World,Middle East,Yemen,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r112,World -> Africa,World,Africa,,,2,1.22,1.17,1.21,1.24,1.26,1.13,1.17,1.18,1.05,0.96,1.03,1.0,0.94,0.94,0.83,0.88,0.88,0.89,0.87
+1839,r113,World -> Africa -> Algeria,World,Africa,Algeria,,3,1.19,ne,1.2,1.26,1.13,1.28,1.42,1.23,1.25,1.07,1.13,1.04,1.06,0.96,0.92,0.89,0.9,0.87,1.01
+1839,r114,World -> Africa -> Angola,World,Africa,Angola,,3,ne,ne,ne,na,ne,ne,na,ne,na,ne,ne,ne,ne,ne,ne,na,na,ne,ne
+1839,r115,World -> Africa -> Benin,World,Africa,Benin,,3,na,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,na,ne,ne,ne,ne
+1839,r116,World -> Africa -> Botswana,World,Africa,Botswana,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r117,World -> Africa -> Burkina Faso,World,Africa,Burkina Faso,,3,na,na,ne,na,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r118,World -> Africa -> Burundi,World,Africa,Burundi,,3,na,na,na,na,na,na,na,ne,na,na,ne,ne,ne,na,na,ne,ne,na,ne
+1839,r119,World -> Africa -> Cabo Verde,World,Africa,Cabo Verde,,3,na,na,na,na,na,ne,na,na,na,na,na,na,ne,na,ne,na,na,na,na
+1839,r120,World -> Africa -> Cameroon,World,Africa,Cameroon,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r121,World -> Africa -> Central African Republic,World,Africa,Central African Republic,,3,na,na,na,na,na,ne,na,na,na,na,na,na,na,na,na,na,na,ne,na
+1839,r122,World -> Africa -> Chad,World,Africa,Chad,,3,na,ne,na,na,ne,na,na,na,na,ne,na,na,na,na,na,na,ne,na,ne
+1839,r123,World -> Africa -> Comoros,World,Africa,Comoros,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,ne,na,na,na,na,ne
+1839,r124,"World -> Africa -> Congo, Democratic Republic of the",World,Africa,"Congo, Democratic Republic of the",,3,na,na,ne,ne,na,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r125,"World -> Africa -> Congo, Republic of the",World,Africa,"Congo, Republic of the",,3,na,na,na,na,na,na,na,na,ne,na,ne,na,na,ne,ne,na,na,ne,ne
+1839,r126,World -> Africa -> C&#244;te d&#8217;Ivoire,World,Africa,C&#244;te d&#8217;Ivoire,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r127,World -> Africa -> Djibouti,World,Africa,Djibouti,,3,na,na,na,na,na,na,na,ne,ne,ne,ne,ne,na,ne,ne,na,ne,ne,na
+1839,r128,World -> Africa -> Egypt,World,Africa,Egypt,,3,2.91,2.73,2.95,2.81,2.74,2.73,2.74,2.62,2.46,2.02,2.09,1.76,1.58,1.74,1.66,1.69,1.67,1.93,1.76
+1839,r129,World -> Africa -> Equatorial Guinea,World,Africa,Equatorial Guinea,,3,na,na,na,na,na,ne,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r130,World -> Africa -> Eritrea,World,Africa,Eritrea,,3,na,na,na,na,na,na,ne,na,na,ne,na,ne,na,na,ne,na,na,ne,ne
+1839,r131,World -> Africa -> Eswatini,World,Africa,Eswatini,,3,na,na,ne,ne,na,ne,na,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,na
+1839,r132,World -> Africa -> Ethiopia,World,Africa,Ethiopia,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.37,0.31
+1839,r133,World -> Africa -> Gabon,World,Africa,Gabon,,3,ne,na,na,na,ne,ne,ne,na,na,ne,na,ne,na,ne,ne,ne,ne,ne,ne
+1839,r134,"World -> Africa -> Gambia, The",World,Africa,"Gambia, The",,3,na,na,na,na,na,na,na,na,na,na,ne,na,na,ne,na,na,ne,na,na
+1839,r135,World -> Africa -> Ghana,World,Africa,Ghana,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r136,World -> Africa -> Guinea,World,Africa,Guinea,,3,na,na,na,na,ne,na,ne,na,ne,ne,na,na,ne,ne,ne,ne,na,ne,na
+1839,r137,World -> Africa -> Guinea-Bissau,World,Africa,Guinea-Bissau,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r138,World -> Africa -> Kenya,World,Africa,Kenya,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r139,World -> Africa -> Lesotho,World,Africa,Lesotho,,3,na,ne,ne,na,ne,na,na,ne,ne,na,na,ne,na,na,ne,ne,ne,ne,ne
+1839,r140,World -> Africa -> Liberia,World,Africa,Liberia,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne,na
+1839,r141,World -> Africa -> Libya,World,Africa,Libya,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r142,World -> Africa -> Madagascar,World,Africa,Madagascar,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r143,World -> Africa -> Malawi,World,Africa,Malawi,,3,ne,ne,ne,na,na,na,na,ne,na,ne,ne,ne,ne,ne,na,ne,ne,ne,ne
+1839,r144,World -> Africa -> Mali,World,Africa,Mali,,3,na,na,na,na,ne,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r145,World -> Africa -> Mauritania,World,Africa,Mauritania,,3,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r146,World -> Africa -> Mauritius,World,Africa,Mauritius,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r147,World -> Africa -> Morocco,World,Africa,Morocco,,3,1.58,1.48,1.37,1.38,1.37,1.28,1.28,1.5,1.19,0.83,1.47,1.42,0.93,0.93,0.7,0.67,0.5,0.47,0.64
+1839,r148,World -> Africa -> Mozambique,World,Africa,Mozambique,,3,na,na,na,na,ne,na,na,na,na,na,na,na,na,ne,ne,ne,ne,ne,ne
+1839,r149,World -> Africa -> Namibia,World,Africa,Namibia,,3,na,na,na,ne,ne,ne,ne,na,na,na,ne,na,na,ne,ne,ne,ne,ne,ne
+1839,r150,World -> Africa -> Niger,World,Africa,Niger,,3,ne,na,na,na,ne,na,na,ne,na,na,ne,ne,ne,na,ne,na,ne,ne,na
+1839,r151,World -> Africa -> Nigeria,World,Africa,Nigeria,,3,0.47,ne,0.42,ne,0.7,0.42,0.33,0.39,0.3,0.37,0.36,0.23,0.23,0.27,0.26,0.3,0.35,0.38,0.3
+1839,r152,World -> Africa -> Rwanda,World,Africa,Rwanda,,3,na,na,ne,na,na,na,na,na,na,na,ne,na,na,ne,ne,ne,ne,ne,ne
+1839,r153,World -> Africa -> S&#227;o Tom&#233; and Pr&#237;ncipe,World,Africa,S&#227;o Tom&#233; and Pr&#237;ncipe,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r154,World -> Africa -> Senegal,World,Africa,Senegal,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r155,World -> Africa -> Seychelles,World,Africa,Seychelles,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne,na,na,na
+1839,r156,World -> Africa -> Sierra Leone,World,Africa,Sierra Leone,,3,na,na,na,na,ne,na,ne,na,na,na,na,na,na,na,na,na,na,ne,ne
+1839,r157,World -> Africa -> Somalia,World,Africa,Somalia,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r158,World -> Africa -> South Africa,World,Africa,South Africa,,3,0.66,0.7,0.74,0.83,0.87,0.75,0.92,0.96,0.77,0.83,0.89,1.12,1.03,0.91,0.78,0.87,0.85,0.75,0.76
+1839,r159,World -> Africa -> South Sudan,World,Africa,South Sudan,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne,na
+1839,r160,World -> Africa -> Sudan,World,Africa,Sudan,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r161,World -> Africa -> Tanzania,World,Africa,Tanzania,,3,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r162,World -> Africa -> Togo,World,Africa,Togo,,3,na,ne,ne,ne,ne,na,na,ne,ne,na,na,ne,na,na,ne,na,ne,ne,ne
+1839,r163,World -> Africa -> Tunisia,World,Africa,Tunisia,,3,1.54,1.04,1.06,1.15,1.08,0.9,0.9,0.88,0.79,0.6,0.71,0.67,0.71,0.84,0.77,0.86,0.92,1.03,0.88
+1839,r164,World -> Africa -> Uganda,World,Africa,Uganda,,3,na,na,ne,na,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r165,World -> Africa -> Western Sahara,World,Africa,Western Sahara,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r166,World -> Africa -> Zambia,World,Africa,Zambia,,3,ne,na,na,na,ne,ne,ne,ne,na,ne,ne,na,na,ne,na,ne,ne,ne,ne
+1839,r167,World -> Africa -> Zimbabwe,World,Africa,Zimbabwe,,3,ne,ne,na,ne,na,ne,ne,ne,ne,ne,ne,na,ne,ne,ne,ne,ne,ne,ne
+1839,r168,World -> Asia,World,Asia,,,2,1.46,1.44,1.43,1.44,1.41,1.48,1.5,1.41,1.38,1.38,1.32,1.36,1.41,1.39,1.44,1.43,1.4,1.37,1.37
+1839,r169,World -> Asia -> Afghanistan,World,Asia,Afghanistan,,3,na,na,na,na,na,na,na,na,na,na,na,ne,ne,na,ne,na,na,ne,ne
+1839,r170,World -> Asia -> Bangladesh,World,Asia,Bangladesh,,3,ne,ne,1.07,1.04,0.86,1.15,0.84,0.76,0.6,0.62,0.71,0.74,0.64,0.58,0.46,0.59,0.48,0.47,0.53
+1839,r171,World -> Asia -> Bhutan,World,Asia,Bhutan,,3,na,na,na,na,na,na,ne,na,ne,ne,ne,na,na,na,ne,ne,na,na,na
+1839,r172,World -> Asia -> Brunei,World,Asia,Brunei,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r173,World -> Asia -> Burma,World,Asia,Burma,,3,ne,na,na,ne,ne,ne,ne,ne,ne,ne,na,na,na,na,na,ne,ne,ne,ne
+1839,r174,World -> Asia -> Cambodia,World,Asia,Cambodia,,3,na,na,na,na,na,na,na,na,ne,ne,ne,ne,na,na,ne,na,ne,ne,ne
+1839,r175,World -> Asia -> China,World,Asia,China,,3,1.85,1.65,1.66,1.64,1.57,1.45,1.46,1.54,1.42,1.4,1.32,1.4,1.5,1.49,1.57,1.56,1.54,1.5,1.55
+1839,r176,World -> Asia -> India,World,Asia,India,,3,1.92,2.06,2.07,2.19,2.21,2.05,2.16,2.26,2.04,1.99,1.88,1.76,1.69,1.67,1.67,1.58,1.48,1.48,1.36
+1839,r177,World -> Asia -> Indonesia,World,Asia,Indonesia,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.43,0.44,0.8,0.58,0.58,0.57,0.38,0.46,0.42
+1839,r178,World -> Asia -> Japan,World,Asia,Japan,,3,1.25,1.26,1.22,1.22,1.21,1.69,1.69,1.18,1.24,1.23,1.2,1.18,1.23,1.2,1.21,1.22,1.19,1.25,1.19
+1839,r179,World -> Asia -> Kazakhstan,World,Asia,Kazakhstan,,3,3.65,2.8,2.52,2.91,3.64,4.02,3.5,2.7,3.44,2.82,2.72,1.55,1.82,1.68,1.12,0.88,0.77,0.8,0.59
+1839,r180,World -> Asia -> Kyrgyzstan,World,Asia,Kyrgyzstan,,3,ne,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r181,World -> Asia -> Laos,World,Asia,Laos,,3,na,na,na,na,na,na,na,ne,ne,ne,ne,ne,ne,ne,na,na,ne,na,ne
+1839,r182,World -> Asia -> Malaysia,World,Asia,Malaysia,,3,1.37,1.72,1.21,1.65,1.25,1.44,1.36,1.31,1.32,1.4,1.56,1.47,1.35,1.1,1.09,1.13,1.07,0.95,0.94
+1839,r183,World -> Asia -> Maldives,World,Asia,Maldives,,3,na,na,na,na,na,na,na,na,na,na,na,ne,na,na,ne,na,na,na,na
+1839,r184,World -> Asia -> Mongolia,World,Asia,Mongolia,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r185,World -> Asia -> Nepal,World,Asia,Nepal,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r186,World -> Asia -> North Korea,World,Asia,North Korea,,3,ne,na,na,na,na,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r187,World -> Asia -> Pakistan,World,Asia,Pakistan,,3,1.52,1.23,1.48,1.54,1.64,1.48,1.77,1.71,1.89,1.8,1.84,1.45,1.43,1.43,1.08,1.23,1.13,1.04,0.93
+1839,r188,World -> Asia -> Papua New Guinea,World,Asia,Papua New Guinea,,3,ne,ne,na,ne,na,ne,ne,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,na
+1839,r189,World -> Asia -> Philippines,World,Asia,Philippines,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.28
+1839,r190,World -> Asia -> Singapore,World,Asia,Singapore,,3,0.67,0.72,0.64,0.73,0.66,0.64,0.67,0.78,0.96,1.19,1.21,1.34,1.29,1.33,1.34,1.32,1.25,1.07,1.02
+1839,r191,World -> Asia -> South Korea,World,Asia,South Korea,,3,1.48,1.39,1.43,1.27,1.21,1.1,1.18,1.15,1.2,1.29,1.27,1.3,1.3,1.25,1.28,1.31,1.24,1.22,1.25
+1839,r192,World -> Asia -> Sri Lanka,World,Asia,Sri Lanka,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r193,World -> Asia -> Taiwan,World,Asia,Taiwan,,3,1.14,1.12,1.04,1.05,0.99,0.89,0.95,0.83,0.94,0.94,0.9,0.92,1.05,0.91,0.98,0.94,0.98,1.07,1.07
+1839,r194,World -> Asia -> Tajikistan,World,Asia,Tajikistan,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r195,World -> Asia -> Thailand,World,Asia,Thailand,,3,0.7,0.9,0.85,1.05,1.01,0.94,1.06,1.04,1.07,1.07,1.01,1.0,1.18,1.19,1.03,1.05,1.02,0.94,1.0
+1839,r196,World -> Asia -> Timor-Leste,World,Asia,Timor-Leste,,3,na,na,na,na,na,na,na,na,na,na,ne,na,na,na,na,na,na,na,na
+1839,r197,World -> Asia -> Turkmenistan,World,Asia,Turkmenistan,,3,na,na,ne,na,na,ne,na,na,na,na,na,na,na,na,na,na,ne,na,na
+1839,r198,World -> Asia -> Uzbekistan,World,Asia,Uzbekistan,,3,1.27,1.41,1.29,1.67,1.47,1.94,ne,ne,ne,ne,1.51,1.68,ne,ne,ne,ne,ne,ne,ne
+1839,r199,World -> Asia -> Vietnam,World,Asia,Vietnam,,3,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,0.56,0.65,0.78,0.72,0.73,0.78,0.81,0.87,0.87
+1839,r200,World -> Australia and Oceania,World,Australia and Oceania,,,2,0.58,0.56,0.51,0.6,0.55,0.48,0.49,0.5,0.48,0.54,0.54,0.53,0.53,0.51,0.51,0.55,0.52,0.51,0.5
+1839,r201,World -> Australia and Oceania -> Australia,World,Australia and Oceania,Australia,,3,0.59,0.58,0.52,0.62,0.57,0.49,0.49,0.5,0.48,0.54,0.55,0.53,0.54,0.51,0.52,0.55,0.53,0.52,0.5
+1839,r202,World -> Australia and Oceania -> Cook Islands,World,Australia and Oceania,Cook Islands,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r203,World -> Australia and Oceania -> Fiji,World,Australia and Oceania,Fiji,,3,ne,na,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne,ne
+1839,r204,World -> Australia and Oceania -> Kiribati,World,Australia and Oceania,Kiribati,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r205,World -> Australia and Oceania -> Marshall Islands,World,Australia and Oceania,Marshall Islands,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r206,"World -> Australia and Oceania -> Micronesia, Federated States of",World,Australia and Oceania,"Micronesia, Federated States of",,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne,na,na,na
+1839,r207,World -> Australia and Oceania -> Nauru,World,Australia and Oceania,Nauru,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r208,World -> Australia and Oceania -> New Zealand,World,Australia and Oceania,New Zealand,,3,0.52,0.49,0.49,0.52,0.47,0.44,0.51,0.52,0.52,0.53,0.54,0.54,0.47,0.54,0.48,0.57,0.46,0.49,0.52
+1839,r209,World -> Australia and Oceania -> Niue,World,Australia and Oceania,Niue,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r210,World -> Australia and Oceania -> Palau,World,Australia and Oceania,Palau,,3,ne,na,na,na,na,na,ne,na,na,na,ne,na,na,na,na,na,na,na,na
+1839,r211,World -> Australia and Oceania -> Samoa,World,Australia and Oceania,Samoa,,3,na,na,na,na,na,na,na,na,na,na,ne,na,na,na,na,na,na,na,na
+1839,r212,World -> Australia and Oceania -> Solomon Islands,World,Australia and Oceania,Solomon Islands,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r213,World -> Australia and Oceania -> Tonga,World,Australia and Oceania,Tonga,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,ne
+1839,r214,World -> Australia and Oceania -> Tuvalu,World,Australia and Oceania,Tuvalu,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r215,World -> Australia and Oceania -> Vanuatu,World,Australia and Oceania,Vanuatu,,3,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na
+1839,r216,World -> Unassigned,World,Unassigned,,,2,0.49,0.4,0.39,0.35,0.5,0.48,0.29,0.25,0.26,0.23,0.18,0.12,0.12,0.13,0.24,0.35,0.21,0.33,0.41

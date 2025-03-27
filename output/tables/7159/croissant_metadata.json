@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Funds provided by nonprofit organizations to others for R&D, by original source of funds: FY 2016",
+  "identifier": "NCSES-7159",
+  "description": "Funds provided by nonprofit organizations to others for R&D, by original source of funds: FY 2016",
+  "url": "https://example.org/datasets/ncses/tables/7159",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7159/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "source_of_funds",
+      "description": "Source of funds hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "source_of_funds_level_1, source_of_funds_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "source_of_funds_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_funds_for_r_d",
+      "description": "Total Funds For R D",
+      "valueType": "string",
+      "unitText": "Thousands of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Nonprofit Research Activities, FY 2016."
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Other health postdoctoral appointee and doctorate-holding nonfaculty researcher demographics and funding: 2021",
+  "identifier": "NCSES-8368",
+  "description": "Other health postdoctoral appointee and doctorate-holding nonfaculty researcher demographics and funding: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8368",
+  "table_number": "4-26b",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8368/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_characteristic_b",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_characteristic_b_level_1, _b_characteristic_b_level_2, _b_characteristic_b_level_3, _b_characteristic_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_number",
+      "description": "Postdoctoral Appointees Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_percent",
+      "description": "Postdoctoral Appointees Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_number",
+      "description": "Doctorate Holding Nonfaculty Researchers Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_percent",
+      "description": "Doctorate Holding Nonfaculty Researchers Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "\"Field\" refers to the field of the unit that reports postdoctorates and doctorate-holding nonfaculty researchers to the Survey of Graduate Students and Postdoctorates in Science and Engineering (GSS). Percentages may not add to total because of rounding. For more information on the mapping of GSS fields and codes, see technical table A-17.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2021."
+}

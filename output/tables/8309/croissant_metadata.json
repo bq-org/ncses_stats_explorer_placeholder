@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Citizenship, ethnicity, and race of graduate students, postdoctoral appointees, and doctorate-holding nonfaculty researchers in science, by sex: 2021",
+  "identifier": "NCSES-8309",
+  "description": "Citizenship, ethnicity, and race of graduate students, postdoctoral appointees, and doctorate-holding nonfaculty researchers in science, by sex: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8309",
+  "table_number": "2-2a",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8309/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_citizenship_ethnicity_race_and_field_b",
+      "description": "Citizenship, ethnicity, race, and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_citizenship_ethnicity_race_and_field_b_level_1, _b_citizenship_ethnicity_race_and_field_b_level_2, _b_citizenship_ethnicity_race_and_field_b_level_3, _b_citizenship_ethnicity_race_and_field_b_level_4, _b_citizenship_ethnicity_race_and_field_b_level_5, _b_citizenship_ethnicity_race_and_field_b_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_citizenship_ethnicity_race_and_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_all_graduate_students_total_number",
+      "description": "Graduate Students All Graduate Students Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_all_graduate_students_percent_female",
+      "description": "Graduate Students All Graduate Students Percent Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_master_s_total_number",
+      "description": "Graduate Students Master S Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_master_s_percent_female",
+      "description": "Graduate Students Master S Percent Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_doctoral_total_number",
+      "description": "Graduate Students Doctoral Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_doctoral_percent_female",
+      "description": "Graduate Students Doctoral Percent Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_total_number",
+      "description": "Postdoctoral Appointees Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_percent_female",
+      "description": "Postdoctoral Appointees Percent Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_total_number",
+      "description": "Doctorate Holding Nonfaculty Researchers Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_percent_female",
+      "description": "Doctorate Holding Nonfaculty Researchers Percent Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "\"Field\" refers to the field of the unit that reports postdoctorates and doctorate-holding nonfaculty researchers to the Survey of Graduate Students and Postdoctorates in Science and Engineering (GSS). Percentages may not add to total because of rounding. For more information on the mapping of GSS fields and codes, see technical table A-17.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2021."
+}

@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Visual and performing arts research doctorate recipients, postgraduation plans by sex and major field of doctorate: 2021",
+  "identifier": "NCSES-7614",
+  "description": "Visual and performing arts research doctorate recipients, postgraduation plans by sex and major field of doctorate: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7614",
+  "table_number": "9-17",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7614/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_characteristic_b",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_characteristic_b_level_1, _b_characteristic_b_level_2, _b_characteristic_b_level_3, _b_characteristic_b_level_4, _b_characteristic_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_visual_and_performing_arts_fields",
+      "description": "All Visual And Performing Arts Fields",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performing_arts",
+      "description": "Performing Arts",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_visual_arts_media_studies_design",
+      "description": "Visual Arts Media Studies Design",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Due to rounding, percentages may not sum to 100. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and the new broad, major, and detailed fields were used in tables reporting only the most recent data year. Therefore, the field of doctorate data in 2021 may not be comparable to prior years; see the \"Technical Notes\" for more information, table A-4 for a summary of SED-CIP codes in the new SED field taxonomy, table A-5 for a full list of SED-CIP codes in the new field taxonomy, and table A-6 for the SED-CIP code crosswalk to the historical field taxonomy.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

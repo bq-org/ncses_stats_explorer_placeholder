@@ -1,0 +1,44 @@
+table_id,row_id,demographic_characteristic_full_path,demographic_characteristic_level_1,demographic_characteristic_level_2,demographic_characteristic_level_3,demographic_characteristic_level_4,demographic_characteristic_hierarchy_depth,field_both_sexes,field_female,field_male
+1276,r001,Employed scientists and engineers (number),Employed scientists and engineers (number),,,,1,27273000,13002000,14271000
+1276,r002,Employed scientists and engineers (number) -> Age (years),Employed scientists and engineers (number),Age (years),,,2,,,
+1276,r003,Employed scientists and engineers (number) -> Age (years) -> 29 and younger,Employed scientists and engineers (number),Age (years),29 and younger,,3,14.8,17.5,12.3
+1276,r004,Employed scientists and engineers (number) -> Age (years) -> 30&#8211;39,Employed scientists and engineers (number),Age (years),30&#8211;39,,3,26.4,27.5,25.5
+1276,r005,Employed scientists and engineers (number) -> Age (years) -> 40&#8211;49,Employed scientists and engineers (number),Age (years),40&#8211;49,,3,22.9,23.2,22.6
+1276,r006,Employed scientists and engineers (number) -> Age (years) -> 50&#8211;75,Employed scientists and engineers (number),Age (years),50&#8211;75,,3,35.9,31.8,39.6
+1276,r007,Employed scientists and engineers (number) -> Ethnicity and race,Employed scientists and engineers (number),Ethnicity and race,,,2,,,
+1276,r008,Employed scientists and engineers (number) -> Ethnicity and race -> Hispanic or Latino<sup>a</sup>,Employed scientists and engineers (number),Ethnicity and race,Hispanic or Latino<sup>a</sup>,,3,8.5,9.5,7.7
+1276,r009,Employed scientists and engineers (number) -> Ethnicity and race -> Not Hispanic or Latino,Employed scientists and engineers (number),Ethnicity and race,Not Hispanic or Latino,,3,,,
+1276,r010,Employed scientists and engineers (number) -> Ethnicity and race -> Not Hispanic or Latino -> American Indian or Alaska Native,Employed scientists and engineers (number),Ethnicity and race,Not Hispanic or Latino,American Indian or Alaska Native,4,0.3,0.3,0.3
+1276,r011,Employed scientists and engineers (number) -> Ethnicity and race -> Not Hispanic or Latino -> Asian,Employed scientists and engineers (number),Ethnicity and race,Not Hispanic or Latino,Asian,4,13.0,11.9,14.0
+1276,r012,Employed scientists and engineers (number) -> Ethnicity and race -> Not Hispanic or Latino -> Black or African American,Employed scientists and engineers (number),Ethnicity and race,Not Hispanic or Latino,Black or African American,4,7.4,9.0,5.9
+1276,r013,Employed scientists and engineers (number) -> Ethnicity and race -> Not Hispanic or Latino -> Native Hawaiian or Other Pacific Islander,Employed scientists and engineers (number),Ethnicity and race,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,4,0.2,0.2,0.3
+1276,r014,Employed scientists and engineers (number) -> Ethnicity and race -> Not Hispanic or Latino -> White,Employed scientists and engineers (number),Ethnicity and race,Not Hispanic or Latino,White,4,68.7,67.0,70.3
+1276,r015,Employed scientists and engineers (number) -> Ethnicity and race -> Not Hispanic or Latino -> More than one race,Employed scientists and engineers (number),Ethnicity and race,Not Hispanic or Latino,More than one race,4,1.8,2.1,1.5
+1276,r016,Employed scientists and engineers (number) -> Disability status,Employed scientists and engineers (number),Disability status,,,2,,,
+1276,r017,Employed scientists and engineers (number) -> Disability status -> Without disability,Employed scientists and engineers (number),Disability status,Without disability,,3,89.7,90.6,88.8
+1276,r018,Employed scientists and engineers (number) -> Disability status -> With disability,Employed scientists and engineers (number),Disability status,With disability,,3,10.3,9.4,11.2
+1276,r019,Employed scientists and engineers (number) -> Marital status,Employed scientists and engineers (number),Marital status,,,2,,,
+1276,r020,Employed scientists and engineers (number) -> Marital status -> Married,Employed scientists and engineers (number),Marital status,Married,,3,71.5,66.1,76.4
+1276,r021,Employed scientists and engineers (number) -> Marital status -> Widowed,Employed scientists and engineers (number),Marital status,Widowed,,3,1.0,1.5,0.6
+1276,r022,Employed scientists and engineers (number) -> Marital status -> Separated,Employed scientists and engineers (number),Marital status,Separated,,3,0.9,1.3,0.7
+1276,r023,Employed scientists and engineers (number) -> Marital status -> Divorced,Employed scientists and engineers (number),Marital status,Divorced,,3,7.2,9.3,5.2
+1276,r024,Employed scientists and engineers (number) -> Marital status -> Never married,Employed scientists and engineers (number),Marital status,Never married,,3,19.4,21.8,17.2
+1276,r025,"Employed scientists and engineers (number) -> If married, spouse's employment status",Employed scientists and engineers (number),"If married, spouse's employment status",,,2,,,
+1276,r026,"Employed scientists and engineers (number) -> If married, spouse's employment status -> Employed",Employed scientists and engineers (number),"If married, spouse's employment status",Employed,,3,77.4,87.0,69.8
+1276,r027,"Employed scientists and engineers (number) -> If married, spouse's employment status -> Employed -> Full-time",Employed scientists and engineers (number),"If married, spouse's employment status",Employed,Full-time,4,64.6,80.8,51.8
+1276,r028,"Employed scientists and engineers (number) -> If married, spouse's employment status -> Employed -> Part-time",Employed scientists and engineers (number),"If married, spouse's employment status",Employed,Part-time,4,12.8,6.2,18.0
+1276,r029,"Employed scientists and engineers (number) -> If married, spouse's employment status -> Not employed",Employed scientists and engineers (number),"If married, spouse's employment status",Not employed,,3,22.6,13.0,30.2
+1276,r030,"Employed scientists and engineers (number) -> If spouse is employed, field in which spouse's job required a bachelor's",Employed scientists and engineers (number),"If spouse is employed, field in which spouse's job required a bachelor's",,,2,,,
+1276,r031,"Employed scientists and engineers (number) -> If spouse is employed, field in which spouse's job required a bachelor's -> Engineering, computer science, math, or natural sciences",Employed scientists and engineers (number),"If spouse is employed, field in which spouse's job required a bachelor's","Engineering, computer science, math, or natural sciences",,3,26.5,32.3,20.7
+1276,r032,"Employed scientists and engineers (number) -> If spouse is employed, field in which spouse's job required a bachelor's -> Social sciences",Employed scientists and engineers (number),"If spouse is employed, field in which spouse's job required a bachelor's",Social sciences,,3,12.5,9.2,15.7
+1276,r033,"Employed scientists and engineers (number) -> If spouse is employed, field in which spouse's job required a bachelor's -> Other",Employed scientists and engineers (number),"If spouse is employed, field in which spouse's job required a bachelor's",Other,,3,39.0,33.8,44.2
+1276,r034,Employed scientists and engineers (number) -> Children living in household,Employed scientists and engineers (number),Children living in household,,,2,,,
+1276,r035,Employed scientists and engineers (number) -> Children living in household -> No,Employed scientists and engineers (number),Children living in household,No,,3,52.5,52.9,52.0
+1276,r036,Employed scientists and engineers (number) -> Children living in household -> Yes,Employed scientists and engineers (number),Children living in household,Yes,,3,47.6,47.1,48.0
+1276,r037,Employed scientists and engineers (number) -> Citizenship,Employed scientists and engineers (number),Citizenship,,,2,,,
+1276,r038,Employed scientists and engineers (number) -> Citizenship -> U.S. citizen,Employed scientists and engineers (number),Citizenship,U.S. citizen,,3,92.8,94.8,91.0
+1276,r039,Employed scientists and engineers (number) -> Citizenship -> U.S. citizen -> Native,Employed scientists and engineers (number),Citizenship,U.S. citizen,Native,4,80.4,82.9,78.0
+1276,r040,Employed scientists and engineers (number) -> Citizenship -> U.S. citizen -> Naturalized,Employed scientists and engineers (number),Citizenship,U.S. citizen,Naturalized,4,12.4,11.8,12.9
+1276,r041,Employed scientists and engineers (number) -> Citizenship -> Non-U.S. citizen,Employed scientists and engineers (number),Citizenship,Non-U.S. citizen,,3,7.2,5.2,9.0
+1276,r042,Employed scientists and engineers (number) -> Citizenship -> Non-U.S. citizen -> Permanent resident,Employed scientists and engineers (number),Citizenship,Non-U.S. citizen,Permanent resident,4,4.0,3.1,4.7
+1276,r043,Employed scientists and engineers (number) -> Citizenship -> Non-U.S. citizen -> Temporary resident,Employed scientists and engineers (number),Citizenship,Non-U.S. citizen,Temporary resident,4,3.3,2.1,4.3

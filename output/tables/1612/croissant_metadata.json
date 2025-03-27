@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median salaries for recent SEH doctorate recipients up to 5 years after receiving degree, by field of degree and employment sector: 2017",
+  "identifier": "NCSES-1612",
+  "description": "Median salaries for recent SEH doctorate recipients up to 5 years after receiving degree, by field of degree and employment sector: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1612",
+  "table_number": "3-12",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1612/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate",
+      "description": "Field of doctorate hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_doctorate_level_1, field_of_doctorate_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_doctorate_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate_full_path",
+      "description": "Of Doctorate Full Path",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate_level_1",
+      "description": "Of Doctorate Level 1",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate_level_2",
+      "description": "Of Doctorate Level 2",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate_hierarchy_depth",
+      "description": "Of Doctorate Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_sectors",
+      "description": "All Sectors",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_4_year_institutions_all_positions",
+      "description": "Education 4 Year Institutions All Positions",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_4_year_institutions_tenured_or_tenure_track_position",
+      "description": "Education 4 Year Institutions Tenured Or Tenure Track Position",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_4_year_institutions_postdoc",
+      "description": "Education 4 Year Institutions Postdoc",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_2_year_or_precollege_institutions",
+      "description": "Education 2 Year Or Precollege Institutions",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_government",
+      "description": "Government",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_or_industry",
+      "description": "Business Or Industry",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Salaries are rounded to the nearest $1,000. Data include graduates from 19 months to 60 months prior to the survey reference date. The 2-year or precollege institutions include 2-year colleges and community colleges or technical institutes and also preschool, elementary, middle, or secondary schools. The 4-year institutions include 4-year colleges or universities, medical schools, and university-affiliated research institutes.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Doctorate Recipients (SDR), 2017.Science and Engineering Indicators"
+}

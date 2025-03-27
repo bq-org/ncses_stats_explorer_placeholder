@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Trends in for-profit institution awards, by degree level and field: 2000\u201321",
+  "identifier": "NCSES-9790",
+  "description": "Trends in for-profit institution awards, by degree level and field: 2000\u201321",
+  "url": "https://example.org/datasets/ncses/tables/9790",
+  "table_number": "HED-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9790/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "degree_level_and_field",
+      "description": "Degree level and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "degree_level_and_field_level_1, degree_level_and_field_level_2, degree_level_and_field_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "degree_level_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000",
+      "description": "2000",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_change_2000_12_number",
+      "description": "Change 2000 12 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_change_2000_12_percent",
+      "description": "Change 2000 12 Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_change_2012_21_number",
+      "description": "Change 2012 21 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_change_2012_21_percent",
+      "description": "Change 2012 21 Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data are based on institutions eligible to participate in Title IV federal financial aid programs. Certificates include only awards of less than 2 academic years below the associate's degree level. Doctoral degree programs include research doctoral degree programs only and do not include professional doctoral programs (e.g., Doctor of Medicine).",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2022) of the National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Completions Survey, provisional release data.Science and Engineering Indicators"
+}

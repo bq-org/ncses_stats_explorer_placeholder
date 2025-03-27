@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for R&D plant for selected agencies, by state or location and performer: FY 2019",
+  "identifier": "NCSES-3954",
+  "description": "Federal obligations for R&D plant for selected agencies, by state or location and performer: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3954",
+  "table_number": "90",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3954/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_or_location_b",
+      "description": "State or location hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_or_location_b_level_1, _b_state_or_location_b_level_2, _b_state_or_location_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_or_location_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_intramurala",
+      "description": "Intramurala",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_industry",
+      "description": "Extramural Industry",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_industry_administered_ffrdcs",
+      "description": "Extramural Industry Administered Ffrdcs",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_universities_and_colleges",
+      "description": "Extramural Universities And Colleges",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_university_administered_ffrdcs",
+      "description": "Extramural University Administered Ffrdcs",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_other_nonprofits",
+      "description": "Extramural Other Nonprofits",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_nonprofit_administered_ffrdcs",
+      "description": "Extramural Nonprofit Administered Ffrdcs",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_state_local_governments",
+      "description": "Extramural State Local Governments",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Eleven agencies are required to report data for this section of the survey: the Departments of Agriculture, Commerce, Defense, Energy, Health and Human Services, Homeland Security, the Interior, and Transportation; the Environmental Protection Agency; the National Aeronautics and Space Administration; and the National Science Foundation. Obligations of these 11 agencies represented more than 98% of total federal R&D plant obligations in FY 2019.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2019\u201320."
+}

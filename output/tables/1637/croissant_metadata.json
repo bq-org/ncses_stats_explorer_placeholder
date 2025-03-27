@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E doctorate holders employed in academia, by type of position, degree field, and citizenship: 2017",
+  "identifier": "NCSES-1637",
+  "description": "S&E doctorate holders employed in academia, by type of position, degree field, and citizenship: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1637",
+  "table_number": "S3-21",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1637/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "position_and_degree_field",
+      "description": "Position and degree field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "position_and_degree_field_level_1, position_and_degree_field_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "position_and_degree_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_s_e_doctorate_holders",
+      "description": "All S E Doctorate Holders",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_native_born_u_s_citizens",
+      "description": "Native Born U S Citizens",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_born_naturalized_u_s_citizens",
+      "description": "Foreign Born Naturalized U S Citizens",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_born_noncitizens",
+      "description": "Foreign Born Noncitizens",
+      "valueType": "string",
+      "unitText": "Thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Academic employment is limited to U.S. doctorate holders employed at 2- or 4-year colleges or universities, medical centers, and university research institutes. Physical sciences include earth, atmospheric, and ocean sciences; life sciences include biological, agricultural, environmental, and health sciences. Numbers are rounded to the nearest 50.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Doctorate Recipients (SDR), 2017.Science and Engineering Indicators"
+}

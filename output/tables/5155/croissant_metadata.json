@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Relative citation index for 15 largest producing regions, countries, or economies: 2018",
+  "identifier": "NCSES-5155",
+  "description": "Relative citation index for 15 largest producing regions, countries, or economies: 2018",
+  "url": "https://example.org/datasets/ncses/tables/5155",
+  "table_number": "PBS-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5155/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "cited_country_or_economy_characteristic",
+      "description": "Cited country or economy hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "cited_country_or_economy_level_1, cited_country_or_economy_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Index"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Citations refer to publications from a selection of journals, books, and conference proceedings in S&E from Scopus. Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) listed in the article. Articles are credited on a fractional count basis (i.e., for articles with collaborating institutions from multiple countries or economies, each country or economy receives fractional credit on the basis of the proportion of its participating institutions). Citation counts are based on all citations made to articles in their publication year and in the following two years (i.e., 3-year citation window; scores in 2018 are based on citations to articles published in 2018 that were made in articles published in 2018\u201320). The relative citation index (RCI) normalizes cross-national citation data for variations in relative size of publication output. RCI is computed by dividing the share of the citing country's outgoing citations going to the cited country and then dividing that amount by the share of publications attributed to the cited country. An RCI of 1.00 means that the citing country cites publications from the cited country as much as would be expected to happen randomly, showing no particular affinity between the countries. Scores higher than 1.00 mean that the citing country has a higher-than-expected tendency to cite the cited country\u2019s S&E literature. For more detail, see Table SPBS-40. Cells in which the region, country, or economy collaborates at or above the world average for that year are shaded green.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed May 2021.Science and Engineering Indicators"
+}

@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for science and engineering research and development to universities and colleges, by state, outlying area, institution, and agency (AID&#8211;DOI): FY 2022",
+  "identifier": "NCSES-11223",
+  "description": "Federal obligations for science and engineering research and development to universities and colleges, by state, outlying area, institution, and agency (AID&#8211;DOI): FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/11223",
+  "table_number": "14",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11223/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_outlying_area_and_institution_b",
+      "description": "State, outlying area, and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_outlying_area_and_institution_b_level_1, _b_state_outlying_area_and_institution_b_level_2, _b_state_outlying_area_and_institution_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_outlying_area_and_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_agencies",
+      "description": "All Agencies",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_aid",
+      "description": "Aid",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_arc",
+      "description": "Arc",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dhs",
+      "description": "Dhs",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doc",
+      "description": "Doc",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doda_total",
+      "description": "Doda Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doda_research",
+      "description": "Doda Research",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doda_development_advanced_technology",
+      "description": "Doda Development Advanced Technology",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doda_development_major_systems",
+      "description": "Doda Development Major Systems",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doe",
+      "description": "Doe",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doi",
+      "description": "Doi",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Federal Science and Engineering Support FY 2022 module of the FYs 2022\u201323 Survey of Federal Funds for Research and Development."
+}

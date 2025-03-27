@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic net sales, R&D, and R&D-to-sales ratio for companies that performed or funded U.S. business R&D, by selected industry: 2021",
+  "identifier": "NCSES-10938",
+  "description": "Domestic net sales, R&D, and R&D-to-sales ratio for companies that performed or funded U.S. business R&D, by selected industry: 2021",
+  "url": "https://example.org/datasets/ncses/tables/10938",
+  "table_number": "RD-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10938/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_naics_code",
+      "description": "Industry, NAICS code hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_naics_code_level_1, industry_naics_code_level_2, industry_naics_code_level_3, industry_naics_code_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_naics_code_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_net_salesa",
+      "description": "Domestic Net Salesa",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_r_db",
+      "description": "Domestic R Db",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_to_sales_ratio_",
+      "description": "R D To Sales Ratio ",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data are for companies with 10 or more domestic employees. Detail may not add to total because of rounding. Industry classification was based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development (BERD) Survey, 2021. Science and Engineering Indicators"
+}

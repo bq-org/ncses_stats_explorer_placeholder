@@ -1,0 +1,334 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E articles in materials science, by region, country, or economy: 2000\u201318",
+  "identifier": "NCSES-1829",
+  "description": "S&E articles in materials science, by region, country, or economy: 2000\u201318",
+  "url": "https://example.org/datasets/ncses/tables/1829",
+  "table_number": "S5a-11",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1829/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy",
+      "description": "Region, country, or economy hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "region_country_or_economy_level_1, region_country_or_economy_level_2, region_country_or_economy_level_3, region_country_or_economy_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "region_country_or_economy_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_economies_by_income_status",
+      "description": "Economies By Income Status",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_fractional_count",
+      "description": "2000 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_whole_count",
+      "description": "2000 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_fractional_count",
+      "description": "2001 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_whole_count",
+      "description": "2001 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002_fractional_count",
+      "description": "2002 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002_whole_count",
+      "description": "2002 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_fractional_count",
+      "description": "2003 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_whole_count",
+      "description": "2003 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004_fractional_count",
+      "description": "2004 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004_whole_count",
+      "description": "2004 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005_fractional_count",
+      "description": "2005 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005_whole_count",
+      "description": "2005 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_fractional_count",
+      "description": "2006 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_whole_count",
+      "description": "2006 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007_fractional_count",
+      "description": "2007 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007_whole_count",
+      "description": "2007 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008_fractional_count",
+      "description": "2008 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008_whole_count",
+      "description": "2008 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009_fractional_count",
+      "description": "2009 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009_whole_count",
+      "description": "2009 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_fractional_count",
+      "description": "2010 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_whole_count",
+      "description": "2010 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_fractional_count",
+      "description": "2011 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_whole_count",
+      "description": "2011 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_fractional_count",
+      "description": "2012 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_whole_count",
+      "description": "2012 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013_fractional_count",
+      "description": "2013 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013_whole_count",
+      "description": "2013 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014_fractional_count",
+      "description": "2014 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014_whole_count",
+      "description": "2014 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015_fractional_count",
+      "description": "2015 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015_whole_count",
+      "description": "2015 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_fractional_count",
+      "description": "2016 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_whole_count",
+      "description": "2016 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_fractional_count",
+      "description": "2017 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_whole_count",
+      "description": "2017 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_fractional_count",
+      "description": "2018 Fractional Count",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_whole_count",
+      "description": "2018 Whole Count",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Article counts refer to publications from selected journals and conference papers in S&E from Scopus. Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) of author(s) listed in the article. Articles are credited either on a fractional- or whole-count basis. Fractional counts of articles are those produced by authors from different countries, where each country receives fractional credit on the basis of the proportion of its participating authors. For the fractional-count basis, the sum of the regions, countries, or economies may not add to the world total because of rounding. In whole counting, each region, country, or economy with a collaborating author on an article is credited with one count. The sum of the whole count for regions, countries, or economies does not add to the world total because of multiple counts of coauthored publications. Some publications have incomplete address information for coauthored publications in the Scopus database. The unassigned category count is the sum of fractional or whole counts for publications that cannot be assigned to a region, country, or economy. For more information on the 2019 World Bank Country and Lending Groups classification of income groups, see https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups, accessed June 2019.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed June 2019.Science and Engineering Indicators"
+}

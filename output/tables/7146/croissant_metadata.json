@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Top 50 U.S. baccalaureate-origin institutions of American Indian or Alaska Native doctorate recipients from 2010\u201320, by institutional\u00a0control,\u00a02018\u00a0Carnegie\u00a0classification, and HAIANE status",
+  "identifier": "NCSES-7146",
+  "description": "Top 50 U.S. baccalaureate-origin institutions of American Indian or Alaska Native doctorate recipients from 2010\u201320, by institutional\u00a0control,\u00a02018\u00a0Carnegie\u00a0classification, and HAIANE status",
+  "url": "https://example.org/datasets/ncses/tables/7146",
+  "table_number": "6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7146/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "baccalaureate_institution_",
+      "description": "Baccalaureate Institution ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "aian_doctorate_recipients",
+      "description": "Aian Doctorate Recipients",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "institutional_control",
+      "description": "Institutional Control",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2018_carnegie_classification",
+      "description": "2018 Carnegie Classification",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "haiane_status",
+      "description": "Haiane Status",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Includes only U.S. citizens and permanent residents. Institutions with the same number of doctorate recipients are listed alphabetically. R1: doctoral universities are those with very high research activity. R2: doctoral universities are institutions with high research activity.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

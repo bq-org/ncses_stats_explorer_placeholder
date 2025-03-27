@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Primary source of support for U.S. citizen and permanent resident S&E doctorate recipients, by disability status: 2017",
+  "identifier": "NCSES-1221",
+  "description": "Primary source of support for U.S. citizen and permanent resident S&E doctorate recipients, by disability status: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1221",
+  "table_number": "7-27",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1221/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "primary_source_of_support",
+      "description": "Primary source of support hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "primary_source_of_support_level_1, primary_source_of_support_level_2, primary_source_of_support_level_3, primary_source_of_support_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "primary_source_of_support_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_recipientsa",
+      "description": "All Recipientsa",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability",
+      "description": "Without Disability",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability",
+      "description": "With Disability",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "American Indian or Alaska Native doctorate recipients with unknown or refused citizenship status are counted as U.S. citizens and thus are included. Other source of support includes foreign and unknown source of support. Doctorate recipients could report more than one disability. Survey asks degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Data in this table refer to research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or health sciences.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2017."
+}

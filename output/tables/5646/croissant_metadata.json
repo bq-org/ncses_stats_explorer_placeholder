@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with new or improved business processes: Methods for producing goods or providing services, by size of company: 2016&#8211;18",
+  "identifier": "NCSES-5646",
+  "description": "Companies with new or improved business processes: Methods for producing goods or providing services, by size of company: 2016&#8211;18",
+  "url": "https://example.org/datasets/ncses/tables/5646",
+  "table_number": "34",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5646/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_size",
+      "description": "Employment size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_size_level_1, employment_size_level_2, employment_size_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_methods_for_producing_goods_or_providing_services_number_yes",
+      "description": "Innovating Methods For Producing Goods Or Providing Services Number Yes",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_methods_for_producing_goods_or_providing_services_number_no",
+      "description": "Innovating Methods For Producing Goods Or Providing Services Number No",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_methods_for_producing_goods_or_providing_services_percent_yes",
+      "description": "Innovating Methods For Producing Goods Or Providing Services Percent Yes",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_innovating_methods_for_producing_goods_or_providing_services_percent_no",
+      "description": "Innovating Methods For Producing Goods Or Providing Services Percent No",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2019 Annual Business Survey: Data Year 2018."
+}

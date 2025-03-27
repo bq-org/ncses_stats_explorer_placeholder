@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Annual salaries in S&E and S&E-related occupations: 2016&#8211;19",
+  "identifier": "NCSES-4423",
+  "description": "Annual salaries in S&E and S&E-related occupations: 2016&#8211;19",
+  "url": "https://example.org/datasets/ncses/tables/4423",
+  "table_number": "LBR-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4423/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2, occupation_level_3, occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mean_annual_salaries_in_2016",
+      "description": "Mean Annual Salaries In 2016",
+      "valueType": "string",
+      "unitText": "Current dollars and annual growth rate"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mean_annual_salaries_in_2019",
+      "description": "Mean Annual Salaries In 2019",
+      "valueType": "string",
+      "unitText": "Current dollars and annual growth rate"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mean_compound_annual_growth_rate_2016_19_",
+      "description": "Mean Compound Annual Growth Rate 2016 19 ",
+      "valueType": "string",
+      "unitText": "Current dollars and annual growth rate"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_annual_salaries_in_2016",
+      "description": "Median Annual Salaries In 2016",
+      "valueType": "string",
+      "unitText": "Current dollars and annual growth rate"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_annual_salaries_in_2019",
+      "description": "Median Annual Salaries In 2019",
+      "valueType": "string",
+      "unitText": "Current dollars and annual growth rate"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_compound_annual_growth_rate_2016_19_",
+      "description": "Median Compound Annual Growth Rate 2016 19 ",
+      "valueType": "string",
+      "unitText": "Current dollars and annual growth rate"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Occupational Employment Statistics (OES) Survey employment data do not cover employment in some sectors of the agriculture, forestry, fishing, and hunting industry; in private households; or among self-employed individuals. As a result, the data do not represent total U.S. employment. Non-S&E occupations include middle-skill and non-STEM occupations. Other S&E-related workers include actuaries, architects (except naval), postsecondary architecture teachers, and cartographers and photogrammetrists.",
+  "sources": "Bureau of Labor Statistics, special tabulations (2017 and 2020) of the 2016 and 2019 OES Survey.Science and Engineering Indicators"
+}

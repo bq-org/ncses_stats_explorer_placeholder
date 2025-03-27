@@ -1,0 +1,9 @@
+table_id,row_id,budget_function_and_agency_full_path,budget_function_and_agency_level_1,budget_function_and_agency_level_2,budget_function_and_agency_level_3,budget_function_and_agency_level_4,budget_function_and_agency_hierarchy_depth,field_2017_actual,field_2018_preliminarya,field_2019_proposed,field_2017_18_change_,field_2018_19_change_
+1322,r001,R&D and R&D plant,R&D and R&D plant,,,,1,71,70,65,-1.4,-7.1
+1322,r002,R&D and R&D plant -> Department of Housing and Urban Development (451),R&D and R&D plant,Department of Housing and Urban Development (451),,,2,66,65,60,-1.5,-7.7
+1322,r003,R&D and R&D plant -> Department of the Interior (452),R&D and R&D plant,Department of the Interior (452),,,2,5,5,5,0.0,0.0
+1322,r004,R&D and R&D plant -> Department of the Interior (452) -> Bureau of Indian Affairs and Bureau of Indian Education,R&D and R&D plant,Department of the Interior (452),Bureau of Indian Affairs and Bureau of Indian Education,,3,5,5,5,0.0,0.0
+1322,r005,R&D and R&D plant -> R&D,R&D and R&D plant,R&D,,,2,71,70,65,-1.4,-7.1
+1322,r006,R&D and R&D plant -> R&D -> Department of Housing and Urban Development (451),R&D and R&D plant,R&D,Department of Housing and Urban Development (451),,3,66,65,60,-1.5,-7.7
+1322,r007,R&D and R&D plant -> R&D -> Department of the Interior (452),R&D and R&D plant,R&D,Department of the Interior (452),,3,5,5,5,0.0,0.0
+1322,r008,R&D and R&D plant -> R&D -> Department of the Interior (452) -> Bureau of Indian Affairs and Bureau of Indian Education,R&D and R&D plant,R&D,Department of the Interior (452),Bureau of Indian Affairs and Bureau of Indian Education,4,5,5,5,0.0,0.0

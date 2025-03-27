@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Stage 1 response rate, by institution type: 2017",
+  "identifier": "NCSES-3816",
+  "description": "Stage 1 response rate, by institution type: 2017",
+  "url": "https://example.org/datasets/ncses/tables/3816",
+  "table_number": "A-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3816/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution_type",
+      "description": "Institution type hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "institution_type_level_1, institution_type_level_2, institution_type_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "institution_type_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_ecds_sample_restricted_use_data_total_sampled_institutions",
+      "description": "Full Ecds Sample Restricted Use Data Total Sampled Institutions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_ecds_sample_restricted_use_data_number_of_participating_institutions",
+      "description": "Full Ecds Sample Restricted Use Data Number Of Participating Institutions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_ecds_sample_restricted_use_data_percent",
+      "description": "Full Ecds Sample Restricted Use Data Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public_ecds_sample_total_sampled_institutions",
+      "description": "Public Ecds Sample Total Sampled Institutions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public_ecds_sample_number_of_participating_institutions",
+      "description": "Public Ecds Sample Number Of Participating Institutions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public_ecds_sample_percent",
+      "description": "Public Ecds Sample Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "All percentages are unweighted and based on the number of institutions within the row under consideration. Due to low response rates and the resulting potential for nonresponse bias in subpopulation estimates, data for the medical schools and centers and the NIH IRP strata are excluded from published tables and figures. However, for research purposes, restricted-use data are available that includes responses from early career doctorates working at medical schools and centers and the NIH IRP.",
+  "sources": "National Center for Science and Engineering Statistics, Early Career Doctorates Survey, 2017."
+}

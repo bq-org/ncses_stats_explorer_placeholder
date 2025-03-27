@@ -1,0 +1,33 @@
+# Distribution of STW and non-STW occupation for students in grade 9 in fall 2009 who had not enrolled in postsecondary education and had worked for pay since leaving high school, by selected demographic characteristics: 2016
+
+**Modal ID:** 1548
+
+**Table Number:** S1-8
+
+**Type:** MH (Matrix Hierarchical)
+
+**Units:** (Percentage)
+
+## Notes
+
+About 28% of students in grade 9 in fall 2009 had not enrolled in postsecondary education as of February 2016.
+
+## Sources
+
+Radford AW, Fritch LB, Leu K, and Duprey M, High School Longitudinal Study of 2009 (HSLS:09) Second Follow-Up: A First Look at Fall 2009 Ninth-Graders in 2016, NCES 2018-139 (2018); National Science Foundation, special tabulations (2018) of HSLS:09, National Center for Education Statistics, Department of Education.Science and Engineering Indicators
+
+## Files
+
+- `data.csv`: The table data in CSV format
+- `croissant_metadata.json`: ML Croissant metadata for machine learning applications
+
+## Structure
+
+- Row hierarchy depth: 3
+- Column hierarchy depth: 2
+- Time series: No
+
+## Special Values
+
+- `i`: imputed value
+- `r`: revised value

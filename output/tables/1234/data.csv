@@ -1,0 +1,51 @@
+table_id,row_id,sex_ethnicity_and_race_full_path,sex_ethnicity_and_race_level_1,sex_ethnicity_and_race_level_2,sex_ethnicity_and_race_level_3,sex_ethnicity_and_race_hierarchy_depth,field_all_ages,field_age_years_younger_than_18,field_age_years_18_24,field_age_years_25_44,field_age_years_45_64,field_age_years_65_and_older
+1234,r001,&nbsp;,&nbsp;,,,1,Number,,,,,
+1234,r002,Both sexes,Both sexes,,,1,308745538,74181467,30672088,82134554,81489445,40267984
+1234,r003,Both sexes -> White,Both sexes,White,,2,197318956,39890053,17604859,49068671,58514187,32241186
+1234,r004,Both sexes -> Asian,Both sexes,Asian,,2,14661516,3228739,1512213,4929851,3599720,1390993
+1234,r005,Both sexes -> Black or African American,Both sexes,Black or African American,,2,37922522,10449053,4402172,10421421,9262399,3387477
+1234,r006,Both sexes -> Hispanic or Latino,Both sexes,Hispanic or Latino,,2,50477594,17130891,6154040,15733694,8677345,2781624
+1234,r007,Both sexes -> American Indian or Alaska Native,Both sexes,American Indian or Alaska Native,,2,2263258,651946,264241,608322,557742,181007
+1234,r008,Both sexes -> Native Hawaiian or Other Pacific Islander,Both sexes,Native Hawaiian or Other Pacific Islander,,2,497216,140081,65895,155601,105248,30391
+1234,r009,"Both sexes -> More than one race, not Hispanic",Both sexes,"More than one race, not Hispanic",,2,5604476,2690704,668668,1216994,772804,255306
+1234,r010,Both sexes -> Female,Both sexes,Female,,2,156964212,36236331,15010455,41066464,41745938,22905024
+1234,r011,Both sexes -> Female -> White,Both sexes,Female,White,3,100301335,19406261,8653735,24371404,29674595,18195340
+1234,r012,Both sexes -> Female -> Asian,Both sexes,Female,Asian,3,7691693,1597108,744489,2610678,1949316,790102
+1234,r013,Both sexes -> Female -> Black or African American,Both sexes,Female,Black or African American,3,19853611,5140016,2209143,5478223,4968374,2057855
+1234,r014,Both sexes -> Female -> Hispanic or Latino,Both sexes,Female,Hispanic or Latino,3,24858794,8375602,2896625,7580105,4406720,1599742
+1234,r015,Both sexes -> Female -> American Indian or Alaska Native,Both sexes,Female,American Indian or Alaska Native,3,1147502,320312,129616,307054,290127,100393
+1234,r016,Both sexes -> Female -> Native Hawaiian or Other Pacific Islander,Both sexes,Female,Native Hawaiian or Other Pacific Islander,3,246518,68356,31848,76475,53242,16597
+1234,r017,"Both sexes -> Female -> More than one race, not Hispanic",Both sexes,Female,"More than one race, not Hispanic",3,2864759,1328676,344999,642525,403564,144995
+1234,r018,Both sexes -> Male,Both sexes,Male,,2,151781326,37945136,15661633,41068090,39743507,17362960
+1234,r019,Both sexes -> Male -> White,Both sexes,Male,White,3,97017621,20483792,8951124,24697267,28839592,14045846
+1234,r020,Both sexes -> Male -> Asian,Both sexes,Male,Asian,3,6969823,1631631,767724,2319173,1650404,600891
+1234,r021,Both sexes -> Male -> Black or African American,Both sexes,Male,Black or African American,3,18068911,5309037,2193029,4943198,4294025,1329622
+1234,r022,Both sexes -> Male -> Hispanic or Latino,Both sexes,Male,Hispanic or Latino,3,25618800,8755289,3257415,8153589,4270625,1181882
+1234,r023,Both sexes -> Male -> American Indian or Alaska Native,Both sexes,Male,American Indian or Alaska Native,3,1115756,331634,134625,301268,267615,80614
+1234,r024,Both sexes -> Male -> Native Hawaiian or Other Pacific Islander,Both sexes,Male,Native Hawaiian or Other Pacific Islander,3,250698,71725,34047,79126,52006,13794
+1234,r025,"Both sexes -> Male -> More than one race, not Hispanic",Both sexes,Male,"More than one race, not Hispanic",3,2739717,1362028,323669,574469,369240,110311
+1234,r026,&nbsp;,&nbsp;,,,1,Percent distribution,,,,,
+1234,r027,Both sexes,Both sexes,,,1,100.0,100.0,100.0,100.0,100.0,100.0
+1234,r028,Both sexes -> White,Both sexes,White,,2,63.9,53.8,57.4,59.7,71.8,80.1
+1234,r029,Both sexes -> Asian,Both sexes,Asian,,2,4.7,4.4,4.9,6.0,4.4,3.5
+1234,r030,Both sexes -> Black or African American,Both sexes,Black or African American,,2,12.3,14.1,14.4,12.7,11.4,8.4
+1234,r031,Both sexes -> Hispanic or Latino,Both sexes,Hispanic or Latino,,2,16.3,23.1,20.1,19.2,10.6,6.9
+1234,r032,Both sexes -> American Indian or Alaska Native,Both sexes,American Indian or Alaska Native,,2,0.7,0.9,0.9,0.7,0.7,0.4
+1234,r033,Both sexes -> Native Hawaiian or Other Pacific Islander,Both sexes,Native Hawaiian or Other Pacific Islander,,2,0.2,0.2,0.2,0.2,0.1,0.1
+1234,r034,"Both sexes -> More than one race, not Hispanic",Both sexes,"More than one race, not Hispanic",,2,1.8,3.6,2.2,1.5,0.9,0.6
+1234,r035,Both sexes -> Female,Both sexes,Female,,2,50.8,48.8,48.9,50.0,51.2,56.9
+1234,r036,Both sexes -> Female -> White ,Both sexes,Female,White ,3,32.5,26.2,28.2,29.7,36.4,45.2
+1234,r037,Both sexes -> Female -> Asian ,Both sexes,Female,Asian ,3,2.5,2.2,2.4,3.2,2.4,2.0
+1234,r038,Both sexes -> Female -> Black or African American ,Both sexes,Female,Black or African American ,3,6.4,6.9,7.2,6.7,6.1,5.1
+1234,r039,Both sexes -> Female -> Hispanic or Latino ,Both sexes,Female,Hispanic or Latino ,3,8.1,11.3,9.4,9.2,5.4,4.0
+1234,r040,Both sexes -> Female -> American Indian or Alaska Native ,Both sexes,Female,American Indian or Alaska Native ,3,0.4,0.4,0.4,0.4,0.4,0.2
+1234,r041,Both sexes -> Female -> Native Hawaiian or Other Pacific Islander ,Both sexes,Female,Native Hawaiian or Other Pacific Islander ,3,0.1,0.1,0.1,0.1,0.1,0.0
+1234,r042,"Both sexes -> Female -> More than one race, not Hispanic ",Both sexes,Female,"More than one race, not Hispanic ",3,0.9,1.8,1.1,0.8,0.5,0.4
+1234,r043,Both sexes -> Male,Both sexes,Male,,2,49.2,51.2,51.1,50.0,48.8,43.1
+1234,r044,Both sexes -> Male -> White,Both sexes,Male,White,3,31.4,27.6,29.2,30.1,35.4,34.9
+1234,r045,Both sexes -> Male -> Asian ,Both sexes,Male,Asian ,3,2.3,2.2,2.5,2.8,2.0,1.5
+1234,r046,Both sexes -> Male -> Black or African American ,Both sexes,Male,Black or African American ,3,5.9,7.2,7.1,6.0,5.3,3.3
+1234,r047,Both sexes -> Male -> Hispanic or Latino ,Both sexes,Male,Hispanic or Latino ,3,8.3,11.8,10.6,9.9,5.2,2.9
+1234,r048,Both sexes -> Male -> American Indian or Alaska Native ,Both sexes,Male,American Indian or Alaska Native ,3,0.4,0.4,0.4,0.4,0.3,0.2
+1234,r049,Both sexes -> Male -> Native Hawaiian or Other Pacific Islander ,Both sexes,Male,Native Hawaiian or Other Pacific Islander ,3,0.1,0.1,0.1,0.1,0.1,0.0
+1234,r050,"Both sexes -> Male -> More than one race, not Hispanic ",Both sexes,Male,"More than one race, not Hispanic ",3,0.9,1.8,1.1,0.7,0.5,0.3

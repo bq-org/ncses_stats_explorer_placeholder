@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Scientists and engineers employed in business or industry, by primary or secondary work activity, sex, ethnicity, race, disability status, and age: 2017",
+  "identifier": "NCSES-1274",
+  "description": "Scientists and engineers employed in business or industry, by primary or secondary work activity, sex, ethnicity, race, disability status, and age: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1274",
+  "table_number": "9-36",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1274/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_ethnicity_race_disability_status_and_primary_or_secondary_work_activity",
+      "description": "Sex, ethnicity, race, disability status, and primary or secondary work activity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_ethnicity_race_disability_status_and_primary_or_secondary_work_activity_level_1, sex_ethnicity_race_disability_status_and_primary_or_secondary_work_activity_level_2, sex_ethnicity_race_disability_status_and_primary_or_secondary_work_activity_level_3, sex_ethnicity_race_disability_status_and_primary_or_secondary_work_activity_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_ethnicity_race_disability_status_and_primary_or_secondary_work_activity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_75_and_younger",
+      "description": "Age Years 75 And Younger",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_younger_than_35",
+      "description": "Age Years Younger Than 35",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_35_44",
+      "description": "Age Years 35 44",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_45_54",
+      "description": "Age Years 45 54",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_55_75",
+      "description": "Age Years 55 75",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to nearest 1,000. Detail may not add to total because of rounding and suppression. Sum of primary or secondary work activity categories exceeds total because of multiple response. The National Survey of College Graduates asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Scientists and engineers are individuals under the age of 76 who have a bachelor's or higher degree, are living in the United States, and have an S&E or S&E-related degree or occupation. This table does not include scientists and engineers who are self-employed in a non-incorporated business, are employed in an educational institution, or are employed in the nonprofit business sector.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

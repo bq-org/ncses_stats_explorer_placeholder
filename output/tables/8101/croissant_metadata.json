@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. gross domestic product, R&D, and ratio of R&D to gross domestic product (and components): 1953\u20132021",
+  "identifier": "NCSES-8101",
+  "description": "U.S. gross domestic product, R&D, and ratio of R&D to gross domestic product (and components): 1953\u20132021",
+  "url": "https://example.org/datasets/ncses/tables/8101",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8101/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "gdp_characteristic",
+      "description": "GDP hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "gdp_level_1, gdp_level_2, gdp_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Billions of current and of constant 2012 dollars and R&D as a percentage of GDP"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Detail may not add to total because of rounding. For trend comparisons, use only the historical data reported in this table because some back-year data may have been revised.",
+  "sources": "GDP data from Bureau of Economic Analysis, National Economic Accounts, Gross Domestic Product, https://www.bea.gov/national/, accessed 28 October 2021; R&D data from National Center for Science and Engineering Statistics, National Patterns of R&D Resources (annual series).",
+  "temporalCoverage": "19/20"
+}

@@ -1,0 +1,249 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E doctorate holders employed in academia with federal support, by degree field, research activity, and type of position: 1973&#8211;2019",
+  "identifier": "NCSES-4394",
+  "description": "S&E doctorate holders employed in academia with federal support, by degree field, research activity, and type of position: 1973&#8211;2019",
+  "url": "https://example.org/datasets/ncses/tables/4394",
+  "table_number": "SLBR-23",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4394/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_activity_and_position",
+      "description": "Field, research activity, and position hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_research_activity_and_position_level_1, field_research_activity_and_position_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_research_activity_and_position_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_activity_and_position_full_path",
+      "description": "Research Activity And Position Full Path",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_activity_and_position_level_1",
+      "description": "Research Activity And Position Level 1",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_activity_and_position_level_2",
+      "description": "Research Activity And Position Level 2",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_activity_and_position_hierarchy_depth",
+      "description": "Research Activity And Position Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1973",
+      "description": "1973",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1975",
+      "description": "1975",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1977",
+      "description": "1977",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1979",
+      "description": "1979",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1981",
+      "description": "1981",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1983",
+      "description": "1983",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1985",
+      "description": "1985",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1987",
+      "description": "1987",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1989",
+      "description": "1989",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1991",
+      "description": "1991",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1993",
+      "description": "1993",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1995",
+      "description": "1995",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1997",
+      "description": "1997",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999",
+      "description": "1999",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001",
+      "description": "2001",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006",
+      "description": "2006",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data for 1985 and 1993\u201397 are not comparable with data for other years and understate the degree of federal support. In 1985 and 1993\u201397, the federal support question asked whether work performed during the week of 15 April was supported by the government; in other years, the question pertained to work conducted over the course of an entire year. Academic employment is limited to U.S. doctorate holders employed at 2- or 4-year colleges or universities, medical schools, or university research institutes. Full-time faculty include full professors, associate professors, assistant professors, and instructors from 1973 to 1995; from 1997 to 2019, full-time faculty includes full professors, associate professors, and assistant professors. Research includes basic or applied research, development, and design. Total includes part-time employment not shown separately but excludes those employed part time because they are students or retired. Physical sciences include earth, atmospheric, and ocean sciences; life sciences include biological, agricultural, and environmental life and health sciences.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients (SDR).Science and Engineering Indicators"
+}

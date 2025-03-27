@@ -1,0 +1,54 @@
+table_id,row_id,region_country_or_economy_full_path,region_country_or_economy_level_1,region_country_or_economy_level_2,region_country_or_economy_level_3,region_country_or_economy_level_4,region_country_or_economy_hierarchy_depth,field_1998_uspto_patents,field_1998_patent_families,field_1999_uspto_patents,field_1999_patent_families,field_2000_uspto_patents,field_2000_patent_families,field_2001_uspto_patents,field_2001_patent_families,field_2002_uspto_patents,field_2002_patent_families,field_2003_uspto_patents,field_2003_patent_families,field_2004_uspto_patents,field_2004_patent_families,field_2005_uspto_patents,field_2005_patent_families,field_2006_uspto_patents,field_2006_patent_families,field_2007_uspto_patents,field_2007_patent_families,field_2008_uspto_patents,field_2008_patent_families,field_2009_uspto_patents,field_2009_patent_families,field_2010_uspto_patents,field_2010_patent_families,field_2011_uspto_patents,field_2011_patent_families,field_2012_uspto_patents,field_2012_patent_families,field_2013_uspto_patents,field_2013_patent_families,field_2014_uspto_patents,field_2014_patent_families,field_2015_uspto_patents,field_2015_patent_families,field_2016_uspto_patents,field_2016_patent_families,field_2017_uspto_patents,field_2017_patent_families,field_2018_uspto_patents,field_2018_patent_families
+1928,r001,World,World,,,,1,411,51,440,84,473,95,578,122,683,161,888,233,1013,293,953,339,1117,439,1021,566,1042,574,1126,614,1475,870,1442,1302,1394,1425,1541,1558,1655,1790,1464,1872,1263,1993,1118,1958,876,1644
+1928,r002,World -> North America,World,North America,,,2,201,17,214,25,239,39,310,51,371,61,505,101,570,100,552,76,612,39,561,20,573,22,572,19,701,30,672,44,655,54,733,84,787,133,697,140,599,123,535,96,397,58
+1928,r003,World -> North America -> Canada,World,North America,Canada,,3,3,1,5,1,5,1,5,1,2,0,15,5,15,2,14,2,16,1,12,0,17,0,10,0,22,1,22,2,22,2,20,2,24,6,22,5,20,4,14,2,8,2
+1928,r004,World -> North America -> Mexico,World,North America,Mexico,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,2,1,2,0,3
+1928,r005,World -> North America -> Puerto Rico,World,North America,Puerto Rico,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0
+1928,r006,World -> North America -> United States,World,North America,United States,,3,198,17,209,24,234,38,305,51,369,61,490,96,555,98,538,74,596,38,548,20,555,22,561,19,678,29,650,42,633,52,712,81,761,127,674,135,579,117,520,92,388,52
+1928,r007,World -> North America -> All others,World,North America,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1928,r008,World -> Central and South America,World,Central and South America,,,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,2,1,1,1,2,1,1,1,1,3,2,0,2,6
+1928,r009,World -> Central and South America -> Argentina,World,Central and South America,Argentina,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+1928,r010,World -> Central and South America -> Brazil,World,Central and South America,Brazil,,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,2,0,1,1,0,3,1,0,1,5
+1928,r011,World -> Central and South America -> All others,World,Central and South America,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1
+1928,r012,World -> Europe,World,Europe,,,2,66,4,52,8,51,8,59,17,74,19,86,29,101,39,101,66,117,71,114,109,109,120,125,180,203,229,207,282,207,278,238,304,246,319,243,374,213,323,203,369,181,331
+1928,r013,World -> Europe -> EU,World,Europe,EU,,3,60,4,48,8,45,7,52,15,68,18,76,22,89,29,93,59,104,58,106,87,96,68,116,68,184,74,186,91,193,112,221,109,225,120,224,136,193,154,188,138,168,137
+1928,r014,World -> Europe -> EU -> Austria,World,Europe,EU,Austria,4,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,2,1,2,1,3,1,2,1,5,1,5,3,6,3,5,2,2,1,6,3,3,1,5,3,7,5
+1928,r015,World -> Europe -> EU -> Belgium,World,Europe,EU,Belgium,4,2,0,1,0,0,0,1,0,2,0,0,0,3,0,1,0,3,0,2,0,3,0,5,0,8,0,10,0,10,1,12,0,8,1,9,3,7,1,8,0,8,5
+1928,r016,World -> Europe -> EU -> Denmark,World,Europe,EU,Denmark,4,0,0,0,0,0,0,0,0,1,1,2,0,1,0,2,0,1,0,2,0,3,0,2,0,1,0,1,0,1,0,2,0,2,0,3,1,3,2,1,1,3,1
+1928,r017,World -> Europe -> EU -> Finland,World,Europe,EU,Finland,4,1,0,1,0,0,0,0,0,1,1,1,1,2,1,2,1,1,1,1,1,0,2,2,2,2,2,4,2,5,0,3,1,2,4,4,2,5,3,9,7,3,2
+1928,r018,World -> Europe -> EU -> France,World,Europe,EU,France,4,17,1,13,2,10,1,9,1,12,4,12,7,14,7,15,18,13,24,14,31,13,25,18,26,46,26,42,24,40,30,38,27,45,32,44,37,35,29,28,35,28,26
+1928,r019,World -> Europe -> EU -> Germany,World,Europe,EU,Germany,4,19,2,17,4,17,5,21,10,27,11,37,9,36,10,41,29,47,27,49,45,41,25,45,18,64,28,62,34,73,31,82,28,86,37,85,38,69,51,72,46,71,50
+1928,r020,World -> Europe -> EU -> Hungary,World,Europe,EU,Hungary,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,1,1,0,0,0,0,0,1,0,1,0,0,1,1,0
+1928,r021,World -> Europe -> EU -> Ireland,World,Europe,EU,Ireland,4,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,2,0,0,0,1,0,1,0,2,0,1,0,2,0,4,1,3,0,1,0,1,1,2,1,2,1
+1928,r022,World -> Europe -> EU -> Italy,World,Europe,EU,Italy,4,2,0,1,1,1,0,3,2,4,0,2,1,5,4,3,1,7,2,8,5,8,5,5,0,10,1,14,2,7,2,13,2,13,1,16,2,14,1,15,2,12,1
+1928,r023,World -> Europe -> EU -> Netherlands,World,Europe,EU,Netherlands,4,4,0,3,0,1,0,6,0,5,0,5,1,5,2,6,2,9,0,11,0,10,1,14,2,20,1,15,1,22,1,26,3,24,2,16,1,20,3,18,2,13,1
+1928,r024,World -> Europe -> EU -> Spain,World,Europe,EU,Spain,4,0,0,1,0,1,0,2,0,1,0,1,0,1,1,0,1,0,0,0,2,1,2,1,2,2,3,2,5,1,15,4,13,5,12,5,13,4,12,3,9,2,8
+1928,r025,World -> Europe -> EU -> Sweden,World,Europe,EU,Sweden,4,2,0,1,0,5,1,3,2,3,0,3,1,5,3,4,4,3,0,4,0,4,0,5,1,6,2,8,3,10,3,6,1,7,1,9,5,6,2,4,0,3,2
+1928,r026,World -> Europe -> EU -> United Kingdom,World,Europe,EU,United Kingdom,4,9,0,9,0,8,0,6,0,10,0,10,0,14,0,16,2,15,1,12,0,10,2,15,2,17,1,15,3,14,5,21,4,25,3,22,6,19,6,20,4,14,4
+1928,r027,World -> Europe -> EU -> All others,World,Europe,EU,All others,4,1,0,0,0,0,0,0,0,1,1,0,1,1,1,2,1,2,1,2,1,1,5,1,12,2,9,5,12,2,19,5,26,3,26,4,25,7,41,2,27,0,31
+1928,r028,World -> Europe -> Other Europe,World,Europe,Other Europe,,3,6,0,5,1,6,1,6,1,6,1,10,7,11,10,8,7,12,12,7,22,13,52,9,112,18,155,21,190,14,166,16,195,20,200,18,238,20,169,15,231,13,194
+1928,r029,World -> Europe -> Other Europe -> Former Soviet Union,World,Europe,Other Europe,Former Soviet Union,4,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,2,0,3,1,3,0,5,0,4,0,8,1,6,1,6,1,8,1,7,1,11,0,10,0,8,0,10
+1928,r030,World -> Europe -> Other Europe -> Norway,World,Europe,Other Europe,Norway,4,1,0,0,0,1,0,1,0,1,1,0,0,2,1,0,0,2,0,0,0,1,0,1,0,1,0,1,0,1,0,0,1,1,0,1,1,0,0,1,1,1,0
+1928,r031,World -> Europe -> Other Europe -> Russia,World,Europe,Other Europe,Russia,4,1,0,1,0,2,1,2,1,2,0,2,6,2,6,2,3,2,8,1,16,3,46,2,108,2,147,2,181,2,159,4,183,4,188,3,223,4,157,3,216,1,177
+1928,r032,World -> Europe -> Other Europe -> Switzerland,World,Europe,Other Europe,Switzerland,4,5,0,3,0,3,0,4,0,3,0,6,1,7,2,6,1,7,1,4,2,8,1,5,0,14,0,15,3,10,2,10,3,14,4,13,3,14,2,10,5,10,7
+1928,r033,World -> Europe -> Other Europe -> All others,World,Europe,Other Europe,All others,4,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,2,0,1,0,1,0
+1928,r034,World -> Asia,World,Asia,,,2,141,29,169,50,177,48,191,53,229,77,286,103,330,153,285,193,368,327,328,436,347,430,410,413,553,609,540,973,513,1089,544,1164,594,1331,498,1351,428,1539,359,1487,278,1241
+1928,r035,World -> Asia -> China,World,Asia,China,,3,1,0,0,0,0,0,0,0,1,1,1,1,3,12,3,21,8,53,7,53,7,96,17,167,23,176,22,285,29,429,47,522,65,703,60,935,59,1173,59,1179,41,988
+1928,r036,World -> Asia -> India,World,Asia,India,,3,0,0,0,0,0,0,0,0,1,0,1,0,2,0,1,0,2,0,2,1,1,2,2,0,1,1,2,4,4,2,6,2,8,5,9,2,6,2,6,2,7,1
+1928,r037,World -> Asia -> Japan,World,Asia,Japan,,3,130,28,155,47,160,42,172,48,193,56,245,54,264,55,229,57,277,75,237,99,236,96,274,131,360,190,353,201,310,240,300,216,300,172,214,113,172,133,114,112,87,99
+1928,r038,World -> Asia -> Malaysia,World,Asia,Malaysia,,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,1,0,1,0,0,0,0,2,0,3,1,1,1,2,1,4,1,2,1,2,1,4
+1928,r039,World -> Asia -> Singapore,World,Asia,Singapore,,3,0,0,1,1,0,0,1,1,2,1,4,1,3,1,3,0,3,1,4,1,4,0,4,0,6,0,4,0,8,0,6,1,13,2,11,3,14,2,13,3,8,1
+1928,r040,World -> Asia -> South Korea,World,Asia,South Korea,,3,9,1,11,2,6,1,13,3,20,3,26,24,38,57,33,93,51,171,42,243,63,213,82,100,113,222,113,454,91,378,104,361,114,367,110,198,86,145,73,117,56,94
+1928,r041,World -> Asia -> Taiwan,World,Asia,Taiwan,,3,1,0,3,1,10,5,5,3,12,17,9,23,19,28,15,22,27,26,35,37,33,21,30,14,49,19,46,26,70,36,79,60,93,77,93,94,89,81,91,71,77,53
+1928,r042,World -> Asia -> All others,World,Asia,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,0,0,1,0,2,0,2,1,1,0,3,1,1,1,1,1,1,1,2
+1928,r043,World -> Middle East,World,Middle East,,,2,2,0,3,0,3,0,4,0,2,0,5,0,5,0,3,0,3,1,5,1,5,1,7,0,7,0,9,1,11,1,17,4,16,4,16,3,15,3,15,3,14,5
+1928,r044,World -> Middle East -> Israel,World,Middle East,Israel,,3,2,0,3,0,3,0,4,0,2,0,5,0,5,0,3,0,3,1,4,0,5,0,6,0,7,0,7,0,7,0,12,0,11,1,8,1,11,1,11,1,8,1
+1928,r045,World -> Middle East -> All others,World,Middle East,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,2,1,4,1,5,4,5,3,8,2,4,2,4,2,6,4
+1928,r046,World -> Africa,World,Africa,,,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,3,0,2,0,1,0,1,1,1,1,1,1
+1928,r047,World -> Africa -> South Africa,World,Africa,South Africa,,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+1928,r048,World -> Africa -> All others,World,Africa,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0,1,1,1,1,1,1
+1928,r049,World -> Australia and Oceania,World,Australia and Oceania,,,2,1,0,1,0,2,0,13,0,7,4,6,0,7,1,10,2,16,1,13,0,7,1,12,1,10,1,12,1,4,1,5,1,9,2,8,2,6,2,3,2,5,2
+1928,r050,World -> Australia and Oceania -> Australia,World,Australia and Oceania,Australia,,3,1,0,1,0,2,0,13,0,7,4,6,0,7,1,10,2,16,1,12,0,7,1,11,1,10,1,12,1,4,1,4,1,9,2,7,2,5,2,3,2,5,2
+1928,r051,World -> Australia and Oceania -> New Zealand,World,Australia and Oceania,New Zealand,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+1928,r052,World -> Australia and Oceania -> All others,World,Australia and Oceania,All others,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1928,r053,World -> Unclassified,World,Unclassified,,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

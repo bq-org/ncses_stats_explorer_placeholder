@@ -1,0 +1,207 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Bachelor's degrees awarded to men, by field, citizenship, ethnicity, and race: 2006&#8211;16",
+  "identifier": "NCSES-1148",
+  "description": "Bachelor's degrees awarded to men, by field, citizenship, ethnicity, and race: 2006&#8211;16",
+  "url": "https://example.org/datasets/ncses/tables/1148",
+  "table_number": "5-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1148/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race",
+      "description": "Field, citizenship, ethnicity, and race hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "8"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_citizenship_ethnicity_and_race_level_1, field_citizenship_ethnicity_and_race_level_2, field_citizenship_ethnicity_and_race_level_3, field_citizenship_ethnicity_and_race_level_4, field_citizenship_ethnicity_and_race_level_5, field_citizenship_ethnicity_and_race_level_6, field_citizenship_ethnicity_and_race_level_7, field_citizenship_ethnicity_and_race_level_8"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_citizenship_ethnicity_and_race_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_full_path",
+      "description": "Citizenship Ethnicity And Race Full Path",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_level_1",
+      "description": "Citizenship Ethnicity And Race Level 1",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_level_2",
+      "description": "Citizenship Ethnicity And Race Level 2",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_level_3",
+      "description": "Citizenship Ethnicity And Race Level 3",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_level_4",
+      "description": "Citizenship Ethnicity And Race Level 4",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_level_5",
+      "description": "Citizenship Ethnicity And Race Level 5",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_level_6",
+      "description": "Citizenship Ethnicity And Race Level 6",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_level_7",
+      "description": "Citizenship Ethnicity And Race Level 7",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_level_8",
+      "description": "Citizenship Ethnicity And Race Level 8",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_ethnicity_and_race_hierarchy_depth",
+      "description": "Citizenship Ethnicity And Race Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006",
+      "description": "2006",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Race and ethnicity breakouts are for U.S. citizens and permanent residents only. Temporary resident includes all racial and ethnic groups. Starting with 2011, data reflects the Office of Management and Budget\u2019s latest race and ethnicity categories. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs and do not match previously published data that were based on accredited higher education institutions.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, special tabulations of U.S. Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System, Completions Survey, unrevised provisional release data."
+}

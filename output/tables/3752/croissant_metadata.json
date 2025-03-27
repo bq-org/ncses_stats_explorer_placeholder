@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by sector of employment, broad occupation, and sex: 2019",
+  "identifier": "NCSES-3752",
+  "description": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by sector of employment, broad occupation, and sex: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3752",
+  "table_number": "71",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3752/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_sector_and_occupation",
+      "description": "Employment sector and occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_sector_and_occupation_level_1, employment_sector_and_occupation_level_2, employment_sector_and_occupation_level_3, employment_sector_and_occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_sector_and_occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_median_salary",
+      "description": "All Full Time Employed Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_se",
+      "description": "All Full Time Employed Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_median_salary",
+      "description": "Male Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_se",
+      "description": "Male Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female_median_salary",
+      "description": "Female Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female_se",
+      "description": "Female Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Median annual salaries are for principal job and are rounded to nearest $1,000. Standard errors are rounded up to the nearest $500. Full time is based on working 35 or more hours per week. Residence location is based on reported living location on 1 February 2019.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients: 2019."
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Select occupations with the lowest median earnings for all full-time, year-round workers, by STEM occupation group and sex: 2021",
+  "identifier": "NCSES-11010",
+  "description": "Select occupations with the lowest median earnings for all full-time, year-round workers, by STEM occupation group and sex: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11010",
+  "table_number": "SLBR-13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11010/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_detailed_occupations_b",
+      "description": "Detailed occupations hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_detailed_occupations_b_level_1, _b_detailed_occupations_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_detailed_occupations_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_workers_median_earnings",
+      "description": "All Workers Median Earnings",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_median_earnings",
+      "description": "Male Median Earnings",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female_median_earnings",
+      "description": "Female Median Earnings",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_female_difference",
+      "description": "Male Female Difference",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_female_significant",
+      "description": "Male Female Significant",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Data include full-time, year-round civilian workers ages 16\u201375 and exclude those currently enrolled in primary or secondary school. Occupation were selected based on the median earnings of all workers within the STEM group indicated by the occupation. Non-STEM occupations are not shown.",
+  "sources": "Census Bureau, American Community Survey (ACS), 1-Year Public-Use File, 2021, as of 25 October 2022.Science and Engineering Indicators"
+}

@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average scores of 9-, 13-, and 17-year-old students on the NAEP long-term trend mathematics assessment, by student characteristic: 1978\u20132023",
+  "identifier": "NCSES-9440",
+  "description": "Average scores of 9-, 13-, and 17-year-old students on the NAEP long-term trend mathematics assessment, by student characteristic: 1978\u20132023",
+  "url": "https://example.org/datasets/ncses/tables/9440",
+  "table_number": "SK12-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9440/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "student_age_and_characteristic",
+      "description": "Student age and characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "student_age_and_characteristic_level_1, student_age_and_characteristic_level_2, student_age_and_characteristic_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "student_age_and_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1978",
+      "description": "1978",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1982",
+      "description": "1982",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1986",
+      "description": "1986",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1990",
+      "description": "1990",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1992",
+      "description": "1992",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1994",
+      "description": "1994",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1996",
+      "description": "1996",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999",
+      "description": "1999",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004",
+      "description": "2004",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023",
+      "description": "2023",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The scale for NAEP mathematics assessment scores is 0\u2013500 for students of all ages. From 1996 to 2022, data shown are for students allowed to use testing accommodations. Mathematics data for 17-year-old students are presented from only 2005, 2009, 2013, 2015, and 2019 because the mathematics framework was substantially revised in 2005, making prior assessment results not comparable with those in or after 2005. The mathematics assessment was not conducted in 2007, 2011, 2017, or 2022 for 17-year-old students.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2022) of the 1978, 1982, 1986, 1990, 1992, 1994, 1996, 1999, 2004, 2008, 2012, 2020, 2022, and 2023 NAEP long-term trend mathematics assessments, National Center for Education Statistics.Science and Engineering Indicators"
+}

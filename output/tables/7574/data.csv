@@ -1,0 +1,521 @@
+table_id,row_id,time_period,column_level_1,column_level_2,column_hierarchy_depth,value
+7574,r001_1,California,Rank,,1,1
+7574,r001_2,California,Totala,,1,5892
+7574,r001_3,California,Male,,1,3267
+7574,r001_4,California,Female,,1,2623
+7574,r001_5,California,Science and engineering,Total,2,4959
+7574,r001_6,California,Science and engineering,Male,2,2848
+7574,r001_7,California,Science and engineering,Female,2,2109
+7574,r001_8,California,Non-science and engineering,Total,2,933
+7574,r001_9,California,Non-science and engineering,Male,2,419
+7574,r001_10,California,Non-science and engineering,Female,2,514
+7574,r002_1,Texas,Rank,,1,2
+7574,r002_2,Texas,Totala,,1,4118
+7574,r002_3,Texas,Male,,1,2213
+7574,r002_4,Texas,Female,,1,1904
+7574,r002_5,Texas,Science and engineering,Total,2,3155
+7574,r002_6,Texas,Science and engineering,Male,2,1803
+7574,r002_7,Texas,Science and engineering,Female,2,1352
+7574,r002_8,Texas,Non-science and engineering,Total,2,963
+7574,r002_9,Texas,Non-science and engineering,Male,2,410
+7574,r002_10,Texas,Non-science and engineering,Female,2,552
+7574,r003_1,New York,Rank,,1,3
+7574,r003_2,New York,Totala,,1,3871
+7574,r003_3,New York,Male,,1,2030
+7574,r003_4,New York,Female,,1,1840
+7574,r003_5,New York,Science and engineering,Total,2,2975
+7574,r003_6,New York,Science and engineering,Male,2,1653
+7574,r003_7,New York,Science and engineering,Female,2,1321
+7574,r003_8,New York,Non-science and engineering,Total,2,896
+7574,r003_9,New York,Non-science and engineering,Male,2,377
+7574,r003_10,New York,Non-science and engineering,Female,2,519
+7574,r004_1,Massachusetts,Rank,,1,4
+7574,r004_2,Massachusetts,Totala,,1,2652
+7574,r004_3,Massachusetts,Male,,1,1501
+7574,r004_4,Massachusetts,Female,,1,1151
+7574,r004_5,Massachusetts,Science and engineering,Total,2,2180
+7574,r004_6,Massachusetts,Science and engineering,Male,2,1273
+7574,r004_7,Massachusetts,Science and engineering,Female,2,907
+7574,r004_8,Massachusetts,Non-science and engineering,Total,2,472
+7574,r004_9,Massachusetts,Non-science and engineering,Male,2,228
+7574,r004_10,Massachusetts,Non-science and engineering,Female,2,244
+7574,r005_1,Pennsylvania,Rank,,1,5
+7574,r005_2,Pennsylvania,Totala,,1,2434
+7574,r005_3,Pennsylvania,Male,,1,1288
+7574,r005_4,Pennsylvania,Female,,1,1145
+7574,r005_5,Pennsylvania,Science and engineering,Total,2,1897
+7574,r005_6,Pennsylvania,Science and engineering,Male,2,1062
+7574,r005_7,Pennsylvania,Science and engineering,Female,2,834
+7574,r005_8,Pennsylvania,Non-science and engineering,Total,2,537
+7574,r005_9,Pennsylvania,Non-science and engineering,Male,2,226
+7574,r005_10,Pennsylvania,Non-science and engineering,Female,2,311
+7574,r006_1,Florida,Rank,,1,6
+7574,r006_2,Florida,Totala,,1,2339
+7574,r006_3,Florida,Male,,1,1219
+7574,r006_4,Florida,Female,,1,1120
+7574,r006_5,Florida,Science and engineering,Total,2,1784
+7574,r006_6,Florida,Science and engineering,Male,2,1008
+7574,r006_7,Florida,Science and engineering,Female,2,776
+7574,r006_8,Florida,Non-science and engineering,Total,2,555
+7574,r006_9,Florida,Non-science and engineering,Male,2,211
+7574,r006_10,Florida,Non-science and engineering,Female,2,344
+7574,r007_1,Illinois,Rank,,1,7
+7574,r007_2,Illinois,Totala,,1,2310
+7574,r007_3,Illinois,Male,,1,1304
+7574,r007_4,Illinois,Female,,1,1005
+7574,r007_5,Illinois,Science and engineering,Total,2,1847
+7574,r007_6,Illinois,Science and engineering,Male,2,1056
+7574,r007_7,Illinois,Science and engineering,Female,2,790
+7574,r007_8,Illinois,Non-science and engineering,Total,2,463
+7574,r007_9,Illinois,Non-science and engineering,Male,2,248
+7574,r007_10,Illinois,Non-science and engineering,Female,2,215
+7574,r008_1,Ohio,Rank,,1,8
+7574,r008_2,Ohio,Totala,,1,1878
+7574,r008_3,Ohio,Male,,1,963
+7574,r008_4,Ohio,Female,,1,914
+7574,r008_5,Ohio,Science and engineering,Total,2,1428
+7574,r008_6,Ohio,Science and engineering,Male,2,783
+7574,r008_7,Ohio,Science and engineering,Female,2,644
+7574,r008_8,Ohio,Non-science and engineering,Total,2,450
+7574,r008_9,Ohio,Non-science and engineering,Male,2,180
+7574,r008_10,Ohio,Non-science and engineering,Female,2,270
+7574,r009_1,Michigan,Rank,,1,9
+7574,r009_2,Michigan,Totala,,1,1790
+7574,r009_3,Michigan,Male,,1,971
+7574,r009_4,Michigan,Female,,1,819
+7574,r009_5,Michigan,Science and engineering,Total,2,1446
+7574,r009_6,Michigan,Science and engineering,Male,2,838
+7574,r009_7,Michigan,Science and engineering,Female,2,608
+7574,r009_8,Michigan,Non-science and engineering,Total,2,344
+7574,r009_9,Michigan,Non-science and engineering,Male,2,133
+7574,r009_10,Michigan,Non-science and engineering,Female,2,211
+7574,r010_1,North Carolina,Rank,,1,10
+7574,r010_2,North Carolina,Totala,,1,1724
+7574,r010_3,North Carolina,Male,,1,917
+7574,r010_4,North Carolina,Female,,1,807
+7574,r010_5,North Carolina,Science and engineering,Total,2,1407
+7574,r010_6,North Carolina,Science and engineering,Male,2,784
+7574,r010_7,North Carolina,Science and engineering,Female,2,623
+7574,r010_8,North Carolina,Non-science and engineering,Total,2,317
+7574,r010_9,North Carolina,Non-science and engineering,Male,2,133
+7574,r010_10,North Carolina,Non-science and engineering,Female,2,184
+7574,r011_1,Indiana,Rank,,1,11
+7574,r011_2,Indiana,Totala,,1,1556
+7574,r011_3,Indiana,Male,,1,882
+7574,r011_4,Indiana,Female,,1,674
+7574,r011_5,Indiana,Science and engineering,Total,2,1250
+7574,r011_6,Indiana,Science and engineering,Male,2,739
+7574,r011_7,Indiana,Science and engineering,Female,2,511
+7574,r011_8,Indiana,Non-science and engineering,Total,2,306
+7574,r011_9,Indiana,Non-science and engineering,Male,2,143
+7574,r011_10,Indiana,Non-science and engineering,Female,2,163
+7574,r012_1,Virginia,Rank,,1,12
+7574,r012_2,Virginia,Totala,,1,1518
+7574,r012_3,Virginia,Male,,1,802
+7574,r012_4,Virginia,Female,,1,716
+7574,r012_5,Virginia,Science and engineering,Total,2,1147
+7574,r012_6,Virginia,Science and engineering,Male,2,660
+7574,r012_7,Virginia,Science and engineering,Female,2,487
+7574,r012_8,Virginia,Non-science and engineering,Total,2,371
+7574,r012_9,Virginia,Non-science and engineering,Male,2,142
+7574,r012_10,Virginia,Non-science and engineering,Female,2,229
+7574,r013_1,Minnesota,Rank,,1,13
+7574,r013_2,Minnesota,Totala,,1,1499
+7574,r013_3,Minnesota,Male,,1,648
+7574,r013_4,Minnesota,Female,,1,851
+7574,r013_5,Minnesota,Science and engineering,Total,2,1075
+7574,r013_6,Minnesota,Science and engineering,Male,2,500
+7574,r013_7,Minnesota,Science and engineering,Female,2,575
+7574,r013_8,Minnesota,Non-science and engineering,Total,2,424
+7574,r013_9,Minnesota,Non-science and engineering,Male,2,148
+7574,r013_10,Minnesota,Non-science and engineering,Female,2,276
+7574,r014_1,Georgia,Rank,,1,14
+7574,r014_2,Georgia,Totala,,1,1451
+7574,r014_3,Georgia,Male,,1,776
+7574,r014_4,Georgia,Female,,1,675
+7574,r014_5,Georgia,Science and engineering,Total,2,1217
+7574,r014_6,Georgia,Science and engineering,Male,2,686
+7574,r014_7,Georgia,Science and engineering,Female,2,531
+7574,r014_8,Georgia,Non-science and engineering,Total,2,234
+7574,r014_9,Georgia,Non-science and engineering,Male,2,90
+7574,r014_10,Georgia,Non-science and engineering,Female,2,144
+7574,r015_1,Maryland,Rank,,1,15
+7574,r015_2,Maryland,Totala,,1,1173
+7574,r015_3,Maryland,Male,,1,586
+7574,r015_4,Maryland,Female,,1,586
+7574,r015_5,Maryland,Science and engineering,Total,2,1004
+7574,r015_6,Maryland,Science and engineering,Male,2,527
+7574,r015_7,Maryland,Science and engineering,Female,2,477
+7574,r015_8,Maryland,Non-science and engineering,Total,2,169
+7574,r015_9,Maryland,Non-science and engineering,Male,2,59
+7574,r015_10,Maryland,Non-science and engineering,Female,2,109
+7574,r016_1,Colorado,Rank,,1,16
+7574,r016_2,Colorado,Totala,,1,1024
+7574,r016_3,Colorado,Male,,1,558
+7574,r016_4,Colorado,Female,,1,466
+7574,r016_5,Colorado,Science and engineering,Total,2,828
+7574,r016_6,Colorado,Science and engineering,Male,2,479
+7574,r016_7,Colorado,Science and engineering,Female,2,349
+7574,r016_8,Colorado,Non-science and engineering,Total,2,196
+7574,r016_9,Colorado,Non-science and engineering,Male,2,79
+7574,r016_10,Colorado,Non-science and engineering,Female,2,117
+7574,r017_1,New Jersey,Rank,,1,17
+7574,r017_2,New Jersey,Totala,,1,950
+7574,r017_3,New Jersey,Male,,1,525
+7574,r017_4,New Jersey,Female,,1,425
+7574,r017_5,New Jersey,Science and engineering,Total,2,736
+7574,r017_6,New Jersey,Science and engineering,Male,2,437
+7574,r017_7,New Jersey,Science and engineering,Female,2,299
+7574,r017_8,New Jersey,Non-science and engineering,Total,2,214
+7574,r017_9,New Jersey,Non-science and engineering,Male,2,88
+7574,r017_10,New Jersey,Non-science and engineering,Female,2,126
+7574,r018_1,Wisconsin,Rank,,1,18
+7574,r018_2,Wisconsin,Totala,,1,940
+7574,r018_3,Wisconsin,Male,,1,521
+7574,r018_4,Wisconsin,Female,,1,419
+7574,r018_5,Wisconsin,Science and engineering,Total,2,759
+7574,r018_6,Wisconsin,Science and engineering,Male,2,449
+7574,r018_7,Wisconsin,Science and engineering,Female,2,310
+7574,r018_8,Wisconsin,Non-science and engineering,Total,2,181
+7574,r018_9,Wisconsin,Non-science and engineering,Male,2,72
+7574,r018_10,Wisconsin,Non-science and engineering,Female,2,109
+7574,r019_1,Arizona,Rank,,1,19
+7574,r019_2,Arizona,Totala,,1,935
+7574,r019_3,Arizona,Male,,1,535
+7574,r019_4,Arizona,Female,,1,399
+7574,r019_5,Arizona,Science and engineering,Total,2,734
+7574,r019_6,Arizona,Science and engineering,Male,2,444
+7574,r019_7,Arizona,Science and engineering,Female,2,289
+7574,r019_8,Arizona,Non-science and engineering,Total,2,201
+7574,r019_9,Arizona,Non-science and engineering,Male,2,91
+7574,r019_10,Arizona,Non-science and engineering,Female,2,110
+7574,r020_1,Washington,Rank,,1,20
+7574,r020_2,Washington,Totala,,1,910
+7574,r020_3,Washington,Male,,1,498
+7574,r020_4,Washington,Female,,1,412
+7574,r020_5,Washington,Science and engineering,Total,2,780
+7574,r020_6,Washington,Science and engineering,Male,2,443
+7574,r020_7,Washington,Science and engineering,Female,2,337
+7574,r020_8,Washington,Non-science and engineering,Total,2,130
+7574,r020_9,Washington,Non-science and engineering,Male,2,55
+7574,r020_10,Washington,Non-science and engineering,Female,2,75
+7574,r021_1,Missouri,Rank,,1,21
+7574,r021_2,Missouri,Totala,,1,905
+7574,r021_3,Missouri,Male,,1,538
+7574,r021_4,Missouri,Female,,1,367
+7574,r021_5,Missouri,Science and engineering,Total,2,697
+7574,r021_6,Missouri,Science and engineering,Male,2,413
+7574,r021_7,Missouri,Science and engineering,Female,2,284
+7574,r021_8,Missouri,Non-science and engineering,Total,2,208
+7574,r021_9,Missouri,Non-science and engineering,Male,2,125
+7574,r021_10,Missouri,Non-science and engineering,Female,2,83
+7574,r022_1,Tennessee,Rank,,1,22
+7574,r022_2,Tennessee,Totala,,1,880
+7574,r022_3,Tennessee,Male,,1,454
+7574,r022_4,Tennessee,Female,,1,426
+7574,r022_5,Tennessee,Science and engineering,Total,2,669
+7574,r022_6,Tennessee,Science and engineering,Male,2,370
+7574,r022_7,Tennessee,Science and engineering,Female,2,299
+7574,r022_8,Tennessee,Non-science and engineering,Total,2,211
+7574,r022_9,Tennessee,Non-science and engineering,Male,2,84
+7574,r022_10,Tennessee,Non-science and engineering,Female,2,127
+7574,r023_1,Connecticut,Rank,,1,23
+7574,r023_2,Connecticut,Totala,,1,731
+7574,r023_3,Connecticut,Male,,1,413
+7574,r023_4,Connecticut,Female,,1,317
+7574,r023_5,Connecticut,Science and engineering,Total,2,603
+7574,r023_6,Connecticut,Science and engineering,Male,2,340
+7574,r023_7,Connecticut,Science and engineering,Female,2,262
+7574,r023_8,Connecticut,Non-science and engineering,Total,2,128
+7574,r023_9,Connecticut,Non-science and engineering,Male,2,73
+7574,r023_10,Connecticut,Non-science and engineering,Female,2,55
+7574,r024_1,Alabama,Rank,,1,24
+7574,r024_2,Alabama,Totala,,1,640
+7574,r024_3,Alabama,Male,,1,325
+7574,r024_4,Alabama,Female,,1,315
+7574,r024_5,Alabama,Science and engineering,Total,2,467
+7574,r024_6,Alabama,Science and engineering,Male,2,259
+7574,r024_7,Alabama,Science and engineering,Female,2,208
+7574,r024_8,Alabama,Non-science and engineering,Total,2,173
+7574,r024_9,Alabama,Non-science and engineering,Male,2,66
+7574,r024_10,Alabama,Non-science and engineering,Female,2,107
+7574,r025_1,Iowa,Rank,,1,25
+7574,r025_2,Iowa,Totala,,1,618
+7574,r025_3,Iowa,Male,,1,362
+7574,r025_4,Iowa,Female,,1,256
+7574,r025_5,Iowa,Science and engineering,Total,2,517
+7574,r025_6,Iowa,Science and engineering,Male,2,318
+7574,r025_7,Iowa,Science and engineering,Female,2,199
+7574,r025_8,Iowa,Non-science and engineering,Total,2,101
+7574,r025_9,Iowa,Non-science and engineering,Male,2,44
+7574,r025_10,Iowa,Non-science and engineering,Female,2,57
+7574,r026_1,Louisiana,Rank,,1,26
+7574,r026_2,Louisiana,Totala,,1,586
+7574,r026_3,Louisiana,Male,,1,313
+7574,r026_4,Louisiana,Female,,1,273
+7574,r026_5,Louisiana,Science and engineering,Total,2,436
+7574,r026_6,Louisiana,Science and engineering,Male,2,248
+7574,r026_7,Louisiana,Science and engineering,Female,2,188
+7574,r026_8,Louisiana,Non-science and engineering,Total,2,150
+7574,r026_9,Louisiana,Non-science and engineering,Male,2,65
+7574,r026_10,Louisiana,Non-science and engineering,Female,2,85
+7574,r027_1,Oregon,Rank,,1,27
+7574,r027_2,Oregon,Totala,,1,552
+7574,r027_3,Oregon,Male,,1,280
+7574,r027_4,Oregon,Female,,1,271
+7574,r027_5,Oregon,Science and engineering,Total,2,453
+7574,r027_6,Oregon,Science and engineering,Male,2,233
+7574,r027_7,Oregon,Science and engineering,Female,2,219
+7574,r027_8,Oregon,Non-science and engineering,Total,2,99
+7574,r027_9,Oregon,Non-science and engineering,Male,2,47
+7574,r027_10,Oregon,Non-science and engineering,Female,2,52
+7574,r028_1,District of Columbia,Rank,,1,28
+7574,r028_2,District of Columbia,Totala,,1,535
+7574,r028_3,District of Columbia,Male,,1,252
+7574,r028_4,District of Columbia,Female,,1,283
+7574,r028_5,District of Columbia,Science and engineering,Total,2,376
+7574,r028_6,District of Columbia,Science and engineering,Male,2,173
+7574,r028_7,District of Columbia,Science and engineering,Female,2,203
+7574,r028_8,District of Columbia,Non-science and engineering,Total,2,159
+7574,r028_9,District of Columbia,Non-science and engineering,Male,2,79
+7574,r028_10,District of Columbia,Non-science and engineering,Female,2,80
+7574,r029_1,Utah,Rank,,1,29
+7574,r029_2,Utah,Totala,,1,502
+7574,r029_3,Utah,Male,,1,295
+7574,r029_4,Utah,Female,,1,207
+7574,r029_5,Utah,Science and engineering,Total,2,402
+7574,r029_6,Utah,Science and engineering,Male,2,251
+7574,r029_7,Utah,Science and engineering,Female,2,151
+7574,r029_8,Utah,Non-science and engineering,Total,2,100
+7574,r029_9,Utah,Non-science and engineering,Male,2,44
+7574,r029_10,Utah,Non-science and engineering,Female,2,56
+7574,r030_1,Kentucky,Rank,,1,30
+7574,r030_2,Kentucky,Totala,,1,484
+7574,r030_3,Kentucky,Male,,1,265
+7574,r030_4,Kentucky,Female,,1,219
+7574,r030_5,Kentucky,Science and engineering,Total,2,336
+7574,r030_6,Kentucky,Science and engineering,Male,2,193
+7574,r030_7,Kentucky,Science and engineering,Female,2,143
+7574,r030_8,Kentucky,Non-science and engineering,Total,2,148
+7574,r030_9,Kentucky,Non-science and engineering,Male,2,72
+7574,r030_10,Kentucky,Non-science and engineering,Female,2,76
+7574,r031_1,Oklahoma,Rank,,1,30
+7574,r031_2,Oklahoma,Totala,,1,484
+7574,r031_3,Oklahoma,Male,,1,262
+7574,r031_4,Oklahoma,Female,,1,222
+7574,r031_5,Oklahoma,Science and engineering,Total,2,346
+7574,r031_6,Oklahoma,Science and engineering,Male,2,204
+7574,r031_7,Oklahoma,Science and engineering,Female,2,142
+7574,r031_8,Oklahoma,Non-science and engineering,Total,2,138
+7574,r031_9,Oklahoma,Non-science and engineering,Male,2,58
+7574,r031_10,Oklahoma,Non-science and engineering,Female,2,80
+7574,r032_1,South Carolina,Rank,,1,32
+7574,r032_2,South Carolina,Totala,,1,476
+7574,r032_3,South Carolina,Male,,1,256
+7574,r032_4,South Carolina,Female,,1,220
+7574,r032_5,South Carolina,Science and engineering,Total,2,383
+7574,r032_6,South Carolina,Science and engineering,Male,2,222
+7574,r032_7,South Carolina,Science and engineering,Female,2,161
+7574,r032_8,South Carolina,Non-science and engineering,Total,2,93
+7574,r032_9,South Carolina,Non-science and engineering,Male,2,34
+7574,r032_10,South Carolina,Non-science and engineering,Female,2,59
+7574,r033_1,Kansas,Rank,,1,33
+7574,r033_2,Kansas,Totala,,1,466
+7574,r033_3,Kansas,Male,,1,258
+7574,r033_4,Kansas,Female,,1,208
+7574,r033_5,Kansas,Science and engineering,Total,2,361
+7574,r033_6,Kansas,Science and engineering,Male,2,206
+7574,r033_7,Kansas,Science and engineering,Female,2,155
+7574,r033_8,Kansas,Non-science and engineering,Total,2,105
+7574,r033_9,Kansas,Non-science and engineering,Male,2,52
+7574,r033_10,Kansas,Non-science and engineering,Female,2,53
+7574,r034_1,Mississippi,Rank,,1,34
+7574,r034_2,Mississippi,Totala,,1,409
+7574,r034_3,Mississippi,Male,,1,194
+7574,r034_4,Mississippi,Female,,1,215
+7574,r034_5,Mississippi,Science and engineering,Total,2,276
+7574,r034_6,Mississippi,Science and engineering,Male,2,140
+7574,r034_7,Mississippi,Science and engineering,Female,2,136
+7574,r034_8,Mississippi,Non-science and engineering,Total,2,133
+7574,r034_9,Mississippi,Non-science and engineering,Male,2,54
+7574,r034_10,Mississippi,Non-science and engineering,Female,2,79
+7574,r035_1,Nebraska,Rank,,1,35
+7574,r035_2,Nebraska,Totala,,1,329
+7574,r035_3,Nebraska,Male,,1,165
+7574,r035_4,Nebraska,Female,,1,164
+7574,r035_5,Nebraska,Science and engineering,Total,2,264
+7574,r035_6,Nebraska,Science and engineering,Male,2,141
+7574,r035_7,Nebraska,Science and engineering,Female,2,123
+7574,r035_8,Nebraska,Non-science and engineering,Total,2,65
+7574,r035_9,Nebraska,Non-science and engineering,Male,2,24
+7574,r035_10,Nebraska,Non-science and engineering,Female,2,41
+7574,r036_1,New Mexico,Rank,,1,36
+7574,r036_2,New Mexico,Totala,,1,280
+7574,r036_3,New Mexico,Male,,1,151
+7574,r036_4,New Mexico,Female,,1,129
+7574,r036_5,New Mexico,Science and engineering,Total,2,214
+7574,r036_6,New Mexico,Science and engineering,Male,2,127
+7574,r036_7,New Mexico,Science and engineering,Female,2,87
+7574,r036_8,New Mexico,Non-science and engineering,Total,2,66
+7574,r036_9,New Mexico,Non-science and engineering,Male,2,24
+7574,r036_10,New Mexico,Non-science and engineering,Female,2,42
+7574,r037_1,Arkansas,Rank,,1,37
+7574,r037_2,Arkansas,Totala,,1,275
+7574,r037_3,Arkansas,Male,,1,146
+7574,r037_4,Arkansas,Female,,1,129
+7574,r037_5,Arkansas,Science and engineering,Total,2,198
+7574,r037_6,Arkansas,Science and engineering,Male,2,117
+7574,r037_7,Arkansas,Science and engineering,Female,2,81
+7574,r037_8,Arkansas,Non-science and engineering,Total,2,77
+7574,r037_9,Arkansas,Non-science and engineering,Male,2,29
+7574,r037_10,Arkansas,Non-science and engineering,Female,2,48
+7574,r038_1,Rhode Island,Rank,,1,38
+7574,r038_2,Rhode Island,Totala,,1,260
+7574,r038_3,Rhode Island,Male,,1,142
+7574,r038_4,Rhode Island,Female,,1,118
+7574,r038_5,Rhode Island,Science and engineering,Total,2,210
+7574,r038_6,Rhode Island,Science and engineering,Male,2,116
+7574,r038_7,Rhode Island,Science and engineering,Female,2,94
+7574,r038_8,Rhode Island,Non-science and engineering,Total,2,50
+7574,r038_9,Rhode Island,Non-science and engineering,Male,2,26
+7574,r038_10,Rhode Island,Non-science and engineering,Female,2,24
+7574,r039_1,Nevada,Rank,,1,39
+7574,r039_2,Nevada,Totala,,1,240
+7574,r039_3,Nevada,Male,,1,119
+7574,r039_4,Nevada,Female,,1,120
+7574,r039_5,Nevada,Science and engineering,Total,2,187
+7574,r039_6,Nevada,Science and engineering,Male,2,99
+7574,r039_7,Nevada,Science and engineering,Female,2,88
+7574,r039_8,Nevada,Non-science and engineering,Total,2,53
+7574,r039_9,Nevada,Non-science and engineering,Male,2,20
+7574,r039_10,Nevada,Non-science and engineering,Female,2,32
+7574,r040_1,West Virginia,Rank,,1,40
+7574,r040_2,West Virginia,Totala,,1,215
+7574,r040_3,West Virginia,Male,,1,122
+7574,r040_4,West Virginia,Female,,1,93
+7574,r040_5,West Virginia,Science and engineering,Total,2,164
+7574,r040_6,West Virginia,Science and engineering,Male,2,97
+7574,r040_7,West Virginia,Science and engineering,Female,2,67
+7574,r040_8,West Virginia,Non-science and engineering,Total,2,51
+7574,r040_9,West Virginia,Non-science and engineering,Male,2,25
+7574,r040_10,West Virginia,Non-science and engineering,Female,2,26
+7574,r041_1,Delaware,Rank,,1,41
+7574,r041_2,Delaware,Totala,,1,212
+7574,r041_3,Delaware,Male,,1,116
+7574,r041_4,Delaware,Female,,1,96
+7574,r041_5,Delaware,Science and engineering,Total,2,185
+7574,r041_6,Delaware,Science and engineering,Male,2,106
+7574,r041_7,Delaware,Science and engineering,Female,2,79
+7574,r041_8,Delaware,Non-science and engineering,Total,2,27
+7574,r041_9,Delaware,Non-science and engineering,Male,2,10
+7574,r041_10,Delaware,Non-science and engineering,Female,2,17
+7574,r042_1,North Dakota,Rank,,1,42
+7574,r042_2,North Dakota,Totala,,1,175
+7574,r042_3,North Dakota,Male,,1,90
+7574,r042_4,North Dakota,Female,,1,85
+7574,r042_5,North Dakota,Science and engineering,Total,2,123
+7574,r042_6,North Dakota,Science and engineering,Male,2,69
+7574,r042_7,North Dakota,Science and engineering,Female,2,54
+7574,r042_8,North Dakota,Non-science and engineering,Total,2,52
+7574,r042_9,North Dakota,Non-science and engineering,Male,2,21
+7574,r042_10,North Dakota,Non-science and engineering,Female,2,31
+7574,r043_1,New Hampshire,Rank,,1,43
+7574,r043_2,New Hampshire,Totala,,1,159
+7574,r043_3,New Hampshire,Male,,1,90
+7574,r043_4,New Hampshire,Female,,1,69
+7574,r043_5,New Hampshire,Science and engineering,Total,2,144
+7574,r043_6,New Hampshire,Science and engineering,Male,2,86
+7574,r043_7,New Hampshire,Science and engineering,Female,2,58
+7574,r043_8,New Hampshire,Non-science and engineering,Total,2,15
+7574,r043_9,New Hampshire,Non-science and engineering,Male,2,4
+7574,r043_10,New Hampshire,Non-science and engineering,Female,2,11
+7574,r044_1,Idaho,Rank,,1,44
+7574,r044_2,Idaho,Totala,,1,136
+7574,r044_3,Idaho,Male,,1,80
+7574,r044_4,Idaho,Female,,1,56
+7574,r044_5,Idaho,Science and engineering,Total,2,115
+7574,r044_6,Idaho,Science and engineering,Male,2,72
+7574,r044_7,Idaho,Science and engineering,Female,2,43
+7574,r044_8,Idaho,Non-science and engineering,Total,2,21
+7574,r044_9,Idaho,Non-science and engineering,Male,2,8
+7574,r044_10,Idaho,Non-science and engineering,Female,2,13
+7574,r045_1,Hawaii,Rank,,1,45
+7574,r045_2,Hawaii,Totala,,1,133
+7574,r045_3,Hawaii,Male,,1,55
+7574,r045_4,Hawaii,Female,,1,78
+7574,r045_5,Hawaii,Science and engineering,Total,2,95
+7574,r045_6,Hawaii,Science and engineering,Male,2,39
+7574,r045_7,Hawaii,Science and engineering,Female,2,56
+7574,r045_8,Hawaii,Non-science and engineering,Total,2,38
+7574,r045_9,Hawaii,Non-science and engineering,Male,2,16
+7574,r045_10,Hawaii,Non-science and engineering,Female,2,22
+7574,r046_1,South Dakota,Rank,,1,46
+7574,r046_2,South Dakota,Totala,,1,122
+7574,r046_3,South Dakota,Male,,1,77
+7574,r046_4,South Dakota,Female,,1,45
+7574,r046_5,South Dakota,Science and engineering,Total,2,108
+7574,r046_6,South Dakota,Science and engineering,Male,2,66
+7574,r046_7,South Dakota,Science and engineering,Female,2,42
+7574,r046_8,South Dakota,Non-science and engineering,Total,2,14
+7574,r046_9,South Dakota,Non-science and engineering,Male,2,11
+7574,r046_10,South Dakota,Non-science and engineering,Female,2,3
+7574,r047_1,Montana,Rank,,1,47
+7574,r047_2,Montana,Totala,,1,113
+7574,r047_3,Montana,Male,,1,59
+7574,r047_4,Montana,Female,,1,54
+7574,r047_5,Montana,Science and engineering,Total,2,92
+7574,r047_6,Montana,Science and engineering,Male,2,49
+7574,r047_7,Montana,Science and engineering,Female,2,43
+7574,r047_8,Montana,Non-science and engineering,Total,2,21
+7574,r047_9,Montana,Non-science and engineering,Male,2,10
+7574,r047_10,Montana,Non-science and engineering,Female,2,11
+7574,r048_1,Puerto Rico,Rank,,1,48
+7574,r048_2,Puerto Rico,Totala,,1,109
+7574,r048_3,Puerto Rico,Male,,1,47
+7574,r048_4,Puerto Rico,Female,,1,62
+7574,r048_5,Puerto Rico,Science and engineering,Total,2,94
+7574,r048_6,Puerto Rico,Science and engineering,Male,2,40
+7574,r048_7,Puerto Rico,Science and engineering,Female,2,54
+7574,r048_8,Puerto Rico,Non-science and engineering,Total,2,15
+7574,r048_9,Puerto Rico,Non-science and engineering,Male,2,7
+7574,r048_10,Puerto Rico,Non-science and engineering,Female,2,8
+7574,r049_1,Wyoming,Rank,,1,49
+7574,r049_2,Wyoming,Totala,,1,84
+7574,r049_3,Wyoming,Male,,1,65
+7574,r049_4,Wyoming,Female,,1,19
+7574,r049_5,Wyoming,Science and engineering,Total,2,76
+7574,r049_6,Wyoming,Science and engineering,Male,2,60
+7574,r049_7,Wyoming,Science and engineering,Female,2,16
+7574,r049_8,Wyoming,Non-science and engineering,Total,2,8
+7574,r049_9,Wyoming,Non-science and engineering,Male,2,5
+7574,r049_10,Wyoming,Non-science and engineering,Female,2,3
+7574,r050_1,Maine,Rank,,1,50
+7574,r050_2,Maine,Totala,,1,70
+7574,r050_3,Maine,Male,,1,31
+7574,r050_4,Maine,Female,,1,39
+7574,r050_5,Maine,Science and engineering,Total,2,58
+7574,r050_6,Maine,Science and engineering,Male,2,28
+7574,r050_7,Maine,Science and engineering,Female,2,30
+7574,r050_8,Maine,Non-science and engineering,Total,2,12
+7574,r050_9,Maine,Non-science and engineering,Male,2,3
+7574,r050_10,Maine,Non-science and engineering,Female,2,9
+7574,r051_1,Vermont,Rank,,1,51
+7574,r051_2,Vermont,Totala,,1,64
+7574,r051_3,Vermont,Male,,1,35
+7574,r051_4,Vermont,Female,,1,29
+7574,r051_5,Vermont,Science and engineering,Total,2,60
+7574,r051_6,Vermont,Science and engineering,Male,2,34
+7574,r051_7,Vermont,Science and engineering,Female,2,26
+7574,r051_8,Vermont,Non-science and engineering,Total,2,4
+7574,r051_9,Vermont,Non-science and engineering,Male,2,1
+7574,r051_10,Vermont,Non-science and engineering,Female,2,3
+7574,r052_1,Alaska,Rank,,1,52
+7574,r052_2,Alaska,Totala,,1,42
+7574,r052_3,Alaska,Male,,1,21
+7574,r052_4,Alaska,Female,,1,21
+7574,r052_5,Alaska,Science and engineering,Total,2,39
+7574,r052_6,Alaska,Science and engineering,Male,2,20
+7574,r052_7,Alaska,Science and engineering,Female,2,19
+7574,r052_8,Alaska,Non-science and engineering,Total,2,3
+7574,r052_9,Alaska,Non-science and engineering,Male,2,1
+7574,r052_10,Alaska,Non-science and engineering,Female,2,2

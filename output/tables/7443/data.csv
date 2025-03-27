@@ -1,0 +1,4 @@
+table_id,row_id,r_d_activity_full_path,r_d_activity_level_1,r_d_activity_level_2,r_d_activity_hierarchy_depth,field_companies_number_,field_product_innovation_new_to_market_number_yes,field_product_innovation_new_to_market_number_no,field_product_innovation_new_to_market_percent_yes,field_product_innovation_new_to_market_percent_no
+7443,r001,All companies,All companies,,1,"['4,857,473 ', '&nbsp;']","['197,260 ', '&nbsp;']","['4,660,213 ', '&nbsp;']","['4.1 ', '&nbsp;']","['95.9 ', '&nbsp;']"
+7443,r002,All companies -> R&D-active companies,All companies,R&D-active companies,2,"['404,072 ', '&nbsp;']","['86,616 ', '&nbsp;']","['317,456 ', '&nbsp;']","['21.4 ', '&nbsp;']","['78.6 ', '&nbsp;']"
+7443,r003,All companies -> Non-R&D-active companies,All companies,Non-R&D-active companies,2,"['4,453,400 ', '&nbsp;']","['110,645 ', '&nbsp;']","['4,342,755 ', '&nbsp;']","['2.5 ', '&nbsp;']","['97.5 ', '&nbsp;']"

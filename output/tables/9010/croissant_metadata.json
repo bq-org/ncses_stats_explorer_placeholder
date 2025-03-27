@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Product innovating R&D performing companies, by selected industry, for companies with 1&#8211;9 employees: 2020",
+  "identifier": "NCSES-9010",
+  "description": "Product innovating R&D performing companies, by selected industry, for companies with 1&#8211;9 employees: 2020",
+  "url": "https://example.org/datasets/ncses/tables/9010",
+  "table_number": "33",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9010/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_number_yes",
+      "description": "Product Innovation Number Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_number_no",
+      "description": "Product Innovation Number No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_percent_yes",
+      "description": "Product Innovation Percent Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_percent_no",
+      "description": "Product Innovation Percent No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail across rows may not add to total because of rounding or unavailable NAICS detail for select records beyond the 4-digit industry classification. Detail across columns have been adjusted to add to total. Only companies in the following NAICS sectors and industries are included in this table: 31\u201333, 42, 51, 5413, 5415, and 5417. Industry classification based on dominant establishment payroll. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, 2021 Annual Business Survey: Data Year 2020."
+}

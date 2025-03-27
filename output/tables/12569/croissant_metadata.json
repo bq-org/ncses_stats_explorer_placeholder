@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic employment, R&D employment by sex and work activity, R&D researchers by level of education, and full-time equivalent researcher employment for companies that performed or funded U.S. business R&D, by selected industry: 2021",
+  "identifier": "NCSES-12569",
+  "description": "Domestic employment, R&D employment by sex and work activity, R&D researchers by level of education, and full-time equivalent researcher employment for companies that performed or funded U.S. business R&D, by selected industry: 2021",
+  "url": "https://example.org/datasets/ncses/tables/12569",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12569/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_industry_and_naics_code_b",
+      "description": "Industry and NAICS code hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_industry_and_naics_code_b_level_1, _b_industry_and_naics_code_b_level_2, _b_industry_and_naics_code_b_level_3, _b_industry_and_naics_code_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_industry_and_naics_code_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_employmenta",
+      "description": "Domestic Employmenta",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_total",
+      "description": "R D Employment Total",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_male",
+      "description": "R D Employment Male",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_female",
+      "description": "R D Employment Female",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_researchersb_total",
+      "description": "R D Employment Researchersb Total",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_researchersb_with_phd",
+      "description": "R D Employment Researchersb With Phd",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_technicians_and_equivalent_staff",
+      "description": "R D Employment Technicians And Equivalent Staff",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_other_supporting_staffc",
+      "description": "R D Employment Other Supporting Staffc",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_full_time_equivalentd_total",
+      "description": "R D Employment Full Time Equivalentd Total",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_full_time_equivalentd_researchersb",
+      "description": "R D Employment Full Time Equivalentd Researchersb",
+      "valueType": "string",
+      "unitText": "Thousands of employees"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Data are for companies with 10 or more domestic employees. Detail may not add to total because of rounding. Industry classification was based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Excludes data for federally funded research and development centers.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2021."
+}

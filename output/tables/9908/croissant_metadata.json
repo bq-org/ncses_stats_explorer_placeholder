@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E bachelor's degrees awarded to American Indian or Alaska Native, Black or African American, and Hispanic or Latino students, by field: 2012 and 2021",
+  "identifier": "NCSES-9908",
+  "description": "S&E bachelor's degrees awarded to American Indian or Alaska Native, Black or African American, and Hispanic or Latino students, by field: 2012 and 2021",
+  "url": "https://example.org/datasets/ncses/tables/9908",
+  "table_number": "SHED-15",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9908/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "race_and_ethnicity_and_field",
+      "description": "Race and ethnicity and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "race_and_ethnicity_and_field_level_1, race_and_ethnicity_and_field_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "race_and_ethnicity_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data are based on institutions eligible to participate in Title IV federal financial aid programs. Hispanic or Latino may be any race; race categories exclude Hispanic origin. Represents U.S. citizens and permanent residents only.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2022) of the National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Completions Survey, provisional release data.Science and Engineering Indicators"
+}

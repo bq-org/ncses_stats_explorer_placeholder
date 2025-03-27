@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate recipients matched to UMETRICS research funding data: AYs 2014\u201317",
+  "identifier": "NCSES-9333",
+  "description": "Doctorate recipients matched to UMETRICS research funding data: AYs 2014\u201317",
+  "url": "https://example.org/datasets/ncses/tables/9333",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9333/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_level_1, field_of_study_level_2, field_of_study_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_full_path",
+      "description": "Of Study Full Path",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_1",
+      "description": "Of Study Level 1",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_2",
+      "description": "Of Study Level 2",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_3",
+      "description": "Of Study Level 3",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_hierarchy_depth",
+      "description": "Of Study Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ay_2014",
+      "description": "Ay 2014",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ay_2015",
+      "description": "Ay 2015",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ay_2016",
+      "description": "Ay 2016",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ay_2017",
+      "description": "Ay 2017",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ays_2014_17",
+      "description": "Ays 2014 17",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_coverage_from_institution_ays_2014_17",
+      "description": "Full Coverage From Institution Ays 2014 17",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Proportion of SED graduates matched to UMETRICS research funding data is calculated for each academic year cohort and for the AYs 2014\u201317 combined cohort. The matched proportion was also calculated using a subset of doctorate graduates having UMETRICS data from their institutions for a full 3 years prior to their graduation date (full institutional coverage).",
+  "sources": "SED-UMETRICS linked data, AYs 2014\u201317."
+}

@@ -1,0 +1,121 @@
+table_id,row_id,student_grade_and_characteristic_full_path,student_grade_and_characteristic_level_1,student_grade_and_characteristic_level_2,student_grade_and_characteristic_level_3,student_grade_and_characteristic_hierarchy_depth,field_1990,field_1992,field_1996,field_2000,field_2003,field_2005,field_2007,field_2009,field_2011,field_2013,field_2015,field_2017,field_2019
+4095,r001,All students in grade 4,All students in grade 4,,,1,213,220,224,226,235,238,240,240,241,242,240,240,241
+4095,r002,All students in grade 4 -> Sex,All students in grade 4,Sex,,2,,,,,,,,,,,,,
+4095,r003,All students in grade 4 -> Sex -> Male,All students in grade 4,Sex,Male,3,214,221,224,227,236,239,241,241,241,242,241,241,242
+4095,r004,All students in grade 4 -> Sex -> Female,All students in grade 4,Sex,Female,3,213,219,223,224,233,237,239,239,240,241,239,239,239
+4095,r005,All students in grade 4 -> Race or ethnicity<sup>a</sup>,All students in grade 4,Race or ethnicity<sup>a</sup>,,2,,,,,,,,,,,,,
+4095,r006,All students in grade 4 -> Race or ethnicity<sup>a</sup> -> White,All students in grade 4,Race or ethnicity<sup>a</sup>,White,3,220,227,232,234,243,246,248,248,249,250,248,248,249
+4095,r007,All students in grade 4 -> Race or ethnicity<sup>a</sup> -> Black,All students in grade 4,Race or ethnicity<sup>a</sup>,Black,3,188,193,198,203,216,220,222,222,224,224,224,223,224
+4095,r008,All students in grade 4 -> Race or ethnicity<sup>a</sup> -> Hispanic<sup>b</sup>,All students in grade 4,Race or ethnicity<sup>a</sup>,Hispanic<sup>b</sup>,3,200,202,207,208,222,226,227,227,229,231,230,229,231
+4095,r009,All students in grade 4 -> Race or ethnicity<sup>a</sup> -> Asian or Pacific Islander,All students in grade 4,Race or ethnicity<sup>a</sup>,Asian or Pacific Islander,3,225,231,229,s,246,251,253,255,256,258,257,258,260
+4095,r010,All students in grade 4 -> Race or ethnicity<sup>a</sup> -> American Indian or Alaska Native,All students in grade 4,Race or ethnicity<sup>a</sup>,American Indian or Alaska Native,3,s,s,217,208,223,226,228,225,225,227,227,227,227
+4095,r011,All students in grade 4 -> Race or ethnicity<sup>a</sup> -> Two or more races<sup>c</sup>,All students in grade 4,Race or ethnicity<sup>a</sup>,Two or more races<sup>c</sup>,3,s,s,s,224,237,241,241,243,245,245,245,245,244
+4095,r012,All students in grade 4 -> Socioeconomic status<sup>d</sup> ,All students in grade 4,Socioeconomic status<sup>d</sup> ,,2,,,,,,,,,,,,,
+4095,r013,All students in grade 4 -> Socioeconomic status<sup>d</sup>  -> Eligible for free or reduced-price lunch,All students in grade 4,Socioeconomic status<sup>d</sup> ,Eligible for free or reduced-price lunch,3,NA,NA,207,208,222,225,227,227,229,230,229,228,229
+4095,r014,All students in grade 4 -> Socioeconomic status<sup>d</sup>  -> Not eligible for free or reduced-price lunch,All students in grade 4,Socioeconomic status<sup>d</sup> ,Not eligible for free or reduced-price lunch,3,NA,NA,232,235,244,248,249,250,252,254,253,252,253
+4095,r015,All students in grade 4 -> Student disability status<sup>e</sup>,All students in grade 4,Student disability status<sup>e</sup>,,2,,,,,,,,,,,,,
+4095,r016,All students in grade 4 -> Student disability status<sup>e</sup> -> Has a disability,All students in grade 4,Student disability status<sup>e</sup>,Has a disability,3,NA,NA,204,198,214,219,220,221,218,218,218,214,214
+4095,r017,All students in grade 4 -> Student disability status<sup>e</sup> -> Does not have a disability,All students in grade 4,Student disability status<sup>e</sup>,Does not have a disability,3,NA,NA,225,228,237,240,242,242,244,245,244,243,245
+4095,r018,All students in grade 4 -> English language learner status<sup>e</sup>,All students in grade 4,English language learner status<sup>e</sup>,,2,,,,,,,,,,,,,
+4095,r019,All students in grade 4 -> English language learner status<sup>e</sup> -> English language learner,All students in grade 4,English language learner status<sup>e</sup>,English language learner,3,s,s,201,199,214,216,217,218,219,219,218,217,220
+4095,r020,All students in grade 4 -> English language learner status<sup>e</sup> -> Not English language learner,All students in grade 4,English language learner status<sup>e</sup>,Not English language learner,3,s,s,225,227,237,240,242,242,243,244,243,243,243
+4095,r021,All students in grade 4 -> Region of the country,All students in grade 4,Region of the country,,2,,,,,,,,,,,,,
+4095,r022,All students in grade 4 -> Region of the country -> Northeast,All students in grade 4,Region of the country,Northeast,3,NA,NA,NA,s,238,241,245,244,244,244,242,242,243
+4095,r023,All students in grade 4 -> Region of the country -> Midwest,All students in grade 4,Region of the country,Midwest,3,NA,NA,NA,s,238,240,243,242,242,244,242,242,241
+4095,r024,All students in grade 4 -> Region of the country -> South,All students in grade 4,Region of the country,South,3,NA,NA,NA,s,234,238,239,239,240,241,241,240,241
+4095,r025,All students in grade 4 -> Region of the country -> West,All students in grade 4,Region of the country,West,3,NA,NA,NA,s,231,234,234,235,238,238,236,236,237
+4095,r026,All students in grade 4 -> School location ,All students in grade 4,School location ,,2,,,,,,,,,,,,,
+4095,r027,All students in grade 4 -> School location  -> City,All students in grade 4,School location ,City,3,NA,NA,NA,NA,NA,NA,235,235,236,237,237,235,236
+4095,r028,All students in grade 4 -> School location  -> Suburb,All students in grade 4,School location ,Suburb,3,NA,NA,NA,NA,NA,NA,244,243,244,245,243,244,245
+4095,r029,All students in grade 4 -> School location  -> Town,All students in grade 4,School location ,Town,3,NA,NA,NA,NA,NA,NA,238,238,237,241,238,237,237
+4095,r030,All students in grade 4 -> School location  -> Rural,All students in grade 4,School location ,Rural,3,NA,NA,NA,NA,NA,NA,240,241,243,243,241,240,240
+4095,r031,All students in grade 4 -> Percentiles,All students in grade 4,Percentiles,,2,,,,,,,,,,,,,
+4095,r032,All students in grade 4 -> Percentiles -> 10th percentile,All students in grade 4,Percentiles,10th percentile,3,171,177,182,184,197,200,202,202,203,203,202,198,199
+4095,r033,All students in grade 4 -> Percentiles -> 25th percentile,All students in grade 4,Percentiles,25th percentile,3,193,199,203,205,216,220,222,221,,222,221,219,220
+4095,r034,All students in grade 4 -> Percentiles -> 50th percentile,All students in grade 4,Percentiles,50th percentile,3,214,221,225,227,236,239,242,241,242,243,242,241,242
+4095,r035,All students in grade 4 -> Percentiles -> 75th percentile,All students in grade 4,Percentiles,75th percentile,3,235,242,245,248,255,258,260,260,261,262,261,262,262
+4095,r036,All students in grade 4 -> Percentiles -> 90th percentile,All students in grade 4,Percentiles,90th percentile,3,253,259,262,265,270,273,275,275,276,278,277,279,280
+4095,r037,All students in grade 8,All students in grade 8,,,1,263,268,270,273,278,279,281,283,284,285,282,283,282
+4095,r038,All students in grade 8 -> Sex,All students in grade 8,Sex,,2,,,,,,,,,,,,,
+4095,r039,All students in grade 8 -> Sex -> Male,All students in grade 8,Sex,Male,3,263,268,271,274,278,280,282,284,284,285,282,283,282
+4095,r040,All students in grade 8 -> Sex -> Female,All students in grade 8,Sex,Female,3,262,269,269,272,277,278,280,282,283,284,282,282,282
+4095,r041,All students in grade 8 -> Race or ethnicity<sup>a</sup>,All students in grade 8,Race or ethnicity<sup>a</sup>,,2,,,,,,,,,,,,,
+4095,r042,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> White,All students in grade 8,Race or ethnicity<sup>a</sup>,White,3,270,277,281,284,288,289,291,293,293,294,292,293,292
+4095,r043,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> Black,All students in grade 8,Race or ethnicity<sup>a</sup>,Black,3,237,237,240,244,252,255,260,261,262,263,260,260,260
+4095,r044,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> Hispanic<sup>b</sup>,All students in grade 8,Race or ethnicity<sup>a</sup>,Hispanic<sup>b</sup>,3,246,249,251,253,259,262,265,266,270,272,270,269,268
+4095,r045,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> Asian or Pacific Islander,All students in grade 8,Race or ethnicity<sup>a</sup>,Asian or Pacific Islander,3,275,290,s,288,291,295,297,301,303,306,306,310,310
+4095,r046,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> American Indian or Alaska Native,All students in grade 8,Race or ethnicity<sup>a</sup>,American Indian or Alaska Native,3,s,s,s,259,263,264,264,266,265,269,267,267,262
+4095,r047,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> Two or more races<sup>c</sup>,All students in grade 8,Race or ethnicity<sup>a</sup>,Two or more races<sup>c</sup>,3,s,260,s,270,280,280,285,286,288,288,285,287,286
+4095,r048,All students in grade 8 -> Parents' highest education,All students in grade 8,Parents' highest education,,2,,,,,,,,,,,,,
+4095,r049,All students in grade 8 -> Parents' highest education -> Did not finish high school,All students in grade 8,Parents' highest education,Did not finish high school,3,242,249,250,253,257,259,263,265,265,267,265,265,264
+4095,r050,All students in grade 8 -> Parents' highest education -> Graduated from high school,All students in grade 8,Parents' highest education,Graduated from high school,3,255,257,260,261,267,267,270,270,271,270,268,267,265
+4095,r051,All students in grade 8 -> Parents' highest education -> Some education after high school,All students in grade 8,Parents' highest education,Some education after high school,3,267,271,277,277,280,280,283,284,285,285,282,281,280
+4095,r052,All students in grade 8 -> Parents' highest education -> Graduated from college,All students in grade 8,Parents' highest education,Graduated from college,3,274,281,281,286,288,290,292,295,295,296,294,294,293
+4095,r053,All students in grade 8 -> Parents' highest education -> Unknown,All students in grade 8,Parents' highest education,Unknown,3,241,252,252,254,259,260,263,264,265,266,263,264,263
+4095,r054,All students in grade 8 -> Socioeconomic status<sup>d</sup> ,All students in grade 8,Socioeconomic status<sup>d</sup> ,,2,,,,,,,,,,,,,
+4095,r055,All students in grade 8 -> Socioeconomic status<sup>d</sup>  -> Eligible for free or reduced-price lunch,All students in grade 8,Socioeconomic status<sup>d</sup> ,Eligible for free or reduced-price lunch,3,NA,NA,250,253,259,262,265,266,269,270,268,267,266
+4095,r056,All students in grade 8 -> Socioeconomic status<sup>d</sup>  -> Not eligible for free or reduced-price lunch,All students in grade 8,Socioeconomic status<sup>d</sup> ,Not eligible for free or reduced-price lunch,3,NA,NA,277,283,287,288,291,294,296,297,296,296,296
+4095,r057,All students in grade 8 -> Student disability status<sup>e</sup>,All students in grade 8,Student disability status<sup>e</sup>,,2,,,,,,,,,,,,,
+4095,r058,All students in grade 8 -> Student disability status<sup>e</sup> -> Has a disability,All students in grade 8,Student disability status<sup>e</sup>,Has a disability,3,NA,NA,231,230,242,245,246,249,250,249,247,247,247
+4095,r059,All students in grade 8 -> Student disability status<sup>e</sup> -> Does not have a disability,All students in grade 8,Student disability status<sup>e</sup>,Does not have a disability,3,NA,NA,273,276,282,283,285,287,288,289,287,288,287
+4095,r060,All students in grade 8 -> English language learner status<sup>e</sup>,All students in grade 8,English language learner status<sup>e</sup>,,2,,,,,,,,,,,,,
+4095,r061,All students in grade 8 -> English language learner status<sup>e</sup> -> English language learner,All students in grade 8,English language learner status<sup>e</sup>,English language learner,3,NA,NA,226,234,242,244,246,243,244,246,246,246,243
+4095,r062,All students in grade 8 -> English language learner status<sup>e</sup> -> Not English language learner,All students in grade 8,English language learner status<sup>e</sup>,Not English language learner,3,NA,NA,272,274,279,281,283,285,286,287,284,285,285
+4095,r063,All students in grade 8 -> Region of the country,All students in grade 8,Region of the country,,2,,,,,,,,,,,,,
+4095,r064,All students in grade 8 -> Region of the country -> Northeast,All students in grade 8,Region of the country,Northeast,3,NA,NA,NA,s,282,283,287,289,288,290,287,288,287
+4095,r065,All students in grade 8 -> Region of the country -> Midwest,All students in grade 8,Region of the country,Midwest,3,NA,NA,NA,s,283,283,284,287,287,288,285,286,286
+4095,r066,All students in grade 8 -> Region of the country -> South,All students in grade 8,Region of the country,South,3,NA,NA,NA,s,275,277,280,282,283,283,280,280,280
+4095,r067,All students in grade 8 -> Region of the country -> West,All students in grade 8,Region of the country,West,3,NA,NA,NA,s,273,275,276,277,279,281,280,281,279
+4095,r068,All students in grade 8 -> School location ,All students in grade 8,School location ,,2,,,,,,,,,,,,,
+4095,r069,All students in grade 8 -> School location  -> City,All students in grade 8,School location ,City,3,NA,NA,NA,NA,NA,NA,275,279,279,280,278,278,277
+4095,r070,All students in grade 8 -> School location  -> Suburb,All students in grade 8,School location ,Suburb,3,NA,NA,NA,NA,NA,NA,286,287,287,289,286,288,287
+4095,r071,All students in grade 8 -> School location  -> Town,All students in grade 8,School location ,Town,3,NA,NA,NA,NA,NA,NA,280,279,282,282,279,278,277
+4095,r072,All students in grade 8 -> School location  -> Rural,All students in grade 8,School location ,Rural,3,NA,NA,NA,NA,NA,NA,282,284,286,286,282,282,283
+4095,r073,All students in grade 8 -> Percentiles,All students in grade 8,Percentiles,,2,,,,,,,,,,,,,
+4095,r074,All students in grade 8 -> Percentiles -> 10th percentile,All students in grade 8,Percentiles,10th percentile,3,215,221,221,223,230,231,235,236,237,237,235,233,231
+4095,r075,All students in grade 8 -> Percentiles -> 25th percentile,All students in grade 8,Percentiles,25th percentile,3,239,243,245,249,254,255,258,259,260,261,258,256,255
+4095,r076,All students in grade 8 -> Percentiles -> 50th percentile,All students in grade 8,Percentiles,50th percentile,3,264,269,273,275,279,280,283,284,285,286,283,283,282
+4095,r077,All students in grade 8 -> Percentiles -> 75th percentile,All students in grade 8,Percentiles,75th percentile,3,288,294,297,300,303,304,306,308,309,310,308,310,309
+4095,r078,All students in grade 8 -> Percentiles -> 90th percentile,All students in grade 8,Percentiles,90th percentile,3,307,315,316,320,323,324,327,329,329,331,329,333,333
+4095,r079,All students in grade 12,All students in grade 12,,,1,NA,NA,NA,NA,NA,150,NA,153,NA,153,152,NA,150
+4095,r080,All students in grade 12 -> Sex,All students in grade 12,Sex,,2,,,,,,,,,,,,,
+4095,r081,All students in grade 12 -> Sex -> Male,All students in grade 12,Sex,Male,3,NA,NA,NA,NA,NA,151,NA,155,NA,155,153,NA,152
+4095,r082,All students in grade 12 -> Sex -> Female,All students in grade 12,Sex,Female,3,NA,NA,NA,NA,NA,149,NA,152,NA,152,150,NA,149
+4095,r083,All students in grade 12 -> Race or ethnicity<sup>a</sup>,All students in grade 12,Race or ethnicity<sup>a</sup>,,2,,,,,,,,,,,,,
+4095,r084,All students in grade 12 -> Race or ethnicity<sup>a</sup> -> White,All students in grade 12,Race or ethnicity<sup>a</sup>,White,3,NA,NA,NA,NA,NA,157,NA,161,NA,162,160,NA,159
+4095,r085,All students in grade 12 -> Race or ethnicity<sup>a</sup> -> Black,All students in grade 12,Race or ethnicity<sup>a</sup>,Black,3,NA,NA,NA,NA,NA,127,NA,131,NA,132,130,NA,128
+4095,r086,All students in grade 12 -> Race or ethnicity<sup>a</sup> -> Hispanic<sup>b</sup>,All students in grade 12,Race or ethnicity<sup>a</sup>,Hispanic<sup>b</sup>,3,NA,NA,NA,NA,NA,133,NA,138,NA,141,139,NA,138
+4095,r087,All students in grade 12 -> Race or ethnicity<sup>a</sup> -> Asian or Pacific Islander,All students in grade 12,Race or ethnicity<sup>a</sup>,Asian or Pacific Islander,3,NA,NA,NA,NA,NA,163,NA,175,NA,172,170,NA,173
+4095,r088,All students in grade 12 -> Race or ethnicity<sup>a</sup> -> American Indian or Alaska Native,All students in grade 12,Race or ethnicity<sup>a</sup>,American Indian or Alaska Native,3,NA,NA,NA,NA,NA,134,NA,144,NA,142,138,NA,136
+4095,r089,All students in grade 12 -> Race or ethnicity<sup>a</sup> -> Two or more races<sup>c</sup>,All students in grade 12,Race or ethnicity<sup>a</sup>,Two or more races<sup>c</sup>,3,NA,NA,NA,NA,NA,142,NA,158,NA,155,157,NA,157
+4095,r090,All students in grade 12 -> Parents' highest education,All students in grade 12,Parents' highest education,,2,,,,,,,,,,,,,
+4095,r091,All students in grade 12 -> Parents' highest education -> Did not finish high school,All students in grade 12,Parents' highest education,Did not finish high school,3,NA,NA,NA,NA,NA,130,NA,135,NA,137,133,NA,133
+4095,r092,All students in grade 12 -> Parents' highest education -> Graduated from high school,All students in grade 12,Parents' highest education,Graduated from high school,3,NA,NA,NA,NA,NA,138,NA,142,NA,139,139,NA,136
+4095,r093,All students in grade 12 -> Parents' highest education -> Some education after high school,All students in grade 12,Parents' highest education,Some education after high school,3,NA,NA,NA,NA,NA,148,NA,150,NA,152,149,NA,147
+4095,r094,All students in grade 12 -> Parents' highest education -> Graduated from college,All students in grade 12,Parents' highest education,Graduated from college,3,NA,NA,NA,NA,NA,161,NA,164,NA,164,163,NA,161
+4095,r095,All students in grade 12 -> Parents' highest education -> Unknown,All students in grade 12,Parents' highest education,Unknown,3,NA,NA,NA,NA,NA,123,NA,129,NA,127,125,NA,125
+4095,r096,All students in grade 12 -> Socioeconomic status<sup>d</sup> ,All students in grade 12,Socioeconomic status<sup>d</sup> ,,2,,,,,,,,,,,,,
+4095,r097,All students in grade 12 -> Socioeconomic status<sup>d</sup>  -> Eligible for free or reduced-price lunch,All students in grade 12,Socioeconomic status<sup>d</sup> ,Eligible for free or reduced-price lunch,3,NA,NA,NA,NA,NA,132,NA,137,NA,139,137,NA,136
+4095,r098,All students in grade 12 -> Socioeconomic status<sup>d</sup>  -> Not eligible for free or reduced-price lunch,All students in grade 12,Socioeconomic status<sup>d</sup> ,Not eligible for free or reduced-price lunch,3,NA,NA,NA,NA,NA,155,NA,160,NA,162,160,NA,160
+4095,r099,All students in grade 12 -> Student disability status<sup>e</sup>,All students in grade 12,Student disability status<sup>e</sup>,,2,,,,,,,,,,,,,
+4095,r100,All students in grade 12 -> Student disability status<sup>e</sup> -> Has a disability,All students in grade 12,Student disability status<sup>e</sup>,Has a disability,3,NA,NA,NA,NA,NA,114,NA,120,NA,119,118,NA,119
+4095,r101,All students in grade 12 -> Student disability status<sup>e</sup> -> Does not have a disability,All students in grade 12,Student disability status<sup>e</sup>,Does not have a disability,3,NA,NA,NA,NA,NA,153,NA,156,NA,157,155,NA,154
+4095,r102,All students in grade 12 -> English language learner status<sup>e</sup>,All students in grade 12,English language learner status<sup>e</sup>,,2,,,,,,,,,,,,,
+4095,r103,All students in grade 12 -> English language learner status<sup>e</sup> -> English language learner,All students in grade 12,English language learner status<sup>e</sup>,English language learner,3,NA,NA,NA,NA,NA,120,NA,117,NA,109,115,NA,111
+4095,r104,All students in grade 12 -> English language learner status<sup>e</sup> -> Not English language learner,All students in grade 12,English language learner status<sup>e</sup>,Not English language learner,3,NA,NA,NA,NA,NA,151,NA,154,NA,155,153,NA,152
+4095,r105,All students in grade 12 -> Region of the country,All students in grade 12,Region of the country,,2,,,,,,,,,,,,,
+4095,r106,All students in grade 12 -> Region of the country -> Northeast,All students in grade 12,Region of the country,Northeast,3,NA,NA,NA,NA,NA,151,NA,s,NA,156,156,NA,154
+4095,r107,All students in grade 12 -> Region of the country -> Midwest,All students in grade 12,Region of the country,Midwest,3,NA,NA,NA,NA,NA,157,NA,s,NA,157,157,NA,153
+4095,r108,All students in grade 12 -> Region of the country -> South,All students in grade 12,Region of the country,South,3,NA,NA,NA,NA,NA,146,NA,s,NA,152,148,NA,147
+4095,r109,All students in grade 12 -> Region of the country -> West,All students in grade 12,Region of the country,West,3,NA,NA,NA,NA,NA,148,NA,s,NA,151,149,NA,150
+4095,r110,All students in grade 12 -> School location ,All students in grade 12,School location ,,2,,,,,,,,,,,,,
+4095,r111,All students in grade 12 -> School location  -> City,All students in grade 12,School location ,City,3,NA,NA,NA,NA,NA,NA,NA,152,NA,149,148,NA,149
+4095,r112,All students in grade 12 -> School location  -> Suburb,All students in grade 12,School location ,Suburb,3,NA,NA,NA,NA,NA,NA,NA,157,NA,158,155,NA,154
+4095,r113,All students in grade 12 -> School location  -> Town,All students in grade 12,School location ,Town,3,NA,NA,NA,NA,NA,NA,NA,151,NA,151,150,NA,147
+4095,r114,All students in grade 12 -> School location  -> Rural,All students in grade 12,School location ,Rural,3,NA,NA,NA,NA,NA,NA,NA,151,NA,153,152,NA,148
+4095,r115,All students in grade 12 -> Percentiles,All students in grade 12,Percentiles,,2,,,,,,,,,,,,,
+4095,r116,All students in grade 12 -> Percentiles -> 10th percentile,All students in grade 12,Percentiles,10th percentile,3,NA,NA,NA,NA,NA,105,NA,110,NA,111,107,NA,104
+4095,r117,All students in grade 12 -> Percentiles -> 25th percentile,All students in grade 12,Percentiles,25th percentile,3,NA,NA,NA,NA,NA,127,NA,130,NA,131,128,NA,125
+4095,r118,All students in grade 12 -> Percentiles -> 50th percentile,All students in grade 12,Percentiles,50th percentile,3,NA,NA,NA,NA,NA,151,NA,154,NA,154,152,NA,150
+4095,r119,All students in grade 12 -> Percentiles -> 75th percentile,All students in grade 12,Percentiles,75th percentile,3,NA,NA,NA,NA,NA,174,NA,177,NA,177,175,NA,175
+4095,r120,All students in grade 12 -> Percentiles -> 90th percentile,All students in grade 12,Percentiles,90th percentile,3,NA,NA,NA,NA,NA,194,NA,197,NA,197,196,NA,196

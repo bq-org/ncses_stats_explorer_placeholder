@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Costs for new construction of science and engineering research space in academic institutions, by field, research animal space, and time of construction: FYs 2006&#8211;23",
+  "identifier": "NCSES-7852",
+  "description": "Costs for new construction of science and engineering research space in academic institutions, by field, research animal space, and time of construction: FYs 2006&#8211;23",
+  "url": "https://example.org/datasets/ncses/tables/7852",
+  "table_number": "12",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7852/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_and_research_animal_space_b",
+      "description": "Field and research animal space hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_and_research_animal_space_b_level_1, _b_field_and_research_animal_space_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_and_research_animal_space_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2006_or_fy_2007",
+      "description": "Started In Fy 2006 Or Fy 2007",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2008_or_fy_2009",
+      "description": "Started In Fy 2008 Or Fy 2009",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2010_or_fy_2011",
+      "description": "Started In Fy 2010 Or Fy 2011",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2012_or_fy_2013",
+      "description": "Started In Fy 2012 Or Fy 2013",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2014_or_fy_2015",
+      "description": "Started In Fy 2014 Or Fy 2015",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2016_or_fy_2017",
+      "description": "Started In Fy 2016 Or Fy 2017",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2018_or_fy_2019",
+      "description": "Started In Fy 2018 Or Fy 2019",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2020_or_fy_2021",
+      "description": "Started In Fy 2020 Or Fy 2021",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_planned_to_start_in_fy_2022_or_fy_2023",
+      "description": "Planned To Start In Fy 2022 Or Fy 2023",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_deferred_projects_included_in_institutional_plan",
+      "description": "Deferred Projects Included In Institutional Plan",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_deferred_projects_not_included_in_institutional_plan",
+      "description": "Deferred Projects Not Included In Institutional Plan",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "In FY 2015, \"Agricultural sciences and natural resources sciences\" was split into \"Agricultural sciences\" and \"Natural resources and conservation.\" Prior to FY 2015, data for \"Natural resources and conservation\" are included in \"Agricultural sciences.\" For details on field changes in FY 2021, see \"Changes in the questionnaire\" in the \"Technical Notes\" section. Data are not collected on planned new construction of research animal space. Deferred projects are those that (1) are not funded and (2) are not scheduled for FY 2022 or FY 2023. Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities."
+}

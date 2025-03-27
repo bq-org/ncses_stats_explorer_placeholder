@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total expenditures for R&D performed by nonprofit organizations, by type of nonprofit organization, source of funds, and type of R&D: FY 2020",
+  "identifier": "NCSES-8048",
+  "description": "Total expenditures for R&D performed by nonprofit organizations, by type of nonprofit organization, source of funds, and type of R&D: FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/8048",
+  "table_number": "5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8048/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_nonprofit_organization_sup_b_a_b_sup_b_b",
+      "description": "Type of nonprofit organizationa  hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_nonprofit_organization_sup_b_a_b_sup_b_b_level_1, type_of_nonprofit_organization_sup_b_a_b_sup_b_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_nonprofit_organization_sup_b_a_b_sup_b_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_all_r_d_expenditures_",
+      "description": "Total All R D Expenditures ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_basic_research_",
+      "description": "Total Basic Research ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_applied_research_",
+      "description": "Total Applied Research ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_experimental_development_",
+      "description": "Total Experimental Development ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_all_r_d_expenditures_",
+      "description": "Federal All R D Expenditures ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_basic_research_",
+      "description": "Federal Basic Research ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_applied_research_",
+      "description": "Federal Applied Research ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_experimental_development_",
+      "description": "Federal Experimental Development ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_all_r_d_expenditures_",
+      "description": "Nonfederal All R D Expenditures ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_basic_research_",
+      "description": "Nonfederal Basic Research ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_applied_research_",
+      "description": "Nonfederal Applied Research ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_experimental_development_",
+      "description": "Nonfederal Experimental Development ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "These data exclude nonprofit universities and colleges and federally funded research and development centers administered by nonprofit organizations. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Nonprofit Research Activities FY 2020 module of the 2021 Annual Business Survey."
+}

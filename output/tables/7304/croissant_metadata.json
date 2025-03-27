@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Department of Defense obligations for science and engineering research and development to universities and colleges, by type of activity: FYs 1990\u20132020",
+  "identifier": "NCSES-7304",
+  "description": "Department of Defense obligations for science and engineering research and development to universities and colleges, by type of activity: FYs 1990\u20132020",
+  "url": "https://example.org/datasets/ncses/tables/7304",
+  "table_number": "5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7304/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Detail may not add to total because of rounding. DOD states that more than 90% of its development obligations reported for universities and colleges are performed at university-administered laboratories that are separate from academic departments. Furthermore, DOD states that much of its development obligations are for major systems development, that such obligations differ from its obligations for advanced technology development, and that DOD total development obligations are therefore not comparable with development obligations at other federal agencies. Refer to table 14 for DOD obligations to individual institutions, by R&D breakdown.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Science and Engineering Support to Universities, Colleges, and Nonprofit Institutions.",
+  "temporalCoverage": "19/20"
+}

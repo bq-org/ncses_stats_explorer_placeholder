@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Match rates, by primary source of financial support reported in the SED",
+  "identifier": "NCSES-9766",
+  "description": "Match rates, by primary source of financial support reported in the SED",
+  "url": "https://example.org/datasets/ncses/tables/9766",
+  "table_number": "17b",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9766/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "primary_source_of_support",
+      "description": "Primary Source Of Support",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ay_2014",
+      "description": "Ay 2014",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ay_2015",
+      "description": "Ay 2015",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ay_2016",
+      "description": "Ay 2016",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ay_2017",
+      "description": "Ay 2017",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The match rate is defined as the proportion of SED doctorate recipients included for matching and were matched to UMETRICS.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, AYs 2014\u201317; Institute for Research on Innovation and Science, UMETRICS, 2020 release data."
+}

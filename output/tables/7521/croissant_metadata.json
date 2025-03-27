@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Research doctorate recipients, by historical broad field of doctorate and sex: Selected years, 1991\u20132021",
+  "identifier": "NCSES-7521",
+  "description": "Research doctorate recipients, by historical broad field of doctorate and sex: Selected years, 1991\u20132021",
+  "url": "https://example.org/datasets/ncses/tables/7521",
+  "table_number": "1-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7521/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_and_sex_b",
+      "description": "Field and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_and_sex_b_level_1, _b_field_and_sex_b_level_2, _b_field_and_sex_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_and_sex_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1991_number",
+      "description": "1991 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1991_percent",
+      "description": "1991 Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1996_number",
+      "description": "1996 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1996_percent",
+      "description": "1996 Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_number",
+      "description": "2001 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_percent",
+      "description": "2001 Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_number",
+      "description": "2006 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_percent",
+      "description": "2006 Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_number",
+      "description": "2011 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_percent",
+      "description": "2011 Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_number",
+      "description": "2016 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_percent",
+      "description": "2016 Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_number",
+      "description": "2021 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_percent",
+      "description": "2021 Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Due to rounding, percentages may not sum to 100. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection; the historical fields were constructed using the SED-CIP code crosswalk in table A-6. Therefore, the field of doctorate data in 2021 may not be comparable to prior years; see the \"Technical Notes\" for more information, table A-4 for a summary of SED-CIP codes in the new SED field taxonomy, and table A-5 for a full list of SED-CIP codes in the new field taxonomy.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

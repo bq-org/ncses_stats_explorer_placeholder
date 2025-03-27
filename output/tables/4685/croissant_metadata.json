@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median basic annual salary for doctorate recipients with definite postgraduation plans in the United States, by field of study, type of postgraduation plans, and sex: 2020",
+  "identifier": "NCSES-4685",
+  "description": "Median basic annual salary for doctorate recipients with definite postgraduation plans in the United States, by field of study, type of postgraduation plans, and sex: 2020",
+  "url": "https://example.org/datasets/ncses/tables/4685",
+  "table_number": "48",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4685/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_of_study_b",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_of_study_b_level_1, _b_field_of_study_b_level_2, _b_field_of_study_b_level_3, _b_field_of_study_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_of_study_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_totala_male",
+      "description": "Totala Male",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_totala_female",
+      "description": "Totala Female",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employment_total",
+      "description": "Employment Total",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employment_male",
+      "description": "Employment Male",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employment_female",
+      "description": "Employment Female",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_study_total",
+      "description": "Postdoctoral Study Total",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_study_male",
+      "description": "Postdoctoral Study Male",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_study_female",
+      "description": "Postdoctoral Study Female",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Basic annual salary is based on the job or postdoctoral study expected to hold in the next year. Median salaries in this table are the exact salary values of respondents at the 50th percentile of their frequency distribution; salary values are rounded to the nearest dollar. See table A-6 in the technical notes for a listing of major fields and their constituent subfields.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

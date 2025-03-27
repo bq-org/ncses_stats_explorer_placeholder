@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Responses to proposed uses of computer chip implants in the brain: 2021",
+  "identifier": "NCSES-10491",
+  "description": "Responses to proposed uses of computer chip implants in the brain: 2021",
+  "url": "https://example.org/datasets/ncses/tables/10491",
+  "table_number": "PPS-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10491/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "response_options_characteristic",
+      "description": "Response options hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "response_options_level_1, response_options_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Percentages may not add to 100%. See\u00a0Table SPPS-8\u00a0for standard errors. Responses are to the following: Computer chip implants in the brain could be used for a number of purposes. Would you favor or oppose the use of computer chips implants in the brain for each of the following purposes?",
+  "sources": "Pew Research Center, American Trends Panel Wave 99 (2021), conducted 1\u20137 November 2021. Science and Engineering Indicators"
+}

@@ -1,0 +1,129 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total expenditures for R&D performed by nonprofit organizations, by type of nonprofit organization and source of funds: FY 2020",
+  "identifier": "NCSES-8046",
+  "description": "Total expenditures for R&D performed by nonprofit organizations, by type of nonprofit organization and source of funds: FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/8046",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8046/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_nonprofit_organization_sup_b_a_b_sup_b_b_b_b",
+      "description": "Type of nonprofit organizationa   hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_nonprofit_organization_sup_b_a_b_sup_b_b_b_b_level_1, type_of_nonprofit_organization_sup_b_a_b_sup_b_b_b_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_nonprofit_organization_sup_b_a_b_sup_b_b_b_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_expenditures_",
+      "description": "All R D Expenditures ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_internal_funds_",
+      "description": "Source Of Funds Internal Funds ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_federal_government_",
+      "description": "Source Of Funds Federal Government ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_state_and_local_government_",
+      "description": "Source Of Funds State And Local Government ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_businesses_",
+      "description": "Source Of Funds Businesses ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_universities_",
+      "description": "Source Of Funds Universities ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_foundations_",
+      "description": "Source Of Funds Foundations ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_all_other_nonprofits_",
+      "description": "Source Of Funds All Other Nonprofits ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_individual_donors_",
+      "description": "Source Of Funds Individual Donors ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_other_",
+      "description": "Source Of Funds Other ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "These data exclude nonprofit universities and colleges and federally funded research and development centers administered by nonprofit organizations. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Nonprofit Research Activities FY 2020 module of the 2021 Annual Business Survey."
+}

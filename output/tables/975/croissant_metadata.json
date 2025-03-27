@@ -1,0 +1,186 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median years to doctorate, by sex, citizenship status, ethnicity, race, and broad field of study: 2017",
+  "identifier": "NCSES-975",
+  "description": "Median years to doctorate, by sex, citizenship status, ethnicity, race, and broad field of study: 2017",
+  "url": "https://example.org/datasets/ncses/tables/975",
+  "table_number": "32",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/975/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_to_degree_and_demographic_characteristic",
+      "description": "Time to degree and demographic characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "time_to_degree_and_demographic_characteristic_level_1, time_to_degree_and_demographic_characteristic_level_2, time_to_degree_and_demographic_characteristic_level_3, time_to_degree_and_demographic_characteristic_level_4, time_to_degree_and_demographic_characteristic_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "time_to_degree_and_demographic_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_median",
+      "description": "All Fields Median",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_number",
+      "description": "All Fields Number",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_life_sciencesa_median",
+      "description": "Life Sciencesa Median",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_life_sciencesa_number",
+      "description": "Life Sciencesa Number",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences_and_earth_sciences_median",
+      "description": "Physical Sciences And Earth Sciences Median",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences_and_earth_sciences_number",
+      "description": "Physical Sciences And Earth Sciences Number",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_computer_sciences_median",
+      "description": "Mathematics And Computer Sciences Median",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_computer_sciences_number",
+      "description": "Mathematics And Computer Sciences Number",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology_and_social_sciences_median",
+      "description": "Psychology And Social Sciences Median",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology_and_social_sciences_number",
+      "description": "Psychology And Social Sciences Number",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_median",
+      "description": "Engineering Median",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_number",
+      "description": "Engineering Number",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_median",
+      "description": "Education Median",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_number",
+      "description": "Education Number",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_median",
+      "description": "Humanities And Arts Median",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_number",
+      "description": "Humanities And Arts Number",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherb_median",
+      "description": "Otherb Median",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherb_number",
+      "description": "Otherb Number",
+      "valueType": "string",
+      "unitText": "Median years and number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2017."
+}

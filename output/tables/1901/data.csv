@@ -1,0 +1,4 @@
+table_id,row_id,industry_full_path,industry_level_1,industry_level_2,industry_hierarchy_depth,field_naics_code,field_companies_number_,field_new_or_significantly_improved_products_or_processes_percent_,field_new_or_significantly_improved_products_percent_,field_new_or_significantly_improved_processes_percent_
+1901,r001,All industries,All industries,,1,"21–23, 31–33, 42–81",1138671,16.7,9.5,13.1
+1901,r002,All industries -> Manufacturing industries,All industries,Manufacturing industries,2,31–33,113066,32.7,22.1,25.5
+1901,r003,All industries -> Nonmanufacturing industries,All industries,Nonmanufacturing industries,2,"21–23, 42–81",1025605,14.9,8.1,11.7

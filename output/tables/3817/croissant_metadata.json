@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Stage 2 response rates, by institution type, public ECDS sample: 2017",
+  "identifier": "NCSES-3817",
+  "description": "Stage 2 response rates, by institution type, public ECDS sample: 2017",
+  "url": "https://example.org/datasets/ncses/tables/3817",
+  "table_number": "A-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3817/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution_type",
+      "description": "Institution type hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "institution_type_level_1, institution_type_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "institution_type_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public_ecds_sample_total_sample_size",
+      "description": "Public Ecds Sample Total Sample Size",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public_ecds_sample_number_of_respondents",
+      "description": "Public Ecds Sample Number Of Respondents",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public_ecds_sample_unweighted_response_ratea",
+      "description": "Public Ecds Sample Unweighted Response Ratea",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "All percentages are unweighted. Detail may not sum to totals because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Early Career Doctorates Survey, 2017."
+}

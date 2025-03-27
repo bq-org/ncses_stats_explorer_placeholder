@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "SED data tables list: 2020 and 2021 ",
+  "identifier": "NCSES-7658",
+  "description": "SED data tables list: 2020 and 2021 ",
+  "url": "https://example.org/datasets/ncses/tables/7658",
+  "table_number": "B-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7658/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "table_title",
+      "description": "Table Title",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection. The new broad, major, and detailed fields were used in tables reporting only the most recent data year, and the historical broad and major fields were used in the tables reporting multiple data years. As a result, the data tables were reorganized and renumbered in 2021 and the field of doctorate data in 2021 may not be comparable to prior years; see the \"Technical Notes\" for more information.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

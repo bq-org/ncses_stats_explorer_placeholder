@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "High school graduates who earned Carnegie credits in STEM advanced mathematics courses, advanced science and engineering courses, and STEM-related technical courses, by STEM course: 1990\u20132019",
+  "identifier": "NCSES-9449",
+  "description": "High school graduates who earned Carnegie credits in STEM advanced mathematics courses, advanced science and engineering courses, and STEM-related technical courses, by STEM course: 1990\u20132019",
+  "url": "https://example.org/datasets/ncses/tables/9449",
+  "table_number": "SK12-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9449/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "stem_course",
+      "description": "STEM course hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "stem_course_level_1, stem_course_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "stem_course_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1990",
+      "description": "1990",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000",
+      "description": "2000",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Advanced mathematics covers courses in algebra II, trigonometry, precalculus and analysis, probability and statistics, and calculus. Other advanced mathematics courses include primarily trigonometry and statistics and probability courses. Advanced biology courses include Advanced Placement (AP) and International Baccalaureate (IB) biology, physiology, anatomy, and genetics courses. Advanced environmental and earth science courses include AP and IB environmental science, college preparatory earth science, and various geology courses. Engineering and science technologies courses focus on instrumentation, equipment maintenance, and other technical tasks conducted in engineering and science-related occupations. One Carnegie credit is defined as 120 hours of class instruction over the course of a secondary school year.",
+  "sources": "Department of Education, Institute of Education Sciences, National Center for Education Statistics, National Assessment of Educational Progress High School Transcript Study, 1990, 2000, 2009, and 2019.Science and Engineering Indicators"
+}

@@ -1,0 +1,35 @@
+table_id,row_id,industry_group_full_path,industry_group_level_1,industry_group_level_2,industry_group_hierarchy_depth,field_united_states_any_product_innovation,field_united_states_new_to_market,field_metropolitan_any_product_innovation,field_nonmetropolitan_any_product_innovation,field_metropolitan_nonmetropolitan_statistically_different,field_metropolitan_new_to_market,field_nonmetropolitan_new_to_market,field_metropolitan_nonmetropolitan_statistically_different
+6202,r001,"11 Agriculture, Forestry, Fishing and Hunting","11 Agriculture, Forestry, Fishing and Hunting",,1,10.16,3.86,11.42,8.91,No,3.88,3.83,No
+6202,r002,21 Mining,21 Mining,,1,8.61,3.75,10.68,6.92,No,4.46,3.4,No
+6202,r003,22 Utilities,22 Utilities,,1,13.72,5.07,15.38,9.79,No,5.17,4.9,No
+6202,r004,23 Construction,23 Construction,,1,12.35,4.36,12.21,13.0,No,4.26,4.81,No
+6202,r005,31 Food & Fiber Manufacturing,31 Food & Fiber Manufacturing,,1,36.14,20.76,35.77,37.63,No,20.38,22.1,No
+6202,r006,32 Nondurable Manufacturing,32 Nondurable Manufacturing,,1,27.06,13.9,28.41,21.69,Yes,14.68,10.77,Yes
+6202,r007,33 Durable Manufacturing,33 Durable Manufacturing,,1,29.62,17.95,29.42,30.37,No,18.08,17.12,No
+6202,r008,42 Wholesale Trade,42 Wholesale Trade,,1,28.01,16.91,28.44,24.28,Yes,17.17,14.73,Yes
+6202,r009,44 Retail Trade,44 Retail Trade,,1,21.34,10.97,21.13,22.0,No,10.83,11.41,No
+6202,r010,45 Retail Trade,45 Retail Trade,,1,28.84,16.05,29.13,27.41,No,16.17,15.32,No
+6202,r011,48 Transportation and Warehousing,48 Transportation and Warehousing,,1,10.92,3.42,11.88,8.28,Yes,3.81,2.33,Yes
+6202,r012,49 Transportation and Warehousing,49 Transportation and Warehousing,,1,14.07,6.25,14.39,12.25,No,5.93,8.73,No
+6202,r013,51 Information,51 Information,,1,38.17,21.07,39.4,29.59,Yes,21.76,16.16,Yes
+6202,r014,52 Finance and Insurance,52 Finance and Insurance,,1,20.7,8.05,20.96,19.35,No,8.09,7.87,No
+6202,r015,53 Real Estate Rental and Leasing,53 Real Estate Rental and Leasing,,1,11.59,4.0,11.58,11.6,No,3.87,4.82,No
+6202,r016,"54 Professional, Scientific, and Technical Services","54 Professional, Scientific, and Technical Services",,1,22.66,9.39,23.09,18.61,Yes,9.59,7.4,Yes
+6202,r017,55 Management of Companies and Enterprises,55 Management of Companies and Enterprises,,1,10.46,4.23,11.02,6.32,No,4.4,2.62,No
+6202,r018,56 Administration and Support and Waste Management and Remediation Services,56 Administration and Support and Waste Management and Remediation Services,,1,17.5,6.11,17.62,16.85,No,6.1,6.16,No
+6202,r019,61 Educational Services,61 Educational Services,,1,34.27,17.05,33.96,36.47,No,16.82,18.37,No
+6202,r020,62 Health Care and Social Assistance,62 Health Care and Social Assistance,,1,20.17,7.22,20.32,19.17,No,7.19,7.41,No
+6202,r021,"71 Arts, Entertainment, and Recreation","71 Arts, Entertainment, and Recreation",,1,24.21,12.11,24.83,21.55,No,12.45,10.56,No
+6202,r022,72 Accommodation and Food Services,72 Accommodation and Food Services,,1,16.42,8.22,16.18,17.55,No,8.1,8.77,No
+6202,r023,81 Other Services (except Public Administration),81 Other Services (except Public Administration),,1,17.37,7.58,17.64,15.97,No,7.66,7.17,No
+6202,r024,&nbsp;,&nbsp;,,1,,,,,,,,
+6202,r025,Firm size class,Firm size class,,1,,,,,,,,
+6202,r026,Firm size class -> 1&#8211;4,Firm size class,1&#8211;4,2,19.08,8.56,19.34,17.74,Yes,8.67,7.94,Yes
+6202,r027,Firm size class -> 5&#8211;9,Firm size class,5&#8211;9,2,20.74,9.39,21.09,19.02,Yes,9.49,8.83,No
+6202,r028,Firm size class -> 10&#8211;19,Firm size class,10&#8211;19,2,21.72,10.39,22.05,19.97,Yes,10.41,10.21,No
+6202,r029,Firm size class -> 20&#8211;49,Firm size class,20&#8211;49,2,21.61,10.58,21.98,19.44,Yes,10.79,9.35,Yes
+6202,r030,Firm size class -> 50&#8211;99,Firm size class,50&#8211;99,2,22.27,10.99,22.46,20.92,No,11.03,10.73,No
+6202,r031,Firm size class -> 100&#8211;249,Firm size class,100&#8211;249,2,24.04,12.22,24.12,23.24,No,12.26,11.72,No
+6202,r032,Firm size class -> 250&#8211;499,Firm size class,250&#8211;499,2,25.56,13.23,25.22,28.65,No,12.58,18.52,No
+6202,r033,Firm size class -> 500&#8211;999,Firm size class,500&#8211;999,2,26.14,13.17,26.72,22.99,No,13.54,11.01,No
+6202,r034,"Firm size class -> 1,000 or more",Firm size class,"1,000 or more",2,22.89,10.57,23.11,23.85,No,10.83,10.69,No

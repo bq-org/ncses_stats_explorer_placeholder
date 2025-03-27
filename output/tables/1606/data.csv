@@ -1,0 +1,13 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_1995,field_2003,field_2017
+1606,r001,All,All,,1,44000,60000,80000
+1606,r002,Sex,Sex,,1,,,
+1606,r003,Sex -> Female,Sex,Female,2,34000,45000,60000
+1606,r004,Sex -> Male,Sex,Male,2,49000,68000,90000
+1606,r005,Race and ethnicity,Race and ethnicity,,1,,,
+1606,r006,Race and ethnicity -> American Indian or Alaska Native,Race and ethnicity,American Indian or Alaska Native,2,s,48000,67000
+1606,r007,Race and ethnicity -> Asian,Race and ethnicity,Asian,2,45000,64000,90000
+1606,r008,Race and ethnicity -> Black or African American,Race and ethnicity,Black or African American,2,35000,48000,56000
+1606,r009,Race and ethnicity -> Hispanic or Latino,Race and ethnicity,Hispanic or Latino,2,38000,50000,65000
+1606,r010,Race and ethnicity -> Native Hawaiian or Other Pacific Islander,Race and ethnicity,Native Hawaiian or Other Pacific Islander,2,NA,56000,83000
+1606,r011,Race and ethnicity -> White,Race and ethnicity,White,2,45000,60000,80000
+1606,r012,Race and ethnicity -> More than one race,Race and ethnicity,More than one race,2,NA,50000,75000

@@ -1,0 +1,6 @@
+table_id,row_id,employment_status_full_path,employment_status_level_1,employment_status_level_2,employment_status_hierarchy_depth,field_age_years_75_and_younger,field_age_years_since_birth,field_age_years_1_9,field_age_years_10_19,field_age_years_20_29,field_age_years_30_39,field_age_years_40_49,field_age_years_50_75
+3317,r001,All scientists and engineers,All scientists and engineers,,1,4545000,345000,361000,718000,514000,393000,791000,1423000
+3317,r002,All scientists and engineers -> Employed in S&E or S&E-related occupations<sup>a</sup>,All scientists and engineers,Employed in S&E or S&E-related occupations<sup>a</sup>,2,1417000,125000,163000,258000,193000,121000,265000,292000
+3317,r003,All scientists and engineers -> Employed in non-S&E occupations<sup>b</sup>,All scientists and engineers,Employed in non-S&E occupations<sup>b</sup>,2,1512000,107000,114000,261000,184000,144000,326000,375000
+3317,r004,"All scientists and engineers -> Not employed, seeking employment",All scientists and engineers,"Not employed, seeking employment",2,163000,13000,24000,40000,27000,6000,20000,33000
+3317,r005,"All scientists and engineers -> Not employed, not seeking employment<sup>c</sup>",All scientists and engineers,"Not employed, not seeking employment<sup>c</sup>",2,1454000,99000,60000,158000,110000,122000,179000,724000

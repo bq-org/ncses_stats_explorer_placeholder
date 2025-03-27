@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E articles in agricultural sciences, whole count, by region, country, or economy: 2003\u201322",
+  "identifier": "NCSES-9986",
+  "description": "S&E articles in agricultural sciences, whole count, by region, country, or economy: 2003\u201322",
+  "url": "https://example.org/datasets/ncses/tables/9986",
+  "table_number": "SPBS-18",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9986/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Article counts refer to publications from selected journals and conference papers in S&E from Scopus. Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) of author(s) listed in the article. Articles are credited on a whole count basis. In whole counting, each region, country, or economy with a collaborating author on an article is credited with one count. The sum of the whole count for regions, countries, or economies does not add to the world total because of multiple counts of coauthored publications. Some publications have incomplete address information for coauthored publications in the Scopus database. The Unassigned category count is the sum of whole counts for publications that cannot be assigned to a region, country, or economy.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed April 2023; World Bank Country and Lending Groups, accessed May 2023.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

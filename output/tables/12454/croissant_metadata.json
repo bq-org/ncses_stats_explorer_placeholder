@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with new-to-market product innovation, by company size: 2020&#8211;22",
+  "identifier": "NCSES-12454",
+  "description": "Companies with new-to-market product innovation, by company size: 2020&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/12454",
+  "table_number": "27",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12454/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "company_size_number_of_employees",
+      "description": "Company size (number of employees) hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "company_size_number_of_employees_level_1, company_size_number_of_employees_level_2, company_size_number_of_employees_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "company_size_number_of_employees_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_new_to_market_number_yes",
+      "description": "Product Innovation New To Market Number Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_new_to_market_number_no",
+      "description": "Product Innovation New To Market Number No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_new_to_market_percent_yes",
+      "description": "Product Innovation New To Market Percent Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_new_to_market_percent_no",
+      "description": "Product Innovation New To Market Percent No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail across rows may not add to total because of rounding. Detail across columns have been adjusted to add to total. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2023 Annual Business Survey: Data Year 2022."
+}

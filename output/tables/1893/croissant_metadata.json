@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "International comparison of firm innovation rate of product and process, by country: 2012&#8211;14",
+  "identifier": "NCSES-1893",
+  "description": "International comparison of firm innovation rate of product and process, by country: 2012&#8211;14",
+  "url": "https://example.org/datasets/ncses/tables/1893",
+  "table_number": "8-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1893/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "country",
+      "description": "Country",
+      "valueType": "string",
+      "unitText": "Percent of firms"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "product_innovative_firms_regardless_of_any_other_type_of_innovation_",
+      "description": "Product Innovative Firms Regardless Of Any Other Type Of Innovation ",
+      "valueType": "string",
+      "unitText": "Percent of firms"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "process_innovative_firms_regardless_of_any_other_type_of_innovation_",
+      "description": "Process Innovative Firms Regardless Of Any Other Type Of Innovation ",
+      "valueType": "string",
+      "unitText": "Percent of firms"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Where indicated, most recent data are used. The comparison is limited to the sectors and industries that are jointly surveyed, based on the North American Industry Classification System equivalents of International Standard Industrial Classification of All Economic Activities Revision 4. These are: the European Union Core Coverage: B (mining and quarrying); C (manufacturing); D and E (electricity, gas, steam, water supply, sewerage, waste management, remediation); G 46 (wholesale trade, except motor vehicles and motorcycles); H (transport and storage); J 58 (publishing); J 61 (telecommunications); J 62 (computer programming, consultancy, and related activities); J 63 (information services); K (finance and insurance); M 71 (architecture, engineering, technical testing and analysis).",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, and U.S. Census Bureau, Business R&D and Innovation Survey, 2015; Organisation for Economic Co-operation and Development (OECD), OECD Science, Technology and Industry Scoreboard 2015.Science and Engineering Indicators"
+}

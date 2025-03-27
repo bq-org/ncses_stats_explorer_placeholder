@@ -1,0 +1,35 @@
+table_id,row_id,selected_characteristic_full_path,selected_characteristic_level_1,selected_characteristic_level_2,selected_characteristic_level_3,selected_characteristic_level_4,selected_characteristic_hierarchy_depth,field_number_of_early_career_doctorates,field_same_career_aspirations_as_when_doctorate_awardeda,field_different_career_aspirations_than_when_doctorate_awarded
+3841,r001,All early career doctorates,All early career doctorates,,,,1,186700,66.1,33.9
+3841,r002,All early career doctorates -> Sex,All early career doctorates,Sex,,,2,,,
+3841,r003,All early career doctorates -> Sex -> Female,All early career doctorates,Sex,Female,,3,89400,62.8,37.2
+3841,r004,All early career doctorates -> Sex -> Male,All early career doctorates,Sex,Male,,3,97300,69.1,30.9
+3841,r005,All early career doctorates -> Citizenship and sex,All early career doctorates,Citizenship and sex,,,2,,,
+3841,r006,All early career doctorates -> Citizenship and sex -> U.S. citizen or permanent resident,All early career doctorates,Citizenship and sex,U.S. citizen or permanent resident,,3,156100,65.0,35.0
+3841,r007,All early career doctorates -> Citizenship and sex -> U.S. citizen or permanent resident -> Female,All early career doctorates,Citizenship and sex,U.S. citizen or permanent resident,Female,4,79900,62.4,37.6
+3841,r008,All early career doctorates -> Citizenship and sex -> U.S. citizen or permanent resident -> Male,All early career doctorates,Citizenship and sex,U.S. citizen or permanent resident,Male,4,76300,67.8,32.2
+3841,r009,All early career doctorates -> Citizenship and sex -> Temporary visa holder,All early career doctorates,Citizenship and sex,Temporary visa holder,,3,30600,71.6,28.4
+3841,r010,All early career doctorates -> Citizenship and sex -> Temporary visa holder -> Female,All early career doctorates,Citizenship and sex,Temporary visa holder,Female,4,9600,66.8,33.2
+3841,r011,All early career doctorates -> Citizenship and sex -> Temporary visa holder -> Male,All early career doctorates,Citizenship and sex,Temporary visa holder,Male,4,21000,73.7,26.3
+3841,r012,All early career doctorates -> Ethnicity and race,All early career doctorates,Ethnicity and race,,,2,,,
+3841,r013,All early career doctorates -> Ethnicity and race -> Hispanic or Latino,All early career doctorates,Ethnicity and race,Hispanic or Latino,,3,13600,68.4,31.6
+3841,r014,All early career doctorates -> Ethnicity and race -> Not Hispanic or Latino,All early career doctorates,Ethnicity and race,Not Hispanic or Latino,,3,,,
+3841,r015,All early career doctorates -> Ethnicity and race -> Not Hispanic or Latino -> Asian,All early career doctorates,Ethnicity and race,Not Hispanic or Latino,Asian,4,37600,69.3,30.7
+3841,r016,All early career doctorates -> Ethnicity and race -> Not Hispanic or Latino -> Black or African American,All early career doctorates,Ethnicity and race,Not Hispanic or Latino,Black or African American,4,10100,55.6,44.4
+3841,r017,All early career doctorates -> Ethnicity and race -> Not Hispanic or Latino -> White,All early career doctorates,Ethnicity and race,Not Hispanic or Latino,White,4,120800,65.6,34.4
+3841,r018,All early career doctorates -> Ethnicity and race -> Not Hispanic or Latino -> Other race and ethnicity,All early career doctorates,Ethnicity and race,Not Hispanic or Latino,Other race and ethnicity,4,4700,69.6,30.4
+3841,r019,All early career doctorates -> Age quartile,All early career doctorates,Age quartile,,,2,,,
+3841,r020,All early career doctorates -> Age quartile -> 32 years and under,All early career doctorates,Age quartile,32 years and under,,3,38400,68.4,31.6
+3841,r021,All early career doctorates -> Age quartile -> 33&#8211;35 year,All early career doctorates,Age quartile,33&#8211;35 year,,3,51100,69.6,30.4
+3841,r022,All early career doctorates -> Age quartile -> 36&#8211;40 years,All early career doctorates,Age quartile,36&#8211;40 years,,3,41900,64.4,35.6
+3841,r023,All early career doctorates -> Age quartile -> 41 years or older,All early career doctorates,Age quartile,41 years or older,,3,55300,62.6,37.4
+3841,r024,All early career doctorates -> Marital status,All early career doctorates,Marital status,,,2,,,
+3841,r025,All early career doctorates -> Marital status -> Never married,All early career doctorates,Marital status,Never married,,3,29500,67.2,32.8
+3841,r026,All early career doctorates -> Marital status -> Married,All early career doctorates,Marital status,Married,,3,135400,66.0,34.0
+3841,r027,All early career doctorates -> Marital status -> Marriage-like relationship,All early career doctorates,Marital status,Marriage-like relationship,,3,11500,66.4,33.6
+3841,r028,"All early career doctorates -> Marital status -> Separated, divorced, widowed",All early career doctorates,Marital status,"Separated, divorced, widowed",,3,10300,64.3,35.7
+3841,r029,All early career doctorates -> Dependents,All early career doctorates,Dependents,,,2,,,
+3841,r030,All early career doctorates -> Dependents -> With dependents,All early career doctorates,Dependents,With dependents,,3,96800,66.6,33.4
+3841,r031,All early career doctorates -> Dependents -> Without dependents,All early career doctorates,Dependents,Without dependents,,3,90000,65.6,34.4
+3841,r032,All early career doctorates -> Disability status,All early career doctorates,Disability status,,,2,,,
+3841,r033,All early career doctorates -> Disability status -> With disability,All early career doctorates,Disability status,With disability,,3,51700,62.9,37.1
+3841,r034,All early career doctorates -> Disability status -> Without disability,All early career doctorates,Disability status,Without disability,,3,135000,67.3,32.7

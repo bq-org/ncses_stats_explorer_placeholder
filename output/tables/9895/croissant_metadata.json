@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Enrollment in minority-serving institutions, by MSI type, degree program level, and whether majoring in S&E and S&E-related fields: 2016",
+  "identifier": "NCSES-9895",
+  "description": "Enrollment in minority-serving institutions, by MSI type, degree program level, and whether majoring in S&E and S&E-related fields: 2016",
+  "url": "https://example.org/datasets/ncses/tables/9895",
+  "table_number": "SHED-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9895/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "degree_program_level_and_s_e_and_s_e_related_field",
+      "description": "Degree program level and S&E and S&E-related field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "degree_program_level_and_s_e_and_s_e_related_field_level_1, degree_program_level_and_s_e_and_s_e_related_field_level_2, degree_program_level_and_s_e_and_s_e_related_field_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "degree_program_level_and_s_e_and_s_e_related_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_degree_granting_institutions",
+      "description": "All Degree Granting Institutions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_asian_american_and_native_america_pacific_islander_serving_institutions",
+      "description": "Asian American And Native America Pacific Islander Serving Institutions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_serving_institutions",
+      "description": "Hispanic Serving Institutions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_historically_black_colleges_and_universities_and_predominantly_black_institutions",
+      "description": "Historically Black Colleges And Universities And Predominantly Black Institutions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_tribally_controlled_colleges_and_universities_alaska_native_and_native_hawaiian_serving_institutions_and_native_american_serving_nontribal_institutions",
+      "description": "Tribally Controlled Colleges And Universities Alaska Native And Native Hawaiian Serving Institutions And Native American Serving Nontribal Institutions",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_more_than_one_msi_designation",
+      "description": "Institutions With More Than One Msi Designation",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_enrollment_in_any_msi",
+      "description": "Enrollment In Any Msi",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percent_share_of_total_enrollment_in_any_msi",
+      "description": "Percent Share Of Total Enrollment In Any Msi",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data are based on institutions eligible to participate in Title IV federal financial aid programs. Numbers presented are weighted counts and are rounded to the nearest hundred. Detail may not sum to totals because of rounding.",
+  "sources": "National Center for Education Statistics, 2015\u201316 National Postsecondary Student Aid Study (NPSAS:16); U.S. Department of Education, Office of Postsecondary Education, 2022 Eligibility Matrix, https://www2.ed.gov/about/offices/list/ope/idues/eligibility.html, accessed 17 July 2023. Science and Engineering Indicators"
+}

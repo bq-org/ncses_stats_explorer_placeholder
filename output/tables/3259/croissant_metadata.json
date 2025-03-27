@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Bachelor's degrees awarded, by sex, field, citizenship, ethnicity, and race: 2008&#8211;18",
+  "identifier": "NCSES-3259",
+  "description": "Bachelor's degrees awarded, by sex, field, citizenship, ethnicity, and race: 2008&#8211;18",
+  "url": "https://example.org/datasets/ncses/tables/3259",
+  "table_number": "5-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3259/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_field_citizenship_ethnicity_and_race",
+      "description": "Sex, field, citizenship, ethnicity, and race hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "10"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_field_citizenship_ethnicity_and_race_level_1, sex_field_citizenship_ethnicity_and_race_level_2, sex_field_citizenship_ethnicity_and_race_level_3, sex_field_citizenship_ethnicity_and_race_level_4, sex_field_citizenship_ethnicity_and_race_level_5, sex_field_citizenship_ethnicity_and_race_level_6, sex_field_citizenship_ethnicity_and_race_level_7, sex_field_citizenship_ethnicity_and_race_level_8, sex_field_citizenship_ethnicity_and_race_level_9, sex_field_citizenship_ethnicity_and_race_level_10"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_field_citizenship_ethnicity_and_race_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Race and ethnicity breakouts are for U.S. citizens and permanent residents only. Temporary resident includes all racial and ethnic groups. Starting with 2011, data reflects the Office of Management and Budget\u2019s latest race and ethnicity categories. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs.",
+  "sources": "Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System, Completions Survey, unrevised provisional release data, accessed 14 January 2020."
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Sample and weighted counts of early career U.S. S&E doctorate holders, by subpopulation at graduation (2006\u201315) and residency: 2017",
+  "identifier": "NCSES-4556",
+  "description": "Sample and weighted counts of early career U.S. S&E doctorate holders, by subpopulation at graduation (2006\u201315) and residency: 2017",
+  "url": "https://example.org/datasets/ncses/tables/4556",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4556/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "selected_populations_of_interest",
+      "description": "Selected populations of interest hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "selected_populations_of_interest_level_1, selected_populations_of_interest_level_2, selected_populations_of_interest_level_3, selected_populations_of_interest_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "selected_populations_of_interest_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_weighted_counts_total_early_career_doctorate_holders",
+      "description": "Weighted Counts Total Early Career Doctorate Holders",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_weighted_counts_u_s_residents",
+      "description": "Weighted Counts U S Residents",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_weighted_counts_non_u_s_residents",
+      "description": "Weighted Counts Non U S Residents",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sample_sizes_total_early_career_doctorate_holders",
+      "description": "Sample Sizes Total Early Career Doctorate Holders",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sample_sizes_u_s_residents",
+      "description": "Sample Sizes U S Residents",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sample_sizes_non_u_s_residents",
+      "description": "Sample Sizes Non U S Residents",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Early career S&E doctorate holders are those who graduated in 2006\u201315. Imputed country of origin is country of citizenship at graduation for those reporting this information and it is birthplace for those not reporting country of citizenship. Item nonresponse in the Survey of Earned Doctorates affects citizenship status at graduation, country of origin, and expected post-graduation residency plans. All early career S&E doctorate holders include those with missing and nonmissing information. Weighted population counts rounded to the nearest 50. Detail may not add to total because of missing data due to item nonresponse.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2017, and Survey of Earned Doctorates, 2006\u201315."
+}

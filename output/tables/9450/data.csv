@@ -1,0 +1,10 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_level_3,characteristic_hierarchy_depth,field_1990,field_2000,field_2009,field_2019
+9450,r001,All students,All students,,,1,77,91,94,97
+9450,r002,All students -> Sex,All students,Sex,,2,,,,
+9450,r003,All students -> Sex -> Female,All students,Sex,Female,3,78,92,95,97
+9450,r004,All students -> Sex -> Male,All students,Sex,Male,3,75,90,94,96
+9450,r005,All students -> Race or ethnicity,All students,Race or ethnicity,,2,,,,
+9450,r006,All students -> Race or ethnicity -> Asian or Pacific Islander,All students,Race or ethnicity,Asian or Pacific Islander,3,85,96,98,99
+9450,r007,All students -> Race or ethnicity -> Black,All students,Race or ethnicity,Black,3,70,91,93,96
+9450,r008,All students -> Race or ethnicity -> Hispanic,All students,Race or ethnicity,Hispanic,3,67,87,91,96
+9450,r009,All students -> Race or ethnicity -> White,All students,Race or ethnicity,White,3,78,91,95,97

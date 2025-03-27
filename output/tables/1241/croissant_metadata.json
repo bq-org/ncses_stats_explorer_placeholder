@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Undergraduate enrollment in engineering programs, by sex, enrollment status, ethnicity, race, and citizenship: 2016",
+  "identifier": "NCSES-1241",
+  "description": "Undergraduate enrollment in engineering programs, by sex, enrollment status, ethnicity, race, and citizenship: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1241",
+  "table_number": "2-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1241/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_and_br_enrollment_status",
+      "description": "Sex andenrollment status hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_and_br_enrollment_status_level_1, sex_and_br_enrollment_status_level_2, sex_and_br_enrollment_status_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_and_br_enrollment_status_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_undergraduates",
+      "description": "All Undergraduates",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_white",
+      "description": "White",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_asian",
+      "description": "Asian",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_black_or_african_american",
+      "description": "Black Or African American",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinoa",
+      "description": "Hispanic Or Latinoa",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_native_american_or_alaska_native",
+      "description": "Native American Or Alaska Native",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_native_hawaiian_or_other_pacific_islander",
+      "description": "Native Hawaiian Or Other Pacific Islander",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_more_than_one_race",
+      "description": "More Than One Race",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_resident",
+      "description": "Temporary Resident",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Race or ethnicity breakouts are for U.S. citizens and permanent residents only. Temporary resident includes all racial and ethnic groups. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs and do not match previously published data that were based on accredited higher education institutions. Race or ethnicity breakouts are for U.S. citizens and permanent residents only. Temporary resident includes all racial and ethnic groups. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs. This table will not match previously published tables exactly due to source change.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, special tabulations (2018) from the Integrated Postsecondary Education Data System Fall Enrollment Survey, National Center for Education Statistics, U.S. Department of Education, accessed November 2018."
+}

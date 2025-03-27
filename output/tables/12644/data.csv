@@ -1,0 +1,6 @@
+table_id,row_id,_b_type_of_personnel_b_full_path,_b_type_of_personnel_b_level_1,_b_type_of_personnel_b_level_2,_b_type_of_personnel_b_level_3,_b_type_of_personnel_b_hierarchy_depth,field_all_personnel_functions_all_r_d_personnel,field_all_personnel_functions_imputed_amount,field_all_personnel_functions_imputed_amount_as_of_total,field_researchers_all_r_d_personnel,field_researchers_imputed_amount,field_researchers_imputed_amount_as_of_total,field_r_d_technicians_all_r_d_personnel,field_r_d_technicians_imputed_amount,field_r_d_technicians_imputed_amount_as_of_total,field_r_d_support_staff_all_r_d_personnel,field_r_d_support_staff_imputed_amount,field_r_d_support_staff_imputed_amount_as_of_total
+12644,r001,All personnel,All personnel,,,1,1064295,96124,9.0,380165,35368,9.3,403388,36119,9.0,280742,24637,8.8
+12644,r002,All personnel -> Sex,All personnel,Sex,,2,,,,,,,,,,,,
+12644,r003,All personnel -> Sex -> Female,All personnel,Sex,Female,3,536507,146272,27.3,162744,52236,32.1,207743,49359,23.8,166020,43703,26.3
+12644,r004,All personnel -> Sex -> Male,All personnel,Sex,Male,3,503932,135072,26.8,209952,65409,31.2,188066,41518,22.1,105914,27136,25.6
+12644,r005,All personnel -> Sex -> Sex unknown or not stated,All personnel,Sex,Sex unknown or not stated,3,23856,9633,40.4,7469,4578,61.3,7579,2350,31.0,8808,2682,30.4

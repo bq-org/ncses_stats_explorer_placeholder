@@ -1,0 +1,10 @@
+table_id,row_id,variable,settlement_size_description,effect,odds_ratio,95_wald_confidence_limits
+7227,r001,RUCC 1,Counties in a metropolitan area with a population of 1 million or more,1 vs. 9,1.453,"['1.423', '1.484']"
+7227,r002,RUCC 2,"Counties in a metropolitan area with a population of 250,000 to 1 million",2 vs. 9,1.355,"['1.326', '1.384']"
+7227,r003,RUCC 3,"Counties in a metropolitan area with a population of fewer than 250,000",3 vs. 9,1.267,"['1.24', '1.296']"
+7227,r004,RUCC 4,"Counties with an urban population of 20,000 or more adjacent to a metropolitan area",4 vs. 9,1.152,"['1.126', '1.179']"
+7227,r005, RUCC 5,"Counties with an urban population of 20,000 or more not adjacent to a metropolitan area",5 vs. 9,1.232,"['1.201', '1.264']"
+7227,r006,RUCC 6,"Counties with an urban population of 2,500 to 19,999 adjacent to a metropolitan area",6 vs. 9,1.033,"['1.009', '1.057']"
+7227,r007,RUCC 7,"Counties with an urban population of 2,500 to 19,999 not adjacent to a metropolitan area",7 vs. 9,1.071,"['1.045', '1.096']"
+7227,r008,RUCC 8,"Counties that are completely rural (urban population fewer than 2,500) adjacent to a metropolitan area",8 vs. 9,0.992,"['0.96', '1.025']"
+7227,r009,(RUCC 9 excluded category),"Counties that are completely rural (urban population fewer than 2,500) not adjacent to a metropolitan area",,,"['&nbsp;', '&nbsp;']"

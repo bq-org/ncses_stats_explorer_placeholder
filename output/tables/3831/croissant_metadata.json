@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Early career doctorates who indicate that various aspects of their sampled positions met or exceeded their expectations, by position type, employment setting, and position characteristics: 2017",
+  "identifier": "NCSES-3831",
+  "description": "Early career doctorates who indicate that various aspects of their sampled positions met or exceeded their expectations, by position type, employment setting, and position characteristics: 2017",
+  "url": "https://example.org/datasets/ncses/tables/3831",
+  "table_number": "7-3a",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3831/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "selected_characteristic",
+      "description": "Selected characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "selected_characteristic_level_1, selected_characteristic_level_2, selected_characteristic_level_3, selected_characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "selected_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_increased_subject_matter_knowledge",
+      "description": "Increased Subject Matter Knowledge",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_conducted_own_independent_research",
+      "description": "Conducted Own Independent Research",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_published_papers",
+      "description": "Published Papers",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_presented_papers_at_a_professional_conference",
+      "description": "Presented Papers At A Professional Conference",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_taught_courses",
+      "description": "Taught Courses",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_provided_clinical_or_professional_services",
+      "description": "Provided Clinical Or Professional Services",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_supervised_others",
+      "description": "Supervised Others",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_wrote_grant_proposals",
+      "description": "Wrote Grant Proposals",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worked_in_interdisciplinary_research_environments",
+      "description": "Worked In Interdisciplinary Research Environments",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_collaborated_or_networked_with_colleagues",
+      "description": "Collaborated Or Networked With Colleagues",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_developed_marketable_products",
+      "description": "Developed Marketable Products",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Counts are rounded to the nearest 100. Percentages are calculated from unrounded counts and rounded to the nearest 10th of a percent. \"Not applicable\" responses are excluded from the denominator for each column variable.",
+  "sources": "National Center for Science and Engineering Statistics, Early Career Doctorates Survey, 2017."
+}

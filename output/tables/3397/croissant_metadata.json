@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Location and type of postgraduate activity for U.S. citizen and permanent resident S&E doctorate recipients with definite postgraduate plans, by disability status: 2019",
+  "identifier": "NCSES-3397",
+  "description": "Location and type of postgraduate activity for U.S. citizen and permanent resident S&E doctorate recipients with definite postgraduate plans, by disability status: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3397",
+  "table_number": "8-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3397/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "location_and_type_of_activity",
+      "description": "Location and type of activity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "location_and_type_of_activity_level_1, location_and_type_of_activity_level_2, location_and_type_of_activity_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "location_and_type_of_activity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_recipientsa",
+      "description": "All Recipientsa",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability",
+      "description": "Without Disability",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability",
+      "description": "With Disability",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Includes all U.S. citizen and permanent resident S&E doctorate recipients; temporary visa holders are excluded. American Indian or Alaska Native doctorate recipients with unknown or refused citizenship status are counted as U.S. citizens and thus are included. Definite postgraduate plans are defined as Returning to, or continuing in, predoctoral employment or Have signed contract or made definite commitment for a \"postdoc\" or other work by doctoral degree recipients who responded to the question, What is the status of your postgraduate plans (in the next year)?  In 2019, 66.0% of U.S. citizen and permanent resident S&E doctorate recipients had definite plans. Percentages are based on doctorate recipients who answered the disability question. Doctorate recipients could report more than one disability. Survey asks degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Data in this table refer to research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or other health sciences, which are fields with many professional doctorates.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2019 Survey of Earned Doctorates."
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Observed and predicted any product innovation and new-to-market innovation rates, by state",
+  "identifier": "NCSES-6204",
+  "description": "Observed and predicted any product innovation and new-to-market innovation rates, by state",
+  "url": "https://example.org/datasets/ncses/tables/6204",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6204/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "any_product_innovation_characteristic",
+      "description": "Any product innovation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "any_product_innovation_level_1, any_product_innovation_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Share of innovating firms"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Shift refers to regional innovative shift in which + indicates that observed is statistically larger than predicted at the 0.05 level, and - indicates that observed is statistically smaller than predicted at the 0.05 level. These estimates are derived from companies with only a single location and may differ from the published innovation counts and estimates based on single- and multi-unit firms (Kindlon 2021). Limiting analysis to single-unit firms eliminates the potential headquarters\u2019 bias resulting from attributing innovation to the reporting location of multi-unit firms and reduces potential measurement error resulting from attributing company reports of innovation to all branch locations. The statistics allow inferences regarding the population of single-unit firms but do not allow inferences regarding the population of all firms.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2018 Annual Business Survey: Data Year 2017."
+}

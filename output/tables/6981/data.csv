@@ -1,0 +1,23 @@
+table_id,row_id,data_source,variable_name,description,match_step_used_in
+6981,r001,Person information,,,
+6981,r002,SDR,E-mail (up to 15 values per respondent),E-mail addresses associated with the respondent; the data quality is unknowna,"1, 2, 3, 11"
+6981,r003,SDR,DRFLNAME,"Last name of respondent recorded in the doctoral records file (i.e., when the respondent received the PhD)",All
+6981,r004,SDR,LNAME15,Last name of respondent recorded in the 2015 survey file,All
+6981,r005,SDR,DRFFNAME,"First name of respondent recorded in the doctoral records file (i.e., when the respondent received the PhD)",2 - 9
+6981,r006,SDR,FNAME15,First name of respondent recorded in the 2015 survey file,2 - 9
+6981,r007,NSF grants database,E-mailAddress,E-mail address of investigator,"1, 2, 3, 11"
+6981,r008,NSF grants database,LastName,Last name of investigator,All
+6981,r009,NSF grants database,FirstName,First name of investigator,2 - 11
+6981,r010,Location information,,,
+6981,r011,SDR,EMZIP,Employer ZIP code,4
+6981,r012,NSF grants database,ZIP5,Institution ZIP code,"4, 5, 6"
+6981,r013,SDR,ZIP15,Individual ZIP code in 2015,5
+6981,r014,SDR,DRFZIP,Individual ZIP code at time of PhD,6
+6981,r015,SDR,EMCITY,Employer city,7
+6981,r016,NSF grants database,CityName,Institution city,"7, 8, 9"
+6981,r017,SDR ,CITY15,Individual city in 2015,8
+6981,r018,NSF grants database,StateCode,Institution state,8
+6981,r019,SDR,STATE15,Individual state in 2015,8
+6981,r020,SDR ,DRFadd,Individual city at time of PhD,9
+6981,r021,SDR,EMNAME,Employer name,10
+6981,r022,NSF,NAME,Institution name,"10, 11"

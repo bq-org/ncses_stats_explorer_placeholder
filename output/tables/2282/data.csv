@@ -1,0 +1,37 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_the_center_of_the_earth_is_very_hot_true_,field_the_continents_have_been_moving_their_location_for_millions_of_years_and_will_continue_to_move_true_,field_does_the_earth_go_around_the_sun_or_does_the_sun_go_around_the_earth_earth_around_sun_,field_all_radioactivity_is_man_made_false_,field_it_is_the_father_s_gene_that_decides_whether_the_baby_is_a_boy_or_a_girl_true_,field_how_long_does_it_take_for_the_earth_to_go_around_the_sun_one_day_one_month_or_one_year_one_year_a,field_antibiotics_kill_viruses_as_well_as_bacteria_false_,field_human_beings_as_we_know_them_today_developed_from_earlier_species_of_animals_true_b_,field_electrons_are_smaller_than_atoms_true_,field_lasers_work_by_focusing_sound_waves_false_,field_the_universe_began_with_a_huge_explosion_true_c_
+2282,r001,"All adults (<i>n</i> = 1,175)","All adults (<i>n</i> = 1,175)",,1,86,79,72,68,59,54,50,49,46,44,38
+2282,r002,Sex,Sex,,1,,,,,,,,,,,
+2282,r003,Sex -> Male (<i>n</i> = 485),Sex,Male (<i>n</i> = 485),2,89,82,80,74,49,63,44,52,50,58,42
+2282,r004,Sex -> Female (<i>n</i> = 690),Sex,Female (<i>n</i> = 690),2,84,77,66,63,67,48,54,47,42,34,34
+2282,r005,Formal education,Formal education,,1,,,,,,,,,,,
+2282,r006,Formal education -> Less than high school diploma (<i>n</i> = 137),Formal education,Less than high school diploma (<i>n</i> = 137),2,74,59,56,49,35,31,16,34,24,29,37
+2282,r007,Formal education -> High school diploma (<i>n</i> = 362),Formal education,High school diploma (<i>n</i> = 362),2,83,78,67,64,51,46,40,41,35,39,31
+2282,r008,Formal education -> Some college (<i>n</i> = 330),Formal education,Some college (<i>n</i> = 330),2,90,85,73,67,60,58,48,52,48,41,32
+2282,r009,Formal education -> Bachelor's degree (<i>n</i> = 232),Formal education,Bachelor's degree (<i>n</i> = 232),2,89,84,81,79,74,68,71,61,62,54,48
+2282,r010,Formal education -> Graduate or professional degree (<i>n</i> = 114),Formal education,Graduate or professional degree (<i>n</i> = 114),2,93,85,88,86,85,69,88,53,67,67,51
+2282,r011,"Science and mathematics education<sup>d</sup><sup>,e</sup>","Science and mathematics education<sup>d</sup><sup>,e</sup>",,1,,,,,,,,,,,
+2282,r012,"Science and mathematics education<sup>d</sup><sup>,e</sup> -> Low (<i>n</i> = 598)","Science and mathematics education<sup>d</sup><sup>,e</sup>",Low (<i>n</i> = 598),2,82,74,64,61,51,44,39,44,34,37,32
+2282,r013,"Science and mathematics education<sup>d</sup><sup>,e</sup> -> Middle (<i>n</i> = 237)","Science and mathematics education<sup>d</sup><sup>,e</sup>",Middle (<i>n</i> = 237),2,90,83,74,72,65,59,56,51,52,47,38
+2282,r014,"Science and mathematics education<sup>d</sup><sup>,e</sup> -> High (<i>n</i> = 252)","Science and mathematics education<sup>d</sup><sup>,e</sup>",High (<i>n</i> = 252),2,94,92,91,84,75,76,77,61,69,61,49
+2282,r015,Family income (quartile)<sup>e</sup>,Family income (quartile)<sup>e</sup>,,1,,,,,,,,,,,
+2282,r016,Family income (quartile)<sup>e</sup> -> Bottom (<i>n</i> = 277),Family income (quartile)<sup>e</sup>,Bottom (<i>n</i> = 277),2,82,76,63,59,47,43,41,55,42,44,35
+2282,r017,Family income (quartile)<sup>e</sup> -> Third (<i>n</i> = 223),Family income (quartile)<sup>e</sup>,Third (<i>n</i> = 223),2,87,82,73,64,58,58,39,43,42,36,33
+2282,r018,Family income (quartile)<sup>e</sup> -> Second (<i>n</i> = 290),Family income (quartile)<sup>e</sup>,Second (<i>n</i> = 290),2,87,75,72,64,65,54,48,48,46,38,31
+2282,r019,Family income (quartile)<sup>e</sup> -> Top (<i>n</i> = 287),Family income (quartile)<sup>e</sup>,Top (<i>n</i> = 287),2,91,88,79,82,66,64,70,56,53,56,49
+2282,r020,Age (years),Age (years),,1,,,,,,,,,,,
+2282,r021,Age (years) -> 18&#8211;24 (<i>n</i> = 94),Age (years),18&#8211;24 (<i>n</i> = 94),2,90,86,76,59,45,67,34,70,48,41,46
+2282,r022,Age (years) -> 25&#8211;34 (<i>n</i> = 225),Age (years),25&#8211;34 (<i>n</i> = 225),2,89,84,74,63,62,61,50,54,48,43,37
+2282,r023,Age (years) -> 35&#8211;44 (<i>n</i> = 206),Age (years),35&#8211;44 (<i>n</i> = 206),2,90,82,76,68,68,55,49,48,45,39,42
+2282,r024,Age (years) -> 45&#8211;54 (<i>n</i> = 190),Age (years),45&#8211;54 (<i>n</i> = 190),2,86,80,71,67,60,53,50,42,47,50,32
+2282,r025,Age (years) -> 55&#8211;64 (<i>n</i> = 186),Age (years),55&#8211;64 (<i>n</i> = 186),2,84,73,71,71,63,51,56,47,45,48,38
+2282,r026,Age (years) -> 65 or older (<i>n</i> = 269),Age (years),65 or older (<i>n</i> = 269),2,80,74,67,74,51,45,54,38,38,42,34
+2282,r027,Verbal ability<sup>f</sup>,Verbal ability<sup>f</sup>,,1,,,,,,,,,,,
+2282,r028,Verbal ability<sup>f</sup> -> 0&#8211;4 (<i>n</i> = 256),Verbal ability<sup>f</sup>,0&#8211;4 (<i>n</i> = 256),2,78,68,60,50,41,37,20,42,29,32,37
+2282,r029,Verbal ability<sup>f</sup> -> 5 (<i>n</i> = 210),Verbal ability<sup>f</sup>,5 (<i>n</i> = 210),2,81,77,65,60,57,45,46,45,38,37,30
+2282,r030,Verbal ability<sup>f</sup> -> 6 (<i>n</i> = 254),Verbal ability<sup>f</sup>,6 (<i>n</i> = 254),2,88,84,70,72,60,53,48,43,45,41,30
+2282,r031,Verbal ability<sup>f</sup> -> 7 (<i>n</i> = 205),Verbal ability<sup>f</sup>,7 (<i>n</i> = 205),2,90,84,81,73,65,68,60,48,51,51,40
+2282,r032,Verbal ability<sup>f</sup> -> 8&#8211;10 (<i>n</i> = 250),Verbal ability<sup>f</sup>,8&#8211;10 (<i>n</i> = 250),2,93,86,85,85,75,71,79,65,65,60,49
+2282,r033,Correct answers to questions about basic scientific facts<sup>g</sup>,Correct answers to questions about basic scientific facts<sup>g</sup>,,1,,,,,,,,,,,
+2282,r034,Correct answers to questions about basic scientific facts<sup>g</sup> -> Low (<i>n</i> = 227),Correct answers to questions about basic scientific facts<sup>g</sup>,Low (<i>n</i> = 227),2,52,40,20,26,28,5,12,28,16,13,18
+2282,r035,Correct answers to questions about basic scientific facts<sup>g</sup> -> Middle (<i>n</i> = 512),Correct answers to questions about basic scientific facts<sup>g</sup>,Middle (<i>n</i> = 512),2,89,82,70,64,53,45,38,52,34,30,31
+2282,r036,Correct answers to questions about basic scientific facts<sup>g</sup> -> High (<i>n</i> = 436),Correct answers to questions about basic scientific facts<sup>g</sup>,High (<i>n</i> = 436),2,98,95,99,92,81,89,82,54,74,76,54

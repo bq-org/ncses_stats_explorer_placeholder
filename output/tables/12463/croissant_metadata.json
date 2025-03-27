@@ -1,0 +1,150 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total R&D cost, by selected industry and company size, for companies with 1\u20139 employees: 2019\u201322",
+  "identifier": "NCSES-12463",
+  "description": "Total R&D cost, by selected industry and company size, for companies with 1\u20139 employees: 2019\u201322",
+  "url": "https://example.org/datasets/ncses/tables/12463",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12463/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_all_companies",
+      "description": "2019 All Companies",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_1_4_employees",
+      "description": "2019 1 4 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_5_9_employees",
+      "description": "2019 5 9 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_all_companies",
+      "description": "2020 All Companies",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_1_4_employees",
+      "description": "2020 1 4 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_5_9_employees",
+      "description": "2020 5 9 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_all_companies",
+      "description": "2021 All Companies",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_1_4_employees",
+      "description": "2021 1 4 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_5_9_employees",
+      "description": "2021 5 9 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_all_companies",
+      "description": "2022 All Companies",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_1_4_employees",
+      "description": "2022 1 4 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_5_9_employees",
+      "description": "2022 5 9 Employees",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding or unavailable NAICS detail for select records beyond the 4-digit industry classification. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2023 Annual Business Survey: Data Year 2022."
+}

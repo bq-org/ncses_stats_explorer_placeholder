@@ -1,0 +1,270 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public interest in selected issues, by respondent characteristic: 2018",
+  "identifier": "NCSES-2289",
+  "description": "Public interest in selected issues, by respondent characteristic: 2018",
+  "url": "https://example.org/datasets/ncses/tables/2289",
+  "table_number": "S7-34",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2289/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_medical_discoveries_very_interested",
+      "description": "New Medical Discoveries Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_medical_discoveries_moderately_interested",
+      "description": "New Medical Discoveries Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_medical_discoveries_not_at_all_interested",
+      "description": "New Medical Discoveries Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_local_school_issues_very_interested",
+      "description": "Local School Issues Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_local_school_issues_moderately_interested",
+      "description": "Local School Issues Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_local_school_issues_not_at_all_interested",
+      "description": "Local School Issues Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_environmental_pollution_very_interested",
+      "description": "Environmental Pollution Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_environmental_pollution_moderately_interested",
+      "description": "Environmental Pollution Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_environmental_pollution_not_at_all_interested",
+      "description": "Environmental Pollution Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_scientific_discoveries_very_interested",
+      "description": "New Scientific Discoveries Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_scientific_discoveries_moderately_interested",
+      "description": "New Scientific Discoveries Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_scientific_discoveries_not_at_all_interested",
+      "description": "New Scientific Discoveries Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_economic_issues_business_conditions_very_interested",
+      "description": "Economic Issues Business Conditions Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_economic_issues_business_conditions_moderately_interested",
+      "description": "Economic Issues Business Conditions Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_economic_issues_business_conditions_not_at_all_interested",
+      "description": "Economic Issues Business Conditions Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_use_of_new_inventions_technologies_very_interested",
+      "description": "Use Of New Inventions Technologies Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_use_of_new_inventions_technologies_moderately_interested",
+      "description": "Use Of New Inventions Technologies Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_use_of_new_inventions_technologies_not_at_all_interested",
+      "description": "Use Of New Inventions Technologies Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_military_defense_policy_very_interested",
+      "description": "Military Defense Policy Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_military_defense_policy_moderately_interested",
+      "description": "Military Defense Policy Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_military_defense_policy_not_at_all_interested",
+      "description": "Military Defense Policy Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_space_exploration_very_interested",
+      "description": "Space Exploration Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_space_exploration_moderately_interested",
+      "description": "Space Exploration Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_space_exploration_not_at_all_interested",
+      "description": "Space Exploration Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_international_foreign_policy_issues_very_interested",
+      "description": "International Foreign Policy Issues Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_international_foreign_policy_issues_moderately_interested",
+      "description": "International Foreign Policy Issues Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_international_foreign_policy_issues_not_at_all_interested",
+      "description": "International Foreign Policy Issues Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_agricultural_farm_issues_very_interested",
+      "description": "Agricultural Farm Issues Very Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_agricultural_farm_issues_moderately_interested",
+      "description": "Agricultural Farm Issues Moderately Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_agricultural_farm_issues_not_at_all_interested",
+      "description": "Agricultural Farm Issues Not At All Interested",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Responses are to the following: There are a lot of issues in the news, and it is hard to keep up with every area. I'm going to read you a short list of issues, and for each one, I'd like you to tell me if you are very interested, moderately interested, or not at all interested. Percentages may not add to 100% because of rounding and because responses of \"don't know\" and refusals to respond are not shown.",
+  "sources": "NORC at the University of Chicago, General Social Survey (2018).Science and Engineering Indicators"
+}

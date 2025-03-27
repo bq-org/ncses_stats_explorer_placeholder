@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Science, engineering, and health doctorate holders employed in universities and 4-year colleges, by broad occupation, sex, race, ethnicity, and faculty rank: 2019",
+  "identifier": "NCSES-3409",
+  "description": "Science, engineering, and health doctorate holders employed in universities and 4-year colleges, by broad occupation, sex, race, ethnicity, and faculty rank: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3409",
+  "table_number": "9-28",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3409/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation_sex_race_and_ethnicity_160_160_160_160_160_160_160_160_160_160_160_160_160",
+      "description": "Occupation, sex, race, and ethnicity\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_sex_race_and_ethnicity_160_160_160_160_160_160_160_160_160_160_160_160_160_level_1, occupation_sex_race_and_ethnicity_160_160_160_160_160_160_160_160_160_160_160_160_160_level_2, occupation_sex_race_and_ethnicity_160_160_160_160_160_160_160_160_160_160_160_160_160_level_3, occupation_sex_race_and_ethnicity_160_160_160_160_160_160_160_160_160_160_160_160_160_level_4, occupation_sex_race_and_ethnicity_160_160_160_160_160_160_160_160_160_160_160_160_160_level_5, occupation_sex_race_and_ethnicity_160_160_160_160_160_160_160_160_160_160_160_160_160_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_sex_race_and_ethnicity_160_160_160_160_160_160_160_160_160_160_160_160_160_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professor",
+      "description": "Professor",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_associate_professor",
+      "description": "Associate Professor",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_assistant_professor",
+      "description": "Assistant Professor",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_faculty",
+      "description": "Other Faculty",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank_not_applicable",
+      "description": "Rank Not Applicable",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers rounded to nearest 50. Detail may not add to total because of rounding and suppression.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2019."
+}

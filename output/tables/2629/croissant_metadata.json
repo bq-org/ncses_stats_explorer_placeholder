@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Innovating companies, by effect of regulations or legislation on innovation: 2015&#8211;17",
+  "identifier": "NCSES-2629",
+  "description": "Innovating companies, by effect of regulations or legislation on innovation: 2015&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/2629",
+  "table_number": "63-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2629/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "regulation_or_legislation",
+      "description": "Regulation Or Legislation",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "stimulated_innovation",
+      "description": "Stimulated Innovation",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "created_no_major_problems",
+      "description": "Created No Major Problems",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "created_uncertainty",
+      "description": "Created Uncertainty",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "generated_an_excessive_burden",
+      "description": "Generated An Excessive Burden",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "not_applicable",
+      "description": "Not Applicable",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because companies could select more than one option. Innovating companies are defined here as those with product, process, marketing, or organizational innovation. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Annual Business Survey, 2017."
+}

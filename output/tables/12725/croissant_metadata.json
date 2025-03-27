@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Headcount and FTEs of R&D personnel at higher education institutions, by personnel function and sex: FYs 2020&#8211;23",
+  "identifier": "NCSES-12725",
+  "description": "Headcount and FTEs of R&D personnel at higher education institutions, by personnel function and sex: FYs 2020&#8211;23",
+  "url": "https://example.org/datasets/ncses/tables/12725",
+  "table_number": "78",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12725/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_personnel_functions_b",
+      "description": "Personnel functions hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_personnel_functions_b_level_1, _b_personnel_functions_b_level_2, _b_personnel_functions_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_personnel_functions_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_headcount",
+      "description": "2020 Headcount",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_ftes",
+      "description": "2020 Ftes",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_headcount",
+      "description": "2021 Headcount",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_ftes",
+      "description": "2021 Ftes",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_headcount",
+      "description": "2022 Headcount",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_ftes",
+      "description": "2022 Ftes",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023_headcount",
+      "description": "2023 Headcount",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023_ftes",
+      "description": "2023 Ftes",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "FTE R&D personnel are calculated as the total working effort spent on R&D during a specific period divided by the total effort representing a full-time schedule within the same period. This table includes only institutions reporting $1 million or more in total R&D expenditures in FY 2022. Institutions reporting less than $1 million in total R&D expenditures in FY 2022 completed a shorter version of the survey form in FY 2023 that did not include this question.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

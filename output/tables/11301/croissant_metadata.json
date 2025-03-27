@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Product or business process innovating companies, by firm classification of sex of owners: 2019&#8211;21",
+  "identifier": "NCSES-11301",
+  "description": "Product or business process innovating companies, by firm classification of sex of owners: 2019&#8211;21",
+  "url": "https://example.org/datasets/ncses/tables/11301",
+  "table_number": "54",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11301/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_of_owners",
+      "description": "Sex of owners hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_of_owners_level_1, sex_of_owners_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_of_owners_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_or_business_process_innovation_number_yes",
+      "description": "Product Or Business Process Innovation Number Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_or_business_process_innovation_number_no",
+      "description": "Product Or Business Process Innovation Number No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_or_business_process_innovation_percent_yes",
+      "description": "Product Or Business Process Innovation Percent Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_or_business_process_innovation_percent_no",
+      "description": "Product Or Business Process Innovation Percent No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value"
+    }
+  },
+  "notes": "Detail across rows may not add to total because of rounding. Detail across columns have been adjusted to add to total. Unclassifiable category includes firms that have no owners with a 10% or greater ownership of the stock or equity in the business. Statistics are representative of companies located in the United States. Companies are classified according to owner demographics if persons with that demographic characteristic own more than a 50% stake in the company.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2022 Annual Business Survey: Data Year 2021."
+}

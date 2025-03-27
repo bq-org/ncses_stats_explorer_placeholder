@@ -1,0 +1,57 @@
+table_id,row_id,state_full_path,state_level_1,state_level_2,state_hierarchy_depth,field_all_r_d,field_r_d_rank,field_performer_source_of_funds_,field_federal,field_ffrdcs_total,field_ffrdcs_federal,field_ffrdcs_nonfederald,field_business_total,field_business_own,field_business_paid_by_others_nonfederale,field_business_paid_by_others_federal,field_higher_educationa_total,field_higher_educationa_federal,field_higher_educationa_other_government,field_higher_educationa_business,field_higher_educationa_higher_education,field_higher_educationa_npo,field_higher_educationa_other,field_npos_total,field_state_internalb_total,field_gdp,field_gdp_rank,field_r_d_intensityc_percent,field_r_d_intensityc_rank
+8110,r001,U.S. total<sup>f</sup>,U.S. total<sup>f</sup>,,1,716955,na,,40371,23866,23478,389,543220,470436,43012,29772,80842,41462,4464,4837,22252,5284,2544,27973,683,21060474,na,3.4,na
+8110,r002,States total<sup>g</sup>,States total<sup>g</sup>,,1,713526,na,,38373,23514,23134,381,536816,465455,"41,987 - 43,163","28,195 - 29,371 ",86158,46047,4592,5180,21919,5744,2676,27973,692,20925236,na,3.41,na
+8110,r003,States total<sup>g</sup> -> Alabama,States total<sup>g</sup>,Alabama,2,5701,27,,1443,0,0,0,2937,1329,112,1497,1187,669,65,71,329,37,16,121,14,230892,27,2.47,22
+8110,r004,States total<sup>g</sup> -> Alaska,States total<sup>g</sup>,Alaska,2,339,50,,87,0,0,0,47,43,2,1,178,118,5,4,46,2,3,17,11,50475,49,0.67,48
+8110,r005,States total<sup>g</sup> -> Arizona,States total<sup>g</sup>,Arizona,2,9056,21,,264,73,70,3,7110,4899,754,1457,1499,647,81,42,495,99,135,109,2,382072,17,2.37,26
+8110,r006,States total<sup>g</sup> -> Arkansas,States total<sup>g</sup>,Arkansas,2,892,42,,41,0,0,0,414,360,38,16,371,136,72,20,127,12,5,65,0.05,133969,36,0.67,49
+8110,r007,States total<sup>g</sup> -> California,States total<sup>g</sup>,California,2,217976,1,,3458,6756,6650,105,193063,175459,9024,8580,10911,5524,438,733,2390,1127,701,3707,81,3020173,1,7.22,4
+8110,r008,States total<sup>g</sup> -> Colorado,States total<sup>g</sup>,Colorado,2,10297,15,,626,700,632,68,7145,6042,216,887,1666,1186,53,87,190,94,56,148,12,391263,16,2.63,20
+8110,r009,States total<sup>g</sup> -> Connecticut,States total<sup>g</sup>,Connecticut,2,9486,18,,15,0,0,0,7902,6487,393,1022,1401,761,12,85,430,102,11,143,26,276223,23,3.43,12
+8110,r010,States total<sup>g</sup> -> Delaware,States total<sup>g</sup>,Delaware,2,2749,34,,3,0,0,0,2499,1688,804,7,244,157,11,7,60,5,5,0,2,75819,43,3.63,11
+8110,r011,States total<sup>g</sup> -> District of Columbia<sup>h</sup>,States total<sup>g</sup>,District of Columbia<sup>h</sup>,2,7440,25,,4511,9,9,0,659,509,31,118,685,333,5,27,193,90,37,1574,3,144720,34,5.14,6
+8110,r012,States total<sup>g</sup> -> Florida,States total<sup>g</sup>,Florida,2,11888,14,,766,0,0,0,7885,5762,838,1284,2723,1278,252,114,890,131,57,461,52,1116727,4,1.06,41
+8110,r013,States total<sup>g</sup> -> Georgia,States total<sup>g</sup>,Georgia,2,8455,23,,198,0,0,0,5389,4426,814,149,2782,1627,172,141,703,122,17,83,3,625426,8,1.35,35
+8110,r014,States total<sup>g</sup> -> Hawaii,States total<sup>g</sup>,Hawaii,2,794,45,,91,0,0,0,279,216,37,25,298,184,19,3,78,13,1,120,7,82536,41,0.96,43
+8110,r015,States total<sup>g</sup> -> Idaho,States total<sup>g</sup>,Idaho,2,2929,31,,37,494,481,13,2210,2139,66,5,171,86,40,3,36,2,3,10,8,85928,40,3.41,13
+8110,r016,States total<sup>g</sup> -> Illinois,States total<sup>g</sup>,Illinois,2,19203,10,,181,1160,1140,20,14097,13415,582,101,2765,1666,39,169,697,156,39,1001,1,856943,5,2.24,28
+8110,r017,States total<sup>g</sup> -> Indiana,States total<sup>g</sup>,Indiana,2,10303,16,,243,0,0,0,8305,7202,976,126,1734,756,47,112,627,129,64,21,0.05,373782,20,2.76,17
+8110,r018,States total<sup>g</sup> -> Iowa,States total<sup>g</sup>,Iowa,2,4480,28,,71,33,32,0.05,3455,2664,0 - 588,204 - 792,917,430,43,46,360,32,6,1,3,196983,30,2.27,27
+8110,r019,States total<sup>g</sup> -> Kansas,States total<sup>g</sup>,Kansas,2,3616,30,,93,0,0,0,2771,1956,799,15,740,319,72,111,204,29,4,12,1,177581,32,2.04,31
+8110,r020,States total<sup>g</sup> -> Kentucky,States total<sup>g</sup>,Kentucky,2,1911,35,,7,0,0,0,1259,852,320,87,641,302,50,22,202,20,46,2,2,216866,28,0.88,45
+8110,r021,States total<sup>g</sup> -> Louisiana,States total<sup>g</sup>,Louisiana,2,1453,37,,53,0,0,0,535,475,30,30,798,309,97,99,227,40,25,55,11,232528,26,0.62,50
+8110,r022,States total<sup>g</sup> -> Maine,States total<sup>g</sup>,Maine,2,769,44,,8,0,0,0,434,385,32,18,151,66,22,3,54,4,2,172,4,70740,44,1.09,39
+8110,r023,States total<sup>g</sup> -> Maryland,States total<sup>g</sup>,Maryland,2,27853,8,,14521,1040,1040,0,5923,3964,593,1366,4745,3735,87,137,550,225,11,1624,1,410931,15,6.78,5
+8110,r024,States total<sup>g</sup> -> Massachusetts,States total<sup>g</sup>,Massachusetts,2,44907,3,,573,1917,1892,24,32737,27704,3861,1172,4361,2414,42,330,996,426,153,5310,10,585150,12,7.67,2
+8110,r025,States total<sup>g</sup> -> Michigan,States total<sup>g</sup>,Michigan,2,24898,6,,115,0,0,0,21589,18507,2812,269,2868,1425,63,128,1081,129,42,326,0.05,520105,14,4.79,7
+8110,r026,States total<sup>g</sup> -> Minnesota,States total<sup>g</sup>,Minnesota,2,10301,17,,61,0,0,0,7824,7421,229,175,1087,524,86,51,354,45,26,1327,3,376814,19,2.73,18
+8110,r027,States total<sup>g</sup> -> Mississippi,States total<sup>g</sup>,Mississippi,2,1098,41,,300,0,0,0,278,244,25,9,507,269,112,10,99,15,2,12,1,115123,37,0.95,44
+8110,r028,States total<sup>g</sup> -> Missouri,States total<sup>g</sup>,Missouri,2,8229,22,,126,0,0,0,6502,4581,150,1771,1444,822,30,118,351,112,12,149,8,330250,22,2.49,21
+8110,r029,States total<sup>g</sup> -> Montana,States total<sup>g</sup>,Montana,2,608,47,,65,0,0,0,242,224,9,9,290,161,25,4,91,7,2,4,6,52356,48,1.16,37
+8110,r030,States total<sup>g</sup> -> Nebraska,States total<sup>g</sup>,Nebraska,2,1492,39,,39,0,0,0,838,769,44,25,587,255,71,31,181,23,26,26,2,134581,35,1.11,38
+8110,r031,States total<sup>g</sup> -> Nevada,States total<sup>g</sup>,Nevada,2,1252,40,,20,0,0,0,931,707,195,29,296,110,12,6,152,7,10,5,0.05,172563,33,0.73,47
+8110,r032,States total<sup>g</sup> -> New Hampshire,States total<sup>g</sup>,New Hampshire,2,3332,32,,63,0,0,0,2755,1093,0 - 588,"1,074 - 1,662",484,244,6,13,189,26,8,29,0.05,88338,39,3.77,10
+8110,r033,States total<sup>g</sup> -> New Jersey,States total<sup>g</sup>,New Jersey,2,24121,7,,570,108,104,4,22009,18054,3722,234,1386,679,104,87,302,131,83,46,3,620086,9,3.89,9
+8110,r034,States total<sup>g</sup> -> New Mexico,States total<sup>g</sup>,New Mexico,2,8438,24,,688,6135,6076,58,1140,857,43,240,376,247,27,6,75,13,8,97,3,98790,38,8.54,1
+8110,r035,States total<sup>g</sup> -> New York,States total<sup>g</sup>,New York,2,36559,5,,1379,595,570,26,23414,21062,1326,1026,7156,3732,405,510,1675,530,305,3735,279,1740805,3,2.1,30
+8110,r036,States total<sup>g</sup> -> North Carolina,States total<sup>g</sup>,North Carolina,2,18064,11,,349,0,0,0,13369,9242,4010,118,3386,1940,164,329,685,214,55,942,18,598916,11,3.02,15
+8110,r037,States total<sup>g</sup> -> North Dakota,States total<sup>g</sup>,North Dakota,2,679,46,,37,0,0,0,342,331,10,1,267,76,65,13,105,2,6,33,0.05,54423,47,1.25,36
+8110,r038,States total<sup>g</sup> -> Ohio,States total<sup>g</sup>,Ohio,2,16647,12,,1885,0,0,0,11005,7511,2552,941,2519,1554,74,216,498,129,48,1236,2,684383,7,2.43,24
+8110,r039,States total<sup>g</sup> -> Oklahoma,States total<sup>g</sup>,Oklahoma,2,1892,36,,185,0,0,0,1012,945,28,39,604,243,61,38,243,14,5,89,2,190064,31,1.0,42
+8110,r040,States total<sup>g</sup> -> Oregon,States total<sup>g</sup>,Oregon,2,11537,19,,89,0,0,0,10472,10190,213,70,895,609,58,49,110,51,17,65,16,247967,24,4.65,8
+8110,r041,States total<sup>g</sup> -> Pennsylvania,States total<sup>g</sup>,Pennsylvania,2,21687,9,,420,141,141,0.05,15443,13544,1612,287,4820,2631,104,318,1385,294,89,855,8,771613,6,2.81,16
+8110,r042,States total<sup>g</sup> -> Rhode Island,States total<sup>g</sup>,Rhode Island,2,1638,38,,351,0,0,0,700,581,15,104,396,265,15,7,84,18,7,188,3,60771,45,2.7,19
+8110,r043,States total<sup>g</sup> -> South Carolina,States total<sup>g</sup>,South Carolina,2,2628,33,,108,176,173,3,1567,1337,133,97,743,349,39,43,273,26,12,7,28,245360,25,1.07,40
+8110,r044,States total<sup>g</sup> -> South Dakota,States total<sup>g</sup>,South Dakota,2,344,51,,17,0,0,0,216,209,6,1,111,51,19,3,19,5,13,1,0.05,55681,46,0.62,51
+8110,r045,States total<sup>g</sup> -> Tennessee,States total<sup>g</sup>,Tennessee,2,6187,26,,786,1633,1617,16,1820,1568,183,69,1399,766,37,83,433,60,19,548,2,379007,18,1.63,34
+8110,r046,States total<sup>g</sup> -> Texas,States total<sup>g</sup>,Texas,2,34589,4,,810,7,6,0,26084,22834,1985,1265,6620,2678,911,464,1821,471,274,1065,3,1789933,2,1.93,32
+8110,r047,States total<sup>g</sup> -> Utah,States total<sup>g</sup>,Utah,2,4452,29,,177,0,0,0,3285,2981,243,61,951,581,29,50,241,40,10,33,6,202133,29,2.2,29
+8110,r048,States total<sup>g</sup> -> Vermont,States total<sup>g</sup>,Vermont,2,574,49,,4,0,0,0,368,295,64,9,194,100,1,4,74,9,6,7,1,34019,51,1.69,33
+8110,r049,States total<sup>g</sup> -> Virginia,States total<sup>g</sup>,Virginia,2,13317,13,,2019,1468,1445,23,7235,5072,429,1734,1921,876,124,94,638,109,80,661,13,556993,13,2.39,25
+8110,r050,States total<sup>g</sup> -> Washington,States total<sup>g</sup>,Washington,2,46392,2,,282,1071,1054,17,41615,40576,773,265,1827,1196,81,71,225,211,43,1573,23,612969,10,7.57,3
+8110,r051,States total<sup>g</sup> -> West Virginia,States total<sup>g</sup>,West Virginia,2,556,48,,56,0,0,0,229,203,8,17,218,95,12,7,80,7,17,50,3,76548,42,0.73,46
+8110,r052,States total<sup>g</sup> -> Wisconsin,States total<sup>g</sup>,Wisconsin,2,8346,20,,57,0,0,0,6430,5506,837,87,1747,809,126,61,549,150,53,107,5,340591,21,2.45,23
+8110,r053,States total<sup>g</sup> -> Wyoming,States total<sup>g</sup>,Wyoming,2,1169,43,,26,0,0,0,1047,1035,9,2,93,57,5,5,25,1,0,0,3,36330,50,3.22,14
+8110,r054,U.S. undistributed<sup>i</sup>,U.S. undistributed<sup>i</sup>,,1,2050,na,,1243,0,0,0,807,707,0 - 101,0 - 101,0,0,0,0,0,0,0,0,0,0,na,na,na
+8110,r055,Puerto Rico,Puerto Rico,,1,656,na,,6,0,0,0,533,515,NA,NA,111,76,2,4,26,1,2,0,na,105428,na,na,na
+8110,r056,Other<sup>j</sup>,Other<sup>j</sup>,,1,69,na,,42,0,0,0,0,0,0,0,27,22,3,0.05,2,0.05,0,0,na,na,na,na,na

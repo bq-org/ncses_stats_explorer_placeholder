@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Worldwide, foreign, and domestic capital expenditures and capital expenditures for domestic R&D paid for and performed by the company, by type of expenditure, industry, and company size: 2021",
+  "identifier": "NCSES-9689",
+  "description": "Worldwide, foreign, and domestic capital expenditures and capital expenditures for domestic R&D paid for and performed by the company, by type of expenditure, industry, and company size: 2021",
+  "url": "https://example.org/datasets/ncses/tables/9689",
+  "table_number": "46",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9689/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worldwide_capital_expenditures_total",
+      "description": "Worldwide Capital Expenditures Total",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worldwide_capital_expenditures_property_plant_and_equipment",
+      "description": "Worldwide Capital Expenditures Property Plant And Equipment",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worldwide_capital_expenditures_identifiable_intangible_assets",
+      "description": "Worldwide Capital Expenditures Identifiable Intangible Assets",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_capital_expenditures_total",
+      "description": "Foreign Capital Expenditures Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_capital_expenditures_property_plant_and_equipment",
+      "description": "Foreign Capital Expenditures Property Plant And Equipment",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_capital_expenditures_identifiable_intangible_assets",
+      "description": "Foreign Capital Expenditures Identifiable Intangible Assets",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_total",
+      "description": "Domestic Capital Expenditures Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_property_plant_and_equipment",
+      "description": "Domestic Capital Expenditures Property Plant And Equipment",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_identifiable_intangible_assets",
+      "description": "Domestic Capital Expenditures Identifiable Intangible Assets",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_for_r_d_total",
+      "description": "Domestic Capital Expenditures For R D Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_for_r_d_property_plant_and_equipment",
+      "description": "Domestic Capital Expenditures For R D Property Plant And Equipment",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_for_r_d_identifiable_intangible_assets",
+      "description": "Domestic Capital Expenditures For R D Identifiable Intangible Assets",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_for_r_d_type_of_property_land_acquisition",
+      "description": "Domestic Capital Expenditures For R D Type Of Property Land Acquisition",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_for_r_d_type_of_property_buildings_and_land_improvement",
+      "description": "Domestic Capital Expenditures For R D Type Of Property Buildings And Land Improvement",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_for_r_d_type_of_property_machinery_and_equipment",
+      "description": "Domestic Capital Expenditures For R D Type Of Property Machinery And Equipment",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_for_r_d_type_of_property_capitalized_software",
+      "description": "Domestic Capital Expenditures For R D Type Of Property Capitalized Software",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_for_r_d_type_of_property_other_intellectual_property",
+      "description": "Domestic Capital Expenditures For R D Type Of Property Other Intellectual Property",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_capital_expenditures_for_r_d_type_of_property_all_other",
+      "description": "Domestic Capital Expenditures For R D Type Of Property All Other",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D and are not comparable with estimates published for years prior to 2018. The \"undistributed\" column shown in prior years is no longer necessary because of processing improvements implemented beginning in 2015. An estimate range may be displayed in place of a single estimate to avoid disclosing operations of individual companies.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2021."
+}

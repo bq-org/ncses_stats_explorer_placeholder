@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate recipients' source of primary support, by field, sex, citizenship, ethnicity, and race: 2015&#8211;17",
+  "identifier": "NCSES-1559",
+  "description": "Doctorate recipients' source of primary support, by field, sex, citizenship, ethnicity, and race: 2015&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1559",
+  "table_number": "S2-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1559/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "source_of_primary_support_and_field",
+      "description": "Source of primary support and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "source_of_primary_support_and_field_level_1, source_of_primary_support_and_field_level_2, source_of_primary_support_and_field_level_3, source_of_primary_support_and_field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "source_of_primary_support_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_totala",
+      "description": "Totala",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holder",
+      "description": "Temporary Visa Holder",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_total",
+      "description": "U S Citizens And Permanent Residents Total",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_male",
+      "description": "U S Citizens And Permanent Residents Male",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_female",
+      "description": "U S Citizens And Permanent Residents Female",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_hispanic_or_latinob",
+      "description": "U S Citizens And Permanent Residents Hispanic Or Latinob",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_american_indian_or_alaska_native",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino American Indian Or Alaska Native",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_asian",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino Asian",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_black_or_african_american",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino Black Or African American",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_white",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino White",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_more_than_one_race",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino More Than One Race",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_other_race_or_race_not_reported",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino Other Race Or Race Not Reported",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_ethnicity_not_reported",
+      "description": "U S Citizens And Permanent Residents Ethnicity Not Reported",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include only doctorate recipients who reported a primary source of support. Reporting categories for ethnicity and race were expanded in 2013; comparisons with data before 2013 should be made with caution. Personal support mechanisms include personal savings, other personal earnings, other family earnings or savings, and loans. Research assistantships include research assistantships and other assistantships. Traineeships include internships and residencies. Other support mechanisms include employer reimbursement or assistance, foreign support, and other sources. Percentages may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, special tabulations (2018) of the Survey of Earned Doctorates (SED).Science and Engineering Indicators"
+}

@@ -1,0 +1,13 @@
+table_id,row_id,occupation_group_and_sex_full_path,occupation_group_and_sex_level_1,occupation_group_and_sex_level_2,occupation_group_and_sex_level_3,occupation_group_and_sex_hierarchy_depth,field_with_a_bachelor_s_degree_or_higher,field_without_a_bachelor_s_degree_stw_
+11004,r001,STEM workers,STEM workers,,,1,,
+11004,r002,STEM workers -> Male,STEM workers,Male,,2,40.7,59.3
+11004,r003,STEM workers -> Female,STEM workers,Female,,2,60.8,39.2
+11004,r004,STEM workers -> S&E workers,STEM workers,S&E workers,,2,,
+11004,r005,STEM workers -> S&E workers -> Male,STEM workers,S&E workers,Male,3,76.6,23.4
+11004,r006,STEM workers -> S&E workers -> Female,STEM workers,S&E workers,Female,3,80.7,19.3
+11004,r007,STEM workers -> S&E-related workers,STEM workers,S&E-related workers,,2,,
+11004,r008,STEM workers -> S&E-related workers -> Male,STEM workers,S&E-related workers,Male,3,65.1,34.9
+11004,r009,STEM workers -> S&E-related workers -> Female,STEM workers,S&E-related workers,Female,3,61.1,38.9
+11004,r010,STEM workers -> STEM middle-skill workers,STEM workers,STEM middle-skill workers,,2,,
+11004,r011,STEM workers -> STEM middle-skill workers -> Male,STEM workers,STEM middle-skill workers,Male,3,11.3,88.7
+11004,r012,STEM workers -> STEM middle-skill workers -> Female,STEM workers,STEM middle-skill workers,Female,3,24.9,75.1

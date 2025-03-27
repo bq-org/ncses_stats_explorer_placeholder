@@ -1,0 +1,160 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. residing employed doctoral scientists and engineers, by sector of employment, broad occupation, ethnicity, and race: 2019",
+  "identifier": "NCSES-3718",
+  "description": "U.S. residing employed doctoral scientists and engineers, by sector of employment, broad occupation, ethnicity, and race: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3718",
+  "table_number": "44",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3718/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_sector_and_occupation",
+      "description": "Employment sector and occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_sector_and_occupation_level_1, employment_sector_and_occupation_level_2, employment_sector_and_occupation_level_3, employment_sector_and_occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_sector_and_occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_number",
+      "description": "All Employed Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_se",
+      "description": "All Employed Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinoa_number",
+      "description": "Hispanic Or Latinoa Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinoa_se",
+      "description": "Hispanic Or Latinoa Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_american_indian_or_alaska_native_number",
+      "description": "Not Hispanic Or Latinob American Indian Or Alaska Native Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_american_indian_or_alaska_native_se",
+      "description": "Not Hispanic Or Latinob American Indian Or Alaska Native Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_asian_number",
+      "description": "Not Hispanic Or Latinob Asian Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_asian_se",
+      "description": "Not Hispanic Or Latinob Asian Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_black_or_african_american_number",
+      "description": "Not Hispanic Or Latinob Black Or African American Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_black_or_african_american_se",
+      "description": "Not Hispanic Or Latinob Black Or African American Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_white_number",
+      "description": "Not Hispanic Or Latinob White Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_white_se",
+      "description": "Not Hispanic Or Latinob White Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_other_racec_number",
+      "description": "Not Hispanic Or Latinob Other Racec Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinob_other_racec_se",
+      "description": "Not Hispanic Or Latinob Other Racec Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to nearest 50. Detail may not add to total because of rounding. Standard errors are rounded up to nearest 25. Residence location is based on reported living location on 1 February 2019.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients: 2019."
+}

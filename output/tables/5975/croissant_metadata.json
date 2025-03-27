@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Decomposition of patenting rates for commuting zones based on level of urbanization",
+  "identifier": "NCSES-5975",
+  "description": "Decomposition of patenting rates for commuting zones based on level of urbanization",
+  "url": "https://example.org/datasets/ncses/tables/5975",
+  "table_number": "6b",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5975/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "summary_occupations_sup_a_sup_characteristic",
+      "description": "Summary occupationsa hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "summary_occupations_sup_a_sup_level_1, summary_occupations_sup_a_sup_level_2, summary_occupations_sup_a_sup_level_3, summary_occupations_sup_a_sup_level_4"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Rate and composition factors pertaining to patenting"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value"
+    }
+  },
+  "notes": "RF is patents per inventive class member, and CF is inventive class as a share of total commuting zone population. In a departure from Wojan, Dotzel, and Low (2015), all Hawaiian and Alaskan commuting zones (including Aleutians West Census Area, AK, part of the Seattle, WA, commuting zone) are omitted. This change results in slight discrepancies in observed patenting rates across studies.",
+  "sources": "U.S. Patent and Trademark Office; Census Bureau, special tabulations (2015) of the 2000 Census."
+}

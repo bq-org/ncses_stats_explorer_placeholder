@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Measures and size of U.S. S&E workforce: 2017",
+  "identifier": "NCSES-1616",
+  "description": "Measures and size of U.S. S&E workforce: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1616",
+  "table_number": "S3-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1616/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "measure",
+      "description": "Measure hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "measure_level_1, measure_level_2, measure_level_3, measure_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "measure_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_coverage",
+      "description": "Education Coverage",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_data_source",
+      "description": "Data Source",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_individuals",
+      "description": "Individuals",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Estimates of the S&E workforce vary across the example surveys because of differences in the scope of the data collection (the NSCG collects data from individuals with bachelor's degrees or higher only); because of the survey respondent (the NSCG collects data from individuals, the OES Survey collects data from establishments, and the ACS collects data from households); or because of the level of detail collected on an occupation, which aids in classifying a reported occupation into a standard occupational category. All these differences can affect the estimates. For example, the NSCG estimate of the number of workers in S&E occupations includes postsecondary teachers of S&E fields; however, postsecondary teachers in ACS are grouped under a single occupation code, regardless of field, and are therefore not included in the ACS estimate of the number of workers in S&E occupations. The totals for at least one degree in S&E field and highest degree in S&E field include individuals who are employed and those who are unemployed and out of the labor force. The OES data do not include military. Values are rounded to the nearest thousand.",
+  "sources": "Bureau of Labor and Statistics, Occupational Employment Statistics (OES) Survey, 2017; Census Bureau, American Community Survey (ACS), 2017, Public Use Microdata Sample (PUMS); National Center for Science and Engineering Statistics, National Science Foundation, National Survey of College Graduates (NSCG), 2017.Science and Engineering Indicators"
+}

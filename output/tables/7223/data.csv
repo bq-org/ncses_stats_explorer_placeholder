@@ -1,0 +1,53 @@
+table_id,row_id,time_period,column_level_1,column_level_2,column_hierarchy_depth,value
+7223,r001_1,1,Settlement size description,,1,Counties in a metropolitan area with a population of 1 million or more
+7223,r001_2,1,Digitalization,Percent,2,69.55
+7223,r001_4,1,Digitalization,Standard error of mean,2,1.39
+7223,r001_6,1,Cloud computing,Percent,2,47.34
+7223,r001_8,1,Cloud computing,Standard error of mean,2,1.49
+7223,r002_1,2,Settlement size description,,1,"Counties in a metropolitan area with a population of 250,000 to 1 million"
+7223,r002_2,2,Digitalization,Percent,2,70.42
+7223,r002_4,2,Digitalization,Standard error of mean,2,1.42
+7223,r002_6,2,Cloud computing,Percent,2,44.88
+7223,r002_8,2,Cloud computing,Standard error of mean,2,1.65
+7223,r003_1,3,Settlement size description,,1,"Counties in a metropolitan area with a population of fewer than 250,000"
+7223,r003_2,3,Digitalization,Percent,2,69.9
+7223,r003_4,3,Digitalization,Standard error of mean,2,1.31
+7223,r003_6,3,Cloud computing,Percent,2,42.58
+7223,r003_8,3,Cloud computing,Standard error of mean,2,1.47
+7223,r004_1,4,Settlement size description,,1,"Counties with an urban population of 20,000 or more adjacent to a metropolitan area"
+7223,r004_2,4,Digitalization,Percent,2,67.99
+7223,r004_4,4,Digitalization,Standard error of mean,2,1.14
+7223,r004_6,4,Cloud computing,Percent,2,39.05
+7223,r004_7,4,Cloud computing, ,2,0.05
+7223,r004_8,4,Cloud computing,Standard error of mean,2,1.28
+7223,r005_1,5,Settlement size description,,1,"Counties with an urban population of 20,000 or more not adjacent to a metropolitan area"
+7223,r005_2,5,Digitalization,Percent,2,69.42
+7223,r005_4,5,Digitalization,Standard error of mean,2,1.38
+7223,r005_6,5,Cloud computing,Percent,2,41.17
+7223,r005_8,5,Cloud computing,Standard error of mean,2,1.79
+7223,r006_1,6,Settlement size description,,1,"Counties with an urban population of 2,500 to 19,999 adjacent to a metropolitan area"
+7223,r006_2,6,Digitalization,Percent,2,63.83
+7223,r006_3,6,Digitalization, ,2,0.05
+7223,r006_4,6,Digitalization,Standard error of mean,2,1.05
+7223,r006_6,6,Cloud computing,Percent,2,35.41
+7223,r006_7,6,Cloud computing, ,2,0.05
+7223,r006_8,6,Cloud computing,Standard error of mean,2,1.08
+7223,r007_1,7,Settlement size description,,1,"Counties with an urban population of 2,500 to 19,999 not adjacent to a metropolitan area"
+7223,r007_2,7,Digitalization,Percent,2,65.53
+7223,r007_4,7,Digitalization,Standard error of mean,2,1.26
+7223,r007_6,7,Cloud computing,Percent,2,36.31
+7223,r007_7,7,Cloud computing, ,2,0.05
+7223,r007_8,7,Cloud computing,Standard error of mean,2,1.45
+7223,r008_1,8,Settlement size description,,1,"Counties that are completely rural (urban population fewer than 2,500) adjacent to a metropolitan area"
+7223,r008_2,8,Digitalization,Percent,2,62.88
+7223,r008_4,8,Digitalization,Standard error of mean,2,1.76
+7223,r008_6,8,Cloud computing,Percent,2,32.98
+7223,r008_7,8,Cloud computing, ,2,0.05
+7223,r008_8,8,Cloud computing,Standard error of mean,2,1.77
+7223,r009_1,9,Settlement size description,,1,"Counties that are completely rural (urban population fewer than 2,500) not adjacent to a metropolitan area"
+7223,r009_2,9,Digitalization,Percent,2,61.04
+7223,r009_3,9,Digitalization, ,2,0.05
+7223,r009_4,9,Digitalization,Standard error of mean,2,1.57
+7223,r009_6,9,Cloud computing,Percent,2,32.58
+7223,r009_7,9,Cloud computing, ,2,0.05
+7223,r009_8,9,Cloud computing,Standard error of mean,2,1.89

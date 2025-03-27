@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with 1&#8211;4 employees with and without R&D that reported innovation, by size of R&D program and type of innovation: 2014&#8211;16",
+  "identifier": "NCSES-1486",
+  "description": "Companies with 1&#8211;4 employees with and without R&D that reported innovation, by size of R&D program and type of innovation: 2014&#8211;16",
+  "url": "https://example.org/datasets/ncses/tables/1486",
+  "table_number": "14",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1486/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "company_type",
+      "description": "Company type hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "company_type_level_1, company_type_level_2, company_type_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "company_type_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_companiesa",
+      "description": "Product Innovation Companiesa",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_yes",
+      "description": "Product Innovation Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_no",
+      "description": "Product Innovation No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_process_innovation_companiesa",
+      "description": "Process Innovation Companiesa",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_process_innovation_yes",
+      "description": "Process Innovation Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_process_innovation_no",
+      "description": "Process Innovation No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_marketing_innovation_companiesa",
+      "description": "Marketing Innovation Companiesa",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_marketing_innovation_yes",
+      "description": "Marketing Innovation Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_marketing_innovation_no",
+      "description": "Marketing Innovation No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_organizational_innovation_companiesa",
+      "description": "Organizational Innovation Companiesa",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_organizational_innovation_yes",
+      "description": "Organizational Innovation Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_organizational_innovation_no",
+      "description": "Organizational Innovation No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification based on sample NAICS code. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Microbusiness R&D and Innovation Survey, 2016."
+}

@@ -1,0 +1,35 @@
+# Employed scientists and engineers, by sex, major field of highest degree, ethnicity, race, disability status, and type of disability: 2017
+
+**Modal ID:** 6839
+
+**Table Number:** 1-5
+
+**Type:** MH (Matrix Hierarchical)
+
+**Units:** (Number)
+
+## Notes
+
+Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding. Scientists and engineers are bachelor's and higher degreed individuals living in the United States employed in an S&E occupation. Hispanic or Latino may be any race; race categories exclude Hispanic origin. The National Survey of College Graduates asks the degree of difficulty—none, slight, moderate, severe, or unable to do—an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered "moderate," "severe," or "unable to do" for an activity were classified as having a disability.
+
+## Sources
+
+National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017.
+
+## Files
+
+- `data.csv`: The table data in CSV format
+- `croissant_metadata.json`: ML Croissant metadata for machine learning applications
+
+## Structure
+
+- Row hierarchy depth: 4
+- Column hierarchy depth: 2
+- Time series: No
+
+## Special Values
+
+- `i`: imputed value
+- `r`: revised value
+- `D`: suppressed to avoid disclosure of confidential information
+- `*`: value between 0.00% and 0.05%

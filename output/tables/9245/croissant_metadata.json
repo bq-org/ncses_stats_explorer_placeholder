@@ -1,0 +1,197 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by field of doctorate and citizenship status: 2019",
+  "identifier": "NCSES-9245",
+  "description": "Median annual salaries of U.S. residing full-time employed doctoral scientists and engineers, by field of doctorate and citizenship status: 2019",
+  "url": "https://example.org/datasets/ncses/tables/9245",
+  "table_number": "51",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9245/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_level_1, field_of_study_level_2, field_of_study_level_3, field_of_study_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_full_path",
+      "description": "Of Study Full Path",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_1",
+      "description": "Of Study Level 1",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_2",
+      "description": "Of Study Level 2",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_3",
+      "description": "Of Study Level 3",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_4",
+      "description": "Of Study Level 4",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_hierarchy_depth",
+      "description": "Of Study Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_all_median_salary",
+      "description": "All Full Time Employed All Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_full_time_employed_all_se",
+      "description": "All Full Time Employed All Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_all_median_salary",
+      "description": "U S Citizen All Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_all_se",
+      "description": "U S Citizen All Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_native_born_median_salary",
+      "description": "U S Citizen Native Born Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_native_born_se",
+      "description": "U S Citizen Native Born Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_naturalized_median_salary",
+      "description": "U S Citizen Naturalized Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen_naturalized_se",
+      "description": "U S Citizen Naturalized Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_all_median_salary",
+      "description": "Non U S Citizen All Median Salary",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_all_se",
+      "description": "Non U S Citizen All Se",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_permanent_resident_median_salary",
+      "description": "Non U S Citizen Permanent Resident Median Salary",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_permanent_resident_se",
+      "description": "Non U S Citizen Permanent Resident Se",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_temporary_resident_median_salary",
+      "description": "Non U S Citizen Temporary Resident Median Salary",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen_temporary_resident_se",
+      "description": "Non U S Citizen Temporary Resident Se",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Median annual salaries are for principal job and are rounded to nearest $1,000. Full time is based on working 35 or more hours per week. Standard errors are rounded up to the nearest $500. Residence location is based on reported living location on 1 February 2019.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients: 2019."
+}

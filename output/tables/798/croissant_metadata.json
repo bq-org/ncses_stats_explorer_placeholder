@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Survey forms mailed for companies with subcompany reporting units, by sampling stratum: 2015",
+  "identifier": "NCSES-798",
+  "description": "Survey forms mailed for companies with subcompany reporting units, by sampling stratum: 2015",
+  "url": "https://example.org/datasets/ncses/tables/798",
+  "table_number": "A-8",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/798/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "stratum",
+      "description": "Stratum hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "stratum_level_1, stratum_level_2, stratum_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "stratum_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sent_one_form_brdi_1",
+      "description": "Sent One Form Brdi 1",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sent_one_form_brdi_1_s_",
+      "description": "Sent One Form Brdi 1 S ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sent_multiple_formsa_companies",
+      "description": "Sent Multiple Formsa Companies",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sent_multiple_formsa_brdi_1",
+      "description": "Sent Multiple Formsa Brdi 1",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sent_multiple_formsa_brdi_1_s_",
+      "description": "Sent Multiple Formsa Brdi 1 S ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Companies were sent the detailed survey form (BRDI-1) if their R&D spending was at least $1.0 million in 2013 or 2014 (except companies that did not respond in these prior 2 years). All other companies received an abbreviated form (BRDI-1(S)). Companies were said to be known to conduct R&D (known positive R&D) if they reported positive R&D in any of the previous 5 survey years. Companies were said to have known zero R&D if they reported zero R&D in at least 1 of the previous 5 survey years and no positive R&D in any of the 5 years. Companies were said to be unknown if no R&D information was available.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Business R&D and Innovation Survey, 2015."
+}

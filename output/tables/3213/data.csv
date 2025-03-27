@@ -1,0 +1,11 @@
+table_id,row_id,_b_type_of_cost_b_full_path,_b_type_of_cost_b_level_1,_b_type_of_cost_b_level_2,_b_type_of_cost_b_level_3,_b_type_of_cost_b_level_4,_b_type_of_cost_b_hierarchy_depth,field_all_r_d_expenditures,field_imputed_amount,field_imputed_amount_as_of_total
+3213,r001,All costs,All costs,,,,1,83496,69,0.1
+3213,r002,All costs -> Direct costs,All costs,Direct costs,,,2,64331,2479,3.9
+3213,r003,"All costs -> Direct costs -> Salaries, wages, and fringe benefits",All costs,Direct costs,"Salaries, wages, and fringe benefits",,3,36575,336,0.9
+3213,r004,All costs -> Direct costs -> Software purchases,All costs,Direct costs,Software purchases,,3,136,3,2.3
+3213,r005,All costs -> Direct costs -> Software purchases -> Noncapitalized,All costs,Direct costs,Software purchases,Noncapitalized,4,121,3,2.6
+3213,r006,All costs -> Direct costs -> Software purchases -> Capitalized,All costs,Direct costs,Software purchases,Capitalized,4,15,0,0.0
+3213,r007,All costs -> Direct costs -> Capitalized equipment,All costs,Direct costs,Capitalized equipment,,3,2434,6,0.2
+3213,r008,All costs -> Direct costs -> Passed through to subrecipients,All costs,Direct costs,Passed through to subrecipients,,3,6708,11,0.2
+3213,r009,All costs -> Direct costs -> Other direct costs,All costs,Direct costs,Other direct costs,,3,18478,567,3.1
+3213,r010,All costs -> Indirect costs,All costs,Indirect costs,,,2,19165,119,0.6

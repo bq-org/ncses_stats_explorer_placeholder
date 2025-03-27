@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment sector of scientists and engineers, by broad occupational category and degree field: 2017",
+  "identifier": "NCSES-1595",
+  "description": "Employment sector of scientists and engineers, by broad occupational category and degree field: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1595",
+  "table_number": "3-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1595/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_sector",
+      "description": "Employment sector hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_sector_level_1, employment_sector_level_2, employment_sector_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_sector_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_scientists_and_engineers",
+      "description": "All Employed Scientists And Engineers",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_highest_degree_in_s_e",
+      "description": "Highest Degree In S E",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations",
+      "description": "S E Occupations",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related_occupations",
+      "description": "S E Related Occupations",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e_occupations",
+      "description": "Non S E Occupations",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Scientists and engineers include those with one or more S&E or S&E-related degrees at the bachelor's level or higher or those who have only a non-S&E degree at the bachelor's level or higher and are employed in an S&E or S&E-related occupation. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Survey of College Graduates (NSCG), 2017.Science and Engineering Indicators"
+}

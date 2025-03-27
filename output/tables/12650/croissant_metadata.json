@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Institutions surveyed for the Higher Education Research and Development Survey, by highest degree granted and survey population: FYs 2018&#8211;23",
+  "identifier": "NCSES-12650",
+  "description": "Institutions surveyed for the Higher Education Research and Development Survey, by highest degree granted and survey population: FYs 2018&#8211;23",
+  "url": "https://example.org/datasets/ncses/tables/12650",
+  "table_number": "A-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12650/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_highest_degree_granted_b",
+      "description": "Highest degree granted hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_highest_degree_granted_b_level_1, _b_highest_degree_granted_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_highest_degree_granted_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_short_form_population",
+      "description": "2018 Short Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_standard_form_population",
+      "description": "2018 Standard Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_short_form_population",
+      "description": "2019 Short Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_standard_form_population",
+      "description": "2019 Standard Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_short_form_population",
+      "description": "2020 Short Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_standard_form_population",
+      "description": "2020 Standard Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_short_form_population",
+      "description": "2021 Short Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_standard_form_population",
+      "description": "2021 Standard Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_short_form_population",
+      "description": "2022 Short Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_standard_form_population",
+      "description": "2022 Standard Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023_short_form_population",
+      "description": "2023 Short Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023_standard_form_population",
+      "description": "2023 Standard Form Population",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutions reporting less than $1 million received a shorter version of the questionnaire.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

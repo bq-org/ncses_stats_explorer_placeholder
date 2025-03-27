@@ -1,0 +1,181 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctoral scientists and engineers, by fine field of doctorate, residence location, and sex: 2021",
+  "identifier": "NCSES-9256",
+  "description": "Doctoral scientists and engineers, by fine field of doctorate, residence location, and sex: 2021",
+  "url": "https://example.org/datasets/ncses/tables/9256",
+  "table_number": "5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9256/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_level_1, field_of_study_level_2, field_of_study_level_3, field_of_study_level_4, field_of_study_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_full_path",
+      "description": "Of Study Full Path",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_1",
+      "description": "Of Study Level 1",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_2",
+      "description": "Of Study Level 2",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_3",
+      "description": "Of Study Level 3",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_4",
+      "description": "Of Study Level 4",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_5",
+      "description": "Of Study Level 5",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_hierarchy_depth",
+      "description": "Of Study Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_all_number",
+      "description": "U S Residing All Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_all_se",
+      "description": "U S Residing All Se",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_male_number",
+      "description": "U S Residing Male Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_male_se",
+      "description": "U S Residing Male Se",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_female_number",
+      "description": "U S Residing Female Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_residing_female_se",
+      "description": "U S Residing Female Se",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_all_number",
+      "description": "Non U S Residing All Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_all_se",
+      "description": "Non U S Residing All Se",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_male_number",
+      "description": "Non U S Residing Male Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_male_se",
+      "description": "Non U S Residing Male Se",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_female_number",
+      "description": "Non U S Residing Female Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_residing_female_se",
+      "description": "Non U S Residing Female Se",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 50. Standard errors are rounded up to the nearest 25. Detail may not add to total because of rounding.\u00a0Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

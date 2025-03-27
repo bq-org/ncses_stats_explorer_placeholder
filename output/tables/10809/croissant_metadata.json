@@ -1,0 +1,174 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal agency obligations for interagency fund transfers for R&D: FY 2022",
+  "identifier": "NCSES-10809",
+  "description": "Federal agency obligations for interagency fund transfers for R&D: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/10809",
+  "table_number": "13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10809/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_transferred_from_agency_b",
+      "description": "Transferred from agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_transferred_from_agency_b_level_1, _b_transferred_from_agency_b_level_2, _b_transferred_from_agency_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_transferred_from_agency_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_transferred",
+      "description": "Total Transferred",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_dhs",
+      "description": "Transferred To Agency Dhs",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_doc",
+      "description": "Transferred To Agency Doc",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_dod",
+      "description": "Transferred To Agency Dod",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_doe",
+      "description": "Transferred To Agency Doe",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_doi",
+      "description": "Transferred To Agency Doi",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_doj",
+      "description": "Transferred To Agency Doj",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_dol",
+      "description": "Transferred To Agency Dol",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_dot",
+      "description": "Transferred To Agency Dot",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_ed",
+      "description": "Transferred To Agency Ed",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_hhs_",
+      "description": "Transferred To Agency Hhs ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_nasa",
+      "description": "Transferred To Agency Nasa",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_nsf",
+      "description": "Transferred To Agency Nsf",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_usda",
+      "description": "Transferred To Agency Usda",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_va",
+      "description": "Transferred To Agency Va",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_transferred_to_agency_othera",
+      "description": "Transferred To Agency Othera",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Only those agencies and subdivisions that had obligations in variables represented by this table appear in the table. FY 2022 obligations include additional funding provided by supplemental COVID-19 pandemic-related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act). See technical table A-2 for additional notes associated with the agencies listed in this table.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2022\u201323."
+}

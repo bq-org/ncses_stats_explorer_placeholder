@@ -1,0 +1,10 @@
+table_id,row_id,institutional_control_and_level_full_path,institutional_control_and_level_level_1,institutional_control_and_level_level_2,institutional_control_and_level_hierarchy_depth,field_any_aid,field_federal_grants,field_state_and_local_grants,field_institutional_grants,field_student_loans
+9793,r001,  Public,  Public,,1,,,,,
+9793,r002,  Public ->     2-year,  Public,    2-year,2,80.6,60.0,45.5,17.7,17.2
+9793,r003,  Public ->     4-year,  Public,    4-year,2,85.1,48.8,38.4,52.7,41.7
+9793,r004,Private nonprofit,Private nonprofit,,1,,,,,
+9793,r005,Private nonprofit ->     2-year,Private nonprofit,    2-year,2,93.6,84.8,10.2,19.2,78.2
+9793,r006,Private nonprofit ->     4-year,Private nonprofit,    4-year,2,90.3,42.7,24.8,83.6,55.8
+9793,r007,Private for profit,Private for profit,,1,,,,,
+9793,r008,Private for profit ->     2-year,Private for profit,    2-year,2,88.2,77.4,6.1,17.0,76.4
+9793,r009,Private for profit ->     4-year,Private for profit,    4-year,2,87.1,69.2,9.6,36.1,67.8

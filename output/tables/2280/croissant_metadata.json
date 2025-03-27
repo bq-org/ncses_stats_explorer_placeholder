@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Correct answers to trend questions about basic scientific facts, by respondent characteristic: 1992\u20132018",
+  "identifier": "NCSES-2280",
+  "description": "Correct answers to trend questions about basic scientific facts, by respondent characteristic: 1992\u20132018",
+  "url": "https://example.org/datasets/ncses/tables/2280",
+  "table_number": "S7-25",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2280/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1992_n_1_995_",
+      "description": "1992 N 1 995 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1995_n_2_006_",
+      "description": "1995 N 2 006 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1997_n_2_000_",
+      "description": "1997 N 2 000 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999_n_1_882_",
+      "description": "1999 N 1 882 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_n_1_574_",
+      "description": "2001 N 1 574 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_n_1_864_",
+      "description": "2006 N 1 864 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008_n_2_021_",
+      "description": "2008 N 2 021 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_n_1_932_",
+      "description": "2010 N 1 932 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_n_2_256_",
+      "description": "2012 N 2 256 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014_n_2_130_",
+      "description": "2014 N 2 130 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_n_1_390_",
+      "description": "2016 N 1 390 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_n_1_175_",
+      "description": "2018 N 1 175 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Percentages show the average of correct answers for nine questions:- The center of the Earth is very hot. (True)- The continents have been moving their location for millions of years and will continue to move. (True)- Does the Earth go around the Sun, or does the Sun go around the Earth? (Earth around Sun)- How long does it take for the Earth to go around the Sun? (One year) (Asked only if the respondent answered correctly that the Earth goes around the Sun)- All radioactivity is man-made. (False)- Electrons are smaller than atoms. (True)- Lasers work by focusing sound waves. (False)- It is the father's gene that decides whether the baby is a boy or a girl. (True)- Antibiotics kill viruses as well as bacteria. (False)",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Public Attitudes Toward and Understanding of Science and Technology (1992\u20132001); NORC at the University of Chicago, General Social Survey (2006\u201318).Science and Engineering Indicators"
+}

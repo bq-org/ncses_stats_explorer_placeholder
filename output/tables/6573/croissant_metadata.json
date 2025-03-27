@@ -1,0 +1,256 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with domestic R&D paid for and performed by the company, by industry, company size, and state (N\u2013Z): 2019",
+  "identifier": "NCSES-6573",
+  "description": "Companies with domestic R&D paid for and performed by the company, by industry, company size, and state (N\u2013Z): 2019",
+  "url": "https://example.org/datasets/ncses/tables/6573",
+  "table_number": "34-B",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6573/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_u_s_totala_number_",
+      "description": "Companies U S Totala Number ",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_united_states",
+      "description": "United States",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nebraska",
+      "description": "Nebraska",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nevada",
+      "description": "Nevada",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_hampshire",
+      "description": "New Hampshire",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_jersey",
+      "description": "New Jersey",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_mexico",
+      "description": "New Mexico",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_york",
+      "description": "New York",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_north_carolina",
+      "description": "North Carolina",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_north_dakota",
+      "description": "North Dakota",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ohio",
+      "description": "Ohio",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_oklahoma",
+      "description": "Oklahoma",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_oregon",
+      "description": "Oregon",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_pennsylvania",
+      "description": "Pennsylvania",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rhode_island",
+      "description": "Rhode Island",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_south_carolina",
+      "description": "South Carolina",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_south_dakota",
+      "description": "South Dakota",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_tennessee",
+      "description": "Tennessee",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_texas",
+      "description": "Texas",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_utah",
+      "description": "Utah",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_vermont",
+      "description": "Vermont",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_virginia",
+      "description": "Virginia",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_washington",
+      "description": "Washington",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_west_virginia",
+      "description": "West Virginia",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_wisconsin",
+      "description": "Wisconsin",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_wyoming",
+      "description": "Wyoming",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_undistributedc",
+      "description": "Undistributedc",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Beginning in survey year 2018, statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D. This change has affected the comparability of these estimates with estimates published for years prior to 2018. For a given estimate in this table, if the conditions are satisfied for both the \"i\" and \"e\" flags, the e flag is assigned because the imputation rate may be found in the corresponding table of imputation rates. An estimate range may be displayed in place of a single estimate to avoid disclosing operations of individual companies.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2019."
+}

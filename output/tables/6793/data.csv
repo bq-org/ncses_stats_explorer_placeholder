@@ -1,0 +1,129 @@
+table_id,row_id,time_period,sample_level_1,sample_level_2,sample_hierarchy_depth,value
+6793,r001,Gender -> Male,Sample,Frequency,2,50409
+6793,r002,Gender -> Male,Sample,%,2,58.8
+6793,r003,Gender -> Male,Population,Frequency,2,730933
+6793,r004,Gender -> Male,Population,%,2,66.3
+6793,r005,Gender -> Female,Sample,Frequency,2,35311
+6793,r006,Gender -> Female,Sample,%,2,41.2
+6793,r007,Gender -> Female,Population,Frequency,2,371897
+6793,r008,Gender -> Female,Population,%,2,33.7
+6793,r009,Physical disability -> No,Sample,Frequency,2,77191
+6793,r010,Physical disability -> No,Sample,%,2,90.0
+6793,r011,Physical disability -> No,Population,Frequency,2,991362
+6793,r012,Physical disability -> No,Population,%,2,89.9
+6793,r013,Physical disability -> Yes,Sample,Frequency,2,8529
+6793,r014,Physical disability -> Yes,Sample,%,2,10.0
+6793,r015,Physical disability -> Yes,Population,Frequency,2,111468
+6793,r016,Physical disability -> Yes,Population,%,2,10.1
+6793,r017,Race or ethnicity -> Asian,Sample,Frequency,2,18259
+6793,r018,Race or ethnicity -> Asian,Sample,%,2,21.3
+6793,r019,Race or ethnicity -> Asian,Population,Frequency,2,282390
+6793,r020,Race or ethnicity -> Asian,Population,%,2,25.6
+6793,r021,Race or ethnicity -> Black,Sample,Frequency,2,4695
+6793,r022,Race or ethnicity -> Black,Sample,%,2,5.5
+6793,r023,Race or ethnicity -> Black,Population,Frequency,2,37176
+6793,r024,Race or ethnicity -> Black,Population,%,2,3.4
+6793,r025,Race or ethnicity -> Hispanic,Sample,Frequency,2,7142
+6793,r026,Race or ethnicity -> Hispanic,Sample,%,2,8.3
+6793,r027,Race or ethnicity -> Hispanic,Population,Frequency,2,53334
+6793,r028,Race or ethnicity -> Hispanic,Population,%,2,4.8
+6793,r029,Race or ethnicity -> White,Sample,Frequency,2,53685
+6793,r030,Race or ethnicity -> White,Sample,%,2,62.6
+6793,r031,Race or ethnicity -> White,Population,Frequency,2,713598
+6793,r032,Race or ethnicity -> White,Population,%,2,64.7
+6793,r033,Race or ethnicity -> Other,Sample,Frequency,2,1939
+6793,r034,Race or ethnicity -> Other,Sample,%,2,2.3
+6793,r035,Race or ethnicity -> Other,Population,Frequency,2,16331
+6793,r036,Race or ethnicity -> Other,Population,%,2,1.5
+6793,r037,Age -> Under 30,Sample,Frequency,2,858
+6793,r038,Age -> Under 30,Sample,%,2,1.0
+6793,r039,Age -> Under 30,Population,Frequency,2,8891
+6793,r040,Age -> Under 30,Population,%,2,0.8
+6793,r041,Age -> 30&#8211;39 ,Sample,Frequency,2,21694
+6793,r042,Age -> 30&#8211;39 ,Sample,%,2,25.3
+6793,r043,Age -> 30&#8211;39 ,Population,Frequency,2,233737
+6793,r044,Age -> 30&#8211;39 ,Population,%,2,21.2
+6793,r045,Age -> 40&#8211;49 ,Sample,Frequency,2,20750
+6793,r046,Age -> 40&#8211;49 ,Sample,%,2,24.2
+6793,r047,Age -> 40&#8211;49 ,Population,Frequency,2,259631
+6793,r048,Age -> 40&#8211;49 ,Population,%,2,23.5
+6793,r049,Age -> 50&#8211;59 ,Sample,Frequency,2,18553
+6793,r050,Age -> 50&#8211;59 ,Sample,%,2,21.6
+6793,r051,Age -> 50&#8211;59 ,Population,Frequency,2,250586
+6793,r052,Age -> 50&#8211;59 ,Population,%,2,22.7
+6793,r053,Age -> 60&#8211;69 ,Sample,Frequency,2,16421
+6793,r054,Age -> 60&#8211;69 ,Sample,%,2,19.2
+6793,r055,Age -> 60&#8211;69 ,Population,Frequency,2,234986
+6793,r056,Age -> 60&#8211;69 ,Population,%,2,21.3
+6793,r057,Age -> Over 70 ,Sample,Frequency,2,7444
+6793,r058,Age -> Over 70 ,Sample,%,2,8.7
+6793,r059,Age -> Over 70 ,Population,Frequency,2,114999
+6793,r060,Age -> Over 70 ,Population,%,2,10.4
+6793,r061,Years since first PhD -> < 7 (2010 or later) ,Sample,Frequency,2,21416
+6793,r062,Years since first PhD -> < 7 (2010 or later) ,Sample,%,2,25.0
+6793,r063,Years since first PhD -> < 7 (2010 or later) ,Population,Frequency,2,211430
+6793,r064,Years since first PhD -> < 7 (2010 or later) ,Population,%,2,19.2
+6793,r065,Years since first PhD -> 8&#8211;17 (2000&#8211;09) ,Sample,Frequency,2,24337
+6793,r066,Years since first PhD -> 8&#8211;17 (2000&#8211;09) ,Sample,%,2,28.4
+6793,r067,Years since first PhD -> 8&#8211;17 (2000&#8211;09) ,Population,Frequency,2,303699
+6793,r068,Years since first PhD -> 8&#8211;17 (2000&#8211;09) ,Population,%,2,27.5
+6793,r069,Years since first PhD -> 18&#8211;27 (1990&#8211;99) ,Sample,Frequency,2,18708
+6793,r070,Years since first PhD -> 18&#8211;27 (1990&#8211;99) ,Sample,%,2,21.8
+6793,r071,Years since first PhD -> 18&#8211;27 (1990&#8211;99) ,Population,Frequency,2,264757
+6793,r072,Years since first PhD -> 18&#8211;27 (1990&#8211;99) ,Population,%,2,24.0
+6793,r073,Years since first PhD -> 28&#8211;37 (1980&#8211;89) ,Sample,Frequency,2,12314
+6793,r074,Years since first PhD -> 28&#8211;37 (1980&#8211;89) ,Sample,%,2,14.4
+6793,r075,Years since first PhD -> 28&#8211;37 (1980&#8211;89) ,Population,Frequency,2,183607
+6793,r076,Years since first PhD -> 28&#8211;37 (1980&#8211;89) ,Population,%,2,16.6
+6793,r077,Years since first PhD -> 38&#8211;47 (1970&#8211;79) ,Sample,Frequency,2,8203
+6793,r078,Years since first PhD -> 38&#8211;47 (1970&#8211;79) ,Sample,%,2,9.6
+6793,r079,Years since first PhD -> 38&#8211;47 (1970&#8211;79) ,Population,Frequency,2,128039
+6793,r080,Years since first PhD -> 38&#8211;47 (1970&#8211;79) ,Population,%,2,11.6
+6793,r081,Years since first PhD -> > 47 (prior to 1970) ,Sample,Frequency,2,742
+6793,r082,Years since first PhD -> > 47 (prior to 1970) ,Sample,%,2,0.9
+6793,r083,Years since first PhD -> > 47 (prior to 1970) ,Population,Frequency,2,11297
+6793,r084,Years since first PhD -> > 47 (prior to 1970) ,Population,%,2,1.0
+6793,r085,Degree focus -> Science ,Sample,Frequency,2,66494
+6793,r086,Degree focus -> Science ,Sample,%,2,77.6
+6793,r087,Degree focus -> Science ,Population,Frequency,2,832477
+6793,r088,Degree focus -> Science ,Population,%,2,75.5
+6793,r089,Degree focus -> Engineering ,Sample,Frequency,2,15032
+6793,r090,Degree focus -> Engineering ,Sample,%,2,17.5
+6793,r091,Degree focus -> Engineering ,Population,Frequency,2,221447
+6793,r092,Degree focus -> Engineering ,Population,%,2,20.1
+6793,r093,Degree focus -> Health ,Sample,Frequency,2,4194
+6793,r094,Degree focus -> Health ,Sample,%,2,4.9
+6793,r095,Degree focus -> Health ,Population,Frequency,2,48906
+6793,r096,Degree focus -> Health ,Population,%,2,4.4
+6793,r097,Living in the United States -> No,Sample,Frequency,2,11475
+6793,r098,Living in the United States -> No,Sample,%,2,13.4
+6793,r099,Living in the United States -> No,Population,Frequency,2,135697
+6793,r100,Living in the United States -> No,Population,%,2,12.3
+6793,r101,Living in the United States -> Yes,Sample,Frequency,2,74245
+6793,r102,Living in the United States -> Yes,Sample,%,2,86.6
+6793,r103,Living in the United States -> Yes,Population,Frequency,2,967133
+6793,r104,Living in the United States -> Yes,Population,%,2,87.7
+6793,r105,Workforce status -> Employed,Sample,Frequency,2,74429
+6793,r106,Workforce status -> Employed,Sample,%,2,86.8
+6793,r107,Workforce status -> Employed,Population,Frequency,2,938248
+6793,r108,Workforce status -> Employed,Population,%,2,85.1
+6793,r109,Workforce status -> Unemployed,Sample,Frequency,2,1511
+6793,r110,Workforce status -> Unemployed,Sample,%,2,1.8
+6793,r111,Workforce status -> Unemployed,Population,Frequency,2,18989
+6793,r112,Workforce status -> Unemployed,Population,%,2,1.7
+6793,r113,Workforce status -> Not in the workforce,Sample,Frequency,2,9780
+6793,r114,Workforce status -> Not in the workforce,Sample,%,2,11.4
+6793,r115,Workforce status -> Not in the workforce,Population,Frequency,2,145593
+6793,r116,Workforce status -> Not in the workforce,Population,%,2,13.2
+6793,r117,Employment sector -> Education,Sample,Frequency,2,36677
+6793,r118,Employment sector -> Education,Sample,%,2,49.3
+6793,r119,Employment sector -> Education,Population,Frequency,2,428638
+6793,r120,Employment sector -> Education,Population,%,2,45.7
+6793,r121,Employment sector -> Government,Sample,Frequency,2,8184
+6793,r122,Employment sector -> Government,Sample,%,2,11.0
+6793,r123,Employment sector -> Government,Population,Frequency,2,88253
+6793,r124,Employment sector -> Government,Population,%,2,9.4
+6793,r125,Employment sector -> Business and industry,Sample,Frequency,2,29568
+6793,r126,Employment sector -> Business and industry,Sample,%,2,39.7
+6793,r127,Employment sector -> Business and industry,Population,Frequency,2,421357
+6793,r128,Employment sector -> Business and industry,Population,%,2,44.9

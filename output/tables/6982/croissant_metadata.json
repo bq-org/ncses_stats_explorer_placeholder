@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Collated matching results",
+  "identifier": "NCSES-6982",
+  "description": "Collated matching results",
+  "url": "https://example.org/datasets/ncses/tables/6982",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6982/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "match_step_",
+      "description": "Match Step ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "number_of_refid_award_matches_",
+      "description": "Number Of Refid Award Matches ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "unique_refids_per_step_",
+      "description": "Unique Refids Per Step ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "number_of_unique_awards_matched_",
+      "description": "Number Of Unique Awards Matched ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "filters_",
+      "description": "Filters ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value"
+    }
+  },
+  "notes": "Match steps 10 and 11 are combined for disclosure purposes.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2015, linked to the public NSF Awards Database (https://www.nsf.gov/awardsearch/download.jsp)."
+}

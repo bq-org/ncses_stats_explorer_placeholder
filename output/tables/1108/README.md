@@ -1,0 +1,33 @@
+# U.S. R&D expenditures, by performing sector and source of funds: 1953&#8211;2017
+
+**Modal ID:** 1108
+
+**Table Number:** 2
+
+**Type:** TS (Time Series)
+
+**Units:** (Millions of current and of constant 2012 dollars)
+
+## Notes
+
+Detail may not add to total because of rounding. Constant-dollar estimates are derived from unrounded data. For trend comparisons, use only the historical data reported in this table because some back-year data may have been revised. Except for the nonprofit sector, data are based on annual reports by performers in NSF's annual R&D expenditure surveys: BRDIS, Higher Education Research and Development Survey, Survey of Federal Funds for Research and Development, FFRDC Research and Development Expenditures Survey, and Survey of State Government Research and Development. R&D expenditures by business performers—and, before 2001, also industry-administered FFRDCs—are collected on a calendar year basis. Expenditures for other performers are calendar year approximations based on fiscal year data. For federal performers in 1977 and afterward, the approximation equals 75% of the amount reported in the same fiscal year plus 25% of the amount reported in the subsequent fiscal year. Prior to 1977, the federal fiscal year began on 1 July, not 1 October, and the approximation is 50% of the amount reported in the same fiscal year plus 50% of the amount reported in the subsequent fiscal year. The fiscal year for higher education performers and state government performers generally begins 1 July, and the calendar year approximation is 50% of the amount reported in the same fiscal year plus 50% of the amount reported in the subsequent fiscal year.
+
+## Sources
+
+National Science Foundation, National Center for Science and Engineering Statistics, National Patterns of R&D Resources (annual series).
+
+## Files
+
+- `data.csv`: The table data in CSV format
+- `croissant_metadata.json`: ML Croissant metadata for machine learning applications
+
+## Structure
+
+- Row hierarchy depth: 1
+- Column hierarchy depth: 2
+- Time series: Yes
+
+## Special Values
+
+- `i`: imputed value
+- `r`: revised value

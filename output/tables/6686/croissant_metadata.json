@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "How often U.S. adults thought about the impact of science on their everyday lives, before and during the COVID-19 pandemic: 2019 and 2020",
+  "identifier": "NCSES-6686",
+  "description": "How often U.S. adults thought about the impact of science on their everyday lives, before and during the COVID-19 pandemic: 2019 and 2020",
+  "url": "https://example.org/datasets/ncses/tables/6686",
+  "table_number": "SPPS-21",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6686/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "frequency",
+      "description": "Frequency",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "before_the_pandemic_2019_n_1_008_",
+      "description": "Before The Pandemic 2019 N 1 008 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "during_the_pandemic_2020_n_1_010_",
+      "description": "During The Pandemic 2020 N 1 010 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Responses are to the following:- How much do you think about the impact of science in your everyday life? Select one.A lotA littleNever",
+  "sources": "3M, 2020 Pre-Pandemic Survey (2019), conducted August\u2013October 2019, and 3M, 2020 Pandemic Pulse Survey (2020), conducted July\u2013August 2020.Science and Engineering Indicators"
+}

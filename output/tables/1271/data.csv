@@ -1,0 +1,37 @@
+table_id,row_id,occupation_and_disability_status_full_path,occupation_and_disability_status_level_1,occupation_and_disability_status_level_2,occupation_and_disability_status_level_3,occupation_and_disability_status_level_4,occupation_and_disability_status_level_5,occupation_and_disability_status_hierarchy_depth,field_total,field_tenured,field_not_tenured_on_tenure_track,field_not_tenured_not_on_tenure_track,field_tenure_not_applicable
+1271,r001,All occupations,All occupations,,,,,1,319400,142350,48950,45700,82350
+1271,r002,All occupations -> Without disability,All occupations,Without disability,,,,2,289300,126300,45200,42250,75550
+1271,r003,All occupations -> With disability,All occupations,With disability,,,,2,30100,16050,3750,3500,6800
+1271,r004,All occupations -> S&E occupations<sup>a</sup>,All occupations,S&E occupations<sup>a</sup>,,,,2,245250,112000,40300,32300,60650
+1271,r005,All occupations -> S&E occupations<sup>a</sup> -> Without disability,All occupations,S&E occupations<sup>a</sup>,Without disability,,,3,222150,99300,37300,29900,55650
+1271,r006,All occupations -> S&E occupations<sup>a</sup> -> With disability,All occupations,S&E occupations<sup>a</sup>,With disability,,,3,23100,12650,3050,2400,5000
+1271,r007,All occupations -> S&E occupations<sup>a</sup> -> Scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,,,3,214200,95650,34350,29450,54750
+1271,r008,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Without disability,,4,194150,84850,31750,27300,50250
+1271,r009,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,With disability,,4,20050,10800,2600,2150,4500
+1271,r010,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Biologica/life scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Biologica/life scientist,,4,73600,24150,10300,11850,27300
+1271,r011,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Biologica/life scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Biologica/life scientist,Without disability,5,67400,21400,9650,11050,25300
+1271,r012,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Biologica/life scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Biologica/life scientist,With disability,5,6200,2700,650,800,2000
+1271,r013,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Computer and information scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Computer and information scientist,,4,11200,5050,1850,1400,2900
+1271,r014,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Computer and information scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Computer and information scientist,Without disability,5,10250,4600,1750,1200,2700
+1271,r015,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Computer and information scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Computer and information scientist,With disability,5,950,450,100,200,200
+1271,r016,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Mathematical scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Mathematical scientist,,4,19700,10850,2900,2500,3500
+1271,r017,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Mathematical scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Mathematical scientist,Without disability,5,17750,9600,2650,2250,3250
+1271,r018,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Mathematical scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Mathematical scientist,With disability,5,1950,1250,250,250,200
+1271,r019,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Physical scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Physical scientist,,4,39150,18600,6050,5000,9500
+1271,r020,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Physical scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Physical scientist,Without disability,5,35650,16500,5700,4600,8850
+1271,r021,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Physical scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Physical scientist,With disability,5,3500,2100,400,400,600
+1271,r022,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Psychologist,All occupations,S&E occupations<sup>a</sup>,Scientist,Psychologist,,4,24300,11200,4050,3400,5700
+1271,r023,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Psychologist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Psychologist,Without disability,5,21800,9850,3700,3150,5050
+1271,r024,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Psychologist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Psychologist,With disability,5,2550,1300,350,250,600
+1271,r025,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Social scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Social scientist,,4,46150,25800,9150,5300,5900
+1271,r026,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Social scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Social scientist,Without disability,5,41250,22800,8350,5000,5100
+1271,r027,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Social scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Social scientist,With disability,5,4900,3000,800,300,800
+1271,r028,All occupations -> S&E occupations<sup>a</sup> -> Engineer,All occupations,S&E occupations<sup>a</sup>,Engineer,,,3,31100,16350,6000,2850,5900
+1271,r029,All occupations -> S&E occupations<sup>a</sup> -> Engineer -> Without disability,All occupations,S&E occupations<sup>a</sup>,Engineer,Without disability,,4,28050,14500,5550,2650,5350
+1271,r030,All occupations -> S&E occupations<sup>a</sup> -> Engineer -> With disability,All occupations,S&E occupations<sup>a</sup>,Engineer,With disability,,4,3050,1850,450,200,500
+1271,r031,All occupations -> S&E-related occupations<sup>b</sup>,All occupations,S&E-related occupations<sup>b</sup>,,,,2,33050,10100,5450,7100,10450
+1271,r032,All occupations -> S&E-related occupations<sup>b</sup> -> Without disability,All occupations,S&E-related occupations<sup>b</sup>,Without disability,,,3,30550,9150,5050,6650,9650
+1271,r033,All occupations -> S&E-related occupations<sup>b</sup> -> With disability,All occupations,S&E-related occupations<sup>b</sup>,With disability,,,3,2550,950,400,400,750
+1271,r034,All occupations -> Non-S&E occupations,All occupations,Non-S&E occupations,,,,2,41100,20250,3200,6350,11300
+1271,r035,All occupations -> Non-S&E occupations -> Without disability,All occupations,Non-S&E occupations,Without disability,,,3,36600,17850,2900,5650,10250
+1271,r036,All occupations -> Non-S&E occupations -> With disability,All occupations,Non-S&E occupations,With disability,,,3,4450,2450,300,700,1050

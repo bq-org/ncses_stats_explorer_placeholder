@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Community college attendance and receipt of an associate's degree among employed college graduates reporting a first bachelor's degree, by field of study and calendar year of degree: 2019",
+  "identifier": "NCSES-3060",
+  "description": "Community college attendance and receipt of an associate's degree among employed college graduates reporting a first bachelor's degree, by field of study and calendar year of degree: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3060",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3060/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study",
+      "description": "Field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_level_1, field_of_study_level_2, field_of_study_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_full_path",
+      "description": "Of Study Full Path",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_1",
+      "description": "Of Study Level 1",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_2",
+      "description": "Of Study Level 2",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_level_3",
+      "description": "Of Study Level 3",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_hierarchy_depth",
+      "description": "Of Study Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_college_graduates_total_number_",
+      "description": "Employed College Graduates Total Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_college_graduates_attended_community_college_",
+      "description": "Employed College Graduates Attended Community College ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_college_graduates_earned_an_associate_s_degree_",
+      "description": "Employed College Graduates Earned An Associate S Degree ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_graduates_earned_first_bachelor_s_degree_2008_17_total_number_",
+      "description": "Recent Graduates Earned First Bachelor S Degree 2008 17 Total Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_graduates_earned_first_bachelor_s_degree_2008_17_attended_community_college_",
+      "description": "Recent Graduates Earned First Bachelor S Degree 2008 17 Attended Community College ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_graduates_earned_first_bachelor_s_degree_2008_17_earned_an_associate_s_degree_",
+      "description": "Recent Graduates Earned First Bachelor S Degree 2008 17 Earned An Associate S Degree ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_past_graduates_earned_first_bachelor_s_degree_s_2007_or_earlier_total_number_",
+      "description": "Past Graduates Earned First Bachelor S Degree S 2007 Or Earlier Total Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_past_graduates_earned_first_bachelor_s_degree_s_2007_or_earlier_attended_community_college_",
+      "description": "Past Graduates Earned First Bachelor S Degree S 2007 Or Earlier Attended Community College ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_past_graduates_earned_first_bachelor_s_degree_s_2007_or_earlier_earned_an_associate_s_degree_",
+      "description": "Past Graduates Earned First Bachelor S Degree S 2007 Or Earlier Earned An Associate S Degree ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Excludes college graduates who earned a first bachelor's degree abroad (n = 3,879,000) and those who did not report a first bachelor's degree (n = 1,958,000).",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2019."
+}

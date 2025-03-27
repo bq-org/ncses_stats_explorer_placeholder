@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Field of research of postdocs at federally funded research and development centers, by citizenship: 2019",
+  "identifier": "NCSES-2530",
+  "description": "Field of research of postdocs at federally funded research and development centers, by citizenship: 2019",
+  "url": "https://example.org/datasets/ncses/tables/2530",
+  "table_number": "6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2530/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research",
+      "description": "Field of research hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_research_level_1, field_of_research_level_2, field_of_research_level_3, field_of_research_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_research_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_full_path",
+      "description": "Of Research Full Path",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_level_1",
+      "description": "Of Research Level 1",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_level_2",
+      "description": "Of Research Level 2",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_level_3",
+      "description": "Of Research Level 3",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_level_4",
+      "description": "Of Research Level 4",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_hierarchy_depth",
+      "description": "Of Research Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents",
+      "description": "U S Citizens And Permanent Residents",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holders",
+      "description": "Temporary Visa Holders",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Postdocs at Federally Funded Research and Development Centers, 2019."
+}

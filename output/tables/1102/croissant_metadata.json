@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. R&D expenditures, by source of funds and performing sector: 1953&#8211;2017",
+  "identifier": "NCSES-1102",
+  "description": "U.S. R&D expenditures, by source of funds and performing sector: 1953&#8211;2017",
+  "url": "https://example.org/datasets/ncses/tables/1102",
+  "table_number": "6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1102/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "all_funding_sources_characteristic",
+      "description": "All funding sources hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "all_funding_sources_level_1, all_funding_sources_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Millions of current and of constant 2012 dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "This table reaggregates the R&D performer data in table 2 according to major categories of R&D funding: federal government, nonfederal government (state and local), business, higher education, and ONPs. Business sources of R&D funding in this table include the own funds of domestic R&D performing businesses, funds from other domestic businesses, and funds from foreign businesses. For interpretive detail on the R&D performers listed, see table 2, footnotes a\u2013f. Detail may not add to total because of rounding. Constant-dollar estimates are derived from unrounded data. For trend comparisons, use only the historical data reported in this table because some back-year data may have been revised. Except for the nonprofit sector, data are based on annual reports by performers in the National Science Foundation's annual R&D expenditure surveys: Business Research and Development and Innovation Survey, Higher Education Research and Development Survey, Survey of Federal Funds for Research and Development, FFRDC Research and Development Expenditures Survey, and Survey of State Government Research and Development. R&D expenditures by business performers\u2014and, before 2001, also industry-administered FFRDCs\u2014are collected on a calendar year basis. Expenditures for other performers are calendar year approximations based on fiscal year data. (See table 2, general notes.) The 1998\u20132017 data for ONP R&D performance funded by businesses and the nonprofit sector itself are estimated, based on parameters from the 1996\u201397 Survey of Research and Development Funding and Performance by Nonprofit Organizations.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, National Patterns of R&D Resources (annual series).",
+  "temporalCoverage": "19/20"
+}

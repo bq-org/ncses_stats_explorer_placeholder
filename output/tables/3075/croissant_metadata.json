@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Reasons for attending community college among employed college graduates reporting a first bachelor's degree and having attended community college, by broad field of major and calendar year of degree: 2019",
+  "identifier": "NCSES-3075",
+  "description": "Reasons for attending community college among employed college graduates reporting a first bachelor's degree and having attended community college, by broad field of major and calendar year of degree: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3075",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3075/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Sum of percentages in reasons for attending community college exceeds total because of multiple response.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2019.",
+  "temporalCoverage": "20/20"
+}

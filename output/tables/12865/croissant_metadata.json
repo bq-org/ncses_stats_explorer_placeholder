@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Academic institutions with science and engineering repair and renovation or new construction projects, by type of institution: Started in FY 2022 or FY 2023",
+  "identifier": "NCSES-12865",
+  "description": "Academic institutions with science and engineering repair and renovation or new construction projects, by type of institution: Started in FY 2022 or FY 2023",
+  "url": "https://example.org/datasets/ncses/tables/12865",
+  "table_number": "23",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12865/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_type_of_institution_b",
+      "description": "Type of institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_type_of_institution_b_level_1, _b_type_of_institution_b_level_2, _b_type_of_institution_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_type_of_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions_number_",
+      "description": "All Institutions Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_repair_and_renovation_projects_number",
+      "description": "Institutions With Repair And Renovation Projects Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_repair_and_renovation_projects_percent",
+      "description": "Institutions With Repair And Renovation Projects Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_new_construction_projects_number",
+      "description": "Institutions With New Construction Projects Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_new_construction_projects_percent",
+      "description": "Institutions With New Construction Projects Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities, FY 2023."
+}

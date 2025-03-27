@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D performed by the company, by selected industry and type of R&D, for companies with 1&#8211;9 employees: 2022",
+  "identifier": "NCSES-12469",
+  "description": "Domestic R&D performed by the company, by selected industry and type of R&D, for companies with 1&#8211;9 employees: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12469",
+  "table_number": "9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12469/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_basic_research",
+      "description": "Basic Research",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_applied_research",
+      "description": "Applied Research",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_development",
+      "description": "Development",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding or unavailable NAICS detail for select records beyond the 4-digit industry classification. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2023 Annual Business Survey: Data Year 2022."
+}

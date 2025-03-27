@@ -1,0 +1,152 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federally financed higher education R&D expenditures in engineering subfields, ranked by all FY 2019 engineering R&D: FYs 2017\u201319 and by subfield for FY 2019",
+  "identifier": "NCSES-3169",
+  "description": "Federally financed higher education R&D expenditures in engineering subfields, ranked by all FY 2019 engineering R&D: FYs 2017\u201319 and by subfield for FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3169",
+  "table_number": "56",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3169/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_institution_b",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_institution_b_level_1, _b_institution_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_all_engineering",
+      "description": "2019 All Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_aerospace_aeronautical_and_astronautical_engineering",
+      "description": "2019 Aerospace Aeronautical And Astronautical Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_bioengineering_and_biomedical_engineering",
+      "description": "2019 Bioengineering And Biomedical Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_chemical_engineering",
+      "description": "2019 Chemical Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_civil_engineering",
+      "description": "2019 Civil Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_electrical_electronic_and_communications_engineering",
+      "description": "2019 Electrical Electronic And Communications Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_industrial_and_manufacturing_engineering",
+      "description": "2019 Industrial And Manufacturing Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_mechanical_engineering",
+      "description": "2019 Mechanical Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_metallurgical_and_materials_engineering",
+      "description": "2019 Metallurgical And Materials Engineering",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_engineering_nec_",
+      "description": "2019 Engineering Nec ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutions reporting zero expenditures in ranked total for FY 2019 are not listed in this table. Tied institutions are ranked alphabetically. Ranked institutions are geographically separate campuses headed by a campus-level president or chancellor. Some campuses are part of large, multi-campus universities; some are part of state university systems. For a complete list of campuses that belong to a larger university or system and their aggregate R&D expenditures, see table 6.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

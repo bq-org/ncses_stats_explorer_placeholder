@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "State government expenditures for R&D and R&D plant, by state and performer: FY 2023",
+  "identifier": "NCSES-12543",
+  "description": "State government expenditures for R&D and R&D plant, by state and performer: FY 2023",
+  "url": "https://example.org/datasets/ncses/tables/12543",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12543/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_b",
+      "description": "State hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_b_level_1, _b_state_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expendituresa_all_r_d_expenditures",
+      "description": "R D Expendituresa All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expendituresa_intramural_performersb",
+      "description": "R D Expendituresa Intramural Performersb",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expendituresa_extramural_performersc_total",
+      "description": "R D Expendituresa Extramural Performersc Total",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expendituresa_extramural_performersc_higher_education_institutions",
+      "description": "R D Expendituresa Extramural Performersc Higher Education Institutions",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expendituresa_extramural_performersc_companies_and_individualsd",
+      "description": "R D Expendituresa Extramural Performersc Companies And Individualsd",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expendituresa_extramural_performersc_nonprofit_organizationse",
+      "description": "R D Expendituresa Extramural Performersc Nonprofit Organizationse",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expendituresa_extramural_performersc_other_governmentsf",
+      "description": "R D Expendituresa Extramural Performersc Other Governmentsf",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_expendituresa_extramural_performersc_all_otherg",
+      "description": "R D Expendituresa Extramural Performersc All Otherg",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_plant_expendituresh_all_r_d_plant_expenditures",
+      "description": "R D Plant Expendituresh All R D Plant Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_plant_expendituresh_intramural",
+      "description": "R D Plant Expendituresh Intramural",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_plant_expendituresh_extramural",
+      "description": "R D Plant Expendituresh Extramural",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of State Government Research and Development, FY 2023."
+}

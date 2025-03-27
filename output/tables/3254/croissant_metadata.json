@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Top academic institutions awarding S&E bachelor\u2019s degrees, by sex of recipient: 2018",
+  "identifier": "NCSES-3254",
+  "description": "Top academic institutions awarding S&E bachelor\u2019s degrees, by sex of recipient: 2018",
+  "url": "https://example.org/datasets/ncses/tables/3254",
+  "table_number": "5-7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3254/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_and_institution",
+      "description": "Sex and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_and_institution_level_1, sex_and_institution_level_2, sex_and_institution_level_3, sex_and_institution_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_and_institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_bachelor_s_degrees",
+      "description": "Bachelor S Degrees",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutions awarding the same number of degrees are listed alphabetically. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs.",
+  "sources": "Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System, Completions Survey, unrevised provisional release data, accessed 14 January 2020."
+}

@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research, by agency and S&E field: FY 2020",
+  "identifier": "NCSES-6299",
+  "description": "Federal obligations for research, by agency and S&E field: FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/6299",
+  "table_number": "SRD-7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6299/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_level_1, agency_level_2, agency_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_federal_obligations",
+      "description": "All Federal Obligations",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_sciences_and_mathematics",
+      "description": "Computer Sciences And Mathematics",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_environmental_sciences",
+      "description": "Environmental Sciences",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_life_sciences",
+      "description": "Life Sciences",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences",
+      "description": "Physical Sciences",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology",
+      "description": "Psychology",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_sciences",
+      "description": "Social Sciences",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_sciences_nec",
+      "description": "Other Sciences Nec",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent share"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Research includes basic research and applied research. Because of rounding, detail may not add to total. Only those agencies and subdivisions that had obligations in variables represented by this table appear in the table.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, Volume 70, FYs 2020\u201321.Science and Engineering Indicators"
+}

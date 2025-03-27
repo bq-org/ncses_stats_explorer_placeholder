@@ -1,0 +1,22 @@
+table_id,row_id,field_of_study_full_path,field_of_study_level_1,field_of_study_level_2,field_of_study_level_3,field_of_study_level_4,field_of_study_hierarchy_depth,field_academe,field_industry_or_businessa,field_government,field_nonprofit_organization,field_other_or_unknownb
+985,r001,All fields,All fields,,,,1,63000,100000,80800,79000,70000
+985,r002,All fields -> Science and engineering,All fields,Science and engineering,,,2,65000,101000,82500,85000,64000
+985,r003,All fields -> Science and engineering -> Life sciences,All fields,Science and engineering,Life sciences,,3,65000,90000,72000,83000,60000
+985,r004,All fields -> Science and engineering -> Life sciences -> Agricultural sciences and natural resources,All fields,Science and engineering,Life sciences,Agricultural sciences and natural resources,4,65000,83250,64500,70500,90000
+985,r005,All fields -> Science and engineering -> Life sciences -> Biological and biomedical sciences,All fields,Science and engineering,Life sciences,Biological and biomedical sciences,4,57750,90000,71000,68000,49000
+985,r006,All fields -> Science and engineering -> Life sciences -> Health sciences,All fields,Science and engineering,Life sciences,Health sciences,4,70000,100000,84000,95535,62000
+985,r007,All fields -> Science and engineering -> Physical sciences and earth sciences,All fields,Science and engineering,Physical sciences and earth sciences,,3,52000,100000,71600,85000,48025
+985,r008,All fields -> Science and engineering -> Physical sciences and earth sciences -> Chemistry,All fields,Science and engineering,Physical sciences and earth sciences,Chemistry,4,50000,93000,65333,75000,50000
+985,r009,"All fields -> Science and engineering -> Physical sciences and earth sciences -> Geosciences, atmospheric sciences, and ocean sciences",All fields,Science and engineering,Physical sciences and earth sciences,"Geosciences, atmospheric sciences, and ocean sciences",4,60000,84500,70000,77500,47500
+985,r010,All fields -> Science and engineering -> Physical sciences and earth sciences -> Physics and astronomy,All fields,Science and engineering,Physical sciences and earth sciences,Physics and astronomy,4,54500,105000,92500,110000,46000
+985,r011,All fields -> Science and engineering -> Mathematics and computer sciences,All fields,Science and engineering,Mathematics and computer sciences,,3,70000,125000,101000,120000,65500
+985,r012,All fields -> Science and engineering -> Psychology and social sciences ,All fields,Science and engineering,Psychology and social sciences ,,3,63000,97000,77500,75000,65000
+985,r013,All fields -> Science and engineering -> Psychology and social sciences  -> Psychology,All fields,Science and engineering,Psychology and social sciences ,Psychology,4,60000,80000,68000,68000,64000
+985,r014,All fields -> Science and engineering -> Psychology and social sciences  -> Economics,All fields,Science and engineering,Psychology and social sciences ,Economics,4,89000,125000,100718,110000,111000
+985,r015,All fields -> Science and engineering -> Psychology and social sciences  -> Social sciences<sup>c</sup>,All fields,Science and engineering,Psychology and social sciences ,Social sciences<sup>c</sup>,4,60000,90000,80000,72000,67000
+985,r016,All fields -> Science and engineering -> Engineering,All fields,Science and engineering,Engineering,,3,79000,102000,94500,100000,85000
+985,r017,All fields -> Non-science and engineering,All fields,Non-science and engineering,,,2,62000,85000,79000,65000,70000
+985,r018,All fields -> Non-science and engineering -> Education,All fields,Non-science and engineering,Education,,3,64000,80000,79000,75000,75000
+985,r019,All fields -> Non-science and engineering -> Humanities and arts,All fields,Non-science and engineering,Humanities and arts,,3,50000,65000,67000,50000,53750
+985,r020,All fields -> Non-science and engineering -> Business management and administration,All fields,Non-science and engineering,Business management and administration,,3,120000,125000,100000,115000,72000
+985,r021,All fields -> Non-science and engineering -> Other non-S&E fields<sup>d</sup>,All fields,Non-science and engineering,Other non-S&E fields<sup>d</sup>,,3,62000,85000,88000,78500,81000

@@ -1,0 +1,8 @@
+table_id,row_id,student_and_school_characteristics_full_path,student_and_school_characteristics_level_1,student_and_school_characteristics_level_2,student_and_school_characteristics_level_3,student_and_school_characteristics_hierarchy_depth,field_state_teacher_certification,field_more_than_5_years_teaching_experience,field_degree_in_mathematics
+1536,r001,All students,All students,,,1,89.6,75.3,82.4
+1536,r002,All students -> School minority enrollment,All students,School minority enrollment,,2,,,
+1536,r003,All students -> School minority enrollment -> Less than 75%,All students,School minority enrollment,Less than 75%,3,91.7,77.5,83.7
+1536,r004,All students -> School minority enrollment -> 75% or more,All students,School minority enrollment,75% or more,3,83.5,69.0,78.7
+1536,r005,All students -> National School Lunch Program student status<sup>a</sup>,All students,National School Lunch Program student status<sup>a</sup>,,2,,,
+1536,r006,All students -> National School Lunch Program student status<sup>a</sup> -> Not eligible ,All students,National School Lunch Program student status<sup>a</sup>,Not eligible ,3,91.7,78.4,85.0
+1536,r007,All students -> National School Lunch Program student status<sup>a</sup> -> Eligible,All students,National School Lunch Program student status<sup>a</sup>,Eligible,3,87.8,72.5,80.3

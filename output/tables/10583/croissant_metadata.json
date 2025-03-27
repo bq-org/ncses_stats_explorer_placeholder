@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Nice classes in trademark data, by business sector: 1998\u20132022",
+  "identifier": "NCSES-10583",
+  "description": "Nice classes in trademark data, by business sector: 1998\u20132022",
+  "url": "https://example.org/datasets/ncses/tables/10583",
+  "table_number": "SINV-36",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10583/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "business_sector",
+      "description": "Business Sector",
+      "valueType": "string",
+      "unitText": "Nice classes"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "abbreviation_if_applicable_",
+      "description": "Abbreviation If Applicable ",
+      "valueType": "string",
+      "unitText": "Nice classes"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "nice_class",
+      "description": "Nice Class",
+      "valueType": "string",
+      "unitText": "Nice classes"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "class_description",
+      "description": "Class Description",
+      "valueType": "string",
+      "unitText": "Nice classes"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Trademarks are classified under the 11th edition of the Nice Classification (NCL) of goods and services, which classifies trademarks under 34 categories of goods and 11 categories of services. Business sectors based on class groups are those defined by Edital.",
+  "sources": "World Intellectual Property Organization, NCL, https://www.wipo.int/classifications/nice/en/.Science and Engineering Indicators"
+}

@@ -1,0 +1,338 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Relative citation index in physics, by selected region, country, or economy pair: 2020",
+  "identifier": "NCSES-10019",
+  "description": "Relative citation index in physics, by selected region, country, or economy pair: 2020",
+  "url": "https://example.org/datasets/ncses/tables/10019",
+  "table_number": "SPBS-51",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10019/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "citing_region_country_or_economy",
+      "description": "Citing Region Country Or Economy",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "canada",
+      "description": "Canada",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "mexico",
+      "description": "Mexico",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "united_states",
+      "description": "United States",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "argentina",
+      "description": "Argentina",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "brazil",
+      "description": "Brazil",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "chile",
+      "description": "Chile",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "austria",
+      "description": "Austria",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "belgium",
+      "description": "Belgium",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "czechia",
+      "description": "Czechia",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "denmark",
+      "description": "Denmark",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "finland",
+      "description": "Finland",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "france",
+      "description": "France",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "germany",
+      "description": "Germany",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "greece",
+      "description": "Greece",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ireland",
+      "description": "Ireland",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "italy",
+      "description": "Italy",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "netherlands",
+      "description": "Netherlands",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "poland",
+      "description": "Poland",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "portugal",
+      "description": "Portugal",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "spain",
+      "description": "Spain",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sweden",
+      "description": "Sweden",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "united_kingdom",
+      "description": "United Kingdom",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "norway",
+      "description": "Norway",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "russia",
+      "description": "Russia",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "switzerland",
+      "description": "Switzerland",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "turkey",
+      "description": "Turkey",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "iran",
+      "description": "Iran",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "israel",
+      "description": "Israel",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "saudi_arabia",
+      "description": "Saudi Arabia",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "egypt",
+      "description": "Egypt",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "south_africa",
+      "description": "South Africa",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "china",
+      "description": "China",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "india",
+      "description": "India",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "japan",
+      "description": "Japan",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "malaysia",
+      "description": "Malaysia",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "pakistan",
+      "description": "Pakistan",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "singapore",
+      "description": "Singapore",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "south_korea",
+      "description": "South Korea",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "taiwan",
+      "description": "Taiwan",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "thailand",
+      "description": "Thailand",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "australia",
+      "description": "Australia",
+      "valueType": "string",
+      "unitText": "Index"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "new_zealand",
+      "description": "New Zealand",
+      "valueType": "string",
+      "unitText": "Index"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Citations refer to publications from a selection of journals, books, and conference proceedings in S&E from Scopus. Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) listed in the article. Articles are credited on a fractional count basis (i.e., for articles with collaborating institutions from multiple regions, countries, or economies, each region, country, or economy receives fractional credit on the basis of the proportion of its participating institutions). Citation counts are based on all citations made to articles in their publication year and in the following 2 years (i.e., 3-year citation window, scores in 2020 are based on citations to articles published in 2020 that were made in articles published in 2020\u201322. The relative citation index normalizes cross-national citation data for variations in relative size of publication output. It is computed by dividing the share of the citing region, country, or economy's outgoing citations going to the cited region, country, or economy and dividing this by the share of publications attributed to the cited region, country, or economy. For single-discipline data, the discipline is that of the cited articles. Cells in which the region, country, or economy collaborates at or above the world average for that year are shaded green.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed April 2023.Science and Engineering Indicators"
+}

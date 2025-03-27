@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Science, engineering, and health organizational units with postdoctoral appointees, by detailed field: 2020\u201322",
+  "identifier": "NCSES-10633",
+  "description": "Science, engineering, and health organizational units with postdoctoral appointees, by detailed field: 2020\u201322",
+  "url": "https://example.org/datasets/ncses/tables/10633",
+  "table_number": "A-5b",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10633/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_b",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_b_level_1, _b_field_b_level_2, _b_field_b_level_3, _b_field_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "For doctorate-holding nonfaculty researchers, \"field\" refers to the field of the unit that reports information on these groups to the Survey of Graduate Students and Postdoctorates in Science and Engineering (GSS). This table only contains fields where graduate students may be reported. For more information on the mapping of GSS fields and codes, see technical table A-17. Clinical medicine includes postdoctoral appointees in medical clinical sciences, clinical and medical laboratory sciences, anesthesiology, cardiology, endocrinology, gastroenterology, hematology, neurology, obstetrics and gynecology, oncology and cancer research, ophthalmology, otorhinolaryngology, pediatrics, psychiatry, public health, pulmonary disease, radiological sciences, surgery, and clinical medicine not elsewhere classified.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering."
+}

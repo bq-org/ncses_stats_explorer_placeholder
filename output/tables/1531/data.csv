@@ -1,0 +1,49 @@
+table_id,row_id,time_period,mathematics_level_1,mathematics_level_2,mathematics_hierarchy_depth,value
+1531,r001,All children,Mathematics,"Kindergarten, fall 2010",2,36.8
+1531,r002,All children,Mathematics,"Grade 5, spring 2016",2,121.4
+1531,r003,All children,Science,"Kindergarten, spring 2011",2,34.4
+1531,r004,All children,Science,"Grade 5, spring 2016",2,74.7
+1531,r005,All children -> Sex -> Male,Mathematics,"Kindergarten, fall 2010",2,37.1
+1531,r006,All children -> Sex -> Male,Mathematics,"Grade 5, spring 2016",2,122.4
+1531,r007,All children -> Sex -> Male,Science,"Kindergarten, spring 2011",2,34.5
+1531,r008,All children -> Sex -> Male,Science,"Grade 5, spring 2016",2,75.2
+1531,r009,All children -> Sex -> Female,Mathematics,"Kindergarten, fall 2010",2,36.5
+1531,r010,All children -> Sex -> Female,Mathematics,"Grade 5, spring 2016",2,120.3
+1531,r011,All children -> Sex -> Female,Science,"Kindergarten, spring 2011",2,34.3
+1531,r012,All children -> Sex -> Female,Science,"Grade 5, spring 2016",2,74.2
+1531,r013,All children -> Race or ethnicity<sup>a</sup> -> White,Mathematics,"Kindergarten, fall 2010",2,39.5
+1531,r014,All children -> Race or ethnicity<sup>a</sup> -> White,Mathematics,"Grade 5, spring 2016",2,125.9
+1531,r015,All children -> Race or ethnicity<sup>a</sup> -> White,Science,"Kindergarten, spring 2011",2,37.1
+1531,r016,All children -> Race or ethnicity<sup>a</sup> -> White,Science,"Grade 5, spring 2016",2,77.9
+1531,r017,All children -> Race or ethnicity<sup>a</sup> -> Black or African American,Mathematics,"Kindergarten, fall 2010",2,32.7
+1531,r018,All children -> Race or ethnicity<sup>a</sup> -> Black or African American,Mathematics,"Grade 5, spring 2016",2,110.3
+1531,r019,All children -> Race or ethnicity<sup>a</sup> -> Black or African American,Science,"Kindergarten, spring 2011",2,31.1
+1531,r020,All children -> Race or ethnicity<sup>a</sup> -> Black or African American,Science,"Grade 5, spring 2016",2,66.9
+1531,r021,All children -> Race or ethnicity<sup>a</sup> -> Hispanic or Latino,Mathematics,"Kindergarten, fall 2010",2,32.0
+1531,r022,All children -> Race or ethnicity<sup>a</sup> -> Hispanic or Latino,Mathematics,"Grade 5, spring 2016",2,115.7
+1531,r023,All children -> Race or ethnicity<sup>a</sup> -> Hispanic or Latino,Science,"Kindergarten, spring 2011",2,30.1
+1531,r024,All children -> Race or ethnicity<sup>a</sup> -> Hispanic or Latino,Science,"Grade 5, spring 2016",2,70.6
+1531,r025,All children -> Race or ethnicity<sup>a</sup> -> Asian,Mathematics,"Kindergarten, fall 2010",2,41.0
+1531,r026,All children -> Race or ethnicity<sup>a</sup> -> Asian,Mathematics,"Grade 5, spring 2016",2,128.7
+1531,r027,All children -> Race or ethnicity<sup>a</sup> -> Asian,Science,"Kindergarten, spring 2011",2,32.1
+1531,r028,All children -> Race or ethnicity<sup>a</sup> -> Asian,Science,"Grade 5, spring 2016",2,77.8
+1531,r029,All children -> Race or ethnicity<sup>a</sup> -> Native Hawaiian or Other Pacific Islander,Mathematics,"Kindergarten, fall 2010",2,36.0
+1531,r030,All children -> Race or ethnicity<sup>a</sup> -> Native Hawaiian or Other Pacific Islander,Mathematics,"Grade 5, spring 2016",2,123.4
+1531,r031,All children -> Race or ethnicity<sup>a</sup> -> Native Hawaiian or Other Pacific Islander,Science,"Kindergarten, spring 2011",2,31.7
+1531,r032,All children -> Race or ethnicity<sup>a</sup> -> Native Hawaiian or Other Pacific Islander,Science,"Grade 5, spring 2016",2,72.5
+1531,r033,All children -> Race or ethnicity<sup>a</sup> -> American Indian or Alaska Native,Mathematics,"Kindergarten, fall 2010",2,34.4
+1531,r034,All children -> Race or ethnicity<sup>a</sup> -> American Indian or Alaska Native,Mathematics,"Grade 5, spring 2016",2,121.2
+1531,r035,All children -> Race or ethnicity<sup>a</sup> -> American Indian or Alaska Native,Science,"Kindergarten, spring 2011",2,35.7
+1531,r036,All children -> Race or ethnicity<sup>a</sup> -> American Indian or Alaska Native,Science,"Grade 5, spring 2016",2,74.2
+1531,r037,All children -> Race or ethnicity<sup>a</sup> -> More than one race,Mathematics,"Kindergarten, fall 2010",2,38.6
+1531,r038,All children -> Race or ethnicity<sup>a</sup> -> More than one race,Mathematics,"Grade 5, spring 2016",2,122.5
+1531,r039,All children -> Race or ethnicity<sup>a</sup> -> More than one race,Science,"Kindergarten, spring 2011",2,36.8
+1531,r040,All children -> Race or ethnicity<sup>a</sup> -> More than one race,Science,"Grade 5, spring 2016",2,77.3
+1531,r041,All children -> Family poverty status in fall 2010<sup>b</sup> -> Income below the federal poverty level,Mathematics,"Kindergarten, fall 2010",2,31.5
+1531,r042,All children -> Family poverty status in fall 2010<sup>b</sup> -> Income below the federal poverty level,Mathematics,"Grade 5, spring 2016",2,113.5
+1531,r043,All children -> Family poverty status in fall 2010<sup>b</sup> -> Income below the federal poverty level,Science,"Kindergarten, spring 2011",2,30.2
+1531,r044,All children -> Family poverty status in fall 2010<sup>b</sup> -> Income below the federal poverty level,Science,"Grade 5, spring 2016",2,68.9
+1531,r045,All children -> Family poverty status in fall 2010<sup>b</sup> -> Income at or above 200% of the federal poverty level,Mathematics,"Kindergarten, fall 2010",2,40.4
+1531,r046,All children -> Family poverty status in fall 2010<sup>b</sup> -> Income at or above 200% of the federal poverty level,Mathematics,"Grade 5, spring 2016",2,126.4
+1531,r047,All children -> Family poverty status in fall 2010<sup>b</sup> -> Income at or above 200% of the federal poverty level,Science,"Kindergarten, spring 2011",2,37.0
+1531,r048,All children -> Family poverty status in fall 2010<sup>b</sup> -> Income at or above 200% of the federal poverty level,Science,"Grade 5, spring 2016",2,78.4

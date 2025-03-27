@@ -1,0 +1,19 @@
+table_id,row_id,measure_full_path,measure_level_1,measure_level_2,measure_level_3,measure_level_4,measure_hierarchy_depth,field_education_coverage,field_data_source,field_individuals
+1616,r001,Occupation,Occupation,,,,1,,,
+1616,r002,Occupation -> Employed in S&E occupations,Occupation,Employed in S&E occupations,,,2,All education levels,2017 BLS OES Survey,6889000
+1616,r003,Occupation -> Employed in S&E occupations,Occupation,Employed in S&E occupations,,,2,Bachelor's and above,2017 NCSES/NSF NSCG ,6769000
+1616,r004,Occupation -> Employed in S&E occupations,Occupation,Employed in S&E occupations,,,2,All education levels,2017 Census Bureau ACS,7496000
+1616,r005,Occupation -> Employed in S&E occupations,Occupation,Employed in S&E occupations,,,2,Bachelor's and above,2017 Census Bureau ACS,5634000
+1616,r006,Education,Education,,,,1,,,
+1616,r007,Education -> At least one degree in S&E field,Education,At least one degree in S&E field,,,2,Bachelor's and above,2017 NCSES/NSF NSCG,24521000
+1616,r008,Education -> Highest degree in S&E field,Education,Highest degree in S&E field,,,2,Bachelor's and above,2017 NCSES/NSF NSCG,18339000
+1616,r009,Education -> Highest degree in S&E field -> Job closely related to highest degree,Education,Highest degree in S&E field,Job closely related to highest degree,,3,Bachelor's and above,2017 NCSES/NSF NSCG,6932000
+1616,r010,Education -> Highest degree in S&E field -> Job closely related to highest degree -> S&E occupation,Education,Highest degree in S&E field,Job closely related to highest degree,S&E occupation,4,Bachelor's and above,2017 NCSES/NSF NSCG,3619000
+1616,r011,Education -> Highest degree in S&E field -> Job closely related to highest degree -> Other occupation,Education,Highest degree in S&E field,Job closely related to highest degree,Other occupation,4,Bachelor's and above,2017 NCSES/NSF NSCG,3313000
+1616,r012,Education -> Highest degree in S&E field -> Job somewhat related to highest degree,Education,Highest degree in S&E field,Job somewhat related to highest degree,,3,Bachelor's and above,2017 NCSES/NSF NSCG,4302000
+1616,r013,Education -> Highest degree in S&E field -> Job somewhat related to highest degree -> S&E occupation,Education,Highest degree in S&E field,Job somewhat related to highest degree,S&E occupation,4,Bachelor's and above,2017 NCSES/NSF NSCG,1152000
+1616,r014,Education -> Highest degree in S&E field -> Job somewhat related to highest degree -> Other occupation,Education,Highest degree in S&E field,Job somewhat related to highest degree,Other occupation,4,Bachelor's and above,2017 NCSES/NSF NSCG,3151000
+1616,r015,Job requires S&E technical expertise at bachelor's level,Job requires S&E technical expertise at bachelor's level,,,,1,,,
+1616,r016,Job requires S&E technical expertise at bachelor's level -> In one or more S&E fields,Job requires S&E technical expertise at bachelor's level,In one or more S&E fields,,,2,Bachelor's and above,2017 NCSES/NSF NSCG,20935000
+1616,r017,"Job requires S&E technical expertise at bachelor's level -> In one or more S&E fields -> Engineering, computer science, mathematics, or natural sciences",Job requires S&E technical expertise at bachelor's level,In one or more S&E fields,"Engineering, computer science, mathematics, or natural sciences",,3,Bachelor's and above,2017 NCSES/NSF NSCG,15592000
+1616,r018,Job requires S&E technical expertise at bachelor's level -> In one or more S&E fields -> Social sciences,Job requires S&E technical expertise at bachelor's level,In one or more S&E fields,Social sciences,,3,Bachelor's and above,2017 NCSES/NSF NSCG,9269000

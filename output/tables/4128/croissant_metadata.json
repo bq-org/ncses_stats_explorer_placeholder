@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Eighth-grade teachers who reported participating in professional learning activities at least once in the past 2 years, by type of activity: 2018",
+  "identifier": "NCSES-4128",
+  "description": "Eighth-grade teachers who reported participating in professional learning activities at least once in the past 2 years, by type of activity: 2018",
+  "url": "https://example.org/datasets/ncses/tables/4128",
+  "table_number": "SK12-34",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4128/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_activity",
+      "description": "Type Of Activity",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "icils_average",
+      "description": "Icils Average",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "united_statesa",
+      "description": "United Statesa",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The ICILS average is the average of all participating education systems meeting international technical standards, with each education system weighted equally. Professional learning activities are ordered by the percentages of U.S. teachers reporting participation in them from highest to lowest.",
+  "sources": "International Association for the Evaluation of Educational Achievement (IEA), ICILS, 2018. https://nces.ed.gov/surveys/icils/icils2018/theme1.asp?tabontop.Science and Engineering Indicators"
+}

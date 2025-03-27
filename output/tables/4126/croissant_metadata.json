@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Adults who reported provider of computer or digital device and Internet services for children to use at home for educational purposes, by selected adult characteristics: 7\u221212 May 2020 and 16\u221228 September 2020",
+  "identifier": "NCSES-4126",
+  "description": "Adults who reported provider of computer or digital device and Internet services for children to use at home for educational purposes, by selected adult characteristics: 7\u221212 May 2020 and 16\u221228 September 2020",
+  "url": "https://example.org/datasets/ncses/tables/4126",
+  "table_number": "SK12-32",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4126/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "adult_characteristic",
+      "description": "Adult characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "adult_characteristic_level_1, adult_characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "adult_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_computer_or_digital_device_provided_by_children_s_school_or_school_district_to_use_outside_of_school",
+      "description": "7 12 May 2020 Computer Or Digital Device Provided By Children S School Or School District To Use Outside Of School",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_computer_or_digital_device_provided_by_someone_in_household_or_family_or_it_is_the_child_s",
+      "description": "7 12 May 2020 Computer Or Digital Device Provided By Someone In Household Or Family Or It Is The Child S",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_computer_or_digital_device_provided_by_another_source",
+      "description": "7 12 May 2020 Computer Or Digital Device Provided By Another Source",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_internet_services_paid_for_by_children_s_school_or_school_district",
+      "description": "7 12 May 2020 Internet Services Paid For By Children S School Or School District",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_internet_services_paid_for_by_someone_in_household_or_family",
+      "description": "7 12 May 2020 Internet Services Paid For By Someone In Household Or Family",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_internet_services_paid_for_by_another_source",
+      "description": "7 12 May 2020 Internet Services Paid For By Another Source",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_computer_or_digital_device_provided_by_children_s_school_or_school_district_to_use_outside_of_school",
+      "description": "16 28 September 2020 Computer Or Digital Device Provided By Children S School Or School District To Use Outside Of School",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_computer_or_digital_device_provided_by_someone_in_household_or_family_or_it_is_the_child_s",
+      "description": "16 28 September 2020 Computer Or Digital Device Provided By Someone In Household Or Family Or It Is The Child S",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_computer_or_digital_device_provided_by_another_source",
+      "description": "16 28 September 2020 Computer Or Digital Device Provided By Another Source",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_internet_services_paid_for_by_children_s_school_or_school_district",
+      "description": "16 28 September 2020 Internet Services Paid For By Children S School Or School District",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_internet_services_paid_for_by_someone_in_household_or_family",
+      "description": "16 28 September 2020 Internet Services Paid For By Someone In Household Or Family",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_internet_services_paid_for_by_another_source",
+      "description": "16 28 September 2020 Internet Services Paid For By Another Source",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The table includes adults 18 years and older in households with children enrolled in K\u221212 school. Adults in households with only homeschooled children are not included. Respondents can choose multiple categories.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2020 U.S. Census Bureau Household Pulse Survey. Science and Engineering Indicators"
+}

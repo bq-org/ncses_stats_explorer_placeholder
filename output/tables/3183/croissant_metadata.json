@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Higher education R&D expenditures, by state, institutional control, institution, and source of funds: FY 2019",
+  "identifier": "NCSES-3183",
+  "description": "Higher education R&D expenditures, by state, institutional control, institution, and source of funds: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3183",
+  "table_number": "69",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3183/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_institutional_control_and_institution_b",
+      "description": "State, institutional control, and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_institutional_control_and_institution_b_level_1, _b_state_institutional_control_and_institution_b_level_2, _b_state_institutional_control_and_institution_b_level_3, _b_state_institutional_control_and_institution_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_institutional_control_and_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_expenditures",
+      "description": "All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_federal_government",
+      "description": "Source Of Funds Federal Government",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_state_and_local_government",
+      "description": "Source Of Funds State And Local Government",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_institution_funds",
+      "description": "Source Of Funds Institution Funds",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_business",
+      "description": "Source Of Funds Business",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_nonprofit_organizations",
+      "description": "Source Of Funds Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_all_other_sources",
+      "description": "Source Of Funds All Other Sources",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2019."
+}

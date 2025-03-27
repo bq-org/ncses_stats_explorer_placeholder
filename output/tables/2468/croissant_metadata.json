@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "State agency expenditures for R&D, by state, department or agency, and performer: FY 2019",
+  "identifier": "NCSES-2468",
+  "description": "State agency expenditures for R&D, by state, department or agency, and performer: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/2468",
+  "table_number": "20",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2468/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state_and_department_or_agency",
+      "description": "State and department or agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "state_and_department_or_agency_level_1, state_and_department_or_agency_level_2, state_and_department_or_agency_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "state_and_department_or_agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_expenditures",
+      "description": "All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_intramural_performersa",
+      "description": "Intramural Performersa",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performersb_total",
+      "description": "Extramural Performersb Total",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performersb_academic_institutions",
+      "description": "Extramural Performersb Academic Institutions",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performersb_companies_and_individualsc",
+      "description": "Extramural Performersb Companies And Individualsc",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_extramural_performersb_otherd",
+      "description": "Extramural Performersb Otherd",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of State Government Research and Development, FY 2019."
+}

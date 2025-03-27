@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment in KTI industries, by workforce and education: 2019",
+  "identifier": "NCSES-6247",
+  "description": "Employment in KTI industries, by workforce and education: 2019",
+  "url": "https://example.org/datasets/ncses/tables/6247",
+  "table_number": "SKTI-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6247/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_isic_rev_4_industry_code",
+      "description": "Isic Rev 4 Industry Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_stem_without_bachelor_s_degree_stw_",
+      "description": "Stem Without Bachelor S Degree Stw ",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_stem_with_bachelor_s_degree_or_above",
+      "description": "Stem With Bachelor S Degree Or Above",
+      "valueType": "string",
+      "unitText": "Thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_stem",
+      "description": "Non Stem",
+      "valueType": "string",
+      "unitText": "Thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "KTI industries include high R&D intensive and medium-high R&D intensive industries based on a classification by the Organisation for Economic Co-operation and Development. Data include workers ages 16\u201375 and exclude those in military occupations or currently enrolled in primary or secondary school. Values are rounded to the nearest thousand.",
+  "sources": "U.S. Census Bureau, American Community Survey (ACS), 2019, Public Use Microdata Sample (PUMS), accessed 12 December 2020.Science and Engineering Indicators"
+}

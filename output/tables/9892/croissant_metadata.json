@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E doctorate recipients who said their research was disrupted or immediate postgraduate employment or education plans changed as a result of the COVID-19 pandemic, by type of disruption and citizenship status: 2022",
+  "identifier": "NCSES-9892",
+  "description": "S&E doctorate recipients who said their research was disrupted or immediate postgraduate employment or education plans changed as a result of the COVID-19 pandemic, by type of disruption and citizenship status: 2022",
+  "url": "https://example.org/datasets/ncses/tables/9892",
+  "table_number": "E",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9892/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_disruption",
+      "description": "Type of disruption hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_disruption_level_1, type_of_disruption_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_disruption_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents",
+      "description": "U S Citizens And Permanent Residents",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holders",
+      "description": "Temporary Visa Holders",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Multiple responses allowed.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2022."
+}

@@ -1,0 +1,105 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D performance by performer and source of funds, by industry and company size: 2015",
+  "identifier": "NCSES-759",
+  "description": "Domestic R&D performance by performer and source of funds, by industry and company size: 2015",
+  "url": "https://example.org/datasets/ncses/tables/759",
+  "table_number": "45",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/759/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_by_the_company_total",
+      "description": "Performed By The Company Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_by_the_company_paid_for_by_the_company",
+      "description": "Performed By The Company Paid For By The Company",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_by_the_company_paid_for_by_others",
+      "description": "Performed By The Company Paid For By Others",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_by_others_total",
+      "description": "Performed By Others Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_by_others_paid_for_by_the_company",
+      "description": "Performed By Others Paid For By The Company",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_by_others_paid_for_by_others",
+      "description": "Performed By Others Paid For By Others",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Business R&D and Innovation Survey, 2015."
+}

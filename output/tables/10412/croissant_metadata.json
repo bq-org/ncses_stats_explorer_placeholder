@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for science and engineering to tribal colleges and universities, ranked by total amount received, by agency: FY 2021",
+  "identifier": "NCSES-10412",
+  "description": "Federal obligations for science and engineering to tribal colleges and universities, ranked by total amount received, by agency: FY 2021",
+  "url": "https://example.org/datasets/ncses/tables/10412",
+  "table_number": "27",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10412/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_institution_b",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_institution_b_level_1, _b_institution_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_agencies",
+      "description": "All Agencies",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dod",
+      "description": "Dod",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hhs",
+      "description": "Hhs",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nsf",
+      "description": "Nsf",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_usda",
+      "description": "Usda",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Institution order is based on total actual dollars received before amounts are rounded. Only those agencies that had obligations in the variables represented by this table appear in the table. The list of tribal colleges and universities is from the White House Initiative on American Indian and Alaska Native Education (see https://sites.ed.gov/whiaiane/tribes-tcus/tribal-colleges-and-universities/). In accordance with Executive Order No. 13270, \"Tribal Colleges and Universities as extended by Executive Order No. 13316, the list includes all of the colleges cited in section 532 of the Equity in Educational Land-Grant Status Act of 1994 (7 U.S.C. 301 note), any other institution that qualifies for funding under the Tribally Controlled Community College Assistance Act of 1978 (25 U.S.C. 1801 et seq.), and Dine College, which is authorized in the Navajo Community College Assistance Act of 1978, Public Law 95-471, title II (25 U.S.C. 640a note). The statutory definition of American Indian tribally controlled colleges and universities, to which the Higher Education Act refers at \u00c2\u00a7316(b)(3), 20 U.S.C. 1059c(b)(3), is in section 2(a)(4) of the Tribally Controlled College and University Assistance Act of 1978, 25 U.S.C. 1801(a)(4).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2021\u201322, Federal Science and Engineering Support Module."
+}

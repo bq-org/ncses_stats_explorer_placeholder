@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "International comparisons of gross domestic expenditures on R&D and R&D share of gross domestic product, by region, country, or economy: 2019 or most recent year",
+  "identifier": "NCSES-6304",
+  "description": "International comparisons of gross domestic expenditures on R&D and R&D share of gross domestic product, by region, country, or economy: 2019 or most recent year",
+  "url": "https://example.org/datasets/ncses/tables/6304",
+  "table_number": "RD-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6304/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Millions of U.S. PPP dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Year of data is listed in parentheses. Foreign currencies are converted to dollars through PPPs. Countries in this table have an annual GERD of $500 million or more. Countries are grouped according to the regions described by The World Factbook (CIA 2021). Data for Israel are civilian R&D only. See sources below for GERD statistics on additional countries.",
+  "sources": "National Center for Science and Engineering Statistics, National Patterns of R&D Resources (2019\u201320 edition); Organisation for Economic Co-operation and Development, Main Science and Technology Indicators (September 2021 edition); United Nations Educational, Scientific and Cultural Organization, Institute for Statistics, Science Technology and Innovation data set (March 2021 release).Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate recipients who said their research was disrupted as a result of COVID-19 pandemic, by type of disruptions: 2021",
+  "identifier": "NCSES-7664",
+  "description": "Doctorate recipients who said their research was disrupted as a result of COVID-19 pandemic, by type of disruptions: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7664",
+  "table_number": "D",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7664/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_disruption",
+      "description": "Type of disruption hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_disruption_level_1, type_of_disruption_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_disruption_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_and_percent",
+      "description": "Number And Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Multiple responses allowed.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2021."
+}

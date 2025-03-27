@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for basic research, by performer: FYs 1967&#8211;2023",
+  "identifier": "NCSES-10882",
+  "description": "Federal obligations for basic research, by performer: FYs 1967&#8211;2023",
+  "url": "https://example.org/datasets/ncses/tables/10882",
+  "table_number": "86",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10882/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2, column_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. FFRDC funding over the years may be affected by the creation of new FFRDCs and the phasing out of other FFRDCs. For details, see the notes in the Master Government List of Federally Funded R&D Centers at http://www.nsf.gov/statistics/ffrdclist/#ffrdc. FYs 2009 and 2010 obligations include additional funding provided by the American Recovery and Reinvestment Act of 2009. FYs 2020, 2021, and 2022 obligations include additional funding provided by supplemental COVID-19 pandemic-related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act). As of volume 71 (FYs 2021\u201322), FFRDCs are classified as intramural R&D performers, whereas they were extramural in previous volumes; therefore, data are not directly comparable across volumes. Past years in the trend tables have been adjusted to reflect the current classification of FFRDCs.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development.",
+  "temporalCoverage": "19/20"
+}

@@ -1,0 +1,35 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_2015_frequency,field_2015_percent,field_2017_frequency,field_2017_percent,field_2019_frequency,field_2019_percent
+6713,r001,Gender,Gender,,1,,,,,,
+6713,r002,Gender -> Male,Gender,Male,2,706264,67.4,730933,66.3,747481,65.1
+6713,r003,Gender -> Female,Gender,Female,2,341246,32.6,371897,33.7,401127,34.9
+6713,r004,Physical disability,Physical disability,,1,,,,,,
+6713,r005,Physical disability -> No,Physical disability,No,2,945070,90.2,991362,89.9,1037229,90.3
+6713,r006,Physical disability -> Yes,Physical disability,Yes,2,102440,9.8,111468,10.1,111379,9.7
+6713,r007,Race or ethnicity,Race or ethnicity,,1,,,,,,
+6713,r008,Race or ethnicity -> Asian,Race or ethnicity,Asian,2,258596,24.7,282390,25.6,300766,26.2
+6713,r009,Race or ethnicity -> Black,Race or ethnicity,Black,2,33950,3.2,37176,3.4,38849,3.4
+6713,r010,Race or ethnicity -> Hispanic,Race or ethnicity,Hispanic,2,47914,4.6,53334,4.8,55331,4.8
+6713,r011,Race or ethnicity -> White,Race or ethnicity,White,2,692593,66.2,713598,64.7,737283,64.2
+6713,r012,Race or ethnicity -> Other,Race or ethnicity,Other,2,14097,1.3,16331,1.5,16379,1.4
+6713,r013,Age,Age,,1,,,,,,
+6713,r014,Age -> < 30,Age,< 30,2,8068,0.8,8891,0.8,9204,0.8
+6713,r015,Age -> 30&#8211;39 ,Age,30&#8211;39 ,2,216345,20.7,233737,21.2,251607,21.9
+6713,r016,Age -> 40&#8211;49 ,Age,40&#8211;49 ,2,247820,23.7,259631,23.5,275505,24.0
+6713,r017,Age -> 50&#8211;59 ,Age,50&#8211;59 ,2,244123,23.3,250586,22.7,250061,21.8
+6713,r018,Age -> 60&#8211;69 ,Age,60&#8211;69 ,2,229694,21.9,234986,21.3,244126,21.3
+6713,r019,Age -> &#8805; 70 ,Age,&#8805; 70 ,2,101460,9.7,114999,10.4,118104,10.3
+6713,r020,Degree focus,Degree focus,,1,,,,,,
+6713,r021,Degree focus -> Science ,Degree focus,Science ,2,796205,76.0,832477,75.5,861852,75.0
+6713,r022,Degree focus -> Engineering ,Degree focus,Engineering ,2,202855,19.4,221447,20.1,234556,20.4
+6713,r023,Degree focus -> Health ,Degree focus,Health ,2,48450,4.6,48906,4.4,52199,4.5
+6713,r024,Living in the United States,Living in the United States,,1,,,,,,
+6713,r025,Living in the United States -> No,Living in the United States,No,2,127783,12.2,135697,12.3,139853,12.2
+6713,r026,Living in the United States -> Yes,Living in the United States,Yes,2,919727,87.8,967133,87.7,1008755,87.8
+6713,r027,Workforce status,Workforce status,,1,,,,,,
+6713,r028,Workforce status -> Employed,Workforce status,Employed,2,906474,86.5,938248,85.1,983259,85.6
+6713,r029,Workforce status -> Unemployed,Workforce status,Unemployed,2,15729,1.5,18989,1.7,16008,1.4
+6713,r030,Workforce status -> Not in the workforce,Workforce status,Not in the workforce,2,125307,12.0,145593,13.2,149341,13.0
+6713,r031,Employment sector,Employment sector,,1,,,,,,
+6713,r032,Employment sector -> Education,Employment sector,Education,2,429727,47.4,428638,45.7,456825,46.5
+6713,r033,Employment sector -> Government,Employment sector,Government,2,81118,8.9,88253,9.4,90992,9.2
+6713,r034,Employment sector -> Business and industry,Employment sector,Business and industry,2,395629,43.6,421357,44.9,435442,44.3

@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. R&D expenditures, by type of work: Selected years, 2000\u201317",
+  "identifier": "NCSES-1874",
+  "description": "U.S. R&D expenditures, by type of work: Selected years, 2000\u201317",
+  "url": "https://example.org/datasets/ncses/tables/1874",
+  "table_number": "4-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1874/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Billions of current and constant 2012 dollars; percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Data throughout the time series reported here are consistently based on the Organisation for Economic Co-operation and Development's Frascati Manual definitions for basic research, applied research, and experimental development. Prior to 2010, however, some changes were introduced in the questionnaires of the sectoral expenditure surveys to improve the accuracy of respondents' classification of their R&D. Therefore, small percentage changes may not be meaningful when comparing data before 2010 with more recent data.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Patterns of R&D Resources (annual series). Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

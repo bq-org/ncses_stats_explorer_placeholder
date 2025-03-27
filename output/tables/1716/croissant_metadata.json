@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal funding for R&D, R&D plant, and basic research, by budget function: FYs 1955\u20132020",
+  "identifier": "NCSES-1716",
+  "description": "Federal funding for R&D, R&D plant, and basic research, by budget function: FYs 1955\u20132020",
+  "url": "https://example.org/datasets/ncses/tables/1716",
+  "table_number": "23",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1716/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. In FY 2007, the Department of Homeland Security (DHS) changed its R&D portfolio to reclassify funding in National defense and most Administration of justice as General science and basic research; in FY 2013, this was reclassified back to Administration of justice. In FY 2004, DHS changed its R&D portfolio to reclassify funding in General science and basic research and in Agriculture as Administration of justice. In FY 2000, the National Aeronautics and Space Administration (NASA) transferred funding for the International Space Station program from R&D to R&D plant; the change is reflected in the budget authority for Space flight, research, and supporting activities. In FYs 2009 and 2012, NASA revised the classification of its R&D and non-R&D funding. In FY 2000, the National Institutes of Health in the Department of Health and Human Services classified all of its previous development activities as basic research or applied research, with a resulting increase in Health basic research. In FY 1998, many Department of Energy programs were reclassified from Energy to General science and basic research. In FY 1998, the Department of Veterans Affairs began reporting medical care support funds as a part of its total research budgetary resources; the change is reflected in the budget authority for Veterans benefits and services.",
+  "sources": "Data from FYs 1955\u201394 are from agencies' submissions to OMB, Circular No. A-11, exhibit 44A, \"Research and development activities,\" and from supplemental data obtained from agencies' budget offices. Data from FYs 1995\u20132017 are from agencies' submissions to OMB per MAX Schedule C, budget justification documents, and supplemental data obtained from agencies' budget offices.",
+  "temporalCoverage": "19/20"
+}

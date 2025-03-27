@@ -1,0 +1,24 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_level_3,characteristic_level_4,characteristic_hierarchy_depth,field_fy_2020,field_fy_2021,field__change
+7741,r001,All R&D and R&D plant expenditures,All R&D and R&D plant expenditures,,,,1,2453903,2500741,1.9
+7741,r002,All R&D plant expenditures,All R&D plant expenditures,,,,1,9787,29270,199.1
+7741,r003,All R&D expenditures,All R&D expenditures,,,,1,2444116,2471471,1.1
+7741,r004,All R&D expenditures -> Source of funds,All R&D expenditures,Source of funds,,,2,,,
+7741,r005,All R&D expenditures -> Source of funds -> Federal government,All R&D expenditures,Source of funds,Federal government,,3,607589,612124,0.7
+7741,r006,All R&D expenditures -> Source of funds -> State government and other nonfederal sources,All R&D expenditures,Source of funds,State government and other nonfederal sources,,3,1836527,1859348,1.2
+7741,r007,All R&D expenditures -> Performer,All R&D expenditures,Performer,,,2,,,
+7741,r008,All R&D expenditures -> Performer -> Intramural<sup>a </sup>,All R&D expenditures,Performer,Intramural<sup>a </sup>,,3,691921,673691,-2.6
+7741,r009,All R&D expenditures -> Performer -> Extramural,All R&D expenditures,Performer,Extramural,,3,1752194,1797780,2.6
+7741,r010,All R&D expenditures -> Performer -> Extramural -> Higher education institutions,All R&D expenditures,Performer,Extramural,Higher education institutions,4,951572,960494,0.9
+7741,r011,All R&D expenditures -> Performer -> Extramural -> Companies and individuals,All R&D expenditures,Performer,Extramural,Companies and individuals,4,459984,508757,10.6
+7741,r012,All R&D expenditures -> Performer -> Extramural -> Other,All R&D expenditures,Performer,Extramural,Other,4,340638,328529,-3.6
+7741,r013,All R&D expenditures -> Intramural by type of R&D,All R&D expenditures,Intramural by type of R&D,,,2,,,
+7741,r014,All R&D expenditures -> Intramural by type of R&D -> Basic research,All R&D expenditures,Intramural by type of R&D,Basic research,,3,129980,119427,-8.1
+7741,r015,All R&D expenditures -> Intramural by type of R&D -> Applied research,All R&D expenditures,Intramural by type of R&D,Applied research,,3,522568,505569,-3.3
+7741,r016,All R&D expenditures -> Intramural by type of R&D -> Experimental development,All R&D expenditures,Intramural by type of R&D,Experimental development,,3,39373,48695,23.7
+7741,r017,All R&D expenditures -> R&amp;D project by government function,All R&D expenditures,R&amp;D project by government function,,,2,,,
+7741,r018,All R&D expenditures -> R&amp;D project by government function -> Agriculture,All R&D expenditures,R&amp;D project by government function,Agriculture,,3,142105,119860,-15.7
+7741,r019,All R&D expenditures -> R&amp;D project by government function -> Energy,All R&D expenditures,R&amp;D project by government function,Energy,,3,390848,410687,5.1
+7741,r020,All R&D expenditures -> R&amp;D project by government function -> Environment and natural resources,All R&D expenditures,R&amp;D project by government function,Environment and natural resources,,3,448489,428535,-4.4
+7741,r021,All R&D expenditures -> R&amp;D project by government function -> Health,All R&D expenditures,R&amp;D project by government function,Health,,3,1027757,1030395,0.3
+7741,r022,All R&D expenditures -> R&amp;D project by government function -> Transportation,All R&D expenditures,R&amp;D project by government function,Transportation,,3,279443,300353,7.5
+7741,r023,All R&D expenditures -> R&amp;D project by government function -> Other<sup>b</sup>,All R&D expenditures,R&amp;D project by government function,Other<sup>b</sup>,,3,155474,181642,16.8

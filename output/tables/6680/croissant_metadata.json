@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Confidence in medical scientists to act in the best interests of the public, by understanding of the scientific method: 2020",
+  "identifier": "NCSES-6680",
+  "description": "Confidence in medical scientists to act in the best interests of the public, by understanding of the scientific method: 2020",
+  "url": "https://example.org/datasets/ncses/tables/6680",
+  "table_number": "SPPS-18",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6680/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "level_of_confidence_in_medical_scientists_characteristic",
+      "description": "Level of confidence in medical scientists hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "level_of_confidence_in_medical_scientists_level_1, level_of_confidence_in_medical_scientists_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Responses are to the following:- How much confidence, if any, do you have in [medical scientists] to act in the best interests of the public?- Based on what you have heard or read, which of the following statements best describes the scientific method?The scientific method produces findings meant to be continually tested and updated over time.The scientific method identifies unchanging core principles and truths.Not sure- Which of the following best describes what you think about the scientific method?The scientific method generally produces accurate conclusions.The scientific method can be used to produce any conclusion the research wants.",
+  "sources": "Pew Research Center, American Trends Panel (2020), Wave 79, conducted 18\u201329 November 2020. Data provided to the authors by the center prior to public release. Science and Engineering Indicators"
+}

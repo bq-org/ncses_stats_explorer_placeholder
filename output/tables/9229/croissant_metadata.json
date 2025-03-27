@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E doctorate holders employed in academia with federal support, by degree field, research activity, and type of position: 2021",
+  "identifier": "NCSES-9229",
+  "description": "S&E doctorate holders employed in academia with federal support, by degree field, research activity, and type of position: 2021",
+  "url": "https://example.org/datasets/ncses/tables/9229",
+  "table_number": "SURD-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9229/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "degree_field_research_activity_and_type_of_position",
+      "description": "Degree field, research activity, and type of position hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "degree_field_research_activity_and_type_of_position_level_1, degree_field_research_activity_and_type_of_position_level_2, degree_field_research_activity_and_type_of_position_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "degree_field_research_activity_and_type_of_position_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Academic employment is limited to U.S. doctorate holders employed at 2- or 4-year colleges or universities, medical schools, or university research institutes. Full-time faculty include full professors, associate professors, and assistant professors. Total includes part-time employment not shown separately but excludes those employed part time because they are students or retired. Research includes basic or applied research, development, or design. Physical sciences include earth, atmospheric, and ocean sciences; life sciences include biological, agricultural, and environmental life and health sciences.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients.Science and Engineering Indicators"
+}

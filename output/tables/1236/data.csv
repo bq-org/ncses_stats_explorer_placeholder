@@ -1,0 +1,32 @@
+table_id,row_id,age_institution_type_financial_aid_and_enrollment_status_full_path,age_institution_type_financial_aid_and_enrollment_status_level_1,age_institution_type_financial_aid_and_enrollment_status_level_2,age_institution_type_financial_aid_and_enrollment_status_level_3,age_institution_type_financial_aid_and_enrollment_status_level_4,age_institution_type_financial_aid_and_enrollment_status_level_5,age_institution_type_financial_aid_and_enrollment_status_hierarchy_depth,field_all_undergraduates,field_without_disability,field_with_disability
+1236,r001,All undergraduates (number),All undergraduates (number),,,,,1,19532300,15725100,3807100
+1236,r002,All undergraduates (number) -> Age (years),All undergraduates (number),Age (years),,,,2,100.0,100.0,100.0
+1236,r003,All undergraduates (number) -> Age (years) -> 15&#8211;23,All undergraduates (number),Age (years),15&#8211;23,,,3,59.0,60.3,53.3
+1236,r004,All undergraduates (number) -> Age (years) -> 24&#8211;29,All undergraduates (number),Age (years),24&#8211;29,,,3,18.3,17.8,20.3
+1236,r005,All undergraduates (number) -> Age (years) -> 30 and older,All undergraduates (number),Age (years),30 and older,,,3,22.8,21.9,26.4
+1236,r006,All undergraduates (number) -> Institution type,All undergraduates (number),Institution type,,,,2,100.0,100.1,100.0
+1236,r007,All undergraduates (number) -> Institution type -> 4-year,All undergraduates (number),Institution type,4-year,,,3,55.9,56.7,52.6
+1236,r008,All undergraduates (number) -> Institution type -> 2-year,All undergraduates (number),Institution type,2-year,,,3,41.9,41.2,44.9
+1236,r009,All undergraduates (number) -> Institution type -> Less than 2-year,All undergraduates (number),Institution type,Less than 2-year,,,3,2.2,2.2,2.5
+1236,r010,All undergraduates (number) -> Type of aid ,All undergraduates (number),Type of aid ,,,,2,100.0,100.0,100.0
+1236,r011,All undergraduates (number) -> Type of aid  -> No aid received,All undergraduates (number),Type of aid ,No aid received,,,3,27.7,27.4,28.6
+1236,r012,All undergraduates (number) -> Type of aid  -> Grants only,All undergraduates (number),Type of aid ,Grants only,,,3,29.6,30.0,27.6
+1236,r013,All undergraduates (number) -> Type of aid  -> Loans only,All undergraduates (number),Type of aid ,Loans only,,,3,6.4,6.4,6.4
+1236,r014,All undergraduates (number) -> Type of aid  -> Work study only,All undergraduates (number),Type of aid ,Work study only,,,3,0.1,0.1,0.05
+1236,r015,All undergraduates (number) -> Type of aid  -> Other only,All undergraduates (number),Type of aid ,Other only,,,3,1.4,1.3,1.7
+1236,r016,All undergraduates (number) -> Type of aid  -> Grants and loans,All undergraduates (number),Type of aid ,Grants and loans,,,3,23.9,23.6,25.3
+1236,r017,All undergraduates (number) -> Type of aid  -> Grants and work study,All undergraduates (number),Type of aid ,Grants and work study,,,3,1.3,1.3,1.1
+1236,r018,"All undergraduates (number) -> Type of aid  -> Grants, loans, and work study",All undergraduates (number),Type of aid ,"Grants, loans, and work study",,,3,2.9,3.1,2.4
+1236,r019,"All undergraduates (number) -> Type of aid  -> Grants, loans, and other",All undergraduates (number),Type of aid ,"Grants, loans, and other",,,3,3.3,3.4,3.3
+1236,r020,All undergraduates (number) -> Type of aid  -> Other combination,All undergraduates (number),Type of aid ,Other combination,,,3,3.4,3.4,3.6
+1236,r021,All undergraduates (number) -> Enrollment status,All undergraduates (number),Enrollment status,,,,2,100.0,100.0,100.0
+1236,r022,All undergraduates (number) -> Enrollment status -> Full time,All undergraduates (number),Enrollment status,Full time,,,3,,,
+1236,r023,All undergraduates (number) -> Enrollment status -> Full time -> Full year,All undergraduates (number),Enrollment status,Full time,Full year,,4,,,
+1236,r024,All undergraduates (number) -> Enrollment status -> Full time -> Full year -> One institution,All undergraduates (number),Enrollment status,Full time,Full year,One institution,5,33.2,34.1,29.7
+1236,r025,All undergraduates (number) -> Enrollment status -> Full time -> Full year -> More than one institution,All undergraduates (number),Enrollment status,Full time,Full year,More than one institution,5,4.4,4.6,3.8
+1236,r026,All undergraduates (number) -> Enrollment status -> Full time -> Part year,All undergraduates (number),Enrollment status,Full time,Part year,,4,14.6,14.4,15.2
+1236,r027,All undergraduates (number) -> Enrollment status -> Part time,All undergraduates (number),Enrollment status,Part time,,,3,,,
+1236,r028,All undergraduates (number) -> Enrollment status -> Part time -> Full year,All undergraduates (number),Enrollment status,Part time,Full year,,4,,,
+1236,r029,All undergraduates (number) -> Enrollment status -> Part time -> Full year -> One institution,All undergraduates (number),Enrollment status,Part time,Full year,One institution,5,19.2,18.9,20.1
+1236,r030,All undergraduates (number) -> Enrollment status -> Part time -> Full year -> More than one institution,All undergraduates (number),Enrollment status,Part time,Full year,More than one institution,5,2.6,2.5,2.7
+1236,r031,All undergraduates (number) -> Enrollment status -> Part time -> Part year,All undergraduates (number),Enrollment status,Part time,Part year,,4,26.0,25.4,28.5

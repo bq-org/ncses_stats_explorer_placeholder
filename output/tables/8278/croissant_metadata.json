@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Mapping of 2021 GSS codes and fields",
+  "identifier": "NCSES-8278",
+  "description": "Mapping of 2021 GSS codes and fields",
+  "url": "https://example.org/datasets/ncses/tables/8278",
+  "table_number": "A-17",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8278/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "broad_field",
+      "description": "Broad Field",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "gss_code_collected_",
+      "description": "Gss Code Collected ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "detailed_field_collected_",
+      "description": "Detailed Field Collected ",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "gss_code_reported_",
+      "description": "Gss Code Reported ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "gss_field_name_in_data_and_tables_",
+      "description": "Gss Field Name In Data And Tables ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "exclusions",
+      "description": "Exclusions",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2021."
+}

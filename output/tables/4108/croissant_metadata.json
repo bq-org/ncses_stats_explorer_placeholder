@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Subject-matter preparation of public middle and high school mathematics and science teachers, by teaching field and selected school characteristics: 2017\u201318",
+  "identifier": "NCSES-4108",
+  "description": "Subject-matter preparation of public middle and high school mathematics and science teachers, by teaching field and selected school characteristics: 2017\u201318",
+  "url": "https://example.org/datasets/ncses/tables/4108",
+  "table_number": "SK12-14",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4108/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "teaching_field_and_selected_school_characteristic",
+      "description": "Teaching field and selected school characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "teaching_field_and_selected_school_characteristic_level_1, teaching_field_and_selected_school_characteristic_level_2, teaching_field_and_selected_school_characteristic_level_3, teaching_field_and_selected_school_characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "teaching_field_and_selected_school_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_in_fielda",
+      "description": "In Fielda",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_related_fieldb",
+      "description": "Related Fieldb",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_general_educationc",
+      "description": "General Educationc",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherd",
+      "description": "Otherd",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Percentages may not add to 100% because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2017\u201318 National Teacher and Principal Survey, National Center for Education Statistics.Science and Engineering Indicators"
+}

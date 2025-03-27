@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "College graduates, by broad occupation, labor force status, sex, ethnicity, race, and disability status: 2019",
+  "identifier": "NCSES-5590",
+  "description": "College graduates, by broad occupation, labor force status, sex, ethnicity, race, and disability status: 2019",
+  "url": "https://example.org/datasets/ncses/tables/5590",
+  "table_number": "5-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5590/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation_and_labor_force_status",
+      "description": "Occupation and labor force status hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_and_labor_force_status_level_1, occupation_and_labor_force_status_level_2, occupation_and_labor_force_status_level_3, occupation_and_labor_force_status_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_and_labor_force_status_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female",
+      "description": "Female",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male",
+      "description": "Male",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino",
+      "description": "Hispanic Or Latino",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_american_indian_or_alaska_native",
+      "description": "Not Hispanic Or Latino American Indian Or Alaska Native",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_asian",
+      "description": "Not Hispanic Or Latino Asian",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_black_or_african_american",
+      "description": "Not Hispanic Or Latino Black Or African American",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_native_hawaiian_or_other_pacific_islander",
+      "description": "Not Hispanic Or Latino Native Hawaiian Or Other Pacific Islander",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_white",
+      "description": "Not Hispanic Or Latino White",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_more_than_one_race",
+      "description": "Not Hispanic Or Latino More Than One Race",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability",
+      "description": "Without Disability",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability",
+      "description": "With Disability",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding. This table does not include individuals who have never worked for pay or profit. If respondent was not employed during survey reference period, occupation when last employed was reported. Designation of full-time and part-time employment status is based on principal job only, not on all jobs held in labor force. For example, an individual could work part time in his or her principal job but full time in the labor force. Full time is based on working 35 or more hours per week on one\u2019s principal job. All individuals who report working part time on their principal job, regardless of their preference for working part time, are asked their reasons for working part time. All individuals who report not working, regardless of if they are looking for work, are asked their reasons for not working. Hispanic or Latino may be any race; race categories exclude Hispanic origin. The National Survey of College Graduates asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for an activity were classified as having a disability.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates: 2019."
+}

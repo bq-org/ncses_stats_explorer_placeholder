@@ -1,0 +1,61 @@
+table_id,row_id,field_of_study_and_employment_status_full_path,field_of_study_and_employment_status_level_1,field_of_study_and_employment_status_level_2,field_of_study_and_employment_status_level_3,field_of_study_and_employment_status_level_4,field_of_study_and_employment_status_hierarchy_depth,field_total_number,field_total_se,field_hispanic_or_latinoa_number,field_hispanic_or_latinoa_se,field_not_hispanic_or_latinob_american_indian_or_alaska_native_number,field_not_hispanic_or_latinob_american_indian_or_alaska_native_se,field_not_hispanic_or_latinob_asian_number,field_not_hispanic_or_latinob_asian_se,field_not_hispanic_or_latinob_black_or_african_american_number,field_not_hispanic_or_latinob_black_or_african_american_se,field_not_hispanic_or_latinob_white_number,field_not_hispanic_or_latinob_white_se,field_not_hispanic_or_latinob_other_racec_number,field_not_hispanic_or_latinob_other_racec_se
+3671,r001,All fields,All fields,,,,1,1008950,1450,41400,575,1600,150,235050,1325,35050,350,682450,1425,13400,400
+3671,r002,All fields -> Full time,All fields,Full time,,,2,763350,2000,33250,575,1100,125,201300,1375,27650,425,489300,1775,10700,350
+3671,r003,All fields -> Part time,All fields,Part time,,,2,93900,1525,3950,250,150,50,12050,625,3400,275,73050,1275,1250,150
+3671,r004,All fields -> Unemployed<sup>d</sup>,All fields,Unemployed<sup>d</sup>,,,2,14100,650,850,125,50,50,3950,350,1050,175,8000,475,150,50
+3671,r005,All fields -> Retired,All fields,Retired,,,2,120000,1400,2250,200,150,50,13500,700,2300,200,100800,1400,1000,150
+3671,r006,All fields -> Not employed or not seeking work<sup>e</sup>,All fields,Not employed or not seeking work<sup>e</sup>,,,2,17650,625,1050,175,50,50,4200,375,650,125,11300,500,350,75
+3671,r007,All fields -> Science,All fields,Science,,,2,761850,1425,32400,500,1300,125,142100,1250,26850,375,548500,1525,10700,350
+3671,r008,All fields -> Science -> Full time,All fields,Science,Full time,,3,561850,1900,25750,475,900,125,120250,1200,20850,400,385750,1850,8350,325
+3671,r009,All fields -> Science -> Part time,All fields,Science,Part time,,3,78450,1350,3450,225,150,50,8600,475,2950,250,62150,1175,1150,125
+3671,r010,All fields -> Science -> Unemployed<sup>d</sup>,All fields,Science,Unemployed<sup>d</sup>,,3,10200,575,650,100,50,50,2400,275,750,175,6150,425,100,50
+3671,r011,All fields -> Science -> Retired,All fields,Science,Retired,,3,97200,1300,1800,150,100,50,7800,475,1800,175,84950,1300,800,125
+3671,r012,All fields -> Science -> Not employed or not seeking work<sup>e</sup>,All fields,Science,Not employed or not seeking work<sup>e</sup>,,3,14100,575,700,125,50,50,3050,300,500,100,9450,475,300,75
+3671,r013,"All fields -> Science -> Biological, agricultural, and environmental life sciences",All fields,Science,"Biological, agricultural, and environmental life sciences",,3,258550,850,11250,300,250,50,55700,900,7800,275,179600,1075,3950,225
+3671,r014,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Full time",All fields,Science,"Biological, agricultural, and environmental life sciences",Full time,4,200900,1100,9500,300,200,50,47850,900,6500,250,133650,1050,3200,200
+3671,r015,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Part time",All fields,Science,"Biological, agricultural, and environmental life sciences",Part time,4,19850,625,750,100,,,2800,275,550,100,15400,550,350,100
+3671,r016,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Unemployed<sup>d</sup>",All fields,Science,"Biological, agricultural, and environmental life sciences",Unemployed<sup>d</sup>,4,4000,350,300,75,S,S,900,175,300,125,2300,300,50,25
+3671,r017,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Retired",All fields,Science,"Biological, agricultural, and environmental life sciences",Retired,4,28700,700,350,75,50,25,2700,275,300,75,25050,675,250,75
+3671,r018,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Not employed or not seeking work<sup>e</sup>",All fields,Science,"Biological, agricultural, and environmental life sciences",Not employed or not seeking work<sup>e</sup>,4,5150,325,300,75,,,1450,200,100,50,3150,250,100,50
+3671,r019,All fields -> Science -> Computer and information sciences,All fields,Science,Computer and information sciences,,3,33650,375,1000,100,,,14000,400,650,75,17600,350,350,100
+3671,r020,All fields -> Science -> Computer and information sciences -> Full time,All fields,Science,Computer and information sciences,Full time,4,29350,450,950,100,,,13000,400,550,75,14600,400,300,75
+3671,r021,All fields -> Science -> Computer and information sciences -> Part time,All fields,Science,Computer and information sciences,Part time,4,1750,200,,,,,400,125,50,25,1250,175,S,S
+3671,r022,All fields -> Science -> Computer and information sciences -> Unemployed<sup>d</sup>,All fields,Science,Computer and information sciences,Unemployed<sup>d</sup>,4,300,75,,,,,100,50,,,150,50,,
+3671,r023,All fields -> Science -> Computer and information sciences -> Retired,All fields,Science,Computer and information sciences,Retired,4,1750,200,50,25,,,300,100,50,25,1350,175,,
+3671,r024,All fields -> Science -> Computer and information sciences -> Not employed or not seeking work<sup>e</sup>,All fields,Science,Computer and information sciences,Not employed or not seeking work<sup>e</sup>,4,500,125,,,,,150,100,,,300,100,,
+3671,r025,All fields -> Science -> Mathematics and statistics,All fields,Science,Mathematics and statistics,,3,43800,375,1450,125,,,12450,400,1000,100,28400,425,450,100
+3671,r026,All fields -> Science -> Mathematics and statistics -> Full time,All fields,Science,Mathematics and statistics,Full time,4,33450,475,1250,100,,,10600,400,750,100,20450,425,400,100
+3671,r027,All fields -> Science -> Mathematics and statistics -> Part time,All fields,Science,Mathematics and statistics,Part time,4,3250,300,50,50,,,750,200,100,50,2300,225,,
+3671,r028,All fields -> Science -> Mathematics and statistics -> Unemployed<sup>d</sup>,All fields,Science,Mathematics and statistics,Unemployed<sup>d</sup>,4,550,125,,,,,200,100,,,350,100,,
+3671,r029,All fields -> Science -> Mathematics and statistics -> Retired,All fields,Science,Mathematics and statistics,Retired,4,5900,350,150,50,,,750,175,150,75,4850,300,,
+3671,r030,All fields -> Science -> Mathematics and statistics -> Not employed or not seeking work<sup>e</sup>,All fields,Science,Mathematics and statistics,Not employed or not seeking work<sup>e</sup>,4,700,150,,,,,200,75,,,450,125,,
+3671,r031,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",,3,161450,825,4850,200,100,50,36850,750,3350,225,114350,875,1850,150
+3671,r032,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Full time",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Full time,4,121600,1000,3900,200,50,25,31050,725,2800,225,82250,975,1500,150
+3671,r033,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Part time",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Part time,4,12200,500,450,75,,,1900,275,200,75,9500,450,150,50
+3671,r034,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Unemployed<sup>d</sup>",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Unemployed<sup>d</sup>,4,2450,300,100,50,,,800,175,100,50,1450,225,0.05,0.05
+3671,r035,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Retired",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Retired,4,22700,650,300,75,,,2600,300,100,50,19500,575,150,50
+3671,r036,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Not employed or not seeking work<sup>e</sup>",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Not employed or not seeking work<sup>e</sup>,4,2500,275,100,50,,,550,150,S,S,1700,200,,
+3671,r037,All fields -> Science -> Psychology,All fields,Science,Psychology,,3,139450,575,7350,275,350,75,8000,450,6700,250,114800,750,2250,175
+3671,r038,All fields -> Science -> Psychology -> Full time,All fields,Science,Psychology,Full time,4,87050,975,5000,225,200,75,5700,375,4900,250,69700,1025,1550,150
+3671,r039,All fields -> Science -> Psychology -> Part time,All fields,Science,Psychology,Part time,4,28250,800,1550,175,100,50,1400,225,900,125,23900,750,450,100
+3671,r040,All fields -> Science -> Psychology -> Unemployed<sup>d</sup>,All fields,Science,Psychology,Unemployed<sup>d</sup>,4,1100,175,100,50,,,,,150,75,750,150,0.05,0.05
+3671,r041,All fields -> Science -> Psychology -> Retired,All fields,Science,Psychology,Retired,4,19850,650,550,100,,,550,150,600,100,17950,650,150,50
+3671,r042,All fields -> Science -> Psychology -> Not employed or not seeking work<sup>e</sup>,All fields,Science,Psychology,Not employed or not seeking work<sup>e</sup>,4,3150,275,150,50,,,300,100,S,S,2450,250,100,50
+3671,r043,All fields -> Science -> Social sciences,All fields,Science,Social sciences,,3,124950,800,6450,275,500,100,15150,500,7350,300,93700,725,1800,175
+3671,r044,All fields -> Science -> Social sciences -> Full time,All fields,Science,Social sciences,Full time,4,89550,800,5150,250,400,100,12050,500,5350,275,65150,700,1400,150
+3671,r045,All fields -> Science -> Social sciences -> Part time,All fields,Science,Social sciences,Part time,4,13200,575,650,100,,,1400,200,1050,175,9800,500,200,75
+3671,r046,All fields -> Science -> Social sciences -> Unemployed<sup>d</sup>,All fields,Science,Social sciences,Unemployed<sup>d</sup>,4,1800,200,100,50,,,350,100,200,75,1100,175,,
+3671,r047,All fields -> Science -> Social sciences -> Retired,All fields,Science,Social sciences,Retired,4,18300,525,400,75,S,S,900,150,550,100,16250,525,150,50
+3671,r048,All fields -> Science -> Social sciences -> Not employed or not seeking work<sup>e</sup>,All fields,Science,Social sciences,Not employed or not seeking work<sup>e</sup>,4,2200,200,150,50,,,400,125,200,75,1450,175,S,S
+3671,r049,All fields -> Engineering,All fields,Engineering,,,2,199500,975,7450,300,150,50,83500,1150,4650,225,101650,1025,2100,225
+3671,r050,All fields -> Engineering -> Full time,All fields,Engineering,Full time,,3,166300,1250,6250,275,150,50,73050,1125,3950,200,81050,1025,1850,225
+3671,r051,All fields -> Engineering -> Part time,All fields,Engineering,Part time,,3,10400,575,350,75,,,2750,300,200,50,6950,450,S,S
+3671,r052,All fields -> Engineering -> Unemployed<sup>d</sup>,All fields,Engineering,Unemployed<sup>d</sup>,,3,3350,325,150,50,,,1450,225,200,75,1500,225,,
+3671,r053,All fields -> Engineering -> Retired,All fields,Engineering,Retired,,3,16750,725,400,100,,,5200,425,200,75,10750,600,150,75
+3671,r054,All fields -> Engineering -> Not employed or not seeking work<sup>e</sup>,All fields,Engineering,Not employed or not seeking work<sup>e</sup>,,3,2750,275,300,125,,,1050,200,100,50,1300,175,,
+3671,r055,All fields -> Health,All fields,Health,,,2,47600,400,1550,125,150,50,9450,375,3550,200,32350,400,600,100
+3671,r056,All fields -> Health -> Full time,All fields,Health,Full time,,3,35150,525,1250,100,50,25,8000,375,2850,200,22500,475,500,75
+3671,r057,All fields -> Health -> Part time,All fields,Health,Part time,,3,5050,325,150,50,,,650,150,300,75,3900,275,0.05,0.05
+3671,r058,All fields -> Health -> Unemployed<sup>d</sup>,All fields,Health,Unemployed<sup>d</sup>,,3,550,125,,,,,100,50,100,50,350,100,,
+3671,r059,All fields -> Health -> Retired,All fields,Health,Retired,,3,6050,300,50,25,,,500,125,300,75,5100,275,S,S
+3671,r060,All fields -> Health -> Not employed or not seeking work<sup>e</sup>,All fields,Health,Not employed or not seeking work<sup>e</sup>,,3,750,100,50,25,,,100,50,50,25,500,100,,

@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate recipients' sources of financial support, by broad field of study and sex: 2018",
+  "identifier": "NCSES-1771",
+  "description": "Doctorate recipients' sources of financial support, by broad field of study and sex: 2018",
+  "url": "https://example.org/datasets/ncses/tables/1771",
+  "table_number": "36",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1771/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "financial_resource",
+      "description": "Financial resource hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "financial_resource_level_1, financial_resource_level_2, financial_resource_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "financial_resource_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_male",
+      "description": "All Fields Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_female",
+      "description": "All Fields Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_life_sciencesa_male",
+      "description": "Life Sciencesa Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_life_sciencesa_female",
+      "description": "Life Sciencesa Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences_and_earth_sciences_male",
+      "description": "Physical Sciences And Earth Sciences Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences_and_earth_sciences_female",
+      "description": "Physical Sciences And Earth Sciences Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_computer_sciences_male",
+      "description": "Mathematics And Computer Sciences Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_computer_sciences_female",
+      "description": "Mathematics And Computer Sciences Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology_and_social_sciences_male",
+      "description": "Psychology And Social Sciences Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology_and_social_sciences_female",
+      "description": "Psychology And Social Sciences Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_male",
+      "description": "Engineering Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_female",
+      "description": "Engineering Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_male",
+      "description": "Education Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_female",
+      "description": "Education Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_male",
+      "description": "Humanities And Arts Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_female",
+      "description": "Humanities And Arts Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherb_male",
+      "description": "Otherb Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherb_female",
+      "description": "Otherb Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "In this table A respondent counts once in each source category from which he or she received support. Because students indicate multiple sources of support, percentages sum to more than 100.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D performed by companies and GDP, by core-based statistical area: 2018",
+  "identifier": "NCSES-4157",
+  "description": "Domestic R&D performed by companies and GDP, by core-based statistical area: 2018",
+  "url": "https://example.org/datasets/ncses/tables/4157",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4157/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_core_based_statistical_area_b",
+      "description": "Core-based statistical area hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_core_based_statistical_area_b_level_1, _b_core_based_statistical_area_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_core_based_statistical_area_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_cbsa_code",
+      "description": "Cbsa Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_business_r_d_performance",
+      "description": "Total Business R D Performance",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_gdp",
+      "description": "Gdp",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_gdp",
+      "description": "R D Gdp",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Rankings are based on point estimates and do not take into account sampling variability. A CBSA is a U.S. geographic area that consists of one or more counties (or equivalents) anchored by an urban center of at least 10,000 people plus adjacent counties that are socioeconomically tied to the urban center by commuting. CBSAs are defined by the Office of Management and Budget in the Executive Office of the President. Detail for other CBSAs available in Business Research and Development Survey data tables.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Research and Development Survey, 2018. Bureau of Economic Analysis, Gross Domestic Product by Metropolitan and Micropolitan Area. Accessed 16 August 2020."
+}

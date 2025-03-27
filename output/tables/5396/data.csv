@@ -1,0 +1,36 @@
+table_id,row_id,_b_source_of_foreign_funds_highest_degree_granted_and_institutional_control_b_full_path,_b_source_of_foreign_funds_highest_degree_granted_and_institutional_control_b_level_1,_b_source_of_foreign_funds_highest_degree_granted_and_institutional_control_b_level_2,_b_source_of_foreign_funds_highest_degree_granted_and_institutional_control_b_level_3,_b_source_of_foreign_funds_highest_degree_granted_and_institutional_control_b_level_4,_b_source_of_foreign_funds_highest_degree_granted_and_institutional_control_b_hierarchy_depth,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016,field_2017,field_2018,field_2019,field_2020
+5396,r001,All institutions,All institutions,,,,1,,,,,,,,,,,
+5396,r002,All institutions -> All foreign funds,All institutions,All foreign funds,,,2,642858,719255,797787,977773,1003612,1065483,1184134,1220161,1253513,1272165,1304607
+5396,r003,All institutions -> All foreign funds -> Foreign government,All institutions,All foreign funds,Foreign government,,3,na,na,na,na,na,na,164585,172575,249842,272645,296658
+5396,r004,All institutions -> All foreign funds -> Business,All institutions,All foreign funds,Business,,3,na,na,na,na,na,na,492310,517623,549382,580228,625962
+5396,r005,All institutions -> All foreign funds -> Nonprofit organizations,All institutions,All foreign funds,Nonprofit organizations,,3,na,na,na,na,na,na,303583,318018,273361,274070,252230
+5396,r006,All institutions -> All foreign funds -> Higher education institutions,All institutions,All foreign funds,Higher education institutions,,3,na,na,na,na,na,na,114640,111777,115367,108664,106741
+5396,r007,All institutions -> All foreign funds -> All other sources,All institutions,All foreign funds,All other sources,,3,na,na,na,na,na,na,109016,100168,65561,36558,23016
+5396,r008,All institutions -> Doctorate,All institutions,Doctorate,,,2,,,,,,,,,,,
+5396,r009,All institutions -> Doctorate -> All foreign funds,All institutions,Doctorate,All foreign funds,,3,640490,715437,795057,973733,999173,1060088,1170461,1215605,1247004,1267603,1298826
+5396,r010,All institutions -> Doctorate -> All foreign funds -> Foreign government,All institutions,Doctorate,All foreign funds,Foreign government,4,na,na,na,na,na,na,162784,172185,249291,272215,296434
+5396,r011,All institutions -> Doctorate -> All foreign funds -> Business,All institutions,Doctorate,All foreign funds,Business,4,na,na,na,na,na,na,482806,515163,546059,578533,623477
+5396,r012,All institutions -> Doctorate -> All foreign funds -> Nonprofit organizations,All institutions,Doctorate,All foreign funds,Nonprofit organizations,4,na,na,na,na,na,na,302930,317464,272699,273166,250391
+5396,r013,All institutions -> Doctorate -> All foreign funds -> Higher education institutions,All institutions,Doctorate,All foreign funds,Higher education institutions,4,na,na,na,na,na,na,114155,111436,114510,107698,106016
+5396,r014,All institutions -> Doctorate -> All foreign funds -> All other sources,All institutions,Doctorate,All foreign funds,All other sources,4,na,na,na,na,na,na,107786,99357,64445,35991,22508
+5396,r015,All institutions -> Nondoctorate,All institutions,Nondoctorate,,,2,,,,,,,,,,,
+5396,r016,All institutions -> Nondoctorate -> All foreign funds,All institutions,Nondoctorate,All foreign funds,,3,2368,3818,2730,4040,4439,5395,13673,4556,6509,4562,5781
+5396,r017,All institutions -> Nondoctorate -> All foreign funds -> Foreign government,All institutions,Nondoctorate,All foreign funds,Foreign government,4,na,na,na,na,na,na,1801,390,551,430,224
+5396,r018,All institutions -> Nondoctorate -> All foreign funds -> Business,All institutions,Nondoctorate,All foreign funds,Business,4,na,na,na,na,na,na,9504,2460,3323,1695,2485
+5396,r019,All institutions -> Nondoctorate -> All foreign funds -> Nonprofit organizations,All institutions,Nondoctorate,All foreign funds,Nonprofit organizations,4,na,na,na,na,na,na,653,554,662,904,1839
+5396,r020,All institutions -> Nondoctorate -> All foreign funds -> Higher education institutions,All institutions,Nondoctorate,All foreign funds,Higher education institutions,4,na,na,na,na,na,na,485,341,857,966,725
+5396,r021,All institutions -> Nondoctorate -> All foreign funds -> All other sources,All institutions,Nondoctorate,All foreign funds,All other sources,4,na,na,na,na,na,na,1230,811,1116,567,508
+5396,r022,All institutions -> Public,All institutions,Public,,,2,,,,,,,,,,,
+5396,r023,All institutions -> Public -> All foreign funds,All institutions,Public,All foreign funds,,3,381519,418115,437190,491874,518834,528480,546212,565651,593808,597246,622543
+5396,r024,All institutions -> Public -> All foreign funds -> Foreign government,All institutions,Public,All foreign funds,Foreign government,4,na,na,na,na,na,na,57274,51549,117452,89818,78440
+5396,r025,All institutions -> Public -> All foreign funds -> Business,All institutions,Public,All foreign funds,Business,4,na,na,na,na,na,na,264175,262449,277039,308757,352664
+5396,r026,All institutions -> Public -> All foreign funds -> Nonprofit organizations,All institutions,Public,All foreign funds,Nonprofit organizations,4,na,na,na,na,na,na,154891,175990,120856,121634,114737
+5396,r027,All institutions -> Public -> All foreign funds -> Higher education institutions,All institutions,Public,All foreign funds,Higher education institutions,4,na,na,na,na,na,na,50552,56051,59807,59994,63665
+5396,r028,All institutions -> Public -> All foreign funds -> All other sources,All institutions,Public,All foreign funds,All other sources,4,na,na,na,na,na,na,19320,19612,18654,17043,13037
+5396,r029,All institutions -> Private,All institutions,Private,,,2,,,,,,,,,,,
+5396,r030,All institutions -> Private -> All foreign funds,All institutions,Private,All foreign funds,,3,261339,301140,360597,485899,484778,537003,637922,654510,659705,674919,682064
+5396,r031,All institutions -> Private -> All foreign funds -> Foreign government,All institutions,Private,All foreign funds,Foreign government,4,na,na,na,na,na,na,107311,121026,132390,182827,218218
+5396,r032,All institutions -> Private -> All foreign funds -> Business,All institutions,Private,All foreign funds,Business,4,na,na,na,na,na,na,228135,255174,272343,271471,273298
+5396,r033,All institutions -> Private -> All foreign funds -> Nonprofit organizations,All institutions,Private,All foreign funds,Nonprofit organizations,4,na,na,na,na,na,na,148692,142028,152505,152436,137493
+5396,r034,All institutions -> Private -> All foreign funds -> Higher education institutions,All institutions,Private,All foreign funds,Higher education institutions,4,na,na,na,na,na,na,64088,55726,55560,48670,43076
+5396,r035,All institutions -> Private -> All foreign funds -> All other sources,All institutions,Private,All foreign funds,All other sources,4,na,na,na,na,na,na,89696,80556,46907,19515,9979

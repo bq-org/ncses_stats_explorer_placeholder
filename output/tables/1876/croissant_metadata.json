@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Comparative growth rates, gross domestic expenditures on R&D and gross domestic product, top R&D-performing countries: 2000\u201310, 2010\u201317",
+  "identifier": "NCSES-1876",
+  "description": "Comparative growth rates, gross domestic expenditures on R&D and gross domestic product, top R&D-performing countries: 2000\u201310, 2010\u201317",
+  "url": "https://example.org/datasets/ncses/tables/1876",
+  "table_number": "4-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1876/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "current_measures_characteristic",
+      "description": "Current measures hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "current_measures_level_1, current_measures_level_2, current_measures_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Billions of PPP dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Table shows the top eight R&D-performing countries in 2017. The growth rates are calculated as compound average annual rates. Year of data is listed in parentheses. By way of comparison, the National Center for Science and Engineering Statistics estimates that the average annual pace of growth of the global total of R&D was 7.0% for 2000\u201310 and 6.0% for 2010\u201317.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Patterns of R&D Resources (annual series); Organisation for Economic Co-operation and Development, Main Science and Technology Indicators (2019/1); United Nations Educational, Scientific and Cultural Organization Institute for Statistics Data Centre.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

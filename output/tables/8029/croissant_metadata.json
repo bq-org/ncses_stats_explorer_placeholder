@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with new to market and new to the business product innovation, by industry and size of company: 2016\u201318 and 2017\u201319",
+  "identifier": "NCSES-8029",
+  "description": "Companies with new to market and new to the business product innovation, by industry and size of company: 2016\u201318 and 2017\u201319",
+  "url": "https://example.org/datasets/ncses/tables/8029",
+  "table_number": "5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8029/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_size_of_company",
+      "description": "Industry and size of company hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_size_of_company_level_1, industry_and_size_of_company_level_2, industry_and_size_of_company_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_size_of_company_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_new_to_market_2016_18",
+      "description": "Product Innovation New To Market 2016 18",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_new_to_market_2017_19",
+      "description": "Product Innovation New To Market 2017 19",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_only_new_to_the_business_2016_18",
+      "description": "Product Innovation Only New To The Business 2016 18",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_product_innovation_only_new_to_the_business_2017_19",
+      "description": "Product Innovation Only New To The Business 2017 19",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding or unavailable NAICS detail for select records beyond the 4-digit industry classification. Industry classification based on dominant establishment payroll. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2020 Annual Business Survey: Data Year 2019."
+}

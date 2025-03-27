@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. R&D expenditures, by performing sector, source of funds, and type of R&D: 2019",
+  "identifier": "NCSES-6302",
+  "description": "U.S. R&D expenditures, by performing sector, source of funds, and type of R&D: 2019",
+  "url": "https://example.org/datasets/ncses/tables/6302",
+  "table_number": "RD-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6302/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "performing_sector_and_type_of_r_d",
+      "description": "Performing sector and type of R&D hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "performing_sector_and_type_of_r_d_level_1, performing_sector_and_type_of_r_d_level_2, performing_sector_and_type_of_r_d_level_3, performing_sector_and_type_of_r_d_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "performing_sector_and_type_of_r_d_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business",
+      "description": "Business",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_government",
+      "description": "Federal Government",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_government",
+      "description": "Nonfederal Government",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_higher_education",
+      "description": "Higher Education",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonprofit_organizations",
+      "description": "Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percent_by_performer",
+      "description": "Percent By Performer",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Some components of R&D performance and funding by nonprofit organizations are estimated and may later be revised.",
+  "sources": "National Center for Science and Engineering Statistics, National Patterns of R&D Resources (2019\u201320 edition).Science and Engineering Indicators"
+}

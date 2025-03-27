@@ -1,0 +1,264 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate-granting institutions, by state or location and major science and engineering fields of study: 2017",
+  "identifier": "NCSES-1052",
+  "description": "Doctorate-granting institutions, by state or location and major science and engineering fields of study: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1052",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1052/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state_or_location_and_institution",
+      "description": "State or location and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "state_or_location_and_institution_level_1, state_or_location_and_institution_level_2, state_or_location_and_institution_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "state_or_location_and_institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields",
+      "description": "All Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_life_sciences_total",
+      "description": "Science Life Sciences Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_life_sciences_agricultural_sciences_and_natural_resources",
+      "description": "Science Life Sciences Agricultural Sciences And Natural Resources",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_life_sciences_biological_and_biomedical_sciences",
+      "description": "Science Life Sciences Biological And Biomedical Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_life_sciences_health_sciences",
+      "description": "Science Life Sciences Health Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_physical_sciences_and_earth_sciences_total",
+      "description": "Science Physical Sciences And Earth Sciences Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_physical_sciences_and_earth_sciences_chemistry",
+      "description": "Science Physical Sciences And Earth Sciences Chemistry",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_physical_sciences_and_earth_sciences_geosciences_atmospheric_sciences_and_ocean_sciences",
+      "description": "Science Physical Sciences And Earth Sciences Geosciences Atmospheric Sciences And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_physical_sciences_and_earth_sciences_physics_and_astronomy",
+      "description": "Science Physical Sciences And Earth Sciences Physics And Astronomy",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_mathematics_and_computer_sciences_total",
+      "description": "Science Mathematics And Computer Sciences Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_mathematics_and_computer_sciences_computer_and_information_sciences",
+      "description": "Science Mathematics And Computer Sciences Computer And Information Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_mathematics_and_computer_sciences_mathematics_and_statistics",
+      "description": "Science Mathematics And Computer Sciences Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_and_social_sciences_total",
+      "description": "Science Psychology And Social Sciences Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_and_social_sciences_psychology",
+      "description": "Science Psychology And Social Sciences Psychology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_and_social_sciences_anthropology",
+      "description": "Science Psychology And Social Sciences Anthropology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_and_social_sciences_economics",
+      "description": "Science Psychology And Social Sciences Economics",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_and_social_sciences_political_science_and_government",
+      "description": "Science Psychology And Social Sciences Political Science And Government",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_and_social_sciences_sociology",
+      "description": "Science Psychology And Social Sciences Sociology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology_and_social_sciences_other_social_sciences",
+      "description": "Science Psychology And Social Sciences Other Social Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_total",
+      "description": "Engineering Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_aerospace_aeronautical_and_astronautical",
+      "description": "Engineering Aerospace Aeronautical And Astronautical",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_bioengineering_and_biomedical",
+      "description": "Engineering Bioengineering And Biomedical",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_chemical",
+      "description": "Engineering Chemical",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_civil",
+      "description": "Engineering Civil",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_electrical_electronics_and_communications",
+      "description": "Engineering Electrical Electronics And Communications",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_industrial_and_manufacturing",
+      "description": "Engineering Industrial And Manufacturing",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_materials_science",
+      "description": "Engineering Materials Science",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_mechanical",
+      "description": "Engineering Mechanical",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_other_engineering",
+      "description": "Engineering Other Engineering",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "See table A-6 in the technical notes for a listing of major fields and their constituent subfields.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2017."
+}

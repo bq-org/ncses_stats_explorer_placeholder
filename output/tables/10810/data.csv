@@ -1,0 +1,11 @@
+table_id,row_id,_b_transferred_from_agency_b_full_path,_b_transferred_from_agency_b_level_1,_b_transferred_from_agency_b_level_2,_b_transferred_from_agency_b_level_3,_b_transferred_from_agency_b_hierarchy_depth,field_total_transferred,field_transferred_to_agency_doc,field_transferred_to_agency_dod,field_transferred_to_agency_doi,field_transferred_to_agency_dot,field_transferred_to_agency_epa,field_transferred_to_agency_nasa,field_transferred_to_agency_nrc,field_transferred_to_agency_nsf,field_transferred_to_agency_othera
+10810,r001,All agencies,All agencies,,,1,86579,1829,61905,2761,164,117,707,42,150,18904
+10810,r002,All agencies -> Departments,All agencies,Departments,,2,,,,,,,,,,
+10810,r003,All agencies -> Departments -> Department of Commerce,All agencies,Departments,Department of Commerce,3,482,0,0,0,0,0,332,0,150,0
+10810,r004,All agencies -> Departments -> Department of Defense,All agencies,Departments,Department of Defense,3,1389,0,1389,0,0,0,0,0,0,0
+10810,r005,All agencies -> Departments -> Department of Energy,All agencies,Departments,Department of Energy,3,1476,1422,12,0,0,0,0,42,0,0
+10810,r006,All agencies -> Departments -> Department of Health and Human Services,All agencies,Departments,Department of Health and Human Services,3,938,0,0,0,0,0,0,0,0,938
+10810,r007,All agencies -> Departments -> Department of the Interior,All agencies,Departments,Department of the Interior,3,636,0,519,0,0,117,0,0,0,0
+10810,r008,All agencies -> Departments -> Department of Transportation,All agencies,Departments,Department of Transportation,3,145,0,145,0,0,0,0,0,0,0
+10810,r009,All agencies -> Other agencies,All agencies,Other agencies,,2,,,,,,,,,,
+10810,r010,All agencies -> Other agencies -> National Science Foundation,All agencies,Other agencies,National Science Foundation,3,81514,407,59840,2761,164,0,375,0,0,17966

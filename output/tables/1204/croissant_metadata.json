@@ -1,0 +1,146 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Science, engineering, and health doctorate holders employed in universities and 4-year colleges according to type of academic position, by sex, race, ethnicity, and disability status: 2017",
+  "identifier": "NCSES-1204",
+  "description": "Science, engineering, and health doctorate holders employed in universities and 4-year colleges according to type of academic position, by sex, race, ethnicity, and disability status: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1204",
+  "table_number": "9-22",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1204/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "academic_position_160_160_160_160_160_160_160_160_160_160_160_160_160",
+      "description": "Academic position\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "academic_position_160_160_160_160_160_160_160_160_160_160_160_160_160_level_1, academic_position_160_160_160_160_160_160_160_160_160_160_160_160_160_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "academic_position_160_160_160_160_160_160_160_160_160_160_160_160_160_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_female",
+      "description": "Sex Female",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_male",
+      "description": "Sex Male",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_white",
+      "description": "Race And Ethnicity White",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_asian",
+      "description": "Race And Ethnicity Asian",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_black_or_african_american",
+      "description": "Race And Ethnicity Black Or African American",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_hispanic_or_latinoa",
+      "description": "Race And Ethnicity Hispanic Or Latinoa",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_american_indian_or_alaska_native",
+      "description": "Race And Ethnicity American Indian Or Alaska Native",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_native_hawaiian_or_other_pacific_islander",
+      "description": "Race And Ethnicity Native Hawaiian Or Other Pacific Islander",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_more_than_one_raceb",
+      "description": "Race And Ethnicity More Than One Raceb",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_disability_status_without_disability",
+      "description": "Disability Status Without Disability",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_disability_status_with_disability",
+      "description": "Disability Status With Disability",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers rounded to nearest 50. Detail may not add to total because of rounding and suppression and because respondents could answer \"yes\" to more than one category of academic position. Survey of Doctorate Recipients asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses); hearing (with hearing aid); walking without assistance; lifting 10 pounds; or concentrating, remembering, or making decisions.\u00a0Respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2017."
+}

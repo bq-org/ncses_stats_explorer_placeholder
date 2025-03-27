@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D employees, by selected industry, R&D occupation, and education, for companies with 1&#8211;9 employees: 2018",
+  "identifier": "NCSES-5626",
+  "description": "Domestic R&D employees, by selected industry, R&D occupation, and education, for companies with 1&#8211;9 employees: 2018",
+  "url": "https://example.org/datasets/ncses/tables/5626",
+  "table_number": "16",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5626/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_employees",
+      "description": "All R D Employees",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_researchers_including_r_d_scientists_engineers_and_their_managers_",
+      "description": "Researchers Including R D Scientists Engineers And Their Managers ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_researchers_with_phd_excluding_md_jd_and_edd_",
+      "description": "Researchers With Phd Excluding Md Jd And Edd ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_technicians_and_equivalent_staff",
+      "description": "R D Technicians And Equivalent Staff",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_support_staff_clerical_and_other_",
+      "description": "R D Support Staff Clerical And Other ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Statistics are representative of companies located in the United States that performed or funded R&D. The Researchers with PhD category is a subset of the Researchers category.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2019 Annual Business Survey: Data Year 2018."
+}

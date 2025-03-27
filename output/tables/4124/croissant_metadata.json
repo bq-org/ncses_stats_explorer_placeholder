@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Adults who reported COVID-19 pandemic impact on how their children received education, by selected adult characteristics: 7\u221212 May 2020 and 16\u221228 September 2020",
+  "identifier": "NCSES-4124",
+  "description": "Adults who reported COVID-19 pandemic impact on how their children received education, by selected adult characteristics: 7\u221212 May 2020 and 16\u221228 September 2020",
+  "url": "https://example.org/datasets/ncses/tables/4124",
+  "table_number": "SK12-30",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4124/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "adult_characteristic",
+      "description": "Adult characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "adult_characteristic_level_1, adult_characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "adult_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_classes_were_moved_to_distance_learning_format_using_online_resources",
+      "description": "7 12 May 2020 Classes Were Moved To Distance Learning Format Using Online Resources",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_classes_were_moved_to_distance_learning_format_using_paper_materials_sent_home",
+      "description": "7 12 May 2020 Classes Were Moved To Distance Learning Format Using Paper Materials Sent Home",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_classes_were_cancelled",
+      "description": "7 12 May 2020 Classes Were Cancelled",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_classes_changed_in_another_way",
+      "description": "7 12 May 2020 Classes Changed In Another Way",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_7_12_may_2020_no_change_to_classes_because_schoolsdid_not_close",
+      "description": "7 12 May 2020 No Change To Classes Because Schoolsdid Not Close",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_classes_were_moved_to_distance_learning_format_using_online_resources",
+      "description": "16 28 September 2020 Classes Were Moved To Distance Learning Format Using Online Resources",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_classes_were_moved_to_distance_learning_format_using_paper_materials_sent_home",
+      "description": "16 28 September 2020 Classes Were Moved To Distance Learning Format Using Paper Materials Sent Home",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_classes_were_cancelled",
+      "description": "16 28 September 2020 Classes Were Cancelled",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_classes_changed_in_another_way",
+      "description": "16 28 September 2020 Classes Changed In Another Way",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_16_28_september_2020_the_coronavirus_pandemic_did_not_affect_how_children_in_this_household_received_education",
+      "description": "16 28 September 2020 The Coronavirus Pandemic Did Not Affect How Children In This Household Received Education",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The table includes adults 18 years and older in households with children enrolled in K\u221212 school. Adults in households with only homeschooled children are not included. Respondents can choose multiple categories.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2020 U.S. Census Bureau Household Pulse Survey. Science and Engineering Indicators"
+}

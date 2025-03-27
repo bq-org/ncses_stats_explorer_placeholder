@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for science and engineering to universities and colleges, by type of activity: FYs 2021&#8211;22",
+  "identifier": "NCSES-11193",
+  "description": "Federal obligations for science and engineering to universities and colleges, by type of activity: FYs 2021&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/11193",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11193/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_support",
+      "description": "Type of support hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_support_level_1, type_of_support_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_support_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2021_millions_",
+      "description": "Fy 2021 Millions ",
+      "valueType": "string",
+      "unitText": "Dollars in millions and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2022_millions_",
+      "description": "Fy 2022 Millions ",
+      "valueType": "string",
+      "unitText": "Dollars in millions and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_year_to_year_change",
+      "description": "Year To Year Change",
+      "valueType": "string",
+      "unitText": "Dollars in millions and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2022_of_total",
+      "description": "Fy 2022 Of Total",
+      "valueType": "string",
+      "unitText": "Dollars in millions and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Federal Science and Engineering Support module of the Survey of Federal Funds for Research and Development."
+}

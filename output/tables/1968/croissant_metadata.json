@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Medium-high R&D intensive industries of selected regions, countries, or economies: 2018",
+  "identifier": "NCSES-1968",
+  "description": "Medium-high R&D intensive industries of selected regions, countries, or economies: 2018",
+  "url": "https://example.org/datasets/ncses/tables/1968",
+  "table_number": "6-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1968/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "medium_high_r_d_intensive_industries",
+      "description": "Medium High R D Intensive Industries",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "global_output_billions_",
+      "description": "Global Output Billions ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "united_states",
+      "description": "United States",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "eu",
+      "description": "Eu",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "china",
+      "description": "China",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "japan",
+      "description": "Japan",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "other_selected_asia",
+      "description": "Other Selected Asia",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "row",
+      "description": "Row",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Output is measured on a value-added basis. Value-added is the amount contributed by a country, firm, or other entity to the value of a good or service and excludes purchases of domestic and imported materials and inputs. Medium-high R&D intensive industries include weapons and ammunition; motor vehicles; medical and dental instruments; machinery and equipment; chemicals and chemical products; electrical equipment; railroad, military vehicles, and transport; and IT and other information services classified by the Organisation for Economic Co-operation and Development. Data are not available for medical and dental instruments. World total does not include all countries and economies due to limitations in data availability. Other selected Asia includes India, Indonesia, Malaysia, the Philippines, Singapore, South Korea, Taiwan, Thailand, and Vietnam. See Table S6-10 through Table S6-16.",
+  "sources": "IHS Markit, special tabulations of Comparative Industry Service.Science and Engineering Indicators"
+}

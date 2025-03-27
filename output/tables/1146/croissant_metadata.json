@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Undergraduate enrollment status, by citizenship, ethnicity, race, sex, and institutional control: 2016",
+  "identifier": "NCSES-1146",
+  "description": "Undergraduate enrollment status, by citizenship, ethnicity, race, sex, and institutional control: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1146",
+  "table_number": "2-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1146/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "citizenship_ethnicity_race_and_sex",
+      "description": "Citizenship, ethnicity, race, and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "citizenship_ethnicity_race_and_sex_level_1, citizenship_ethnicity_race_and_sex_level_2, citizenship_ethnicity_race_and_sex_level_3, citizenship_ethnicity_race_and_sex_level_4, citizenship_ethnicity_race_and_sex_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "citizenship_ethnicity_race_and_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions_total",
+      "description": "All Institutions Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions_full_time",
+      "description": "All Institutions Full Time",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions_part_time",
+      "description": "All Institutions Part Time",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public_total",
+      "description": "Public Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public_full_time",
+      "description": "Public Full Time",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public_part_time",
+      "description": "Public Part Time",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_nonprofit_total",
+      "description": "Private Nonprofit Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_nonprofit_full_time",
+      "description": "Private Nonprofit Full Time",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_nonprofit_part_time",
+      "description": "Private Nonprofit Part Time",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_for_profit_total",
+      "description": "Private For Profit Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_for_profit_full_time",
+      "description": "Private For Profit Full Time",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_for_profit_part_time",
+      "description": "Private For Profit Part Time",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Race or ethnicity breakouts are for U.S. citizens and permanent residents only. Temporary resident includes all racial and ethnic groups. Data are based on degree-granting institutions eligible to participate in Title IV federal financial aid programs and do not match previously published data that were based on accredited higher education institutions.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, special tabulations of U.S. Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System, Fall Enrollment Survey, unrevised provisional release data, 2016."
+}

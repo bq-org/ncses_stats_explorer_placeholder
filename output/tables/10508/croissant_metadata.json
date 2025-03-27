@@ -1,0 +1,56 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Indicators of invention, knowledge transfer, and innovation used in this thematic report and their sources",
+  "identifier": "NCSES-10508",
+  "description": "Indicators of invention, knowledge transfer, and innovation used in this thematic report and their sources",
+  "url": "https://example.org/datasets/ncses/tables/10508",
+  "table_number": "INV-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10508/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "section",
+      "description": "Section",
+      "valueType": "string",
+      "unitText": "Indicator and source"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "indicator",
+      "description": "Indicator",
+      "valueType": "string",
+      "unitText": "Indicator and source"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "source",
+      "description": "Source",
+      "valueType": "string",
+      "unitText": "Indicator and source"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "NCSES; RTI International; 1790 Analytics; SRI International; Science-MetrixScience and Engineering Indicators"
+}

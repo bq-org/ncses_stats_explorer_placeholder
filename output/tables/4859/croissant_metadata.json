@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E articles in all fields for 15 largest producing regions, countries, or economies: 2010 and 2020",
+  "identifier": "NCSES-4859",
+  "description": "S&E articles in all fields for 15 largest producing regions, countries, or economies: 2010 and 2020",
+  "url": "https://example.org/datasets/ncses/tables/4859",
+  "table_number": "PBS-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4859/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy",
+      "description": "Region Country Or Economy",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2020_world_total_",
+      "description": "2020 World Total ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2020_cumulative_total_",
+      "description": "2020 Cumulative Total ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The countries or economies are ranked based on the 2020 total. Article counts refer to publications from conference proceedings and peer-reviewed journal articles in S&E and indexed in Scopus (see Technical Appendix for more details). Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) of the author(s) listed in the article. Articles are credited on a fractional count basis (i.e., for articles from multiple countries or economies, each country or economy receives fractional credit on the basis of the proportion of its participating authors). Detail may not add to total because of countries or economies that are not shown. Proportions are based on the world total excluding unclassified addresses (data not presented). Details and other countries are available in Table SPBS-2.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed May 2021.Science and Engineering Indicators"
+}

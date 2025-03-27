@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment in S&E occupations, by major industry: 2019",
+  "identifier": "NCSES-4400",
+  "description": "Employment in S&E occupations, by major industry: 2019",
+  "url": "https://example.org/datasets/ncses/tables/4400",
+  "table_number": "SLBR-19",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4400/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_workers_employed_all_occupations",
+      "description": "Workers Employed All Occupations",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_workers_employed_s_e_occupations",
+      "description": "Workers Employed S E Occupations",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_industry_workforce_in_s_e_occupations_",
+      "description": "Industry Workforce In S E Occupations ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Industries are defined by the North American Industry Classification System (NAICS). The OES Survey does not cover employment among self-employed workers and employment in private households (NAICS 814). In the employment total for agriculture, forestry, fishing, and hunting, only the following industries are included: logging (NAICS 1133), support activities for crop production (NAICS 1151), and support activities for animal production (NAICS 1152). As a result, the data do not represent total U.S. employment. Differences between any two industry groups may not be statistically significant. Detail may not add to total because of rounding.",
+  "sources": "Bureau of Labor Statistics, special tabulations (2020) of the 2019 OES Survey.Science and Engineering Indicators"
+}

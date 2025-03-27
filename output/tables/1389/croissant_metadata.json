@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic and foreign R&D paid for by the company and others and performed by the company, by type of R&D and selected industry for companies that performed foreign R&D: 2016",
+  "identifier": "NCSES-1389",
+  "description": "Domestic and foreign R&D paid for by the company and others and performed by the company, by type of R&D and selected industry for companies that performed foreign R&D: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1389",
+  "table_number": "23",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1389/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_bycompany",
+      "description": "Paid For Bycompany",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_paid_for_byothers",
+      "description": "Paid For Byothers",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_basic_and_applied_total",
+      "description": "Research Basic And Applied Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_basic_and_applied_paid_for_bycompany",
+      "description": "Research Basic And Applied Paid For Bycompany",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_basic_and_applied_paid_for_byothers",
+      "description": "Research Basic And Applied Paid For Byothers",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_development_total",
+      "description": "Development Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_development_paid_for_bycompany",
+      "description": "Development Paid For Bycompany",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_development_paid_for_byothers",
+      "description": "Development Paid For Byothers",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Statistics are representative of companies located in the United States that performed foreign R&D.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Business R&D and Innovation Survey, 2016."
+}

@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Summary of federal obligations for research and experimental development, by type of R&D and type of performer, for selected agencies: FYs 2019\u201321",
+  "identifier": "NCSES-6133",
+  "description": "Summary of federal obligations for research and experimental development, by type of R&D and type of performer, for selected agencies: FYs 2019\u201321",
+  "url": "https://example.org/datasets/ncses/tables/6133",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6133/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_r_d_and_type_of_performer",
+      "description": "Type of R&D and type of performer hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_r_d_and_type_of_performer_level_1, type_of_r_d_and_type_of_performer_level_2, type_of_r_d_and_type_of_performer_level_3, type_of_r_d_and_type_of_performer_level_4, type_of_r_d_and_type_of_performer_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_r_d_and_type_of_performer_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_preliminary_",
+      "description": "2021 Preliminary ",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_2019_20",
+      "description": " Change 2019 20",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_2020_21_preliminary_",
+      "description": " Change 2020 21 Preliminary ",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, details may not add to total. Percentages are computed using actual dollars reported. FYs 2020 and 2021 data include obligations from supplemental COVID-19\u2013related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act). Federal intramural amounts for the Biomedical Advanced Research and Development Authority are transfers to the other agencies in support of Operation Warp Speed. FY 2021 data are preliminary.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

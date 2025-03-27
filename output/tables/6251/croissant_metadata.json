@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "OECD classification of industries, by R&D intensity",
+  "identifier": "NCSES-6251",
+  "description": "OECD classification of industries, by R&D intensity",
+  "url": "https://example.org/datasets/ncses/tables/6251",
+  "table_number": "SAKTI-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6251/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "_b_manufacturing_b_characteristic",
+      "description": "Manufacturing hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_manufacturing_b_level_1, _b_manufacturing_b_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "List of industries and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "R&D intensity is measured as the ratio of global R&D expenditures to global value added output of industry. The global R&D and value added excludes several economies, including China and India, due to incomplete or missing industry value added and R&D data. Industries are classified according to ISIC, Rev.4.",
+  "sources": "Galindo-Rueda F, Verger F, OECD Taxonomy of Economic Activities Based on R&D Intensity, OECD Science, Technology and Industry Working Papers, 2016/04, OECD Publishing, Paris (2016). Science and Engineering Indicators"
+}

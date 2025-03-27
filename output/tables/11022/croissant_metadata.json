@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed workers in STEM occupations, by foreign-born and citizenship status: 2021",
+  "identifier": "NCSES-11022",
+  "description": "Employed workers in STEM occupations, by foreign-born and citizenship status: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11022",
+  "table_number": "SLBR-25",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11022/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_stem_occupations_b",
+      "description": "STEM occupations hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_stem_occupations_b_level_1, _b_stem_occupations_b_level_2, _b_stem_occupations_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_stem_occupations_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_born_citizens",
+      "description": "U S Born Citizens",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_born_workers_all_foreign_born_workers",
+      "description": "Foreign Born Workers All Foreign Born Workers",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_born_workers_naturalized_citizens",
+      "description": "Foreign Born Workers Naturalized Citizens",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_born_workers_noncitizens",
+      "description": "Foreign Born Workers Noncitizens",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the employed, civilian, non-institutionalized population ages 16\u201375 and exclude those currently enrolled in primary or secondary school. Foreign-born individuals were born outside of the United States or were not citizens by birth.",
+  "sources": "Ruggles S, Flood S, Goeken R, Schouweiler M, Sobek M, 2022, IPUMS USA: Version 12.0, 2021 American Community Survey (ACS), https://doi.org/10.18128/D010.V12.0, accessed 23 December 2022.Science and Engineering Indicators"
+}

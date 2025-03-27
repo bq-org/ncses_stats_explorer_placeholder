@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed college graduates, by sex, major occupation, job satisfaction, and years since highest degree: 2021",
+  "identifier": "NCSES-7775",
+  "description": "Employed college graduates, by sex, major occupation, job satisfaction, and years since highest degree: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7775",
+  "table_number": "3-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7775/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_occupation_and_job_satisfaction",
+      "description": "Sex, occupation, and job satisfaction hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_occupation_and_job_satisfaction_level_1, sex_occupation_and_job_satisfaction_level_2, sex_occupation_and_job_satisfaction_level_3, sex_occupation_and_job_satisfaction_level_4, sex_occupation_and_job_satisfaction_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_occupation_and_job_satisfaction_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_years_since_highest_degree_5",
+      "description": "Years Since Highest Degree 5",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_years_since_highest_degree_5_9",
+      "description": "Years Since Highest Degree 5 9",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_years_since_highest_degree_10_14",
+      "description": "Years Since Highest Degree 10 14",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_years_since_highest_degree_15_19",
+      "description": "Years Since Highest Degree 15 19",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_years_since_highest_degree_20_24",
+      "description": "Years Since Highest Degree 20 24",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_years_since_highest_degree_25_29",
+      "description": "Years Since Highest Degree 25 29",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_years_since_highest_degree_30_34",
+      "description": "Years Since Highest Degree 30 34",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_years_since_highest_degree_35",
+      "description": "Years Since Highest Degree 35",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2021."
+}

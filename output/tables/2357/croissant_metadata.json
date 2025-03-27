@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Sales, R&D, R&D intensity, and employment for companies that performed or funded business R&D in the United States, by selected industry and company size: 2018",
+  "identifier": "NCSES-2357",
+  "description": "Sales, R&D, R&D intensity, and employment for companies that performed or funded business R&D in the United States, by selected industry and company size: 2018",
+  "url": "https://example.org/datasets/ncses/tables/2357",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2357/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_naics_code_and_company_size",
+      "description": "Industry, NAICS code, and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_naics_code_and_company_size_level_1, industry_naics_code_and_company_size_level_2, industry_naics_code_and_company_size_level_3, industry_naics_code_and_company_size_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_naics_code_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_net_sales_us_millions_a",
+      "description": "Domestic Net Sales Us Millions A",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, percent R&D intensity, and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_us_millions_b",
+      "description": "All R D Us Millions B",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, percent R&D intensity, and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_intensity_c",
+      "description": "R D Intensity C",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, percent R&D intensity, and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_employment_thousands_d_total",
+      "description": "Domestic Employment Thousands D Total",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, percent R&D intensity, and thousands of employees"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_employment_thousands_d_r_de",
+      "description": "Domestic Employment Thousands D R De",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, percent R&D intensity, and thousands of employees"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Beginning in survey year 2018, companies that performed or funded less than $50,000 of R&D were excluded from tabulation. These companies in aggregate represented a very small share of total R&D expenditures in prior years. Had the companies under this threshold been included in the 2018 estimates, they would have contributed approximately $90 million to overall R&D expenditures. Estimates of aggregate sales and total domestic employment would have been similarly affected. Industry classification was based on dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Excludes data for federally funded research and development centers.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Business Research and Development Survey, 2018."
+}

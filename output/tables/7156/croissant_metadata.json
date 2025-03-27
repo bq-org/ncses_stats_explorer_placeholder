@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Personnel working on R&D activities at nonprofit organizations, by type of employee: FY 2016",
+  "identifier": "NCSES-7156",
+  "description": "Personnel working on R&D activities at nonprofit organizations, by type of employee: FY 2016",
+  "url": "https://example.org/datasets/ncses/tables/7156",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7156/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_employee",
+      "description": "Type of employee hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_employee_level_1, type_of_employee_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_employee_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_employees_ftes_",
+      "description": "Total Employees Ftes ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Details do not add to total because of missing data.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Nonprofit Research Activities, FY 2016."
+}

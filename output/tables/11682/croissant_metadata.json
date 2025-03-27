@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Research doctorate recipients' primary source of financial support, by broad field of doctorate, sex, citizenship status, ethnicity, and race: 2023",
+  "identifier": "NCSES-11682",
+  "description": "Research doctorate recipients' primary source of financial support, by broad field of doctorate, sex, citizenship status, ethnicity, and race: 2023",
+  "url": "https://example.org/datasets/ncses/tables/11682",
+  "table_number": "4-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11682/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_and_primary_source_of_support_b",
+      "description": "Field and primary source of support hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_and_primary_source_of_support_b_level_1, _b_field_and_primary_source_of_support_b_level_2, _b_field_and_primary_source_of_support_b_level_3, _b_field_and_primary_source_of_support_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_and_primary_source_of_support_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_totala",
+      "description": "Totala",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_male",
+      "description": "Sex Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_female",
+      "description": "Sex Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_status_u_s_citizen_or_permanent_resident",
+      "description": "Citizenship Status U S Citizen Or Permanent Resident",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_status_temporary_visa_holder",
+      "description": "Citizenship Status Temporary Visa Holder",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_hispanic_or_latino",
+      "description": "U S Citizens And Permanent Residents Hispanic Or Latino",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_american_indian_or_alaska_native",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino American Indian Or Alaska Native",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_asian",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino Asian",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_black_or_african_american",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino Black Or African American",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_white",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino White",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_more_than_one_race",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino More Than One Race",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_not_hispanic_or_latino_other_race_or_race_not_reported",
+      "description": "U S Citizens And Permanent Residents Not Hispanic Or Latino Other Race Or Race Not Reported",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_ethnicity_not_reported",
+      "description": "U S Citizens And Permanent Residents Ethnicity Not Reported",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Due to rounding, percentages may not sum to 100. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and new broad, major, and detailed fields are used in tables reporting data from 2021 to the present; see the field list in table A-4. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. For more information about the 2021 taxonomy change, see the \"Technical Notes.\"",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

@@ -1,0 +1,41 @@
+table_id,row_id,_b_number_source_of_funds_highest_degree_granted_and_institutional_control_b_full_path,_b_number_source_of_funds_highest_degree_granted_and_institutional_control_b_level_1,_b_number_source_of_funds_highest_degree_granted_and_institutional_control_b_level_2,_b_number_source_of_funds_highest_degree_granted_and_institutional_control_b_level_3,_b_number_source_of_funds_highest_degree_granted_and_institutional_control_b_level_4,_b_number_source_of_funds_highest_degree_granted_and_institutional_control_b_hierarchy_depth,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016,field_2017,field_2018,field_2019
+3127,r001,All institutions,All institutions,,,,1,,,,,,,,,,
+3127,r002,All institutions -> Number of institutions with clinical trials R&D,All institutions,Number of institutions with clinical trials R&D,,,2,173,178,166,169,176,178,174,181,179,189
+3127,r003,All institutions -> All R&D,All institutions,All R&D,,,2,43587067,46154058,46182393,47521867,48823411,50518176,52942930,56079040,60198997,64917750
+3127,r004,All institutions -> All R&D -> All clinical trials R&D,All institutions,All R&D,All clinical trials R&D,,3,1533053,1587503,1667554,1756031,1998453,2138547,2367972,2621477,2938581,3093017
+3127,r005,All institutions -> Federal R&D,All institutions,Federal R&D,,,2,27502023,29715665,28976410,28839622,28242451,28219390,29041969,30395655,32006446,34811692
+3127,r006,All institutions -> Federal R&D -> Federal clinical trials R&D,All institutions,Federal R&D,Federal clinical trials R&D,,3,539834,637812,665163,747442,793733,840757,867037,920737,1031869,1182983
+3127,r007,All institutions -> Nonfederal R&D,All institutions,Nonfederal R&D,,,2,16085044,16438393,17205983,18682245,20580960,22298786,23900961,25683385,28192551,30106058
+3127,r008,All institutions -> Nonfederal R&D -> Nonfederal clinical trials R&D,All institutions,Nonfederal R&D,Nonfederal clinical trials R&D,,3,993219,949691,1002391,1008589,1204720,1297790,1500935,1700740,1906712,1910034
+3127,r009,All institutions -> Doctorate,All institutions,Doctorate,,,2,,,,,,,,,,
+3127,r010,All institutions -> Doctorate -> Number of institutions with clinical trials R&D,All institutions,Doctorate,Number of institutions with clinical trials R&D,,3,147,150,150,154,159,163,159,167,168,177
+3127,r011,All institutions -> Doctorate -> All R&D,All institutions,Doctorate,All R&D,,3,43531732,46058907,46080033,47464317,48764898,50456805,52866696,56005726,60142565,64840385
+3127,r012,All institutions -> Doctorate -> All R&D -> All clinical trials R&D,All institutions,Doctorate,All R&D,All clinical trials R&D,4,1525982,1577952,1659319,1748068,1989065,2132071,2361363,2616351,2934602,3089017
+3127,r013,All institutions -> Doctorate -> Federal R&D,All institutions,Doctorate,Federal R&D,,3,27465906,29664114,28918557,28803492,28214054,28191478,29012105,30367663,31980737,34783661
+3127,r014,All institutions -> Doctorate -> Federal R&D -> Federal clinical trials R&D,All institutions,Doctorate,Federal R&D,Federal clinical trials R&D,4,535066,631248,658212,740173,785860,835589,862207,916365,1028631,1179900
+3127,r015,All institutions -> Doctorate -> Nonfederal R&D,All institutions,Doctorate,Nonfederal R&D,,3,16065826,16394793,17161476,18660825,20550844,22265327,23854591,25638063,28161828,30056724
+3127,r016,All institutions -> Doctorate -> Nonfederal R&D -> Nonfederal clinical trials R&D,All institutions,Doctorate,Nonfederal R&D,Nonfederal clinical trials R&D,4,990916,946704,1001107,1007895,1203205,1296482,1499156,1699986,1905971,1909117
+3127,r017,All institutions -> Nondoctorate,All institutions,Nondoctorate,,,2,,,,,,,,,,
+3127,r018,All institutions -> Nondoctorate -> Number of institutions with clinical trials R&D,All institutions,Nondoctorate,Number of institutions with clinical trials R&D,,3,26,28,16,15,17,15,15,14,11,12
+3127,r019,All institutions -> Nondoctorate -> All R&D,All institutions,Nondoctorate,All R&D,,3,55335,95151,102360,57550,58513,61371,76234,73314,56432,77365
+3127,r020,All institutions -> Nondoctorate -> All R&D -> All clinical trials R&D,All institutions,Nondoctorate,All R&D,All clinical trials R&D,4,7071,9551,8235,7963,9388,6476,6609,5126,3979,4000
+3127,r021,All institutions -> Nondoctorate -> Federal R&D,All institutions,Nondoctorate,Federal R&D,,3,36117,51551,57853,36130,28397,27912,29864,27992,25709,28031
+3127,r022,All institutions -> Nondoctorate -> Federal R&D -> Federal clinical trials R&D,All institutions,Nondoctorate,Federal R&D,Federal clinical trials R&D,4,4768,6564,6951,7269,7873,5168,4830,4372,3238,3083
+3127,r023,All institutions -> Nondoctorate -> Nonfederal R&D,All institutions,Nondoctorate,Nonfederal R&D,,3,19218,43600,44507,21420,30116,33459,46370,45322,30723,49334
+3127,r024,All institutions -> Nondoctorate -> Nonfederal R&D -> Nonfederal clinical trials R&D,All institutions,Nondoctorate,Nonfederal R&D,Nonfederal clinical trials R&D,4,2303,2987,1284,694,1515,1308,1779,754,741,917
+3127,r025,All institutions -> Public,All institutions,Public,,,2,,,,,,,,,,
+3127,r026,All institutions -> Public -> Number of institutions with clinical trials R&D,All institutions,Public,Number of institutions with clinical trials R&D,,3,100,101,96,100,106,111,107,111,113,123
+3127,r027,All institutions -> Public -> All R&D,All institutions,Public,All R&D,,3,27143937,29081518,28993617,29832528,30727888,31975939,33171421,34955730,37912142,41053191
+3127,r028,All institutions -> Public -> All R&D -> All clinical trials R&D,All institutions,Public,All R&D,All clinical trials R&D,4,578615,599545,633542,709889,754804,802818,948236,1070662,1210811,1292322
+3127,r029,All institutions -> Public -> Federal R&D,All institutions,Public,Federal R&D,,3,15921337,17253156,16779967,16830718,16417539,16462490,17004412,17724345,18785486,20578803
+3127,r030,All institutions -> Public -> Federal R&D -> Federal clinical trials R&D,All institutions,Public,Federal R&D,Federal clinical trials R&D,4,162213,204202,223816,244240,235778,246200,263570,265178,304921,388276
+3127,r031,All institutions -> Public -> Nonfederal R&D,All institutions,Public,Nonfederal R&D,,3,11222600,11828362,12213650,13001810,14310349,15513449,16167009,17231385,19126656,20474388
+3127,r032,All institutions -> Public -> Nonfederal R&D -> Nonfederal clinical trials R&D,All institutions,Public,Nonfederal R&D,Nonfederal clinical trials R&D,4,416402,395343,409726,465649,519026,556618,684666,805484,905890,904046
+3127,r033,All institutions -> Private,All institutions,Private,,,2,,,,,,,,,,
+3127,r034,All institutions -> Private -> Number of institutions with clinical trials R&D,All institutions,Private,Number of institutions with clinical trials R&D,,3,73,77,70,69,70,67,67,70,66,66
+3127,r035,All institutions -> Private -> All R&D,All institutions,Private,All R&D,,3,16443130,17072540,17188776,17689339,18095523,18542237,19771509,21123310,22286855,23864559
+3127,r036,All institutions -> Private -> All R&D -> All clinical trials R&D,All institutions,Private,All R&D,All clinical trials R&D,4,954438,987958,1034012,1046142,1243649,1335729,1419736,1550815,1727770,1800695
+3127,r037,All institutions -> Private -> Federal R&D,All institutions,Private,Federal R&D,,3,11580686,12462509,12196443,12008904,11824912,11756900,12037557,12671310,13220960,14232889
+3127,r038,All institutions -> Private -> Federal R&D -> Federal clinical trials R&D,All institutions,Private,Federal R&D,Federal clinical trials R&D,4,377621,433610,441347,503202,557955,594557,603467,655559,726948,794707
+3127,r039,All institutions -> Private -> Nonfederal R&D,All institutions,Private,Nonfederal R&D,,3,4862444,4610031,4992333,5680435,6270611,6785337,7733952,8452000,9065895,9631670
+3127,r040,All institutions -> Private -> Nonfederal R&D -> Nonfederal clinical trials R&D,All institutions,Private,Nonfederal R&D,Nonfederal clinical trials R&D,4,576817,554348,592665,542940,685694,741172,816269,895256,1000822,1005988

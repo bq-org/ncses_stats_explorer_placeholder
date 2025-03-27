@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average scores of U.S. students in grade 8 on the TIMSS mathematics and science assessments, by student sex: 1995\u20132019",
+  "identifier": "NCSES-9448",
+  "description": "Average scores of U.S. students in grade 8 on the TIMSS mathematics and science assessments, by student sex: 1995\u20132019",
+  "url": "https://example.org/datasets/ncses/tables/9448",
+  "table_number": "SK12-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9448/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "subject_and_student_sex",
+      "description": "Subject and student sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "subject_and_student_sex_level_1, subject_and_student_sex_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "subject_and_student_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1995",
+      "description": "1995",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999",
+      "description": "1999",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value"
+    }
+  },
+  "notes": "Scores are reported on a scale from 0 to 1,000, with a TIMSS centerpoint of 500 and a standard deviation of 100.",
+  "sources": "International Association for the Evaluation of Educational Achievement, TIMSS, 1995, 1999, 2003, 2007, 2011, 2015, and 2019.Science and Engineering Indicators"
+}

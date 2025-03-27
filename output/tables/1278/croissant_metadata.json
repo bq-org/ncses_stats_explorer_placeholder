@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Demographic characteristics of employed scientists and engineers, by disability status and sex: 2017",
+  "identifier": "NCSES-1278",
+  "description": "Demographic characteristics of employed scientists and engineers, by disability status and sex: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1278",
+  "table_number": "9-40",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1278/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "demographic_characteristic_160_160_160_160_160_160_160_160_160_160_160_160_160",
+      "description": "Demographic characteristic\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "demographic_characteristic_160_160_160_160_160_160_160_160_160_160_160_160_160_level_1, demographic_characteristic_160_160_160_160_160_160_160_160_160_160_160_160_160_level_2, demographic_characteristic_160_160_160_160_160_160_160_160_160_160_160_160_160_level_3, demographic_characteristic_160_160_160_160_160_160_160_160_160_160_160_160_160_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "demographic_characteristic_160_160_160_160_160_160_160_160_160_160_160_160_160_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_both_sexes",
+      "description": "Total Both Sexes",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_female",
+      "description": "Total Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_male",
+      "description": "Total Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability_both_sexes",
+      "description": "Without Disability Both Sexes",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability_female",
+      "description": "Without Disability Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability_male",
+      "description": "Without Disability Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability_both_sexes",
+      "description": "With Disability Both Sexes",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability_female",
+      "description": "With Disability Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability_male",
+      "description": "With Disability Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers are rounded to nearest 1,000. Detail may not add to total because of rounding. The National Survey of College Graduates asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Scientists and engineers are individuals under the age of 76 who have a bachelor's or higher degree, are living in the United States, and have an S&E or S&E-related degree or occupation.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

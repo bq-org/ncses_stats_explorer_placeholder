@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies that performed manufacturing tasks for unaffiliated companies or companies outside the United States, by company type and company size: 2019",
+  "identifier": "NCSES-7488",
+  "description": "Companies that performed manufacturing tasks for unaffiliated companies or companies outside the United States, by company type and company size: 2019",
+  "url": "https://example.org/datasets/ncses/tables/7488",
+  "table_number": "103",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7488/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_size",
+      "description": "Employment size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_size_level_1, employment_size_level_2, employment_size_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies",
+      "description": "All Companies",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_did_not_perform_manufacturing_tasks_for_others",
+      "description": "Did Not Perform Manufacturing Tasks For Others",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_manufacturing_tasks_for_unaffiliated_companies_or_companies_outside_the_united_states",
+      "description": "Performed Manufacturing Tasks For Unaffiliated Companies Or Companies Outside The United States",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_manufacturing_for_u_s_located_unaffiliated_companies",
+      "description": "Performed Manufacturing For U S Located Unaffiliated Companies",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_manufacturing_for_foreign_affiliated_companies",
+      "description": "Performed Manufacturing For Foreign Affiliated Companies",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_manufacturing_for_foreign_unaffiliated_companies",
+      "description": "Performed Manufacturing For Foreign Unaffiliated Companies",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2020 Annual Business Survey: Data Year 2019."
+}

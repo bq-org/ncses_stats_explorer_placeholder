@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E postdoctoral fellows in academic institutions, by field, citizenship, and sex: 2016",
+  "identifier": "NCSES-1134",
+  "description": "S&E postdoctoral fellows in academic institutions, by field, citizenship, and sex: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1134",
+  "table_number": "8-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1134/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_level_1, field_level_2, field_level_3, field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_path",
+      "description": "Full Path",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_1",
+      "description": "Level 1",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_2",
+      "description": "Level 2",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_3",
+      "description": "Level 3",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_4",
+      "description": "Level 4",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hierarchy_depth",
+      "description": "Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_citizenship_categories_all_s_e_postdoctoral_fellows",
+      "description": "All Citizenship Categories All S E Postdoctoral Fellows",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_citizenship_categories_female",
+      "description": "All Citizenship Categories Female",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_citizenship_categories_male",
+      "description": "All Citizenship Categories Male",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_all_s_e_postdoctoral_fellows",
+      "description": "U S Citizens And Permanent Residents All S E Postdoctoral Fellows",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_female",
+      "description": "U S Citizens And Permanent Residents Female",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_male",
+      "description": "U S Citizens And Permanent Residents Male",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_residents_all_s_e_postdoctoral_fellows",
+      "description": "Temporary Residents All S E Postdoctoral Fellows",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_residents_female",
+      "description": "Temporary Residents Female",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_residents_male",
+      "description": "Temporary Residents Male",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2016."
+}

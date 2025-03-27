@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Graduate enrollment in science, engineering, and health, by degree level and field: 2017\u201321",
+  "identifier": "NCSES-8082",
+  "description": "Graduate enrollment in science, engineering, and health, by degree level and field: 2017\u201321",
+  "url": "https://example.org/datasets/ncses/tables/8082",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8082/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2, characteristic_level_3, characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_2017",
+      "description": "Master S 2017",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_2018",
+      "description": "Master S 2018",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_2019",
+      "description": "Master S 2019",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_2020",
+      "description": "Master S 2020",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_2021",
+      "description": "Master S 2021",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_percent_change_2017_21",
+      "description": "Master S Percent Change 2017 21",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_percent_change_2020_21",
+      "description": "Master S Percent Change 2020 21",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_2017",
+      "description": "Doctoral 2017",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_2018",
+      "description": "Doctoral 2018",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_2019",
+      "description": "Doctoral 2019",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_2020",
+      "description": "Doctoral 2020",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_2021",
+      "description": "Doctoral 2021",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_percent_change_2017_21",
+      "description": "Doctoral Percent Change 2017 21",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_percent_change_2020_21",
+      "description": "Doctoral Percent Change 2020 21",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "In 2020, the GSS revised its field taxonomy, and the revisions resulted in some disciplines moving between broad fields; see \u201cData Sources and Limitations\u201d for details. For more information about fields collected in this survey, please see table A-17 in Survey of Graduate Students and Postdoctorates in Science and Engineering: Fall 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering."
+}

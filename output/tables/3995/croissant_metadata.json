@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Notes associated with agencies included in the Survey of Federal Funds for Research and Development: Volumes 29&#8211;69",
+  "identifier": "NCSES-3995",
+  "description": "Notes associated with agencies included in the Survey of Federal Funds for Research and Development: Volumes 29&#8211;69",
+  "url": "https://example.org/datasets/ncses/tables/3995",
+  "table_number": "A-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3995/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_department_b",
+      "description": "Department hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_department_b_level_1, _b_department_b_level_2, _b_department_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_department_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_explanatory_information",
+      "description": "Explanatory Information",
+      "valueType": "string",
+      "unitText": "Notes"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "These notes include explanatory information on federal agencies' reports for volume 29 (FYs 1979\u201381) through volume 69 (FYs 2019\u201320) of the Survey of Federal Funds for Research and Development (Federal Funds Survey). For volume 69, actual data were collected for FY 2019, and estimates were collected for FY 2020.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

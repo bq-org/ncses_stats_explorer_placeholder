@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Match steps from example when matching names in the SED and UMETRICS",
+  "identifier": "NCSES-9398",
+  "description": "Match steps from example when matching names in the SED and UMETRICS",
+  "url": "https://example.org/datasets/ncses/tables/9398",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9398/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "name_in_the_sed",
+      "description": "Name In The Sed",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "name_in_umetrics",
+      "description": "Name In Umetrics",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "match_step",
+      "description": "Match Step",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value"
+    }
+  },
+  "notes": "This is an example of how names are matched and is not a real observation."
+}

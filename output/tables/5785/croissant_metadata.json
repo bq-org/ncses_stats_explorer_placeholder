@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E first university degrees, by selected region, country, or economy and field: 2010\u201318",
+  "identifier": "NCSES-5785",
+  "description": "S&E first university degrees, by selected region, country, or economy and field: 2010\u201318",
+  "url": "https://example.org/datasets/ncses/tables/5785",
+  "table_number": "SHED-11",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5785/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy_and_field",
+      "description": "Region, country, or economy and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "region_country_or_economy_and_field_level_1, region_country_or_economy_and_field_level_2, region_country_or_economy_and_field_level_3, region_country_or_economy_and_field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "region_country_or_economy_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Physical and biological sciences and mathematics and statistics include biological and related sciences, environmental sciences, and physical sciences. Computer sciences include information and communication technologies. Agricultural sciences include agriculture, forestry, fisheries, and veterinary sciences. Social and behavioral sciences include social and behavioral sciences and also journalism and information. Engineering includes engineering and engineering trades, manufacturing and processing, and architecture and construction. To facilitate international comparison, data for the United States reflect the most recent classification in the International Standard Classification of Education Fields of Education and Training (ISCED-F), which vary slightly from the National Center for Science and Engineering Statistics classification of fields presented in other sections of the report. Data for first university degrees use ISCED 2011 level 6 (bachelor's or equivalent) first degrees and level 7 (master's or equivalent) long first degrees. S&E data do not include health fields.",
+  "sources": "Organisation for Economic Co-operation and Development (OECD), OECD.Stat; Eurostat, Education and training database; National Bureau of Statistics of China, China Statistical Yearbook (various years); People's Republic of China, Ministry of Education data (various years); Ministry of Education, Educational Statistics of the Republic of China (Taiwan) (various years); Government of Japan, Ministry of Education, Culture, Sports, Science and Technology, Survey of Education (various years); Government of India, Ministry of Human Resource Development, Department of Higher Education, All India Survey on Higher Education (various years).Science and Engineering Indicators"
+}

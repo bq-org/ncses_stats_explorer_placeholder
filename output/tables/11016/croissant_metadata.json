@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median earnings and prevalence of the skilled technical workforce in select occupations, by STEM group and educational attainment: 2021",
+  "identifier": "NCSES-11016",
+  "description": "Median earnings and prevalence of the skilled technical workforce in select occupations, by STEM group and educational attainment: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11016",
+  "table_number": "SLBR-19",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11016/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_occupation_title_b",
+      "description": "Occupation title hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_occupation_title_b_level_1, _b_occupation_title_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_occupation_title_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number",
+      "description": "Number",
+      "valueType": "string",
+      "unitText": "Number, percent, dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percent_of_workers_in_the_stw",
+      "description": "Percent Of Workers In The Stw",
+      "valueType": "string",
+      "unitText": "Number, percent, dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_educational_attainment_no_college",
+      "description": "Educational Attainment No College",
+      "valueType": "string",
+      "unitText": "Number, percent, dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_educational_attainment_some_college",
+      "description": "Educational Attainment Some College",
+      "valueType": "string",
+      "unitText": "Number, percent, dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_educational_attainment_associate_s_degree",
+      "description": "Educational Attainment Associate S Degree",
+      "valueType": "string",
+      "unitText": "Number, percent, dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_earnings_no_college",
+      "description": "Median Earnings No College",
+      "valueType": "string",
+      "unitText": "Number, percent, dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_earnings_some_college",
+      "description": "Median Earnings Some College",
+      "valueType": "string",
+      "unitText": "Number, percent, dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_earnings_associate_s_degree",
+      "description": "Median Earnings Associate S Degree",
+      "valueType": "string",
+      "unitText": "Number, percent, dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the employed, civilian, non-institutionalized population ages 16\u201375 and exclude those currently enrolled in primary or secondary school. Earnings data represent full-time, year-round workers only. Only select occupations are shown; therefore, granular occupations do not add up to aggregate value. Occupations were selected based on the percentage of workers that belong to the STW. Non-STEM occupations are not shown.",
+  "sources": "Census Bureau, American Community Survey (ACS), 1-Year Public-Use File, 2021, data as of 25 October 2022.Science and Engineering Indicators"
+}

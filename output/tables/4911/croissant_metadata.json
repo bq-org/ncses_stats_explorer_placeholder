@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Survey of Doctorate Recipients and Web of Science matched data, by field of science and sex: Selected years, 1995&#8211;2006",
+  "identifier": "NCSES-4911",
+  "description": "Survey of Doctorate Recipients and Web of Science matched data, by field of science and sex: Selected years, 1995&#8211;2006",
+  "url": "https://example.org/datasets/ncses/tables/4911",
+  "table_number": "SPBS-32",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4911/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field",
+      "description": "Field",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "female",
+      "description": "Female",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "male",
+      "description": "Male",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "S&E doctorates include science, engineering, and health PhD candidates at U.S. research doctorate institutions. Population estimates are based on the 2013 Survey of Doctorate Recipients.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients; Clarivate, Web of Science.Science and Engineering Indicators"
+}

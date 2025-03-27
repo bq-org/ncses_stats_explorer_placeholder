@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Educational background of college graduates employed in S&E occupations, by broad S&E occupational category: 2017",
+  "identifier": "NCSES-1593",
+  "description": "Educational background of college graduates employed in S&E occupations, by broad S&E occupational category: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1593",
+  "table_number": "3-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1593/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "educational_background",
+      "description": "Educational background hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "educational_background_level_1, educational_background_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "educational_background_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_s_e_occupations",
+      "description": "All S E Occupations",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_agricultural_and_environmental_life_scientists",
+      "description": "Biological Agricultural And Environmental Life Scientists",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_and_mathematical_scientists",
+      "description": "Computer And Mathematical Scientists",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_scientists",
+      "description": "Physical Scientists",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_scientists",
+      "description": "Social Scientists",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineers",
+      "description": "Engineers",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "At least one S&E degree in field is the proportion of workers in a particular S&E occupational category with at least one bachelor's or higher-level degree in the same broad field. Highest degree in field is the proportion of workers in a particular S&E occupational category with highest degree in the same broad field. For example, among computer and mathematical scientists, these data refer to the proportion with at least one bachelor's or higher-level degree in the broad field of computer and mathematical sciences and the proportion with highest degree in the broad field of computer and mathematical sciences, respectively. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Survey of College Graduates (NSCG), 2017.Science and Engineering Indicators"
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public middle and high school mathematics and science teachers with in-field subject-matter preparation, by teaching field and selected school characteristics: 2017&#8211;18",
+  "identifier": "NCSES-4277",
+  "description": "Public middle and high school mathematics and science teachers with in-field subject-matter preparation, by teaching field and selected school characteristics: 2017&#8211;18",
+  "url": "https://example.org/datasets/ncses/tables/4277",
+  "table_number": "K12-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4277/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "minority_enrollment_percent_sup_a_sup_characteristic",
+      "description": "Minority enrollment (percent)a hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "minority_enrollment_percent_sup_a_sup_level_1, minority_enrollment_percent_sup_a_sup_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value"
+    }
+  },
+  "notes": "In-field subject-matter preparation refers to mathematics teachers with a degree and/or full certification in mathematics or mathematics education and science teachers with a degree and/or full certification in science or science education.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2017\u201318 National Teacher and Principal Survey, National Center for Education Statistics.Science and Engineering Indicators"
+}

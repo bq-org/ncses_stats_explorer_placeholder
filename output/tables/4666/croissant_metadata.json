@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Doctorate recipients who earned a master's degree related to doctorate, by sex, citizenship status, ethnicity, race, and broad field of doctoral study: 2020",
+  "identifier": "NCSES-4666",
+  "description": "Doctorate recipients who earned a master's degree related to doctorate, by sex, citizenship status, ethnicity, race, and broad field of doctoral study: 2020",
+  "url": "https://example.org/datasets/ncses/tables/4666",
+  "table_number": "29",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4666/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_demographic_characteristic_b",
+      "description": "Demographic characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_demographic_characteristic_b_level_1, _b_demographic_characteristic_b_level_2, _b_demographic_characteristic_b_level_3, _b_demographic_characteristic_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_demographic_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_master_s",
+      "description": "All Fields Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_related_master_s",
+      "description": "All Fields Related Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_life_sciencesa_master_s",
+      "description": "Life Sciencesa Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_life_sciencesa_related_master_s",
+      "description": "Life Sciencesa Related Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences_and_earth_sciences_master_s",
+      "description": "Physical Sciences And Earth Sciences Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences_and_earth_sciences_related_master_s",
+      "description": "Physical Sciences And Earth Sciences Related Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_computer_sciences_master_s",
+      "description": "Mathematics And Computer Sciences Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_computer_sciences_related_master_s",
+      "description": "Mathematics And Computer Sciences Related Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology_and_social_sciences_master_s",
+      "description": "Psychology And Social Sciences Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology_and_social_sciences_related_master_s",
+      "description": "Psychology And Social Sciences Related Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_master_s",
+      "description": "Engineering Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_related_master_s",
+      "description": "Engineering Related Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_master_s",
+      "description": "Education Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_related_master_s",
+      "description": "Education Related Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_master_s",
+      "description": "Humanities And Arts Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities_and_arts_related_master_s",
+      "description": "Humanities And Arts Related Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherb_master_s",
+      "description": "Otherb Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_otherb_related_master_s",
+      "description": "Otherb Related Master S",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Percentages based on total number of doctorate recipients. A master's degree is counted as \"related master's\" if the fields of study of doctorate recipient's first or most recent master's degree and doctoral degree are both in the same major field category, except for engineering and education fields where broad field categories need to be the same. See table A-6 in the technical notes for a listing of major fields and their constituent subfields based on the National Center for Science and Engineering Statistics' field of study taxonomy.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

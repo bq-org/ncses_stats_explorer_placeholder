@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Institutional collaboration network analysis for AI research papers, by selected region, country, or economy: 2003&#8211;22",
+  "identifier": "NCSES-10066",
+  "description": "Institutional collaboration network analysis for AI research papers, by selected region, country, or economy: 2003&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/10066",
+  "table_number": "SPBS-98",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10066/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution",
+      "description": "Institution",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "degree",
+      "description": "Degree",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "degree_rank_",
+      "description": "Degree Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "strength",
+      "description": "Strength",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "strength_rank_",
+      "description": "Strength Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "betweenness_centrality",
+      "description": "Betweenness Centrality",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "betweenness_centrality_rank_",
+      "description": "Betweenness Centrality Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "closeness_centrality",
+      "description": "Closeness Centrality",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "closeness_centrality_rank_",
+      "description": "Closeness Centrality Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weighted_pagerank",
+      "description": "Weighted Pagerank",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weighted_pagerank_rank_",
+      "description": "Weighted Pagerank Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weighted_eigenvector_centrality",
+      "description": "Weighted Eigenvector Centrality",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weighted_eigenvector_centrality_rank_",
+      "description": "Weighted Eigenvector Centrality Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "These statistics were computed for the top 100 institutional producers of AI-related papers. A minimum number of 50 cowritten papers was necessary to establish a link between two institutions. Degree, betweenness centrality, and closeness centrality are unweighted measurements, which means that the number of cowritten papers is not used in their computation. Network indicators are described in detail in the Technical Appendix. AI articles refer to publications from a selection of conference proceedings and peer-reviewed journals in S&E fields from Scopus that were classified as AI in the All Science Journal Classification. Whole counting is used in the network analysis.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed April 2023.Science and Engineering Indicators"
+}

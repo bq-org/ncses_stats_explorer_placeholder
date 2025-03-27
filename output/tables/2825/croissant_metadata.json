@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Educational attainment of doctorate recipients' parents, by sex, citizenship status, ethnicity, race, and broad field of study: 2019",
+  "identifier": "NCSES-2825",
+  "description": "Educational attainment of doctorate recipients' parents, by sex, citizenship status, ethnicity, race, and broad field of study: 2019",
+  "url": "https://example.org/datasets/ncses/tables/2825",
+  "table_number": "33",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2825/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "demographic_characteristic_and_field",
+      "description": "Demographic characteristic and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "demographic_characteristic_and_field_level_1, demographic_characteristic_and_field_level_2, demographic_characteristic_and_field_level_3, demographic_characteristic_and_field_level_4, demographic_characteristic_and_field_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "demographic_characteristic_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number_",
+      "description": "Total Number ",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_all",
+      "description": "Parental Education Attainment All",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_high_school_or_less",
+      "description": "Parental Education Attainment High School Or Less",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_some_collegea",
+      "description": "Parental Education Attainment Some Collegea",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_bachelor_s_degree",
+      "description": "Parental Education Attainment Bachelor S Degree",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_master_s_degree",
+      "description": "Parental Education Attainment Master S Degree",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_professional_degreeb",
+      "description": "Parental Education Attainment Professional Degreeb",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_parental_education_attainment_research_doctoral_degree",
+      "description": "Parental Education Attainment Research Doctoral Degree",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Due to rounding, percentages may not sum to 100.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

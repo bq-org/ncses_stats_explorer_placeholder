@@ -1,0 +1,34 @@
+# Source of funds for repair and renovation of science and engineering research space in academic institutions, by year of project start and type of institution: FYs 1986–2023
+
+**Modal ID:** 12869
+
+**Table Number:** 27
+
+**Type:** TS (Time Series)
+
+**Units:** (Funds in millions of dollars)
+
+## Notes
+
+Details may not add to totals due to rounding. The question on repair and renovation costs was not asked for FYs 2000–01; therefore, no data are reported here. Only repair and renovation projects costing over $250,000 for a single field were reported for FYs 2002–23; repair and renovation projects costing over $100,000 were reported in previous cycles. Data in this table, which relies on source of funds, may not match data in tables 18 and 19, which utilize repair and renovation project costs, a separate set of survey variables.
+
+## Sources
+
+National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities.
+
+## Files
+
+- `data.csv`: The table data in CSV format
+- `croissant_metadata.json`: ML Croissant metadata for machine learning applications
+
+## Structure
+
+- Row hierarchy depth: 2
+- Column hierarchy depth: 2
+- Time series: Yes
+
+## Special Values
+
+- `i`: imputed value
+- `r`: revised value
+- `D`: suppressed to avoid disclosure of confidential information

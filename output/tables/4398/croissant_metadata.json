@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment of the skilled technical workforce, by major industry: 2019",
+  "identifier": "NCSES-4398",
+  "description": "Employment of the skilled technical workforce, by major industry: 2019",
+  "url": "https://example.org/datasets/ncses/tables/4398",
+  "table_number": "SLBR-20",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4398/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_workers_employed_all_occupations",
+      "description": "Workers Employed All Occupations",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_workers_employed_stw",
+      "description": "Workers Employed Stw",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_stw_as_a_percentage_of_all_occupations_",
+      "description": "Stw As A Percentage Of All Occupations ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Industries are defined by the North American Industry Classification System. The American Community Survey (ACS) does not cover employment among self-employed workers and employment in private households. Values do not include those employed in military occupations based on ACS Occupational Classification Codes or enrolled in primary of secondary school. The STW includes workers ages 16\u201375 without a bachelor's degree who work in S&E, S&E-related, or middle-skill occupations as categorized in this report.",
+  "sources": "U.S. Census Bureau, ACS, 2019, Public Use Microdata Sample (PUMS), data as of 25 October 2020.Science and Engineering Indicators"
+}

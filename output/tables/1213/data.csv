@@ -1,0 +1,25 @@
+table_id,row_id,field_full_path,field_level_1,field_level_2,field_level_3,field_level_4,field_level_5,field_hierarchy_depth,field_all_recipients_number_a,field_without_disability_number,field_without_disability_percent,field_with_disability_number,field_with_disability_percent
+1213,r001,All fields,All fields,,,,,1,54664,44209,100.0,3930,100.0
+1213,r002,All fields -> S&E,All fields,S&E,,,,2,39435,32227,72.9,2713,69.0
+1213,r003,All fields -> S&E -> Science,All fields,S&E,Science,,,3,29690,24264,54.9,2084,53.0
+1213,r004,All fields -> S&E -> Science -> Agricultural sciences,All fields,S&E,Science,Agricultural sciences,,4,1408,1085,2.5,102,2.6
+1213,r005,All fields -> S&E -> Science -> Biological sciences,All fields,S&E,Science,Biological sciences,,4,8588,7354,16.6,567,14.4
+1213,r006,All fields -> S&E -> Science -> Computer sciences,All fields,S&E,Science,Computer sciences,,4,2085,1713,3.9,114,2.9
+1213,r007,"All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences",All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",,4,1054,873,2.0,86,2.2
+1213,r008,All fields -> S&E -> Science -> Mathematics and statistics,All fields,S&E,Science,Mathematics and statistics,,4,1856,1493,3.4,145,3.7
+1213,r009,All fields -> S&E -> Science -> Physical sciences,All fields,S&E,Science,Physical sciences,,4,5005,4190,9.5,335,8.5
+1213,r010,All fields -> S&E -> Science -> Physical sciences -> Chemistry,All fields,S&E,Science,Physical sciences,Chemistry,5,2697,2243,5.1,190,4.8
+1213,r011,All fields -> S&E -> Science -> Physical sciences -> Physics and astronomy,All fields,S&E,Science,Physical sciences,Physics and astronomy,5,2308,1947,4.4,145,3.7
+1213,r012,All fields -> S&E -> Science -> Psychology,All fields,S&E,Science,Psychology,,4,3960,2981,6.7,280,7.1
+1213,r013,All fields -> S&E -> Science -> Social sciences,All fields,S&E,Science,Social sciences,,4,5734,4575,10.3,455,11.6
+1213,r014,All fields -> S&E -> Science -> Social sciences -> Anthropology<sup>b</sup>,All fields,S&E,Science,Social sciences,Anthropology<sup>b</sup>,5,581,471,1.1,48,1.2
+1213,r015,All fields -> S&E -> Science -> Social sciences -> Area studies<sup>c</sup>,All fields,S&E,Science,Social sciences,Area studies<sup>c</sup>,5,168,128,0.3,14,0.4
+1213,r016,All fields -> S&E -> Science -> Social sciences -> Economics,All fields,S&E,Science,Social sciences,Economics,5,1381,1137,2.6,76,1.9
+1213,r017,All fields -> S&E -> Science -> Social sciences -> Political science,All fields,S&E,Science,Social sciences,Political science,5,1326,1072,2.4,108,2.7
+1213,r018,All fields -> S&E -> Science -> Social sciences -> Sociology,All fields,S&E,Science,Social sciences,Sociology,5,689,545,1.2,64,1.6
+1213,r019,All fields -> S&E -> Science -> Social sciences -> Other ,All fields,S&E,Science,Social sciences,Other ,5,1589,1222,2.8,145,3.7
+1213,r020,All fields -> S&E -> Engineering,All fields,S&E,Engineering,,,3,9745,7963,18.0,629,16.0
+1213,r021,All fields -> S&E -> Engineering -> Electrical engineering,All fields,S&E,Engineering,Electrical engineering,,4,1900,1563,3.5,113,2.9
+1213,r022,All fields -> S&E -> Engineering -> Mechanical engineering,All fields,S&E,Engineering,Mechanical engineering,,4,1409,1128,2.6,91,2.3
+1213,r023,All fields -> S&E -> Engineering -> Other ,All fields,S&E,Engineering,Other ,,4,6436,5272,11.9,425,10.8
+1213,r024,All fields -> Non-S&E,All fields,Non-S&E,,,,2,15229,11982,27.1,1217,31.0

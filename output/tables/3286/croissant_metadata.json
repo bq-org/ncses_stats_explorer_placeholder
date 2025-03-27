@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Carnegie classification (2015) of doctorate-granting institution of U.S. citizens and permanent resident S&E doctorate recipients, by S&E field, sex, ethnicity, race, and disability status: 2019",
+  "identifier": "NCSES-3286",
+  "description": "Carnegie classification (2015) of doctorate-granting institution of U.S. citizens and permanent resident S&E doctorate recipients, by S&E field, sex, ethnicity, race, and disability status: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3286",
+  "table_number": "7-21",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3286/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_ethnicity_race_disability_status_and_field",
+      "description": "Sex, ethnicity, race, disability status, and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_ethnicity_race_disability_status_and_field_level_1, sex_ethnicity_race_disability_status_and_field_level_2, sex_ethnicity_race_disability_status_and_field_level_3, sex_ethnicity_race_disability_status_and_field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_ethnicity_race_disability_status_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number_",
+      "description": "Total Number ",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions",
+      "description": "All Institutions",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_highest_research",
+      "description": "Doctoral Highest Research",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_higher_research",
+      "description": "Doctoral Higher Research",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_moderate_research",
+      "description": "Doctoral Moderate Research",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_medical_schools_and_centers",
+      "description": "Medical Schools And Centers",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_or_unknown_carnegie_group",
+      "description": "Other Or Unknown Carnegie Group",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Includes all U.S. citizen and permanent resident S&E doctorate recipients; temporary visa holders are excluded. American Indian or Alaska Native doctorate recipients with unknown or refused citizenship status are counted as U.S. citizens and thus are included. Doctorate recipients could report more than one disability. Survey asks degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Data in this table refer to research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or other health sciences, which are fields with many professional doctorates.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2019 Survey of Earned Doctorates."
+}

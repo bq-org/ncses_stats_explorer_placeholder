@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Name parsing example when matching names in the SED and UMETRICS",
+  "identifier": "NCSES-9397",
+  "description": "Name parsing example when matching names in the SED and UMETRICS",
+  "url": "https://example.org/datasets/ncses/tables/9397",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9397/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "example",
+      "description": "Example",
+      "valueType": "string",
+      "unitText": "Variable"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "full_given_name",
+      "description": "Full Given Name",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "first_given_name",
+      "description": "First Given Name",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "family_name",
+      "description": "Family Name",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "middle_initial",
+      "description": "Middle Initial",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value"
+    }
+  },
+  "notes": "This is an example of how names are parsed and is not a real observation."
+}

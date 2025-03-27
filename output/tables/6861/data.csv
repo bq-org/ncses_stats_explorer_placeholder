@@ -1,0 +1,51 @@
+table_id,row_id,class_prevalence_full_path,class_prevalence_level_1,class_prevalence_level_2,class_prevalence_hierarchy_depth,field_response_very_important,field_response_somewhat_important,field_response_unimportant
+6861,r001,Class 1 (27.6%): Everything Is Very Important,Class 1 (27.6%): Everything Is Very Important,,1,,,
+6861,r002,Class 1 (27.6%): Everything Is Very Important -> Salary,Class 1 (27.6%): Everything Is Very Important,Salary,2,0.879,0.118,0.003
+6861,r003,Class 1 (27.6%): Everything Is Very Important -> Benefits,Class 1 (27.6%): Everything Is Very Important,Benefits,2,0.96,0.031,0.009
+6861,r004,Class 1 (27.6%): Everything Is Very Important -> Security,Class 1 (27.6%): Everything Is Very Important,Security,2,0.886,0.101,0.013
+6861,r005,Class 1 (27.6%): Everything Is Very Important -> Location,Class 1 (27.6%): Everything Is Very Important,Location,2,0.756,0.221,0.023
+6861,r006,Class 1 (27.6%): Everything Is Very Important -> Opportunities,Class 1 (27.6%): Everything Is Very Important,Opportunities,2,0.795,0.175,0.031
+6861,r007,Class 1 (27.6%): Everything Is Very Important -> Challenge,Class 1 (27.6%): Everything Is Very Important,Challenge,2,0.992,0.008,0.0
+6861,r008,Class 1 (27.6%): Everything Is Very Important -> Responsibility,Class 1 (27.6%): Everything Is Very Important,Responsibility,2,0.885,0.111,0.004
+6861,r009,Class 1 (27.6%): Everything Is Very Important -> Independence,Class 1 (27.6%): Everything Is Very Important,Independence,2,0.959,0.04,0.001
+6861,r010,Class 1 (27.6%): Everything Is Very Important -> Contribution,Class 1 (27.6%): Everything Is Very Important,Contribution,2,0.864,0.12,0.015
+6861,r011,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,,1,,,
+6861,r012,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits -> Salary,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Salary,2,0.169,0.806,0.024
+6861,r013,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits -> Benefits,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Benefits,2,0.194,0.767,0.039
+6861,r014,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits -> Security,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Security,2,0.331,0.594,0.075
+6861,r015,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits -> Location,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Location,2,0.495,0.454,0.051
+6861,r016,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits -> Opportunities,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Opportunities,2,0.396,0.509,0.095
+6861,r017,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits -> Challenge,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Challenge,2,0.959,0.04,0.0
+6861,r018,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits -> Responsibility,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Responsibility,2,0.613,0.371,0.016
+6861,r019,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits -> Independence,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Independence,2,0.868,0.13,0.002
+6861,r020,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits -> Contribution,Class 2 (25.8%): Challenge and Independence Are More Important than Salary and Benefits,Contribution,2,0.728,0.254,0.018
+6861,r021,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,,1,,,
+6861,r022,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility -> Salary,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Salary,2,0.805,0.192,0.003
+6861,r023,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility -> Benefits,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Benefits,2,0.908,0.087,0.006
+6861,r024,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility -> Security,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Security,2,0.752,0.228,0.02
+6861,r025,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility -> Location,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Location,2,0.547,0.407,0.047
+6861,r026,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility -> Opportunities,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Opportunities,2,0.326,0.563,0.112
+6861,r027,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility -> Challenge,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Challenge,2,0.504,0.462,0.034
+6861,r028,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility -> Responsibility,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Responsibility,2,0.109,0.756,0.135
+6861,r029,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility -> Independence,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Independence,2,0.456,0.499,0.045
+6861,r030,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility -> Contribution,Class 3 (25.8%): Benefits and Salary Are More Important than Responsibility,Contribution,2,0.34,0.558,0.102
+6861,r031,Class 4 (12.1%): Everything Is Somewhat Important,Class 4 (12.1%): Everything Is Somewhat Important,,1,,,
+6861,r032,Class 4 (12.1%): Everything Is Somewhat Important -> Salary,Class 4 (12.1%): Everything Is Somewhat Important,Salary,2,0.113,0.874,0.013
+6861,r033,Class 4 (12.1%): Everything Is Somewhat Important -> Benefits,Class 4 (12.1%): Everything Is Somewhat Important,Benefits,2,0.067,0.898,0.035
+6861,r034,Class 4 (12.1%): Everything Is Somewhat Important -> Security,Class 4 (12.1%): Everything Is Somewhat Important,Security,2,0.191,0.744,0.065
+6861,r035,Class 4 (12.1%): Everything Is Somewhat Important -> Location,Class 4 (12.1%): Everything Is Somewhat Important,Location,2,0.373,0.565,0.063
+6861,r036,Class 4 (12.1%): Everything Is Somewhat Important -> Opportunities,Class 4 (12.1%): Everything Is Somewhat Important,Opportunities,2,0.095,0.73,0.175
+6861,r037,Class 4 (12.1%): Everything Is Somewhat Important -> Challenge,Class 4 (12.1%): Everything Is Somewhat Important,Challenge,2,0.302,0.676,0.022
+6861,r038,Class 4 (12.1%): Everything Is Somewhat Important -> Responsibility,Class 4 (12.1%): Everything Is Somewhat Important,Responsibility,2,0.01,0.852,0.138
+6861,r039,Class 4 (12.1%): Everything Is Somewhat Important -> Independence,Class 4 (12.1%): Everything Is Somewhat Important,Independence,2,0.239,0.713,0.047
+6861,r040,Class 4 (12.1%): Everything Is Somewhat Important -> Contribution,Class 4 (12.1%): Everything Is Somewhat Important,Contribution,2,0.202,0.713,0.085
+6861,r041,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",,1,,,
+6861,r042,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant -> Salary","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",Salary,2,0.183,0.43,0.387
+6861,r043,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant -> Benefits","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",Benefits,2,0.092,0.263,0.646
+6861,r044,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant -> Security","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",Security,2,0.084,0.218,0.698
+6861,r045,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant -> Location","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",Location,2,0.529,0.261,0.21
+6861,r046,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant -> Opportunities","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",Opportunities,2,0.067,0.149,0.783
+6861,r047,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant -> Challenge","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",Challenge,2,0.646,0.247,0.108
+6861,r048,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant -> Responsibility","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",Responsibility,2,0.281,0.369,0.35
+6861,r049,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant -> Independence","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",Independence,2,0.603,0.275,0.123
+6861,r050,"Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant -> Contribution","Class 5 (8.7%): Advancement, Security, and Benefits Are Unimportant",Contribution,2,0.542,0.296,0.162

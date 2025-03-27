@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Research funding characteristics of U.S. doctorate students who graduated from 21 UMETRICS institutions in AYs 2014\u201317, by funding source and federal funding agency",
+  "identifier": "NCSES-9334",
+  "description": "Research funding characteristics of U.S. doctorate students who graduated from 21 UMETRICS institutions in AYs 2014\u201317, by funding source and federal funding agency",
+  "url": "https://example.org/datasets/ncses/tables/9334",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9334/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristics",
+      "description": "Characteristics hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristics_level_1, characteristics_level_2, characteristics_level_3, characteristics_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristics_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_funding_only",
+      "description": "Federal Funding Only",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_funding_only",
+      "description": "Nonfederal Funding Only",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_both_type_of_funding",
+      "description": "Both Type Of Funding",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ever_funded_by_nih",
+      "description": "Ever Funded By Nih",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ever_funded_by_nsf",
+      "description": "Ever Funded By Nsf",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ever_funded_by_dod",
+      "description": "Ever Funded By Dod",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ever_funded_by_doe",
+      "description": "Ever Funded By Doe",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ever_funded_by_ed",
+      "description": "Ever Funded By Ed",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ever_funded_by_hhs",
+      "description": "Ever Funded By Hhs",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ever_funded_by_nasa",
+      "description": "Ever Funded By Nasa",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ever_funded_by_other",
+      "description": "Ever Funded By Other",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Proportions are calculated using the subset of SED-UMETRICS linked data with full coverage. It is the subset of linked SED-UMETRICS data for individuals who had at least 3 years of institution data prior to their date of graduation.",
+  "sources": "SED-UMETRICS linked data, AYs 2014\u201317."
+}

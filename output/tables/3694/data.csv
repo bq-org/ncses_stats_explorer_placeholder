@@ -1,0 +1,64 @@
+table_id,row_id,employer_location_full_path,employer_location_level_1,employer_location_level_2,employer_location_level_3,employer_location_hierarchy_depth,field_all_employed_number,field_all_employed_se,field_science_total_number,field_science_total_se,field_science_biological_agricultural_and_environmental_life_sciences_number,field_science_biological_agricultural_and_environmental_life_sciences_se,field_science_computer_and_information_sciences_number,field_science_computer_and_information_sciences_se,field_science_mathematics_and_statistics_number,field_science_mathematics_and_statistics_se,field_science_physical_sciences_number,field_science_physical_sciences_se,field_science_psychology_number,field_science_psychology_se,field_science_social_sciences_number,field_science_social_sciences_se,field_engineering_number,field_engineering_se,field_health_number,field_health_se
+3694,r001,All locations,All locations,,,1,857200,1975,640300,1900,220700,1100,31100,400,36650,450,133750,950,115350,825,102700,900,176700,1175,40200,475
+3694,r002,All locations -> New England,All locations,New England,,2,77100,1375,60300,1250,23450,800,2250,225,3150,275,12900,525,9200,550,9350,450,13400,575,3400,275
+3694,r003,All locations -> New England -> Connecticut,All locations,New England,Connecticut,3,12900,550,10050,525,3150,300,200,75,550,125,2300,275,2200,250,1650,200,2350,275,500,125
+3694,r004,All locations -> New England -> Maine,All locations,New England,Maine,3,2750,300,2500,275,750,150,50,25,100,50,500,125,550,150,550,125,150,50,100,50
+3694,r005,All locations -> New England -> Massachusetts,All locations,New England,Massachusetts,3,52350,1150,40350,1050,17250,725,1850,200,2150,250,9050,425,4700,400,5400,350,9550,500,2450,250
+3694,r006,All locations -> New England -> New Hampshire,All locations,New England,New Hampshire,3,3450,325,2750,300,1050,225,S,S,S,S,350,100,600,150,550,100,550,125,150,50
+3694,r007,All locations -> New England -> Rhode Island,All locations,New England,Rhode Island,3,3400,250,2800,225,700,125,,,150,75,400,100,700,150,800,150,500,150,150,50
+3694,r008,All locations -> New England -> Vermont,All locations,New England,Vermont,3,2300,250,1900,225,600,125,,,100,50,300,100,450,125,400,125,350,100,50,50
+3694,r009,All locations -> Middle Atlantic,All locations,Middle Atlantic,,2,117450,1875,92750,1725,29200,925,4650,325,6600,375,18150,700,18400,700,15750,600,19150,650,5550,400
+3694,r010,All locations -> Middle Atlantic -> New Jersey,All locations,Middle Atlantic,New Jersey,3,23700,875,17900,750,5900,450,950,175,1500,225,4800,350,2850,300,1950,250,4300,400,1500,225
+3694,r011,All locations -> Middle Atlantic -> New York,All locations,Middle Atlantic,New York,3,59150,1150,48050,1050,13650,625,2800,275,3450,300,7750,450,10800,550,9600,475,8950,500,2150,250
+3694,r012,All locations -> Middle Atlantic -> Pennsylvania,All locations,Middle Atlantic,Pennsylvania,3,34600,975,26750,850,9650,500,900,150,1700,150,5600,325,4750,350,4150,325,5900,425,1900,225
+3694,r013,All locations -> East North Central,All locations,East North Central,,2,100900,1550,75450,1275,25550,675,2700,275,4400,300,16300,625,13850,600,12600,525,20300,800,5150,350
+3694,r014,All locations -> East North Central -> Illinois,All locations,East North Central,Illinois,3,28900,875,21900,775,6350,400,850,150,1300,175,5400,450,4050,325,3900,300,5550,425,1500,200
+3694,r015,All locations -> East North Central -> Indiana,All locations,East North Central,Indiana,3,13450,575,10150,450,4050,325,550,150,750,150,1700,225,1450,200,1650,250,2500,275,800,150
+3694,r016,All locations -> East North Central -> Michigan,All locations,East North Central,Michigan,3,21450,725,14900,575,4950,350,600,150,750,125,2650,250,3400,300,2550,275,5650,375,900,150
+3694,r017,All locations -> East North Central -> Ohio,All locations,East North Central,Ohio,3,24950,800,18900,650,6400,350,500,100,1000,175,4700,325,3350,275,3000,250,4700,425,1350,175
+3694,r018,All locations -> East North Central -> Wisconsin,All locations,East North Central,Wisconsin,3,12150,575,9650,500,3850,325,250,100,600,125,1850,225,1600,175,1500,175,1900,225,650,125
+3694,r019,All locations -> West North Central,All locations,West North Central,,2,48750,1175,38150,1025,15150,650,1000,175,2250,250,6350,450,7850,525,5550,300,7550,475,3100,250
+3694,r020,All locations -> West North Central -> Iowa,All locations,West North Central,Iowa,3,6850,400,5550,400,2250,275,250,100,450,125,900,225,950,150,700,125,1050,175,300,125
+3694,r021,All locations -> West North Central -> Kansas,All locations,West North Central,Kansas,3,5500,350,4250,300,1450,200,100,75,200,75,600,125,1050,150,850,150,900,200,400,100
+3694,r022,All locations -> West North Central -> Minnesota,All locations,West North Central,Minnesota,3,16100,725,11750,575,4050,325,350,100,700,125,2600,250,2450,275,1600,175,3050,350,1350,175
+3694,r023,All locations -> West North Central -> Missouri,All locations,West North Central,Missouri,3,12650,575,10350,550,4500,350,200,75,650,175,1600,225,1750,250,1650,175,1750,200,550,100
+3694,r024,All locations -> West North Central -> Nebraska,All locations,West North Central,Nebraska,3,4500,325,3700,300,1650,200,,,150,50,350,125,1050,200,450,125,500,125,300,100
+3694,r025,All locations -> West North Central -> North Dakota,All locations,West North Central,North Dakota,3,1350,175,1100,150,550,125,,,,,100,50,200,100,100,50,200,100,100,50
+3694,r026,All locations -> West North Central -> South Dakota,All locations,West North Central,South Dakota,3,1700,225,1500,200,650,150,,,100,50,150,50,400,125,200,75,100,50,100,50
+3694,r027,All locations -> South Atlantic,All locations,South Atlantic,,2,163650,1900,126200,1650,43850,850,4800,350,6950,425,24300,700,20800,725,25550,650,28200,775,9250,375
+3694,r028,All locations -> South Atlantic -> Delaware,All locations,South Atlantic,Delaware,3,4050,375,2950,325,750,150,,,100,50,1400,250,450,125,300,75,900,175,250,100
+3694,r029,All locations -> South Atlantic -> District of Columbia,All locations,South Atlantic,District of Columbia,3,17600,575,14700,525,3000,300,250,100,500,125,2100,225,1400,150,7450,375,2100,225,850,150
+3694,r030,All locations -> South Atlantic -> Florida,All locations,South Atlantic,Florida,3,23000,775,17050,625,4950,275,950,175,800,150,2800,275,4750,375,2800,275,4600,350,1400,150
+3694,r031,All locations -> South Atlantic -> Georgia,All locations,South Atlantic,Georgia,3,20050,700,15500,600,5400,325,550,100,1200,175,2100,250,3700,325,2550,275,3250,300,1300,200
+3694,r032,All locations -> South Atlantic -> Maryland,All locations,South Atlantic,Maryland,3,36150,1025,28150,850,12550,575,1000,200,1100,150,6850,425,2850,325,3750,300,5750,375,2250,200
+3694,r033,All locations -> South Atlantic -> North Carolina,All locations,South Atlantic,North Carolina,3,26100,800,20650,750,9050,450,700,150,1300,150,3050,275,3300,275,3200,325,3850,300,1650,175
+3694,r034,All locations -> South Atlantic -> South Carolina,All locations,South Atlantic,South Carolina,3,7350,475,5550,425,1750,225,150,50,450,125,1150,175,1100,200,950,150,1450,250,350,100
+3694,r035,All locations -> South Atlantic -> Virginia,All locations,South Atlantic,Virginia,3,26800,850,19850,700,5500,350,1150,200,1350,175,4550,325,3050,275,4250,325,5900,425,1100,175
+3694,r036,All locations -> South Atlantic -> West Virginia,All locations,South Atlantic,West Virginia,3,2450,275,1900,250,950,175,,,150,100,250,100,200,75,300,100,450,150,100,50
+3694,r037,All locations -> East South Central,All locations,East South Central,,2,30550,1000,23300,850,9300,525,750,125,1200,175,4550,325,3900,325,3650,325,5100,350,2150,200
+3694,r038,All locations -> East South Central -> Alabama,All locations,East South Central,Alabama,3,8250,450,6100,375,2300,250,250,75,450,100,1200,200,1000,175,900,150,1500,200,700,150
+3694,r039,All locations -> East South Central -> Kentucky,All locations,East South Central,Kentucky,3,6700,475,5400,425,2100,275,100,50,250,75,1050,200,1000,175,900,175,850,200,400,100
+3694,r040,All locations -> East South Central -> Mississippi,All locations,East South Central,Mississippi,3,4100,400,3050,350,1450,225,S,S,100,75,500,125,450,125,500,125,650,150,350,75
+3694,r041,All locations -> East South Central -> Tennessee,All locations,East South Central,Tennessee,3,11500,575,8750,475,3450,325,350,75,400,100,1800,225,1450,175,1350,175,2050,250,700,100
+3694,r042,All locations -> West South Central,All locations,West South Central,,2,68800,1325,49000,1175,16550,750,1800,200,3300,275,10450,425,9650,500,7250,400,16550,775,3250,250
+3694,r043,All locations -> West South Central -> Arkansas,All locations,West South Central,Arkansas,3,4200,350,3500,350,1350,200,100,50,150,75,300,100,850,175,800,175,400,100,300,75
+3694,r044,All locations -> West South Central -> Louisiana,All locations,West South Central,Louisiana,3,6300,400,5200,375,1750,200,150,100,450,125,950,175,900,150,1000,175,900,175,200,75
+3694,r045,All locations -> West South Central -> Oklahoma,All locations,West South Central,Oklahoma,3,5650,375,4100,325,1750,225,50,25,200,75,600,100,900,175,600,125,1150,225,350,100
+3694,r046,All locations -> West South Central -> Texas,All locations,West South Central,Texas,3,52650,1125,36150,950,11750,575,1500,200,2500,225,8600,400,7000,425,4850,325,14100,725,2350,225
+3694,r047,All locations -> Mountain,All locations,Mountain,,2,58200,1275,43100,1050,12900,575,1600,225,2200,200,11150,475,8900,525,6400,425,12900,650,2200,225
+3694,r048,All locations -> Mountain -> Arizona,All locations,Mountain,Arizona,3,13100,625,9050,525,2400,250,250,100,400,100,2450,250,1900,250,1650,200,3550,375,500,100
+3694,r049,All locations -> Mountain -> Colorado,All locations,Mountain,Colorado,3,19050,650,14750,500,4300,325,500,125,700,125,3800,275,3300,350,2150,250,3650,350,650,125
+3694,r050,All locations -> Mountain -> Idaho,All locations,Mountain,Idaho,3,3450,350,2450,275,1100,200,,,100,50,550,100,450,100,250,75,950,175,50,25
+3694,r051,All locations -> Mountain -> Montana,All locations,Mountain,Montana,3,2600,250,2300,225,1000,150,,,150,75,350,100,400,125,350,100,200,75,100,50
+3694,r052,All locations -> Mountain -> Nevada,All locations,Mountain,Nevada,3,3200,325,2400,250,800,150,100,75,50,50,500,125,600,150,350,75,650,175,150,75
+3694,r053,All locations -> Mountain -> New Mexico,All locations,Mountain,New Mexico,3,8200,425,5350,350,1250,175,150,75,350,75,2150,225,850,175,600,150,2650,250,200,75
+3694,r054,All locations -> Mountain -> Utah,All locations,Mountain,Utah,3,7850,450,6050,400,1800,200,450,125,450,125,1200,200,1200,175,950,150,1250,200,500,125
+3694,r055,All locations -> Mountain -> Wyoming,All locations,Mountain,Wyoming,3,800,125,700,125,250,75,,,,,100,50,150,75,100,50,S,S,50,50
+3694,r056,All locations -> Pacific,All locations,Pacific,,2,185950,2075,127600,1650,43450,850,11400,525,6350,350,28800,800,21900,725,15700,625,52400,1000,5950,400
+3694,r057,All locations -> Pacific -> Alaska,All locations,Pacific,Alaska,3,1450,175,1200,150,550,100,,,,,350,100,100,50,150,50,200,75,50,25
+3694,r058,All locations -> Pacific -> California,All locations,Pacific,California,3,140650,1850,95250,1500,32900,800,8650,475,4850,325,21850,675,15700,625,11300,500,41300,950,4100,350
+3694,r059,All locations -> Pacific -> Hawaii,All locations,Pacific,Hawaii,3,3100,275,2700,250,850,150,S,S,100,50,600,100,500,100,600,125,300,125,100,50
+3694,r060,All locations -> Pacific -> Oregon,All locations,Pacific,Oregon,3,16600,700,10550,550,3250,325,500,100,400,100,2750,300,2350,250,1300,175,5350,400,650,125
+3694,r061,All locations -> Pacific -> Washington,All locations,Pacific,Washington,3,24200,825,17900,650,5950,350,2150,200,950,175,3250,275,3250,350,2400,250,5250,400,1100,125
+3694,r062,All locations -> Puerto Rico,All locations,Puerto Rico,,2,2600,225,2050,200,600,150,S,S,50,25,350,75,700,125,300,75,450,100,100,50
+3694,r063,All locations -> U.S. territories and other areas,All locations,U.S. territories and other areas,,2,3250,350,2450,300,800,175,S,S,150,75,550,150,200,75,650,175,700,150,S,S

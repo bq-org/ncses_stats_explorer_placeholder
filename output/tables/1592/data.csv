@@ -1,0 +1,9 @@
+table_id,row_id,measure_full_path,measure_level_1,measure_level_2,measure_hierarchy_depth,field_education_coverage,field_individuals
+1592,r001,Occupation,Occupation,,1,,
+1592,r002,Occupation -> Skilled technical workforce (STW) ,Occupation,Skilled technical workforce (STW) ,2,"Some primary or secondary education; high school diploma or equivalent; some college, no degree; associate's degree",17003000
+1592,r003,Occupation -> Employed in S&E occupations ,Occupation,Employed in S&E occupations ,2,"Bachelor's, master's, doctorate, professional degree",6769000
+1592,r004,Education ,Education ,,1,,
+1592,r005,Education  -> At least one degree in S&E field (S&E degree holders),Education ,At least one degree in S&E field (S&E degree holders),2,"Bachelor's, master's, doctorate, professional degree",24521000
+1592,r006,Education  -> Highest degree in S&E field (S&E highest degree holders),Education ,Highest degree in S&E field (S&E highest degree holders),2,"Bachelor's, master's, doctorate, professional degree",18339000
+1592,r007,Job requires S&E technical expertise at bachelor&#8217;s level,Job requires S&E technical expertise at bachelor&#8217;s level,,1,,
+1592,r008,Job requires S&E technical expertise at bachelor&#8217;s level -> In one or more S&E fields,Job requires S&E technical expertise at bachelor&#8217;s level,In one or more S&E fields,2,"Bachelor's, master's, doctorate, professional degree",20935000

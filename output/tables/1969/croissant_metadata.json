@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Company adoption of AI technologies, by country, region, or economy: 2018",
+  "identifier": "NCSES-1969",
+  "description": "Company adoption of AI technologies, by country, region, or economy: 2018",
+  "url": "https://example.org/datasets/ncses/tables/1969",
+  "table_number": "6-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1969/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "technology",
+      "description": "Technology",
+      "valueType": "string",
+      "unitText": "Share of responding companies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "north_america",
+      "description": "North America",
+      "valueType": "string",
+      "unitText": "Share of responding companies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "latin_america",
+      "description": "Latin America",
+      "valueType": "string",
+      "unitText": "Share of responding companies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "europe",
+      "description": "Europe",
+      "valueType": "string",
+      "unitText": "Share of responding companies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "asia_pacific",
+      "description": "Asia Pacific",
+      "valueType": "string",
+      "unitText": "Share of responding companies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "india",
+      "description": "India",
+      "valueType": "string",
+      "unitText": "Share of responding companies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "middle_east_north_africa",
+      "description": "Middle East North Africa",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "developing_markets",
+      "description": "Developing Markets",
+      "valueType": "string",
+      "unitText": "Share of responding companies"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "The 2018 AI Index Report. 2018. Artificial Intelligence Index.Science and Engineering Indicators"
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Distribution of race and ethnicity among STEM workers, by educational attainment: 2021",
+  "identifier": "NCSES-11007",
+  "description": "Distribution of race and ethnicity among STEM workers, by educational attainment: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11007",
+  "table_number": "SLBR-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11007/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_occupation_group_and_race_or_ethnicity_b",
+      "description": "Occupation group and race or ethnicity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_occupation_group_and_race_or_ethnicity_b_level_1, _b_occupation_group_and_race_or_ethnicity_b_level_2, _b_occupation_group_and_race_or_ethnicity_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_occupation_group_and_race_or_ethnicity_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_a_bachelor_s_degree_or_higher",
+      "description": "With A Bachelor S Degree Or Higher",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_less_than_a_bachelor_s_degree_stw_",
+      "description": "Less Than A Bachelor S Degree Stw ",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the employed, civilian, non-institutionalized population ages 16\u201375 and exclude those currently enrolled in primary or secondary school. Hispanic may be any race. Race categories represent race alone and exclude Hispanic origin.",
+  "sources": "Census Bureau, American Community Survey (ACS), 1-Year Public-Use File, 2021, data as of 25 October 2022.Science and Engineering Indicators"
+}

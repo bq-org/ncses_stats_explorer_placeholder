@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. federal agencies cited in the funding acknowledgement section of S&E articles: 2003-2022",
+  "identifier": "NCSES-10058",
+  "description": "U.S. federal agencies cited in the funding acknowledgement section of S&E articles: 2003-2022",
+  "url": "https://example.org/datasets/ncses/tables/10058",
+  "table_number": "SPBS-90",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10058/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "name",
+      "description": "Name hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "name_level_1, name_level_2, name_level_3, name_level_4, name_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "name_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funded_publications",
+      "description": "Funded Publications",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Articles are classified by their year of publication. Whole counting is used. An article is considered to be federally-funded if the funding information tied with the publication record in Scopus links it with one of the U.S. federal agencies. Not all Scopus publications have funding information available, and coverage has evolved with time, for more information see Figure SPBS-1. The count of publications linked to funding from each parent agency includes those linked to its child entities. Only child entites linked to at least 100 publications and 1% or more of the total number of publications funded by that agency are shown. Sums for the child agencies may exceed the count for the parent agency as publications frequently acknowledge funding from multiple sources.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed April 2023.Science and Engineering Indicators"
+}

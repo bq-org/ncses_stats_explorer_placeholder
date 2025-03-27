@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public school teachers who reported the estimated percentage of their students who had access to a computer at home, the availability of those computers for students to use for school assignments, and the likelihood that those computers had reliable Internet access from home, by school characteristics: 2018\u201319",
+  "identifier": "NCSES-4132",
+  "description": "Public school teachers who reported the estimated percentage of their students who had access to a computer at home, the availability of those computers for students to use for school assignments, and the likelihood that those computers had reliable Internet access from home, by school characteristics: 2018\u201319",
+  "url": "https://example.org/datasets/ncses/tables/4132",
+  "table_number": "SK12-38",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4132/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "school_characteristic",
+      "description": "School characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "school_characteristic_level_1, school_characteristic_level_2, school_characteristic_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "school_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_0_49",
+      "description": "Percentage Of Teacher S Students With Access To A Computer At Home 0 49",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_50_74",
+      "description": "Percentage Of Teacher S Students With Access To A Computer At Home 50 74",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_75_89",
+      "description": "Percentage Of Teacher S Students With Access To A Computer At Home 75 89",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_90_94",
+      "description": "Percentage Of Teacher S Students With Access To A Computer At Home 90 94",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_teacher_s_students_with_access_to_a_computer_at_home_95_100",
+      "description": "Percentage Of Teacher S Students With Access To A Computer At Home 95 100",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_availability_of_computers_at_home_for_school_assignmentsa_very_available",
+      "description": "Availability Of Computers At Home For School Assignmentsa Very Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_availability_of_computers_at_home_for_school_assignmentsa_some_what_available",
+      "description": "Availability Of Computers At Home For School Assignmentsa Some What Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_availability_of_computers_at_home_for_school_assignmentsa_slightly_available",
+      "description": "Availability Of Computers At Home For School Assignmentsa Slightly Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_availability_of_computers_at_home_for_school_assignmentsa_not_available",
+      "description": "Availability Of Computers At Home For School Assignmentsa Not Available",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_availability_of_computers_at_home_for_school_assignmentsa_don_t_know",
+      "description": "Availability Of Computers At Home For School Assignmentsa Don T Know",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_likelihood_computers_at_home_have_reliable_internet_accessa_very_likely",
+      "description": "Likelihood Computers At Home Have Reliable Internet Accessa Very Likely",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_likelihood_computers_at_home_have_reliable_internet_accessa_some_what_likely",
+      "description": "Likelihood Computers At Home Have Reliable Internet Accessa Some What Likely",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_likelihood_computers_at_home_have_reliable_internet_accessa_slightly_likely",
+      "description": "Likelihood Computers At Home Have Reliable Internet Accessa Slightly Likely",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_likelihood_computers_at_home_have_reliable_internet_accessa_not_likely",
+      "description": "Likelihood Computers At Home Have Reliable Internet Accessa Not Likely",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_likelihood_computers_at_home_have_reliable_internet_accessa_don_t_know",
+      "description": "Likelihood Computers At Home Have Reliable Internet Accessa Don T Know",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "This table includes public school teachers who teach at least one regularly scheduled class in grades 3\u201312 and teach either (1) self-contained classes, or (2) departmentalized classes in one or more of the core subjects of English and language arts, social studies and social science, math, or science. The table excludes those who teach only special education, bilingual education, or English as a Second Language. Percentages may not add to 100% because of rounding.",
+  "sources": "Gray L, Lewis L, Teachers' Use of Technology for School and Homework Assignments: 2018\u201319, NCES 2020-048, U.S. Department of Education, National Center for Education Statistics (2020). https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020048. Science and Engineering Indicators"
+}

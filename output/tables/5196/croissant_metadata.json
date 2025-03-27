@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Capital expenditures in the United States and for domestic R&D paid for and performed by the company, by type of expenditure, industry, and company size: 2019",
+  "identifier": "NCSES-5196",
+  "description": "Capital expenditures in the United States and for domestic R&D paid for and performed by the company, by type of expenditure, industry, and company size: 2019",
+  "url": "https://example.org/datasets/ncses/tables/5196",
+  "table_number": "6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5196/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "selected_industry_naics_code_and_company_size",
+      "description": "Selected industry, NAICS code, and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "selected_industry_naics_code_and_company_size_level_1, selected_industry_naics_code_and_company_size_level_2, selected_industry_naics_code_and_company_size_level_3, selected_industry_naics_code_and_company_size_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "selected_industry_naics_code_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_totalb",
+      "description": "Totalb",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_used_for_domestic_r_da_totalb_c",
+      "description": "Used For Domestic R Da Totalb C",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_used_for_domestic_r_da_land_acquisition",
+      "description": "Used For Domestic R Da Land Acquisition",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_used_for_domestic_r_da_buildings_and_land_improvementd",
+      "description": "Used For Domestic R Da Buildings And Land Improvementd",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_used_for_domestic_r_da_equipment",
+      "description": "Used For Domestic R Da Equipment",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_used_for_domestic_r_da_capitalized_software",
+      "description": "Used For Domestic R Da Capitalized Software",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_used_for_domestic_r_da_all_other_and_undistributede",
+      "description": "Used For Domestic R Da All Other And Undistributede",
+      "valueType": "string",
+      "unitText": "Millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Beginning in survey year 2018, companies that performed or funded less than $50,000 of R&D were excluded from tabulation. These companies in aggregate represented a very small share of total R&D expenditures in prior years. Had the companies under this threshold been included in the 2018 estimates, they would have contributed approximately $90 million to overall R&D expenditures. Estimates of aggregate capital expenditures would have been similarly affected. Industry classification was based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Excludes data for federally funded research and development centers.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2019."
+}

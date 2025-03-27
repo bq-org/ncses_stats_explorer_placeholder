@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median salary of early career doctorates, by doctoral degree characteristics and position type: 2017",
+  "identifier": "NCSES-3822",
+  "description": "Median salary of early career doctorates, by doctoral degree characteristics and position type: 2017",
+  "url": "https://example.org/datasets/ncses/tables/3822",
+  "table_number": "6-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3822/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "selected_characteristic",
+      "description": "Selected characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "selected_characteristic_level_1, selected_characteristic_level_2, selected_characteristic_level_3, selected_characteristic_level_4, selected_characteristic_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "selected_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_position_types",
+      "description": "All Position Types",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_faculty_total",
+      "description": "Faculty Total",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_faculty_tenured_faculty",
+      "description": "Faculty Tenured Faculty",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_faculty_tenure_track_faculty",
+      "description": "Faculty Tenure Track Faculty",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_faculty_non_tenure_track_faculty_with_rank",
+      "description": "Faculty Non Tenure Track Faculty With Rank",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_faculty_other_faculty_no_rank_or_tenurea",
+      "description": "Faculty Other Faculty No Rank Or Tenurea",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_scholarb",
+      "description": "Postdoctoral Scholarb",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_position_total",
+      "description": "Other Position Total",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_position_research_scientist_or_nonfaculty_researcher",
+      "description": "Other Position Research Scientist Or Nonfaculty Researcher",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_position_all_other_positionsc",
+      "description": "Other Position All Other Positionsc",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Median salaries are rounded to the nearest $1,000. Includes early career doctorates who reported a salary of $0.",
+  "sources": "National Center for Science and Engineering Statistics, Early Career Doctorates Survey, 2017."
+}

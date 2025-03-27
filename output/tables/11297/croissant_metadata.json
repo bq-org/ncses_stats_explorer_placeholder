@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Impact of coronavirus pandemic on R&D expenditures, by company size, for R&D performing companies with 1\u20139 employees in selected industries: 2021",
+  "identifier": "NCSES-11297",
+  "description": "Impact of coronavirus pandemic on R&D expenditures, by company size, for R&D performing companies with 1\u20139 employees in selected industries: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11297",
+  "table_number": "50",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11297/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_size",
+      "description": "Employment size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_size_level_1, employment_size_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_performing_companies_number_",
+      "description": "All R D Performing Companies Number ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_increased_in_house_r_d_expenditures",
+      "description": "Increased In House R D Expenditures",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_decreased_in_house_r_d_expenditures",
+      "description": "Decreased In House R D Expenditures",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_no_change_in_in_house_r_d_expenditures",
+      "description": "No Change In In House R D Expenditures",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_don_t_know",
+      "description": "Don T Know",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail across rows may not add to total because of rounding. Detail across columns have been adjusted to add to total. Only companies in the following North American Industrial Classification System sectors and industries are included in this table: 31\u201333, 42, 51, 5413, 5415, and 5417. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States that reported R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2022 Annual Business Survey: Data Year 2021."
+}

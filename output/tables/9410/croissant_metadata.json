@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average scores of students in grades 4 and 8 on the main NAEP mathematics assessment, by race or ethnicity and socioeconomic status: 2022 ",
+  "identifier": "NCSES-9410",
+  "description": "Average scores of students in grades 4 and 8 on the main NAEP mathematics assessment, by race or ethnicity and socioeconomic status: 2022 ",
+  "url": "https://example.org/datasets/ncses/tables/9410",
+  "table_number": "K12-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9410/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "student_grade_and_race_or_ethnicity",
+      "description": "Student grade and race or ethnicity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "student_grade_and_race_or_ethnicity_level_1, student_grade_and_race_or_ethnicity_level_2, student_grade_and_race_or_ethnicity_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "student_grade_and_race_or_ethnicity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_eligible_for_free_or_reduced_price_lunch",
+      "description": "Eligible For Free Or Reduced Price Lunch",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_eligible_for_free_or_reduced_price_lunch",
+      "description": "Not Eligible For Free Or Reduced Price Lunch",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The scale for NAEP mathematics assessment scores is 0\u2013500 for grades 4 and 8. Black includes African American. Hispanic includes Latino. Hispanic may be any race; race categories exclude Hispanic origin.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2022) of the 2022 main NAEP mathematics assessment, National Center for Education Statistics.Science and Engineering Indicators"
+}

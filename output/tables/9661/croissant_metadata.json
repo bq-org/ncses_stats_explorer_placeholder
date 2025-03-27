@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Foreign R&D paid for by the company and others and performed by the company, by type of R&D, selected industry, and location: 2021",
+  "identifier": "NCSES-9661",
+  "description": "Foreign R&D paid for by the company and others and performed by the company, by type of R&D, selected industry, and location: 2021",
+  "url": "https://example.org/datasets/ncses/tables/9661",
+  "table_number": "25",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9661/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_location",
+      "description": "Industry and location hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_location_level_1, industry_and_location_level_2, industry_and_location_level_3, industry_and_location_level_4, industry_and_location_level_5, industry_and_location_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_location_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_foreign_r_d_performance",
+      "description": "Total Foreign R D Performance",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_basic_and_applied_",
+      "description": "Research Basic And Applied ",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_development",
+      "description": "Development",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail within a select location may not add to total because of rounding.\u00a0Sum of locations does not equal all locations due to the undistributed portion not being published. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Beginning in survey year 2018, statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D and also performed foreign R&D and are not comparable with estimates published for years prior to 2018. An estimate range may be displayed in place of a single estimate to avoid disclosing operations of individual companies.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2021."
+}

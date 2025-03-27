@@ -1,0 +1,256 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment characteristics of recent SEH doctorate recipients up to 3 years after receiving doctorate, by field of degree: 2001&#8211;17",
+  "identifier": "NCSES-1615",
+  "description": "Employment characteristics of recent SEH doctorate recipients up to 3 years after receiving doctorate, by field of degree: 2001&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1615",
+  "table_number": "S3-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1615/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate",
+      "description": "Field of doctorate hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_doctorate_level_1, field_of_doctorate_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_doctorate_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate_full_path",
+      "description": "Of Doctorate Full Path",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate_level_1",
+      "description": "Of Doctorate Level 1",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate_level_2",
+      "description": "Of Doctorate Level 2",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_doctorate_hierarchy_depth",
+      "description": "Of Doctorate Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_doctorates_number_2001",
+      "description": "Recent Doctorates Number 2001",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_doctorates_number_2003",
+      "description": "Recent Doctorates Number 2003",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_doctorates_number_2006",
+      "description": "Recent Doctorates Number 2006",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_doctorates_number_2008",
+      "description": "Recent Doctorates Number 2008",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_doctorates_number_2010",
+      "description": "Recent Doctorates Number 2010",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_doctorates_number_2013",
+      "description": "Recent Doctorates Number 2013",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_doctorates_number_2015",
+      "description": "Recent Doctorates Number 2015",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recent_doctorates_number_2017",
+      "description": "Recent Doctorates Number 2017",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployment_rate_2001",
+      "description": "Unemployment Rate 2001",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployment_rate_2003",
+      "description": "Unemployment Rate 2003",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployment_rate_2006",
+      "description": "Unemployment Rate 2006",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployment_rate_2008",
+      "description": "Unemployment Rate 2008",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployment_rate_2010",
+      "description": "Unemployment Rate 2010",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployment_rate_2013",
+      "description": "Unemployment Rate 2013",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployment_rate_2015",
+      "description": "Unemployment Rate 2015",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unemployment_rate_2017",
+      "description": "Unemployment Rate 2017",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_2001",
+      "description": "Involuntarily Out Of Rate 2001",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_2003",
+      "description": "Involuntarily Out Of Rate 2003",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_2006",
+      "description": "Involuntarily Out Of Rate 2006",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_2008",
+      "description": "Involuntarily Out Of Rate 2008",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_2010",
+      "description": "Involuntarily Out Of Rate 2010",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_2013",
+      "description": "Involuntarily Out Of Rate 2013",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_2015",
+      "description": "Involuntarily Out Of Rate 2015",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_2017",
+      "description": "Involuntarily Out Of Rate 2017",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Involuntarily out-of-field rate is the proportion of all employed individuals who report working in a job not related to their field of doctorate because a job in that field was not available. Data for 2001 and 2006 include graduates from 12 months to 36 months before the survey reference date; data for 2003, 2008, and 2010 include graduates from 15 months to 36 months before the survey reference date; data for 2013, 2015, and 2017 include graduates from 19 months to 36 months before the survey reference date. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Doctorate Recipients (SDR).Science and Engineering Indicators"
+}

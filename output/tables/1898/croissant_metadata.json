@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Examples of federal policies and programs supporting early-stage technology development and innovation",
+  "identifier": "NCSES-1898",
+  "description": "Examples of federal policies and programs supporting early-stage technology development and innovation",
+  "url": "https://example.org/datasets/ncses/tables/1898",
+  "table_number": "8-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1898/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency_office_and_program",
+      "description": "Agency, office, and program hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_office_and_program_level_1, agency_office_and_program_level_2, agency_office_and_program_level_3, agency_office_and_program_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_office_and_program_full_path"
+        }
+      ]
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The table summarizes examples of policy and program information collected during the spring and fall of 2017 from federal staff for a selected set of U.S. agencies with major R&D and technology development activities. The table reflects agency responses. For a more comprehensive list of federal policies and programs see Table S8-61.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation; SRI International, special tabulations of federal program information (2017). See Table S8-61.Science and Engineering Indicators"
+}

@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Innovating companies, by type and location of cooperation partner, by company size: 2015\u201317",
+  "identifier": "NCSES-2632",
+  "description": "Innovating companies, by type and location of cooperation partner, by company size: 2015\u201317",
+  "url": "https://example.org/datasets/ncses/tables/2632",
+  "table_number": "64",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2632/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_and_location_of_cooperation_partner",
+      "description": "Type and location of cooperation partner hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_and_location_of_cooperation_partner_level_1, type_and_location_of_cooperation_partner_level_2, type_and_location_of_cooperation_partner_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_and_location_of_cooperation_partner_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies",
+      "description": "All Companies",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_micro_companies_1_9_employees_",
+      "description": "Micro Companies 1 9 Employees ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_small_companies_10_49_employees_",
+      "description": "Small Companies 10 49 Employees ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_medium_companies_50_249_employees_",
+      "description": "Medium Companies 50 249 Employees ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_large_companies_250_employees_",
+      "description": "Large Companies 250 Employees ",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Innovating companies are defined here as those with product, process, marketing, or organizational innovation. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Annual Business Survey, 2017."
+}

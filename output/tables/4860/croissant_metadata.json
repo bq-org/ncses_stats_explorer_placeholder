@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Coronavirus articles for 15 largest coronavirus article producing regions, countries, or economies: 2020",
+  "identifier": "NCSES-4860",
+  "description": "Coronavirus articles for 15 largest coronavirus article producing regions, countries, or economies: 2020",
+  "url": "https://example.org/datasets/ncses/tables/4860",
+  "table_number": "PBS-A",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4860/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy",
+      "description": "Region Country Or Economy",
+      "valueType": "string",
+      "unitText": "Number of articles"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "coronavirus_article_count",
+      "description": "Coronavirus Article Count",
+      "valueType": "string",
+      "unitText": "Number of articles"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Number of publications uses fractional counting. The list is sorted based on decreasing fractional counting numbers. The data were filtered in a similar manner as the Scopus data used throughout this report. The filters removed preprints, letters, notes, editorials, errata, surveys, low-quality journals, or lack of institutional addresses. Any article that had any of the following keywords in its title, abstract, or author-defined keywords were used to build the data set: \"covid\"; \"coronavirus*\"; \"corona virus*\"; \"severe acute respiratory syndrome\"; \"middle east respiratory syndrome\"; \"SARS-CoV-2\"; \"spike protein*\"; \"mers-cov\"; \"nl63\"; \"229e\"; \"oc43\"; \"hcov\"; \"alphacoronavirus*\"; \"covid19\"; \"covid-19\"; \"SARSCoV2.\" The * character is used to specify that the words should serve as prefixes, such that \"coronavirus*\" also captures articles that used \"coronaviruses,\" for example. Articles, conference proceedings, and reviews indexed in the Scopus database were searched. For additional detail, see Table SPBS-55.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed May 2021.Science and Engineering Indicators"
+}

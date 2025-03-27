@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Higher education R&D expenditures received from and passed through to other U.S. higher education institutions, at institutions in the short form survey population, by state, institutional control, institution, and source of funds: FY 2021",
+  "identifier": "NCSES-8013",
+  "description": "Higher education R&D expenditures received from and passed through to other U.S. higher education institutions, at institutions in the short form survey population, by state, institutional control, institution, and source of funds: FY 2021",
+  "url": "https://example.org/datasets/ncses/tables/8013",
+  "table_number": "85",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8013/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_institutional_control_and_institution_b",
+      "description": "State, institutional control, and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_institutional_control_and_institution_b_level_1, _b_state_institutional_control_and_institution_b_level_2, _b_state_institutional_control_and_institution_b_level_3, _b_state_institutional_control_and_institution_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_institutional_control_and_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_received_as_a_subrecipient_total",
+      "description": "Received As A Subrecipient Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_received_as_a_subrecipient_federally_financed",
+      "description": "Received As A Subrecipient Federally Financed",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_received_as_a_subrecipient_nonfederally_financed",
+      "description": "Received As A Subrecipient Nonfederally Financed",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_passed_through_to_subrecipients_total",
+      "description": "Passed Through To Subrecipients Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_passed_through_to_subrecipients_federally_financed",
+      "description": "Passed Through To Subrecipients Federally Financed",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_passed_through_to_subrecipients_nonfederally_financed",
+      "description": "Passed Through To Subrecipients Nonfederally Financed",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutions are included in the short form population if they reported less than $1 million in total R&D expenditures during the previous fiscal year.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2021."
+}

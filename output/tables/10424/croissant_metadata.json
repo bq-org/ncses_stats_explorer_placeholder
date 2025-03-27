@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for science and engineering to universities and colleges, by type of activity and agency: FYs 1963&#8211;2021",
+  "identifier": "NCSES-10424",
+  "description": "Federal obligations for science and engineering to universities and colleges, by type of activity and agency: FYs 1963&#8211;2021",
+  "url": "https://example.org/datasets/ncses/tables/10424",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10424/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Some trend shifts are related to institutional reclassification. For example, beginning in FY 1978, two laboratories that were formerly considered academically administered federally funded research and development centers became part of their respective institutions: the Applied Physics Laboratory (Johns Hopkins University) and the Applied Research Laboratory (Pennsylvania State University). Data for these laboratories are included in academic figures beginning in FY 1978. Similarly, Draper Laboratories separated from the Massachusetts Institute of Technology as of FY 1974 to become an independent nonprofit institution; data for this laboratory are included in the Massachusetts Institute of Technology's figures prior to FY 1974.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Science and Engineering Support to Universities, Colleges, and Nonprofit Institutions; National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2021\u201322, Federal Science and Engineering Support Module.",
+  "temporalCoverage": "19/20"
+}

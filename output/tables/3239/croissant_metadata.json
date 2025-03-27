@@ -1,0 +1,164 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Black or African American U.S. citizen and permanent resident S&E graduate students in all institutions and in HBCUs, by field, degree, and sex: 2018",
+  "identifier": "NCSES-3239",
+  "description": "Black or African American U.S. citizen and permanent resident S&E graduate students in all institutions and in HBCUs, by field, degree, and sex: 2018",
+  "url": "https://example.org/datasets/ncses/tables/3239",
+  "table_number": "3-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3239/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_degree",
+      "description": "Field and degree hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_and_degree_level_1, field_and_degree_level_2, field_and_degree_level_3, field_and_degree_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_and_degree_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_degree_full_path",
+      "description": "And Degree Full Path",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_degree_level_1",
+      "description": "And Degree Level 1",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_degree_level_2",
+      "description": "And Degree Level 2",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_degree_level_3",
+      "description": "And Degree Level 3",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_degree_level_4",
+      "description": "And Degree Level 4",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_degree_hierarchy_depth",
+      "description": "And Degree Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions_number_all_s_e_graduate_students",
+      "description": "All Institutions Number All S E Graduate Students",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions_number_female",
+      "description": "All Institutions Number Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions_number_male",
+      "description": "All Institutions Number Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hbcus_number_all_s_e_graduate_students",
+      "description": "Hbcus Number All S E Graduate Students",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hbcus_number_female",
+      "description": "Hbcus Number Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hbcus_number_male",
+      "description": "Hbcus Number Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hbcus_all_s_e_graduate_students",
+      "description": "Hbcus All S E Graduate Students",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hbcus_female",
+      "description": "Hbcus Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hbcus_male",
+      "description": "Hbcus Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2018."
+}

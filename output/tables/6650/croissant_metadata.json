@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Confidence in scientists to act in the best interests of the public, by demographic characteristics: 2020",
+  "identifier": "NCSES-6650",
+  "description": "Confidence in scientists to act in the best interests of the public, by demographic characteristics: 2020",
+  "url": "https://example.org/datasets/ncses/tables/6650",
+  "table_number": "PPS-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6650/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_of_confidence_in_scientists_a_great_deal",
+      "description": "Level Of Confidence In Scientists A Great Deal",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_of_confidence_in_scientists_a_fair_amount",
+      "description": "Level Of Confidence In Scientists A Fair Amount",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_of_confidence_in_scientists_not_too_much",
+      "description": "Level Of Confidence In Scientists Not Too Much",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_of_confidence_in_scientists_none_at_all",
+      "description": "Level Of Confidence In Scientists None At All",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Percentages may not add to 100% because the nonresponse category for level of confidence is not shown. See Table SPPS-11 for standard errors. Responses are to the following: How much confidence, if any, do you have in [scientists] to act in the best interests of the public?",
+  "sources": "Pew Research Center, American Trends Panel (2020), Wave 79, conducted 18\u201329 November 2020. Data were provided to the authors by the center prior to public release. Science and Engineering Indicators"
+}

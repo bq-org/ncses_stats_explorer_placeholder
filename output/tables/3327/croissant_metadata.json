@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed science, engineering, and health doctorate holders, by broad occupation, type of employer, sex, salary, and benefits: 2019",
+  "identifier": "NCSES-3327",
+  "description": "Employed science, engineering, and health doctorate holders, by broad occupation, type of employer, sex, salary, and benefits: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3327",
+  "table_number": "9-36",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3327/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation_employer_tenure_status_and_sex",
+      "description": "Occupation, employer, tenure status, and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "7"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_employer_tenure_status_and_sex_level_1, occupation_employer_tenure_status_and_sex_level_2, occupation_employer_tenure_status_and_sex_level_3, occupation_employer_tenure_status_and_sex_level_4, occupation_employer_tenure_status_and_sex_level_5, occupation_employer_tenure_status_and_sex_level_6, occupation_employer_tenure_status_and_sex_level_7"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_employer_tenure_status_and_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_benefit_available_on_principal_job_health_insurance",
+      "description": "All Employed Benefit Available On Principal Job Health Insurance",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_benefit_available_on_principal_job_pension_or_retirement_plan",
+      "description": "All Employed Benefit Available On Principal Job Pension Or Retirement Plan",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_benefit_available_on_principal_job_profit_sharing_plan",
+      "description": "All Employed Benefit Available On Principal Job Profit Sharing Plan",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_benefit_available_on_principal_job_paid_vacation_sick_or_personal_days",
+      "description": "All Employed Benefit Available On Principal Job Paid Vacation Sick Or Personal Days",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_salary_for_full_time_employed_a",
+      "description": "Median Salary For Full Time Employed A",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers rounded to nearest 50. Detail may not add to total because of rounding and suppression. Estimates include those employed and living in the United States during the reference week.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2019."
+}

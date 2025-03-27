@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. R&D expenditures, by type of R&D: Selected years, 1970\u20132022",
+  "identifier": "NCSES-10487",
+  "description": "U.S. R&D expenditures, by type of R&D: Selected years, 1970\u20132022",
+  "url": "https://example.org/datasets/ncses/tables/10487",
+  "table_number": "5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10487/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Billions of current and constant 2017 dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data throughout the span of time reported here are consistently based on Organisation for Economic Co-operation and Development Frascati Manual definitions for basic research, applied research, and experimental development. Prior to 2010, however, some changes had been introduced in the questionnaires of the sectoral expenditure surveys to improve the accuracy of respondents' classification of their R&D by type. Accordingly, small percentage changes in the historical data may not be meaningful.",
+  "sources": "National Center for Science and Engineering Statistics, National Patterns of R&D Resources (annual series).",
+  "temporalCoverage": "20/20"
+}

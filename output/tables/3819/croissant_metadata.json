@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Scholarly activity of early career doctorates, by position type, employment setting, and doctoral degree characteristics: 2017",
+  "identifier": "NCSES-3819",
+  "description": "Scholarly activity of early career doctorates, by position type, employment setting, and doctoral degree characteristics: 2017",
+  "url": "https://example.org/datasets/ncses/tables/3819",
+  "table_number": "4-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3819/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "selected_characteristic",
+      "description": "Selected characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "selected_characteristic_level_1, selected_characteristic_level_2, selected_characteristic_level_3, selected_characteristic_level_4, selected_characteristic_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "selected_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_of_early_career_doctorates",
+      "description": "Number Of Early Career Doctorates",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_wrote_technical_reports_or_working_papers",
+      "description": "Wrote Technical Reports Or Working Papers",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_attended_professional_conferences",
+      "description": "Attended Professional Conferences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_served_as_a_reviewer_for_conference_journal_or_organization",
+      "description": "Served As A Reviewer For Conference Journal Or Organization",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_supervised_graduate_students_postdoctoral_scholars_or_staff",
+      "description": "Supervised Graduate Students Postdoctoral Scholars Or Staff",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_taught_courses",
+      "description": "Taught Courses",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_provided_clinical_or_professional_services",
+      "description": "Provided Clinical Or Professional Services",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_developed_marketable_products",
+      "description": "Developed Marketable Products",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worked_with_researchers_outside_home_department_or_lab",
+      "description": "Worked With Researchers Outside Home Department Or Lab",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_served_as_principal_or_coinvestigator_on_funded_grants",
+      "description": "Served As Principal Or Coinvestigator On Funded Grants",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_prepared_proposals_as_principal_or_co_investigator",
+      "description": "Prepared Proposals As Principal Or Co Investigator",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_prepared_proposals_in_role_other_than_principal_or_co_investigator",
+      "description": "Prepared Proposals In Role Other Than Principal Or Co Investigator",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Counts are rounded to the nearest 100. Percentages are calculated from unrounded counts and rounded to the nearest 10th of a percent.",
+  "sources": "National Center for Science and Engineering Statistics, Early Career Doctorates Survey, 2017."
+}

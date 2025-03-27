@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Thirty institutions reporting the most FY 2019 research space in all fields: FYs 2015 to 2019",
+  "identifier": "NCSES-2942",
+  "description": "Thirty institutions reporting the most FY 2019 research space in all fields: FYs 2015 to 2019",
+  "url": "https://example.org/datasets/ncses/tables/2942",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2942/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "institution_level_1, institution_level_2, institution_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2015",
+      "description": "Fy 2015",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2017",
+      "description": "Fy 2017",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fy_2019",
+      "description": "Fy 2019",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Totals for the leading 30 institutions reflect the institutions in the top 30 for that given year. Some institutions in the FY 2017 ranking were not in the top 30 prior in FY 2015. Some institutions in the FY 2019 ranking were not in the top 30 prior to FY 2019. Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities."
+}

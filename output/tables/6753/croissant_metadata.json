@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Results for simultaneous equations model with 1990 lags&#8212;urban commuting zones",
+  "identifier": "NCSES-6753",
+  "description": "Results for simultaneous equations model with 1990 lags&#8212;urban commuting zones",
+  "url": "https://example.org/datasets/ncses/tables/6753",
+  "table_number": "A-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6753/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "population_subset_characteristic",
+      "description": "Population subset hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "population_subset_level_1, population_subset_level_2, population_subset_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Estimated regression coefficients on patents and population subset"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "PopDens, WageRentR, UniResExp, UR, Crime, and ProxUrbCen are lagged to 1990. Structural equation estimates are based on 307 observations. Controls for Census region and Rural-Urban Continuum Code are included in each regression.",
+  "sources": "Authors' estimation using U.S. Patent and Trademark Office; Census Bureau, Special Tabulation (2000), 2000 Census of Population and Housing, Summary File 1 and Summary File 4, and Shapefile; Integrated Postsecondary Data System, 2000; Department of Agriculture, Economic Research Service, 1999, 2000; Bureau of Labor Statistics, Quarterly Census of Employment and Wages, 1998.",
+  "temporalCoverage": "19/19"
+}

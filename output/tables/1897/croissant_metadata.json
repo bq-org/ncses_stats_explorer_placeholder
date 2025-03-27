@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "SBIR and STTR awards funding, by type of award: Selected years, FYs 1983&#8211;2018",
+  "identifier": "NCSES-1897",
+  "description": "SBIR and STTR awards funding, by type of award: Selected years, FYs 1983&#8211;2018",
+  "url": "https://example.org/datasets/ncses/tables/1897",
+  "table_number": "8-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1897/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sbir_characteristic",
+      "description": "SBIR hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sbir_level_1, sbir_level_2, sbir_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number of awards and funding in millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "The first SBIR program awards were made in FY 1983. The first STTR program award was made in FY 1995. Funding data are awarded amount through FY 2014; obligated amount in FY 2015 and later.",
+  "sources": "Small Business Administration, SBIR/STTR official website, accessed 5 June 2019.Science and Engineering Indicators",
+  "temporalCoverage": "19/20"
+}

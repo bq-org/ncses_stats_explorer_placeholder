@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Unemployment rates of scientists and engineers, by level of highest degree and broad occupational category: Selected years, 2003&#8211;19",
+  "identifier": "NCSES-4414",
+  "description": "Unemployment rates of scientists and engineers, by level of highest degree and broad occupational category: Selected years, 2003&#8211;19",
+  "url": "https://example.org/datasets/ncses/tables/4414",
+  "table_number": "SLBR-7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4414/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "degree_and_occupation",
+      "description": "Degree and occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "degree_and_occupation_level_1, degree_and_occupation_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "degree_and_occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006",
+      "description": "2006",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Scientists and engineers include those with one or more S&E or S&E-related degrees at the bachelor's level or higher or those who have only a non-S&E degree at the bachelor's level or higher and are employed in an S&E or S&E-related occupation. For data on unemployment rates by occupation, calculations assume that unemployed individuals are seeking further employment in their most recent occupation. Non-S&E occupations include middle-skill and non-STEM occupations.",
+  "sources": "National Center for Science and Engineering Statistics, Scientists and Engineers Statistical Data System (SESTAT), 2003, 2006, 2008, 2010, 2013, and National Survey of College Graduates (NSCG), 2015, 2017, 2019.Science and Engineering Indicators"
+}

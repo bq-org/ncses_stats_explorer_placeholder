@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. R&D expenditures, by performing sector, source of funds, and type of R&D: 2022",
+  "identifier": "NCSES-10934",
+  "description": "U.S. R&D expenditures, by performing sector, source of funds, and type of R&D: 2022",
+  "url": "https://example.org/datasets/ncses/tables/10934",
+  "table_number": "RD-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10934/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "performing_sector_and_type_of_r_d",
+      "description": "Performing sector and type of R&D hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "performing_sector_and_type_of_r_d_level_1, performing_sector_and_type_of_r_d_level_2, performing_sector_and_type_of_r_d_level_3, performing_sector_and_type_of_r_d_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "performing_sector_and_type_of_r_d_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funding_business",
+      "description": "Source Of Funding Business",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funding_federal_government",
+      "description": "Source Of Funding Federal Government",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funding_nonfederal_government",
+      "description": "Source Of Funding Nonfederal Government",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funding_higher_educationa",
+      "description": "Source Of Funding Higher Educationa",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funding_nonprofit_organizations",
+      "description": "Source Of Funding Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funding_percent_by_performer",
+      "description": "Source Of Funding Percent By Performer",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The data for 2022 are estimates and are likely to be revised later.",
+  "sources": "National Center for Science and Engineering Statistics, National Patterns of R&D Resources (2021\u201322 edition).Science and Engineering Indicators"
+}

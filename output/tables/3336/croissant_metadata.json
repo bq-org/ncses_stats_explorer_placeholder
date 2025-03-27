@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Skilled technical workers and 25 and older and their earnings, by educational attainment, occupational group, and disability status: 2019",
+  "identifier": "NCSES-3336",
+  "description": "Skilled technical workers and 25 and older and their earnings, by educational attainment, occupational group, and disability status: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3336",
+  "table_number": "9-23",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3336/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "education_attainment_and_occupation",
+      "description": "Education attainment and Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "education_attainment_and_occupation_level_1, education_attainment_and_occupation_level_2, education_attainment_and_occupation_level_3, education_attainment_and_occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "education_attainment_and_occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_total",
+      "description": "Number Total",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_without_disability",
+      "description": "Number Without Disability",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_with_disability",
+      "description": "Number With Disability",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_annual_wage_earnings_total",
+      "description": "Median Annual Wage Earnings Total",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_annual_wage_earnings_without_disability",
+      "description": "Median Annual Wage Earnings Without Disability",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_annual_wage_earnings_with_disability",
+      "description": "Median Annual Wage Earnings With Disability",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The American Community Survey does not cover employment among self-employed workers and employment in private households. Values do not include those employed in military occupations or attending primary or secondary school. Values includes those age 25 and older. Earnings are wage income over the previous 12 months. Wage values are rounded to the nearest 1,000. Respondents can report more than one disability. Those who reported difficulty with one or more functionalities were classified as with disability.",
+  "sources": "Census Bureau, American Community Survey, 2020, Public Use Microdata Sample, accessed 25 October 2020."
+}

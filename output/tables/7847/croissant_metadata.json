@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Academic institutions with science and engineering research space shared with other fields or used for purposes other than research, by type of institution: FY 2021",
+  "identifier": "NCSES-7847",
+  "description": "Academic institutions with science and engineering research space shared with other fields or used for purposes other than research, by type of institution: FY 2021",
+  "url": "https://example.org/datasets/ncses/tables/7847",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7847/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_type_of_institution_b",
+      "description": "Type of institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_type_of_institution_b_level_1, _b_type_of_institution_b_level_2, _b_type_of_institution_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_type_of_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_research_space_number_a",
+      "description": "Institutions With Research Space Number A",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_research_space_shared_with_other_fields_number",
+      "description": "Institutions With Research Space Shared With Other Fields Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_research_space_shared_with_other_fields_percent",
+      "description": "Institutions With Research Space Shared With Other Fields Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_research_space_also_used_for_nonresearch_purposes_number",
+      "description": "Institutions With Research Space Also Used For Nonresearch Purposes Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_research_space_also_used_for_nonresearch_purposes_percent",
+      "description": "Institutions With Research Space Also Used For Nonresearch Purposes Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutions were asked to indicate whether any of the net assignable square feet of research space reported in individual field totals was shared with other fields or used for purposes other than research.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities, FY 2021."
+}

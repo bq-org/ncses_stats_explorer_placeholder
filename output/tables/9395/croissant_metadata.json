@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Demographic differences in doctorate recipients",
+  "identifier": "NCSES-9395",
+  "description": "Demographic differences in doctorate recipients",
+  "url": "https://example.org/datasets/ncses/tables/9395",
+  "table_number": "A-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9395/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "race_and_ethnicity",
+      "description": "Race and ethnicity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "race_and_ethnicity_level_1, race_and_ethnicity_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "race_and_ethnicity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_sed_institutions",
+      "description": "All Sed Institutions",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_21_institutions_in_umetrics",
+      "description": "21 Institutions In Umetrics",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Race and ethnicity are self-reported and comes from the SED; American Indian or Alaska Native and Native Hawaiian or Other Pacific Islander are very small categories (less than 10 individuals by type of funding); therefore, these groups are included in the other race or race not reported category.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, AYs 2014\u201317."
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D performed by the company, by selected industry and employment size, for companies with 1&#8211;9 employees: 2018",
+  "identifier": "NCSES-5606",
+  "description": "Domestic R&D performed by the company, by selected industry and employment size, for companies with 1&#8211;9 employees: 2018",
+  "url": "https://example.org/datasets/ncses/tables/5606",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5606/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies_companies_number_",
+      "description": "All Companies Companies Number ",
+      "valueType": "string",
+      "unitText": "Number of companies and thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies_amount",
+      "description": "All Companies Amount",
+      "valueType": "string",
+      "unitText": "Number of companies and thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1_4_employees_companies_number_",
+      "description": "1 4 Employees Companies Number ",
+      "valueType": "string",
+      "unitText": "Number of companies and thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1_4_employees_amount",
+      "description": "1 4 Employees Amount",
+      "valueType": "string",
+      "unitText": "Number of companies and thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_5_9_employees_companies_number_",
+      "description": "5 9 Employees Companies Number ",
+      "valueType": "string",
+      "unitText": "Number of companies and thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_5_9_employees_amount",
+      "description": "5 9 Employees Amount",
+      "valueType": "string",
+      "unitText": "Number of companies and thousands of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding or unavailable NAICS detail for select records beyond the 4-digit industry classification. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2019 Annual Business Survey: Data Year 2018."
+}

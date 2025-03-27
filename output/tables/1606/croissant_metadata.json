@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median annual salary among S&E highest degree holders working full time, by sex, race, and ethnicity: 1995, 2003, and 2017",
+  "identifier": "NCSES-1606",
+  "description": "Median annual salary among S&E highest degree holders working full time, by sex, race, and ethnicity: 1995, 2003, and 2017",
+  "url": "https://example.org/datasets/ncses/tables/1606",
+  "table_number": "3-20",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1606/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1995",
+      "description": "1995",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Salaries are rounded to the nearest $1,000. Data for 1995 include some individuals with multiple races in each category. Hispanic may be any race; race categories exclude Hispanic origin.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Scientists and Engineers Statistical Data System (SESTAT), 1995, 2003, and the National Survey of College Graduates (NSCG), 2017.Science and Engineering Indicators"
+}

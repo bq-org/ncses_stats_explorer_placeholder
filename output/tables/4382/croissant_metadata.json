@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment sector of S&E highest degree holders and workers in S&E occupations: 1993, 2003, and 2019",
+  "identifier": "NCSES-4382",
+  "description": "Employment sector of S&E highest degree holders and workers in S&E occupations: 1993, 2003, and 2019",
+  "url": "https://example.org/datasets/ncses/tables/4382",
+  "table_number": "SLBR-13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4382/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employment_sector",
+      "description": "Employment sector hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "employment_sector_level_1, employment_sector_level_2, employment_sector_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "employment_sector_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1993_highest_degree_in_s_e",
+      "description": "1993 Highest Degree In S E",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1993_s_e_occupations",
+      "description": "1993 S E Occupations",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_highest_degree_in_s_e",
+      "description": "2003 Highest Degree In S E",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_s_e_occupations",
+      "description": "2003 S E Occupations",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_highest_degree_in_s_e",
+      "description": "2019 Highest Degree In S E",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_s_e_occupations",
+      "description": "2019 S E Occupations",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Percentages may not add to 100% because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Scientists and Engineers Statistical Data System (SESTAT), 1993, 2003, and National Survey of College Graduates (NSCG), 2019.Science and Engineering Indicators"
+}

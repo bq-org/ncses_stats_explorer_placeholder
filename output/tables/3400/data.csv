@@ -1,0 +1,44 @@
+table_id,row_id,employed_scientists_and_engineers_full_path,employed_scientists_and_engineers_level_1,employed_scientists_and_engineers_level_2,employed_scientists_and_engineers_level_3,employed_scientists_and_engineers_level_4,employed_scientists_and_engineers_hierarchy_depth,field_both_sexes,field_female,field_male
+3400,r001,Demographic characteristic (number),Demographic characteristic (number),,,,1,28627000,13720000,14907000
+3400,r002,Demographic characteristic (number) -> Age,Demographic characteristic (number),Age,,,2,,,
+3400,r003,Demographic characteristic (number) -> Age -> 29 and younger,Demographic characteristic (number),Age,29 and younger,,3,15.7,18.1,13.6
+3400,r004,Demographic characteristic (number) -> Age -> 30&#8211;39,Demographic characteristic (number),Age,30&#8211;39,,3,27.4,28.5,26.4
+3400,r005,Demographic characteristic (number) -> Age -> 40&#8211;49,Demographic characteristic (number),Age,40&#8211;49,,3,23.1,23.2,23.0
+3400,r006,Demographic characteristic (number) -> Age -> 50&#8211;75,Demographic characteristic (number),Age,50&#8211;75,,3,33.7,30.3,36.9
+3400,r007,Demographic characteristic (number) -> Ethnicity and race,Demographic characteristic (number),Ethnicity and race,,,2,,,
+3400,r008,Demographic characteristic (number) -> Ethnicity and race -> Hispanic or Latino<sup>a</sup>,Demographic characteristic (number),Ethnicity and race,Hispanic or Latino<sup>a</sup>,,3,9.2,10.0,8.5
+3400,r009,Demographic characteristic (number) -> Ethnicity and race -> Not Hispanic or Latino,Demographic characteristic (number),Ethnicity and race,Not Hispanic or Latino,,3,,,
+3400,r010,Demographic characteristic (number) -> Ethnicity and race -> Not Hispanic or Latino -> American Indian or Alaska Native,Demographic characteristic (number),Ethnicity and race,Not Hispanic or Latino,American Indian or Alaska Native,4,0.3,0.3,0.3
+3400,r011,Demographic characteristic (number) -> Ethnicity and race -> Not Hispanic or Latino -> Asian,Demographic characteristic (number),Ethnicity and race,Not Hispanic or Latino,Asian,4,13.5,12.5,14.5
+3400,r012,Demographic characteristic (number) -> Ethnicity and race -> Not Hispanic or Latino -> Black or African American,Demographic characteristic (number),Ethnicity and race,Not Hispanic or Latino,Black or African American,4,7.2,8.3,6.2
+3400,r013,Demographic characteristic (number) -> Ethnicity and race -> Not Hispanic or Latino -> Native Hawaiian or Other Pacific Islander,Demographic characteristic (number),Ethnicity and race,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,4,0.3,0.2,0.4
+3400,r014,Demographic characteristic (number) -> Ethnicity and race -> Not Hispanic or Latino -> White,Demographic characteristic (number),Ethnicity and race,Not Hispanic or Latino,White,4,67.2,66.2,68.0
+3400,r015,Demographic characteristic (number) -> Ethnicity and race -> Not Hispanic or Latino -> More than one race,Demographic characteristic (number),Ethnicity and race,Not Hispanic or Latino,More than one race,4,2.3,2.5,2.1
+3400,r016,Demographic characteristic (number) -> Disability status,Demographic characteristic (number),Disability status,,,2,,,
+3400,r017,Demographic characteristic (number) -> Disability status -> Without disability,Demographic characteristic (number),Disability status,Without disability,,3,89.8,90.7,88.9
+3400,r018,Demographic characteristic (number) -> Disability status -> With disability,Demographic characteristic (number),Disability status,With disability,,3,10.2,9.3,11.1
+3400,r019,Demographic characteristic (number) -> Marital status,Demographic characteristic (number),Marital status,,,2,,,
+3400,r020,Demographic characteristic (number) -> Marital status -> Married<sup>b</sup>,Demographic characteristic (number),Marital status,Married<sup>b</sup>,,3,70.6,66.8,74.2
+3400,r021,Demographic characteristic (number) -> Marital status -> Widowed,Demographic characteristic (number),Marital status,Widowed,,3,0.8,1.1,0.5
+3400,r022,Demographic characteristic (number) -> Marital status -> Separated,Demographic characteristic (number),Marital status,Separated,,3,0.8,1.1,0.6
+3400,r023,Demographic characteristic (number) -> Marital status -> Divorced,Demographic characteristic (number),Marital status,Divorced,,3,7.2,9.2,5.3
+3400,r024,Demographic characteristic (number) -> Marital status -> Never married,Demographic characteristic (number),Marital status,Never married,,3,20.6,21.9,19.4
+3400,r025,"Demographic characteristic (number) -> If married, spouse's employment status",Demographic characteristic (number),"If married, spouse's employment status",,,2,,,
+3400,r026,"Demographic characteristic (number) -> If married, spouse's employment status -> Employed",Demographic characteristic (number),"If married, spouse's employment status",Employed,,3,78.1,87.5,70.2
+3400,r027,"Demographic characteristic (number) -> If married, spouse's employment status -> Employed -> Full time",Demographic characteristic (number),"If married, spouse's employment status",Employed,Full time,4,65.9,81.6,52.9
+3400,r028,"Demographic characteristic (number) -> If married, spouse's employment status -> Employed -> Part time",Demographic characteristic (number),"If married, spouse's employment status",Employed,Part time,4,12.2,5.9,17.4
+3400,r029,"Demographic characteristic (number) -> If married, spouse's employment status -> Not employed",Demographic characteristic (number),"If married, spouse's employment status",Not employed,,3,21.9,12.5,29.8
+3400,r030,"Demographic characteristic (number) -> If spouse is employed, field in which spouse's job required a bachelor's",Demographic characteristic (number),"If spouse is employed, field in which spouse's job required a bachelor's",,,2,,,
+3400,r031,"Demographic characteristic (number) -> If spouse is employed, field in which spouse's job required a bachelor's -> Engineering, computer science, math, or natural sciences",Demographic characteristic (number),"If spouse is employed, field in which spouse's job required a bachelor's","Engineering, computer science, math, or natural sciences",,3,27.3,33.2,21.3
+3400,r032,"Demographic characteristic (number) -> If spouse is employed, field in which spouse's job required a bachelor's -> Social sciences",Demographic characteristic (number),"If spouse is employed, field in which spouse's job required a bachelor's",Social sciences,,3,13.0,9.5,16.5
+3400,r033,"Demographic characteristic (number) -> If spouse is employed, field in which spouse's job required a bachelor's -> Other",Demographic characteristic (number),"If spouse is employed, field in which spouse's job required a bachelor's",Other,,3,38.7,32.6,44.9
+3400,r034,Demographic characteristic (number) -> Children living in household,Demographic characteristic (number),Children living in household,,,2,,,
+3400,r035,Demographic characteristic (number) -> Children living in household -> No,Demographic characteristic (number),Children living in household,No,,3,53.2,53.0,53.4
+3400,r036,Demographic characteristic (number) -> Children living in household -> Yes,Demographic characteristic (number),Children living in household,Yes,,3,46.8,47.0,46.6
+3400,r037,Demographic characteristic (number) -> Citizenship,Demographic characteristic (number),Citizenship,,,2,,,
+3400,r038,Demographic characteristic (number) -> Citizenship -> U.S. citizen,Demographic characteristic (number),Citizenship,U.S. citizen,,3,92.7,94.7,90.9
+3400,r039,Demographic characteristic (number) -> Citizenship -> U.S. citizen -> Native,Demographic characteristic (number),Citizenship,U.S. citizen,Native,4,80.1,82.5,78.0
+3400,r040,Demographic characteristic (number) -> Citizenship -> U.S. citizen -> Naturalized,Demographic characteristic (number),Citizenship,U.S. citizen,Naturalized,4,12.6,12.2,12.9
+3400,r041,Demographic characteristic (number) -> Citizenship -> Non-U.S. citizen,Demographic characteristic (number),Citizenship,Non-U.S. citizen,,3,7.3,5.3,9.1
+3400,r042,Demographic characteristic (number) -> Citizenship -> Non-U.S. citizen -> Permanent resident,Demographic characteristic (number),Citizenship,Non-U.S. citizen,Permanent resident,4,4.1,3.3,4.7
+3400,r043,Demographic characteristic (number) -> Citizenship -> Non-U.S. citizen -> Temporary resident,Demographic characteristic (number),Citizenship,Non-U.S. citizen,Temporary resident,4,3.3,2.0,4.4

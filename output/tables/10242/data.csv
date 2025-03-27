@@ -1,0 +1,8 @@
+table_id,row_id,_b_transferred_from_agency_b_full_path,_b_transferred_from_agency_b_level_1,_b_transferred_from_agency_b_level_2,_b_transferred_from_agency_b_level_3,_b_transferred_from_agency_b_hierarchy_depth,field_doc,field_dod,field_doe,field_doi,field_dot,field_hhs_,field_nasa,field_nsf,field_va,field_othera
+10242,r001,All agencies,All agencies,,,1,529,6181,4187,0.05,156,0.05,387,0.05,1267,6028
+10242,r002,All agencies -> Departments,All agencies,Departments,,2,,,,,,,,,,
+10242,r003,All agencies -> Departments -> Department of Health and Human Services,All agencies,Departments,Department of Health and Human Services,3,0,0,0,0,0,0,0,0.05,1267,0
+10242,r004,All agencies -> Departments -> Department of Homeland Security,All agencies,Departments,Department of Homeland Security,3,0,0,4187,0,0,0,0,0,0,0
+10242,r005,All agencies -> Departments -> Department of Transportation,All agencies,Departments,Department of Transportation,3,0,0,0,0,0,0.05,0,0,0,0.05
+10242,r006,All agencies -> Other agencies,All agencies,Other agencies,,2,,,,,,,,,,
+10242,r007,All agencies -> Other agencies -> National Science Foundation,All agencies,Other agencies,National Science Foundation,3,529,6181,0,0.05,156,0,387,0,0,6017

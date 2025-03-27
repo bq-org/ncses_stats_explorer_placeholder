@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Domestic R&D paid for by other companies and performed by the company, by funders' business activity: 2017",
+  "identifier": "NCSES-2071",
+  "description": "Domestic R&D paid for by other companies and performed by the company, by funders' business activity: 2017",
+  "url": "https://example.org/datasets/ncses/tables/2071",
+  "table_number": "42",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2071/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "funders_business_activity_sup_a_sup",
+      "description": "Funders' business activitya hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "funders_business_activity_sup_a_sup_level_1, funders_business_activity_sup_a_sup_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "funders_business_activity_sup_a_sup_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_codeb",
+      "description": "Business Codeb",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_amount",
+      "description": "Amount",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. For an R&D performer that did not report the R&D funders' business activities, no systematic imputation of these business activities was conducted. The business activities of the R&D funders may not be assumed to be the same as those of the R&D performer. Statistics are representative of companies located in the United States that performed or funded R&D. An estimate range may be displayed in place of a single estimate to avoid disclosing operations of individual companies.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Business Research and Development Survey, 2017."
+}

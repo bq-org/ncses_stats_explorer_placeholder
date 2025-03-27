@@ -1,0 +1,37 @@
+table_id,row_id,sex_and_field_full_path,sex_and_field_level_1,sex_and_field_level_2,sex_and_field_level_3,sex_and_field_level_4,sex_and_field_level_5,sex_and_field_hierarchy_depth,field_all_u_s_citizens_and_permanent_residents,field_hispanic_or_latinoa,field_non_hispanic_or_latino_all_non_hispanic_or_latino,field_non_hispanic_or_latino_american_indian_or_alaska_native,field_non_hispanic_or_latino_asian,field_non_hispanic_or_latino_black_or_african_american,field_non_hispanic_or_latino_native_hawaiian_or_other_pacific_islander,field_non_hispanic_or_latino_white,field_non_hispanic_or_latino_more_than_one_race,field_non_hispanic_or_latino_other_or_unknown_race_or_ethnicity
+1170,r001,Female (number),Female (number),,,,,1,28269,2299,25970,143,1913,3609,54,17522,548,2181
+1170,r002,Female (number) -> All fields,Female (number),All fields,,,,2,100,100,100,100,100,100,100,100,100,100
+1170,r003,Female (number) -> All fields -> S&E,Female (number),All fields,S&E,,,3,39.7,45.5,39.2,39.2,55.4,24.0,31.5,40.0,48.7,41.5
+1170,r004,Female (number) -> All fields -> S&E -> Science,Female (number),All fields,S&E,Science,,4,35.7,42.2,35.1,37.1,44.9,22.0,31.5,36.2,44.3,37.2
+1170,r005,Female (number) -> All fields -> S&E -> Science -> Agricultural sciences,Female (number),All fields,S&E,Science,Agricultural sciences,5,1.5,1.3,1.5,2.1,1.6,0.6,0.0,1.7,1.6,1.0
+1170,r006,Female (number) -> All fields -> S&E -> Science -> Biological sciences,Female (number),All fields,S&E,Science,Biological sciences,5,10.7,11.8,10.6,8.4,18.3,4.3,11.1,11.3,13.0,8.7
+1170,r007,Female (number) -> All fields -> S&E -> Science -> Computer sciences,Female (number),All fields,S&E,Science,Computer sciences,5,0.6,0.3,0.6,0.7,1.3,0.7,0.0,0.5,0.7,0.9
+1170,r008,"Female (number) -> All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences",Female (number),All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",5,0.9,0.6,1.0,1.4,0.7,0.2,0.0,1.1,1.6,1.1
+1170,r009,Female (number) -> All fields -> S&E -> Science -> Mathematics and statistics,Female (number),All fields,S&E,Science,Mathematics and statistics,5,0.9,0.4,0.9,0.7,1.7,0.3,0.0,0.9,2.2,1.3
+1170,r010,Female (number) -> All fields -> S&E -> Science -> Physical sciences,Female (number),All fields,S&E,Science,Physical sciences,5,3.4,2.6,3.4,1.4,5.3,1.4,0.0,3.7,6.0,2.9
+1170,r011,Female (number) -> All fields -> S&E -> Science -> Psychology,Female (number),All fields,S&E,Science,Psychology,5,11.1,19.1,10.4,11.2,9.3,9.2,18.5,10.4,13.1,12.2
+1170,r012,Female (number) -> All fields -> S&E -> Science -> Social sciences,Female (number),All fields,S&E,Science,Social sciences,5,6.7,6.2,6.7,11.2,6.6,5.4,1.9,6.7,6.0,9.2
+1170,r013,Female (number) -> All fields -> S&E -> Engineering,Female (number),All fields,S&E,Engineering,,4,4.0,3.3,4.0,2.1,10.5,2.0,0.0,3.8,4.4,4.3
+1170,r014,Female (number) -> All fields -> Non-S&E,Female (number),All fields,Non-S&E,,,3,60.3,54.5,60.8,60.8,44.6,76.0,68.5,60.0,51.3,58.5
+1170,r015,Female (number) -> All fields -> Non-S&E -> Education,Female (number),All fields,Non-S&E,Education,,4,27.7,28.3,27.7,32.9,15.4,43.3,33.3,26.4,20.3,23.7
+1170,r016,Female (number) -> All fields -> Non-S&E -> Health,Female (number),All fields,Non-S&E,Health,,4,13.7,10.0,14.0,11.2,12.7,14.0,13.0,14.5,11.1,12.6
+1170,r017,Female (number) -> All fields -> Non-S&E -> Humanities,Female (number),All fields,Non-S&E,Humanities,,4,6.2,6.5,6.1,7.7,3.5,2.3,3.7,7.1,6.2,6.9
+1170,r018,Female (number) -> All fields -> Non-S&E -> Other non-S&E<sup>b</sup>,Female (number),All fields,Non-S&E,Other non-S&E<sup>b</sup>,,4,12.7,9.7,13.0,9.1,13.1,16.3,18.5,12.0,13.7,15.4
+1170,r019,Male (number),Male (number),,,,,1,23048,1592,21456,103,1654,1656,37,15680,432,1894
+1170,r020,Male (number) -> All fields,Male (number),All fields,,,,2,100,100,100,100,100,100,100,100,100,100
+1170,r021,Male (number) -> All fields -> S&E,Male (number),All fields,S&E,,,3,57.8,56.4,57.9,46.6,71.6,32.5,35.1,59.3,64.4,56.2
+1170,r022,Male (number) -> All fields -> S&E -> Science,Male (number),All fields,S&E,Science,,4,42.7,43.3,42.7,39.8,43.8,24.9,27.0,44.6,43.1,42.0
+1170,r023,Male (number) -> All fields -> S&E -> Science -> Agricultural sciences,Male (number),All fields,S&E,Science,Agricultural sciences,5,1.9,1.8,1.9,2.9,0.7,0.9,0.0,2.2,1.4,1.8
+1170,r024,Male (number) -> All fields -> S&E -> Science -> Biological sciences,Male (number),All fields,S&E,Science,Biological sciences,5,11.8,11.4,11.8,11.7,17.0,5.5,13.5,12.2,13.0,9.3
+1170,r025,Male (number) -> All fields -> S&E -> Science -> Computer sciences,Male (number),All fields,S&E,Science,Computer sciences,5,2.8,1.8,2.9,0.0,3.8,2.5,2.7,2.7,3.5,3.5
+1170,r026,"Male (number) -> All fields -> S&E -> Science -> Earth, atmospheric, and ocean sciences",Male (number),All fields,S&E,Science,"Earth, atmospheric, and ocean sciences",5,1.5,0.9,1.5,2.9,0.9,0.3,0.0,1.8,1.2,1.2
+1170,r027,Male (number) -> All fields -> S&E -> Science -> Mathematics and statistics,Male (number),All fields,S&E,Science,Mathematics and statistics,5,3.2,3.3,3.2,2.9,4.1,1.5,0.0,3.2,5.3,3.1
+1170,r028,Male (number) -> All fields -> S&E -> Science -> Physical sciences,Male (number),All fields,S&E,Science,Physical sciences,5,9.0,6.2,9.2,2.9,9.0,3.0,5.4,10.1,6.7,8.3
+1170,r029,Male (number) -> All fields -> S&E -> Science -> Psychology,Male (number),All fields,S&E,Science,Psychology,5,5.0,9.5,4.7,5.8,3.1,4.5,0.0,4.8,7.4,5.2
+1170,r030,Male (number) -> All fields -> S&E -> Science -> Social sciences,Male (number),All fields,S&E,Science,Social sciences,5,7.6,8.2,7.6,10.7,5.2,6.6,5.4,7.7,4.6,9.5
+1170,r031,Male (number) -> All fields -> S&E -> Engineering,Male (number),All fields,S&E,Engineering,,4,15.1,13.1,15.2,6.8,27.8,7.6,8.1,14.7,21.3,14.2
+1170,r032,Male (number) -> All fields -> Non-S&E,Male (number),All fields,Non-S&E,,,3,42.2,43.6,42.1,53.4,28.4,67.5,64.9,40.7,35.6,43.8
+1170,r033,Male (number) -> All fields -> Non-S&E -> Education,Male (number),All fields,Non-S&E,Education,,4,14.6,18.5,14.3,25.2,5.7,30.9,32.4,13.6,10.6,12.5
+1170,r034,Male (number) -> All fields -> Non-S&E -> Health,Male (number),All fields,Non-S&E,Health,,4,5.2,4.1,5.3,6.8,7.1,6.9,8.1,4.9,6.9,4.6
+1170,r035,Male (number) -> All fields -> Non-S&E -> Humanities,Male (number),All fields,Non-S&E,Humanities,,4,6.5,6.9,6.4,6.8,1.9,2.6,2.7,7.2,4.4,7.9
+1170,r036,Male (number) -> All fields -> Non-S&E -> Other non-S&E<sup>b</sup>,Male (number),All fields,Non-S&E,Other non-S&E<sup>b</sup>,,4,15.9,14.0,16.1,14.6,13.6,27.1,21.6,14.9,13.7,18.8

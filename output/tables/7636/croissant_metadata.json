@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Psychology research doctorate recipients, statistical profile by sex and major field of doctorate: 2021",
+  "identifier": "NCSES-7636",
+  "description": "Psychology research doctorate recipients, statistical profile by sex and major field of doctorate: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7636",
+  "table_number": "8-12",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7636/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_characteristic_b",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_characteristic_b_level_1, _b_characteristic_b_level_2, _b_characteristic_b_level_3, _b_characteristic_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_psychology_fields",
+      "description": "All Psychology Fields",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_clinical_psychology",
+      "description": "Clinical Psychology",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_counseling_and_applied_psychology",
+      "description": "Counseling And Applied Psychology",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_and_experimental_psychology",
+      "description": "Research And Experimental Psychology",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology_other",
+      "description": "Psychology Other",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Due to rounding, percentages may not sum to 100. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and the new broad, major, and detailed fields were used in tables reporting only the most recent data year. Therefore, the field of doctorate data in 2021 may not be comparable to prior years; see the \"Technical Notes\" for more information, table A-4 for a summary of SED-CIP codes in the new SED field taxonomy, table A-5 for a full list of SED-CIP codes in the new field taxonomy, and table A-6 for the SED-CIP code crosswalk to the historical field taxonomy.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

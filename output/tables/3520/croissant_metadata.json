@@ -1,0 +1,230 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Master's and doctoral students within science, engineering and health fields, by enrollment intensity: 2019",
+  "identifier": "NCSES-3520",
+  "description": "Master's and doctoral students within science, engineering and health fields, by enrollment intensity: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3520",
+  "table_number": "4-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3520/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_detailed_field_b",
+      "description": "Detailed field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_detailed_field_b_level_1, _b_detailed_field_b_level_2, _b_detailed_field_b_level_3, _b_detailed_field_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_detailed_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_graduate_students_total_number",
+      "description": "All Graduate Students Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_graduate_students_total_percent",
+      "description": "All Graduate Students Total Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_graduate_students_full_time_all_full_time_number",
+      "description": "All Graduate Students Full Time All Full Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_graduate_students_full_time_all_full_time_percent",
+      "description": "All Graduate Students Full Time All Full Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_graduate_students_full_time_first_time_full_time_number",
+      "description": "All Graduate Students Full Time First Time Full Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_graduate_students_full_time_first_time_full_time_percent",
+      "description": "All Graduate Students Full Time First Time Full Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_graduate_students_part_time_number",
+      "description": "All Graduate Students Part Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_graduate_students_part_time_percent",
+      "description": "All Graduate Students Part Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_students_total_number",
+      "description": "Master S Students Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_students_total_percent",
+      "description": "Master S Students Total Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_students_full_time_all_full_time_number",
+      "description": "Master S Students Full Time All Full Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_students_full_time_all_full_time_percent",
+      "description": "Master S Students Full Time All Full Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_students_full_time_first_time_full_time_number",
+      "description": "Master S Students Full Time First Time Full Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_students_full_time_first_time_full_time_percent",
+      "description": "Master S Students Full Time First Time Full Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_students_part_time_number",
+      "description": "Master S Students Part Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_students_part_time_percent",
+      "description": "Master S Students Part Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_students_total_number",
+      "description": "Doctoral Students Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_students_total_percent",
+      "description": "Doctoral Students Total Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_students_full_time_all_full_time_number",
+      "description": "Doctoral Students Full Time All Full Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_students_full_time_all_full_time_percent",
+      "description": "Doctoral Students Full Time All Full Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_students_full_time_first_time_full_time_number",
+      "description": "Doctoral Students Full Time First Time Full Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_students_full_time_first_time_full_time_percent",
+      "description": "Doctoral Students Full Time First Time Full Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_students_part_time_number",
+      "description": "Doctoral Students Part Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_students_part_time_percent",
+      "description": "Doctoral Students Part Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Percentages may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2019."
+}

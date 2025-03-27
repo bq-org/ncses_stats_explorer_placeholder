@@ -1,0 +1,53 @@
+table_id,row_id,age_disability_status_and_disability_type_full_path,age_disability_status_and_disability_type_level_1,age_disability_status_and_disability_type_level_2,age_disability_status_and_disability_type_level_3,age_disability_status_and_disability_type_level_4,age_disability_status_and_disability_type_hierarchy_depth,field_both_sexes_number,field_both_sexes_distribution,field_male_number,field_male_distribution,field_female_number,field_female_distribution
+1235,r001,All ages,All ages,,,,1,318175867,100.0,155464870,100.0,162710997,100.0
+1235,r002,All ages -> Without disability,All ages,Without disability,,,2,277428456,87.2,135763370,87.3,141665086,87.1
+1235,r003,All ages -> With disability,All ages,With disability,,,2,40747411,12.8,19701500,12.7,21045911,12.9
+1235,r004,All ages -> Younger than 5 years,All ages,Younger than 5 years,,,2,19797852,100.0,10130660,100.0,9667192,100.0
+1235,r005,All ages -> Younger than 5 years -> Without disability,All ages,Younger than 5 years,Without disability,,3,19652792,99.3,10048888,99.2,9603904,99.3
+1235,r006,All ages -> Younger than 5 years -> With disability,All ages,Younger than 5 years,With disability,,3,145060,0.7,81772,0.8,63288,0.7
+1235,r007,All ages -> Younger than 5 years -> With disability -> Hearing difficulty,All ages,Younger than 5 years,With disability,Hearing difficulty,4,96871,0.5,55227,0.5,41644,0.4
+1235,r008,All ages -> Younger than 5 years -> With disability -> Vision difficulty,All ages,Younger than 5 years,With disability,Vision difficulty,4,85392,0.4,47043,0.5,38349,0.4
+1235,r009,All ages -> 5&#8211;17 years,All ages,5&#8211;17 years,,,2,53705941,100.0,27449073,100.0,26256868,100.0
+1235,r010,All ages -> 5&#8211;17 years -> Without disability,All ages,5&#8211;17 years,Without disability,,3,50719288,94.4,25564076,93.1,25155212,95.8
+1235,r011,All ages -> 5&#8211;17 years -> With disability,All ages,5&#8211;17 years,With disability,,3,2986653,5.6,1884997,6.9,1101656,4.2
+1235,r012,All ages -> 5&#8211;17 years -> With disability -> Hearing difficulty,All ages,5&#8211;17 years,With disability,Hearing difficulty,4,334384,0.6,185109,0.7,149275,0.6
+1235,r013,All ages -> 5&#8211;17 years -> With disability -> Vision difficulty,All ages,5&#8211;17 years,With disability,Vision difficulty,4,486408,0.9,254487,0.9,231921,0.9
+1235,r014,All ages -> 5&#8211;17 years -> With disability -> Cognitive difficulty,All ages,5&#8211;17 years,With disability,Cognitive difficulty,4,2275917,4.2,1522663,5.5,753254,2.9
+1235,r015,All ages -> 5&#8211;17 years -> With disability -> Ambulatory difficulty,All ages,5&#8211;17 years,With disability,Ambulatory difficulty,4,335049,0.6,182707,0.7,152342,0.6
+1235,r016,All ages -> 5&#8211;17 years -> With disability -> Self-care difficulty,All ages,5&#8211;17 years,With disability,Self-care difficulty,4,551031,1.0,344244,1.3,206787,0.8
+1235,r017,All ages -> 18&#8211;34 years,All ages,18&#8211;34 years,,,2,73528820,100.0,36674483,100.0,36854337,100.0
+1235,r018,All ages -> 18&#8211;34 years -> Without disability,All ages,18&#8211;34 years,Without disability,,3,68881474,93.7,34153455,93.1,34728019,94.2
+1235,r019,All ages -> 18&#8211;34 years -> With disability,All ages,18&#8211;34 years,With disability,,3,4647346,6.3,2521028,6.9,2126318,5.8
+1235,r020,All ages -> 18&#8211;34 years -> With disability -> Hearing difficulty,All ages,18&#8211;34 years,With disability,Hearing difficulty,4,648988,0.9,368642,1.0,280346,0.8
+1235,r021,All ages -> 18&#8211;34 years -> With disability -> Vision difficulty,All ages,18&#8211;34 years,With disability,Vision difficulty,4,856832,1.2,422940,1.2,433892,1.2
+1235,r022,All ages -> 18&#8211;34 years -> With disability -> Cognitive difficulty,All ages,18&#8211;34 years,With disability,Cognitive difficulty,4,2917562,4.0,1658669,4.5,1258893,3.4
+1235,r023,All ages -> 18&#8211;34 years -> With disability -> Ambulatory difficulty,All ages,18&#8211;34 years,With disability,Ambulatory difficulty,4,1029981,1.4,521696,1.4,508285,1.4
+1235,r024,All ages -> 18&#8211;34 years -> With disability -> Self-care difficulty,All ages,18&#8211;34 years,With disability,Self-care difficulty,4,651843,0.9,364191,1.0,287652,0.8
+1235,r025,All ages -> 18&#8211;34 years -> With disability -> Independent living difficulty,All ages,18&#8211;34 years,With disability,Independent living difficulty,4,1830469,2.5,1015327,2.8,815142,2.2
+1235,r026,All ages -> 35&#8211;64 years,All ages,35&#8211;64 years,,,2,123237466,100.0,59910518,100.0,63326948,100.0
+1235,r027,All ages -> 35&#8211;64 years -> Without disability,All ages,35&#8211;64 years,Without disability,,3,107123720,86.9,52089913,86.9,55033807,86.9
+1235,r028,All ages -> 35&#8211;64 years -> With disability,All ages,35&#8211;64 years,With disability,,3,16113746,13.1,7820605,13.1,8293141,13.1
+1235,r029,All ages -> 35&#8211;64 years -> With disability -> Hearing difficulty,All ages,35&#8211;64 years,With disability,Hearing difficulty,4,3356405,2.7,2070347,3.5,1286058,2.0
+1235,r030,All ages -> 35&#8211;64 years -> With disability -> Vision difficulty,All ages,35&#8211;64 years,With disability,Vision difficulty,4,3071891,2.5,1467122,2.4,1604769,2.5
+1235,r031,All ages -> 35&#8211;64 years -> With disability -> Cognitive difficulty,All ages,35&#8211;64 years,With disability,Cognitive difficulty,4,6013971,4.9,2901446,4.8,3112525,4.9
+1235,r032,All ages -> 35&#8211;64 years -> With disability -> Ambulatory difficulty,All ages,35&#8211;64 years,With disability,Ambulatory difficulty,4,9067175,7.4,4014405,6.7,5052770,8.0
+1235,r033,All ages -> 35&#8211;64 years -> With disability -> Self-care difficulty,All ages,35&#8211;64 years,With disability,Self-care difficulty,4,3001185,2.4,1400946,2.3,1600239,2.5
+1235,r034,All ages -> 35&#8211;64 years -> With disability -> Independent living difficulty,All ages,35&#8211;64 years,With disability,Independent living difficulty,4,5582101,4.5,2483523,4.1,3098578,4.9
+1235,r035,All ages -> 65&#8211;74 years,All ages,65&#8211;74 years,,,2,28368236,100.0,13240754,100.0,15127482,100.0
+1235,r036,All ages -> 65&#8211;74 years -> Without disability,All ages,65&#8211;74 years,Without disability,,3,21184181,74.7,9707338,73.3,11476843,75.9
+1235,r037,All ages -> 65&#8211;74 years -> With disability,All ages,65&#8211;74 years,With disability,,3,7184055,25.3,3533416,26.7,3650639,24.1
+1235,r038,All ages -> 65&#8211;74 years -> With disability -> Hearing difficulty,All ages,65&#8211;74 years,With disability,Hearing difficulty,4,2608146,9.2,1744535,13.2,863611,5.7
+1235,r039,All ages -> 65&#8211;74 years -> With disability -> Vision difficulty,All ages,65&#8211;74 years,With disability,Vision difficulty,4,1269880,4.5,594765,4.5,675115,4.5
+1235,r040,All ages -> 65&#8211;74 years -> With disability -> Cognitive difficulty,All ages,65&#8211;74 years,With disability,Cognitive difficulty,4,1539403,5.4,760531,5.7,778872,5.1
+1235,r041,All ages -> 65&#8211;74 years -> With disability -> Ambulatory difficulty,All ages,65&#8211;74 years,With disability,Ambulatory difficulty,4,4381214,15.4,1821208,13.8,2560006,16.9
+1235,r042,All ages -> 65&#8211;74 years -> With disability -> Self-care difficulty,All ages,65&#8211;74 years,With disability,Self-care difficulty,4,1239247,4.4,557173,4.2,682074,4.5
+1235,r043,All ages -> 65&#8211;74 years -> With disability -> Independent living difficulty,All ages,65&#8211;74 years,With disability,Independent living difficulty,4,2150458,7.6,866206,6.5,1284252,8.5
+1235,r044,All ages -> 75 years and older,All ages,75 years and older,,,2,19537552,100.0,8059382,100.0,11478170,100.0
+1235,r045,All ages -> 75 years and older -> Without disability,All ages,75 years and older,Without disability,,3,9867001,50.5,4199700,52.1,5667301,49.4
+1235,r046,All ages -> 75 years and older -> With disability,All ages,75 years and older,With disability,,3,9670551,49.5,3859682,47.9,5810869,50.6
+1235,r047,All ages -> 75 years and older -> With disability -> Hearing difficulty,All ages,75 years and older,With disability,Hearing difficulty,4,4380019,22.4,2206679,27.4,2173340,18.9
+1235,r048,All ages -> 75 years and older -> With disability -> Vision difficulty,All ages,75 years and older,With disability,Vision difficulty,4,1898734,9.7,711244,8.8,1187490,10.3
+1235,r049,All ages -> 75 years and older -> With disability -> Cognitive difficulty,All ages,75 years and older,With disability,Cognitive difficulty,4,2716511,13.9,972470,12.1,1744041,15.2
+1235,r050,All ages -> 75 years and older -> With disability -> Ambulatory difficulty,All ages,75 years and older,With disability,Ambulatory difficulty,4,6374950,32.6,2213093,27.5,4161857,36.3
+1235,r051,All ages -> 75 years and older -> With disability -> Self-care difficulty,All ages,75 years and older,With disability,Self-care difficulty,4,2660692,13.6,884744,11.0,1775948,15.5
+1235,r052,All ages -> 75 years and older -> With disability -> Independent living difficulty,All ages,75 years and older,With disability,Independent living difficulty,4,4845470,24.8,1505162,18.7,3340308,29.1

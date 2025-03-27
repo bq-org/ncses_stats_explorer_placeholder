@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Metropolitan areas with the largest number of workers in S&E occupations as a percentage of all occupations: 2019",
+  "identifier": "NCSES-4386",
+  "description": "Metropolitan areas with the largest number of workers in S&E occupations as a percentage of all occupations: 2019",
+  "url": "https://example.org/datasets/ncses/tables/4386",
+  "table_number": "SLBR-18",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4386/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "metropolitan_area",
+      "description": "Metropolitan area hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "metropolitan_area_level_1, metropolitan_area_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "metropolitan_area_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_workers_employed_all_occupations",
+      "description": "Workers Employed All Occupations",
+      "valueType": "string",
+      "unitText": "Thousands and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_workers_employed_s_e_occupations",
+      "description": "Workers Employed S E Occupations",
+      "valueType": "string",
+      "unitText": "Thousands and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_metropolitan_workforce_in_s_e_occupations_as_a_percentage_of_total_in_s_e_occupations_",
+      "description": "Metropolitan Workforce In S E Occupations As A Percentage Of Total In S E Occupations ",
+      "valueType": "string",
+      "unitText": "Thousands and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The data exclude metropolitan statistical areas where S&E proportions were suppressed. Larger metropolitan areas are broken into component metropolitan divisions. Ranking is based on the estimated number of workers in S&E occupations. Differences between any two areas may not be statistically significant.",
+  "sources": "Bureau of Labor Statistics, special tabulations (2020) of the 2019 Occupational Employment Statistics Survey.Science and Engineering Indicators"
+}

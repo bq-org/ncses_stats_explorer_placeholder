@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Crosswalk of S&E fields for international higher education data, by selected region, country, or economy and field",
+  "identifier": "NCSES-10089",
+  "description": "Crosswalk of S&E fields for international higher education data, by selected region, country, or economy and field",
+  "url": "https://example.org/datasets/ncses/tables/10089",
+  "table_number": "SAHED-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10089/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "indicators_2024",
+      "description": "Indicators 2024",
+      "valueType": "string",
+      "unitText": "List of fields"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "chinaa",
+      "description": "Chinaa",
+      "valueType": "string",
+      "unitText": "List of fields"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "india",
+      "description": "India",
+      "valueType": "string",
+      "unitText": "List of fields"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "oecd_isced_f_2013_",
+      "description": "Oecd Isced F 2013 ",
+      "valueType": "string",
+      "unitText": "List of fields"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "Organisation for Economic Co-operation and Development (OECD), Education at a Glance; National Bureau of Statistics of China, China Statistical Yearbook; People's Republic of China, Ministry of Education data; Government of India, Ministry of Education, Department of Higher Education, All India Survey on Higher Education.Science and Engineering Indicators"
+}

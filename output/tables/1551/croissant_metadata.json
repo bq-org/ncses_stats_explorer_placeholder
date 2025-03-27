@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Degree-granting institutions, by control and highest degree awarded: 2017&#8211;18",
+  "identifier": "NCSES-1551",
+  "description": "Degree-granting institutions, by control and highest degree awarded: 2017&#8211;18",
+  "url": "https://example.org/datasets/ncses/tables/1551",
+  "table_number": "2-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1551/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "highest_degree_awarded",
+      "description": "Highest degree awarded hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "highest_degree_awarded_level_1, highest_degree_awarded_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "highest_degree_awarded_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_degree_granting_institutions",
+      "description": "All Degree Granting Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_public",
+      "description": "Public",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_nonprofit",
+      "description": "Private Nonprofit",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_private_for_profit",
+      "description": "Private For Profit",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Institutional Characteristics.Science and Engineering Indicators"
+}

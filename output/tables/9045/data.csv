@@ -1,0 +1,4 @@
+table_id,row_id,r_d_activity_full_path,r_d_activity_level_1,r_d_activity_level_2,r_d_activity_hierarchy_depth,field_companies_with_r_d_activities,field_performed_r_d_on_coronavirus_pandemic_related_projects,field_did_not_perform_r_d_on_coronavirus_pandemic_related_projects
+9045,r001,All companies,All companies,,1,"['281,577', '&nbsp;']","['10.1', '&nbsp;']","['89.9', '&nbsp;']"
+9045,r002,All companies -> R&D-performing companies,All companies,R&D-performing companies,2,"['15,175', '&nbsp;']","['18.1', '&nbsp;']","['81.9', '&nbsp;']"
+9045,r003,All companies -> Non-R&D-performing companies,All companies,Non-R&D-performing companies,2,"['266,401', '&nbsp;']","['9.6', '&nbsp;']","['90.4', '&nbsp;']"

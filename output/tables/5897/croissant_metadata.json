@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Number of GitHub repositories contributed to by selected entities: 2009&#8211;19",
+  "identifier": "NCSES-5897",
+  "description": "Number of GitHub repositories contributed to by selected entities: 2009&#8211;19",
+  "url": "https://example.org/datasets/ncses/tables/5897",
+  "table_number": "SINV-83",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5897/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institution",
+      "description": "Institution",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Included repositories are those with an Open-Source Initiative approved open-source license; software shared through other licenses are excluded. Public higher education institutions and selected private entities are included as benchmarks. Overall in terms of number of repositories contributed to, Microsoft and RedHat are the two largest contributors from the private sector and UC Berkeley from higher education institutions. The highest contributor to open-source software is the Department of Energy, which encompasses 17 national laboratories, 16 of which were included in the data. The exception is the Department of Energy's SLAC National Accelerator Laboratory, formerly known as Stanford Linear Accelerator. Due to data constraints, these repositories are attributed to the operator, rather than to the Department of Energy.",
+  "sources": "Robbins C, Korkmaz G, Guci L, Santiago Calder\u00f3n J, Kramer B. 2021. A First Look at Open-Source Software Investment in the United States and Other Countries, 2009\u20132019.Science and Engineering Indicators"
+}

@@ -1,0 +1,150 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Summary of commuting zones in inventive class regressions, by assigned Rural-Urban Continuum Code",
+  "identifier": "NCSES-5970",
+  "description": "Summary of commuting zones in inventive class regressions, by assigned Rural-Urban Continuum Code",
+  "url": "https://example.org/datasets/ncses/tables/5970",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5970/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "rural_urban_continuum_code_rucc",
+      "description": "Rural-Urban Continuum Code (RUCC) hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "rural_urban_continuum_code_rucc_level_1, rural_urban_continuum_code_rucc_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "rural_urban_continuum_code_rucc_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_count",
+      "description": "Count",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_land_area_hundreds_of_square_miles_minimum",
+      "description": "Land Area Hundreds Of Square Miles Minimum",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_land_area_hundreds_of_square_miles_maximum",
+      "description": "Land Area Hundreds Of Square Miles Maximum",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_land_area_hundreds_of_square_miles_mean",
+      "description": "Land Area Hundreds Of Square Miles Mean",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_land_area_hundreds_of_square_miles_standard_deviation",
+      "description": "Land Area Hundreds Of Square Miles Standard Deviation",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_population_thousands_minimum",
+      "description": "Population Thousands Minimum",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_population_thousands_maximum",
+      "description": "Population Thousands Maximum",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_population_thousands_mean",
+      "description": "Population Thousands Mean",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_population_thousands_standard_deviation",
+      "description": "Population Thousands Standard Deviation",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_distribution_by_census_region_northeast",
+      "description": "Distribution By Census Region Northeast",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_distribution_by_census_region_midwest",
+      "description": "Distribution By Census Region Midwest",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_distribution_by_census_region_south",
+      "description": "Distribution By Census Region South",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_distribution_by_census_region_west",
+      "description": "Distribution By Census Region West",
+      "valueType": "string",
+      "unitText": "Descriptive statistics"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Each commuting zone (CZ) has been assigned the Economic Research Service (ERS) RUCC (defined at the county level) associated with the CZ\u2019s most urban county. All Hawaii and Alaskan CZs (including the Alaskan portion of CZ 171), as well as CZs 654, 646, 680, and 685, are excluded from this analysis due to missing values for one or more variables in equation 1.",
+  "sources": "Census Bureau, 2000 Census of Population and Housing."
+}

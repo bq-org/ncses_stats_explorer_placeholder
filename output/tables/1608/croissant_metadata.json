@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Temporary visa holders receiving S&E doctorates in 2011&#8211;13 and 2006&#8211;08 who were in the United States in 2017, by region, country, or economy of citizenship at time of degree",
+  "identifier": "NCSES-1608",
+  "description": "Temporary visa holders receiving S&E doctorates in 2011&#8211;13 and 2006&#8211;08 who were in the United States in 2017, by region, country, or economy of citizenship at time of degree",
+  "url": "https://example.org/datasets/ncses/tables/1608",
+  "table_number": "3-22",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1608/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy_of_citizenship",
+      "description": "Region, country, or economy of citizenship hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "region_country_or_economy_of_citizenship_level_1, region_country_or_economy_of_citizenship_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "region_country_or_economy_of_citizenship_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_13_foreign_doctorate_recipients",
+      "description": "2011 13 Foreign Doctorate Recipients",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_5_year_stay_rate_",
+      "description": "5 Year Stay Rate ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_08_foreign_doctorate_recipients",
+      "description": "2006 08 Foreign Doctorate Recipients",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_10_year_stay_rate_",
+      "description": "10 Year Stay Rate ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Doctorate Recipients (SDR), 2017.Science and Engineering Indicators"
+}

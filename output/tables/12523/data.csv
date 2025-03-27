@@ -1,0 +1,27 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_level_3,characteristic_level_4,characteristic_hierarchy_depth,field_fy_2022,field_fy_2023,field__change
+12523,r001,All R&D and R&D plant expenditures,All R&D and R&D plant expenditures,,,,1,2689023,3068515,14.1
+12523,r002,All R&D and R&D plant expenditures -> All R&D expenditures,All R&D and R&D plant expenditures,All R&D expenditures,,,2,2655773,3034601,14.3
+12523,r003,All R&D and R&D plant expenditures -> All R&D plant expenditures,All R&D and R&D plant expenditures,All R&D plant expenditures,,,2,33250,33914,2.0
+12523,r004,R&D expenditures,R&D expenditures,,,,1,,,
+12523,r005,R&D expenditures -> By source of funds,R&D expenditures,By source of funds,,,2,,,
+12523,r006,R&D expenditures -> By source of funds -> Federal government,R&D expenditures,By source of funds,Federal government,,3,701257,742246,5.8
+12523,r007,R&D expenditures -> By source of funds -> State government and other nonfederal sources,R&D expenditures,By source of funds,State government and other nonfederal sources,,3,1954516,2292355,17.3
+12523,r008,R&D expenditures -> By performer,R&D expenditures,By performer,,,2,,,
+12523,r009,R&D expenditures -> By performer -> Intramural<sup>a </sup>,R&D expenditures,By performer,Intramural<sup>a </sup>,,3,695883,741613,6.6
+12523,r010,R&D expenditures -> By performer -> Extramural,R&D expenditures,By performer,Extramural,,3,1959891,2292988,17.0
+12523,r011,R&D expenditures -> By performer -> Extramural -> Higher education institutions,R&D expenditures,By performer,Extramural,Higher education institutions,4,1046082,1229895,17.6
+12523,r012,R&D expenditures -> By performer -> Extramural -> Companies and individuals,R&D expenditures,By performer,Extramural,Companies and individuals,4,453901,597852,31.7
+12523,r013,R&D expenditures -> By performer -> Extramural -> Nonprofit organizations,R&D expenditures,By performer,Extramural,Nonprofit organizations,4,312046,325966,4.5
+12523,r014,R&D expenditures -> By performer -> Extramural -> Other governments<sup>b</sup>,R&D expenditures,By performer,Extramural,Other governments<sup>b</sup>,4,61660,58292,-5.5
+12523,r015,R&D expenditures -> By performer -> Extramural -> All other<sup>c</sup>,R&D expenditures,By performer,Extramural,All other<sup>c</sup>,4,86202,80984,-6.1
+12523,r016,"R&D expenditures -> By performer -> Intramural performers, by type of R&D",R&D expenditures,By performer,"Intramural performers, by type of R&D",,3,,,
+12523,r017,"R&D expenditures -> By performer -> Intramural performers, by type of R&D -> Basic research",R&D expenditures,By performer,"Intramural performers, by type of R&D",Basic research,4,121065,120980,-0.1
+12523,r018,"R&D expenditures -> By performer -> Intramural performers, by type of R&D -> Applied research",R&D expenditures,By performer,"Intramural performers, by type of R&D",Applied research,4,534997,577326,7.9
+12523,r019,"R&D expenditures -> By performer -> Intramural performers, by type of R&D -> Experimental development",R&D expenditures,By performer,"Intramural performers, by type of R&D",Experimental development,4,39821,43308,8.8
+12523,r020,R&D expenditures -> By government function,R&D expenditures,By government function,,,2,,,
+12523,r021,R&D expenditures -> By government function -> Agriculture,R&D expenditures,By government function,Agriculture,,3,127264,147888,16.2
+12523,r022,R&D expenditures -> By government function -> Energy,R&D expenditures,By government function,Energy,,3,325616,373458,14.7
+12523,r023,R&D expenditures -> By government function -> Environment and natural resources,R&D expenditures,By government function,Environment and natural resources,,3,556643,591277,6.2
+12523,r024,R&D expenditures -> By government function -> Health,R&D expenditures,By government function,Health,,3,1099492,1292801,17.6
+12523,r025,R&D expenditures -> By government function -> Transportation,R&D expenditures,By government function,Transportation,,3,290871,315134,8.3
+12523,r026,R&D expenditures -> By government function -> Other<sup>d</sup>,R&D expenditures,By government function,Other<sup>d</sup>,,3,255888,314043,22.7

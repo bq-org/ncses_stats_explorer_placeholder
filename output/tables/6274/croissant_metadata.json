@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Changes in employment status among the SEH doctorate holders, by sex, career stage, and visa status: 2015\u201319",
+  "identifier": "NCSES-6274",
+  "description": "Changes in employment status among the SEH doctorate holders, by sex, career stage, and visa status: 2015\u201319",
+  "url": "https://example.org/datasets/ncses/tables/6274",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6274/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "all_seh_doctorate_holders_characteristic",
+      "description": "All SEH doctorate holders hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "all_seh_doctorate_holders_level_1, all_seh_doctorate_holders_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The early career doctorate holders are those who earned their doctorates between 2009 and 2013. This subgroup remains in the first 10 years after earning their doctorate degree during the survey period 2015\u201319.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients longitudinal panel 2015\u201325 (LSDR 2015\u201319 data file).",
+  "temporalCoverage": "20/20"
+}

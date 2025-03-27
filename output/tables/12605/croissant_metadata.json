@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Higher education R&D expenditures, by FY 2022 total, source of funds, and R&D field: FY 2023",
+  "identifier": "NCSES-12605",
+  "description": "Higher education R&D expenditures, by FY 2022 total, source of funds, and R&D field: FY 2023",
+  "url": "https://example.org/datasets/ncses/tables/12605",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12605/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_level_1, field_level_2, field_level_3, field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_path",
+      "description": "Full Path",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_1",
+      "description": "Level 1",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_2",
+      "description": "Level 2",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_3",
+      "description": "Level 3",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_4",
+      "description": "Level 4",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hierarchy_depth",
+      "description": "Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_fy_2022_r_d_expenditures",
+      "description": "Total Fy 2022 R D Expenditures",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_fy_2023_r_d_expenditures",
+      "description": "Total Fy 2023 R D Expenditures",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__change_in_current_dollars_fys_2022_23",
+      "description": " Change In Current Dollars Fys 2022 23",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_fy_2023_federal_government",
+      "description": "Source Of Funds Fy 2023 Federal Government",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_fy_2023_state_and_local_government",
+      "description": "Source Of Funds Fy 2023 State And Local Government",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_fy_2023_institution_funds",
+      "description": "Source Of Funds Fy 2023 Institution Funds",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_fy_2023_business",
+      "description": "Source Of Funds Fy 2023 Business",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_fy_2023_nonprofit_organizations",
+      "description": "Source Of Funds Fy 2023 Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_source_of_funds_fy_2023_all_other_sources",
+      "description": "Source Of Funds Fy 2023 All Other Sources",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table includes only institutions reporting $1 million or more in total R&D expenditures in 2022. Institutions reporting less than $1 million in total R&D expenditures in 2022 completed a shorter version of the survey form in FY 2023, and that form did not collect R&D expenditures by source and detailed field. Total expenditures from institutions reporting less than $1 million in R&D in FY 2023 was $160 million.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

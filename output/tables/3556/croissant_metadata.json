@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Master's students, doctoral students, and postdoctoral appointees in science, engineering, and health fields, by broad field: 2017&#8211;19 ",
+  "identifier": "NCSES-3556",
+  "description": "Master's students, doctoral students, and postdoctoral appointees in science, engineering, and health fields, by broad field: 2017&#8211;19 ",
+  "url": "https://example.org/datasets/ncses/tables/3556",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3556/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "broad_field",
+      "description": "Broad field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "broad_field_level_1, broad_field_level_2, broad_field_level_3, broad_field_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "broad_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_2017",
+      "description": "Master S 2017",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_2018",
+      "description": "Master S 2018",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_2019",
+      "description": "Master S 2019",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_master_s_percent_change_2017_19",
+      "description": "Master S Percent Change 2017 19",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_2017",
+      "description": "Doctoral 2017",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_2018",
+      "description": "Doctoral 2018",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_2019",
+      "description": "Doctoral 2019",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_percent_change_2017_19",
+      "description": "Doctoral Percent Change 2017 19",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdocs_2017",
+      "description": "Postdocs 2017",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdocs_2018",
+      "description": "Postdocs 2018",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdocs_2019",
+      "description": "Postdocs 2019",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdocs_percent_change_2017_19",
+      "description": "Postdocs Percent Change 2017 19",
+      "valueType": "string",
+      "unitText": "Number and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Broad field refers to the field of the unit that reports postdocs and graduate students.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering."
+}

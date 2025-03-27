@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Impact of the coronavirus or COVID-19 pandemic on U.S. adults' opinion of science: 2021",
+  "identifier": "NCSES-10532",
+  "description": "Impact of the coronavirus or COVID-19 pandemic on U.S. adults' opinion of science: 2021",
+  "url": "https://example.org/datasets/ncses/tables/10532",
+  "table_number": "SPPS-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10532/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "opinion_of_science",
+      "description": "Opinion Of Science",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "all_adults_n_2_523_",
+      "description": "All Adults N 2 523 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Responses are to the following: How has the coronavirus/COVID-19 pandemic impacted your opinion of science?",
+  "sources": "3M. 2022. 2022 State of Science Index, conducted 27 September\u201317 December 2021.Science and Engineering Indicators"
+}

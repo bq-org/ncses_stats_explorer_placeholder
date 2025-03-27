@@ -1,0 +1,61 @@
+table_id,row_id,occupation_and_age_years_160_160_160_160_160_160_160_160_160_160_160_160_160_full_path,occupation_and_age_years_160_160_160_160_160_160_160_160_160_160_160_160_160_level_1,occupation_and_age_years_160_160_160_160_160_160_160_160_160_160_160_160_160_level_2,occupation_and_age_years_160_160_160_160_160_160_160_160_160_160_160_160_160_level_3,occupation_and_age_years_160_160_160_160_160_160_160_160_160_160_160_160_160_level_4,occupation_and_age_years_160_160_160_160_160_160_160_160_160_160_160_160_160_level_5,occupation_and_age_years_160_160_160_160_160_160_160_160_160_160_160_160_160_hierarchy_depth,field_total,field_without_disability,field_with_disability
+1193,r001,All occupations,All occupations,,,,,1,80000,80000,74000
+1193,r002,All occupations -> 29 and younger,All occupations,29 and younger,,,,2,51000,52000,40000
+1193,r003,All occupations -> 30&#8211;39,All occupations,30&#8211;39,,,,2,75000,75000,60000
+1193,r004,All occupations -> 40&#8211;49,All occupations,40&#8211;49,,,,2,90000,91000,86000
+1193,r005,All occupations -> 50&#8211;75,All occupations,50&#8211;75,,,,2,91000,94000,82000
+1193,r006,All occupations -> S&E occupations<sup>a</sup>,All occupations,S&E occupations<sup>a</sup>,,,,2,90000,90000,89000
+1193,r007,All occupations -> S&E occupations<sup>a</sup> -> 29 and younger,All occupations,S&E occupations<sup>a</sup>,29 and younger,,,3,64000,65000,S
+1193,r008,All occupations -> S&E occupations<sup>a</sup> -> 30&#8211;39,All occupations,S&E occupations<sup>a</sup>,30&#8211;39,,,3,86000,87000,74000
+1193,r009,All occupations -> S&E occupations<sup>a</sup> -> 40&#8211;49,All occupations,S&E occupations<sup>a</sup>,40&#8211;49,,,3,100000,100000,100000
+1193,r010,All occupations -> S&E occupations<sup>a</sup> -> 50&#8211;75,All occupations,S&E occupations<sup>a</sup>,50&#8211;75,,,3,104000,105000,99000
+1193,r011,All occupations -> S&E occupations<sup>a</sup> -> Science occupations,All occupations,S&E occupations<sup>a</sup>,Science occupations,,,3,88000,89000,85000
+1193,r012,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> 29 and younger,All occupations,S&E occupations<sup>a</sup>,Science occupations,29 and younger,,4,60000,60000,S
+1193,r013,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> 30&#8211;39,All occupations,S&E occupations<sup>a</sup>,Science occupations,30&#8211;39,,4,82000,84000,72000
+1193,r014,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> 40&#8211;49,All occupations,S&E occupations<sup>a</sup>,Science occupations,40&#8211;49,,4,100000,100000,99000
+1193,r015,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> 50&#8211;75,All occupations,S&E occupations<sup>a</sup>,Science occupations,50&#8211;75,,4,100000,100000,96000
+1193,r016,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Biological/life scientist,All occupations,S&E occupations<sup>a</sup>,Science occupations,Biological/life scientist,,4,60000,60000,59000
+1193,r017,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Biological/life scientist -> 29 and younger,All occupations,S&E occupations<sup>a</sup>,Science occupations,Biological/life scientist,29 and younger,5,38000,38000,39000
+1193,r018,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Biological/life scientist -> 30&#8211;39,All occupations,S&E occupations<sup>a</sup>,Science occupations,Biological/life scientist,30&#8211;39,5,55000,55000,53000
+1193,r019,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Biological/life scientist -> 40&#8211;49,All occupations,S&E occupations<sup>a</sup>,Science occupations,Biological/life scientist,40&#8211;49,5,88000,89000,S
+1193,r020,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Biological/life scientist -> 50&#8211;75,All occupations,S&E occupations<sup>a</sup>,Science occupations,Biological/life scientist,50&#8211;75,5,95000,95000,90000
+1193,r021,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Computer and information scientist,All occupations,S&E occupations<sup>a</sup>,Science occupations,Computer and information scientist,,4,96000,96000,93000
+1193,r022,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Computer and information scientist -> 29 and younger,All occupations,S&E occupations<sup>a</sup>,Science occupations,Computer and information scientist,29 and younger,5,75000,75000,76000
+1193,r023,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Computer and information scientist -> 30&#8211;39,All occupations,S&E occupations<sup>a</sup>,Science occupations,Computer and information scientist,30&#8211;39,5,95000,95000,78000
+1193,r024,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Computer and information scientist -> 40&#8211;49,All occupations,S&E occupations<sup>a</sup>,Science occupations,Computer and information scientist,40&#8211;49,5,105000,105000,106000
+1193,r025,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Computer and information scientist -> 50&#8211;75,All occupations,S&E occupations<sup>a</sup>,Science occupations,Computer and information scientist,50&#8211;75,5,100000,100000,101000
+1193,r026,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Mathematical scientist,All occupations,S&E occupations<sup>a</sup>,Science occupations,Mathematical scientist,,4,73000,72000,89000
+1193,r027,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Mathematical scientist -> 29 and younger,All occupations,S&E occupations<sup>a</sup>,Science occupations,Mathematical scientist,29 and younger,5,58000,58000,S
+1193,r028,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Mathematical scientist -> 30&#8211;39,All occupations,S&E occupations<sup>a</sup>,Science occupations,Mathematical scientist,30&#8211;39,5,71000,71000,94000
+1193,r029,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Mathematical scientist -> 40&#8211;49,All occupations,S&E occupations<sup>a</sup>,Science occupations,Mathematical scientist,40&#8211;49,5,93000,93000,89000
+1193,r030,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Mathematical scientist -> 50&#8211;75,All occupations,S&E occupations<sup>a</sup>,Science occupations,Mathematical scientist,50&#8211;75,5,98000,98000,108000
+1193,r031,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Physical scientist,All occupations,S&E occupations<sup>a</sup>,Science occupations,Physical scientist,,4,75000,75000,76000
+1193,r032,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Physical scientist -> 29 and younger,All occupations,S&E occupations<sup>a</sup>,Science occupations,Physical scientist,29 and younger,5,36000,38000,S
+1193,r033,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Physical scientist -> 30&#8211;39,All occupations,S&E occupations<sup>a</sup>,Science occupations,Physical scientist,30&#8211;39,5,68000,67000,77000
+1193,r034,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Physical scientist -> 40&#8211;49,All occupations,S&E occupations<sup>a</sup>,Science occupations,Physical scientist,40&#8211;49,5,81000,81000,83000
+1193,r035,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Physical scientist -> 50&#8211;75,All occupations,S&E occupations<sup>a</sup>,Science occupations,Physical scientist,50&#8211;75,5,100000,102000,87000
+1193,r036,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Psychologist,All occupations,S&E occupations<sup>a</sup>,Science occupations,Psychologist,,4,72000,73000,61000
+1193,r037,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Psychologist -> 29 and younger,All occupations,S&E occupations<sup>a</sup>,Science occupations,Psychologist,29 and younger,5,39000,39000,
+1193,r038,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Psychologist -> 30&#8211;39,All occupations,S&E occupations<sup>a</sup>,Science occupations,Psychologist,30&#8211;39,5,70000,70000,61000
+1193,r039,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Psychologist -> 40&#8211;49,All occupations,S&E occupations<sup>a</sup>,Science occupations,Psychologist,40&#8211;49,5,80000,84000,58000
+1193,r040,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Psychologist -> 50&#8211;75,All occupations,S&E occupations<sup>a</sup>,Science occupations,Psychologist,50&#8211;75,5,89000,90000,86000
+1193,r041,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Social scientist,All occupations,S&E occupations<sup>a</sup>,Science occupations,Social scientist,,4,69000,73000,S
+1193,r042,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Social scientist -> 29 and younger,All occupations,S&E occupations<sup>a</sup>,Science occupations,Social scientist,29 and younger,5,S,44000,S
+1193,r043,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Social scientist -> 30&#8211;39,All occupations,S&E occupations<sup>a</sup>,Science occupations,Social scientist,30&#8211;39,5,59000,60000,54000
+1193,r044,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Social scientist -> 40&#8211;49,All occupations,S&E occupations<sup>a</sup>,Science occupations,Social scientist,40&#8211;49,5,84000,85000,79000
+1193,r045,All occupations -> S&E occupations<sup>a</sup> -> Science occupations -> Social scientist -> 50&#8211;75,All occupations,S&E occupations<sup>a</sup>,Science occupations,Social scientist,50&#8211;75,5,96000,99000,86000
+1193,r046,All occupations -> S&E occupations<sup>a</sup> -> Engineering occupations,All occupations,S&E occupations<sup>a</sup>,Engineering occupations,,,3,96000,96000,96000
+1193,r047,All occupations -> S&E occupations<sup>a</sup> -> Engineering occupations -> 29 and younger,All occupations,S&E occupations<sup>a</sup>,Engineering occupations,29 and younger,,4,70000,70000,69000
+1193,r048,All occupations -> S&E occupations<sup>a</sup> -> Engineering occupations -> 30&#8211;39,All occupations,S&E occupations<sup>a</sup>,Engineering occupations,30&#8211;39,,4,91000,92000,84000
+1193,r049,All occupations -> S&E occupations<sup>a</sup> -> Engineering occupations -> 40&#8211;49,All occupations,S&E occupations<sup>a</sup>,Engineering occupations,40&#8211;49,,4,109000,109000,99000
+1193,r050,All occupations -> S&E occupations<sup>a</sup> -> Engineering occupations -> 50&#8211;75,All occupations,S&E occupations<sup>a</sup>,Engineering occupations,50&#8211;75,,4,115000,116000,105000
+1193,r051,All occupations -> S&E-related occupations<sup>b</sup>,All occupations,S&E-related occupations<sup>b</sup>,,,,2,80000,80000,73000
+1193,r052,All occupations -> S&E-related occupations<sup>b</sup> -> 29 and younger,All occupations,S&E-related occupations<sup>b</sup>,29 and younger,,,3,53000,53000,46000
+1193,r053,All occupations -> S&E-related occupations<sup>b</sup> -> 30&#8211;39,All occupations,S&E-related occupations<sup>b</sup>,30&#8211;39,,,3,71000,72000,56000
+1193,r054,All occupations -> S&E-related occupations<sup>b</sup> -> 40&#8211;49,All occupations,S&E-related occupations<sup>b</sup>,40&#8211;49,,,3,90000,90000,84000
+1193,r055,All occupations -> S&E-related occupations<sup>b</sup> -> 50&#8211;75,All occupations,S&E-related occupations<sup>b</sup>,50&#8211;75,,,3,92000,95000,79000
+1193,r056,All occupations -> Non-S&E occupations,All occupations,Non-S&E occupations,,,,2,70000,70000,60000
+1193,r057,All occupations -> Non-S&E occupations -> 29 and younger,All occupations,Non-S&E occupations,29 and younger,,,3,43000,43000,41000
+1193,r058,All occupations -> Non-S&E occupations -> 30&#8211;39,All occupations,Non-S&E occupations,30&#8211;39,,,3,66000,67000,48000
+1193,r059,All occupations -> Non-S&E occupations -> 40&#8211;49,All occupations,Non-S&E occupations,40&#8211;49,,,3,81000,81000,75000
+1193,r060,All occupations -> Non-S&E occupations -> 50&#8211;75,All occupations,Non-S&E occupations,50&#8211;75,,,3,80000,83000,70000

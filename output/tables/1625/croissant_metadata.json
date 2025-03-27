@@ -1,0 +1,173 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Estimate and median salary of full-time workers with highest degree in S&E field, by race, ethnicity, and occupation: 2017",
+  "identifier": "NCSES-1625",
+  "description": "Estimate and median salary of full-time workers with highest degree in S&E field, by race, ethnicity, and occupation: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1625",
+  "table_number": "S3-20",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1625/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2, occupation_level_3, occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number",
+      "description": "Total Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_median_salary_",
+      "description": "Total Median Salary ",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_asian_number",
+      "description": "Asian Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_asian_median_salary_",
+      "description": "Asian Median Salary ",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_american_indian_or_alaska_native_number",
+      "description": "American Indian Or Alaska Native Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_american_indian_or_alaska_native_median_salary_",
+      "description": "American Indian Or Alaska Native Median Salary ",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_black_or_african_american_number",
+      "description": "Black Or African American Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_black_or_african_american_median_salary_",
+      "description": "Black Or African American Median Salary ",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino_number",
+      "description": "Hispanic Or Latino Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino_median_salary_",
+      "description": "Hispanic Or Latino Median Salary ",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_white_number",
+      "description": "White Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_white_median_salary_",
+      "description": "White Median Salary ",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_native_hawaiian_or_other_pacific_islander_number",
+      "description": "Native Hawaiian Or Other Pacific Islander Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_native_hawaiian_or_other_pacific_islander_median_salary_",
+      "description": "Native Hawaiian Or Other Pacific Islander Median Salary ",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_more_than_one_race_number",
+      "description": "More Than One Race Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_more_than_one_race_median_salary_",
+      "description": "More Than One Race Median Salary ",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Hispanic may be any race; race categories exclude Hispanic origin. Detail may not add to total because of rounding. Numbers are rounded to the nearest 1,000.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Survey of College Graduates (NSCG), 2017.Science and Engineering Indicators"
+}

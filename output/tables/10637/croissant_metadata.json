@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Imputation for graduate students in science, engineering, and health fields, by citizenship, ethnicity, race, enrollment status, and sex: 2022",
+  "identifier": "NCSES-10637",
+  "description": "Imputation for graduate students in science, engineering, and health fields, by citizenship, ethnicity, race, enrollment status, and sex: 2022",
+  "url": "https://example.org/datasets/ncses/tables/10637",
+  "table_number": "A-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10637/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_citizenship_ethnicity_and_race_b",
+      "description": "Citizenship, ethnicity, and race hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_citizenship_ethnicity_and_race_b_level_1, _b_citizenship_ethnicity_and_race_b_level_2, _b_citizenship_ethnicity_and_race_b_level_3, _b_citizenship_ethnicity_and_race_b_level_4, _b_citizenship_ethnicity_and_race_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_citizenship_ethnicity_and_race_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_total",
+      "description": "Part Time Total",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_male",
+      "description": "Part Time Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_female",
+      "description": "Part Time Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_total",
+      "description": "Full Time Total",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_male",
+      "description": "Full Time Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_female",
+      "description": "Full Time Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_first_time_total",
+      "description": "Full Time First Time Total",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_first_time_male",
+      "description": "Full Time First Time Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_first_time_female",
+      "description": "Full Time First Time Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Graduate student data in this table include master's students in health sciences. For more information on the comparability of these counts to other data published by the National Center for Science and Engineering Statistics, see the \"Technical Notes.\"",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2022."
+}

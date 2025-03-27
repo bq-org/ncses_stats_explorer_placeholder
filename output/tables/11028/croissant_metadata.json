@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Share of veterans and nonveterans in STEM, by employer type and STEM occupation: 2021",
+  "identifier": "NCSES-11028",
+  "description": "Share of veterans and nonveterans in STEM, by employer type and STEM occupation: 2021",
+  "url": "https://example.org/datasets/ncses/tables/11028",
+  "table_number": "SLBR-C",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11028/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "employer_type",
+      "description": "Employer Type",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "veteran_status",
+      "description": "Veteran Status",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "s_e_occupations",
+      "description": "S E Occupations",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "s_e_related_occupations",
+      "description": "S E Related Occupations",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "stem_middle_skill_occupations",
+      "description": "Stem Middle Skill Occupations",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the employed, civilian, non-institutionalized population ages 16\u201375 and exclude those currently enrolled in primary or secondary school. Non-STEM occupations are not shown. The totals of each row sum to the percentage of workers in STEM for the subgroup.",
+  "sources": "Census Bureau, American Community Survey (ACS), 1-Year Public-Use File, 2021, data as of 25 October 2022.Science and Engineering Indicators"
+}

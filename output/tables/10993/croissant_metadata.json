@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Distribution of select racial and ethnic groups in the workforce, by occupation group: 2021",
+  "identifier": "NCSES-10993",
+  "description": "Distribution of select racial and ethnic groups in the workforce, by occupation group: 2021",
+  "url": "https://example.org/datasets/ncses/tables/10993",
+  "table_number": "LBR-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10993/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_occupation_group_b",
+      "description": "Occupation group hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_occupation_group_b_level_1, _b_occupation_group_b_level_2, _b_occupation_group_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_occupation_group_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_white",
+      "description": "White",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic",
+      "description": "Hispanic",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_black_or_african_american",
+      "description": "Black Or African American",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_asian",
+      "description": "Asian",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_american_indian_or_alaska_native",
+      "description": "American Indian Or Alaska Native",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_race_alone_or_in_combination",
+      "description": "Other Race Alone Or In Combination",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the employed, civilian, non-institutionalized population ages 16\u201375 and excludes those currently enrolled in primary or secondary school. Percentages may not add to 100% because of rounding. Hispanic may be any race. Race categories represent race alone and exclude Hispanic origin.",
+  "sources": "Census Bureau, American Community Survey (ACS), 1-Year Public-Use File, 2021, data as of October 2022.Science and Engineering Indicators"
+}

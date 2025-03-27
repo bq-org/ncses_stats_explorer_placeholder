@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Scientists and engineers who are unemployed or not in the labor force, by sex, ethnicity, race, disability status, and reason for not working: 2019",
+  "identifier": "NCSES-3403",
+  "description": "Scientists and engineers who are unemployed or not in the labor force, by sex, ethnicity, race, disability status, and reason for not working: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3403",
+  "table_number": "9-12",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3403/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_ethnicity_race_and_disability_status",
+      "description": "Sex, ethnicity, race, and disability status hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_ethnicity_race_and_disability_status_level_1, sex_ethnicity_race_and_disability_status_level_2, sex_ethnicity_race_and_disability_status_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_ethnicity_race_and_disability_status_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_not_working",
+      "description": "All Not Working",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_chronic_illness_or_permanent_disability",
+      "description": "Chronic Illness Or Permanent Disability",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_did_not_need_or_want_to_work",
+      "description": "Did Not Need Or Want To Work",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_family_responsibilities",
+      "description": "Family Responsibilities",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_laid_off",
+      "description": "Laid Off",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_retireda",
+      "description": "Retireda",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_student",
+      "description": "Student",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_suitable_job_not_available",
+      "description": "Suitable Job Not Available",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other",
+      "description": "Other",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers are rounded to nearest 1,000. Detail may not add to total because of rounding and suppression and because respondents could select more than one reason. The National Survey of College Graduates asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Scientists and engineers are individuals under the age of 76 who have a bachelor's or higher degree, are living in the United States, and have an S&E or S&E-related degree or occupation.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2019."
+}

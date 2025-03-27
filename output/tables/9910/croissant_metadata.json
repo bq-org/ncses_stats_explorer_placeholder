@@ -1,0 +1,157 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "International doctoral students on visas who are enrolled in U.S. universities, by field and selected regions, countries, or economies of origin: 2022",
+  "identifier": "NCSES-9910",
+  "description": "International doctoral students on visas who are enrolled in U.S. universities, by field and selected regions, countries, or economies of origin: 2022",
+  "url": "https://example.org/datasets/ncses/tables/9910",
+  "table_number": "SHED-17",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9910/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy",
+      "description": "Region, country, or economy hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "region_country_or_economy_level_1, region_country_or_economy_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "region_country_or_economy_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields",
+      "description": "All Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_all_s_e_fields",
+      "description": "S E All S E Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_agricultural_sciences_and_natural_resources",
+      "description": "S E Agricultural Sciences And Natural Resources",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_biological_and_biomedical_sciences",
+      "description": "S E Biological And Biomedical Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_computer_and_information_sciences",
+      "description": "S E Computer And Information Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_engineering",
+      "description": "S E Engineering",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_health_sciences",
+      "description": "S E Health Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_mathematics_and_statistics",
+      "description": "S E Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_multidisciplinary_and_interdisciplinary_sciences",
+      "description": "S E Multidisciplinary And Interdisciplinary Sciences",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_physical_sciences",
+      "description": "S E Physical Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_psychology",
+      "description": "S E Psychology",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_social_sciences",
+      "description": "S E Social Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related",
+      "description": "S E Related",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e",
+      "description": "Non S E",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include active foreign national students on F-1 visas enrolled in-person at U.S. higher education institutions. Individuals approved for optional practical training are excluded. Physical sciences includes geosciences, atmospheric sciences, and ocean sciences. Numbers are rounded to the nearest 10. Places of origin are ordered by total number of S&E students. Detail may not add to total because of rounding. The data reflect fall enrollment in a given year and include students with active status as of 15 November of that year.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2022) of the U.S. Department of Homeland Security, U.S. Immigration and Customs Enforcement, Student and Exchange Visitor Information System (SEVIS).Science and Engineering Indicators"
+}

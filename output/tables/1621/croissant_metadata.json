@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment sector of S&E highest degree holders, by level and field of highest degree: 2017",
+  "identifier": "NCSES-1621",
+  "description": "Employment sector of S&E highest degree holders, by level and field of highest degree: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1621",
+  "table_number": "S3-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1621/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "highest_degree_field_and_level",
+      "description": "Highest degree field and level hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "highest_degree_field_and_level_level_1, highest_degree_field_and_level_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "highest_degree_field_and_level_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number_",
+      "description": "Total Number ",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_4_year_institutions",
+      "description": "Education 4 Year Institutions",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_2_year_and_precollege_institutions",
+      "description": "Education 2 Year And Precollege Institutions",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_or_industry_for_profit_businesses",
+      "description": "Business Or Industry For Profit Businesses",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_or_industry_self_employed_unincorporated_businesses",
+      "description": "Business Or Industry Self Employed Unincorporated Businesses",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_or_industry_nonprofit_businesses",
+      "description": "Business Or Industry Nonprofit Businesses",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_government_federal_government",
+      "description": "Government Federal Government",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_government_state_or_local_government",
+      "description": "Government State Or Local Government",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "All S&E highest degree holders includes professional degree holders not reported separately. The 2-year and precollege institutions include 2-year colleges and community colleges or technical institutes and preschool, elementary, middle, and secondary schools. The 4-year institutions include 4-year colleges or universities, medical schools, and university-affiliated research institutes. The education sector includes public and private institutions. Detail may not add to total because of rounding. Numbers are rounded to the nearest 1,000. Percentages are based on rounded numbers.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Survey of College Graduates (NSCG), 2017.Science and Engineering Indicators"
+}

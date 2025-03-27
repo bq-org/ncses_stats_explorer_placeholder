@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Full-time employed scientists and engineers and their median salary, by major field of highest degree, employment sector, and primary work activity: 2019",
+  "identifier": "NCSES-5588",
+  "description": "Full-time employed scientists and engineers and their median salary, by major field of highest degree, employment sector, and primary work activity: 2019",
+  "url": "https://example.org/datasets/ncses/tables/5588",
+  "table_number": "4-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5588/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_employment_sector",
+      "description": "Field of highest degree and employment sector hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_highest_degree_and_employment_sector_level_1, field_of_highest_degree_and_employment_sector_level_2, field_of_highest_degree_and_employment_sector_level_3, field_of_highest_degree_and_employment_sector_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_highest_degree_and_employment_sector_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_employment_sector_full_path",
+      "description": "Of Highest Degree And Employment Sector Full Path",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_employment_sector_level_1",
+      "description": "Of Highest Degree And Employment Sector Level 1",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_employment_sector_level_2",
+      "description": "Of Highest Degree And Employment Sector Level 2",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_employment_sector_level_3",
+      "description": "Of Highest Degree And Employment Sector Level 3",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_employment_sector_level_4",
+      "description": "Of Highest Degree And Employment Sector Level 4",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_highest_degree_and_employment_sector_hierarchy_depth",
+      "description": "Of Highest Degree And Employment Sector Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number",
+      "description": "Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_salary",
+      "description": "Salary",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_computer_applications_number",
+      "description": "Primary Work Activity Computer Applications Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_computer_applications_salary",
+      "description": "Primary Work Activity Computer Applications Salary",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_management_and_administrationa_number",
+      "description": "Primary Work Activity Management And Administrationa Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_management_and_administrationa_salary",
+      "description": "Primary Work Activity Management And Administrationa Salary",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_research_and_developmentb_number",
+      "description": "Primary Work Activity Research And Developmentb Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_research_and_developmentb_salary",
+      "description": "Primary Work Activity Research And Developmentb Salary",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_teaching_number",
+      "description": "Primary Work Activity Teaching Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_teaching_salary",
+      "description": "Primary Work Activity Teaching Salary",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_otherc_number",
+      "description": "Primary Work Activity Otherc Number",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_otherc_salary",
+      "description": "Primary Work Activity Otherc Salary",
+      "valueType": "string",
+      "unitText": "Number and dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Population counts are rounded to the nearest 1,000. Detail may not add to total because of rounding. Median salaries are rounded to the nearest $1,000. Scientists and engineers are bachelor's and higher degreed individuals living in the United States employed in an S&E occupation. Persons are considered to be employed full time if they are working 35 or more hours per week on their principal job. Four-year educational institution includes medical schools and university-affiliated research institutes. Government includes federal (civilian), military, state, and local employers.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates: 2019."
+}

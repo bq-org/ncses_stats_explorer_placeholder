@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Major field of study of undergraduates, by disability status: 2016",
+  "identifier": "NCSES-1292",
+  "description": "Major field of study of undergraduates, by disability status: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1292",
+  "table_number": "2-7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1292/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "major_field_of_study",
+      "description": "Major field of study hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "major_field_of_study_level_1, major_field_of_study_level_2, major_field_of_study_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "major_field_of_study_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_undergraduates",
+      "description": "All Undergraduates",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability",
+      "description": "Without Disability",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability",
+      "description": "With Disability",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Includes undergraduates with declared majors. For disability status, those who reported any type of disability related to blindness, deafness, severe vision or hearing impairment, substantial limitation of mobility, or any other physical, mental, or emotional condition that lasted 6 months or more were classified as with disability. Differences in the number of undergraduates in this table and tables 2-1\u20132-5 primarily reflect differences in the population of institutions surveyed. See U.S. Department of Education, National Center for Education Statistics, Estimating Undergraduate Enrollment in Postsecondary Education Using National Center for Education Statistics Data (NCES 2005-063) at http://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2005063 for further explanation of these differences. Detail may not add to total because of rounding.",
+  "sources": "U.S. Department of Education, National Center for Education Statistics, 2015\u201316 National Postsecondary Student Aid Study (NPSAS:16)."
+}

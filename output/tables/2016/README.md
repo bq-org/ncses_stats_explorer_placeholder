@@ -1,0 +1,33 @@
+# U.S. basic research expenditures, by source of funds and performing sector: 1953–2018
+
+**Modal ID:** 2016
+
+**Table Number:** 7
+
+**Type:** TS (Time Series)
+
+**Units:** (Millions of current and of constant 2012 dollars)
+
+## Notes
+
+This table reaggregates the R&D performer data in table 3 according to major categories of R&D funding: federal government, nonfederal government (state and local), business, higher education, and ONPs. Business sources of R&D funding in this table include the own funds of domestic R&D performing businesses, funds from other domestic businesses, and funds from foreign businesses. For further detail on the R&D performers listed, see table 2, footnotes a–f. Detail may not add to total because of rounding. Constant-dollar estimates are derived from unrounded data. For comparisons, use only the historical data reported in this table because some back-year data may have been revised. Except for the nonprofit sector, data are based on annual reports by performers in NCSES's annual R&D expenditure surveys: Business Research and Development Survey, Higher Education Research and Development Survey, Survey of Federal Funds for Research and Development, FFRDC Research and Development Expenditures Survey, and Survey of State Government Research and Development. R&D expenditures by business performers—and, before 2001, also industry-administered FFRDCs—are collected on a calendar year basis. Expenditures for other performers are calendar year approximations based on fiscal year data. (See also table 3, general notes.) The 1998–2018 data for ONP R&D performance funded by businesses and the nonprofit sector itself are estimated, based on parameters from the 1996–97 Survey of Research and Development Funding and Performance by Nonprofit Organizations. Type-of-R&D data for business R&D in 1998–2007 were revised in response to data quality review considerations and are not directly comparable with the data for 1997 and earlier years. For 2008 and onward, the type-of-R&D splits for other than total, own-funded, and federally funded R&D are estimated. (See also table 2, footnote d.) Type-of-R&D data for FFRDC R&D in 1953–54 include only those of university-administered FFRDCs. Starting in 2001, type-of-R&D data distinguish federally funded from and nonfederally funded FFRDC R&D. (See also table 2, footnote b.) The type-of-R&D estimation procedure for higher education R&D was revised in 1998 and again in 2010; hence, these data are not directly comparable with data reported for earlier years. Furthermore, the type-of-R&D splits for other than total and federally funded are estimated. (See also table 2, footnote e.) Type-of-R&D data for R&D by ONPs in 1998 and later years are estimated, except for those that are federally funded. (See also table 2, footnote f.) Type-of-R&D data for state intramural R&D became available in the 2016 Survey of State Government Research and Development. These data prior to 2016 are estimated. (See also table 2, footnote c.)
+
+## Sources
+
+National Center for Science and Engineering Statistics, National Patterns of R&D Resources (annual series).
+
+## Files
+
+- `data.csv`: The table data in CSV format
+- `croissant_metadata.json`: ML Croissant metadata for machine learning applications
+
+## Structure
+
+- Row hierarchy depth: 1
+- Column hierarchy depth: 2
+- Time series: Yes
+
+## Special Values
+
+- `i`: imputed value
+- `r`: revised value

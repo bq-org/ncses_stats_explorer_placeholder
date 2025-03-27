@@ -1,0 +1,241 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median years to science and engineering research doctorate, by sex, citizenship status, ethnicity, race, and broad field of doctorate: 2023",
+  "identifier": "NCSES-11675",
+  "description": "Median years to science and engineering research doctorate, by sex, citizenship status, ethnicity, race, and broad field of doctorate: 2023",
+  "url": "https://example.org/datasets/ncses/tables/11675",
+  "table_number": "3-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11675/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_time_to_degree_and_demographic_characteristic_b",
+      "description": "Time to degree and demographic characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_time_to_degree_and_demographic_characteristic_b_level_1, _b_time_to_degree_and_demographic_characteristic_b_level_2, _b_time_to_degree_and_demographic_characteristic_b_level_3, _b_time_to_degree_and_demographic_characteristic_b_level_4, _b_time_to_degree_and_demographic_characteristic_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_time_to_degree_and_demographic_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_number",
+      "description": "All Fields Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields_median",
+      "description": "All Fields Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_total_number",
+      "description": "Science And Engineering Total Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_total_median",
+      "description": "Science And Engineering Total Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_agricultural_sciences_and_natural_resources_number",
+      "description": "Agricultural Sciences And Natural Resources Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_agricultural_sciences_and_natural_resources_median",
+      "description": "Agricultural Sciences And Natural Resources Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_and_biomedical_sciences_number",
+      "description": "Biological And Biomedical Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_and_biomedical_sciences_median",
+      "description": "Biological And Biomedical Sciences Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_and_information_sciences_number",
+      "description": "Computer And Information Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_computer_and_information_sciences_median",
+      "description": "Computer And Information Sciences Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_number",
+      "description": "Engineering Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_median",
+      "description": "Engineering Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_geosciences_atmospheric_and_ocean_sciences_number",
+      "description": "Geosciences Atmospheric And Ocean Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_geosciences_atmospheric_and_ocean_sciences_median",
+      "description": "Geosciences Atmospheric And Ocean Sciences Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_health_sciences_number",
+      "description": "Health Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_health_sciences_median",
+      "description": "Health Sciences Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_statistics_number",
+      "description": "Mathematics And Statistics Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_and_statistics_median",
+      "description": "Mathematics And Statistics Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_multidisciplinary_interdisciplinary_sciences_number",
+      "description": "Multidisciplinary Interdisciplinary Sciences Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_multidisciplinary_interdisciplinary_sciences_median",
+      "description": "Multidisciplinary Interdisciplinary Sciences Median",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences_number",
+      "description": "Physical Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_physical_sciences_median",
+      "description": "Physical Sciences Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology_number",
+      "description": "Psychology Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_psychology_median",
+      "description": "Psychology Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_sciences_number",
+      "description": "Social Sciences Number",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_social_sciences_median",
+      "description": "Social Sciences Median",
+      "valueType": "string",
+      "unitText": "Number and median years"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and new broad, major, and detailed fields are used in tables reporting data from 2021 to the present; see the field list in table A-4. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. For more information about the 2021 taxonomy change, see the \"Technical Notes.\"",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

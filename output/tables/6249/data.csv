@@ -1,0 +1,40 @@
+table_id,row_id,workforce_and_industry_full_path,workforce_and_industry_level_1,workforce_and_industry_level_2,workforce_and_industry_hierarchy_depth,field_isic_rev_4_industry_code,field_total,field_sex_male,field_sex_female,field_race_or_ethnicity_not_underrepresented_minority,field_race_or_ethnicity_underrepresented_minority,field_nativity_u_s_born,field_nativity_foreign_born_total,field_nativity_foreign_born_non_u_s_citizens,field_nativity_foreign_born_u_s_citizens
+6249,r001,All KTI workers,All KTI workers,,1,,11667,7918,3749,9413,2254,9190,2477,1140,1337
+6249,r002,All KTI workers -> Chemicals and chemical products,All KTI workers,Chemicals and chemical products,2,20,852,601,251,633,219,718,134,62,72
+6249,r003,All KTI workers -> Pharmaceuticals,All KTI workers,Pharmaceuticals,2,21,536,286,250,417,119,398,138,46,93
+6249,r004,"All KTI workers -> Computer, electronic, and optical products",All KTI workers,"Computer, electronic, and optical products",2,26,1169,814,355,971,198,820,349,140,209
+6249,r005,All KTI workers -> Electrical equipment,All KTI workers,Electrical equipment,2,27,435,302,133,330,105,357,78,34,44
+6249,r006,All KTI workers -> Machinery and equipment nec,All KTI workers,Machinery and equipment nec,2,28,1122,861,261,886,236,970,152,68,85
+6249,r007,"All KTI workers -> Motor vehicles, trailers, and semi-trailers",All KTI workers,"Motor vehicles, trailers, and semi-trailers",2,29,1428,1035,393,1044,384,1245,183,99,84
+6249,r008,All KTI workers -> Air and spacecraft and related machinery,All KTI workers,Air and spacecraft and related machinery,2,303,820,622,198,645,175,681,139,38,102
+6249,r009,"All KTI workers -> Railroad, military vehicles, and transport nec",All KTI workers,"Railroad, military vehicles, and transport nec",2,"302, 304, and 309",66,51,15,53,13,60,6,3,3
+6249,r010,All KTI workers -> Medical and dental instruments,All KTI workers,Medical and dental instruments,2,325,634,367,267,500,133,486,148,52,96
+6249,r011,All KTI workers -> IT and other information services,All KTI workers,IT and other information services,2,62 - 63,3767,2524,1242,3211,556,2812,954,515,439
+6249,r012,All KTI workers -> Software publishing,All KTI workers,Software publishing,2,582,131,87,44,117,13,98,32,16,16
+6249,r013,All KTI workers -> Scientific research and development,All KTI workers,Scientific research and development,2,72,708,368,340,605,103,545,163,68,94
+6249,r014,STEM workers,STEM workers,,1,,5670,4435,1236,4748,923,4224,1446,710,736
+6249,r015,STEM workers -> Chemicals and chemical products,STEM workers,Chemicals and chemical products,2,20,401,314,88,301,101,334,67,30,37
+6249,r016,STEM workers -> Pharmaceuticals,STEM workers,Pharmaceuticals,2,21,252,153,99,196,56,177,74,24,50
+6249,r017,"STEM workers -> Computer, electronic, and optical products",STEM workers,"Computer, electronic, and optical products",2,26,571,472,99,490,81,383,189,78,110
+6249,r018,STEM workers -> Electrical equipment,STEM workers,Electrical equipment,2,27,149,126,23,121,29,119,30,14,16
+6249,r019,STEM workers -> Machinery and equipment nec,STEM workers,Machinery and equipment nec,2,28,436,386,49,361,74,377,58,25,34
+6249,r020,"STEM workers -> Motor vehicles, trailers, and semi-trailers",STEM workers,"Motor vehicles, trailers, and semi-trailers",2,29,499,413,86,407,92,427,72,37,34
+6249,r021,STEM workers -> Air and spacecraft and related machinery,STEM workers,Air and spacecraft and related machinery,2,303,440,372,68,358,82,367,73,20,53
+6249,r022,"STEM workers -> Railroad, military vehicles, and transport nec",STEM workers,"Railroad, military vehicles, and transport nec",2,"302, 304, and 309",21,19,2,18,3,19,2,1,1
+6249,r023,STEM workers -> Medical and dental instruments,STEM workers,Medical and dental instruments,2,325,232,162,69,189,43,174,58,19,39
+6249,r024,STEM workers -> IT and other information services,STEM workers,IT and other information services,2,62 - 63,2179,1716,463,1876,303,1493,686,399,287
+6249,r025,STEM workers -> Software publishing,STEM workers,Software publishing,2,582,65,50,15,60,5,44,21,12,9
+6249,r026,STEM workers -> Scientific research and development,STEM workers,Scientific research and development,2,72,426,251,175,372,54,311,115,50,65
+6249,r027,Non-STEM workers,Non-STEM workers,,1,,5997,3484,2513,4665,1331,4966,1031,430,601
+6249,r028,Non-STEM workers -> Chemicals and chemical products,Non-STEM workers,Chemicals and chemical products,2,20,451,287,164,333,118,384,66,31,35
+6249,r029,Non-STEM workers -> Pharmaceuticals,Non-STEM workers,Pharmaceuticals,2,21,284,133,151,221,63,220,64,22,42
+6249,r030,"Non-STEM workers -> Computer, electronic and optical products",Non-STEM workers,"Computer, electronic and optical products",2,26,598,342,256,480,117,437,160,62,99
+6249,r031,Non-STEM workers -> Electrical equipment,Non-STEM workers,Electrical equipment,2,27,286,176,110,209,77,238,48,20,28
+6249,r032,Non-STEM workers -> Machinery and equipment nec,Non-STEM workers,Machinery and equipment nec,2,28,686,475,212,525,161,593,94,43,51
+6249,r033,"Non-STEM workers -> Motor vehicles, trailers, and semi-trailers",Non-STEM workers,"Motor vehicles, trailers, and semi-trailers",2,29,929,622,307,638,292,818,111,62,49
+6249,r034,Non-STEM workers -> Air and spacecraft and related machinery,Non-STEM workers,Air and spacecraft and related machinery,2,303,380,250,130,287,94,314,66,18,48
+6249,r035,"Non-STEM workers -> Railroad, military vehicles, and transport nec",Non-STEM workers,"Railroad, military vehicles, and transport nec",2,"302, 304, and 309",45,32,13,36,9,41,4,3,2
+6249,r036,Non-STEM workers -> Medical and dental instruments,Non-STEM workers,Medical and dental instruments,2,325,402,204,197,311,90,312,90,33,57
+6249,r037,Non-STEM workers -> IT and other information services,Non-STEM workers,IT and other information services,2,62 - 63,1588,808,780,1335,253,1319,268,116,153
+6249,r038,Non-STEM workers -> Software publishing,Non-STEM workers,Software publishing,2,582,65,36,29,57,8,54,11,4,7
+6249,r039,Non-STEM workers -> Scientific research and development ,Non-STEM workers,Scientific research and development ,2,72,282,117,165,233,49,234,48,18,29

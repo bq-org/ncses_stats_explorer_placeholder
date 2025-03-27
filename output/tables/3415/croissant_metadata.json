@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Top U.S. baccalaureate institutions of science and engineering doctorate recipients from various groups: 2015\u201319",
+  "identifier": "NCSES-3415",
+  "description": "Top U.S. baccalaureate institutions of science and engineering doctorate recipients from various groups: 2015\u201319",
+  "url": "https://example.org/datasets/ncses/tables/3415",
+  "table_number": "A-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3415/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "group_and_institution",
+      "description": "Group and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "group_and_institution_level_1, group_and_institution_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "group_and_institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_recipients",
+      "description": "Doctorate Recipients",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_historically_black_college_or_university",
+      "description": "Historically Black College Or University",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_high_hispanic_enrollment_institution",
+      "description": "High Hispanic Enrollment Institution",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Hispanic or Latino may be any race; race categories exclude Hispanic origin. Includes all doctorate recipients except those who reported that they did not receive a baccalaureate degree. Data in this table refer to research doctorates only. None of the institutions listed is a tribal college or university.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates. Related detailed data: WMPD table 7-9 though table 7-20."
+}

@@ -1,0 +1,51 @@
+table_id,row_id,_b_agency_b_full_path,_b_agency_b_level_1,_b_agency_b_level_2,_b_agency_b_level_3,_b_agency_b_level_4,_b_agency_b_level_5,_b_agency_b_hierarchy_depth,field_2002,field_2003,field_2004,field_2005,field_2006,field_2007,field_2008,field_2009,field_2010,field_2011,field_2012
+10302,r001,All agencies,All agencies,,,,,1,4305,4267,3994,3771,2125,2168,1944,3668,6613,4171,2146
+10302,r002,All agencies -> Departments,All agencies,Departments,,,,2,,,,,,,,,,,
+10302,r003,All agencies -> Departments -> Department of Agriculture,All agencies,Departments,Department of Agriculture,,,3,119,96,179,134,173,124,44,77,251,36,16
+10302,r004,All agencies -> Departments -> Department of Agriculture -> Agricultural Research Service,All agencies,Departments,Department of Agriculture,Agricultural Research Service,,4,104,81,161,119,159,99,23,46,181,19,5
+10302,r005,All agencies -> Departments -> Department of Agriculture -> Forest Service,All agencies,Departments,Department of Agriculture,Forest Service,,4,15,15,19,15,14,25,21,32,70,17,10
+10302,r006,"All agencies -> Departments -> Department of Agriculture -> Grain Inspection, Packers, and Stockyards Administration",All agencies,Departments,Department of Agriculture,"Grain Inspection, Packers, and Stockyards Administration",,4,0,0,0,0,0,0,0,0,0,0,2
+10302,r007,All agencies -> Departments -> Department of Commerce,All agencies,Departments,Department of Commerce,,,3,29,59,90,61,75,118,152,386,409,242,176
+10302,r008,All agencies -> Departments -> Department of Commerce -> Economic Development Administration,All agencies,Departments,Department of Commerce,Economic Development Administration,,4,0,0,0,0,0,0,18,25,12,15,NA
+10302,r009,All agencies -> Departments -> Department of Commerce -> National Institute of Standards and Technology,All agencies,Departments,Department of Commerce,National Institute of Standards and Technology,,4,29,49,37,44,43,51,87,105,237,90,35
+10302,r010,All agencies -> Departments -> Department of Commerce -> National Oceanic and Atmospheric Administration,All agencies,Departments,Department of Commerce,National Oceanic and Atmospheric Administration,,4,0,10,52,16,31,66,46,256,159,137,141
+10302,r011,All agencies -> Departments -> Department of Defense,All agencies,Departments,Department of Defense,,,3,365,251,275,273,63,79,163,117,153,170,170
+10302,r012,All agencies -> Departments -> Department of Defense -> Defense agencies and activities,All agencies,Departments,Department of Defense,Defense agencies and activities,,4,284,138,121,82,35,36,41,1,0.05,na,na
+10302,r013,All agencies -> Departments -> Department of Defense -> Department of the Air Force,All agencies,Departments,Department of Defense,Department of the Air Force,,4,23,7,19,107,11,28,107,101,127,141,143
+10302,r014,All agencies -> Departments -> Department of Defense -> Department of the Navy,All agencies,Departments,Department of Defense,Department of the Navy,,4,57,107,134,84,17,15,16,15,25,22,25
+10302,r015,All agencies -> Departments -> Department of Defense -> Other defense agencies,All agencies,Departments,Department of Defense,Other defense agencies,,4,na,na,na,na,na,na,na,na,na,7,2
+10302,r016,All agencies -> Departments -> Department of Energy,All agencies,Departments,Department of Energy,,,3,1028,1024,1007,863,778,752,752,1672,959,735,683
+10302,r017,All agencies -> Departments -> Department of Energy -> Energy Efficiency and Renewable Energy,All agencies,Departments,Department of Energy,Energy Efficiency and Renewable Energy,,4,5,6,20,19,26,107,65,207,103,39,0
+10302,r018,All agencies -> Departments -> Department of Energy -> Fossil Energy,All agencies,Departments,Department of Energy,Fossil Energy,,4,10,5,6,6,19,12,13,19,19,19,16
+10302,r019,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration,All agencies,Departments,Department of Energy,National Nuclear Security Administration,,4,426,448,436,303,305,192,263,168,190,128,93
+10302,r020,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration -> Defense Programs,All agencies,Departments,Department of Energy,National Nuclear Security Administration,Defense Programs,5,397,420,408,268,272,171,232,132,159,96,53
+10302,r021,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration -> Fissile Materials Disposition,All agencies,Departments,Department of Energy,National Nuclear Security Administration,Fissile Materials Disposition,5,0.05,0.05,0,0,0,0,NA,NA,NA,NA,NA
+10302,r022,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration -> Naval Nuclear Propulsion Program,All agencies,Departments,Department of Energy,National Nuclear Security Administration,Naval Nuclear Propulsion Program,5,29,28,28,35,33,21,31,36,31,33,40
+10302,r023,All agencies -> Departments -> Department of Energy -> Office of Science,All agencies,Departments,Department of Energy,Office of Science,,4,587,565,545,534,428,442,410,1278,647,548,574
+10302,r024,All agencies -> Departments -> Department of Health and Human Services,All agencies,Departments,Department of Health and Human Services,,,3,247,816,431,427,361,255,147,152,1682,79,140
+10302,r025,All agencies -> Departments -> Department of Health and Human Services -> Centers for Disease Control and Prevention,All agencies,Departments,Department of Health and Human Services,Centers for Disease Control and Prevention,,4,0,0,0,0,144,134,6,0,0,0,0
+10302,r026,All agencies -> Departments -> Department of Health and Human Services -> Food and Drug Administration,All agencies,Departments,Department of Health and Human Services,Food and Drug Administration,,4,13,7,9,1,4,8,5,5,13,8,6
+10302,r027,All agencies -> Departments -> Department of Health and Human Services -> Health Resources and Services Administration,All agencies,Departments,Department of Health and Human Services,Health Resources and Services Administration,,4,1,0.05,1,1,1,1,1,1,1,1,1
+10302,r028,All agencies -> Departments -> Department of Health and Human Services -> National Institutes of Health,All agencies,Departments,Department of Health and Human Services,National Institutes of Health,,4,233,808,421,426,213,111,135,146,1669,70,133
+10302,r029,All agencies -> Departments -> Department of Homeland Security,All agencies,Departments,Department of Homeland Security,,,3,na,NA,117,92,132,244,220,311,458,568,230
+10302,r030,All agencies -> Departments -> Department of Homeland Security -> Coast Guard,All agencies,Departments,Department of Homeland Security,Coast Guard,,4,na,NA,1,1,0.05,1,0.05,1,1,1,1
+10302,r031,All agencies -> Departments -> Department of Homeland Security -> Science and Technology Directorate,All agencies,Departments,Department of Homeland Security,Science and Technology Directorate,,4,na,NA,116,91,131,243,219,310,457,567,229
+10302,r032,All agencies -> Departments -> Department of the Interior,All agencies,Departments,Department of the Interior,,,3,2,4,8,7,5,10,9,6,6,11,5
+10302,r033,All agencies -> Departments -> Department of the Interior -> Bureau of Ocean Energy Management,All agencies,Departments,Department of the Interior,Bureau of Ocean Energy Management,,4,2,2,3,3,3,3,3,2,3,7,0
+10302,r034,All agencies -> Departments -> Department of the Interior -> Bureau of Reclamation,All agencies,Departments,Department of the Interior,Bureau of Reclamation,,4,0,2,5,5,2,7,6,5,4,4,2
+10302,r035,All agencies -> Departments -> Department of the Interior -> Bureau of Safety and Environmental Enforcement,All agencies,Departments,Department of the Interior,Bureau of Safety and Environmental Enforcement,,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3
+10302,r036,All agencies -> Departments -> Department of Justice,All agencies,Departments,Department of Justice,,,3,0,0,0,0,0,8,1,0,0,0,0
+10302,r037,All agencies -> Departments -> Department of Justice -> Office of Justice Programs,All agencies,Departments,Department of Justice,Office of Justice Programs,,4,0,0,0,0,0,8,1,0,0,0,0
+10302,r038,All agencies -> Departments -> Department of Transportation,All agencies,Departments,Department of Transportation,,,3,52,19,18,18,19,20,19,20,21,20,38
+10302,r039,All agencies -> Departments -> Department of Transportation -> Coast Guard,All agencies,Departments,Department of Transportation,Coast Guard,,4,0.05,na,na,na,na,na,na,na,na,na,na
+10302,r040,All agencies -> Departments -> Department of Transportation -> Federal Aviation Administration,All agencies,Departments,Department of Transportation,Federal Aviation Administration,,4,14,18,16,17,17,18,17,18,18,18,31
+10302,r041,All agencies -> Departments -> Department of Transportation -> Federal Railroad Administration,All agencies,Departments,Department of Transportation,Federal Railroad Administration,,4,1,1,1,1,2,2,2,2,3,3,6
+10302,r042,All agencies -> Departments -> Department of Transportation -> Transportation Security Administration,All agencies,Departments,Department of Transportation,Transportation Security Administration,,4,36,na,na,na,na,na,na,na,na,na,na
+10302,r043,All agencies -> Departments -> Department of the Treasury,All agencies,Departments,Department of the Treasury,,,3,0,0,0,0,4,2,0,0,0,0,0
+10302,r044,All agencies -> Departments -> Department of the Treasury -> Mint,All agencies,Departments,Department of the Treasury,Mint,,4,0,0,0,0,4,2,0,0,0,0,0
+10302,r045,All agencies -> Departments -> Department of Veterans Affairs,All agencies,Departments,Department of Veterans Affairs,,,3,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0,0,0,0
+10302,r046,All agencies -> Other agencies,All agencies,Other agencies,,,,2,,,,,,,,,,,
+10302,r047,All agencies -> Other agencies -> Environmental Protection Agency,All agencies,Other agencies,Environmental Protection Agency,,,3,0,0,0,0,0,0,0,0,0,5,5
+10302,r048,All agencies -> Other agencies -> National Aeronautics and Space Administration,All agencies,Other agencies,National Aeronautics and Space Administration,,,3,2218,1659,1472,1534,39,80,20,21,1570,1859,98
+10302,r049,All agencies -> Other agencies -> National Science Foundation,All agencies,Other agencies,National Science Foundation,,,3,241,335,395,355,449,437,371,830,1058,391,536
+10302,r050,All agencies -> Other agencies -> Smithsonian Institution,All agencies,Other agencies,Smithsonian Institution,,,3,3,3,3,6,27,41,46,75,46,56,49

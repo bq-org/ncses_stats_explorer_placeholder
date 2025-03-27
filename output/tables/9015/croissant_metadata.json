@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Digital share of business activity, by type, for companies with 1&#8211;9 employees: 2020",
+  "identifier": "NCSES-9015",
+  "description": "Digital share of business activity, by type, for companies with 1&#8211;9 employees: 2020",
+  "url": "https://example.org/datasets/ncses/tables/9015",
+  "table_number": "36-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9015/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "business_activity",
+      "description": "Business Activity",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "collected_primarily_in_digital_format",
+      "description": "Collected Primarily In Digital Format",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "collected_but_not_digitally",
+      "description": "Collected But Not Digitally",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "did_not_collect",
+      "description": "Did Not Collect",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "don_t_know",
+      "description": "Don T Know",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "did_not_answer",
+      "description": "Did Not Answer",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail across columns have been adjusted to add to total. Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2021 Annual Business Survey: Data Year 2020."
+}

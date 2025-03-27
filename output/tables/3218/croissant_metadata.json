@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Response summary for question 13, capitalization thresholds, by highest degree granted, institutional control, and capitalization threshold: FY 2019",
+  "identifier": "NCSES-3218",
+  "description": "Response summary for question 13, capitalization thresholds, by highest degree granted, institutional control, and capitalization threshold: FY 2019",
+  "url": "https://example.org/datasets/ncses/tables/3218",
+  "table_number": "A-21",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3218/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_capitalization_thresholds_b",
+      "description": "Capitalization thresholds hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_capitalization_thresholds_b_level_1, _b_capitalization_thresholds_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_capitalization_thresholds_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_institutions",
+      "description": "All Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_highest_degree_granted_doctorate",
+      "description": "Highest Degree Granted Doctorate",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_highest_degree_granted_nondoctorate",
+      "description": "Highest Degree Granted Nondoctorate",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutional_control_public",
+      "description": "Institutional Control Public",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutional_control_private",
+      "description": "Institutional Control Private",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table includes only institutions reporting $1 million or more in total R&D expenditures in FY 2018. Institutions reporting less than $1 million in total R&D expenditures in FY 2018 completed a shorter version of the survey form in FY 2019 that did not include this question.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2019."
+}

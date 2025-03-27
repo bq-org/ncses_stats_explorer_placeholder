@@ -1,0 +1,193 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Research doctorate recipients who attended community college, by sex, citizenship status, ethnicity, race, and broad field of doctorate: 2022",
+  "identifier": "NCSES-9601",
+  "description": "Research doctorate recipients who attended community college, by sex, citizenship status, ethnicity, race, and broad field of doctorate: 2022",
+  "url": "https://example.org/datasets/ncses/tables/9601",
+  "table_number": "5-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9601/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_demographic_characteristic_b",
+      "description": "Demographic characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_demographic_characteristic_b_level_1, _b_demographic_characteristic_b_level_2, _b_demographic_characteristic_b_level_3, _b_demographic_characteristic_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_demographic_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_fields",
+      "description": "All Fields",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_total",
+      "description": "Science And Engineering Total",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_agricultural_sciences_and_natural_resources",
+      "description": "Science And Engineering Agricultural Sciences And Natural Resources",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_biological_and_biomedical_sciences",
+      "description": "Science And Engineering Biological And Biomedical Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_computer_and_information_sciences",
+      "description": "Science And Engineering Computer And Information Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_engineering",
+      "description": "Science And Engineering Engineering",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_geosciences_atmospheric_and_ocean_sciences",
+      "description": "Science And Engineering Geosciences Atmospheric And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_health_sciences",
+      "description": "Science And Engineering Health Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_mathematics_and_statistics",
+      "description": "Science And Engineering Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_multidisciplinary_interdisciplinary_sciences",
+      "description": "Science And Engineering Multidisciplinary Interdisciplinary Sciences",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_physical_sciences",
+      "description": "Science And Engineering Physical Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_psychology",
+      "description": "Science And Engineering Psychology",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_and_engineering_social_sciences",
+      "description": "Science And Engineering Social Sciences",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_total",
+      "description": "Non Science And Engineering Total",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_business",
+      "description": "Non Science And Engineering Business",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_education",
+      "description": "Non Science And Engineering Education",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_humanities",
+      "description": "Non Science And Engineering Humanities",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_visual_and_performing_arts",
+      "description": "Non Science And Engineering Visual And Performing Arts",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_science_and_engineering_other_non_science_and_engineering",
+      "description": "Non Science And Engineering Other Non Science And Engineering",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Percentages based on total number of doctorate recipients. Due to rounding, percentages may not sum to 100. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and new broad, major, and detailed fields are used in tables reporting data from 2021 to the present; see the field list in table A-4. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. For more information, see the \"Technical Notes\" and the SED 2021 Taxonomy Changes Working Paper (available at https://ncses.nsf.gov/pubs/ncses23200).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

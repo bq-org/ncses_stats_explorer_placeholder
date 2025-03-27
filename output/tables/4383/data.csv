@@ -1,0 +1,22 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_level_3,characteristic_hierarchy_depth,field_total,field_unincorporated_business_professional_practice_or_farm,field_incorporated_business_professional_practice_or_farm
+4383,r001,All employed scientists and engineers,All employed scientists and engineers,,,1,18.6,5.8,12.8
+4383,r002,Highest degree in S&E field,Highest degree in S&E field,,,1,18.6,5.7,12.9
+4383,r003,"Highest degree in S&E field -> Biological, agricultural, and environmental life sciences",Highest degree in S&E field,"Biological, agricultural, and environmental life sciences",,2,16.6,7.0,9.7
+4383,r004,Highest degree in S&E field -> Computer and mathematical sciences,Highest degree in S&E field,Computer and mathematical sciences,,2,16.0,3.5,12.6
+4383,r005,Highest degree in S&E field -> Physical sciences,Highest degree in S&E field,Physical sciences,,2,14.2,3.1,11.0
+4383,r006,Highest degree in S&E field -> Social sciences,Highest degree in S&E field,Social sciences,,2,20.9,8.1,12.8
+4383,r007,Highest degree in S&E field -> Engineering,Highest degree in S&E field,Engineering,,2,19.4,3.5,15.9
+4383,r008,S&E highest degree level,S&E highest degree level,,,1,,,
+4383,r009,S&E highest degree level -> Bachelor's,S&E highest degree level,Bachelor's,,2,19.7,6.0,13.7
+4383,r010,S&E highest degree level -> Master's,S&E highest degree level,Master's,,2,14.5,4.6,10.0
+4383,r011,S&E highest degree level -> Doctorate,S&E highest degree level,Doctorate,,2,10.9,4.4,6.6
+4383,r012,S&E highest degree level -> Professional,S&E highest degree level,Professional,,2,32.7,10.2,22.5
+4383,r013,Occupation,Occupation,,,1,,,
+4383,r014,Occupation -> S&E occupation,Occupation,S&E occupation,,2,12.8,2.5,10.2
+4383,r015,"Occupation -> S&E occupation -> Biological, agricultural, and environmental life scientists",Occupation,S&E occupation,"Biological, agricultural, and environmental life scientists",3,6.1,2.0,4.1
+4383,r016,Occupation -> S&E occupation -> Computer and mathematical scientists,Occupation,S&E occupation,Computer and mathematical scientists,3,12.9,1.9,11.0
+4383,r017,Occupation -> S&E occupation -> Physical scientists,Occupation,S&E occupation,Physical scientists,3,7.3,2.9,4.4
+4383,r018,Occupation -> S&E occupation -> Social scientists,Occupation,S&E occupation,Social scientists,3,12.5,8.0,4.5
+4383,r019,Occupation -> S&E occupation -> Engineers,Occupation,S&E occupation,Engineers,3,16.1,2.0,14.1
+4383,r020,Occupation -> S&E-related occupations,Occupation,S&E-related occupations,,2,17.2,4.7,12.6
+4383,r021,Occupation -> Non-S&E occupations,Occupation,Non-S&E occupations,,2,23.2,8.6,14.6

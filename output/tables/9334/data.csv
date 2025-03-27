@@ -1,0 +1,33 @@
+table_id,row_id,characteristics_full_path,characteristics_level_1,characteristics_level_2,characteristics_level_3,characteristics_level_4,characteristics_hierarchy_depth,field_federal_funding_only,field_nonfederal_funding_only,field_both_type_of_funding,field_ever_funded_by_nih,field_ever_funded_by_nsf,field_ever_funded_by_dod,field_ever_funded_by_doe,field_ever_funded_by_ed,field_ever_funded_by_hhs,field_ever_funded_by_nasa,field_ever_funded_by_other
+9334,r001,All doctorate recipients,All doctorate recipients,,,,1,40.9,16.4,42.7,33.5,37.8,11.1,10.7,5.9,4.0,2.5,82.9
+9334,r002,All doctorate recipients -> Field of study,All doctorate recipients,Field of study,,,2,,,,,,,,,,,
+9334,r003,All doctorate recipients -> Field of study ->  S&E fields,All doctorate recipients,Field of study, S&E fields,,3,42.2,12.9,44.9,36.8,40.8,12.2,12.0,2.7,3.8,2.8,86.3
+9334,r004,All doctorate recipients -> Field of study ->  S&E fields -> Life sciences,All doctorate recipients,Field of study, S&E fields,Life sciences,4,44.5,8.7,46.8,71.7,18.0,4.2,2.4,1.5,6.4,0.7,91.0
+9334,r005,All doctorate recipients -> Field of study ->  S&E fields -> Mathematics and computer sciences,All doctorate recipients,Field of study, S&E fields,Mathematics and computer sciences,4,54.4,7.2,38.4,13.0,78.1,16.3,6.8,1.4,1.7,,91.7
+9334,r006,All doctorate recipients -> Field of study ->  S&E fields -> Physical sciences and earth sciences,All doctorate recipients,Field of study, S&E fields,Physical sciences and earth sciences,4,47.1,10.6,42.3,25.0,56.0,14.9,25.4,1.5,0.9,7.0,89.2
+9334,r007,All doctorate recipients -> Field of study ->  S&E fields -> Psychology and social sciences,All doctorate recipients,Field of study, S&E fields,Psychology and social sciences,4,36.1,28.5,35.5,27.6,29.9,3.8,,12.1,6.5,1.1,71.3
+9334,r008,All doctorate recipients -> Field of study ->  S&E fields -> Engineering,All doctorate recipients,Field of study, S&E fields,Engineering,4,35.2,13.6,51.2,19.3,47.8,21.7,,0.8,2.3,,84.6
+9334,r009,All doctorate recipients -> Field of study -> Non-S&E fields,All doctorate recipients,Field of study,Non-S&E fields,,3,30.6,43.7,25.7,8.1,14.4,2.7,,30.7,5.3,,56.0
+9334,r010,All doctorate recipients -> Field of study -> Non-S&E fields -> Education,All doctorate recipients,Field of study,Non-S&E fields,Education,4,39.6,25.1,35.3,8.9,23.7,,,48.1,6.4,,74.7
+9334,r011,All doctorate recipients -> Field of study -> Non-S&E fields -> Humanities and arts,All doctorate recipients,Field of study,Non-S&E fields,Humanities and arts,4,23.5,60.0,16.5,2.2,4.7,4.3,,26.2,,,39.8
+9334,r012,All doctorate recipients -> Field of study -> Non-S&E fields -> Other non-S&E,All doctorate recipients,Field of study,Non-S&E fields,Other non-S&E,4,30.5,40.3,29.2,20.2,19.8,,,9.5,,,58.9
+9334,r013,All doctorate recipients -> Sex,All doctorate recipients,Sex,,,2,,,,,,,,,,,
+9334,r014,All doctorate recipients -> Sex -> Female,All doctorate recipients,Sex,Female,,3,42.0,18.5,39.5,41.4,29.6,6.4,5.5,8.9,5.9,1.8,81.1
+9334,r015,All doctorate recipients -> Sex -> Male,All doctorate recipients,Sex,Male,,3,40.2,15.0,44.9,28.3,43.4,14.4,14.2,3.9,2.7,3.0,84.2
+9334,r016,All doctorate recipients -> Race and ethnicity,All doctorate recipients,Race and ethnicity,,,2,,,,,,,,,,,
+9334,r017,All doctorate recipients -> Race and ethnicity -> Hispanic or Latino<sup>a</sup>,All doctorate recipients,Race and ethnicity,Hispanic or Latino<sup>a</sup>,,3,38.7,18.9,42.4,35.9,31.8,7.9,8.6,8.0,4.5,1.9,80.9
+9334,r018,All doctorate recipients -> Race and ethnicity -> Asian<sup>b</sup>,All doctorate recipients,Race and ethnicity,Asian<sup>b</sup>,,3,41.8,12.8,45.4,33.5,44.5,13.7,13.0,2.2,3.2,2.8,86.2
+9334,r019,All doctorate recipients -> Race and ethnicity -> Black or African American<sup>b</sup>,All doctorate recipients,Race and ethnicity,Black or African American<sup>b</sup>,,3,50.2,16.6,33.2,39.4,30.5,4.6,4.6,12.7,6.6,,82.6
+9334,r020,All doctorate recipients -> Race and ethnicity -> White<sup>b</sup>,All doctorate recipients,Race and ethnicity,White<sup>b</sup>,,3,39.8,17.7,42.5,33.6,35.1,10.0,9.7,7.6,4.3,2.5,81.7
+9334,r021,All doctorate recipients -> Race and ethnicity -> Other race<sup>c</sup>,All doctorate recipients,Race and ethnicity,Other race<sup>c</sup>,,3,42.4,20.0,37.6,31.1,35.0,11.6,10.8,6.1,3.7,,79.6
+9334,r022,All doctorate recipients -> Primary source of financial support,All doctorate recipients,Primary source of financial support,,,2,,,,,,,,,,,
+9334,r023,All doctorate recipients -> Primary source of financial support -> Teaching assistantships,All doctorate recipients,Primary source of financial support,Teaching assistantships,,3,41.1,28.2,30.7,18.5,40.3,7.1,4.4,10.2,3.0,0.8,71.4
+9334,r024,All doctorate recipients -> Primary source of financial support -> Research assistantships or traineeships,All doctorate recipients,Primary source of financial support,Research assistantships or traineeships,,3,39.2,9.5,51.4,33.4,43.4,15.1,16.4,3.5,4.0,3.4,89.4
+9334,r025,All doctorate recipients -> Primary source of financial support -> Fellowships or grants,All doctorate recipients,Primary source of financial support,Fellowships or grants,,3,44.3,17.0,38.7,45.2,31.5,7.0,6.6,5.5,4.3,2.5,82.6
+9334,r026,All doctorate recipients -> Primary source of financial support -> Own resources,All doctorate recipients,Primary source of financial support,Own resources,,3,35.2,34.5,30.3,25.7,17.2,3.9,,15.7,7.7,,64.8
+9334,r027,All doctorate recipients -> Primary source of financial support -> Other support,All doctorate recipients,Primary source of financial support,Other support,,3,41.6,19.2,39.2,31.5,33.1,13.4,,6.5,3.1,,80.4
+9334,r028,All doctorate recipients -> Graduate education-related debt,All doctorate recipients,Graduate education-related debt,,,2,,,,,,,,,,,
+9334,r029,All doctorate recipients -> Graduate education-related debt -> No debt,All doctorate recipients,Graduate education-related debt,No debt,,3,41.7,13.9,44.4,35.0,41.3,11.8,11.9,3.6,3.3,2.8,85.3
+9334,r030,"All doctorate recipients -> Graduate education-related debt -> $60,000 or less",All doctorate recipients,Graduate education-related debt,"$60,000 or less",,3,37.3,22.5,40.2,29.8,30.1,9.0,7.8,11.3,6.0,2.1,76.9
+9334,r031,"All doctorate recipients -> Graduate education-related debt -> $60,001 or more",All doctorate recipients,Graduate education-related debt,"$60,001 or more",,3,37.3,27.7,35.0,29.7,19.0,6.5,4.1,16.8,9.2,,71.5
+9334,r032,All doctorate recipients -> Graduate education-related debt -> Unknown debt,All doctorate recipients,Graduate education-related debt,Unknown debt,,3,44.5,17.5,38.0,32.0,35.5,12.7,10.8,7.0,2.4,,81.8

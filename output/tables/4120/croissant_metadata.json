@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Among fall 2009 students in grade 9 who took a mathematics or science course, percentage who reported various reasons for taking it, by sex and race or ethnicity: 2012",
+  "identifier": "NCSES-4120",
+  "description": "Among fall 2009 students in grade 9 who took a mathematics or science course, percentage who reported various reasons for taking it, by sex and race or ethnicity: 2012",
+  "url": "https://example.org/datasets/ncses/tables/4120",
+  "table_number": "SK12-26",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4120/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "reasons",
+      "description": "Reasons hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "reasons_level_1, reasons_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "reasons_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_students",
+      "description": "All Students",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_male",
+      "description": "Sex Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_female",
+      "description": "Sex Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_white",
+      "description": "Race Or Ethnicity White",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_black",
+      "description": "Race Or Ethnicity Black",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_hispanica",
+      "description": "Race Or Ethnicity Hispanica",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_asian",
+      "description": "Race Or Ethnicity Asian",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_other_or_two_or_more_races",
+      "description": "Race Or Ethnicity Other Or Two Or More Races",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the High School Longitudinal Study of 2009 (HSLS:09), First Follow-Up.Science and Engineering Indicators"
+}

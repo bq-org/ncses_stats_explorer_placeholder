@@ -1,0 +1,145 @@
+table_id,row_id,time_period,value
+10564,r001,World,190038
+10564,r002,World -> North America,43346
+10564,r003,World -> North America -> Canada,1776
+10564,r004,World -> North America -> Greenland,0
+10564,r005,World -> North America -> Mexico,62
+10564,r006,World -> North America -> United States,41507
+10564,r007,World -> Central America and Caribbean,29
+10564,r008,World -> Central America and Caribbean -> Barbados,4
+10564,r009,World -> Central America and Caribbean -> Bermuda,1
+10564,r010,World -> Central America and Caribbean -> British Virgin Islands,2
+10564,r011,World -> Central America and Caribbean -> Cayman Islands,3
+10564,r012,World -> Central America and Caribbean -> Costa Rica,14
+10564,r013,World -> Central America and Caribbean -> Cuba,1
+10564,r014,World -> Central America and Caribbean -> Dominican Republic,0
+10564,r015,World -> Central America and Caribbean -> El Salvador,0
+10564,r016,World -> Central America and Caribbean -> Guatemala,1
+10564,r017,World -> Central America and Caribbean -> Honduras,1
+10564,r018,World -> Central America and Caribbean -> Jamaica,1
+10564,r019,World -> Central America and Caribbean -> Nicaragua,0
+10564,r020,World -> Central America and Caribbean -> Panama,0
+10564,r021,World -> Central America and Caribbean -> Trinidad and Tobago,1
+10564,r022,World -> South America,280
+10564,r023,World -> South America -> Argentina,23
+10564,r024,World -> South America -> Brazil,219
+10564,r025,World -> South America -> Chile,15
+10564,r026,World -> South America -> Colombia,16
+10564,r027,World -> South America -> Ecuador,1
+10564,r028,World -> South America -> Paraguay,1
+10564,r029,World -> South America -> Peru,1
+10564,r030,World -> South America -> Uruguay,1
+10564,r031,World -> South America -> Venezuela,4
+10564,r032,World -> Europe,14371
+10564,r033,World -> Europe -> EU-27 and United Kingdom<sup>a</sup>,12060
+10564,r034,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> United Kingdom,2216
+10564,r035,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup>,9845
+10564,r036,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> European Patent Office,50
+10564,r037,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Austria,208
+10564,r038,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Belgium,210
+10564,r039,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Bulgaria,28
+10564,r040,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Croatia,8
+10564,r041,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Cyprus,8
+10564,r042,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Czechia,90
+10564,r043,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Denmark,199
+10564,r044,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Estonia,13
+10564,r045,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Finland,385
+10564,r046,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> France,1818
+10564,r047,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Germany,3875
+10564,r048,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Greece,68
+10564,r049,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Hungary,67
+10564,r050,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Ireland,424
+10564,r051,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Italy,517
+10564,r052,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Latvia,5
+10564,r053,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Lithuania,28
+10564,r054,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Luxembourg,23
+10564,r055,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Malta,14
+10564,r056,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Netherlands,658
+10564,r057,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Poland,118
+10564,r058,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Portugal,46
+10564,r059,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Reunion,1
+10564,r060,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Romania,94
+10564,r061,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Slovakia,26
+10564,r062,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Slovenia,14
+10564,r063,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Spain,336
+10564,r064,World -> Europe -> EU-27 and United Kingdom<sup>a</sup> -> EU-27<sup>b</sup> -> Sweden,516
+10564,r065,World -> Europe -> Other Europe,2311
+10564,r066,World -> Europe -> Other Europe (2020)<sup>b</sup>,4527
+10564,r067,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Andorra,0
+10564,r068,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Armenia,9
+10564,r069,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Azerbaijan,1
+10564,r070,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Belarus,23
+10564,r071,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Bosnia and Herzegovina,1
+10564,r072,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Georgia,3
+10564,r073,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Gibraltar,0
+10564,r074,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Iceland,8
+10564,r075,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Liechtenstein,0
+10564,r076,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Macedonia,1
+10564,r077,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Moldova,3
+10564,r078,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Monaco,4
+10564,r079,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Norway,100
+10564,r080,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Russia,1327
+10564,r081,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Serbia,11
+10564,r082,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Switzerland,671
+10564,r083,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Turkey,64
+10564,r084,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Ukraine,85
+10564,r085,World -> Europe -> Other Europe (2020)<sup>b</sup> -> Yugoslavia,0
+10564,r086,World -> Asia,127973
+10564,r087,World -> Asia -> Bangladesh,1
+10564,r088,World -> Asia -> Brunei,1
+10564,r089,World -> Asia -> Cambodia,1
+10564,r090,World -> Asia -> China,91436
+10564,r091,World -> Asia -> India,3043
+10564,r092,World -> Asia -> Indonesia,8
+10564,r093,World -> Asia -> Japan,12944
+10564,r094,World -> Asia -> Kazakhstan,2
+10564,r095,World -> Asia -> Kyrgyzstan,0
+10564,r096,World -> Asia -> Macau,6
+10564,r097,World -> Asia -> Malaysia,106
+10564,r098,World -> Asia -> Mongolia,1
+10564,r099,World -> Asia -> Nepal,2
+10564,r100,World -> Asia -> North Korea,1
+10564,r101,World -> Asia -> Pakistan,10
+10564,r102,World -> Asia -> Philippines,20
+10564,r103,World -> Asia -> Singapore,302
+10564,r104,World -> Asia -> South Korea,17262
+10564,r105,World -> Asia -> Sri Lanka,4
+10564,r106,World -> Asia -> Taiwan,2793
+10564,r107,World -> Asia -> Tajikistan,1
+10564,r108,World -> Asia -> Thailand,7
+10564,r109,World -> Asia -> Uzbekistan,2
+10564,r110,World -> Asia -> Vietnam,21
+10564,r111,World -> Middle East,2007
+10564,r112,World -> Middle East -> Bahrain,1
+10564,r113,World -> Middle East -> Iran,16
+10564,r114,World -> Middle East -> Israel,1786
+10564,r115,World -> Middle East -> Jordan,1
+10564,r116,World -> Middle East -> Kuwait,2
+10564,r117,World -> Middle East -> Lebanon,1
+10564,r118,World -> Middle East -> Oman,1
+10564,r119,World -> Middle East -> Palestine,0
+10564,r120,World -> Middle East -> Qatar,8
+10564,r121,World -> Middle East -> Saudi Arabia,156
+10564,r122,World -> Middle East -> United Arab Emirates,34
+10564,r123,World -> Middle East -> Yemen,1
+10564,r124,World -> Africa,126
+10564,r125,World -> Africa -> Algeria,1
+10564,r126,World -> Africa -> Egypt,20
+10564,r127,World -> Africa -> Eritrea,0
+10564,r128,World -> Africa -> Gabon,0
+10564,r129,World -> Africa -> Gambia,0
+10564,r130,World -> Africa -> Ghana,0
+10564,r131,World -> Africa -> Kenya,23
+10564,r132,World -> Africa -> Mauritania,1
+10564,r133,World -> Africa -> Morocco,15
+10564,r134,World -> Africa -> Namibia,2
+10564,r135,World -> Africa -> Nigeria,3
+10564,r136,World -> Africa -> South Africa,58
+10564,r137,World -> Africa -> Sudan,1
+10564,r138,World -> Africa -> Tunisia,3
+10564,r139,World -> Africa -> Uganda,0
+10564,r140,World -> Australia and Oceania,1901
+10564,r141,World -> Australia and Oceania -> Australia,1834
+10564,r142,World -> Australia and Oceania -> Marshall Islands,0
+10564,r143,World -> Australia and Oceania -> New Zealand,67
+10564,r144,World -> World Intellectual Property Organization,4

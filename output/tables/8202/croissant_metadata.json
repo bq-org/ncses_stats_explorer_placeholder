@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. residing employed doctoral scientists and engineers in 4-year educational institutions, by broad field of doctorate, primary work activity, and secondary work activity: 2021",
+  "identifier": "NCSES-8202",
+  "description": "U.S. residing employed doctoral scientists and engineers in 4-year educational institutions, by broad field of doctorate, primary work activity, and secondary work activity: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8202",
+  "table_number": "23",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8202/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_160_primary_160_work_160_activity",
+      "description": "Field of study and\u00a0primary\u00a0work\u00a0activity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_study_and_160_primary_160_work_160_activity_level_1, field_of_study_and_160_primary_160_work_160_activity_level_2, field_of_study_and_160_primary_160_work_160_activity_level_3, field_of_study_and_160_primary_160_work_160_activity_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_study_and_160_primary_160_work_160_activity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_160_primary_160_work_160_activity_full_path",
+      "description": "Of Study And 160 Primary 160 Work 160 Activity Full Path",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_160_primary_160_work_160_activity_level_1",
+      "description": "Of Study And 160 Primary 160 Work 160 Activity Level 1",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_160_primary_160_work_160_activity_level_2",
+      "description": "Of Study And 160 Primary 160 Work 160 Activity Level 2",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_160_primary_160_work_160_activity_level_3",
+      "description": "Of Study And 160 Primary 160 Work 160 Activity Level 3",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_160_primary_160_work_160_activity_level_4",
+      "description": "Of Study And 160 Primary 160 Work 160 Activity Level 4",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_study_and_160_primary_160_work_160_activity_hierarchy_depth",
+      "description": "Of Study And 160 Primary 160 Work 160 Activity Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_number",
+      "description": "All Employed Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_se",
+      "description": "All Employed Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_computer_applications_number",
+      "description": "Secondary Work Activity Computer Applications Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_computer_applications_se",
+      "description": "Secondary Work Activity Computer Applications Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_design_number",
+      "description": "Secondary Work Activity Design Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_design_se",
+      "description": "Secondary Work Activity Design Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_management_sales_or_administrationa_number",
+      "description": "Secondary Work Activity Management Sales Or Administrationa Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_management_sales_or_administrationa_se",
+      "description": "Secondary Work Activity Management Sales Or Administrationa Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_r_db_number",
+      "description": "Secondary Work Activity R Db Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_r_db_se",
+      "description": "Secondary Work Activity R Db Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_teaching_number",
+      "description": "Secondary Work Activity Teaching Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_teaching_se",
+      "description": "Secondary Work Activity Teaching Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_otherc_number",
+      "description": "Secondary Work Activity Otherc Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_otherc_se",
+      "description": "Secondary Work Activity Otherc Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_none_number",
+      "description": "Secondary Work Activity None Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_secondary_work_activity_none_se",
+      "description": "Secondary Work Activity None Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 50. Standard errors are rounded up to the nearest 25. Detail may not add to total because of rounding. Four-year educational institutions include 4-year colleges or universities, medical schools (including university-affiliated hospitals or medical centers), and university-affiliated research institutes. Primary and secondary work activities were self-defined by the respondent in response to the question: \"On which two activities...did you work the most hours during a typical week on this job?\" Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

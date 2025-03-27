@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed college graduates, by level of highest degree, minor occupation, and primary work activity: 2021",
+  "identifier": "NCSES-7772",
+  "description": "Employed college graduates, by level of highest degree, minor occupation, and primary work activity: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7772",
+  "table_number": "3-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7772/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "level_of_highest_degree_and_occupation",
+      "description": "Level of highest degree and occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "level_of_highest_degree_and_occupation_level_1, level_of_highest_degree_and_occupation_level_2, level_of_highest_degree_and_occupation_level_3, level_of_highest_degree_and_occupation_level_4, level_of_highest_degree_and_occupation_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "level_of_highest_degree_and_occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_computer_applications",
+      "description": "Primary Work Activity Computer Applications",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_design",
+      "description": "Primary Work Activity Design",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_management_and_administrationa",
+      "description": "Primary Work Activity Management And Administrationa",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_research_and_developmentb",
+      "description": "Primary Work Activity Research And Developmentb",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_teaching",
+      "description": "Primary Work Activity Teaching",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_primary_work_activity_otherc",
+      "description": "Primary Work Activity Otherc",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2021."
+}

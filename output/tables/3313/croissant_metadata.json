@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed scientists and engineers, by highest degree level, occupation, ethnicity, and race: 2019",
+  "identifier": "NCSES-3313",
+  "description": "Employed scientists and engineers, by highest degree level, occupation, ethnicity, and race: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3313",
+  "table_number": "9-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3313/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "highest_degree_and_occupation",
+      "description": "Highest degree and occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "highest_degree_and_occupation_level_1, highest_degree_and_occupation_level_2, highest_degree_and_occupation_level_3, highest_degree_and_occupation_level_4, highest_degree_and_occupation_level_5, highest_degree_and_occupation_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "highest_degree_and_occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_ethnicities_and_races",
+      "description": "All Ethnicities And Races",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinoa",
+      "description": "Hispanic Or Latinoa",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_american_indian_or_alaska_native",
+      "description": "Not Hispanic Or Latino American Indian Or Alaska Native",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_asian",
+      "description": "Not Hispanic Or Latino Asian",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_black_or_african_american",
+      "description": "Not Hispanic Or Latino Black Or African American",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_native_hawaiian_or_other_pacific_islander",
+      "description": "Not Hispanic Or Latino Native Hawaiian Or Other Pacific Islander",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_white",
+      "description": "Not Hispanic Or Latino White",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_more_than_one_race",
+      "description": "Not Hispanic Or Latino More Than One Race",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to nearest 1,000. Detail may not add to total because of rounding and suppression. Scientists and engineers are individuals under the age of 76 who have a bachelor's or higher degree, are living in the United States, and have an S&E or S&E-related degree or occupation.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2019."
+}

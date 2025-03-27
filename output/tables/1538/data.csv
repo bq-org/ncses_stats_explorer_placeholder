@@ -1,0 +1,24 @@
+table_id,row_id,mathematics_and_science_preparation_full_path,mathematics_and_science_preparation_level_1,mathematics_and_science_preparation_level_2,mathematics_and_science_preparation_hierarchy_depth,field_occupation_stw,field_occupation_non_stw,field_median_standardized_hourly_wage_a_most_recent_stw_job,field_median_standardized_hourly_wage_a_most_recent_non_stw_job
+1538,r001,<b>Mathematics preparation</b>,<b>Mathematics preparation</b>,,1,,,,
+1538,r002,Mathematics achievement test score,Mathematics achievement test score,,1,,,,
+1538,r003,Mathematics achievement test score -> Lowest fifth,Mathematics achievement test score,Lowest fifth,2,13.0,87.0,9.86,9.9
+1538,r004,Mathematics achievement test score -> Middle three-fifths,Mathematics achievement test score,Middle three-fifths,2,13.9,86.1,11.04,9.95
+1538,r005,Mathematics achievement test score -> Highest fifth,Mathematics achievement test score,Highest fifth,2,13.1,86.9,s,9.88
+1538,r006,Highest mathematics course taken,Highest mathematics course taken,,1,,,,
+1538,r007,Highest mathematics course taken -> Algebra 1 or below or none,Highest mathematics course taken,Algebra 1 or below or none,2,11.0,89.0,10.49,9.96
+1538,r008,Highest mathematics course taken -> Geometry,Highest mathematics course taken,Geometry,2,15.3,84.7,9.95,9.5
+1538,r009,Highest mathematics course taken -> Algebra 2 or trigonometry,Highest mathematics course taken,Algebra 2 or trigonometry,2,12.5,87.5,11.13,9.87
+1538,r010,Highest mathematics course taken -> Precalculus or higher,Highest mathematics course taken,Precalculus or higher,2,15.6,84.4,10.41,9.96
+1538,r011,GPA in mathematics,GPA in mathematics,,1,,,,
+1538,r012,GPA in mathematics -> Less than 2.50,GPA in mathematics,Less than 2.50,2,13.4,86.6,10.45,9.95
+1538,r013,GPA in mathematics -> 2.50&#8211;2.99,GPA in mathematics,2.50&#8211;2.99,2,16.4,83.6,11.08,9.82
+1538,r014,GPA in mathematics -> 3.00 or higher,GPA in mathematics,3.00 or higher,2,12.3,87.7,14.21,9.96
+1538,r015,<b>Science preparation</b>,<b>Science preparation</b>,,1,,,,
+1538,r016,Highest science course taken,Highest science course taken,,1,,,,
+1538,r017,Highest science course taken -> General science or none,Highest science course taken,General science or none,2,13.1,86.9,10.98,9.95
+1538,r018,Highest science course taken -> Specialty science,Highest science course taken,Specialty science,2,13.2,86.8,10.58,9.87
+1538,r019,Highest science course taken -> Advanced or AP/IB science,Highest science course taken,Advanced or AP/IB science,2,22.4,77.6,s,9.73
+1538,r020,GPA in science,GPA in science,,1,,,,
+1538,r021,GPA in science -> Less than 2.50,GPA in science,Less than 2.50,2,13.8,86.2,10.76,9.94
+1538,r022,GPA in science -> 2.50&#8211;2.99,GPA in science,2.50&#8211;2.99,2,14.4,85.6,12.18,9.9
+1538,r023,GPA in science -> 3.00 or higher,GPA in science,3.00 or higher,2,9.8,90.2,s,9.97

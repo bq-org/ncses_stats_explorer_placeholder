@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Share of S&E publications in the top 1% most-cited journal articles in computer and information sciences, whole count, by region, country, or economy: 1996\u20132018",
+  "identifier": "NCSES-4936",
+  "description": "Share of S&E publications in the top 1% most-cited journal articles in computer and information sciences, whole count, by region, country, or economy: 1996\u20132018",
+  "url": "https://example.org/datasets/ncses/tables/4936",
+  "table_number": "SPBS-79",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4936/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) of the author(s) listed in the article. Articles are credited on a whole count basis (i.e., for articles produced by authors from different countries, each country receives one credit). Fractional counting may be used for some articles to ensure that the total sums to 1%. Citation data are based on all citations made to articles in their publication year and all following years and are normalized by subfield and publication year to allow for comparisons across subfields and over time, resulting in the world level standing at 1% for each subfield and year. The impact of conference proceedings is excluded from this calculation. A minimum 2-year citation window is needed for a score to be computed. This results in scores regarding highly cited articles not being computed after 2018 because the citation window for more recent years is not yet complete. The share of articles in the top 1% is computed as follows: Sx = HCAx / Ax, where Sx is the share of output from country x in the top 1% most-cited articles; HCAx is the number of articles from country x that are among the top 1% of most-cited articles; and Ax is the total number of articles from country x with a relative citation (RC) score, which excludes articles released after 2018 and unclassified publications. The RC score takes into consideration the citation behavior between fields and years of publication. Cells in which the region, country, or economy is cited at or above the world average for that year are shaded green.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed May 2021.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

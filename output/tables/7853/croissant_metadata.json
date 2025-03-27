@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Costs for new construction of research animal space in academic institutions, by type of institution and time of construction: FYs 2006\u201321",
+  "identifier": "NCSES-7853",
+  "description": "Costs for new construction of research animal space in academic institutions, by type of institution and time of construction: FYs 2006\u201321",
+  "url": "https://example.org/datasets/ncses/tables/7853",
+  "table_number": "13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7853/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_type_of_institution_b",
+      "description": "Type of institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_type_of_institution_b_level_1, _b_type_of_institution_b_level_2, _b_type_of_institution_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_type_of_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2006_or_fy_2007",
+      "description": "Started In Fy 2006 Or Fy 2007",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2008_or_fy_2009",
+      "description": "Started In Fy 2008 Or Fy 2009",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2010_or_fy_2011",
+      "description": "Started In Fy 2010 Or Fy 2011",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2012_or_fy_2013",
+      "description": "Started In Fy 2012 Or Fy 2013",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2014_or_fy_2015",
+      "description": "Started In Fy 2014 Or Fy 2015",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2016_or_fy_2017",
+      "description": "Started In Fy 2016 Or Fy 2017",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2018_or_fy_2019",
+      "description": "Started In Fy 2018 Or Fy 2019",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2020_or_fy_2021",
+      "description": "Started In Fy 2020 Or Fy 2021",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities."
+}

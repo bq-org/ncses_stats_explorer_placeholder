@@ -1,0 +1,25 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_percent
+5529,r001,Sex,Sex,,1,
+5529,r002,Sex -> Female,Sex,Female,2,48.1
+5529,r003,Sex -> Male,Sex,Male,2,51.9
+5529,r004,Region,Region,,1,
+5529,r005,Region -> Northeast,Region,Northeast,2,19.4
+5529,r006,Region -> Midwest,Region,Midwest,2,22.4
+5529,r007,Region -> South,Region,South,2,38.2
+5529,r008,Region -> West,Region,West,2,20.0
+5529,r009,Region -> Other,Region,Other,2,0.0
+5529,r010,Education,Education,,1,
+5529,r011,Education -> Less than high school,Education,Less than high school,2,0.3
+5529,r012,Education -> High school or GED,Education,High school or GED,2,6.3
+5529,r013,Education -> Some college,Education,Some college,2,19.7
+5529,r014,Education -> 2-year college degree,Education,2-year college degree,2,16.1
+5529,r015,Education -> 4-year college degree,Education,4-year college degree,2,39.4
+5529,r016,Education -> Postgraduate degree,Education,Postgraduate degree,2,18.2
+5529,r017,Race or ethnicity,Race or ethnicity,,1,
+5529,r018,Race or ethnicity -> White or Caucasian,Race or ethnicity,White or Caucasian,2,83.6
+5529,r019,Race or ethnicity -> African American,Race or ethnicity,African American,2,10.7
+5529,r020,Race or ethnicity -> Asian American,Race or ethnicity,Asian American,2,8.1
+5529,r021,Race or ethnicity -> American Indian or Alaska Native,Race or ethnicity,American Indian or Alaska Native,2,3.0
+5529,r022,Race or ethnicity -> Native Hawaiian or Pacific Islander,Race or ethnicity,Native Hawaiian or Pacific Islander,2,2.1
+5529,r023,Race or ethnicity -> Hispanic or Latino,Race or ethnicity,Hispanic or Latino,2,7.5
+5529,r024,Mean age (years),Mean age (years),,1,39.1

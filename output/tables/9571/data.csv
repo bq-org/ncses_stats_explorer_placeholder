@@ -1,0 +1,162 @@
+table_id,row_id,variable_name,variable_description,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022
+9571,r001,AADEGRN,Number of associate’s degrees received,na,na,na,na,90.3,93.5,93.6,93.7,93.7,93.0
+9571,r002,AAEMONTH,First associate’s degree start month,na,na,na,na,96.9,96.2,95.2,96.0,97.1,96.9
+9571,r003,AAEYEAR,First associate’s degree start year,na,na,na,na,97.6,96.3,95.8,96.5,98.2,98.3
+9571,r004,AAFIELD,First associate's degree field – SED historical FOS code,na,na,na,na,85.0,94.4,95.1,95.0,98.7,98.2
+9571,r005,AAFIELDCIP,First associate’s degree field – SED CIP code,na,na,na,na,na,na,na,na,98.7,98.2
+9571,r006,AAINST,First associate's degree institution (IPEDS code),na,na,na,na,93.4,92.0,97.6,98.4,95.7,96.2
+9571,r007,AAMONTH,First associate’s degree month,na,na,na,na,97.6,96.7,95.9,96.5,96.9,96.5
+9571,r008,AANID,First associate’s degree institution (NCSES institution code),na,na,na,na,93.3,92.0,97.6,98.4,95.7,96.2
+9571,r009,AAYEAR,First associate’s degree year,na,na,na,na,98.3,97.0,96.7,97.1,99.5,100.0
+9571,r010,AGEDOC,Age at doctorate,na,na,92.1,94.1,94.6,95.1,94.8,94.4,93.4,93.2
+9571,r011,AMERIND,American Indian or Alaska Native race indicator,91.9,90.2,91.0,93.0,92.8,93.2,93.3,93.2,92.2,92.2
+9571,r012,ASIAN,Asian race indicator,91.9,90.2,91.0,93.0,92.8,93.2,93.3,93.2,92.2,92.2
+9571,r013,BA2EMONTH,Most recent baccalaureate start month,na,na,na,na,89.9,92.3,94.4,94.4,98.6,98.6
+9571,r014,BA2EYEAR,Most recent baccalaureate start year,na,na,na,na,90.2,92.3,94.6,94.4,99.1,99.2
+9571,r015,BA2FIELD,Most recent baccalaureate degree field – SED historical FOS code,na,na,na,na,89.7,91.6,94.4,94.2,98.2,98.4
+9571,r016,BA2FIELDCIP,Most recent baccalaureate field – SED CIP code,na,na,na,na,na,na,na,na,98.2,98.4
+9571,r017,BA2INST,Most recent baccalaureate institution (IPEDS code),na,na,na,na,88.5,90.5,94.5,95.0,96.9,98.0
+9571,r018,BA2MONTH,Most recent baccalaureate month,na,na,na,na,90.0,92.4,94.4,94.5,98.6,98.5
+9571,r019,BA2NID,Most recent baccalaureate institution (NCSES institution code),na,na,na,na,88.5,90.5,94.5,95.0,96.9,98.0
+9571,r020,BA2YEAR,Most recent baccalaureate year,na,na,na,na,90.4,92.6,94.7,94.6,99.7,100.0
+9571,r021,BADBLFIELD,First baccalaureate double major field – SED historical FOS code,na,na,na,na,96.4,98.4,98.7,98.6,99.6,99.8
+9571,r022,BADBLFIELDCIP,First baccalaureate double major field – SED CIP code,na,na,na,na,na,na,na,na,99.6,99.8
+9571,r023,BADBLMAJ,First baccalaureate double major indicator,na,na,na,na,89.5,91.0,91.1,91.1,90.0,90.0
+9571,r024,BADEGRN,Number of bachelor’s degrees received,na,na,na,na,91.1,98.4,99.0,98.6,97.0,96.5
+9571,r025,BAEMONTH,First baccalaureate start month,na,87.0,87.0,89.0,89.6,90.7,90.7,90.8,89.7,89.6
+9571,r026,BAEYEARa,First baccalaureate start year,88.8,87.3,87.3,89.4,89.7,90.7,90.7,90.7,90.1,90.1
+9571,r027,BAFIELD,First baccalaureate field – SED historical FOS code,89.5,87.9,87.9,89.7,90.4,90.7,90.9,90.9,90.4,90.2
+9571,r028,BAFIELDCIP,First baccalaureate field – SED CIP code,na,na,na,na,na,na,na,na,90.4,90.2
+9571,r029,BAINST,First baccalaureate institution (IPEDS code) ,92.2,90.2,91.0,92.9,93.6,94.4,95.5,94.6,93.9,94.0
+9571,r030,BAMONTH,First baccalaureate month,89.2,87.7,87.6,89.4,89.7,90.8,90.8,90.9,89.7,89.6
+9571,r031,BANID,First baccalaureate institution (NCSES institution code),92.2,90.2,91.0,92.9,93.6,94.4,95.5,94.6,93.9,94.0
+9571,r032,BANONEb,No bachelor’s and/ or master's degree indicator,20.4,21.4,21.7,22.4,85.5,91.7,91.8,91.8,92.3,92.1
+9571,r033,BAPLCD,First baccalaureate institution location,92.2,90.2,91.0,92.9,93.6,94.4,95.5,94.6,93.9,94.0
+9571,r034,BASAME,First baccalaureate SED-CIP based broad FOS is same as doctorate SED-CIP based broad FOS,na,na,na,na,na,na,na,na,90.5,90.2
+9571,r035,BAYEAR,First baccalaureate year,92.3,90.3,90.8,93.1,94.4,94.9,95.4,94.9,95.1,94.7
+9571,r036,BIRTHMO,Month of birth,92.5,90.7,91.6,93.2,93.9,94.6,94.4,93.9,92.8,92.7
+9571,r037,BIRTHPLCD,Place of birth,93.5,91.9,92.1,94.5,95.1,96.0,96.5,96.7,94.7,94.1
+9571,r038,BIRTHYR,Year of birth,93.1,91.3,92.1,94.1,94.5,95.1,94.8,94.4,93.4,93.2
+9571,r039,BLACK,Black race indicator,91.9,90.2,91.0,93.0,92.8,93.2,93.3,93.2,92.2,92.2
+9571,r040,CITIZ,Type of citizenship,94.2,92.3,93.3,95.2,95.4,96.1,96.3,95.9,95.1,95.4
+9571,r041,CITIZPLCDc,Country of citizenship,93.8,92.1,93.1,94.8,95.0,95.2,95.2,95.2,94.3,94.4
+9571,r042,DDSDEG,Earned a professional dental degree,88.8,87.6,87.9,88.3,88.6,89.7,89.4,89.2,88.8,89.5
+9571,r043,DDSSTUDY,Earning a professional dental degree,88.8,87.6,87.9,88.3,88.6,89.7,89.4,89.2,88.8,89.5
+9571,r044,DEPEND18,Number of dependents-ages 6–18,89.5,88.4,88.3,89.7,90.1,90.8,90.7,90.8,89.8,89.6
+9571,r045,DEPEND19,Number of dependents-ages 19 and older,89.5,88.4,88.3,89.7,90.1,90.8,90.7,90.8,89.8,89.6
+9571,r046,DEPEND5,Number of dependents-ages 5 or younger,89.5,88.4,88.3,89.7,90.1,90.8,90.7,90.8,89.8,89.6
+9571,r047,DIFAGE,Earliest age experienced difficulties,90.8,89.4,89.4,90.9,89.9,90.4,90.5,90.3,88.8,88.5
+9571,r048,DIFCOGN,"Degree of difficulty concentrating, remembering, or making decisions",91.0,89.6,89.6,91.1,90.1,90.6,90.7,90.5,89.1,88.9
+9571,r049,DIFHEAR,Degree of difficulty hearing,91.0,89.6,89.6,91.1,90.1,90.6,90.7,90.5,89.1,88.9
+9571,r050,DIFLIFT,Degree of difficulty lifting,91.0,89.6,89.6,91.1,90.1,90.6,90.7,90.5,89.1,88.9
+9571,r051,DIFSEE,Degree of difficulty seeing,91.0,89.6,89.6,91.1,90.1,90.6,90.7,90.5,89.1,88.9
+9571,r052,DIFWALK,Degree of difficulty walking,91.0,89.6,89.6,91.1,90.1,90.6,90.7,90.5,89.1,88.9
+9571,r053,DISABILITY2,Moderate or greater degree of difficulty in any domain,91.0,89.6,89.6,91.1,90.1,90.6,90.7,90.5,89.1,88.9
+9571,r054,DOCCODE,Type of doctorate,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+9571,r055,EDFATHER,Father/ male guardian's education,90.0,88.6,88.4,89.9,89.9,89.4,88.7,88.5,87.1,87.1
+9571,r056,EDMOTHER,Mother/ female guardian's education,90.1,88.6,88.5,89.9,90.0,89.8,89.3,89.1,87.7,87.7
+9571,r057,GDEBTLVL,Graduate debt level,89.7,88.2,90.1,93.1,92.3,92.7,93.4,93.5,92.6,91.7
+9571,r058,GEMONTH,Month of graduate program entry,88.5,90.1,89.7,90.7,90.3,92.0,92.0,92.0,91.8,91.8
+9571,r059,GEYEAR,Year of graduate program entry,88.7,90.3,89.9,90.9,90.4,92.0,92.0,92.1,91.9,91.9
+9571,r060,HAWAIIAN,Native Hawaiian or Other Pacific Islander race indicator,91.9,90.2,91.0,93.0,92.8,93.2,93.3,93.2,92.2,92.2
+9571,r061,HISPANIC,Hispanic origin indicator,92.1,90.3,91.5,93.0,93.7,94.7,94.7,94.6,93.6,93.3
+9571,r062,HSPLCD,Place of high school,91.2,89.7,89.5,91.6,90.1,90.5,90.7,97.3,96.1,95.4
+9571,r063,JRCOLL,Junior college indicator,92.6,91.1,90.8,93.4,93.2,93.8,94.1,94.3,93.0,92.2
+9571,r064,MA1CRED,Credits from first master’s degree counted toward doctoral degree,na,na,na,na,97.6,99.5,99.4,99.9,99.7,99.9
+9571,r065,MA1EMONTH,First master’s degree start month,na,na,na,na,99.6,98.9,98.5,98.3,98.5,98.3
+9571,r066,MA1EYEAR,First master’s degree start year,na,na,na,na,99.7,99.0,98.7,98.3,99.2,99.2
+9571,r067,MA1FIELD,First master's degree field – SED historical FOS code,na,na,na,na,99.4,98.8,98.8,98.5,99.5,99.2
+9571,r068,MA1FIELDCIP,First master’s degree field – SED CIP code,na,na,na,na,na,na,na,na,99.5,99.2
+9571,r069,MA1INST,First master’s degree institution (IPEDS code),na,na,na,na,97.9,97.8,98.8,98.4,94.1,98.6
+9571,r070,MA1MONTH,First master’s degree month,na,na,na,na,99.8,98.9,98.7,98.4,98.2,97.8
+9571,r071,MA1NID,First master’s degree institution (NCSES institution code),na,na,na,na,97.9,97.8,98.8,98.4,94.1,98.6
+9571,r072,MA1PART,First master’s degree was required for doctoral program,na,na,na,na,98.4,99.4,99.1,98.6,99.4,99.1
+9571,r073,MA1YEAR,First master’s degree year,na,na,na,na,99.9,99.0,98.9,98.4,99.9,99.9
+9571,r074,MACRED,Credits from most recent master’s degree counted toward doctoral degree,na,na,na,na,99.2,99.8,99.9,99.9,99.9,99.9
+9571,r075,MADEGRN,Number of master's degrees received,na,na,na,na,99.3,93.8,94.0,94.1,92.3,92.1
+9571,r076,MAEMONTH,Most recent master's degree start month,na,67.8,67.5,68.7,87.8,88.6,88.8,88.8,88.7,88.4
+9571,r077,MAEYEARb,Most recent master's degree start year,na,68.0,67.7,68.9,87.9,88.7,88.8,88.8,89.1,88.9
+9571,r078,MAFIELD,Most recent master's degree field – SED historical FOS code,70.1,68.6,68.3,69.3,87.9,88.7,88.8,89.0,89.4,89.0
+9571,r079,MAFIELDCIP,Most recent master’s degree field – SED CIP code,na,na,na,na,na,na,na,na,89.4,89.0
+9571,r080,MAINST,Most recent master's degree institution (IPEDS code),70.0,68.5,68.0,69.2,88.2,88.3,88.9,89.0,88.9,88.6
+9571,r081,MAMONTH,Most recent master's degree month,69.9,68.3,68.0,69.1,87.9,88.7,88.9,88.9,88.5,88.3
+9571,r082,MANIDb,Most recent master's degree institution (NCSES institution code),70.0,68.5,68.0,69.2,88.2,88.3,88.9,89.0,88.9,88.6
+9571,r083,MAPART,Most recent master’s degree was required for doctoral program,na,na,na,na,87.6,88.5,88.8,88.9,89.0,88.7
+9571,r084,MARITAL,Marital status,90.4,89.0,88.9,90.5,90.3,90.9,90.8,90.8,89.9,89.7
+9571,r085,MASAME,First master's SED-CIP based broad FOS is same as doctorate SED-CIP based broad FOS,na,na,na,na,na,na,na,na,89.4,89.0
+9571,r086,MAYEAR,Most recent master's degree year,70.3,68.7,68.2,69.4,88.8,88.8,89.1,89.0,89.9,89.5
+9571,r087,MDDEG,Earned a professional medical degree,88.8,87.6,87.9,88.3,83.7,89.6,89.4,89.2,88.8,89.5
+9571,r088,MDSTUDY,Earning a professional medical degree,88.8,87.6,87.9,88.3,83.7,89.6,89.4,89.2,88.8,89.5
+9571,r089,MEDDENT,Additional professional medical or dental degree,90.4,89.1,89.2,90.5,90.6,91.5,91.5,91.5,90.8,90.8
+9571,r090,MSPREREQ,Prerequisite master's degree for doctoral program,90.7,89.2,89.1,90.8,88.0,89.0,89.0,89.0,89.1,88.9
+9571,r091,PDEMPLOY,Postgraduation employer type,99.0,99.5,99.3,98.1,99.7,98.8,98.8,98.8,99.0,98.8
+9571,r092,PDFACULTY,Employment in faculty position,na,na,na,na,na,61.2,63.9,63.3,57.9,57.2
+9571,r093,PDFORGNb,Postgraduation affiliation with a non-U.S. college or university,3.7,3.4,3.1,3.2,89.0,90.5,90.6,90.6,90.1,89.8
+9571,r094,PDOCCODEb,Postgraduation institution affiliation in the U.S. (IPEDS code),28.4,26.7,26.1,26.4,78.9,87.1,89.2,90.2,89.4,89.2
+9571,r095,PDOCNIDb,Postgraduation institution affiliation in the U.S. (NCSES institution identification code),28.4,26.7,26.1,26.4,78.9,87.1,89.2,90.2,89.4,89.2
+9571,r096,PDOCPLAN,Postgraduation plans,92.5,91.7,91.5,95.2,97.6,99.8,99.9,99.9,99.9,99.8
+9571,r097,PDOCSTAT,Postgraduation status,90.8,89.3,89.3,90.9,90.8,91.4,91.4,91.4,90.9,90.7
+9571,r098,PDPLCD,Postgraduation location,91.6,90.0,90.0,92.2,92.4,93.1,93.2,92.8,92.4,91.9
+9571,r099,PDSAMEEMPb,Postgraduation employer was employer before or during doctoral studies,na,na,na,na,6.9,51.3,55.4,55.2,52.7,55.5
+9571,r100,PDSAMEPOSEMP,Employment in same position with same employer worked during doctoral studies,na,na,na,na,na,95.4,99.8,99.7,na,na
+9571,r101,PDSEEKNEWEMP,Postgraduation plan to seek new employment,na,na,na,na,na,99.5,99.1,99.5,na,na
+9571,r102,PDSTDSUP,Postdoctoral study support,96.7,97.5,97.8,95.5,96.9,97.0,96.5,96.8,96.8,98.1
+9571,r103,PDUSFOR,Postgraduation location: U.S. or foreign,91.6,90.0,90.0,92.2,92.4,93.1,93.2,92.8,92.4,91.9
+9571,r104,PDWK1ED,Edited primary work activity,90.7,90.8,90.5,91.3,97.7,98.6,98.8,98.7,98.8,98.6
+9571,r105,PDWK2ED,Edited secondary work activity,50.2,49.8,49.4,50.6,93.2,96.5,96.8,96.9,97.5,97.2
+9571,r106,PDWKPRIM,Primary work activity,90.7,90.8,90.5,91.3,97.7,98.6,98.8,98.7,98.8,98.6
+9571,r107,PDWKSEC,Secondary work activity,50.2,49.8,49.4,50.6,93.2,96.5,96.8,96.9,97.5,97.2
+9571,r108,PHDCY,Calendar year of doctorate,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+9571,r109,PHDDISS,Dissertation field - SED historical FOS code,91.6,90.2,90.0,91.6,91.1,91.6,91.4,91.5,91.6,91.5
+9571,r110,PHDDISS2b,Secondary dissertation field – SED historical FOS code,36.2,35.0,35.0,41.0,86.7,89.9,90.1,90.2,90.6,91.2
+9571,r111,PHDDISS2CIP,Secondary dissertation field – SED CIP code,na,na,na,na,na,na,na,na,90.6,91.2
+9571,r112,PHDDISSCIP,Dissertation field – SED CIP code,na,na,na,na,na,na,na,na,91.6,91.5
+9571,r113,PHDEMONTH,Doctoral program start month,na,89.6,89.6,91.2,91.3,91.7,91.8,91.7,91.7,91.6
+9571,r114,PHDEYEARd,Doctoral program start year,90.9,89.9,89.7,91.4,91.3,91.7,91.8,91.8,91.6,91.6
+9571,r115,PHDFIELD,Doctoral field – SED historical FOS code,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+9571,r116,PHDFIELDCIP,Doctoral field – SED CIP code,na,na,na,na,na,na,na,na,100.0,100.0
+9571,r117,PHDFY,Fiscal year of doctorate,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+9571,r118,PHDINST,Doctoral institution  (IPEDS code),100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+9571,r119,PHDMONTH,Month of doctorate,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+9571,r120,PHDNID,Doctoral institution (NCSES institution code),100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+9571,r121,POSTDOC,Intention to take postdoc position,91.1,89.6,89.6,91.5,na,na,na,na,na,na
+9571,r122,PROFDEGb,Type of professional doctorate,0.8,0.9,1.0,1.0,96.0,100.0,100.0,100.0,100.0,99.9
+9571,r123,PROFEARN,Earned or earning a professional doctoral degree,na,na,na,na,90.7,91.5,91.5,91.5,90.8,90.8
+9571,r124,PROFEMONTH,Professional doctorate start month,na,na,na,na,99.7,99.3,99.4,99.6,90.1,93.4
+9571,r125,PROFEYEAR,Professional doctorate start year,na,na,na,na,99.8,99.1,99.4,99.7,90.2,93.3
+9571,r126,PROFINST,Professional doctorate institution (IPEDS code),na,na,na,na,98.0,98.2,98.5,99.6,96.5,97.7
+9571,r127,PROFMONTH,Professional doctorate month,na,na,na,na,99.8,99.2,99.4,99.5,98.5,98.8
+9571,r128,PROFNID,Professional doctorate institution (NCSES institution code),na,na,na,na,99.2,98.2,98.5,99.6,96.5,97.7
+9571,r129,PROFYEARb,Professional doctorate year,0.8,0.9,0.9,1.0,99.7,99.0,99.4,99.6,99.6,99.5
+9571,r130,QUESTMON,Month of survey completion,na,na,90.0,92.0,93.2,92.2,92.2,92.2,91.6,91.6
+9571,r131,QUESTYR,Year of survey completion,92.0,90.6,90.3,92.0,93.4,92.2,92.2,92.2,91.6,91.6
+9571,r132,RACE,Edited race or ethnicity code,93.2,91.4,92.4,94.3,94.6,95.5,95.7,95.5,95.1,94.9
+9571,r133,RACE2,Edited ethnicity or race code (NSF-revised),93.2,91.4,92.4,94.3,94.9,95.5,95.7,95.5,95.1,94.9
+9571,r134,SALARYR,Range of expected basic annual salary,87.6,88.7,88.7,89.3,97.3,96.3,96.3,96.1,96.1,96.1
+9571,r135,SALARYV,Expected basic annual salary,36.8,76.9,83.9,85.5,94.2,93.2,93.1,93.5,92.8,93.0
+9571,r136,SALMONTH,Number of months expected basic annual salary covers,88.7,89.0,88.9,89.1,95.2,96.5,96.4,96.3,96.9,97.1
+9571,r137,SEEKEMPBUS,Seeking or negotiating position in business or industry,na,na,na,na,na,98.8,98.9,98.8,98.8,98.8
+9571,r138,SEEKEMPCHOICE,Top choice of employer seeking or negotiating,na,na,na,na,na,97.7,97.7,97.5,97.6,98.2
+9571,r139,SEEKEMPEDU,Seeking or negotiating position at an educational institution,na,na,na,na,na,98.8,98.9,98.8,98.8,98.8
+9571,r140,SEEKEMPGOV,Seeking or negotiating position in government,na,na,na,na,na,98.8,98.9,98.8,98.8,98.8
+9571,r141,SEEKEMPNPO,Seeking or negotiating position in nonprofit organization,na,na,na,na,na,98.8,98.9,98.8,98.8,98.8
+9571,r142,SEEKEMPOTHR,Seeking or negotiating position in other sector,na,na,na,na,na,98.8,98.9,98.8,98.8,98.8
+9571,r143,SEEKEMPSTAT,Employment status while seeking or negotiating employment,na,na,na,na,na,98.9,98.9,98.9,98.8,98.7
+9571,r144,SEEKPOSEMP,Seeking or negotiating an employment position other than a postdoc,na,na,na,na,na,99.0,99.0,99.0,98.9,98.9
+9571,r145,SEEKPOSOTHR,Seeking or negotiating other position,na,na,na,na,na,99.0,99.0,99.0,98.9,98.9
+9571,r146,SEEKPOSPDOC,Seeking or negotiating a postdoc position,na,na,na,na,na,99.0,99.0,99.0,98.9,98.9
+9571,r147,SEX,Sex of doctorate recipient,100.0,99.7,100.0,100.0,100.0,99.9,100.0,100.0,100.0,100.0
+9571,r148,SRCE1ED,Edited primary source of support,90.7,89.7,89.5,91.2,90.0,90.7,90.6,90.7,90.2,90.2
+9571,r149,SRCEPRIM,Primary source of support,90.7,89.7,89.5,91.2,90.0,90.7,90.6,90.7,90.2,90.2
+9571,r150,SRCESEC,Secondary source of support,79.6,79.2,78.8,83.0,78.5,80.1,80.4,86.1,88.6,88.4
+9571,r151,TICEPHD,Time in from college entry to doctorate,88.8,87.3,87.3,89.4,89.7,90.7,90.7,90.7,90.1,90.1
+9571,r152,TOBAGE,Time out between baccalaureate to graduate school entry,87.2,87.2,87.2,88.5,87.4,88.5,88.6,88.5,87.3,87.1
+9571,r153,TTDBAPHD,Total time elapsed from baccalaureate to doctorate,92.3,90.3,90.8,93.1,94.4,94.9,95.4,94.8,95.1,94.6
+9571,r154,TTDDOC,Total elapsed time in doctorate,na,89.9,89.8,91.5,91.3,91.6,91.7,91.7,91.6,91.6
+9571,r155,TTDGEPHD,Total time elapsed from graduate entry to doctorate,88.7,90.3,89.9,90.9,90.3,92.0,92.0,92.1,91.9,91.8
+9571,r156,TUITREMS,Tuition remission-full or partial,91.2,90.0,89.8,91.4,91.0,91.7,91.6,91.6,91.3,91.2
+9571,r157,UDEBTLVL,Undergraduate debt level,86.1,84.7,90.9,93.7,92.6,93.1,93.4,93.5,92.6,91.8
+9571,r158,WHITE,White race indicator,91.9,90.2,91.0,93.0,92.8,93.2,93.3,93.2,92.2,92.2
+9571,r159,YRSCOURS,Years of doctoral coursework,90.4,89.0,89.0,90.5,89.8,na,na,na,na,na
+9571,r160,YRSDISST,Years preparing doctorate dissertation,90.5,89.0,89.0,90.5,89.7,na,na,na,na,na
+9571,r161,YRSNOTWRK,Years not working on doctoral degree,90.8,89.2,89.2,90.8,90.9,na,na,na,na,na

@@ -1,0 +1,45 @@
+table_id,row_id,institution_type_and_field_full_path,institution_type_and_field_level_1,institution_type_and_field_level_2,institution_type_and_field_level_3,institution_type_and_field_level_4,institution_type_and_field_level_5,institution_type_and_field_level_6,institution_type_and_field_hierarchy_depth,field_2006,field_2007,field_2008,field_2009,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016
+1151,r001,Number,Number,,,,,,1,,,,,,,,,,,
+1151,r002,All institutions,All institutions,,,,,,1,,,,,,,,,,,
+1151,r003,All institutions -> All fields ,All institutions,All fields ,,,,,2,133743,137566,142576,145988,152404,161005,172869,179517,180812,182778,185880
+1151,r004,All institutions -> All fields  -> S&E,All institutions,All fields ,S&E,,,,3,40108,40401,41263,41822,43428,46341,49696,52165,52647,53649,54432
+1151,r005,All institutions -> All fields  -> S&E -> Science,All institutions,All fields ,S&E,Science,,,4,36899,37237,38162,38726,40346,43244,46478,48660,49048,49797,50226
+1151,r006,All institutions -> All fields  -> S&E -> Science -> Agricultural sciences,All institutions,All fields ,S&E,Science,Agricultural sciences,,5,485,481,557,510,595,575,704,744,852,856,932
+1151,r007,All institutions -> All fields  -> S&E -> Science -> Biological sciences,All institutions,All fields ,S&E,Science,Biological sciences,,5,5366,5857,6003,6253,6434,6677,7073,7494,7663,8250,8804
+1151,r008,All institutions -> All fields  -> S&E -> Science -> Computer sciences,All institutions,All fields ,S&E,Science,Computer sciences,,5,5275,4588,4011,3868,4066,4418,4851,5497,5472,5746,5658
+1151,r009,"All institutions -> All fields  -> S&E -> Science -> Earth, atmospheric, and ocean sciences",All institutions,All fields ,S&E,Science,"Earth, atmospheric, and ocean sciences",,5,58,79,89,88,97,105,119,134,143,166,155
+1151,r010,All institutions -> All fields  -> S&E -> Science -> Mathematical sciences,All institutions,All fields ,S&E,Science,Mathematical sciences,,5,847,832,796,842,834,821,964,1015,1022,1016,1007
+1151,r011,All institutions -> All fields  -> S&E -> Science -> Physical sciences,All institutions,All fields ,S&E,Science,Physical sciences,,5,1040,1043,1084,1133,1088,1125,1305,1259,1320,1252,1239
+1151,r012,All institutions -> All fields  -> S&E -> Science -> Psychology,All institutions,All fields ,S&E,Science,Psychology,,5,9097,9729,10271,10541,11066,11643,12712,13413,13617,14022,14187
+1151,r013,All institutions -> All fields  -> S&E -> Science -> Social sciences,All institutions,All fields ,S&E,Science,Social sciences,,5,14731,14628,15351,15491,16166,17880,18750,19104,18959,18489,18244
+1151,r014,All institutions -> All fields  -> S&E -> Engineering ,All institutions,All fields ,S&E,Engineering ,,,4,3209,3164,3101,3096,3082,3097,3218,3505,3599,3852,4206
+1151,r015,All institutions -> All fields  -> Non-S&E,All institutions,All fields ,Non-S&E,,,,3,93635,97165,101313,104166,108976,114664,123173,127352,128165,129129,131448
+1151,r016,All institutions -> HBCUs,All institutions,HBCUs,,,,,2,,,,,,,,,,,
+1151,r017,All institutions -> HBCUs -> All fields ,All institutions,HBCUs,All fields ,,,,3,26620,26650,27143,27013,26897,27689,28956,28273,27882,27406,27572
+1151,r018,All institutions -> HBCUs -> All fields  -> S&E,All institutions,HBCUs,All fields ,S&E,,,4,8600,8566,8395,8375,8343,8846,8848,8801,8886,8686,8560
+1151,r019,All institutions -> HBCUs -> All fields  -> S&E -> Science,All institutions,HBCUs,All fields ,S&E,Science,,5,7961,7918,7827,7737,7724,8232,8235,8063,8195,7918,7838
+1151,r020,All institutions -> HBCUs -> All fields  -> S&E -> Science -> Agricultural sciences,All institutions,HBCUs,All fields ,S&E,Science,Agricultural sciences,6,218,185,211,192,221,201,226,238,283,236,260
+1151,r021,All institutions -> HBCUs -> All fields  -> S&E -> Science -> Biological sciences,All institutions,HBCUs,All fields ,S&E,Science,Biological sciences,6,1731,1871,1805,1859,1869,1931,1984,1963,2061,2022,2173
+1151,r022,All institutions -> HBCUs -> All fields  -> S&E -> Science -> Computer sciences,All institutions,HBCUs,All fields ,S&E,Science,Computer sciences,6,1182,969,723,719,716,711,694,693,704,732,686
+1151,r023,"All institutions -> HBCUs -> All fields  -> S&E -> Science -> Earth, atmospheric, and ocean sciences",All institutions,HBCUs,All fields ,S&E,Science,"Earth, atmospheric, and ocean sciences",6,6,9,9,9,12,12,9,11,18,12,9
+1151,r024,All institutions -> HBCUs -> All fields  -> S&E -> Science -> Mathematical sciences,All institutions,HBCUs,All fields ,S&E,Science,Mathematical sciences,6,278,281,244,248,271,278,284,306,297,286,257
+1151,r025,All institutions -> HBCUs -> All fields  -> S&E -> Science -> Physical sciences,All institutions,HBCUs,All fields ,S&E,Science,Physical sciences,6,367,390,371,440,398,370,436,416,421,380,344
+1151,r026,All institutions -> HBCUs -> All fields  -> S&E -> Science -> Psychology,All institutions,HBCUs,All fields ,S&E,Science,Psychology,6,1919,1958,2067,1973,2013,2081,2263,2143,2152,2128,2090
+1151,r027,All institutions -> HBCUs -> All fields  -> S&E -> Science -> Social sciences,All institutions,HBCUs,All fields ,S&E,Science,Social sciences,6,2260,2255,2397,2297,2224,2648,2339,2293,2259,2122,2019
+1151,r028,All institutions -> HBCUs -> All fields  -> S&E -> Engineering ,All institutions,HBCUs,All fields ,S&E,Engineering ,,5,639,648,568,638,619,614,613,738,691,768,722
+1151,r029,All institutions -> HBCUs -> All fields  -> Non-S&E,All institutions,HBCUs,All fields ,Non-S&E,,,4,18020,18084,18748,18638,18554,18843,20108,19472,18996,18720,19012
+1151,r030,Percent,Percent,,,,,,1,,,,,,,,,,,
+1151,r031,HBCUs,HBCUs,,,,,,1,,,,,,,,,,,
+1151,r032,HBCUs -> All fields ,HBCUs,All fields ,,,,,2,19.9,19.4,19.0,18.5,17.6,17.2,16.8,15.7,15.4,15.0,14.8
+1151,r033,HBCUs -> All fields  -> S&E,HBCUs,All fields ,S&E,,,,3,21.4,21.2,20.3,20.0,19.2,19.1,17.8,16.9,16.9,16.2,15.7
+1151,r034,HBCUs -> All fields  -> S&E -> Science,HBCUs,All fields ,S&E,Science,,,4,21.6,21.3,20.5,20.0,19.1,19.0,17.7,16.6,16.7,15.9,15.6
+1151,r035,HBCUs -> All fields  -> S&E -> Science -> Agricultural sciences,HBCUs,All fields ,S&E,Science,Agricultural sciences,,5,44.9,38.5,37.9,37.6,37.1,35.0,32.1,32.0,33.2,27.6,27.9
+1151,r036,HBCUs -> All fields  -> S&E -> Science -> Biological sciences,HBCUs,All fields ,S&E,Science,Biological sciences,,5,32.3,31.9,30.1,29.7,29.0,28.9,28.1,26.2,26.9,24.5,24.7
+1151,r037,HBCUs -> All fields  -> S&E -> Science -> Computer sciences,HBCUs,All fields ,S&E,Science,Computer sciences,,5,22.4,21.1,18.0,18.6,17.6,16.1,14.3,12.6,12.9,12.7,12.1
+1151,r038,"HBCUs -> All fields  -> S&E -> Science -> Earth, atmospheric, and ocean sciences",HBCUs,All fields ,S&E,Science,"Earth, atmospheric, and ocean sciences",,5,10.3,11.4,10.1,10.2,12.4,11.4,7.6,8.2,12.6,7.2,5.8
+1151,r039,HBCUs -> All fields  -> S&E -> Science -> Mathematical sciences,HBCUs,All fields ,S&E,Science,Mathematical sciences,,5,32.8,33.8,30.7,29.5,32.5,33.9,29.5,30.1,29.1,28.1,25.5
+1151,r040,HBCUs -> All fields  -> S&E -> Science -> Physical sciences ,HBCUs,All fields ,S&E,Science,Physical sciences ,,5,35.3,37.4,34.2,38.8,36.6,32.9,33.4,33.0,31.9,30.4,27.8
+1151,r041,HBCUs -> All fields  -> S&E -> Science -> Psychology,HBCUs,All fields ,S&E,Science,Psychology,,5,21.1,20.1,20.1,18.7,18.2,17.9,17.8,16.0,15.8,15.2,14.7
+1151,r042,HBCUs -> All fields  -> S&E -> Science -> Social sciences,HBCUs,All fields ,S&E,Science,Social sciences,,5,15.3,15.4,15.6,14.8,13.8,14.8,12.5,12.0,11.9,11.5,11.1
+1151,r043,HBCUs -> All fields  -> S&E -> Engineering ,HBCUs,All fields ,S&E,Engineering ,,,4,19.9,20.5,18.3,20.6,20.1,19.8,19.0,21.1,19.2,19.9,17.2
+1151,r044,HBCUs -> All fields  -> Non-S&E,HBCUs,All fields ,Non-S&E,,,,3,19.2,18.6,18.5,17.9,17.0,16.4,16.3,15.3,14.8,14.5,14.5

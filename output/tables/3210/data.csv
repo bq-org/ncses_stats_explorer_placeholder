@@ -1,0 +1,9 @@
+table_id,row_id,_b_survey_population_and_type_of_subrecipient_b_full_path,_b_survey_population_and_type_of_subrecipient_b_level_1,_b_survey_population_and_type_of_subrecipient_b_level_2,_b_survey_population_and_type_of_subrecipient_b_level_3,_b_survey_population_and_type_of_subrecipient_b_hierarchy_depth,field_total_all_r_d_expenditures,field_total_imputed_amount,field_total_imputed_amount_as_of_total,field_federally_financed_all_r_d_expenditures,field_federally_financed_imputed_amount,field_federally_financed_imputed_amount_as_of_total
+3210,r001,Standard form institutions,Standard form institutions,,,1,,,,,,
+3210,r002,Standard form institutions -> All subrecipients<sup>a</sup>,Standard form institutions,All subrecipients<sup>a</sup>,,2,6708,11,0.2,5695,10,0.2
+3210,r003,Standard form institutions -> All subrecipients<sup>a</sup> -> To educational subrecipients,Standard form institutions,All subrecipients<sup>a</sup>,To educational subrecipients,3,3728,551,14.8,3284,458,14.0
+3210,r004,Standard form institutions -> All subrecipients<sup>a</sup> -> To businesses,Standard form institutions,All subrecipients<sup>a</sup>,To businesses,3,1207,190,15.7,961,151,15.8
+3210,r005,Standard form institutions -> All subrecipients<sup>a</sup> -> To nonprofit organizations,Standard form institutions,All subrecipients<sup>a</sup>,To nonprofit organizations,3,1182,160,13.5,996,124,12.4
+3210,r006,Standard form institutions -> All subrecipients<sup>a</sup> -> To other pass-through entities,Standard form institutions,All subrecipients<sup>a</sup>,To other pass-through entities,3,590,128,21.6,454,93,20.4
+3210,r007,Short form institutions<sup>b</sup>,Short form institutions<sup>b</sup>,,,1,,,,,,
+3210,r008,Short form institutions<sup>b</sup> -> To educational subrecipients,Short form institutions<sup>b</sup>,To educational subrecipients,,2,3,0,8.0,3,0,3.3

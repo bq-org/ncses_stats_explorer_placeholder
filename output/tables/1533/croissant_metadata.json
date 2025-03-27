@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average scores of students in grade 8 on the NAEP technology and engineering literacy assessment, by student characteristics: 2014 and 2018",
+  "identifier": "NCSES-1533",
+  "description": "Average scores of students in grade 8 on the NAEP technology and engineering literacy assessment, by student characteristics: 2014 and 2018",
+  "url": "https://example.org/datasets/ncses/tables/1533",
+  "table_number": "1-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1533/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "student_characteristic",
+      "description": "Student characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "student_characteristic_level_1, student_characteristic_level_2, student_characteristic_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "student_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The scale for NAEP technology and engineering literacy assessment scores is 0\u2013300.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, special tabulations (2018) of the 2014 and 2018 NAEP Technology and Engineering Literacy assessment, National Center for Education Statistics, Department of Education.Science and Engineering Indicators"
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Indexes of internationally coauthored S&E publications, by selected region, country, or economy pairs: 2003 and 2022",
+  "identifier": "NCSES-10006",
+  "description": "Indexes of internationally coauthored S&E publications, by selected region, country, or economy pairs: 2003 and 2022",
+  "url": "https://example.org/datasets/ncses/tables/10006",
+  "table_number": "SPBS-38",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10006/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Index"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Article counts refer to publications from a selection of journals and conference proceedings in S&E from Scopus. Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) of the author(s) listed in the article. Articles are credited on a whole count basis (i.e., each collaborating region, country, or economy is credited with one count). Regions, countries, or economies that have contributed to less than 1% of all internationally coauthored articles in 2022 are omitted. The index of collaboration is calculated as follows: ICxy = (Cxy / Cx) / (Cy / Cw), where ICxy = index of collaboration between country x and country y, Cxy = number of papers coauthored between country x and country y, Cx = total number of international coauthorships by country x, Cy = total number of international coauthorships by country y, and Cw = total number of international coauthorships in the database. Shaded cells show region, country, or economic pairs that collaborate at or above the world average (i.e., index equal or greater than 1).",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed April 2023.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

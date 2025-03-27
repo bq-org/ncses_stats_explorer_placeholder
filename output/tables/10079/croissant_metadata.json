@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Higher education R&D expenditures, by source of funds: FY 2022",
+  "identifier": "NCSES-10079",
+  "description": "Higher education R&D expenditures, by source of funds: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/10079",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10079/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "source_of_funds",
+      "description": "Source of funds hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "source_of_funds_level_1, source_of_funds_level_2, source_of_funds_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "source_of_funds_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field__of_total",
+      "description": " Of Total",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Other includes all other agencies reported. This table includes only institutions reporting $1 million or more in total R&D expenditures in FY 2021. Institutions reporting less than $1 million in total R&D expenditures in FY 2021 completed a shorter version of the survey form in FY 2022 that did not include the question on specific agency funding sources. Total expenditures from institutions reporting less than $1 million in R&D in FY 2022 was $162 million.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average CIL and CT scores of U.S. students in grade 8, by sex, race or ethnicity, and school poverty level: 2018",
+  "identifier": "NCSES-4104",
+  "description": "Average CIL and CT scores of U.S. students in grade 8, by sex, race or ethnicity, and school poverty level: 2018",
+  "url": "https://example.org/datasets/ncses/tables/4104",
+  "table_number": "SK12-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4104/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "race_or_ethnicity",
+      "description": "Race or ethnicity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "race_or_ethnicity_level_1, race_or_ethnicity_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "race_or_ethnicity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_average_cil_score",
+      "description": "Average Cil Score",
+      "valueType": "string",
+      "unitText": "Average score"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_average_ct_score",
+      "description": "Average Ct Score",
+      "valueType": "string",
+      "unitText": "Average score"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The scale of CIL and CT scores is 100\u2013700.",
+  "sources": "International Association for the Evaluation of Educational Achievement (IEA), International Computer and Information Literacy Study (ICILS), 2018. https://nces.ed.gov/surveys/icils/icils2018/theme1.asp?tabontop. Science and Engineering Indicators"
+}

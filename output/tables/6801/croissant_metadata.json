@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Estimated demographic composition of job importance classes: 2017",
+  "identifier": "NCSES-6801",
+  "description": "Estimated demographic composition of job importance classes: 2017",
+  "url": "https://example.org/datasets/ncses/tables/6801",
+  "table_number": "9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6801/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "proportions_characteristic",
+      "description": "Proportions hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "proportions_level_1, proportions_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Class proportions in a row that do not share a letter are statistically different at the 0.005 level. Population proportions are provided for reference only. Class 1: Everything Is Very Important, Class 2: Challenge Is More Important than Salary, Class 3: Benefits Are More Important than Responsibility, Class 4: Everything Is Somewhat Important, Class 5: Advancement Is Unimportant.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2017.",
+  "temporalCoverage": "19/20"
+}

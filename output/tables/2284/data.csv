@@ -1,0 +1,37 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_scientific_inquirya,field_probabilityb,field_experimentc,field_scientific_studyd
+2284,r001,"All adults (<i>n</i> = 1,175)","All adults (<i>n</i> = 1,175)",,1,43,65,49,24
+2284,r002,Sex,Sex,,1,,,,
+2284,r003,Sex -> Male (<i>n</i> = 485),Sex,Male (<i>n</i> = 485),2,41,66,47,22
+2284,r004,Sex -> Female (<i>n</i> = 690),Sex,Female (<i>n</i> = 690),2,44,65,51,26
+2284,r005,Formal education,Formal education,,1,,,,
+2284,r006,Formal education -> Less than high school diploma (<i>n</i> = 137),Formal education,Less than high school diploma (<i>n</i> = 137),2,12,39,19,6
+2284,r007,Formal education -> High school diploma (<i>n</i> = 362),Formal education,High school diploma (<i>n</i> = 362),2,33,60,38,14
+2284,r008,Formal education -> Some college (<i>n</i> = 330),Formal education,Some college (<i>n</i> = 330),2,43,71,49,26
+2284,r009,Formal education -> Bachelor's degree (<i>n</i> = 232),Formal education,Bachelor's degree (<i>n</i> = 232),2,64,76,71,36
+2284,r010,Formal education -> Graduate or professional degree (<i>n</i> = 114),Formal education,Graduate or professional degree (<i>n</i> = 114),2,67,77,79,52
+2284,r011,"Science and mathematics education<sup>e,f</sup>","Science and mathematics education<sup>e,f</sup>",,1,,,,
+2284,r012,"Science and mathematics education<sup>e,f</sup> -> Low (<i>n</i> = 598)","Science and mathematics education<sup>e,f</sup>",Low (<i>n</i> = 598),2,29,57,36,13
+2284,r013,"Science and mathematics education<sup>e,f</sup> -> Middle (<i>n</i> = 237)","Science and mathematics education<sup>e,f</sup>",Middle (<i>n</i> = 237),2,48,70,55,32
+2284,r014,"Science and mathematics education<sup>e,f</sup> -> High (<i>n</i> = 252)","Science and mathematics education<sup>e,f</sup>",High (<i>n</i> = 252),2,74,86,78,47
+2284,r015,Family income (quartile)<sup>f</sup>,Family income (quartile)<sup>f</sup>,,1,,,,
+2284,r016,Family income (quartile)<sup>f</sup> -> Bottom (<i>n</i> = 227),Family income (quartile)<sup>f</sup>,Bottom (<i>n</i> = 227),2,29,56,34,18
+2284,r017,Family income (quartile)<sup>f</sup> -> Third (<i>n</i> = 223),Family income (quartile)<sup>f</sup>,Third (<i>n</i> = 223),2,41,65,46,25
+2284,r018,Family income (quartile)<sup>f</sup> -> Second (<i>n</i> = 290),Family income (quartile)<sup>f</sup>,Second (<i>n</i> = 290),2,40,63,51,23
+2284,r019,Family income (quartile)<sup>f</sup> -> Top (<i>n</i> = 287),Family income (quartile)<sup>f</sup>,Top (<i>n</i> = 287),2,60,77,65,34
+2284,r020,Age (years)<sup>f</sup>,Age (years)<sup>f</sup>,,1,,,,
+2284,r021,Age (years)<sup>f</sup> -> 18&#8211;24 (<i>n</i> = 94),Age (years)<sup>f</sup>,18&#8211;24 (<i>n</i> = 94),2,41,66,52,24
+2284,r022,Age (years)<sup>f</sup> -> 25&#8211;34 (<i>n</i> = 225),Age (years)<sup>f</sup>,25&#8211;34 (<i>n</i> = 225),2,47,65,55,30
+2284,r023,Age (years)<sup>f</sup> -> 35&#8211;44 (<i>n</i> = 206),Age (years)<sup>f</sup>,35&#8211;44 (<i>n</i> = 206),2,48,70,55,27
+2284,r024,Age (years)<sup>f</sup> -> 45&#8211;54 (<i>n</i> = 190),Age (years)<sup>f</sup>,45&#8211;54 (<i>n</i> = 190),2,43,68,49,23
+2284,r025,Age (years)<sup>f</sup> -> 55&#8211;64 (<i>n</i> = 186),Age (years)<sup>f</sup>,55&#8211;64 (<i>n</i> = 186),2,43,67,45,24
+2284,r026,Age (years)<sup>f</sup> -> 65 or older (<i>n</i> = 269),Age (years)<sup>f</sup>,65 or older (<i>n</i> = 269),2,32,56,39,18
+2284,r027,Verbal ability<sup>g</sup>,Verbal ability<sup>g</sup>,,1,,,,
+2284,r028,Verbal ability<sup>g</sup> -> 0&#8211;4 (<i>n</i> = 256),Verbal ability<sup>g</sup>,0&#8211;4 (<i>n</i> = 256),2,18,41,25,7
+2284,r029,Verbal ability<sup>g</sup> -> 5 (<i>n</i> = 210),Verbal ability<sup>g</sup>,5 (<i>n</i> = 210),2,35,65,43,15
+2284,r030,Verbal ability<sup>g</sup> -> 6 (<i>n</i> = 254),Verbal ability<sup>g</sup>,6 (<i>n</i> = 254),2,47,70,54,22
+2284,r031,Verbal ability<sup>g</sup> -> 7 (<i>n</i> = 205),Verbal ability<sup>g</sup>,7 (<i>n</i> = 205),2,49,69,59,35
+2284,r032,Verbal ability<sup>g</sup> -> 8&#8211;10 (<i>n</i> = 250),Verbal ability<sup>g</sup>,8&#8211;10 (<i>n</i> = 250),2,67,84,68,46
+2284,r033,Correct answers to questions about basic scientific facts<sup>h</sup>,Correct answers to questions about basic scientific facts<sup>h</sup>,,1,,,,
+2284,r034,Correct answers to questions about basic scientific facts<sup>h</sup> -> Low (<i>n</i> = 227),Correct answers to questions about basic scientific facts<sup>h</sup>,Low (<i>n</i> = 227),2,12,43,21,6
+2284,r035,Correct answers to questions about basic scientific facts<sup>h</sup> -> Middle (<i>n</i> = 512),Correct answers to questions about basic scientific facts<sup>h</sup>,Middle (<i>n</i> = 512),2,35,58,44,15
+2284,r036,Correct answers to questions about basic scientific facts<sup>h</sup> -> High (<i>n</i> = 436),Correct answers to questions about basic scientific facts<sup>h</sup>,High (<i>n</i> = 436),2,66,84,68,44

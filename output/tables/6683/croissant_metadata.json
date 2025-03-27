@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Americans' understanding of the scientific method: 2020",
+  "identifier": "NCSES-6683",
+  "description": "Americans' understanding of the scientific method: 2020",
+  "url": "https://example.org/datasets/ncses/tables/6683",
+  "table_number": "SPPS-16",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6683/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "indicator_of_scientific_method_understanding",
+      "description": "Indicator of scientific method understanding hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "indicator_of_scientific_method_understanding_level_1, indicator_of_scientific_method_understanding_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "indicator_of_scientific_method_understanding_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Responses are to the following:- Based on what you have heard or read, which of the following statements best describes the scientific method?The scientific method produces findings meant to be continually tested and updated over time.The scientific method identifies unchanging core principles and truths.Not sure- Which of the following best describes what you think about the scientific method?The scientific method generally produces accurate conclusions.The scientific method can be used to produce any conclusion the research wants.- A scientist is conducting a study to determine how well a new medication treats ear infections. The scientist tells the participants to put 10 drops in their infected ear each day. After 2 weeks, all participants' ear infections had healed.\u00a0Which of the following changes to the design of this study would most improve the ability to test if the new medication effectively treats ear infections?Create a second group of participants with ear infections who do not use any ear drops.Create a second group of participants with ear infections who use 15 drops a day.Have participants use ear drops for only 1 week.Have participants put ear drops in both their infected ear and healthy ear.Not sure- The time a computer takes to start has increased dramatically. One possible explanation for this is that the computer is running out of memory.\u00a0This explanation is a scientific\u2026HypothesisConclusionExperimentObservationNot sure",
+  "sources": "Pew Research Center, American Trends Panel (2020), Wave 79, conducted 18\u201329 November 2020. Data provided to the authors by the center prior to public release. Science and Engineering Indicators"
+}

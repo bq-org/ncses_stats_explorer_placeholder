@@ -1,0 +1,25 @@
+table_id,row_id,school_characteristic_full_path,school_characteristic_level_1,school_characteristic_level_2,school_characteristic_level_3,school_characteristic_hierarchy_depth,field_all_teachers_school_has_additional_academic_period_when_students_can_use_computers_and_internet_for_homework,field_all_teachers_district_or_school_provides_mobile_hotspots_students_take_home,field_all_teachers_students_take_home_a_district_or_school_provided_computeron_long_term_basis,field_teachers_whose_students_take_home_a_district_or_school_provided_computer_who_have_some_students_not_able_to_take_a_computer_homea,field_teachers_whose_students_do_not_have_a_district_or_school_provided_computer_to_take_homeb_students_can_borrow_school_computers_to_take_home_on_short_term_basis,field_teachers_whose_students_do_not_have_a_district_or_school_provided_computer_to_take_homeb_students_can_access_school_computers_outside_of_class_time_e_g_before_or_after_school_at_lunch_in_special_periods_
+4130,r001,<b>All teachers </b>,<b>All teachers </b>,,,1,36,8,26,40,8,81
+4130,r002,<b>All teachers </b> -> Instructional level<sup>c</sup> ,<b>All teachers </b>,Instructional level<sup>c</sup> ,,2,,,,,,
+4130,r003,<b>All teachers </b> -> Instructional level<sup>c</sup>  -> Primary school ,<b>All teachers </b>,Instructional level<sup>c</sup> ,Primary school ,3,23,6,9,49,4,69
+4130,r004,<b>All teachers </b> -> Instructional level<sup>c</sup>  -> Middle school ,<b>All teachers </b>,Instructional level<sup>c</sup> ,Middle school ,3,43,9,30,48,7,87
+4130,r005,<b>All teachers </b> -> Instructional level<sup>c</sup>  -> High school ,<b>All teachers </b>,Instructional level<sup>c</sup> ,High school ,3,45,11,42,32,15,96
+4130,r006,<b>All teachers </b> -> Instructional level<sup>c</sup>  -> Other school ,<b>All teachers </b>,Instructional level<sup>c</sup> ,Other school ,3,48,s,20,48,9,86
+4130,r007,<b>All teachers </b> -> Enrollment size ,<b>All teachers </b>,Enrollment size ,,2,,,,,,
+4130,r008,<b>All teachers </b> -> Enrollment size  -> Less than 300 ,<b>All teachers </b>,Enrollment size ,Less than 300 ,3,49,5 ! ,23,59,13,83
+4130,r009,<b>All teachers </b> -> Enrollment size  -> 300&#8211;499 ,<b>All teachers </b>,Enrollment size ,300&#8211;499 ,3,29,6 ! ,20,44,5,76
+4130,r010,<b>All teachers </b> -> Enrollment size  -> 500&#8211;999 ,<b>All teachers </b>,Enrollment size ,500&#8211;999 ,3,34,7,22,47,6,76
+4130,r011,"<b>All teachers </b> -> Enrollment size  -> 1,000 or more ",<b>All teachers </b>,Enrollment size ,"1,000 or more ",3,40,12,36,28,12,93
+4130,r012,<b>All teachers </b> -> Community type ,<b>All teachers </b>,Community type ,,2,,,,,,
+4130,r013,<b>All teachers </b> -> Community type  -> City ,<b>All teachers </b>,Community type ,City ,3,31,7,19,38,7,81
+4130,r014,<b>All teachers </b> -> Community type  -> Suburban ,<b>All teachers </b>,Community type ,Suburban ,3,34,11,31,33,9,79
+4130,r015,<b>All teachers </b> -> Community type  -> Town ,<b>All teachers </b>,Community type ,Town ,3,46,4,29,54,7,85
+4130,r016,<b>All teachers </b> -> Community type  -> Rural ,<b>All teachers </b>,Community type ,Rural ,3,44,7,26,49,9,83
+4130,r017,<b>All teachers </b> -> School poverty level (%)<sup>d</sup>,<b>All teachers </b>,School poverty level (%)<sup>d</sup>,,2,,,,,,
+4130,r018,<b>All teachers </b> -> School poverty level (%)<sup>d</sup> -> Less than 35<sup>e</sup>,<b>All teachers </b>,School poverty level (%)<sup>d</sup>,Less than 35<sup>e</sup>,3,42,9,35,32,9,84
+4130,r019,<b>All teachers </b> -> School poverty level (%)<sup>d</sup> -> 35&#8722;49,<b>All teachers </b>,School poverty level (%)<sup>d</sup>,35&#8722;49,3,41,6,29,45,11,81
+4130,r020,<b>All teachers </b> -> School poverty level (%)<sup>d</sup> -> 50&#8722;74,<b>All teachers </b>,School poverty level (%)<sup>d</sup>,50&#8722;74,3,28,9,21,44,6,80
+4130,r021,<b>All teachers </b> -> School poverty level (%)<sup>d</sup> -> 75 or more ,<b>All teachers </b>,School poverty level (%)<sup>d</sup>,75 or more ,3,32,7,14,54,6,78
+4130,r022,<b>All teachers </b> -> Students take home school computers ,<b>All teachers </b>,Students take home school computers ,,2,,,,,,
+4130,r023,<b>All teachers </b> -> Students take home school computers  -> Yes ,<b>All teachers </b>,Students take home school computers ,Yes ,3,49,18,100,40,na,na
+4130,r024,<b>All teachers </b> -> Students take home school computers  -> No ,<b>All teachers </b>,Students take home school computers ,No ,3,32,5,na,na,8,81

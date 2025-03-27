@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public school students in grade 8 who have teachers with state certification, more than 5 years of teaching experience, or a degree in mathematics, by student and school characteristics: 2015",
+  "identifier": "NCSES-1536",
+  "description": "Public school students in grade 8 who have teachers with state certification, more than 5 years of teaching experience, or a degree in mathematics, by student and school characteristics: 2015",
+  "url": "https://example.org/datasets/ncses/tables/1536",
+  "table_number": "1-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1536/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "student_and_school_characteristics",
+      "description": "Student and school characteristics hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "student_and_school_characteristics_level_1, student_and_school_characteristics_level_2, student_and_school_characteristics_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "student_and_school_characteristics_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_state_teacher_certification",
+      "description": "State Teacher Certification",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_more_than_5_years_teaching_experience",
+      "description": "More Than 5 Years Teaching Experience",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_degree_in_mathematics",
+      "description": "Degree In Mathematics",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "State teacher certification indicates that the teacher holds a regular or standard teaching certificate that is valid in the state in which he or she is currently teaching. Years of teaching experience include all years worked as an elementary or secondary school teacher. A degree in mathematics indicates that the teacher has an undergraduate or graduate major or minor in mathematics.",
+  "sources": "Rahman T, Fox MA, Ikoma S, and Gray L, Certification Status and Experience of U.S. Public School Teachers: Variations Across Student Subgroups, NCES 2017-056 (2017).Science and Engineering Indicators"
+}

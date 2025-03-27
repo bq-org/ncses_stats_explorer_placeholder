@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with and without R&D activity that introduced new or significantly improved processes, by size of R&D program and the proportion of companies in each R&D program size classification: 2013\u201315",
+  "identifier": "NCSES-782",
+  "description": "Companies with and without R&D activity that introduced new or significantly improved processes, by size of R&D program and the proportion of companies in each R&D program size classification: 2013\u201315",
+  "url": "https://example.org/datasets/ncses/tables/782",
+  "table_number": "66",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/782/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "company_type",
+      "description": "Company type hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "company_type_level_1, company_type_level_2, company_type_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "company_type_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_or_processes_companies_number_a",
+      "description": "New Or Significantly Improved Products Or Processes Companies Number A",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_or_processes_yes",
+      "description": "New Or Significantly Improved Products Or Processes Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_or_processes_no",
+      "description": "New Or Significantly Improved Products Or Processes No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_companies_number_b",
+      "description": "New Or Significantly Improved Processes Companies Number B",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_any_process_yesc",
+      "description": "New Or Significantly Improved Processes Any Process Yesc",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_any_process_nod",
+      "description": "New Or Significantly Improved Processes Any Process Nod",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_manufacturing_or_production_methods_yes",
+      "description": "New Or Significantly Improved Processes Manufacturing Or Production Methods Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_manufacturing_or_production_methods_no",
+      "description": "New Or Significantly Improved Processes Manufacturing Or Production Methods No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_logistics_delivery_or_distribution_methods_yes",
+      "description": "New Or Significantly Improved Processes Logistics Delivery Or Distribution Methods Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_logistics_delivery_or_distribution_methods_no",
+      "description": "New Or Significantly Improved Processes Logistics Delivery Or Distribution Methods No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_support_activities_yes",
+      "description": "New Or Significantly Improved Processes Support Activities Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_processes_support_activities_no",
+      "description": "New Or Significantly Improved Processes Support Activities No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Sum of \"Yes\" and \"No\" responses may not add to the total number of companies or, for the percentages, to 100% due to item nonresponse to some items relating to new or significantly improved products or processes.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Business R&D and Innovation Survey."
+}

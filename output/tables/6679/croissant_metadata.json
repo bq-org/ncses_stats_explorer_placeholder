@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Trust in science, by country: 2018",
+  "identifier": "NCSES-6679",
+  "description": "Trust in science, by country: 2018",
+  "url": "https://example.org/datasets/ncses/tables/6679",
+  "table_number": "SPPS-8",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6679/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "country",
+      "description": "Country",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "a_lot",
+      "description": "A Lot",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "some",
+      "description": "Some",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "not_much",
+      "description": "Not Much",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "not_at_all",
+      "description": "Not At All",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "don_t_know_or_refused",
+      "description": "Don T Know Or Refused",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Countries are those with top 16 gross domestic expenditures on R&D as a percentage of gross domestic product in 2017, listed in order of percentages that trust science \"a lot\" from highest to lowest. (See Science and Engineering Indicators 2020 \"Research and Development: U.S. Trends and International Comparisons\" report: Table 4-5.) Responses are to the following: In general, would you say that you trust science a lot, some, not much, or not at all?",
+  "sources": "Gallup, Wellcome Global Monitor, 2019.Science and Engineering Indicators"
+}

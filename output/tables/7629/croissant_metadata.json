@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Engineering research doctorate recipients, statistical profile by sex and major field of doctorate: 2021",
+  "identifier": "NCSES-7629",
+  "description": "Engineering research doctorate recipients, statistical profile by sex and major field of doctorate: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7629",
+  "table_number": "8-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7629/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_characteristic_b",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_characteristic_b_level_1, _b_characteristic_b_level_2, _b_characteristic_b_level_3, _b_characteristic_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_biological_biomedical_and_biosystems_engineering",
+      "description": "Biological Biomedical And Biosystems Engineering",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_chemical_and_petroleum_engineering",
+      "description": "Chemical And Petroleum Engineering",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_civil_environmental_and_transportation_engineering",
+      "description": "Civil Environmental And Transportation Engineering",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_electrical_and_computer_engineering",
+      "description": "Electrical And Computer Engineering",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_technologies",
+      "description": "Engineering Technologies",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_industrial_engineering_and_operations_research",
+      "description": "Industrial Engineering And Operations Research",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_materials_and_mining_engineering",
+      "description": "Materials And Mining Engineering",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mechanical_engineering",
+      "description": "Mechanical Engineering",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_other",
+      "description": "Engineering Other",
+      "valueType": "string",
+      "unitText": "Number, percent, and median years"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Due to rounding, percentages may not sum to 100. Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and the new broad, major, and detailed fields were used in tables reporting only the most recent data year. Therefore, the field of doctorate data in 2021 may not be comparable to prior years; see the \"Technical Notes\" for more information, table A-4 for a summary of SED-CIP codes in the new SED field taxonomy, table A-5 for a full list of SED-CIP codes in the new field taxonomy, and table A-6 for the SED-CIP code crosswalk to the historical field taxonomy.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

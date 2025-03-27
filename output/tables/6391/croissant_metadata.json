@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for research performed at universities and colleges for selected agencies, by detailed field of science and engineering: FYs 2020&#8211;21",
+  "identifier": "NCSES-6391",
+  "description": "Federal obligations for research performed at universities and colleges for selected agencies, by detailed field of science and engineering: FYs 2020&#8211;21",
+  "url": "https://example.org/datasets/ncses/tables/6391",
+  "table_number": "56",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6391/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_b",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_b_level_1, _b_field_b_level_2, _b_field_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_preliminary_",
+      "description": "2021 Preliminary ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Seven agencies are required to report data for this section of the survey: the Departments of Agriculture, Defense, Energy, Health and Human Services, and Homeland Security; the National Aeronautics and Space Administration; and the National Science Foundation. Research obligations of these seven agencies represented more than 97% of total federal research obligations to universities and colleges in FYs 2020\u201321. FYs 2020 and 2021 obligations include additional funding provided by supplemental COVID-19 related appropriations (e.g., Coronavirus Aid, Relief, and Economic Security [CARES] Act).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2020\u201321."
+}

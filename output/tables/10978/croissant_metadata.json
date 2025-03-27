@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "GERD, GDP, GERD-to-GDP ratio, and growth rates, by selected region, country, or economy: Selected years, 1990\u20132021",
+  "identifier": "NCSES-10978",
+  "description": "GERD, GDP, GERD-to-GDP ratio, and growth rates, by selected region, country, or economy: Selected years, 1990\u20132021",
+  "url": "https://example.org/datasets/ncses/tables/10978",
+  "table_number": "SRD-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10978/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "_b_gerd_b_characteristic",
+      "description": "GERD hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_gerd_b_level_1, _b_gerd_b_level_2, _b_gerd_b_level_3, _b_gerd_b_level_4"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Billions of U.S. current or constant PPP dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Regions, countries, or economies without 2021 data have the most recent data year shown in parentheses next to their name. Data for U.S. GERD differ slightly from the U.S. total R&D data tabulated elsewhere in this report. For better consistency with international standards, U.S. GERD includes federal capital funding for federal intramural and nonprofit R&D, in addition to what is reported as U.S. total R&D. Some data are preliminary and may be revised later. Foreign currencies are converted by OECD to U.S. dollars using PPP.",
+  "sources": "National Center for Science and Engineering Statistics, National Patterns of R&D Resources (2020\u201321 edition); OECD, Main Science and Technology Indicators, September 2023, https://stats.oecd.org/Index.aspx?DataSetCode=MSTI_PUB.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "USPTO utility patents granted in computer technology, by region, country, or economy: 1998\u20132020",
+  "identifier": "NCSES-5858",
+  "description": "USPTO utility patents granted in computer technology, by region, country, or economy: 1998\u20132020",
+  "url": "https://example.org/datasets/ncses/tables/5858",
+  "table_number": "SINV-50",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5858/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "USPTO patents are allocated according to patent inventorship information. USPTO patents are fractionally allocated among regions, countries, or economies based on the proportion of residences of all named inventors. Patents are classified under the World Intellectual Property Organization (WIPO) classification of patents, which classifies International Patent Classification (IPC) codes under 35 technical fields. IPC reformed codes take into account changes that were made to the WIPO classification in 2006 under the eighth version of the classification and were used to prepare these data. However, because PatentsView only provides the original IPC codes as they appeared on patents and not the IPC reformed codes, current Cooperative Patent Classification codes on patents were converted back to the most recent IPC classification to prepare these statistics. Fractional counts of patents were assigned to each technological field on patents to assign the proper weight of a patent to the corresponding technological fields under the classification. China includes Hong Kong.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; PatentsView, USPTO, accessed June 2021.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

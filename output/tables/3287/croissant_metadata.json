@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Primary source of support for U.S. citizen and permanent resident S&E doctorate recipients, by sex and broad field: 2015\u201319",
+  "identifier": "NCSES-3287",
+  "description": "Primary source of support for U.S. citizen and permanent resident S&E doctorate recipients, by sex and broad field: 2015\u201319",
+  "url": "https://example.org/datasets/ncses/tables/3287",
+  "table_number": "7-22",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3287/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "primary_source_of_support_and_sex",
+      "description": "Primary source of support and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "primary_source_of_support_and_sex_level_1, primary_source_of_support_and_sex_level_2, primary_source_of_support_and_sex_level_3, primary_source_of_support_and_sex_level_4, primary_source_of_support_and_sex_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "primary_source_of_support_and_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_s_e",
+      "description": "All S E",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_all_science",
+      "description": "Sciencea All Science",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_agricultural_sciences_and_natural_resources",
+      "description": "Sciencea Agricultural Sciences And Natural Resources",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_biological_and_biomedical_sciences",
+      "description": "Sciencea Biological And Biomedical Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_computer_and_information_sciences",
+      "description": "Sciencea Computer And Information Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_geosciences_atmospheric_sciences_and_ocean_sciences",
+      "description": "Sciencea Geosciences Atmospheric Sciences And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_health_sciencesb",
+      "description": "Sciencea Health Sciencesb",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_mathematics_and_statistics",
+      "description": "Sciencea Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_physical_sciences_and_earth_sciences",
+      "description": "Sciencea Physical Sciences And Earth Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_psychology",
+      "description": "Sciencea Psychology",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciencea_social_sciences",
+      "description": "Sciencea Social Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Includes all U.S. citizen and permanent resident S&E doctorate recipients; temporary visa holders are excluded. American Indian or Alaska Native doctorate recipients with unknown or refused citizenship status are counted as U.S. citizens and thus are included. Data in this table refer to research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or other health sciences, which are fields with many professional doctorates.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2019 Survey of Earned Doctorates."
+}

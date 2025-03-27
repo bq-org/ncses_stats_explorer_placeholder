@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Foreign-born workers in S&E occupations, by education level: 1993, 2003, 2013, and 2017",
+  "identifier": "NCSES-1607",
+  "description": "Foreign-born workers in S&E occupations, by education level: 1993, 2003, 2013, and 2017",
+  "url": "https://example.org/datasets/ncses/tables/1607",
+  "table_number": "3-21",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1607/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "education",
+      "description": "Education hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "education_level_1, education_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "education_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1993_sestat",
+      "description": "1993 Sestat",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_sestat",
+      "description": "2003 Sestat",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_acs",
+      "description": "2003 Acs",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013_nscg",
+      "description": "2013 Nscg",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013_acs",
+      "description": "2013 Acs",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_nscg",
+      "description": "2017 Nscg",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_acs",
+      "description": "2017 Acs",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "All college educated includes professional degree holders not broken out separately. The data from the ACS include all S&E occupations except postsecondary teachers of S&E because these occupations are not separately identifiable in the ACS data files.",
+  "sources": "Census Bureau, ACS, Public Use Microdata Sample (PUMS); National Center for Science and Engineering Statistics, National Science Foundation, SESTAT and NSCG.Science and Engineering Indicators"
+}

@@ -1,0 +1,166 @@
+table_id,row_id,field_country_and_sector_full_path,field_country_and_sector_level_1,field_country_and_sector_level_2,field_country_and_sector_level_3,field_country_and_sector_hierarchy_depth,field_all_patents_2013,field_all_patents_2014,field_all_patents_2015,field_all_patents_2016,field_all_patents_2017,field_all_patents_2018,field_utility_patents_2013,field_utility_patents_2014,field_utility_patents_2015,field_utility_patents_2016,field_utility_patents_2017,field_utility_patents_2018,field_design_patents_2013,field_design_patents_2014,field_design_patents_2015,field_design_patents_2016,field_design_patents_2017,field_design_patents_2018,field_plant_patents_2013,field_plant_patents_2014,field_plant_patents_2015,field_plant_patents_2016,field_plant_patents_2017,field_plant_patents_2018
+1962,r001,"All fields, all sectors","All fields, all sectors",,,1,630385,693022,683934,663339,676983,640330,629274,692794,683362,662457,676359,639660,1083,214,542,849,530,644,28,14,30,33,94,26
+1962,r002,"All fields, all sectors -> Foreign","All fields, all sectors",Foreign,,2,324447,360562,361057,352030,363427,346840,323820,360430,360773,351593,363093,346504,622,124,273,431,284,321,6,9,12,6,50,16
+1962,r003,"All fields, all sectors -> Unknown country","All fields, all sectors",Unknown country,,2,3430,3559,3237,3020,2967,2680,3421,3558,3227,3013,2964,2674,9,1,9,6,3,6,0,0,0,0,0,0
+1962,r004,"All fields, all sectors -> United States","All fields, all sectors",United States,,2,302508,328901,319640,308289,310589,290809,302034,328806,319362,307851,310303,290483,452,90,260,412,242,317,22,5,18,27,44,10
+1962,r005,"All fields, all sectors -> United States -> Academic","All fields, all sectors",United States,Academic,3,196677,213693,211001,206038,207680,196235,196407,213626,210845,205725,207492,196003,261,63,139,289,148,223,9,5,16,25,41,10
+1962,r006,"All fields, all sectors -> United States -> Business","All fields, all sectors",United States,Business,3,56945,62549,57998,54306,54881,49611,56859,62539,57948,54278,54845,49563,85,10,51,28,37,47,1,0,0,0,0,0
+1962,r007,"All fields, all sectors -> United States -> Federal government","All fields, all sectors",United States,Federal government,3,12047,12724,12451,11964,11876,11536,12019,12723,12443,11943,11864,11531,17,0,6,19,9,5,10,0,2,2,3,0
+1962,r008,"All fields, all sectors -> United States -> FFRDCs","All fields, all sectors",United States,FFRDCs,3,5988,6710,6256,6235,6268,5834,5977,6709,6254,6235,6266,5832,11,2,2,0,3,2,0,0,0,0,0,0
+1962,r009,"All fields, all sectors -> United States -> Nonprofit","All fields, all sectors",United States,Nonprofit,3,15504,16814,16966,15776,15755,14725,15469,16812,16929,15742,15741,14706,35,1,37,33,14,19,0,0,0,0,0,0
+1962,r010,"All fields, all sectors -> United States -> State and local government","All fields, all sectors",United States,State and local government,3,298,318,272,315,243,242,298,317,272,314,243,242,0,1,0,2,0,0,0,0,0,0,0,0
+1962,r011,"All fields, all sectors -> United States -> Joint and unknown sectors","All fields, all sectors",United States,Joint and unknown sectors,3,15049,16092,14696,13655,13885,12626,15005,16081,14671,13613,13852,12606,42,12,24,41,32,20,2,0,0,1,1,0
+1962,r012,Agricultural sciences,Agricultural sciences,,,1,3307,3587,3336,3186,3287,3244,3295,3577,3328,3161,3251,3220,8,0,0,11,0,7,4,10,8,14,36,17
+1962,r013,Agricultural sciences -> Foreign,Agricultural sciences,Foreign,,2,1926,2152,2164,2117,2185,2154,1920,2147,2159,2106,2168,2140,6,0,0,10,0,6,0,5,5,1,17,8
+1962,r014,Agricultural sciences -> Unknown country,Agricultural sciences,Unknown country,,2,12,8,12,5,8,6,12,8,12,5,8,6,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r015,Agricultural sciences -> United States,Agricultural sciences,United States,,2,1369,1426,1160,1065,1094,1084,1363,1421,1157,1051,1075,1074,2,0,0,1,0,1,4,5,3,13,19,9
+1962,r016,Agricultural sciences -> United States -> Academic,Agricultural sciences,United States,Academic,3,922,1015,824,717,773,762,921,1010,821,705,755,753,1,0,0,1,0,0,0,5,2,11,17,9
+1962,r017,Agricultural sciences -> United States -> Business,Agricultural sciences,United States,Business,3,151,131,111,110,102,114,151,131,111,109,102,114,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r018,Agricultural sciences -> United States -> Federal government,Agricultural sciences,United States,Federal government,3,204,181,151,173,152,156,200,181,150,172,151,155,0,0,0,0,0,1,4,0,1,1,1,0
+1962,r019,Agricultural sciences -> United States -> FFRDCs,Agricultural sciences,United States,FFRDCs,3,3,4,7,9,11,5,3,4,7,9,11,5,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r020,Agricultural sciences -> United States -> Nonprofit,Agricultural sciences,United States,Nonprofit,3,5,5,7,4,5,5,5,5,7,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r021,Agricultural sciences -> United States -> State and local government,Agricultural sciences,United States,State and local government,3,1,1,2,1,0,1,1,1,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r022,Agricultural sciences -> United States -> Joint and unknown sectors,Agricultural sciences,United States,Joint and unknown sectors,3,83,89,59,51,51,41,83,89,59,50,50,40,1,0,0,0,0,0,0,0,0,1,1,0
+1962,r023,Astronomy and astrophysics,Astronomy and astrophysics,,,1,99,138,102,180,120,114,99,138,102,179,120,114,0,0,0,1,0,0,0,0,0,0,0,0
+1962,r024,Astronomy and astrophysics -> Foreign,Astronomy and astrophysics,Foreign,,2,62,85,61,115,77,62,62,85,61,114,77,62,0,0,0,1,0,0,0,0,0,0,0,0
+1962,r025,Astronomy and astrophysics -> Unknown country,Astronomy and astrophysics,Unknown country,,2,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r026,Astronomy and astrophysics -> United States,Astronomy and astrophysics,United States,,2,37,53,41,65,43,52,37,53,41,65,43,52,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r027,Astronomy and astrophysics -> United States -> Academic,Astronomy and astrophysics,United States,Academic,3,17,25,20,36,17,29,17,25,20,36,17,29,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r028,Astronomy and astrophysics -> United States -> Business,Astronomy and astrophysics,United States,Business,3,7,13,7,11,2,5,7,13,7,11,2,5,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r029,Astronomy and astrophysics -> United States -> Federal government,Astronomy and astrophysics,United States,Federal government,3,1,3,5,8,10,8,1,3,5,8,10,8,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r030,Astronomy and astrophysics -> United States -> FFRDCs,Astronomy and astrophysics,United States,FFRDCs,3,8,10,7,7,10,8,8,10,7,7,10,8,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r031,Astronomy and astrophysics -> United States -> Nonprofit,Astronomy and astrophysics,United States,Nonprofit,3,2,3,0,0,2,1,2,3,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r032,Astronomy and astrophysics -> United States -> State and local government,Astronomy and astrophysics,United States,State and local government,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r033,Astronomy and astrophysics -> United States -> Joint and unknown sectors,Astronomy and astrophysics,United States,Joint and unknown sectors,3,1,0,2,3,3,0,1,0,2,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r034,Biological and biomedical sciences,Biological and biomedical sciences,,,1,169501,183498,184400,174177,179761,176230,169434,183490,184359,174111,179661,176191,51,5,21,47,42,30,16,3,20,19,58,9
+1962,r035,Biological and biomedical sciences -> Foreign,Biological and biomedical sciences,Foreign,,2,82968,90911,90782,85418,88424,87135,82923,90904,90766,85383,88369,87113,39,4,9,30,22,14,6,3,7,5,33,8
+1962,r036,Biological and biomedical sciences -> Unknown country,Biological and biomedical sciences,Unknown country,,2,762,758,712,665,644,638,762,758,712,665,643,638,0,0,0,0,1,0,0,0,0,0,0,0
+1962,r037,Biological and biomedical sciences -> United States,Biological and biomedical sciences,United States,,2,85772,91829,92906,88094,90693,88457,85749,91828,92881,88064,90648,88440,12,1,12,17,19,16,10,0,13,14,25,1
+1962,r038,Biological and biomedical sciences -> United States -> Academic,Biological and biomedical sciences,United States,Academic,3,54878,58391,59383,56674,58472,57647,54862,58390,59363,56648,58438,57638,9,1,8,13,10,8,8,0,13,13,23,1
+1962,r039,Biological and biomedical sciences -> United States -> Business,Biological and biomedical sciences,United States,Business,3,15020,16287,16293,15313,15817,14403,15018,16287,16291,15312,15813,14398,1,0,2,1,4,6,0,0,0,0,0,0
+1962,r040,Biological and biomedical sciences -> United States -> Federal government,Biological and biomedical sciences,United States,Federal government,3,5404,5786,5800,5458,5426,5315,5402,5786,5800,5457,5422,5315,2,0,0,1,2,0,1,0,0,1,2,0
+1962,r041,Biological and biomedical sciences -> United States -> FFRDCs,Biological and biomedical sciences,United States,FFRDCs,3,993,1106,981,961,905,937,993,1106,981,961,905,936,0,0,0,0,0,1,0,0,0,0,0,0
+1962,r042,Biological and biomedical sciences -> United States -> Nonprofit,Biological and biomedical sciences,United States,Nonprofit,3,5553,6075,6367,6085,6461,6611,5553,6075,6367,6084,6461,6610,0,0,1,1,0,1,0,0,0,0,0,0
+1962,r043,Biological and biomedical sciences -> United States -> State and local government,Biological and biomedical sciences,United States,State and local government,3,97,111,101,102,81,99,96,111,101,102,81,99,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r044,Biological and biomedical sciences -> United States -> Joint and unknown sectors,Biological and biomedical sciences,United States,Joint and unknown sectors,3,3828,4073,3979,3501,3531,3444,3825,4073,3978,3500,3527,3444,1,0,1,1,4,0,2,0,0,0,0,0
+1962,r045,Chemistry,Chemistry,,,1,53600,55987,56548,54901,55425,52826,53579,55986,56514,54866,55382,52784,21,1,34,35,43,42,0,0,0,0,0,0
+1962,r046,Chemistry -> Foreign,Chemistry,Foreign,,2,30781,32672,33419,32151,32818,31679,30776,32671,33405,32136,32802,31666,5,1,14,16,16,12,0,0,0,0,0,0
+1962,r047,Chemistry -> Unknown country,Chemistry,Unknown country,,2,86,66,42,43,44,46,86,66,42,43,44,46,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r048,Chemistry -> United States,Chemistry,United States,,2,22733,23249,23087,22707,22563,21102,22717,23249,23067,22688,22536,21072,16,0,20,19,27,30,0,0,0,0,0,0
+1962,r049,Chemistry -> United States -> Academic,Chemistry,United States,Academic,3,16962,17272,17085,16985,16855,16022,16953,17272,17072,16969,16833,15997,9,0,13,16,22,25,0,0,0,0,0,0
+1962,r050,Chemistry -> United States -> Business,Chemistry,United States,Business,3,3250,3418,3340,3243,3030,2537,3250,3418,3336,3240,3027,2533,0,0,4,3,3,3,0,0,0,0,0,0
+1962,r051,Chemistry -> United States -> Federal government,Chemistry,United States,Federal government,3,527,517,510,499,518,530,527,517,510,499,517,530,1,0,0,0,0,0,0,0,0,0,0,0
+1962,r052,Chemistry -> United States -> FFRDCs,Chemistry,United States,FFRDCs,3,788,804,773,754,796,791,783,804,771,754,794,791,5,0,2,0,1,0,0,0,0,0,0,0
+1962,r053,Chemistry -> United States -> Nonprofit,Chemistry,United States,Nonprofit,3,662,719,857,679,810,696,662,719,857,679,810,696,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r054,Chemistry -> United States -> State and local government,Chemistry,United States,State and local government,3,6,7,5,14,6,6,6,7,5,14,6,6,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r055,Chemistry -> United States -> Joint and unknown sectors,Chemistry,United States,Joint and unknown sectors,3,538,512,516,533,549,520,538,512,515,533,548,519,1,0,1,0,1,1,0,0,0,0,0,0
+1962,r056,Computer and information sciences,Computer and information sciences,,,1,82048,91608,88616,88723,90931,93006,81788,91557,88497,88607,90844,92939,260,51,119,116,87,67,0,0,0,0,0,0
+1962,r057,Computer and information sciences -> Foreign,Computer and information sciences,Foreign,,2,39482,44112,43895,44961,48931,50702,39343,44082,43845,44881,48877,50669,139,30,50,79,54,33,0,0,0,0,0,0
+1962,r058,Computer and information sciences -> Unknown country,Computer and information sciences,Unknown country,,2,651,754,636,608,499,413,651,753,636,607,499,413,0,1,0,1,0,0,0,0,0,0,0,0
+1962,r059,Computer and information sciences -> United States,Computer and information sciences,United States,,2,41915,46743,44085,43154,41501,41891,41794,46722,44016,43118,41468,41857,121,21,69,35,33,34,0,0,0,0,0,0
+1962,r060,Computer and information sciences -> United States -> Academic,Computer and information sciences,United States,Academic,3,27085,31008,29823,29073,28400,28826,27041,30991,29792,29050,28376,28799,45,17,31,23,24,27,0,0,0,0,0,0
+1962,r061,Computer and information sciences -> United States -> Business,Computer and information sciences,United States,Business,3,11451,12261,11146,11006,10288,10218,11386,12259,11111,10998,10281,10211,65,3,35,9,7,7,0,0,0,0,0,0
+1962,r062,Computer and information sciences -> United States -> Federal government,Computer and information sciences,United States,Federal government,3,301,312,305,323,328,419,301,312,305,323,328,419,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r063,Computer and information sciences -> United States -> FFRDCs,Computer and information sciences,United States,FFRDCs,3,433,467,478,493,427,428,433,467,478,493,426,428,0,0,0,0,1,0,0,0,0,0,0,0
+1962,r064,Computer and information sciences -> United States -> Nonprofit,Computer and information sciences,United States,Nonprofit,3,958,983,798,698,518,384,947,982,795,695,517,384,11,1,3,3,1,0,0,0,0,0,0,0
+1962,r065,Computer and information sciences -> United States -> State and local government,Computer and information sciences,United States,State and local government,3,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r066,Computer and information sciences -> United States -> Joint and unknown sectors,Computer and information sciences,United States,Joint and unknown sectors,3,1686,1712,1534,1559,1540,1615,1686,1711,1534,1558,1539,1615,1,1,0,1,1,0,0,0,0,0,0,0
+1962,r067,Engineering,Engineering,,,1,69985,78021,75221,74650,77458,71439,69812,77992,75142,74539,77356,71273,173,28,78,111,102,166,0,1,1,0,0,0
+1962,r068,Engineering -> Foreign,Engineering,Foreign,,2,36045,39932,39743,39655,41607,39004,35932,39908,39689,39611,41556,38928,112,23,54,44,51,76,0,1,0,0,0,0
+1962,r069,Engineering -> Unknown country,Engineering,Unknown country,,2,382,418,341,340,343,295,382,418,341,339,343,295,0,0,0,1,0,0,0,0,0,0,0,0
+1962,r070,Engineering -> United States,Engineering,United States,,2,33559,37672,35137,34655,35507,32140,33498,37666,35112,34589,35457,32051,61,6,24,66,51,90,0,0,1,0,0,0
+1962,r071,Engineering -> United States -> Academic,Engineering,United States,Academic,3,21402,24359,23777,23892,24424,22208,21362,24355,23761,23843,24395,22142,40,4,15,49,29,66,0,0,1,0,0,0
+1962,r072,Engineering -> United States -> Business,Engineering,United States,Business,3,7990,8671,7138,6515,6810,5988,7984,8669,7131,6508,6795,5968,7,2,7,7,15,20,0,0,0,0,0,0
+1962,r073,Engineering -> United States -> Federal government,Engineering,United States,Federal government,3,791,870,865,793,871,838,787,870,865,792,871,837,4,0,0,1,0,1,0,0,0,0,0,0
+1962,r074,Engineering -> United States -> FFRDCs,Engineering,United States,FFRDCs,3,1247,1398,1227,1373,1357,1321,1242,1398,1227,1373,1357,1320,5,0,0,0,0,1,0,0,0,0,0,0
+1962,r075,Engineering -> United States -> Nonprofit,Engineering,United States,Nonprofit,3,792,890,754,669,599,457,789,890,753,663,594,455,3,0,1,6,6,2,0,0,0,0,0,0
+1962,r076,Engineering -> United States -> State and local government,Engineering,United States,State and local government,3,17,26,21,30,17,13,17,26,21,30,17,13,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r077,Engineering -> United States -> Joint and unknown sectors,Engineering,United States,Joint and unknown sectors,3,1320,1458,1355,1382,1429,1316,1318,1458,1354,1380,1429,1316,2,0,1,3,1,0,0,0,0,0,0,0
+1962,r078,"Geosciences, atmospheric, and ocean sciences","Geosciences, atmospheric, and ocean sciences",,,1,2993,3566,3241,2938,3638,3226,2977,3564,3241,2937,3632,3219,16,2,0,1,6,7,0,0,0,0,0,0
+1962,r079,"Geosciences, atmospheric, and ocean sciences -> Foreign","Geosciences, atmospheric, and ocean sciences",Foreign,,2,1422,1744,1539,1428,1815,1592,1406,1744,1539,1428,1811,1586,16,0,0,0,4,6,0,0,0,0,0,0
+1962,r080,"Geosciences, atmospheric, and ocean sciences -> Unknown country","Geosciences, atmospheric, and ocean sciences",Unknown country,,2,101,104,83,87,87,59,101,104,83,87,87,59,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r081,"Geosciences, atmospheric, and ocean sciences -> United States","Geosciences, atmospheric, and ocean sciences",United States,,2,1470,1718,1620,1424,1736,1575,1470,1716,1620,1423,1734,1574,0,2,0,1,2,1,0,0,0,0,0,0
+1962,r082,"Geosciences, atmospheric, and ocean sciences -> United States -> Academic","Geosciences, atmospheric, and ocean sciences",United States,Academic,3,665,745,767,622,752,623,665,745,767,621,751,623,0,0,0,1,1,0,0,0,0,0,0,0
+1962,r083,"Geosciences, atmospheric, and ocean sciences -> United States -> Business","Geosciences, atmospheric, and ocean sciences",United States,Business,3,442,559,492,396,558,597,442,559,492,396,558,597,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r084,"Geosciences, atmospheric, and ocean sciences -> United States -> Federal government","Geosciences, atmospheric, and ocean sciences",United States,Federal government,3,89,88,68,101,87,64,89,88,68,101,87,64,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r085,"Geosciences, atmospheric, and ocean sciences -> United States -> FFRDCs","Geosciences, atmospheric, and ocean sciences",United States,FFRDCs,3,66,78,61,77,72,46,66,78,61,77,72,46,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r086,"Geosciences, atmospheric, and ocean sciences -> United States -> Nonprofit","Geosciences, atmospheric, and ocean sciences",United States,Nonprofit,3,49,54,64,40,69,80,49,54,64,40,69,80,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r087,"Geosciences, atmospheric, and ocean sciences -> United States -> State and local government","Geosciences, atmospheric, and ocean sciences",United States,State and local government,3,2,0,2,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r088,"Geosciences, atmospheric, and ocean sciences -> United States -> Joint and unknown sectors","Geosciences, atmospheric, and ocean sciences",United States,Joint and unknown sectors,3,156,193,165,187,198,165,156,191,165,187,197,164,0,2,0,0,1,1,0,0,0,0,0,0
+1962,r089,Health sciences,Health sciences,,,1,160412,174212,171304,166134,170686,157400,159970,174111,171043,165670,170503,157195,442,101,261,464,183,205,0,0,0,0,0,0
+1962,r090,Health sciences -> Foreign,Health sciences,Foreign,,2,79991,86447,85304,83268,85706,80944,79766,86396,85172,83045,85621,80831,225,51,131,223,86,113,0,0,0,0,0,0
+1962,r091,Health sciences -> Unknown country,Health sciences,Unknown country,,2,1289,1298,1274,1134,1198,1116,1280,1298,1265,1130,1196,1110,8,0,9,4,2,6,0,0,0,0,0,0
+1962,r092,Health sciences -> United States,Health sciences,United States,,2,79132,86467,84726,81733,83782,75340,78923,86417,84606,81495,83687,75254,209,50,120,237,95,85,0,0,0,0,0,0
+1962,r093,Health sciences -> United States -> Academic,Health sciences,United States,Academic,3,51965,56239,55945,54849,55983,50744,51835,56202,55884,54695,55931,50696,130,38,61,154,52,48,0,0,0,0,0,0
+1962,r094,Health sciences -> United States -> Business,Health sciences,United States,Business,3,10005,11837,11118,10301,11344,10097,9995,11835,11117,10294,11341,10091,10,2,1,7,3,7,0,0,0,0,0,0
+1962,r095,Health sciences -> United States -> Federal government,Health sciences,United States,Federal government,3,3581,3783,3669,3573,3434,3240,3570,3783,3663,3557,3427,3238,11,0,6,17,7,2,0,0,0,0,0,0
+1962,r096,Health sciences -> United States -> FFRDCs,Health sciences,United States,FFRDCs,3,253,223,263,242,265,198,253,223,263,242,264,197,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r097,Health sciences -> United States -> Nonprofit,Health sciences,United States,Nonprofit,3,7054,7636,7726,7248,6999,6217,7033,7635,7693,7225,6991,6204,22,1,33,23,8,13,0,0,0,0,0,0
+1962,r098,Health sciences -> United States -> State and local government,Health sciences,United States,State and local government,3,169,168,137,162,136,119,169,167,137,161,136,119,0,1,0,2,0,0,0,0,0,0,0,0
+1962,r099,Health sciences -> United States -> Joint and unknown sectors,Health sciences,United States,Joint and unknown sectors,3,6104,6581,5867,5357,5621,4724,6068,6573,5848,5322,5597,4709,36,8,19,35,25,15,0,0,0,0,0,0
+1962,r100,Materials science,Materials science,,,1,9503,10684,11007,10174,10871,10058,9502,10679,11006,10174,10870,10054,1,5,1,0,1,4,0,0,0,0,0,0
+1962,r101,Materials science -> Foreign,Materials science,Foreign,,2,5926,6839,7310,6930,7328,6918,5925,6834,7309,6930,7328,6918,1,5,1,0,0,0,0,0,0,0,0,0
+1962,r102,Materials science -> Unknown country,Materials science,Unknown country,,2,11,12,13,17,14,14,11,12,13,17,14,14,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r103,Materials science -> United States,Materials science,United States,,2,3566,3833,3684,3226,3530,3126,3566,3833,3684,3226,3529,3122,0,0,0,0,1,4,0,0,0,0,0,0
+1962,r104,Materials science -> United States -> Academic,Materials science,United States,Academic,3,2269,2437,2450,2196,2442,2147,2269,2437,2450,2196,2442,2145,0,0,0,0,0,3,0,0,0,0,0,0
+1962,r105,Materials science -> United States -> Business,Materials science,United States,Business,3,626,614,535,417,454,365,626,614,535,417,453,364,0,0,0,0,1,0,0,0,0,0,0,0
+1962,r106,Materials science -> United States -> Federal government,Materials science,United States,Federal government,3,181,209,212,176,160,149,181,209,212,176,160,148,0,0,0,0,0,1,0,0,0,0,0,0
+1962,r107,Materials science -> United States -> FFRDCs,Materials science,United States,FFRDCs,3,266,372,338,310,348,322,266,372,338,310,348,321,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r108,Materials science -> United States -> Nonprofit,Materials science,United States,Nonprofit,3,67,55,48,43,42,33,67,55,48,43,42,33,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r109,Materials science -> United States -> State and local government,Materials science,United States,State and local government,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r110,Materials science -> United States -> Joint and unknown sectors,Materials science,United States,Joint and unknown sectors,3,156,146,101,84,84,110,156,146,101,84,84,110,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r111,Mathematics and statistics,Mathematics and statistics,,,1,1096,1122,1008,973,1024,1292,1087,1122,1008,973,1024,1292,9,0,0,0,0,0,0,0,0,0,0,0
+1962,r112,Mathematics and statistics -> Foreign,Mathematics and statistics,Foreign,,2,521,567,479,486,560,679,512,567,479,486,560,679,9,0,0,0,0,0,0,0,0,0,0,0
+1962,r113,Mathematics and statistics -> Unknown country,Mathematics and statistics,Unknown country,,2,4,3,2,2,9,0,4,3,2,2,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r114,Mathematics and statistics -> United States,Mathematics and statistics,United States,,2,571,552,527,484,455,613,571,552,527,484,455,613,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r115,Mathematics and statistics -> United States -> Academic,Mathematics and statistics,United States,Academic,3,435,425,419,381,369,494,435,425,419,381,369,494,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r116,Mathematics and statistics -> United States -> Business,Mathematics and statistics,United States,Business,3,62,54,39,26,24,34,62,54,39,26,24,34,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r117,Mathematics and statistics -> United States -> Federal government,Mathematics and statistics,United States,Federal government,3,14,15,11,19,14,15,14,15,11,19,14,15,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r118,Mathematics and statistics -> United States -> FFRDCs,Mathematics and statistics,United States,FFRDCs,3,27,24,12,14,21,37,27,24,12,14,21,37,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r119,Mathematics and statistics -> United States -> Nonprofit,Mathematics and statistics,United States,Nonprofit,3,11,11,13,12,8,19,11,11,13,12,8,19,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r120,Mathematics and statistics -> United States -> State and local government,Mathematics and statistics,United States,State and local government,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r121,Mathematics and statistics -> United States -> Joint and unknown sectors,Mathematics and statistics,United States,Joint and unknown sectors,3,21,23,34,33,20,15,21,23,34,33,20,15,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r122,Natural resources and conservation,Natural resources and conservation,,,1,1186,1302,1222,1304,1358,1344,1170,1302,1221,1302,1347,1338,8,0,0,2,11,6,8,0,1,0,0,0
+1962,r123,Natural resources and conservation -> Foreign,Natural resources and conservation,Foreign,,2,688,767,752,850,861,842,683,767,752,849,850,838,5,0,0,1,11,4,0,0,0,0,0,0
+1962,r124,Natural resources and conservation -> Unknown country,Natural resources and conservation,Unknown country,,2,4,7,4,3,3,1,4,7,4,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r125,Natural resources and conservation -> United States,Natural resources and conservation,United States,,2,494,528,466,451,494,501,483,528,465,450,494,499,4,0,0,1,0,2,8,0,1,0,0,0
+1962,r126,Natural resources and conservation -> United States -> Academic,Natural resources and conservation,United States,Academic,3,298,338,317,310,341,308,295,338,316,309,341,307,3,0,0,1,0,1,1,0,1,0,0,0
+1962,r127,Natural resources and conservation -> United States -> Business,Natural resources and conservation,United States,Business,3,79,69,53,50,53,52,77,69,53,50,53,52,1,0,0,0,0,0,1,0,0,0,0,0
+1962,r128,Natural resources and conservation -> United States -> Federal government,Natural resources and conservation,United States,Federal government,3,56,62,44,41,53,51,51,62,44,41,53,51,0,0,0,0,0,0,6,0,0,0,0,0
+1962,r129,Natural resources and conservation -> United States -> FFRDCs,Natural resources and conservation,United States,FFRDCs,3,19,20,18,17,14,52,19,20,18,17,14,52,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r130,Natural resources and conservation -> United States -> Nonprofit,Natural resources and conservation,United States,Nonprofit,3,8,1,5,4,4,8,8,1,5,4,4,8,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r131,Natural resources and conservation -> United States -> State and local government,Natural resources and conservation,United States,State and local government,3,2,4,2,3,2,2,2,4,2,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r132,Natural resources and conservation -> United States -> Joint and unknown sectors,Natural resources and conservation,United States,Joint and unknown sectors,3,32,33,27,27,27,27,31,33,27,27,27,26,1,0,0,0,0,1,0,0,0,0,0,0
+1962,r133,Physics,Physics,,,1,71292,83303,82195,79863,76107,63878,71256,83289,82174,79829,76086,63821,36,14,21,34,21,57,0,0,0,0,0,0
+1962,r134,Physics -> Foreign,Physics,Foreign,,2,42438,51991,53227,52112,50499,42498,42417,51985,53220,52098,50486,42465,21,5,7,14,14,33,0,0,0,0,0,0
+1962,r135,Physics -> Unknown country,Physics,Unknown country,,2,112,114,104,92,92,72,112,114,104,92,92,72,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r136,Physics -> United States,Physics,United States,,2,28742,31199,28864,27659,25515,21308,28726,31190,28850,27639,25508,21284,15,9,14,20,7,24,0,0,0,0,0,0
+1962,r137,Physics -> United States -> Academic,Physics,United States,Academic,3,17741,19199,18133,17951,16405,13869,17729,19196,18122,17933,16400,13850,12,3,11,18,5,19,0,0,0,0,0,0
+1962,r138,Physics -> United States -> Business,Physics,United States,Business,3,7030,7590,6689,5959,5361,4335,7029,7587,6689,5958,5358,4331,1,3,1,1,2,4,0,0,0,0,0,0
+1962,r139,Physics -> United States -> Federal government,Physics,United States,Federal government,3,851,861,779,753,791,712,851,861,779,753,791,712,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r140,Physics -> United States -> FFRDCs,Physics,United States,FFRDCs,3,1882,2206,2086,1975,2037,1685,1881,2204,2086,1975,2037,1685,1,2,0,0,0,0,0,0,0,0,0,0
+1962,r141,Physics -> United States -> Nonprofit,Physics,United States,Nonprofit,3,290,300,303,267,211,177,290,300,303,267,211,177,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r142,Physics -> United States -> State and local government,Physics,United States,State and local government,3,2,1,1,2,0,1,2,1,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r143,Physics -> United States -> Joint and unknown sectors,Physics,United States,Joint and unknown sectors,3,947,1042,873,752,710,529,946,1042,870,750,710,528,1,1,2,1,0,1,0,0,0,0,0,0
+1962,r144,Psychology,Psychology,,,1,4680,5351,5236,5557,5675,5666,4622,5344,5229,5534,5655,5623,58,7,7,23,20,43,0,0,0,0,0,0
+1962,r145,Psychology -> Foreign,Psychology,Foreign,,2,1934,2086,2168,2317,2346,2363,1889,2082,2162,2304,2331,2348,45,5,6,13,14,15,0,0,0,0,0,0
+1962,r146,Psychology -> Unknown country,Psychology,Unknown country,,2,11,13,14,24,24,20,11,13,14,23,24,20,0,0,0,1,0,0,0,0,0,0,0,0
+1962,r147,Psychology -> United States,Psychology,United States,,2,2736,3252,3055,3216,3305,3283,2723,3249,3054,3207,3299,3255,13,2,1,10,6,28,0,0,0,0,0,0
+1962,r148,Psychology -> United States -> Academic,Psychology,United States,Academic,3,1712,1955,1842,2075,2159,2280,1699,1954,1842,2065,2155,2254,13,1,0,9,5,26,0,0,0,0,0,0
+1962,r149,Psychology -> United States -> Business,Psychology,United States,Business,3,809,1014,1008,924,994,845,809,1014,1008,924,993,844,0,1,0,0,1,0,0,0,0,0,0,0
+1962,r150,Psychology -> United States -> Federal government,Psychology,United States,Federal government,3,33,27,26,39,28,29,33,27,26,39,28,29,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r151,Psychology -> United States -> FFRDCs,Psychology,United States,FFRDCs,3,2,0,2,1,4,4,2,0,2,1,4,4,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r152,Psychology -> United States -> Nonprofit,Psychology,United States,Nonprofit,3,33,52,13,21,20,28,33,52,13,21,20,25,0,0,0,0,0,3,0,0,0,0,0,0
+1962,r153,Psychology -> United States -> State and local government,Psychology,United States,State and local government,3,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r154,Psychology -> United States -> Joint and unknown sectors,Psychology,United States,Joint and unknown sectors,3,145,203,163,157,99,97,145,202,163,157,99,97,0,1,0,0,0,0,0,0,0,0,0,0
+1962,r155,Social sciences,Social sciences,,,1,683,643,498,579,642,607,683,643,498,575,628,597,0,0,0,4,14,10,0,0,0,0,0,0
+1962,r156,Social sciences -> Foreign,Social sciences,Foreign,,2,265,258,216,223,271,268,265,258,216,222,258,260,0,0,0,1,13,8,0,0,0,0,0,0
+1962,r157,Social sciences -> Unknown country,Social sciences,Unknown country,,2,5,4,0,1,1,0,5,4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r158,Social sciences -> United States,Social sciences,United States,,2,413,382,282,355,370,339,413,382,282,352,369,337,0,0,0,3,1,2,0,0,0,0,0,0
+1962,r159,Social sciences -> United States -> Academic,Social sciences,United States,Academic,3,325,287,214,276,290,276,325,287,214,273,289,275,0,0,0,3,1,1,0,0,0,0,0,0
+1962,r160,Social sciences -> United States -> Business,Social sciences,United States,Business,3,24,28,29,35,44,21,24,28,29,35,44,21,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r161,Social sciences -> United States -> Federal government,Social sciences,United States,Federal government,3,11,10,3,7,5,10,11,10,3,7,5,10,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r162,Social sciences -> United States -> FFRDCs,Social sciences,United States,FFRDCs,3,1,1,4,2,2,1,1,1,4,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r163,Social sciences -> United States -> Nonprofit,Social sciences,United States,Nonprofit,3,21,29,12,5,7,8,21,29,12,5,7,8,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r164,Social sciences -> United States -> State and local government,Social sciences,United States,State and local government,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,r165,Social sciences -> United States -> Joint and unknown sectors,Social sciences,United States,Joint and unknown sectors,3,31,27,21,30,23,23,31,27,21,30,23,23,0,0,0,0,0,1,0,0,0,0,0,0

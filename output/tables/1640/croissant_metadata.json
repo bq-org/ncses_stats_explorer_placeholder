@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Plans of foreign recipients of U.S. doctorates to stay in the United States, by field of doctorate and place of citizenship: 2006&#8211;17",
+  "identifier": "NCSES-1640",
+  "description": "Plans of foreign recipients of U.S. doctorates to stay in the United States, by field of doctorate and place of citizenship: 2006&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1640",
+  "table_number": "S3-24",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1640/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_place_of_citizenship",
+      "description": "Field and place of citizenship hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_and_place_of_citizenship_level_1, field_and_place_of_citizenship_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_and_place_of_citizenship_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_place_of_citizenship_full_path",
+      "description": "And Place Of Citizenship Full Path",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_place_of_citizenship_level_1",
+      "description": "And Place Of Citizenship Level 1",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_place_of_citizenship_level_2",
+      "description": "And Place Of Citizenship Level 2",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_and_place_of_citizenship_hierarchy_depth",
+      "description": "And Place Of Citizenship Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_s_e_doctorate_recipients_2006_09",
+      "description": "Foreign S E Doctorate Recipients 2006 09",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_s_e_doctorate_recipients_2010_13",
+      "description": "Foreign S E Doctorate Recipients 2010 13",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_foreign_s_e_doctorate_recipients_2014_17",
+      "description": "Foreign S E Doctorate Recipients 2014 17",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_plans_to_stay_2006_09",
+      "description": "Plans To Stay 2006 09",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_plans_to_stay_2010_13",
+      "description": "Plans To Stay 2010 13",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_plans_to_stay_2014_17",
+      "description": "Plans To Stay 2014 17",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_definite_plans_to_stay_2006_09",
+      "description": "Definite Plans To Stay 2006 09",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_definite_plans_to_stay_2010_13",
+      "description": "Definite Plans To Stay 2010 13",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_definite_plans_to_stay_2014_17",
+      "description": "Definite Plans To Stay 2014 17",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "For each broad field of doctorate, data are presented for the source countries with the largest numbers of U.S. doctorate recipients in that field in 2014\u201317. Data include foreign doctorate recipients who are on permanent or temporary visas and also those whose visa status is unknown. The information on a plan to stay or a definite plan to stay reflects intentions within the year after graduation as reported by the doctoral recipient around the graduation date. Recipients who plan to stay think they will locate in the United States; those with definite plans have a postdoctoral research appointment or a definite employment plan in the United States. Percentages are based on the total number of foreign S&E doctorate recipients, including those who did not report their postgraduate location plans or employment plans. The percentage of foreign S&E doctorate recipients who did not report postgraduate location plans ranged from 2.1% to 4.5% over the 2006\u201317 period, and the percentage who either did not report postgraduate location plans or did not report employment plans ranged from 3.3% to 7.0% over that period.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Earned Doctorates (SED).Science and Engineering Indicators"
+}

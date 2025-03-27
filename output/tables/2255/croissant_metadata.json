@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public perception of scientists, by respondent characteristic: 2018",
+  "identifier": "NCSES-2255",
+  "description": "Public perception of scientists, by respondent characteristic: 2018",
+  "url": "https://example.org/datasets/ncses/tables/2255",
+  "table_number": "S7-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2255/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_scientists_work_for_the_good_of_humanity",
+      "description": "Scientists Work For The Good Of Humanity",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_scientists_help_to_solve_problems",
+      "description": "Scientists Help To Solve Problems",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_scientists_want_to_make_life_better_for_the_average_person",
+      "description": "Scientists Want To Make Life Better For The Average Person",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_scientists_are_odd_and_peculiar",
+      "description": "Scientists Are Odd And Peculiar",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data represent respondents who \"strongly agree\" and \"agree\" with the following: Scientific researchers are dedicated people who work for the good of humanity; Scientists are helping to solve challenging problems; Most scientists want to work on things that will make life better for the average person; and Scientists are apt to be odd and peculiar people.",
+  "sources": "NORC at the University of Chicago, General Social Survey (2018).Science and Engineering Indicators"
+}

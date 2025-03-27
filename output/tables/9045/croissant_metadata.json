@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Coronavirus pandemic-related R&D projects conducted in-house, by selected industry and R&D activity, for companies with 1&#8211;9 employees: 2020",
+  "identifier": "NCSES-9045",
+  "description": "Coronavirus pandemic-related R&D projects conducted in-house, by selected industry and R&D activity, for companies with 1&#8211;9 employees: 2020",
+  "url": "https://example.org/datasets/ncses/tables/9045",
+  "table_number": "62",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9045/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "r_d_activity",
+      "description": "R&D activity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "r_d_activity_level_1, r_d_activity_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "r_d_activity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_with_r_d_activities",
+      "description": "Companies With R D Activities",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_r_d_on_coronavirus_pandemic_related_projects",
+      "description": "Performed R D On Coronavirus Pandemic Related Projects",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_did_not_perform_r_d_on_coronavirus_pandemic_related_projects",
+      "description": "Did Not Perform R D On Coronavirus Pandemic Related Projects",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail across rows may not add to total because of rounding. Detail across columns have been adjusted to add to total. Only companies in the following NAICS (North American Industrial Classification System) sectors and industries are included in this table: 31\u201333, 42, 51, 5413, 5415, and 5417. Industry classification is based on dominant establishment payroll. Statistics are representative of companies located in the United States that reported R&D.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2021 Annual Business Survey: Data Year 2020."
+}

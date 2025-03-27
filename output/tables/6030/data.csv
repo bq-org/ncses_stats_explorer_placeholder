@@ -1,0 +1,114 @@
+table_id,row_id,2020_broad_field,2020_gss_code,2020_detailed_field,2019_gss_code,2019_detailed_field,changes
+6030,r001,Agricultural and veterinary sciences,501,Agricultural sciences,501,Agricultural sciences,
+6030,r002,,502,Veterinary biomedical and clinical sciences,721,Veterinary biomedical and clinical sciences,Moved from Other health broad field to reflect change in CIP; GSS code changed to reflect this move. 
+6030,r003,Biological and biomedical sciences,602,Biochemistry,602,Biochemistry,
+6030,r004,,603,Biology ,603,Biology ,
+6030,r005,,605,Biophysics,605,Biophysics,
+6030,r006,,606,Botany and plant biology,606,Botany and plant biology,
+6030,r007,,610,Genetics,610,Genetics,
+6030,r008,,611,Microbiological sciences and immunology,611,Microbiological sciences and immunology,New CIP code added.
+6030,r009,,612,Nutrition science,612,Nutrition science,
+6030,r010,,613,Pathology and experimental pathology,613,Pathology and experimental pathology,
+6030,r011,,614,Pharmacology and toxicology,614,Pharmacology and toxicology,
+6030,r012,,615,Physiology,615,Physiology,New CIP code added.
+6030,r013,,616,Zoology and animal biology,616,Zoology and animal biology,
+6030,r014,,617,Biological and biomedical sciences nec,617,Biological and biomedical sciences nec,
+6030,r015,,618,Biostatistics and bioinformatics ,618,Biostatistics and bioinformatics ,
+6030,r016,,619,"Cell, cellular biology, and anatomical sciences",619,"Cell, cellular biology, and anatomical sciences",
+6030,r017,,620,Ecology and population biology,620,Ecology and population biology,
+6030,r018,,621,Epidemiology,621,Epidemiology,New CIP code added.
+6030,r019,,622,Molecular biology,622,Molecular biology,
+6030,r020,,623,Biomedical sciences,623,Biomedical sciences,
+6030,r021,,624,Biotechnology,624,Biotechnology,
+6030,r022,,950,Neurobiology and neuroscience,950,Neurobiology and neuroscience,
+6030,r023,Computer and information sciences,410,Computer science,410,Computer science,
+6030,r024,,411,Computer and information science,411,Computer and information science,"Code 411 split into 411, 414, and 416."
+6030,r025,,414,Information technology,411,Computer and information science,"New code, split from 411."
+6030,r026,,416,"Artificial intelligence, informatics and computer and information science topics ",411,Computer and information science,"New code, split from 411."
+6030,r027,,412,"Computer and information science, nec ",412,Computer and information science nec,"Code 412 split into 412, 413, and 415."
+6030,r028,,413,Computer and information systems security ,412,Computer and information science nec,"New code, split from 412."
+6030,r029,,415,Information science and studies,412,Computer and information science nec,"New code, split from 412."
+6030,r030,"Geoscience, atmospheric, and ocean sciences ",301,Atmospheric sciences and meteorology,301,Atmospheric sciences and meteorology,
+6030,r031,,302,Geological and earth sciences,302,Geological and earth sciences,New CIP code added.
+6030,r032,,303,Ocean and marine sciences,303,Ocean and marine sciences,New CIP code added.
+6030,r033,,304,"Geoscience, atmospheric, and ocean sciences nec",304,"Geoscience, atmospheric, and ocean sciences nec",
+6030,r034,Mathematics and statistics,404,Applied mathematics,402,Mathematics and applied mathematics,New code split from 402; 402 was retired.
+6030,r035,,405,Mathematics,402,Mathematics and applied mathematics,New code split from 402; 402 was retired. New CIP code added. 
+6030,r036,,403,Statistics,403,Statistics ,New CIP code added.
+6030,r037,Multidisciplinary and interdisciplinary studies,980,Multidisciplinary and interdisciplinary studies nec,980,Multidisciplinary and interdisciplinary studies,"Name changed to reflect the new structure of the broad field; 980 split into 980, 981, 982, and 983. Added new CIP codes. "
+6030,r038,,981,Computational science,980,Multidisciplinary and interdisciplinary studies,Split from 980.
+6030,r039,,982,Biological and physical sciences,980,Multidisciplinary and interdisciplinary studies,Split from 980.
+6030,r040,,983,International and global studies,980,Multidisciplinary and interdisciplinary studies,Split from 980.
+6030,r041,,984,Data science and data analytics,984,Data science and data analytics,New code comprised of new 2020 CIP codes. 
+6030,r042,Natural resources and conservation,510,Environmental science and studies,510,Environmental science and studies,
+6030,r043,,511,"Forestry, natural resources and conservation",511,"Forestry, natural resources and conservation",New CIP codes added.
+6030,r044,Physical sciences,201,Astronomy and astrophysics,201,Astronomy and astrophysics,
+6030,r045,,202,Chemistry,202,Chemistry,New CIP code added.
+6030,r046,,203,Physics,203,Physics,
+6030,r047,,204,Physical sciences nec,204,Physical sciences nec,New CIP code added.
+6030,r048,,205,Materials sciences,205,Materials sciences,
+6030,r049,Psychology,801,"Psychology, general",801,"Psychology, general",
+6030,r050,,803,Clinical psychology,803,Clinical psychology,
+6030,r051,,804,Applied psychology,804,Counseling and applied psychology,Code 804 split into 804 and 806; name changed to reflect the code split. New CIP code added. 
+6030,r052,,806,Counseling psychology,804,Counseling and applied psychology,"New code, split from 804."
+6030,r053,,805,Research and experimental psychology,805,Research and experimental psychology,Two CIP codes moved from 804 for alignment with TOD and CIP; new CIP code added. 
+6030,r054,,815,Human development,915,Human development,Moved from Social sciences.
+6030,r055,Social sciences,901,Agricultural and natural resource economics,901,Agricultural economics,Name changed. 
+6030,r056,,902,Anthropology,902,Anthropology,New CIP code added.
+6030,r057,,903,Economics (except agricultural and natural resource),903,Economics (except agricultural),Name changed. New CIP code added. 
+6030,r058,,904,Geography and cartography,904,Geography and cartography,
+6030,r059,,905,History and philosophy of science and technology,905,History and philosophy of science and technology,
+6030,r060,,906,Linguistics,906,Linguistics,New CIP codes added.
+6030,r061,,907,Political science and government,907,Political science and government,
+6030,r062,,908,Sociology and population studies,908,Sociology,Name changed. New CIP codes added.
+6030,r063,,910,Social sciences nec,910,Social sciences nec,"Codes 916, 917, and 918 split from 910. "
+6030,r064,,916,"Area, ethnic, cultural, gender, and group studies",910,Social sciences nec,Split from 910.
+6030,r065,,917,Criminology,910,Social sciences nec,Split from 910.
+6030,r066,,918,Urban studies and affairs ,910,Social sciences nec,Split from 910.
+6030,r067,,911,Criminal justice and safety studies,911,Criminal justice and safety studies,
+6030,r068,,912,International relations and national security studies,912,International relations and national security studies,
+6030,r069,,914,Public policy analysis,914,Public policy analysis,
+6030,r070,"Aerospace, aeronautical, and astronautical engineering",101,"Aerospace, aeronautical, and astronautical engineering",101,"Aerospace, aeronautical, and astronautical engineering",New CIP code added.
+6030,r071,"Biological, biomedical, and biosystems engineering",103,Bioengineering and biomedical engineering,103,Bioengineering and biomedical engineering,
+6030,r072,,115,Biological and biosystems engineering,115,Biological and biosystems engineering,
+6030,r073,"Chemical, petroleum, and chemical-related engineering",104,Chemical engineering,104,Chemical engineering,
+6030,r074,,113,Petroleum engineering,113,Petroleum engineering,
+6030,r075,"Civil, environmental, transportation and related engineering fields",105,Civil engineering,105,Civil engineering,Code split.
+6030,r076,,117,"Architectural, environmental, construction and surveying engineering",105,Civil engineering,Split from 105. 
+6030,r077,"Electrical, electronics, communications and computer engineering",118,Computer engineering,106,"Electrical, electronics, and communications engineering",Split from 106
+6030,r078,,106,"Electrical, electronics, and communications engineering",106,"Electrical, electronics, and communications engineering",Code split. New CIP code added.
+6030,r079,"Industrial, manufacturing, systems engineering and operations research",108,Industrial and manufacturing engineering,108,Industrial and manufacturing engineering,Code split.
+6030,r080,,119,Systems engineering and operations research,108,Industrial and manufacturing engineering,
+6030,r081,Mechanical engineering,109,Mechanical engineering,109,Mechanical engineering,
+6030,r082,"Metallurgical, mining, materials and related engineering fields",110,Metallurgical and materials engineering,110,Metallurgical and materials engineering,
+6030,r083,,111,Mining engineering,111,Mining engineering,
+6030,r084,"Engineering, other",102,Agricultural engineering,102,Agricultural engineering,
+6030,r085,,107,"Engineering mechanics, physics, and science",107,"Engineering mechanics, physics, and science",
+6030,r086,,112,Nuclear engineering,112,Nuclear engineering,
+6030,r087,,114,Engineering nec,114,Engineering nec,New CIP code added.
+6030,r088,,116,Nanotechnology,116,Nanotechnology,
+6030,r089,Clinical medicine,701,Anesthesiology,701,Anesthesiology,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r090,,702,Cardiology and cardiovascular disease,702,Cardiology and cardiovascular disease,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r091,,703,Oncology and cancer research,703,Oncology and cancer research,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r092,,704,"Endocrinology, diabetes, and metabolism",704,"Endocrinology, diabetes, and metabolism",Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r093,,705,Gastroenterology,705,Gastroenterology,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r094,,706,Hematology,706,Hematology,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r095,,707,Neurology and neurosurgery,707,Neurology and neurosurgery,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r096,,708,Obstetrics and gynecology,708,Obstetrics and gynecology,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r097,,709,Ophthalmology,709,Ophthalmology,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r098,,710,Otorhinolaryngology,710,Otorhinolaryngology,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r099,,711,Pediatrics,711,Pediatrics,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r100,,712,Public health,712,Public health,New CIP codes added.
+6030,r101,,713,Psychiatry,713,Psychiatry,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r102,,714,Pulmonary disease,714,Pulmonary disease,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r103,,715,Radiological sciences,715,Radiological sciences,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r104,,716,Surgery,716,Surgery,Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r105,,717,Clinical medicine nec,717,Clinical medicine nec,Now PD and NFR only. Most PD and NFR CIP codes changed due to changes in CIP 2020. 
+6030,r106,,725,Clinical and medical laboratory science,729,Medical clinical sciences and clinical and medical laboratory sciences ,"New code comprised of new 2020 CIP codes, newly eligible codes and codes from 717."
+6030,r107,,730,Medical clinical sciences ,729,Medical clinical sciences and clinical and medical laboratory sciences ,New code comprised of new 2020 CIP codes. 
+6030,r108,Other health,718,Dental sciences,718,Dental sciences,New CIP codes added.
+6030,r109,,719,Nursing science,719,Nursing science,
+6030,r110,,720,Pharmaceutical sciences,720,Pharmaceutical sciences,
+6030,r111,,722,Other health nec,722,Other health nec,New CIP codes added. Code split. 
+6030,r112,,723,Communication disorders sciences,723,Communication disorders sciences,
+6030,r113,,724,Kinesiology and exercise science,724,Kinesiology and exercise science,Split from 722.

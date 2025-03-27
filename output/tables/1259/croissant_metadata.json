@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Source of support and citizenship of postdocs at federally funded research and development centers, by FFRDC type: 2017",
+  "identifier": "NCSES-1259",
+  "description": "Source of support and citizenship of postdocs at federally funded research and development centers, by FFRDC type: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1259",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1259/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "source_of_support_and_citizenship",
+      "description": "Source of support and citizenship hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "source_of_support_and_citizenship_level_1, source_of_support_and_citizenship_level_2, source_of_support_and_citizenship_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "source_of_support_and_citizenship_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_university_administered",
+      "description": "University Administered",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonprofit_administered",
+      "description": "Nonprofit Administered",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_industry_administered",
+      "description": "Industry Administered",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Postdocs at Federally Funded Research and Development Centers, 2017."
+}

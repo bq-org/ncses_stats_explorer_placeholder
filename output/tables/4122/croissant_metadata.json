@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Among fall 2009 students in grade 9 who enrolled in postsecondary education after high school, percentage who reported that their current or most recent major was in a STEM field, by perception of mathematics and science ability, sex, and race or ethnicity: 2016 ",
+  "identifier": "NCSES-4122",
+  "description": "Among fall 2009 students in grade 9 who enrolled in postsecondary education after high school, percentage who reported that their current or most recent major was in a STEM field, by perception of mathematics and science ability, sex, and race or ethnicity: 2016 ",
+  "url": "https://example.org/datasets/ncses/tables/4122",
+  "table_number": "SK12-28",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4122/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "perception_of_mathematics_and_science_ability",
+      "description": "Perception of mathematics and science ability hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "perception_of_mathematics_and_science_ability_level_1, perception_of_mathematics_and_science_ability_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "perception_of_mathematics_and_science_ability_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_students",
+      "description": "All Students",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_male",
+      "description": "Sex Male",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_female",
+      "description": "Sex Female",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_white",
+      "description": "Race Or Ethnicity White",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_black",
+      "description": "Race Or Ethnicity Black",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_hispanica",
+      "description": "Race Or Ethnicity Hispanica",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_asian",
+      "description": "Race Or Ethnicity Asian",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_or_ethnicity_other_or_two_or_more_races",
+      "description": "Race Or Ethnicity Other Or Two Or More Races",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "About 79% of fall 2009 students in grade 9 had enrolled in postsecondary education as of 2016. STEM majors include mathematics, biological and life sciences, physical sciences, computer and information sciences, engineering and related technologies, science technologies, social sciences, and psychology and are based on the first major declared by students for their current or most recent undergraduate degree or certificate program as of February 2016.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the High School Longitudinal Study of 2009 (HSLS:09), First Follow-Up and Second Follow-Up.Science and Engineering Indicators"
+}

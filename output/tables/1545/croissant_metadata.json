@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Average NAEP technology and engineering literacy assessment scores of students in grade 8 and percentage of students scoring proficient or above, by student characteristics: 2014 and 2018",
+  "identifier": "NCSES-1545",
+  "description": "Average NAEP technology and engineering literacy assessment scores of students in grade 8 and percentage of students scoring proficient or above, by student characteristics: 2014 and 2018",
+  "url": "https://example.org/datasets/ncses/tables/1545",
+  "table_number": "S1-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1545/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "student_characteristic",
+      "description": "Student characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "student_characteristic_level_1, student_characteristic_level_2, student_characteristic_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "student_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_average_scale_score_2014",
+      "description": "Average Scale Score 2014",
+      "valueType": "string",
+      "unitText": "Average score and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_average_scale_score_2018",
+      "description": "Average Scale Score 2018",
+      "valueType": "string",
+      "unitText": "Average score and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_students_scoring_proficient_or_above_2014",
+      "description": "Percentage Of Students Scoring Proficient Or Above 2014",
+      "valueType": "string",
+      "unitText": "Average score and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_students_scoring_proficient_or_above_2018",
+      "description": "Percentage Of Students Scoring Proficient Or Above 2018",
+      "valueType": "string",
+      "unitText": "Average score and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The scale for NAEP technology and engineering literacy assessment scores is 0\u2013300.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, special tabulations (2018) of the 2014 and 2018 NAEP Technology and Engineering Literacy assessment, National Center for Education Statistics, Department of Education.Science and Engineering Indicators"
+}

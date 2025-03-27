@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. R&D expenditures, by performing sector and source of funds: 2010&#8211;17",
+  "identifier": "NCSES-1871",
+  "description": "U.S. R&D expenditures, by performing sector and source of funds: 2010&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1871",
+  "table_number": "4-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1871/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Millions of current and constant 2012 dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data are based on annual reports by performers, except for the nonprofit sector. Expenditure levels for higher education, federal government, and nonfederal government performers are calendar year approximations based on fiscal year data.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Patterns of R&D Resources (annual series).Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

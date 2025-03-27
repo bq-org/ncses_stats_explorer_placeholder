@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Labor force status of persons 16 years and older, by occupation, ethnicity, race, counts, earnings, and unemployment rate: 2019",
+  "identifier": "NCSES-3332",
+  "description": "Labor force status of persons 16 years and older, by occupation, ethnicity, race, counts, earnings, and unemployment rate: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3332",
+  "table_number": "9-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3332/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupations",
+      "description": "Occupations hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupations_level_1, occupations_level_2, occupations_level_3, occupations_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupations_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_ethnicities_and_races",
+      "description": "All Ethnicities And Races",
+      "valueType": "string",
+      "unitText": "Number in thousands, dollars, and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinoa",
+      "description": "Hispanic Or Latinoa",
+      "valueType": "string",
+      "unitText": "Number in thousands, dollars, and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_asian",
+      "description": "Not Hispanic Or Latino Asian",
+      "valueType": "string",
+      "unitText": "Number in thousands, dollars, and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_black_or_african_american",
+      "description": "Not Hispanic Or Latino Black Or African American",
+      "valueType": "string",
+      "unitText": "Number in thousands, dollars, and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_white",
+      "description": "Not Hispanic Or Latino White",
+      "valueType": "string",
+      "unitText": "Number in thousands, dollars, and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_more_than_one_race_unknown_or_other",
+      "description": "Not Hispanic Or Latino More Than One Race Unknown Or Other",
+      "valueType": "string",
+      "unitText": "Number in thousands, dollars, and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Data from the Current Population Survey (CPS) cover employed persons 16 years and older. Annual estimates are based on CPS monthly data. Postsecondary teachers of all fields are in non-STEM occupations. Military specific occupations are not included in the CPS data. Detail may not add to total because of rounding. This table will not match previously published tables exactly due to addition of sales engineers to the engineers aggregation. The Census Bureau does not include sales engineers in the engineers aggregation but the National Center for Science and Engineering Statistics does.",
+  "sources": "National Bureau of Economic Research, Merged Outgoing Rotation Group files, 2011\u201318, and Bureau of Labor Statistics, Current Population Survey, 2019, microdata files, accessed June 2020."
+}

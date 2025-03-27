@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "New construction of science and engineering research space in academic institutions, by field, medical school space, and time of construction: FYs 2012\u201325",
+  "identifier": "NCSES-12824",
+  "description": "New construction of science and engineering research space in academic institutions, by field, medical school space, and time of construction: FYs 2012\u201325",
+  "url": "https://example.org/datasets/ncses/tables/12824",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12824/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_level_1, field_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_path",
+      "description": "Full Path",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_1",
+      "description": "Level 1",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_2",
+      "description": "Level 2",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hierarchy_depth",
+      "description": "Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2012_or_fy_2013",
+      "description": "Started In Fy 2012 Or Fy 2013",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2014_or_fy_2015",
+      "description": "Started In Fy 2014 Or Fy 2015",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2016_or_fy_2017",
+      "description": "Started In Fy 2016 Or Fy 2017",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2018_or_fy_2019",
+      "description": "Started In Fy 2018 Or Fy 2019",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2020_or_fy_2021",
+      "description": "Started In Fy 2020 Or Fy 2021",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2022_or_fy_2023",
+      "description": "Started In Fy 2022 Or Fy 2023",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_planned_to_start_in_fy_2024_or_fy_2025",
+      "description": "Planned To Start In Fy 2024 Or Fy 2025",
+      "valueType": "string",
+      "unitText": "Net assignable square feet in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "In FY 2015, \"Agricultural sciences and natural resources sciences\" was split into \"Agricultural sciences\" and \"Natural resources and conservation.\" Prior to FY 2015, data for \"Natural resources and conservation\" are included in \"Agricultural sciences.\" Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities."
+}

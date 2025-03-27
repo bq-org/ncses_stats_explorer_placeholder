@@ -1,0 +1,11 @@
+table_id,row_id,sex_and_race_or_ethnicity_full_path,sex_and_race_or_ethnicity_level_1,sex_and_race_or_ethnicity_level_2,sex_and_race_or_ethnicity_hierarchy_depth,field_mathematics_i_see_myself_as_a_math_person_,field_mathematics_others_see_me_as_a_math_person_,field_mathematics_i_am_confident_in_my_ability_to_do_an_excellent_job_on_math_tests_,field_mathematics_i_am_certain_that_i_can_understand_the_most_difficult_material_presented_in_math_textbooks_,field_mathematics_i_am_certain_that_i_can_master_math_skills_,field_mathematics_i_am_confident_in_my_ability_to_do_an_excellent_job_on_math_assignments_,field_science_i_see_myself_as_a_science_person_,field_science_others_see_me_as_a_science_person_,field_science_i_am_confident_in_my_ability_to_do_an_excellent_job_on_science_tests_,field_science_i_am_certain_that_i_can_understand_the_most_difficult_material_presented_in_science_textbooks_,field_science_i_am_certain_that_i_can_master_science_skills_,field_science_i_am_confident_in_my_ability_to_do_an_excellent_job_on_science_assignments_
+4121,r001,Total,Total,,1,44,46,65,53,71,74,48,43,66,59,69,75
+4121,r002,Sex ,Sex ,,1,,,,,,,,,,,,
+4121,r003,Sex  -> Male,Sex ,Male,2,48,49,70,57,73,77,50,43,71,63,71,77
+4121,r004,Sex  -> Female,Sex ,Female,2,39,44,61,49,68,71,46,43,62,55,67,72
+4121,r005,Race or ethnicity,Race or ethnicity,,1,,,,,,,,,,,,
+4121,r006,Race or ethnicity -> White,Race or ethnicity,White,2,44,46,65,52,71,74,52,46,67,60,70,76
+4121,r007,Race or ethnicity -> Black,Race or ethnicity,Black,2,44,47,70,59,77,78,45,42,72,61,75,80
+4121,r008,Race or ethnicity -> Hispanic<sup>a</sup>,Race or ethnicity,Hispanic<sup>a</sup>,2,40,42,65,53,68,72,42,37,60,56,62,68
+4121,r009,Race or ethnicity -> Asian,Race or ethnicity,Asian,2,59,68,68,58,74,79,54,52,64,62,70,79
+4121,r010,Race or ethnicity -> Other or Two or more races,Race or ethnicity,Other or Two or more races,2,42,49,63,51,65,74,48,44,66,60,70,75

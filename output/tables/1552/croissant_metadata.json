@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Primary support mechanisms for S&E doctorate recipients, by 2015 Carnegie classification and control of doctorate-granting institution: 2017",
+  "identifier": "NCSES-1552",
+  "description": "Primary support mechanisms for S&E doctorate recipients, by 2015 Carnegie classification and control of doctorate-granting institution: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1552",
+  "table_number": "2-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1552/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "carnegie_classification_and_institutional_control",
+      "description": "Carnegie classification and institutional control hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "carnegie_classification_and_institutional_control_level_1, carnegie_classification_and_institutional_control_level_2, carnegie_classification_and_institutional_control_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "carnegie_classification_and_institutional_control_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_doctorate_recipients",
+      "description": "All Doctorate Recipients",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fellowship_or_traineeship",
+      "description": "Fellowship Or Traineeship",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_grant",
+      "description": "Grant",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teaching_assistantship",
+      "description": "Teaching Assistantship",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_research_assistantship",
+      "description": "Research Assistantship",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_personal",
+      "description": "Personal",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other",
+      "description": "Other",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_unknown",
+      "description": "Unknown",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Personal support mechanisms include personal savings, other personal earnings, other family earnings or savings, and loans. Research assistantships include research assistantships and other assistantships. Traineeships include internships and residencies. Other support mechanisms include employer reimbursement or assistance, foreign support, and other sources. Percentages may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, special tabulations (2018) of the 2017 Survey of Earned Doctorates (SED).Science and Engineering Indicators"
+}

@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Higher education R&D expenditures at institutions reporting clinical trials, by state, institutional control, institution, and source of funds: FY 2020",
+  "identifier": "NCSES-5454",
+  "description": "Higher education R&D expenditures at institutions reporting clinical trials, by state, institutional control, institution, and source of funds: FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/5454",
+  "table_number": "72",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5454/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_institutional_control_and_institution_b",
+      "description": "State, institutional control, and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_institutional_control_and_institution_b_level_1, _b_state_institutional_control_and_institution_b_level_2, _b_state_institutional_control_and_institution_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_institutional_control_and_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_all_r_d_expenditures",
+      "description": "Total All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_clinical_trials",
+      "description": "Total Clinical Trials",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_all_r_d_expenditures",
+      "description": "Federal All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_clinical_trials",
+      "description": "Federal Clinical Trials",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_all_r_d_expenditures",
+      "description": "Nonfederal All R D Expenditures",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederal_clinical_trials",
+      "description": "Nonfederal Clinical Trials",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2020."
+}

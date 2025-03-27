@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Relationship of highest degree to job among S&E highest degree holders not in S&E occupations, by degree level: 2017",
+  "identifier": "NCSES-1594",
+  "description": "Relationship of highest degree to job among S&E highest degree holders not in S&E occupations, by degree level: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1594",
+  "table_number": "3-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1594/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "highest_degree",
+      "description": "Highest degree hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "highest_degree_level_1, highest_degree_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "highest_degree_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_degree_related_to_job_closely",
+      "description": "Degree Related To Job Closely",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_degree_related_to_job_somewhat",
+      "description": "Degree Related To Job Somewhat",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_degree_related_to_job_not",
+      "description": "Degree Related To Job Not",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "All degree levels includes professional degrees not broken out separately. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Survey of College Graduates (NSCG), 2017, and the Survey of Doctorate Recipients (SDR), 2017.Science and Engineering Indicators"
+}

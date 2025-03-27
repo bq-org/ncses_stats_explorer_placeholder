@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed science, engineering, and health doctorate holders, by broad occupation, sex, age, disability status, sector of employment, and tenure status: 2019",
+  "identifier": "NCSES-3380",
+  "description": "Employed science, engineering, and health doctorate holders, by broad occupation, sex, age, disability status, sector of employment, and tenure status: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3380",
+  "table_number": "9-34",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3380/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation_age_disability_status_and_sex_160_160_160_160_160_160_160_160_160_160_160_160_160",
+      "description": "Occupation, age, disability status, and sex\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_age_disability_status_and_sex_160_160_160_160_160_160_160_160_160_160_160_160_160_level_1, occupation_age_disability_status_and_sex_160_160_160_160_160_160_160_160_160_160_160_160_160_level_2, occupation_age_disability_status_and_sex_160_160_160_160_160_160_160_160_160_160_160_160_160_level_3, occupation_age_disability_status_and_sex_160_160_160_160_160_160_160_160_160_160_160_160_160_level_4, occupation_age_disability_status_and_sex_160_160_160_160_160_160_160_160_160_160_160_160_160_level_5, occupation_age_disability_status_and_sex_160_160_160_160_160_160_160_160_160_160_160_160_160_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_age_disability_status_and_sex_160_160_160_160_160_160_160_160_160_160_160_160_160_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_4_year_educational_institutiona_tenured",
+      "description": "4 Year Educational Institutiona Tenured",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_4_year_educational_institutiona_not_tenured_on_tenure_track",
+      "description": "4 Year Educational Institutiona Not Tenured On Tenure Track",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_4_year_educational_institutiona_not_tenured_not_on_tenure_track",
+      "description": "4 Year Educational Institutiona Not Tenured Not On Tenure Track",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_4_year_educational_institutiona_tenure_not_applicable",
+      "description": "4 Year Educational Institutiona Tenure Not Applicable",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_employment_sectors_other_educational_institutionb",
+      "description": "Other Employment Sectors Other Educational Institutionb",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_employment_sectors_private_sector_for_profitc",
+      "description": "Other Employment Sectors Private Sector For Profitc",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_employment_sectors_private_sector_nonprofit",
+      "description": "Other Employment Sectors Private Sector Nonprofit",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_employment_sectors_federal_government",
+      "description": "Other Employment Sectors Federal Government",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_employment_sectors_state_or_local_government",
+      "description": "Other Employment Sectors State Or Local Government",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_employment_sectors_self_employedd",
+      "description": "Other Employment Sectors Self Employedd",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_employment_sectors_othere",
+      "description": "Other Employment Sectors Othere",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers rounded to nearest 50. Detail may not add to total because of rounding and suppression. Estimates include those employed and living in the United States during the reference week. The Survey of Doctorate Recipients asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2019."
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed U.S.-trained SEH doctorate holders, by residence location, primary work activity, and employment sector: 2019",
+  "identifier": "NCSES-3576",
+  "description": "Employed U.S.-trained SEH doctorate holders, by residence location, primary work activity, and employment sector: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3576",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3576/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "primary_work_activity_sup_a_sup",
+      "description": "Primary work activitya hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "primary_work_activity_sup_a_sup_level_1, primary_work_activity_sup_a_sup_level_2, primary_work_activity_sup_a_sup_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "primary_work_activity_sup_a_sup_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_united_states_employed_doctorates",
+      "description": "United States Employed Doctorates",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_united_states_employment_sector_education",
+      "description": "United States Employment Sector Education",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_united_states_employment_sector_business_or_industry",
+      "description": "United States Employment Sector Business Or Industry",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_united_states_employment_sector_government",
+      "description": "United States Employment Sector Government",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_outside_of_the_united_states_employed_doctorates",
+      "description": "Outside Of The United States Employed Doctorates",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_outside_of_the_united_states_employment_sector_education",
+      "description": "Outside Of The United States Employment Sector Education",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_outside_of_the_united_states_employment_sector_business_or_industry",
+      "description": "Outside Of The United States Employment Sector Business Or Industry",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_outside_of_the_united_states_employment_sector_government",
+      "description": "Outside Of The United States Employment Sector Government",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Residence location is based on reported living location on 1 February 2019. Educational institution includes 4-year colleges or universities, medical schools (including university-affiliated hospitals or medical centers), university-affiliated research institutes, 2-year colleges, community colleges, technical institutes, precollege institutions, and other educational institutions. Business or industry includes private for profit, private nonprofit, self-employed or business owners in incorporated or nonincorporated business, and employers not broken out separately. Government includes U.S. federal, state, and local government and non-U.S. government at any level. Numbers are rounded to the nearest 50. Percentages are rounded to the nearest 0.1%. Detail may not sum to total due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2019."
+}

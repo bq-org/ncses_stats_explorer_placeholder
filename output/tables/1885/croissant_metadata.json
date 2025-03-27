@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for R&D and R&D plant, by agency and performer: FY 2017",
+  "identifier": "NCSES-1885",
+  "description": "Federal obligations for R&D and R&D plant, by agency and performer: FY 2017",
+  "url": "https://example.org/datasets/ncses/tables/1885",
+  "table_number": "4-15",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1885/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_level_1, agency_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total performers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d",
+      "description": "R D",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total performers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_plant",
+      "description": "R D Plant",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total performers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_by_performers_intramural_and_ffrdcs",
+      "description": "Total By Performers Intramural And Ffrdcs",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total performers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_by_performers_percentage_of_total",
+      "description": "Total By Performers Percentage Of Total",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total performers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_by_performers_extramural_performers",
+      "description": "Total By Performers Extramural Performers",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total performers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_by_performers_percentage_of_total",
+      "description": "Total By Performers Percentage Of Total",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total performers"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table lists all agencies with R&D obligations greater than $100 million in FY 2017. Detail may not add to total because of rounding. R&D is basic research, applied research, and development and does not include R&D plant. Intramural activities include actual intramural R&D performance and costs associated with the administration of intramural R&D programs and extramural R&D procurements by federal personnel. Extramural performers include federally funded R&D performed in the United States and U.S. territories by businesses, universities and colleges, other nonprofit institutions, state and local governments, and foreign organizations. All other agencies include Department of Housing and Urban Development, Department of Labor, Department of State, Department of the Treasury, Appalachian Regional Commission, Consumer Product Safety Commission, Federal Communications Commission, Federal Trade Commission, Library of Congress, National Archives and Records Administration, Nuclear Regulatory Commission, Tennessee Valley Authority, and U.S. Postal Service.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Federal Funds for Research and Development, FYs 2018\u201319 (Volume 68).Science and Engineering Indicators"
+}

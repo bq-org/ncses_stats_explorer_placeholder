@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Survey of Federal Funds for Research and Development, by volume number and federal fiscal years surveyed",
+  "identifier": "NCSES-10796",
+  "description": "Survey of Federal Funds for Research and Development, by volume number and federal fiscal years surveyed",
+  "url": "https://example.org/datasets/ncses/tables/10796",
+  "table_number": "A-4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10796/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "volume_number",
+      "description": "Volume Number",
+      "valueType": "string",
+      "unitText": "Survey volume number and fiscal year"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "prior_year_actual",
+      "description": "Prior Year Actual",
+      "valueType": "string",
+      "unitText": "Survey volume number and fiscal year"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "current_year_estimate",
+      "description": "Current Year Estimate",
+      "valueType": "string",
+      "unitText": "Survey volume number and fiscal year"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "budget_year_projection",
+      "description": "Budget Year Projection",
+      "valueType": "string",
+      "unitText": "Survey volume number and fiscal year"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Prior year actuals refer to the final obligations for the given fiscal year. Current year estimates refer to the fiscal year that was still open while the survey was conducted; for current year estimates, preliminary obligations have been made for the given fiscal year but final obligations are not yet available. Budget year projections refer to the fiscal year that has not yet started and thus no obligations have yet been made. The Congressional Budget and Impoundment Act of 1974 (Section 501 of P.L. 93-344, codified at 31 U.S.C. 1102) changed the federal fiscal year from 1 July to 30 June to the current cycle of 1 October to 30 September effective with FY 1977. A 3-month transition period from 1 July 1976 to 30 September 1976 was provided for under the Fiscal Year Transition Act (P.L. 94-274). The National Center for Science and Engineering Statistics discontinued the collection of the budget year projections for R&D effective with volume 66.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

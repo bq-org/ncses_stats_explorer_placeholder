@@ -1,0 +1,417 @@
+table_id,row_id,region_country_or_economy_and_field_full_path,region_country_or_economy_and_field_level_1,region_country_or_economy_and_field_level_2,region_country_or_economy_and_field_level_3,region_country_or_economy_and_field_level_4,region_country_or_economy_and_field_hierarchy_depth,field_2000,field_2001,field_2002,field_2003,field_2004,field_2005,field_2006,field_2007,field_2008,field_2009,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016
+1572,r001,Argentina,Argentina,,,,1,,,,,,,,,,,,,,,,,
+1572,r002,Argentina -> All fields,Argentina,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,937,1518,1674,2088,2088,2406,NA
+1572,r003,Argentina -> All fields -> All S&E,Argentina,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,709,1122,1203,1726,1726,1716,NA
+1572,r004,Argentina -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Argentina,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,372,590,709,934,934,904,NA
+1572,r005,Argentina -> All fields -> All S&E -> Computer sciences,Argentina,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,68,83,19,NA,NA,28,NA
+1572,r006,Argentina -> All fields -> All S&E -> Agricultural sciences,Argentina,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,60,106,82,87,87,99,NA
+1572,r007,Argentina -> All fields -> All S&E -> Social and behavioral sciences,Argentina,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,141,221,305,551,551,527,NA
+1572,r008,Argentina -> All fields -> All S&E -> Engineering,Argentina,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,68,122,88,154,154,158,NA
+1572,r009,Australia,Australia,,,,1,,,,,,,,,,,,,,,,,
+1572,r010,Australia -> All fields,Australia,All fields,,,2,3687,3802,3910,4315,4763,4886,5276,5559,5749,5808,5825,6079,NA,8101,8400,8627,9089
+1572,r011,Australia -> All fields -> All S&E,Australia,All fields,All S&E,,3,2086,2122,2185,2328,2611,2642,2866,3090,3364,3226,3189,3434,NA,4576,4865,5011,5285
+1572,r012,Australia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Australia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,992,922,1014,1006,1131,1129,1134,1228,1302,1295,1301,1306,NA,1621,1668,1900,1988
+1572,r013,Australia -> All fields -> All S&E -> Computer sciences,Australia,All fields,All S&E,Computer sciences,4,98,107,98,99,94,112,158,171,228,218,197,229,NA,315,311,327,346
+1572,r014,Australia -> All fields -> All S&E -> Agricultural sciences,Australia,All fields,All S&E,Agricultural sciences,4,211,198,186,197,228,193,212,221,251,219,230,280,NA,306,300,353,406
+1572,r015,Australia -> All fields -> All S&E -> Social and behavioral sciences,Australia,All fields,All S&E,Social and behavioral sciences,4,309,377,430,486,572,572,635,709,737,704,682,762,NA,998,1088,1040,1043
+1572,r016,Australia -> All fields -> All S&E -> Engineering,Australia,All fields,All S&E,Engineering,4,476,518,457,540,586,636,727,761,846,790,779,857,NA,1336,1498,1391,1502
+1572,r017,Austria,Austria,,,,1,,,,,,,,,,,,,,,,,
+1572,r018,Austria -> All fields,Austria,All fields,,,2,1790,1871,2125,2197,2443,2228,2158,2085,2205,2284,2500,2359,2412,2228,2207,2189,2239
+1572,r019,Austria -> All fields -> All S&E,Austria,All fields,All S&E,,3,986,1059,1149,1107,1188,1222,1209,1178,1248,1321,1384,1369,1414,1330,1305,1243,1316
+1572,r020,Austria -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Austria,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,359,384,431,377,373,418,415,370,397,461,463,454,440,493,416,431,440
+1572,r021,Austria -> All fields -> All S&E -> Computer sciences,Austria,All fields,All S&E,Computer sciences,4,53,21,67,63,71,74,61,59,93,99,129,96,139,111,114,113,113
+1572,r022,Austria -> All fields -> All S&E -> Agricultural sciences,Austria,All fields,All S&E,Agricultural sciences,4,85,92,135,135,97,101,80,103,115,103,96,93,80,71,56,67,70
+1572,r023,Austria -> All fields -> All S&E -> Social and behavioral sciences,Austria,All fields,All S&E,Social and behavioral sciences,4,149,162,171,210,250,224,220,212,206,230,235,262,271,223,209,166,158
+1572,r024,Austria -> All fields -> All S&E -> Engineering,Austria,All fields,All S&E,Engineering,4,340,400,345,322,397,405,433,434,437,428,461,464,484,433,512,467,537
+1572,r025,Belgium,Belgium,,,,1,,,,,,,,,,,,,,,,,
+1572,r026,Belgium -> All fields,Belgium,All fields,,,2,1147,1317,1413,1432,1479,1601,1718,1716,1880,1902,2126,2165,2368,2464,2581,2800,2890
+1572,r027,Belgium -> All fields -> All S&E,Belgium,All fields,All S&E,,3,807,891,907,914,944,1021,1091,1042,1179,947,1281,1313,1431,1546,1575,1677,1662
+1572,r028,Belgium -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Belgium,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,479,519,468,564,592,509,493,439,651,312,422,438,464,455,504,804,590
+1572,r029,Belgium -> All fields -> All S&E -> Computer sciences,Belgium,All fields,All S&E,Computer sciences,4,0.05,2,80,62,66,65,66,112,82,11,54,58,55,67,64,2,16
+1572,r030,Belgium -> All fields -> All S&E -> Agricultural sciences,Belgium,All fields,All S&E,Agricultural sciences,4,66,77,76,85,75,71,89,84,109,109,111,105,115,133,135,73,86
+1572,r031,Belgium -> All fields -> All S&E -> Social and behavioral sciences,Belgium,All fields,All S&E,Social and behavioral sciences,4,109,124,120,119,122,126,157,130,153,118,193,205,238,264,266,273,303
+1572,r032,Belgium -> All fields -> All S&E -> Engineering,Belgium,All fields,All S&E,Engineering,4,153,169,163,84,89,250,286,277,184,397,501,507,559,627,606,525,667
+1572,r033,Brazil,Brazil,,,,1,,,,,,,,,,,,,,,,,
+1572,r034,Brazil -> All fields,Brazil,All fields,,,2,NA,NA,NA,NA,35742,36042,NA,9919,10711,11256,11314,12321,13912,NA,16745,18625,20605
+1572,r035,Brazil -> All fields -> All S&E,Brazil,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9124,9414,10469
+1572,r036,Brazil -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Brazil,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2798,2899,3143
+1572,r037,Brazil -> All fields -> All S&E -> Computer sciences,Brazil,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,224,289,332
+1572,r038,Brazil -> All fields -> All S&E -> Agricultural sciences,Brazil,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1941,2116,2389
+1572,r039,Brazil -> All fields -> All S&E -> Social and behavioral sciences,Brazil,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1302,1396,1544
+1572,r040,Brazil -> All fields -> All S&E -> Engineering,Brazil,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2859,2714,3061
+1572,r041,Bulgaria,Bulgaria,,,,1,,,,,,,,,,,,,,,,,
+1572,r042,Bulgaria -> All fields,Bulgaria,All fields,,,2,NA,NA,NA,NA,NA,528,NA,NA,NA,NA,596,NA,NA,1202,1363,1442,1464
+1572,r043,Bulgaria -> All fields -> All S&E,Bulgaria,All fields,All S&E,,3,NA,NA,NA,NA,NA,237,NA,NA,NA,NA,313,NA,NA,561,692,710,634
+1572,r044,Bulgaria -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Bulgaria,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,89,NA,NA,NA,NA,84,NA,NA,140,174,191,176
+1572,r045,Bulgaria -> All fields -> All S&E -> Computer sciences,Bulgaria,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,0.05,NA,NA,NA,NA,7,NA,NA,25,33,36,18
+1572,r046,Bulgaria -> All fields -> All S&E -> Agricultural sciences,Bulgaria,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,20,NA,NA,37,47,61,43
+1572,r047,Bulgaria -> All fields -> All S&E -> Social and behavioral sciences,Bulgaria,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,22,NA,NA,NA,NA,66,NA,NA,135,177,167,162
+1572,r048,Bulgaria -> All fields -> All S&E -> Engineering,Bulgaria,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,90,NA,NA,NA,NA,136,NA,NA,224,261,255,235
+1572,r049,Canada,Canada,,,,1,,,,,,,,,,,,,,,,,
+1572,r050,Canada -> All fields,Canada,All fields,,,2,3978,NA,NA,NA,3709,4116,4200,4608,4827,5440,5416,5673,5906,7059,7190,7546,7768
+1572,r051,Canada -> All fields -> All S&E,Canada,All fields,All S&E,,3,2281,NA,NA,NA,2198,2433,2427,3105,3444,3879,3884,4060,4307,5187,5075,5325,5556
+1572,r052,Canada -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Canada,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,830,NA,NA,NA,854,945,873,1347,1554,1746,1746,1756,1925,2299,1947,2043,2083
+1572,r053,Canada -> All fields -> All S&E -> Computer sciences,Canada,All fields,All S&E,Computer sciences,4,72,NA,NA,NA,50,96,117,147,150,180,182,227,238,283,259,272,251
+1572,r054,Canada -> All fields -> All S&E -> Agricultural sciences,Canada,All fields,All S&E,Agricultural sciences,4,138,NA,NA,NA,145,153,138,120,129,135,135,164,157,188,203,213,248
+1572,r055,Canada -> All fields -> All S&E -> Social and behavioral sciences,Canada,All fields,All S&E,Social and behavioral sciences,4,662,NA,NA,NA,662,612,663,744,720,783,785,818,855,1027,1215,1276,1341
+1572,r056,Canada -> All fields -> All S&E -> Engineering,Canada,All fields,All S&E,Engineering,4,579,NA,NA,NA,487,627,636,747,891,1035,1036,1095,1132,1391,1451,1522,1632
+1572,r057,Chile,Chile,,,,1,,,,,,,,,,,,,,,,,
+1572,r058,Chile -> All fields,Chile,All fields,,,2,NA,NA,NA,NA,188,85,290,217,307,368,423,461,538,593,606,670,699
+1572,r059,Chile -> All fields -> All S&E,Chile,All fields,All S&E,,3,NA,NA,NA,NA,158,59,249,166,234,275,327,335,387,436,408,469,495
+1572,r060,Chile -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Chile,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,149,49,148,122,147,183,223,198,231,215,205,254,278
+1572,r061,Chile -> All fields -> All S&E -> Computer sciences,Chile,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,0.05,0.05,1,1,6,2,2,6,4,22,9,11,13
+1572,r062,Chile -> All fields -> All S&E -> Agricultural sciences,Chile,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,3,0.05,9,9,38,29,29,34,44,50,46,53,58
+1572,r063,Chile -> All fields -> All S&E -> Social and behavioral sciences,Chile,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,3,1,36,10,13,21,21,29,30,32,53,48,50
+1572,r064,Chile -> All fields -> All S&E -> Engineering,Chile,All fields,All S&E,Engineering,4,NA,NA,NA,NA,3,9,55,24,30,40,52,68,78,117,96,103,96
+1572,r065,China<sup>a</sup>,China<sup>a</sup>,,,,1,,,,,,,,,,,,,,,,,
+1572,r066,China<sup>a</sup> -> All fields,China<sup>a</sup>,All fields,,,2,11383,12465,14638,18806,23446,27677,36247,41464,43759,48658,48987,50289,51713,53139,53653,53778,NA
+1572,r067,China<sup>a</sup> -> All fields -> All S&E,China<sup>a</sup>,All fields,All S&E,,3,7766,8153,9523,12238,14858,17595,22953,26582,28439,31423,31410,32208,32331,33490,34103,34440,NA
+1572,r068,China<sup>a</sup> -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,China<sup>a</sup>,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,2306,2655,2808,3705,4518,5458,7241,8051,8953,9570,9638,9881,9762,10396,10922,10978,NA
+1572,r069,China<sup>a</sup> -> All fields -> All S&E -> Computer sciences,China<sup>a</sup>,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1572,r070,China<sup>a</sup> -> All fields -> All S&E -> Agricultural sciences,China<sup>a</sup>,All fields,All S&E,Agricultural sciences,4,462,536,626,756,977,1093,1544,1903,1936,2006,1973,2241,2365,2435,2382,2549,NA
+1572,r071,China<sup>a</sup> -> All fields -> All S&E -> Social and behavioral sciences,China<sup>a</sup>,All fields,All S&E,Social and behavioral sciences,4,514,621,837,1204,1309,1617,2038,2149,2274,2461,2371,2383,2314,2328,2262,2184,NA
+1572,r072,China<sup>a</sup> -> All fields -> All S&E -> Engineering,China<sup>a</sup>,All fields,All S&E,Engineering,4,4484,4341,5252,6573,8054,9427,12130,14479,15276,17386,17428,17703,17890,18331,18537,18729,NA
+1572,r073,Colombia,Colombia,,,,1,,,,,,,,,,,,,,,,,
+1572,r074,Colombia -> All fields,Colombia,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,258,323,408,466,600
+1572,r075,Colombia -> All fields -> All S&E,Colombia,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,175,214,262,300,395
+1572,r076,Colombia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Colombia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,80,79,90,106,139
+1572,r077,Colombia -> All fields -> All S&E -> Computer sciences,Colombia,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,NA,9,15,17
+1572,r078,Colombia -> All fields -> All S&E -> Agricultural sciences,Colombia,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,17,34,33,40
+1572,r079,Colombia -> All fields -> All S&E -> Social and behavioral sciences,Colombia,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,44,41,59,63
+1572,r080,Colombia -> All fields -> All S&E -> Engineering,Colombia,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,70,74,88,87,136
+1572,r081,Costa Rica,Costa Rica,,,,1,,,,,,,,,,,,,,,,,
+1572,r082,Costa Rica -> All fields,Costa Rica,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,103,82,106,140
+1572,r083,Costa Rica -> All fields -> All S&E,Costa Rica,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,11,14,23
+1572,r084,Costa Rica -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Costa Rica,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,6,9,10
+1572,r085,Costa Rica -> All fields -> All S&E -> Computer sciences,Costa Rica,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,0.05,2
+1572,r086,Costa Rica -> All fields -> All S&E -> Agricultural sciences,Costa Rica,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,1,0.05,2
+1572,r087,Costa Rica -> All fields -> All S&E -> Social and behavioral sciences,Costa Rica,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,4,5,9
+1572,r088,Costa Rica -> All fields -> All S&E -> Engineering,Costa Rica,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,0.05,0.05,0.05
+1572,r089,Croatia,Croatia,,,,1,,,,,,,,,,,,,,,,,
+1572,r090,Croatia -> All fields,Croatia,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,830,855,878,646
+1572,r091,Croatia -> All fields -> All S&E,Croatia,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,430,551,491,302
+1572,r092,Croatia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Croatia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,108,136,166,84
+1572,r093,Croatia -> All fields -> All S&E -> Computer sciences,Croatia,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,29,11,23
+1572,r094,Croatia -> All fields -> All S&E -> Agricultural sciences,Croatia,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,59,46,64,35
+1572,r095,Croatia -> All fields -> All S&E -> Social and behavioral sciences,Croatia,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,104,186,105,68
+1572,r096,Croatia -> All fields -> All S&E -> Engineering,Croatia,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,135,154,145,92
+1572,r097,Cyprus,Cyprus,,,,1,,,,,,,,,,,,,,,,,
+1572,r098,Cyprus -> All fields,Cyprus,All fields,,,2,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,30,NA,NA,52,60,77,90
+1572,r099,Cyprus -> All fields -> All S&E,Cyprus,All fields,All S&E,,3,NA,NA,NA,NA,NA,4,NA,NA,NA,NA,17,NA,NA,35,37,47,60
+1572,r100,Cyprus -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Cyprus,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,6,NA,NA,13,14,14,24
+1572,r101,Cyprus -> All fields -> All S&E -> Computer sciences,Cyprus,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,6,NA,NA,4,4,2,4
+1572,r102,Cyprus -> All fields -> All S&E -> Agricultural sciences,Cyprus,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,0.05,NA,NA,NA,NA,0.05,NA,NA,1,0.05,3,0.05
+1572,r103,Cyprus -> All fields -> All S&E -> Social and behavioral sciences,Cyprus,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,2,NA,NA,4,6,10,15
+1572,r104,Cyprus -> All fields -> All S&E -> Engineering,Cyprus,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,0.05,NA,NA,NA,NA,3,NA,NA,13,13,18,17
+1572,r105,Czechia,Czechia,,,,1,,,,,,,,,,,,,,,,,
+1572,r106,Czechia -> All fields,Czechia,All fields,,,2,895,1066,1327,1546,1732,1908,2023,2272,2382,2391,2228,2462,2683,2433,2484,2440,2379
+1572,r107,Czechia -> All fields -> All S&E,Czechia,All fields,All S&E,,3,618,723,875,1052,1085,1199,1263,1366,1546,1502,1373,1511,1633,1515,1551,1452,1408
+1572,r108,Czechia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Czechia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,216,228,305,372,360,423,433,428,580,573,586,623,621,585,613,543,529
+1572,r109,Czechia -> All fields -> All S&E -> Computer sciences,Czechia,All fields,All S&E,Computer sciences,4,110,121,138,29,50,59,50,62,69,80,75,81,97,101,79,76,86
+1572,r110,Czechia -> All fields -> All S&E -> Agricultural sciences,Czechia,All fields,All S&E,Agricultural sciences,4,57,67,100,109,112,132,136,170,133,113,131,165,183,150,150,117,119
+1572,r111,Czechia -> All fields -> All S&E -> Social and behavioral sciences,Czechia,All fields,All S&E,Social and behavioral sciences,4,51,100,104,129,95,83,126,130,174,151,132,188,187,166,153,145,158
+1572,r112,Czechia -> All fields -> All S&E -> Engineering,Czechia,All fields,All S&E,Engineering,4,184,207,228,413,468,502,518,576,590,585,449,454,545,513,556,571,516
+1572,r113,Denmark,Denmark,,,,1,,,,,,,,,,,,,,,,,
+1572,r114,Denmark -> All fields,Denmark,All fields,,,2,913,900,732,859,788,955,910,973,1102,1163,1388,1503,1552,1888,2126,2176,2198
+1572,r115,Denmark -> All fields -> All S&E,Denmark,All fields,All S&E,,3,255,274,394,602,620,583,572,570,653,696,802,944,968,1224,1289,1354,1385
+1572,r116,Denmark -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Denmark,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,177,131,100,210,166,150,205,211,261,258,276,335,373,397,379
+1572,r117,Denmark -> All fields -> All S&E -> Computer sciences,Denmark,All fields,All S&E,Computer sciences,4,NA,NA,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05
+1572,r118,Denmark -> All fields -> All S&E -> Agricultural sciences,Denmark,All fields,All S&E,Agricultural sciences,4,69,87,83,84,89,78,67,84,93,95,74,128,136,210,230,211,167
+1572,r119,Denmark -> All fields -> All S&E -> Social and behavioral sciences,Denmark,All fields,All S&E,Social and behavioral sciences,4,NA,NA,63,51,55,96,108,95,114,133,134,179,170,197,213,228,282
+1572,r120,Denmark -> All fields -> All S&E -> Engineering,Denmark,All fields,All S&E,Engineering,4,186,187,71,336,376,199,231,241,241,257,333,379,386,482,473,518,557
+1572,r121,Estonia,Estonia,,,,1,,,,,,,,,,,,,,,,,
+1572,r122,Estonia -> All fields,Estonia,All fields,,,2,NA,NA,NA,NA,NA,131,143,153,161,160,175,250,190,233,213,208,239
+1572,r123,Estonia -> All fields -> All S&E,Estonia,All fields,All S&E,,3,NA,NA,NA,NA,NA,78,83,86,107,99,110,161,140,153,151,143,165
+1572,r124,Estonia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Estonia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,33,42,49,47,48,56,74,62,68,71,64,72
+1572,r125,Estonia -> All fields -> All S&E -> Computer sciences,Estonia,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,5,5,6,8,7,12,17,14,13,9,16,16
+1572,r126,Estonia -> All fields -> All S&E -> Agricultural sciences,Estonia,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,7,5,5,6,6,6,6,9,8,12,7,11
+1572,r127,Estonia -> All fields -> All S&E -> Social and behavioral sciences,Estonia,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,8,14,8,12,12,11,36,22,23,23,18,21
+1572,r128,Estonia -> All fields -> All S&E -> Engineering,Estonia,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,25,17,18,34,26,25,28,33,41,36,38,45
+1572,r129,Finland,Finland,,,,1,,,,,,,,,,,,,,,,,
+1572,r130,Finland -> All fields,Finland,All fields,,,2,1891,1797,1797,1751,1863,1957,1898,1986,1951,1949,1750,1856,1834,1899,2013,2000,2009
+1572,r131,Finland -> All fields -> All S&E,Finland,All fields,All S&E,,3,1007,939,944,949,989,1069,1094,1158,1089,1048,955,1013,980,1104,1145,1170,1164
+1572,r132,Finland -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Finland,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,315,300,281,294,341,344,350,410,359,316,276,295,276,315,339,355,364
+1572,r133,Finland -> All fields -> All S&E -> Computer sciences,Finland,All fields,All S&E,Computer sciences,4,31,45,41,51,38,66,66,70,55,52,50,67,48,155,166,152,156
+1572,r134,Finland -> All fields -> All S&E -> Agricultural sciences,Finland,All fields,All S&E,Agricultural sciences,4,44,51,41,40,48,44,51,42,58,44,38,58,47,55,62,77,73
+1572,r135,Finland -> All fields -> All S&E -> Social and behavioral sciences,Finland,All fields,All S&E,Social and behavioral sciences,4,243,222,221,204,198,229,210,231,237,235,217,234,220,222,222,206,220
+1572,r136,Finland -> All fields -> All S&E -> Engineering,Finland,All fields,All S&E,Engineering,4,374,321,360,360,364,386,417,405,380,401,374,359,389,357,356,380,351
+1572,r137,France,France,,,,1,,,,,,,,,,,,,,,,,
+1572,r138,France -> All fields,France,All fields,,,2,9903,10404,10404,8420,8420,9578,9818,10650,11309,11941,NA,NA,NA,13890,13365,13774,13016
+1572,r139,France -> All fields -> All S&E,France,All fields,All S&E,,3,6640,6957,6957,5639,5639,6549,6854,7402,7835,8356,NA,NA,NA,10211,10023,10020,9564
+1572,r140,France -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,France,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,4281,4494,4494,3638,3638,3984,4247,4521,4765,4988,NA,NA,NA,5909,5731,5848,5788
+1572,r141,France -> All fields -> All S&E -> Computer sciences,France,All fields,All S&E,Computer sciences,4,478,495,494,404,404,449,542,610,605,642,NA,NA,NA,710,736,778,630
+1572,r142,France -> All fields -> All S&E -> Agricultural sciences,France,All fields,All S&E,Agricultural sciences,4,22,23,23,18,18,35,26,13,18,13,NA,NA,NA,0.05,0.05,0.05,0.05
+1572,r143,France -> All fields -> All S&E -> Social and behavioral sciences,France,All fields,All S&E,Social and behavioral sciences,4,939,988,989,800,800,1140,1016,1086,1173,1334,NA,NA,NA,1737,1684,1493,1389
+1572,r144,France -> All fields -> All S&E -> Engineering,France,All fields,All S&E,Engineering,4,920,956,957,779,779,941,1023,1172,1274,1379,NA,NA,NA,1855,1872,1901,1757
+1572,r145,Germany,Germany,,,,1,,,,,,,,,,,,,,,,,
+1572,r146,Germany -> All fields,Germany,All fields,,,2,25780,24796,23838,23043,23138,25952,24946,24439,25604,25527,26039,27354,27099,27707,28147,29218,29303
+1572,r147,Germany -> All fields -> All S&E,Germany,All fields,All S&E,,3,11888,11271,10618,10340,10107,11590,10871,11084,11887,11691,12576,13281,13666,14936,14912,15957,15871
+1572,r148,Germany -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Germany,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,6937,6361,5863,5701,5536,6171,5789,5938,6255,6328,6816,7127,7385,8276,8140,8476,8382
+1572,r149,Germany -> All fields -> All S&E -> Computer sciences,Germany,All fields,All S&E,Computer sciences,4,441,470,417,387,489,520,566,593,699,738,838,906,886,941,994,1103,1021
+1572,r150,Germany -> All fields -> All S&E -> Agricultural sciences,Germany,All fields,All S&E,Agricultural sciences,4,917,883,878,895,929,1106,934,923,878,856,880,902,925,803,834,899,898
+1572,r151,Germany -> All fields -> All S&E -> Social and behavioral sciences,Germany,All fields,All S&E,Social and behavioral sciences,4,1151,1224,1089,1144,1046,1448,1395,1393,1514,1475,1528,1562,1658,1769,1730,1736,1860
+1572,r152,Germany -> All fields -> All S&E -> Engineering,Germany,All fields,All S&E,Engineering,4,2442,2333,2371,2213,2107,2345,2187,2237,2541,2294,2514,2784,2812,3147,3214,3743,3710
+1572,r153,Greece,Greece,,,,1,,,,,,,,,,,,,,,,,
+1572,r154,Greece -> All fields,Greece,All fields,,,2,NA,NA,NA,NA,1295,1248,NA,2436,1406,NA,1892,1685,1734,1527,1601,1794,2003
+1572,r155,Greece -> All fields -> All S&E,Greece,All fields,All S&E,,3,NA,NA,NA,NA,920,918,NA,667,705,NA,1070,900,745,834,868,786,894
+1572,r156,Greece -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Greece,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,595,492,NA,267,213,NA,278,244,221,221,218,223,221
+1572,r157,Greece -> All fields -> All S&E -> Computer sciences,Greece,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,116,27,NA,20,74,NA,133,85,70,95,65,58,71
+1572,r158,Greece -> All fields -> All S&E -> Agricultural sciences,Greece,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,39,89,NA,63,93,NA,159,80,79,88,83,51,57
+1572,r159,Greece -> All fields -> All S&E -> Social and behavioral sciences,Greece,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,51,59,NA,85,86,NA,139,137,95,149,151,106,187
+1572,r160,Greece -> All fields -> All S&E -> Engineering,Greece,All fields,All S&E,Engineering,4,NA,NA,NA,NA,119,251,832,232,239,NA,361,354,280,281,351,348,358
+1572,r161,Hungary,Hungary,,,,1,,,,,,,,,,,,,,,,,
+1572,r162,Hungary -> All fields,Hungary,All fields,,,2,717,793,983,1067,893,1069,1012,1059,1141,1376,1275,1234,1242,1069,1154,1206,1255
+1572,r163,Hungary -> All fields -> All S&E,Hungary,All fields,All S&E,,3,421,313,380,427,349,348,401,536,420,603,643,533,569,604,659,589,609
+1572,r164,Hungary -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Hungary,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,190,137,151,198,162,149,170,208,188,260,345,254,257,249,236,240,233
+1572,r165,Hungary -> All fields -> All S&E -> Computer sciences,Hungary,All fields,All S&E,Computer sciences,4,4,5,14,10,9,8,11,38,39,25,51,31,36,52,66,55,44
+1572,r166,Hungary -> All fields -> All S&E -> Agricultural sciences,Hungary,All fields,All S&E,Agricultural sciences,4,41,55,61,100,66,66,76,97,73,91,84,83,97,57,67,32,67
+1572,r167,Hungary -> All fields -> All S&E -> Social and behavioral sciences,Hungary,All fields,All S&E,Social and behavioral sciences,4,83,66,70,82,76,79,92,100,90,97,63,93,80,150,162,136,161
+1572,r168,Hungary -> All fields -> All S&E -> Engineering,Hungary,All fields,All S&E,Engineering,4,103,50,84,37,36,46,52,93,30,130,100,72,99,96,128,126,104
+1572,r169,Iceland,Iceland,,,,1,,,,,,,,,,,,,,,,,
+1572,r170,Iceland -> All fields,Iceland,All fields,,,2,2,3,5,6,10,14,15,10,23,32,36,NA,40,55,88,67,72
+1572,r171,Iceland -> All fields -> All S&E,Iceland,All fields,All S&E,,3,0.05,1,1,1,5,2,8,4,12,15,26,NA,19,29,NA,36,33
+1572,r172,Iceland -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Iceland,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,0.05,0.05,1,1,4,1,5,3,6,8,17,NA,12,19,NA,25,19
+1572,r173,Iceland -> All fields -> All S&E -> Computer sciences,Iceland,All fields,All S&E,Computer sciences,4,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,2,NA,2,2,NA,1,1
+1572,r174,Iceland -> All fields -> All S&E -> Agricultural sciences,Iceland,All fields,All S&E,Agricultural sciences,4,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,1,NA,0.05,0.05,NA,0.05,1
+1572,r175,Iceland -> All fields -> All S&E -> Social and behavioral sciences,Iceland,All fields,All S&E,Social and behavioral sciences,4,0.05,1,0.05,0.05,1,0.05,1,1,1,4,0.05,NA,2,5,NA,3,3
+1572,r176,Iceland -> All fields -> All S&E -> Engineering,Iceland,All fields,All S&E,Engineering,4,0.05,0.05,0.05,0.05,0.05,1,2,0.05,5,3,6,NA,3,3,NA,7,9
+1572,r177,India,India,,,,1,,,,,,,,,,,,,,,,,
+1572,r178,India -> All fields,India,All fields,,,2,11296,11544,11974,13733,17853,17898,18730,NA,NA,NA,NA,21544,23630,NA,21830,22528,25095
+1572,r179,India -> All fields -> All S&E,India,All fields,All S&E,,3,5541,5504,5637,6471,7636,7537,7982,NA,NA,NA,NA,13782,14658,NA,13144,13845,15967
+1572,r180,India -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,India,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,3885,3727,3955,4497,5612,5549,5625,NA,NA,NA,NA,5442,4381,NA,5721,5987,7030
+1572,r181,India -> All fields -> All S&E -> Computer sciences,India,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,240,291,NA,321,333,507
+1572,r182,India -> All fields -> All S&E -> Agricultural sciences,India,All fields,All S&E,Agricultural sciences,4,933,999,948,1195,1142,1020,1299,NA,NA,NA,NA,1804,3203,NA,1545,1889,2375
+1572,r183,India -> All fields -> All S&E -> Social and behavioral sciences,India,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4215,4597,NA,2960,2949,3190
+1572,r184,India -> All fields -> All S&E -> Engineering,India,All fields,All S&E,Engineering,4,723,778,734,779,882,968,1058,NA,NA,NA,NA,2081,2186,NA,2597,2687,2865
+1572,r185,Indonesia,Indonesia,,,,1,,,,,,,,,,,,,,,,,
+1572,r186,Indonesia -> All fields,Indonesia,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2260,3911,4104,NA,3591,5363,3838
+1572,r187,Indonesia -> All fields -> All S&E,Indonesia,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,930,1309,NA
+1572,r188,Indonesia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Indonesia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,170,95,NA
+1572,r189,Indonesia -> All fields -> All S&E -> Computer sciences,Indonesia,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,25,NA
+1572,r190,Indonesia -> All fields -> All S&E -> Agricultural sciences,Indonesia,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,410,357,NA
+1572,r191,Indonesia -> All fields -> All S&E -> Social and behavioral sciences,Indonesia,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,676,NA
+1572,r192,Indonesia -> All fields -> All S&E -> Engineering,Indonesia,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,304,156,NA
+1572,r193,Ireland,Ireland,,,,1,,,,,,,,,,,,,,,,,
+1572,r194,Ireland -> All fields,Ireland,All fields,,,2,501,572,520,668,683,810,979,1035,1090,1211,1222,1447,1447,1532,1738,1749,1429
+1572,r195,Ireland -> All fields -> All S&E,Ireland,All fields,All S&E,,3,328,416,354,441,423,483,178,174,175,766,699,791,842,849,833,1069,856
+1572,r196,Ireland -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Ireland,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,221,274,229,290,237,250,NA,NA,NA,381,323,369,384,385,423,502,369
+1572,r197,Ireland -> All fields -> All S&E -> Computer sciences,Ireland,All fields,All S&E,Computer sciences,4,12,19,15,14,28,53,NA,NA,NA,86,71,83,128,76,106,85,86
+1572,r198,Ireland -> All fields -> All S&E -> Agricultural sciences,Ireland,All fields,All S&E,Agricultural sciences,4,17,19,12,19,21,23,23,23,30,23,37,15,15,40,20,32,23
+1572,r199,Ireland -> All fields -> All S&E -> Social and behavioral sciences,Ireland,All fields,All S&E,Social and behavioral sciences,4,29,41,26,41,29,54,NA,NA,NA,93,86,120,111,130,127,222,180
+1572,r200,Ireland -> All fields -> All S&E -> Engineering,Ireland,All fields,All S&E,Engineering,4,49,63,72,77,108,103,155,151,145,183,182,204,204,218,157,228,198
+1572,r201,Israel,Israel,,,,1,,,,,,,,,,,,,,,,,
+1572,r202,Israel -> All fields,Israel,All fields,,,2,688,859,863,999,1135,1206,1210,1288,1427,1373,1534,1530,1586,1541,1546,1617,1570
+1572,r203,Israel -> All fields -> All S&E,Israel,All fields,All S&E,,3,497,598,599,688,715,764,743,796,918,865,980,1025,1027,1040,1113,1203,1151
+1572,r204,Israel -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Israel,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,329,409,391,477,483,486,465,475,512,484,558,600,597,617,707,739,680
+1572,r205,Israel -> All fields -> All S&E -> Computer sciences,Israel,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,57,69,72,75,57,57,57,63,74,62
+1572,r206,Israel -> All fields -> All S&E -> Agricultural sciences,Israel,All fields,All S&E,Agricultural sciences,4,23,33,44,20,31,33,37,38,25,26,32,41,36,36,25,40,23
+1572,r207,Israel -> All fields -> All S&E -> Social and behavioral sciences,Israel,All fields,All S&E,Social and behavioral sciences,4,68,96,109,111,114,159,143,133,177,151,187,177,190,190,183,203,210
+1572,r208,Israel -> All fields -> All S&E -> Engineering,Israel,All fields,All S&E,Engineering,4,77,60,55,80,87,86,98,93,135,132,128,150,147,140,135,147,176
+1572,r209,Italy,Italy,,,,1,,,,,,,,,,,,,,,,,
+1572,r210,Italy -> All fields,Italy,All fields,,,2,3557,4044,3977,4456,6351,8466,9604,10188,NA,NA,NA,11270,11458,10687,10678,10485,9803
+1572,r211,Italy -> All fields -> All S&E,Italy,All fields,All S&E,,3,1777,2100,1958,2760,3942,5075,5758,6107,NA,NA,NA,6409,6294,6131,6185,5976,5656
+1572,r212,Italy -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Italy,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,759,821,818,1274,1867,2271,2430,2531,NA,NA,NA,2531,2569,2502,2571,2569,2346
+1572,r213,Italy -> All fields -> All S&E -> Computer sciences,Italy,All fields,All S&E,Computer sciences,4,0.05,0.05,0.05,33,64,66,105,149,NA,NA,NA,140,124,135,134,664,477
+1572,r214,Italy -> All fields -> All S&E -> Agricultural sciences,Italy,All fields,All S&E,Agricultural sciences,4,209,350,342,306,384,496,566,669,NA,NA,NA,684,688,650,619,622,499
+1572,r215,Italy -> All fields -> All S&E -> Social and behavioral sciences,Italy,All fields,All S&E,Social and behavioral sciences,4,92,121,60,294,450,703,830,799,NA,NA,NA,971,877,810,808,523,538
+1572,r216,Italy -> All fields -> All S&E -> Engineering,Italy,All fields,All S&E,Engineering,4,717,808,738,853,1177,1539,1827,1959,NA,NA,NA,2083,2036,2034,2053,1598,1796
+1572,r217,Japan<sup>b</sup>,Japan<sup>b</sup>,,,,1,,,,,,,,,,,,,,,,,
+1572,r218,Japan<sup>b</sup> -> All fields,Japan<sup>b</sup>,All fields,,,2,15357,16078,16183,16314,16909,16851,17396,17291,16735,15872,16760,15911,15902,15427,15045,15714,15804
+1572,r219,Japan<sup>b</sup> -> All fields -> All S&E,Japan<sup>b</sup>,All fields,All S&E,,3,7089,7401,7461,7581,7912,7658,8122,8017,7761,7396,7470,7100,7100,6791,6743,7540,7391
+1572,r220,Japan<sup>b</sup> -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Japan<sup>b</sup>,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,1579,1586,1602,1651,1679,1543,1633,1686,1525,1480,1534,1436,1394,1423,1377,2359,2316
+1572,r221,Japan<sup>b</sup> -> All fields -> All S&E -> Computer sciences,Japan<sup>b</sup>,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1572,r222,Japan<sup>b</sup> -> All fields -> All S&E -> Agricultural sciences,Japan<sup>b</sup>,All fields,All S&E,Agricultural sciences,4,1147,1241,1248,1258,1348,1257,1321,1233,1222,1170,1233,1046,1059,1062,941,911,881
+1572,r223,Japan<sup>b</sup> -> All fields -> All S&E -> Social and behavioral sciences,Japan<sup>b</sup>,All fields,All S&E,Social and behavioral sciences,4,563,610,656,751,808,943,973,1025,1060,988,1010,1019,1011,850,887,776,754
+1572,r224,Japan<sup>b</sup> -> All fields -> All S&E -> Engineering,Japan<sup>b</sup>,All fields,All S&E,Engineering,4,3800,3964,3955,3921,4077,3915,4195,4073,3954,3758,3693,3599,3636,3456,3538,3494,3440
+1572,r225,Latvia,Latvia,,,,1,,,,,,,,,,,,,,,,,
+1572,r226,Latvia -> All fields,Latvia,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,267,315,264,255,197
+1572,r227,Latvia -> All fields -> All S&E,Latvia,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,149,173,164,146,116
+1572,r228,Latvia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Latvia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,51,34,54,45
+1572,r229,Latvia -> All fields -> All S&E -> Computer sciences,Latvia,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,17,12,9,8
+1572,r230,Latvia -> All fields -> All S&E -> Agricultural sciences,Latvia,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,10,9,1,6
+1572,r231,Latvia -> All fields -> All S&E -> Social and behavioral sciences,Latvia,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,30,37,28,23
+1572,r232,Latvia -> All fields -> All S&E -> Engineering,Latvia,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,51,65,72,54,34
+1572,r233,Lithuania,Lithuania,,,,1,,,,,,,,,,,,,,,,,
+1572,r234,Lithuania -> All fields,Lithuania,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,441,411,417,324
+1572,r235,Lithuania -> All fields -> All S&E,Lithuania,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,281,262,246,187
+1572,r236,Lithuania -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Lithuania,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,64,84,92,62
+1572,r237,Lithuania -> All fields -> All S&E -> Computer sciences,Lithuania,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,11,8,6
+1572,r238,Lithuania -> All fields -> All S&E -> Agricultural sciences,Lithuania,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,23,16,18
+1572,r239,Lithuania -> All fields -> All S&E -> Social and behavioral sciences,Lithuania,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,62,47,45,44
+1572,r240,Lithuania -> All fields -> All S&E -> Engineering,Lithuania,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,121,97,85,57
+1572,r241,Luxembourg,Luxembourg,,,,1,,,,,,,,,,,,,,,,,
+1572,r242,Luxembourg -> All fields,Luxembourg,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,8,NA,NA,NA,57,64,82,107,107
+1572,r243,Luxembourg -> All fields -> All S&E,Luxembourg,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,45,55,74,78
+1572,r244,Luxembourg -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Luxembourg,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17,12,17,24,26
+1572,r245,Luxembourg -> All fields -> All S&E -> Computer sciences,Luxembourg,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,13,16,28,19
+1572,r246,Luxembourg -> All fields -> All S&E -> Agricultural sciences,Luxembourg,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,0.05,0.05,0.05,0.05
+1572,r247,Luxembourg -> All fields -> All S&E -> Social and behavioral sciences,Luxembourg,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,11,14,15,19
+1572,r248,Luxembourg -> All fields -> All S&E -> Engineering,Luxembourg,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,9,8,7,14
+1572,r249,Malta,Malta,,,,1,,,,,,,,,,,,,,,,,
+1572,r250,Malta -> All fields,Malta,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,22,30,37
+1572,r251,Malta -> All fields -> All S&E,Malta,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,13,15,19
+1572,r252,Malta -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Malta,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,4,6,10
+1572,r253,Malta -> All fields -> All S&E -> Computer sciences,Malta,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0.05,0.05,1
+1572,r254,Malta -> All fields -> All S&E -> Agricultural sciences,Malta,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,0.05,0.05,0.05
+1572,r255,Malta -> All fields -> All S&E -> Social and behavioral sciences,Malta,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,0.05,3,2
+1572,r256,Malta -> All fields -> All S&E -> Engineering,Malta,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,9,6,6
+1572,r257,Mexico,Mexico,,,,1,,,,,,,,,,,,,,,,,
+1572,r258,Mexico -> All fields,Mexico,All fields,,,2,1036,1496,1801,1230,2325,2432,2800,2950,3498,4099,4167,3795,5119,5013,5782,6050,9268
+1572,r259,Mexico -> All fields -> All S&E,Mexico,All fields,All S&E,,3,611,849,1106,849,1412,1379,1529,1651,1687,1875,2015,1672,2223,2213,2365,2560,2654
+1572,r260,Mexico -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Mexico,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,201,362,412,276,514,483,500,553,545,695,890,608,756,720,753,758,792
+1572,r261,Mexico -> All fields -> All S&E -> Computer sciences,Mexico,All fields,All S&E,Computer sciences,4,37,36,15,30,37,48,26,26,48,47,26,22,30,47,65,64,65
+1572,r262,Mexico -> All fields -> All S&E -> Agricultural sciences,Mexico,All fields,All S&E,Agricultural sciences,4,146,162,107,173,218,207,226,248,178,200,104,101,218,133,148,183,233
+1572,r263,Mexico -> All fields -> All S&E -> Social and behavioral sciences,Mexico,All fields,All S&E,Social and behavioral sciences,4,140,166,424,185,382,397,527,543,576,628,588,534,617,680,617,672,848
+1572,r264,Mexico -> All fields -> All S&E -> Engineering,Mexico,All fields,All S&E,Engineering,4,87,123,148,185,261,244,250,281,340,305,407,407,602,633,782,883,716
+1572,r265,Netherlands,Netherlands,,,,1,,,,,,,,,,,,,,,,,
+1572,r266,Netherlands -> All fields,Netherlands,All fields,,,2,NA,2533,2556,2584,2679,2879,2993,3160,3214,3301,3736,3715,4040,4321,4528,4663,NA
+1572,r267,Netherlands -> All fields -> All S&E,Netherlands,All fields,All S&E,,3,NA,1524,1523,1019,1552,778,785,815,852,823,946,949,1232,1730,1790,NA,NA
+1572,r268,Netherlands -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Netherlands,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,530,489,NA,499,NA,NA,NA,NA,NA,NA,NA,NA,642,626,NA,NA
+1572,r269,Netherlands -> All fields -> All S&E -> Computer sciences,Netherlands,All fields,All S&E,Computer sciences,4,NA,0.05,0.05,NA,0.05,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1572,r270,Netherlands -> All fields -> All S&E -> Agricultural sciences,Netherlands,All fields,All S&E,Agricultural sciences,4,NA,229,264,219,259,221,250,266,289,222,237,230,213,280,340,NA,NA
+1572,r271,Netherlands -> All fields -> All S&E -> Social and behavioral sciences,Netherlands,All fields,All S&E,Social and behavioral sciences,4,NA,375,326,347,311,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1572,r272,Netherlands -> All fields -> All S&E -> Engineering,Netherlands,All fields,All S&E,Engineering,4,NA,390,444,453,483,557,535,549,563,601,709,719,1019,808,824,NA,NA
+1572,r273,New Zealand,New Zealand,,,,1,,,,,,,,,,,,,,,,,
+1572,r274,New Zealand -> All fields,New Zealand,All fields,,,2,464,487,510,529,623,643,638,756,797,830,987,1109,1062,1288,1414,1332,1296
+1572,r275,New Zealand -> All fields -> All S&E,New Zealand,All fields,All S&E,,3,NA,NA,321,326,338,351,350,415,477,495,515,633,631,819,907,851,804
+1572,r276,New Zealand -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,New Zealand,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,171,163,205,207,189,222,271,282,262,264,308,353,358,363,348
+1572,r277,New Zealand -> All fields -> All S&E -> Computer sciences,New Zealand,All fields,All S&E,Computer sciences,4,NA,NA,13,11,22,15,20,41,44,27,45,50,51,63,70,58,52
+1572,r278,New Zealand -> All fields -> All S&E -> Agricultural sciences,New Zealand,All fields,All S&E,Agricultural sciences,4,NA,NA,21,24,1,10,10,16,10,3,6,33,15,37,77,33,39
+1572,r279,New Zealand -> All fields -> All S&E -> Social and behavioral sciences,New Zealand,All fields,All S&E,Social and behavioral sciences,4,NA,NA,72,86,67,71,80,68,72,90,108,158,126,188,172,180,180
+1572,r280,New Zealand -> All fields -> All S&E -> Engineering,New Zealand,All fields,All S&E,Engineering,4,NA,NA,44,42,43,48,51,68,80,93,94,128,131,178,231,218,185
+1572,r281,Norway,Norway,,,,1,,,,,,,,,,,,,,,,,
+1572,r282,Norway -> All fields,Norway,All fields,,,2,658,768,740,714,756,838,882,980,1231,1084,1202,1297,1408,1549,1442,1407,1368
+1572,r283,Norway -> All fields -> All S&E,Norway,All fields,All S&E,,3,203,227,177,276,137,501,502,563,707,159,507,129,148,850,776,734,732
+1572,r284,Norway -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Norway,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,7,11,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,454,393,389,376
+1572,r285,Norway -> All fields -> All S&E -> Computer sciences,Norway,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,247,242,392,488,NA,432,NA,NA,39,28,23,26
+1572,r286,Norway -> All fields -> All S&E -> Agricultural sciences,Norway,All fields,All S&E,Agricultural sciences,4,44,65,74,64,54,67,44,41,46,32,14,22,20,21,33,21,16
+1572,r287,Norway -> All fields -> All S&E -> Social and behavioral sciences,Norway,All fields,All S&E,Social and behavioral sciences,4,77,72,76,85,77,63,119,85,128,117,55,100,119,174,166,176,168
+1572,r288,Norway -> All fields -> All S&E -> Engineering,Norway,All fields,All S&E,Engineering,4,75,79,25,127,6,124,97,45,45,10,6,7,9,162,156,125,146
+1572,r289,Poland,Poland,,,,1,,,,,,,,,,,,,,,,,
+1572,r290,Poland -> All fields,Poland,All fields,,,2,NA,4400,4400,5450,5460,5722,5917,6072,5616,5068,3317,3055,3590,3719,3376,3787,3764
+1572,r291,Poland -> All fields -> All S&E,Poland,All fields,All S&E,,3,NA,1089,1138,1488,1432,1468,1536,1502,1365,1155,NA,NA,NA,NA,1811,2051,2017
+1572,r292,Poland -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Poland,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,734,850,808
+1572,r293,Poland -> All fields -> All S&E -> Computer sciences,Poland,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,82,59
+1572,r294,Poland -> All fields -> All S&E -> Agricultural sciences,Poland,All fields,All S&E,Agricultural sciences,4,NA,410,412,560,524,541,581,457,397,293,NA,NA,NA,NA,227,182,183
+1572,r295,Poland -> All fields -> All S&E -> Social and behavioral sciences,Poland,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,279,361,382
+1572,r296,Poland -> All fields -> All S&E -> Engineering,Poland,All fields,All S&E,Engineering,4,NA,679,726,928,908,927,955,1045,968,862,NA,NA,NA,NA,561,576,585
+1572,r297,Portugal,Portugal,,,,1,,,,,,,,,,,,,,,,,
+1572,r298,Portugal -> All fields,Portugal,All fields,,,2,1586,NA,NA,3723,3963,4150,5342,6038,4863,4376,2927,2314,2909,4155,4008,2351,2344
+1572,r299,Portugal -> All fields -> All S&E,Portugal,All fields,All S&E,,3,906,NA,NA,1875,2316,2542,3160,3344,3216,1981,1289,1297,1742,2473,2305,1294,1329
+1572,r300,Portugal -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Portugal,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,284,NA,NA,570,822,919,1192,1305,1093,561,404,415,658,820,717,357,430
+1572,r301,Portugal -> All fields -> All S&E -> Computer sciences,Portugal,All fields,All S&E,Computer sciences,4,51,NA,NA,75,211,239,321,283,342,87,45,34,69,111,157,88,72
+1572,r302,Portugal -> All fields -> All S&E -> Agricultural sciences,Portugal,All fields,All S&E,Agricultural sciences,4,38,NA,NA,79,68,71,102,86,85,46,45,36,31,49,50,43,42
+1572,r303,Portugal -> All fields -> All S&E -> Social and behavioral sciences,Portugal,All fields,All S&E,Social and behavioral sciences,4,244,NA,NA,629,636,703,824,961,859,695,396,313,403,593,535,315,286
+1572,r304,Portugal -> All fields -> All S&E -> Engineering,Portugal,All fields,All S&E,Engineering,4,289,NA,NA,522,579,610,721,709,837,592,399,499,581,900,846,491,499
+1572,r305,Romania,Romania,,,,1,,,,,,,,,,,,,,,,,
+1572,r306,Romania -> All fields,Romania,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5370,3777,3992,2260
+1572,r307,Romania -> All fields -> All S&E,Romania,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2756,1982,2038,1070
+1572,r308,Romania -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Romania,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,517,350,340,237
+1572,r309,Romania -> All fields -> All S&E -> Computer sciences,Romania,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,0.05,103,53
+1572,r310,Romania -> All fields -> All S&E -> Agricultural sciences,Romania,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,390,231,328,134
+1572,r311,Romania -> All fields -> All S&E -> Social and behavioral sciences,Romania,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,431,337,361,229
+1572,r312,Romania -> All fields -> All S&E -> Engineering,Romania,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1418,1064,906,417
+1572,r313,Russia,Russia,,,,1,,,,,,,,,,,,,,,,,
+1572,r314,Russia -> All fields,Russia,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,34886,11205,9948,10017,36533,44128,29632,27212
+1572,r315,Russia -> All fields -> All S&E,Russia,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19340,24522,18502,14376
+1572,r316,Russia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Russia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6055,5762,4590,3781
+1572,r317,Russia -> All fields -> All S&E -> Computer sciences,Russia,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3015,2504,2033,1860
+1572,r318,Russia -> All fields -> All S&E -> Agricultural sciences,Russia,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1223,2971,1064,1045
+1572,r319,Russia -> All fields -> All S&E -> Social and behavioral sciences,Russia,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3371,6989,5267,2468
+1572,r320,Russia -> All fields -> All S&E -> Engineering,Russia,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5676,6296,5548,5222
+1572,r321,Saudi Arabia,Saudi Arabia,,,,1,,,,,,,,,,,,,,,,,
+1572,r322,Saudi Arabia -> All fields,Saudi Arabia,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,391,557,400,NA,NA,247
+1572,r323,Saudi Arabia -> All fields -> All S&E,Saudi Arabia,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,95,112,21,68,68,65
+1572,r324,Saudi Arabia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Saudi Arabia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,52,58,NA,33,33,32
+1572,r325,Saudi Arabia -> All fields -> All S&E -> Computer sciences,Saudi Arabia,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,1,NA,NA,NA,8
+1572,r326,Saudi Arabia -> All fields -> All S&E -> Agricultural sciences,Saudi Arabia,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.05,1,4,18,18,3
+1572,r327,Saudi Arabia -> All fields -> All S&E -> Social and behavioral sciences,Saudi Arabia,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,38,NA,12,12,13
+1572,r328,Saudi Arabia -> All fields -> All S&E -> Engineering,Saudi Arabia,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,14,17,5,5,9
+1572,r329,Slovakia,Slovakia,,,,1,,,,,,,,,,,,,,,,,
+1572,r330,Slovakia -> All fields,Slovakia,All fields,,,2,446,532,734,2126,854,1022,1218,1371,1655,1937,2878,1672,2181,2119,2182,1914,1771
+1572,r331,Slovakia -> All fields -> All S&E,Slovakia,All fields,All S&E,,3,221,307,384,630,438,533,546,678,762,880,1374,796,1099,1152,1148,1005,911
+1572,r332,Slovakia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Slovakia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,70,110,130,318,167,196,194,247,208,261,408,192,257,350,372,318,302
+1572,r333,Slovakia -> All fields -> All S&E -> Computer sciences,Slovakia,All fields,All S&E,Computer sciences,4,7,1,6,10,10,14,18,22,26,32,61,45,32,57,55,56,57
+1572,r334,Slovakia -> All fields -> All S&E -> Agricultural sciences,Slovakia,All fields,All S&E,Agricultural sciences,4,37,39,52,56,42,50,47,76,74,83,131,70,81,67,86,47,70
+1572,r335,Slovakia -> All fields -> All S&E -> Social and behavioral sciences,Slovakia,All fields,All S&E,Social and behavioral sciences,4,14,31,33,101,64,67,67,81,112,113,210,97,179,177,211,192,165
+1572,r336,Slovakia -> All fields -> All S&E -> Engineering,Slovakia,All fields,All S&E,Engineering,4,93,126,163,145,155,206,220,252,342,391,564,392,550,501,424,392,317
+1572,r337,Slovenia,Slovenia,,,,1,,,,,,,,,,,,,,,,,
+1572,r338,Slovenia -> All fields,Slovenia,All fields,,,2,NA,NA,NA,NA,NA,369,395,415,405,466,465,523,569,1166,1003,1000,3763
+1572,r339,Slovenia -> All fields -> All S&E,Slovenia,All fields,All S&E,,3,NA,NA,NA,NA,NA,231,232,258,269,284,301,290,412,742,662,625,1602
+1572,r340,Slovenia -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Slovenia,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,74,78,99,108,113,139,83,112,221,203,168,258
+1572,r341,Slovenia -> All fields -> All S&E -> Computer sciences,Slovenia,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,18,12,19,5,15,16,23,42,44,36,44,188
+1572,r342,Slovenia -> All fields -> All S&E -> Agricultural sciences,Slovenia,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,11,14,17,23,14,17,22,56,110,110,117,117
+1572,r343,Slovenia -> All fields -> All S&E -> Social and behavioral sciences,Slovenia,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,41,46,50,47,43,36,54,103,141,133,108,562
+1572,r344,Slovenia -> All fields -> All S&E -> Engineering,Slovenia,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,87,82,73,86,99,93,108,99,226,180,188,477
+1572,r345,South Africa,South Africa,,,,1,,,,,,,,,,,,,,,,,
+1572,r346,South Africa -> All fields,South Africa,All fields,,,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1381,1422,1586,1845,2270,2536,NA
+1572,r347,South Africa -> All fields -> All S&E,South Africa,All fields,All S&E,,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,714,784,886,242,1175,1313,NA
+1572,r348,South Africa -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,South Africa,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,331,409,444,NA,572,616,NA
+1572,r349,South Africa -> All fields -> All S&E -> Computer sciences,South Africa,All fields,All S&E,Computer sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,30,42,NA,55,51,NA
+1572,r350,South Africa -> All fields -> All S&E -> Agricultural sciences,South Africa,All fields,All S&E,Agricultural sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,76,71,93,90,79,121,NA
+1572,r351,South Africa -> All fields -> All S&E -> Social and behavioral sciences,South Africa,All fields,All S&E,Social and behavioral sciences,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,178,163,174,NA,293,304,NA
+1572,r352,South Africa -> All fields -> All S&E -> Engineering,South Africa,All fields,All S&E,Engineering,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,105,111,133,152,176,221,NA
+1572,r353,South Korea,South Korea,,,,1,,,,,,,,,,,,,,,,,
+1572,r354,South Korea -> All fields,South Korea,All fields,,,2,6143,6208,6690,7172,7946,8449,8657,9082,9369,9912,10542,11645,12243,12625,12931,13077,13882
+1572,r355,South Korea -> All fields -> All S&E,South Korea,All fields,All S&E,,3,2914,3013,3294,3280,3629,3772,3943,3796,3867,3994,4362,5340,5611,5877,5972,6104,6557
+1572,r356,South Korea -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,South Korea,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,692,687,692,841,932,854,928,835,889,992,1011,1372,1488,1699,1823,1751,1861
+1572,r357,South Korea -> All fields -> All S&E -> Computer sciences,South Korea,All fields,All S&E,Computer sciences,4,169,176,156,92,88,31,62,37,65,49,84,98,141,169,155,150,154
+1572,r358,South Korea -> All fields -> All S&E -> Agricultural sciences,South Korea,All fields,All S&E,Agricultural sciences,4,276,292,317,219,246,284,299,277,279,274,303,308,317,269,252,271,286
+1572,r359,South Korea -> All fields -> All S&E -> Social and behavioral sciences,South Korea,All fields,All S&E,Social and behavioral sciences,4,123,220,230,260,323,330,387,398,392,377,458,488,527,601,606,668,737
+1572,r360,South Korea -> All fields -> All S&E -> Engineering,South Korea,All fields,All S&E,Engineering,4,1654,1638,1899,1868,2040,2273,2267,2249,2242,2302,2506,3074,3138,3139,3136,3264,3519
+1572,r361,Spain,Spain,,,,1,,,,,,,,,,,,,,,,,
+1572,r362,Spain -> All fields,Spain,All fields,,,2,6007,6453,6905,7479,8168,6902,7159,7150,7302,7915,8696,8747,9483,10504,10889,11316,14694
+1572,r363,Spain -> All fields -> All S&E,Spain,All fields,All S&E,,3,2937,3124,3394,3741,3965,3553,3684,3825,3852,4167,4931,5576,5812,6474,6708,7174,8373
+1572,r364,Spain -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Spain,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,1629,1699,1875,1929,2032,1795,2029,1984,1981,2157,2100,3211,3053,3374,3400,4267,4706
+1572,r365,Spain -> All fields -> All S&E -> Computer sciences,Spain,All fields,All S&E,Computer sciences,4,132,143,194,202,217,167,174,190,192,245,305,507,422,439,520,726,775
+1572,r366,Spain -> All fields -> All S&E -> Agricultural sciences,Spain,All fields,All S&E,Agricultural sciences,4,255,213,253,325,322,273,253,233,275,249,292,218,298,297,235,193,248
+1572,r367,Spain -> All fields -> All S&E -> Social and behavioral sciences,Spain,All fields,All S&E,Social and behavioral sciences,4,513,531,597,740,791,690,697,765,722,738,938,1032,1237,1439,1367,1132,1503
+1572,r368,Spain -> All fields -> All S&E -> Engineering,Spain,All fields,All S&E,Engineering,4,408,538,475,545,603,628,531,653,682,778,1296,608,802,925,1186,856,1141
+1572,r369,Sweden,Sweden,,,,1,,,,,,,,,,,,,,,,,
+1572,r370,Sweden -> All fields,Sweden,All fields,,,2,3049,3388,3517,3558,3834,2778,3781,3904,3625,3564,3371,3356,3343,3345,3584,3647,3533
+1572,r371,Sweden -> All fields -> All S&E,Sweden,All fields,All S&E,,3,1879,1994,2120,2192,2408,1483,2351,2300,2171,2029,1953,1971,1974,2055,2149,2211,2188
+1572,r372,Sweden -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Sweden,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,625,695,725,759,822,521,709,776,704,701,673,678,726,670,695,763,745
+1572,r373,Sweden -> All fields -> All S&E -> Computer sciences,Sweden,All fields,All S&E,Computer sciences,4,64,51,75,111,122,61,146,146,138,130,106,139,141,125,184,175,177
+1572,r374,Sweden -> All fields -> All S&E -> Agricultural sciences,Sweden,All fields,All S&E,Agricultural sciences,4,96,93,106,71,72,64,79,84,63,65,59,60,58,68,55,51,81
+1572,r375,Sweden -> All fields -> All S&E -> Social and behavioral sciences,Sweden,All fields,All S&E,Social and behavioral sciences,4,253,244,287,294,296,211,278,282,304,254,272,272,220,246,260,266,258
+1572,r376,Sweden -> All fields -> All S&E -> Engineering,Sweden,All fields,All S&E,Engineering,4,841,911,927,957,1096,626,1139,1012,962,879,843,822,829,946,955,956,927
+1572,r377,Switzerland,Switzerland,,,,1,,,,,,,,,,,,,,,,,
+1572,r378,Switzerland -> All fields,Switzerland,All fields,,,2,2733,2745,2800,2742,2952,3303,3381,3428,3426,3641,3800,3484,3638,3631,3847,3854,3935
+1572,r379,Switzerland -> All fields -> All S&E,Switzerland,All fields,All S&E,,3,1299,1310,1384,1276,1423,1659,1831,1836,1759,1890,1908,1918,1984,2095,2352,2325,2441
+1572,r380,Switzerland -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Switzerland,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,804,743,770,698,743,897,1004,984,912,950,922,951,967,987,1051,1191,1253
+1572,r381,Switzerland -> All fields -> All S&E -> Computer sciences,Switzerland,All fields,All S&E,Computer sciences,4,47,52,54,53,48,82,79,81,65,77,103,96,137,81,116,122,120
+1572,r382,Switzerland -> All fields -> All S&E -> Agricultural sciences,Switzerland,All fields,All S&E,Agricultural sciences,4,114,118,135,127,159,151,164,139,153,147,170,120,118,106,105,98,122
+1572,r383,Switzerland -> All fields -> All S&E -> Social and behavioral sciences,Switzerland,All fields,All S&E,Social and behavioral sciences,4,74,75,103,121,154,189,208,215,234,252,275,306,270,294,317,330,319
+1572,r384,Switzerland -> All fields -> All S&E -> Engineering,Switzerland,All fields,All S&E,Engineering,4,260,322,322,277,319,340,376,417,395,464,438,445,492,627,763,584,627
+1572,r385,Taiwan,Taiwan,,,,1,,,,,,,,,,,,,,,,,
+1572,r386,Taiwan -> All fields,Taiwan,All fields,,,2,1455,1463,1501,1759,1964,2165,2614,2850,3140,3589,3705,3846,3861,4241,4048,4000,3623
+1572,r387,Taiwan -> All fields -> All S&E,Taiwan,All fields,All S&E,,3,970,970,966,1167,1291,1385,1643,1905,2005,2295,2509,2472,2478,2678,2487,2430,2128
+1572,r388,Taiwan -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Taiwan,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,233,232,255,298,318,398,455,413,469,522,567,568,596,684,619,597,556
+1572,r389,Taiwan -> All fields -> All S&E -> Computer sciences,Taiwan,All fields,All S&E,Computer sciences,4,16,19,18,31,24,38,46,45,52,62,74,76,74,79,57,59,51
+1572,r390,Taiwan -> All fields -> All S&E -> Agricultural sciences,Taiwan,All fields,All S&E,Agricultural sciences,4,87,90,93,93,116,83,92,72,77,104,95,79,94,98,99,106,89
+1572,r391,Taiwan -> All fields -> All S&E -> Social and behavioral sciences,Taiwan,All fields,All S&E,Social and behavioral sciences,4,108,108,72,89,111,108,111,157,165,172,165,148,171,180,196,207,188
+1572,r392,Taiwan -> All fields -> All S&E -> Engineering,Taiwan,All fields,All S&E,Engineering,4,526,521,528,656,722,758,939,1219,1242,1435,1608,1601,1543,1637,1516,1461,1244
+1572,r393,Turkey,Turkey,,,,1,,,,,,,,,,,,,,,,,
+1572,r394,Turkey -> All fields,Turkey,All fields,,,2,2124,1985,2472,2815,2680,2838,2594,3357,3754,4253,4684,4653,4506,8734,4516,5192,6052
+1572,r395,Turkey -> All fields -> All S&E,Turkey,All fields,All S&E,,3,1209,1063,1319,1495,1434,1585,1317,1663,1893,2260,2521,2465,2257,2392,2188,2532,3004
+1572,r396,Turkey -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,Turkey,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,285,307,381,411,348,441,372,465,526,692,778,969,953,1088,844,961,1207
+1572,r397,Turkey -> All fields -> All S&E -> Computer sciences,Turkey,All fields,All S&E,Computer sciences,4,19,13,8,14,20,12,25,35,50,47,74,74,69,69,5,6,34
+1572,r398,Turkey -> All fields -> All S&E -> Agricultural sciences,Turkey,All fields,All S&E,Agricultural sciences,4,332,241,276,384,323,274,257,285,316,350,382,282,249,249,212,220,210
+1572,r399,Turkey -> All fields -> All S&E -> Social and behavioral sciences,Turkey,All fields,All S&E,Social and behavioral sciences,4,241,182,310,305,325,426,293,372,451,493,594,366,358,358,388,411,465
+1572,r400,Turkey -> All fields -> All S&E -> Engineering,Turkey,All fields,All S&E,Engineering,4,332,320,344,381,418,432,370,506,550,678,693,774,628,628,739,934,1088
+1572,r401,United Kingdom,United Kingdom,,,,1,,,,,,,,,,,,,,,,,
+1572,r402,United Kingdom -> All fields,United Kingdom,All fields,,,2,11568,14147,14232,14935,15257,15778,16466,17545,16606,17651,18756,20076,20438,25896,25020,26636,27366
+1572,r403,United Kingdom -> All fields -> All S&E,United Kingdom,All fields,All S&E,,3,7481,8878,8722,8971,9267,9579,9916,10524,9674,10425,11312,11842,12096,14732,14271,15338,15757
+1572,r404,United Kingdom -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,United Kingdom,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,3953,4813,4827,4875,4375,4449,4425,4609,4203,4390,4696,4965,4874,7454,7198,7634,7763
+1572,r405,United Kingdom -> All fields -> All S&E -> Computer sciences,United Kingdom,All fields,All S&E,Computer sciences,4,312,389,376,377,468,545,711,720,706,797,843,871,902,1038,925,1023,1136
+1572,r406,United Kingdom -> All fields -> All S&E -> Agricultural sciences,United Kingdom,All fields,All S&E,Agricultural sciences,4,349,341,339,301,318,310,308,252,194,224,215,218,232,305,288,313,334
+1572,r407,United Kingdom -> All fields -> All S&E -> Social and behavioral sciences,United Kingdom,All fields,All S&E,Social and behavioral sciences,4,1021,1144,1159,1179,1887,2022,2075,2301,2212,2395,2787,2954,3091,2349,2339,2599,2559
+1572,r408,United Kingdom -> All fields -> All S&E -> Engineering,United Kingdom,All fields,All S&E,Engineering,4,1847,2190,2021,2239,2218,2252,2397,2642,2358,2618,2770,2834,2997,3586,3521,3768,3965
+1572,r409,United States,United States,,,,1,,,,,,,,,,,,,,,,,
+1572,r410,United States -> All fields,United States,All fields,,,2,44808,44904,44160,45994,48378,52631,56067,60616,63712,67716,69570,73041,76288,65051,67449,68923,69525
+1572,r411,United States -> All fields -> All S&E,United States,All fields,All S&E,,3,26086,26060,24992,26011,22797,28515,30289,32394,33423,33953,34572,35982,37261,37813,39524,39933,39710
+1572,r412,United States -> All fields -> All S&E -> Physical and biological sciences and mathematics and statistics,United States,All fields,All S&E,Physical and biological sciences and mathematics and statistics,4,9991,9600,9250,9927,6302,10868,11557,12551,13082,13540,14321,14574,14974,15419,16026,16344,16466
+1572,r413,United States -> All fields -> All S&E -> Computer sciences,United States,All fields,All S&E,Computer sciences,4,777,768,750,834,909,1119,1416,1595,1698,1580,1599,1588,1698,1819,1940,1963,1951
+1572,r414,United States -> All fields -> All S&E -> Agricultural sciences,United States,All fields,All S&E,Agricultural sciences,4,969,945,928,917,967,943,927,992,952,1029,891,951,993,1049,1015,1052,1003
+1572,r415,United States -> All fields -> All S&E -> Social and behavioral sciences,United States,All fields,All S&E,Social and behavioral sciences,4,8830,9017,8671,8845,8465,8805,8717,8955,9325,9602,9780,10239,10485,9449,9797,9949,9708
+1572,r416,United States -> All fields -> All S&E -> Engineering,United States,All fields,All S&E,Engineering,4,5519,5730,5393,5488,6154,6780,7672,8301,8366,8202,7981,8630,9111,10077,10746,10625,10582

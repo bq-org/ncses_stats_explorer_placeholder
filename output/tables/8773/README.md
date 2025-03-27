@@ -1,0 +1,33 @@
+# Companies located in the United States that performed or funded R&D and engaged in intellectual property transfer activities, by type of activity and industrial sector: 2020
+
+**Modal ID:** 8773
+
+**Table Number:** 69
+
+**Type:** CH (Column Hierarchical)
+
+**Units:** (Number)
+
+## Notes
+
+Detail may not add to total because of rounding. Industrial sector is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D and are not comparable with estimates published for years prior to 2018. Statistics are based on companies in the United States that reported to the survey. No systematic item imputation was applied. Beginning in survey year 2018, these statistics include an adjustment to the weight to account for unit nonresponse; beginning in survey year 2020, the company counts reflect a change in rounding methodology.
+
+## Sources
+
+National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2020.
+
+## Files
+
+- `data.csv`: The table data in CSV format
+- `croissant_metadata.json`: ML Croissant metadata for machine learning applications
+
+## Structure
+
+- Row hierarchy depth: 1
+- Column hierarchy depth: 2
+- Time series: No
+
+## Special Values
+
+- `i`: imputed value
+- `r`: revised value

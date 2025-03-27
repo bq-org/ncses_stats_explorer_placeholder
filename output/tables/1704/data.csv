@@ -1,0 +1,9 @@
+table_id,row_id,budget_function_and_agency_full_path,budget_function_and_agency_level_1,budget_function_and_agency_level_2,budget_function_and_agency_level_3,budget_function_and_agency_level_4,budget_function_and_agency_hierarchy_depth,field_2018_actual,field_2019_preliminary,field_2020_proposed,field_2018_19_change_,field_2019_20_change_
+1704,r001,R&D and R&D plant,R&D and R&D plant,,,,1,1286,1342,1325,4.4,-1.3
+1704,r002,R&D and R&D plant -> Department of Veterans Affairs,R&D and R&D plant,Department of Veterans Affairs,,,2,,,,,
+1704,r003,R&D and R&D plant -> Department of Veterans Affairs -> Medical and prosthetic research (703),R&D and R&D plant,Department of Veterans Affairs,Medical and prosthetic research (703),,3,723,779,762,7.7,-2.2
+1704,r004,R&D and R&D plant -> Department of Veterans Affairs -> Medical services (703),R&D and R&D plant,Department of Veterans Affairs,Medical services (703),,3,563,563,563,0.0,0.0
+1704,r005,R&D and R&D plant -> R&D,R&D and R&D plant,R&D,,,2,1286,1342,1325,4.4,-1.3
+1704,r006,R&D and R&D plant -> R&D -> Department of Veterans Affairs,R&D and R&D plant,R&D,Department of Veterans Affairs,,3,,,,,
+1704,r007,R&D and R&D plant -> R&D -> Department of Veterans Affairs -> Medical and prosthetic research (703),R&D and R&D plant,R&D,Department of Veterans Affairs,Medical and prosthetic research (703),4,723,779,762,7.7,-2.2
+1704,r008,R&D and R&D plant -> R&D -> Department of Veterans Affairs -> Medical services (703),R&D and R&D plant,R&D,Department of Veterans Affairs,Medical services (703),4,563,563,563,0.0,0.0

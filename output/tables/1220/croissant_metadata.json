@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Primary source of support for U.S. citizen and permanent resident S&E doctorate recipients, by ethnicity,  race, sex, and field: 2013&#8211;17",
+  "identifier": "NCSES-1220",
+  "description": "Primary source of support for U.S. citizen and permanent resident S&E doctorate recipients, by ethnicity,  race, sex, and field: 2013&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1220",
+  "table_number": "7-26",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1220/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "primary_source_of_support_ethnicity_race_and_sex",
+      "description": "Primary source of support, ethnicity,  race, and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "primary_source_of_support_ethnicity_race_and_sex_level_1, primary_source_of_support_ethnicity_race_and_sex_level_2, primary_source_of_support_ethnicity_race_and_sex_level_3, primary_source_of_support_ethnicity_race_and_sex_level_4, primary_source_of_support_ethnicity_race_and_sex_level_5, primary_source_of_support_ethnicity_race_and_sex_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "primary_source_of_support_ethnicity_race_and_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_s_e",
+      "description": "All S E",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_all_science",
+      "description": "Science All Science",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_agricultural_sciences",
+      "description": "Science Agricultural Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_biological_sciences",
+      "description": "Science Biological Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_computer_sciences",
+      "description": "Science Computer Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_earth_atmospheric_and_ocean_sciences",
+      "description": "Science Earth Atmospheric And Ocean Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_mathematics_and_statistics",
+      "description": "Science Mathematics And Statistics",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_physical_sciences",
+      "description": "Science Physical Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_psychology",
+      "description": "Science Psychology",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_social_sciences",
+      "description": "Science Social Sciences",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering",
+      "description": "Engineering",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data in this table refer to research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or other health sciences. Reporting categories for ethnicity and race were expanded in 2013; comparisons to prior-year data should be made with caution.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

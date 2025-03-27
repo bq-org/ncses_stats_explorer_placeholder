@@ -1,0 +1,960 @@
+table_id,row_id,_b_state_or_location_and_agency_b_full_path,_b_state_or_location_and_agency_b_level_1,_b_state_or_location_and_agency_b_level_2,_b_state_or_location_and_agency_b_level_3,_b_state_or_location_and_agency_b_level_4,_b_state_or_location_and_agency_b_hierarchy_depth,field_total,field_intramural_federal_agenciesa,field_intramural_ffrdcs,field_extramural_united_states_and_u_s_territories_businesses,field_extramural_united_states_and_u_s_territories_higher_educationb,field_extramural_united_states_and_u_s_territories_nonprofit_organizations,field_extramural_united_states_and_u_s_territories_state_and_local_governments
+10857,r001,Alabama,Alabama,,,,1,4086585,1967060,608,1509290,568863,22193,18572
+10857,r002,Alabama -> Departments,Alabama,Departments,,,2,,,,,,,
+10857,r003,Alabama -> Departments -> Department of Agriculture,Alabama,Departments,Department of Agriculture,,3,57226,7796,0,175,48329,384,542
+10857,r004,Alabama -> Departments -> Department of Commerce,Alabama,Departments,Department of Commerce,,3,14312,3050,0,0,10774,250,238
+10857,r005,Alabama -> Departments -> Department of Defense,Alabama,Departments,Department of Defense,,3,3041448,1937219,608,1059348,42370,1666,237
+10857,r006,Alabama -> Departments -> Department of Education,Alabama,Departments,Department of Education,,3,1307,0,0,0,402,0,905
+10857,r007,Alabama -> Departments -> Department of Energy,Alabama,Departments,Department of Energy,,3,36551,0,0,24464,11992,95,0
+10857,r008,Alabama -> Departments -> Department of Health and Human Services,Alabama,Departments,Department of Health and Human Services,,3,385897,169,0,8614,355174,13544,8396
+10857,r009,Alabama -> Departments -> Department of Homeland Security,Alabama,Departments,Department of Homeland Security,,3,8583,0,0,413,7821,349,0
+10857,r010,Alabama -> Departments -> Department of the Interior,Alabama,Departments,Department of the Interior,,3,3952,3031,0,0,722,0,199
+10857,r011,Alabama -> Departments -> Department of Justice,Alabama,Departments,Department of Justice,,3,1350,0,0,0,1350,0,0
+10857,r012,Alabama -> Departments -> Department of Transportation,Alabama,Departments,Department of Transportation,,3,14342,31,0,4139,2868,0,7304
+10857,r013,Alabama -> Departments -> Department of Veterans Affairs,Alabama,Departments,Department of Veterans Affairs,,3,13331,13331,0,0,0,0,0
+10857,r014,Alabama -> Other agencies,Alabama,Other agencies,,,2,,,,,,,
+10857,r015,Alabama -> Other agencies -> Agency for International Development,Alabama,Other agencies,Agency for International Development,,3,5280,0,0,0,0,5280,0
+10857,r016,Alabama -> Other agencies -> Environmental Protection Agency,Alabama,Other agencies,Environmental Protection Agency,,3,114,0,0,87,27,0,0
+10857,r017,Alabama -> Other agencies -> National Aeronautics and Space Administration,Alabama,Other agencies,National Aeronautics and Space Administration,,3,442848,2434,0,409253,30911,0,250
+10857,r018,Alabama -> Other agencies -> National Science Foundation,Alabama,Other agencies,National Science Foundation,,3,57121,0,0,768,55729,624,0
+10857,r019,Alabama -> Other agencies -> Nuclear Regulatory Commission,Alabama,Other agencies,Nuclear Regulatory Commission,,3,376,0,0,0,376,0,0
+10857,r020,Alabama -> Other agencies -> RESTORE Act Centers of Excellence Research Grants Program,Alabama,Other agencies,RESTORE Act Centers of Excellence Research Grants Program,,3,500,0,0,0,0,0,500
+10857,r021,Alabama -> Other agencies -> Social Security Administration,Alabama,Other agencies,Social Security Administration,,3,2047,0,0,2030,17,0,0
+10857,r022,Alaska,Alaska,,,,1,272508,75226,0,65177,109357,15658,7090
+10857,r023,Alaska -> Departments,Alaska,Departments,,,2,,,,,,,
+10857,r024,Alaska -> Departments -> Department of Agriculture,Alaska,Departments,Department of Agriculture,,3,15090,9778,0,125,3765,0,1423
+10857,r025,Alaska -> Departments -> Department of Commerce,Alaska,Departments,Department of Commerce,,3,9424,5503,0,252,3036,428,206
+10857,r026,Alaska -> Departments -> Department of Defense,Alaska,Departments,Department of Defense,,3,73064,2942,0,56697,12371,1055,0
+10857,r027,Alaska -> Departments -> Department of Energy,Alaska,Departments,Department of Energy,,3,6060,0,0,2303,1332,2201,224
+10857,r028,Alaska -> Departments -> Department of Health and Human Services,Alaska,Departments,Department of Health and Human Services,,3,21697,152,0,0,12889,6960,1696
+10857,r029,Alaska -> Departments -> Department of Homeland Security,Alaska,Departments,Department of Homeland Security,,3,176,0,0,176,0,0,0
+10857,r030,Alaska -> Departments -> Department of the Interior,Alaska,Departments,Department of the Interior,,3,61847,56841,0,697,2640,247,1422
+10857,r031,Alaska -> Departments -> Department of Justice,Alaska,Departments,Department of Justice,,3,2000,0,0,0,2000,0,0
+10857,r032,Alaska -> Departments -> Department of Transportation,Alaska,Departments,Department of Transportation,,3,7172,0,0,79,4975,0,2118
+10857,r033,Alaska -> Other agencies,Alaska,Other agencies,,,2,,,,,,,
+10857,r034,Alaska -> Other agencies -> Environmental Protection Agency,Alaska,Other agencies,Environmental Protection Agency,,3,725,0,0,725,0,0,0
+10857,r035,Alaska -> Other agencies -> National Aeronautics and Space Administration,Alaska,Other agencies,National Aeronautics and Space Administration,,3,24969,11,0,3155,21803,0,0
+10857,r036,Alaska -> Other agencies -> National Science Foundation,Alaska,Other agencies,National Science Foundation,,3,50284,0,0,969,44548,4767,0
+10857,r037,Arizona,Arizona,,,,1,2387850,135318,82933,1460382,593475,104472,11270
+10857,r038,Arizona -> Departments,Arizona,Departments,,,2,,,,,,,
+10857,r039,Arizona -> Departments -> Department of Agriculture,Arizona,Departments,Department of Agriculture,,3,31163,22508,0,182,8289,19,166
+10857,r040,Arizona -> Departments -> Department of Commerce,Arizona,Departments,Department of Commerce,,3,4303,0,0,320,3983,0,0
+10857,r041,Arizona -> Departments -> Department of Defense,Arizona,Departments,Department of Defense,,3,1536478,60472,0,1391975,77924,0,6107
+10857,r042,Arizona -> Departments -> Department of Education,Arizona,Departments,Department of Education,,3,3268,0,0,0,2373,896,0
+10857,r043,Arizona -> Departments -> Department of Energy,Arizona,Departments,Department of Energy,,3,25393,70,0,10082,15234,7,0
+10857,r044,Arizona -> Departments -> Department of Health and Human Services,Arizona,Departments,Department of Health and Human Services,,3,390181,7751,0,27206,269485,83112,2625
+10857,r045,Arizona -> Departments -> Department of Homeland Security,Arizona,Departments,Department of Homeland Security,,3,5066,0,0,633,4433,0,0
+10857,r046,Arizona -> Departments -> Department of the Interior,Arizona,Departments,Department of the Interior,,3,34351,34094,0,11,110,3,134
+10857,r047,Arizona -> Departments -> Department of Justice,Arizona,Departments,Department of Justice,,3,1432,0,0,0,1432,0,0
+10857,r048,Arizona -> Departments -> Department of Transportation,Arizona,Departments,Department of Transportation,,3,8160,0,0,5458,463,0,2238
+10857,r049,Arizona -> Departments -> Department of Veterans Affairs,Arizona,Departments,Department of Veterans Affairs,,3,7844,7844,0,0,0,0,0
+10857,r050,Arizona -> Other agencies,Arizona,Other agencies,,,2,,,,,,,
+10857,r051,Arizona -> Other agencies -> Agency for International Development,Arizona,Other agencies,Agency for International Development,,3,1000,0,0,0,1000,0,0
+10857,r052,Arizona -> Other agencies -> Environmental Protection Agency,Arizona,Other agencies,Environmental Protection Agency,,3,8,0,0,8,0,0,0
+10857,r053,Arizona -> Other agencies -> National Aeronautics and Space Administration,Arizona,Other agencies,National Aeronautics and Space Administration,,3,106572,2578,0,19243,70686,14065,0
+10857,r054,Arizona -> Other agencies -> National Science Foundation,Arizona,Other agencies,National Science Foundation,,3,232481,0,82933,5264,137914,6370,0
+10857,r055,Arizona -> Other agencies -> Social Security Administration,Arizona,Other agencies,Social Security Administration,,3,150,0,0,0,150,0,0
+10857,r056,Arkansas,Arkansas,,,,1,268319,52562,0,60748,126610,13661,14738
+10857,r057,Arkansas -> Departments,Arkansas,Departments,,,2,,,,,,,
+10857,r058,Arkansas -> Departments -> Department of Agriculture,Arkansas,Departments,Department of Agriculture,,3,50301,29680,0,1013,19161,0,447
+10857,r059,Arkansas -> Departments -> Department of Defense,Arkansas,Departments,Department of Defense,,3,58239,108,0,43839,12539,893,860
+10857,r060,Arkansas -> Departments -> Department of Energy,Arkansas,Departments,Department of Energy,,3,4146,0,0,606,3491,0,48
+10857,r061,Arkansas -> Departments -> Department of Health and Human Services,Arkansas,Departments,Department of Health and Human Services,,3,101024,0,0,14539,70590,12768,3127
+10857,r062,Arkansas -> Departments -> Department of the Interior,Arkansas,Departments,Department of the Interior,,3,8024,7940,0,0,0,0,84
+10857,r063,Arkansas -> Departments -> Department of Justice,Arkansas,Departments,Department of Justice,,3,246,0,0,0,246,0,0
+10857,r064,Arkansas -> Departments -> Department of Transportation,Arkansas,Departments,Department of Transportation,,3,2620,0,0,0,200,0,2420
+10857,r065,Arkansas -> Departments -> Department of Veterans Affairs,Arkansas,Departments,Department of Veterans Affairs,,3,14833,14833,0,0,0,0,0
+10857,r066,Arkansas -> Other agencies,Arkansas,Other agencies,,,2,,,,,,,
+10857,r067,Arkansas -> Other agencies -> National Aeronautics and Space Administration,Arkansas,Other agencies,National Aeronautics and Space Administration,,3,1099,1,0,219,879,0,0
+10857,r068,Arkansas -> Other agencies -> National Science Foundation,Arkansas,Other agencies,National Science Foundation,,3,27786,0,0,532,19504,0,7751
+10857,r069,California,California,,,,1,23272011,2530252,5428274,8043185,5973327,1223029,73944
+10857,r070,California -> Departments,California,Departments,,,2,,,,,,,
+10857,r071,California -> Departments -> Department of Agriculture,California,Departments,Department of Agriculture,,3,160025,95102,0,6879,56905,789,350
+10857,r072,California -> Departments -> Department of Commerce,California,Departments,Department of Commerce,,3,37139,849,0,1235,30799,4017,240
+10857,r073,California -> Departments -> Department of Defense,California,Departments,Department of Defense,,3,9144281,2030596,724538,5656376,600050,130693,2029
+10857,r074,California -> Departments -> Department of Education,California,Departments,Department of Education,,3,93684,0,0,5993,10371,55496,21824
+10857,r075,California -> Departments -> Department of Energy,California,Departments,Department of Energy,,3,2810097,802,2348199,257174,178496,25044,381
+10857,r076,California -> Departments -> Department of Health and Human Services,California,Departments,Department of Health and Human Services,,3,6201910,162,24398,1225428,4013865,907970,30086
+10857,r077,California -> Departments -> Department of Homeland Security,California,Departments,Department of Homeland Security,,3,44302,7826,13270,20708,400,2098,0
+10857,r078,California -> Departments -> Department of the Interior,California,Departments,Department of the Interior,,3,70910,56024,49,1381,11803,685,969
+10857,r079,California -> Departments -> Department of Justice,California,Departments,Department of Justice,,3,5647,0,0,0,2800,2847,0
+10857,r080,California -> Departments -> Department of Transportation,California,Departments,Department of Transportation,,3,34077,412,0,17882,3296,114,12374
+10857,r081,California -> Departments -> Department of the Treasury,California,Departments,Department of the Treasury,,3,3500,0,2900,600,0,0,0
+10857,r082,California -> Departments -> Department of Veterans Affairs,California,Departments,Department of Veterans Affairs,,3,279542,279542,0,0,0,0,0
+10857,r083,California -> Other agencies,California,Other agencies,,,2,,,,,,,
+10857,r084,California -> Other agencies -> Agency for Global Media,California,Other agencies,Agency for Global Media,,3,457,43,0,414,0,0,0
+10857,r085,California -> Other agencies -> Agency for International Development,California,Other agencies,Agency for International Development,,3,7195,0,0,0,6795,400,0
+10857,r086,California -> Other agencies -> Environmental Protection Agency,California,Other agencies,Environmental Protection Agency,,3,18461,0,10,10364,8087,0,0
+10857,r087,California -> Other agencies -> National Aeronautics and Space Administration,California,Other agencies,National Aeronautics and Space Administration,,3,3466068,41281,2314397,788131,278683,38082,5494
+10857,r088,California -> Other agencies -> National Science Foundation,California,Other agencies,National Science Foundation,,3,892725,17616,186,50541,769434,54751,196
+10857,r089,California -> Other agencies -> Nuclear Regulatory Commission,California,Other agencies,Nuclear Regulatory Commission,,3,1249,0,326,79,800,44,0
+10857,r090,California -> Other agencies -> Social Security Administration,California,Other agencies,Social Security Administration,,3,743,0,0,0,743,0,0
+10857,r091,Colorado,Colorado,,,,1,4638849,426334,541731,2538031,1009654,111555,11543
+10857,r092,Colorado -> Departments,Colorado,Departments,,,2,,,,,,,
+10857,r093,Colorado -> Departments -> Department of Agriculture,Colorado,Departments,Department of Agriculture,,3,61175,40614,0,531,19453,577,0
+10857,r094,Colorado -> Departments -> Department of Commerce,Colorado,Departments,Department of Commerce,,3,214489,136601,6787,437,70460,204,0
+10857,r095,Colorado -> Departments -> Department of Defense,Colorado,Departments,Department of Defense,,3,2327477,134167,15650,2105731,63518,8401,11
+10857,r096,Colorado -> Departments -> Department of Education,Colorado,Departments,Department of Education,,3,4002,0,0,0,969,3033,0
+10857,r097,Colorado -> Departments -> Department of Energy,Colorado,Departments,Department of Energy,,3,511241,750,410136,47565,43131,9052,608
+10857,r098,Colorado -> Departments -> Department of Health and Human Services,Colorado,Departments,Department of Health and Human Services,,3,570677,1994,0,107119,415896,38630,7039
+10857,r099,Colorado -> Departments -> Department of Homeland Security,Colorado,Departments,Department of Homeland Security,,3,2957,428,0,2474,55,0,0
+10857,r100,Colorado -> Departments -> Department of the Interior,Colorado,Departments,Department of the Interior,,3,77736,69768,0,2252,5445,246,25
+10857,r101,Colorado -> Departments -> Department of Justice,Colorado,Departments,Department of Justice,,3,1332,0,0,0,1332,0,0
+10857,r102,Colorado -> Departments -> Department of Transportation,Colorado,Departments,Department of Transportation,,3,14629,2328,0,3417,5024,0,3860
+10857,r103,Colorado -> Departments -> Department of Veterans Affairs,Colorado,Departments,Department of Veterans Affairs,,3,30449,30449,0,0,0,0,0
+10857,r104,Colorado -> Other agencies,Colorado,Other agencies,,,2,,,,,,,
+10857,r105,Colorado -> Other agencies -> Environmental Protection Agency,Colorado,Other agencies,Environmental Protection Agency,,3,11004,1627,0,1440,4692,3246,0
+10857,r106,Colorado -> Other agencies -> National Aeronautics and Space Administration,Colorado,Other agencies,National Aeronautics and Space Administration,,3,465659,6020,0,258387,197339,3912,0
+10857,r107,Colorado -> Other agencies -> National Science Foundation,Colorado,Other agencies,National Science Foundation,,3,345622,1588,109159,8679,181941,44255,0
+10857,r108,Colorado -> Other agencies -> Nuclear Regulatory Commission,Colorado,Other agencies,Nuclear Regulatory Commission,,3,400,0,0,0,400,0,0
+10857,r109,Connecticut,Connecticut,,,,1,2642331,57741,5453,1705162,819440,12946,41588
+10857,r110,Connecticut -> Departments,Connecticut,Departments,,,2,,,,,,,
+10857,r111,Connecticut -> Departments -> Department of Agriculture,Connecticut,Departments,Department of Agriculture,,3,17004,2190,0,363,11136,450,2865
+10857,r112,Connecticut -> Departments -> Department of Commerce,Connecticut,Departments,Department of Commerce,,3,7127,0,0,13,2885,4229,0
+10857,r113,Connecticut -> Departments -> Department of Defense,Connecticut,Departments,Department of Defense,,3,1581930,12620,0,1524714,43851,745,0
+10857,r114,Connecticut -> Departments -> Department of Education,Connecticut,Departments,Department of Education,,3,8262,0,0,1034,7229,0,0
+10857,r115,Connecticut -> Departments -> Department of Energy,Connecticut,Departments,Department of Energy,,3,51016,0,5453,30582,14982,0,0
+10857,r116,Connecticut -> Departments -> Department of Health and Human Services,Connecticut,Departments,Department of Health and Human Services,,3,732294,0,0,14949,673775,6512,37058
+10857,r117,Connecticut -> Departments -> Department of Homeland Security,Connecticut,Departments,Department of Homeland Security,,3,4389,0,0,4389,0,0,0
+10857,r118,Connecticut -> Departments -> Department of the Interior,Connecticut,Departments,Department of the Interior,,3,1126,587,0,55,387,0,97
+10857,r119,Connecticut -> Departments -> Department of Transportation,Connecticut,Departments,Department of Transportation,,3,5316,0,0,3672,75,0,1568
+10857,r120,Connecticut -> Departments -> Department of Veterans Affairs,Connecticut,Departments,Department of Veterans Affairs,,3,42344,42344,0,0,0,0,0
+10857,r121,Connecticut -> Other agencies,Connecticut,Other agencies,,,2,,,,,,,
+10857,r122,Connecticut -> Other agencies -> Agency for International Development,Connecticut,Other agencies,Agency for International Development,,3,1250,0,0,0,1250,0,0
+10857,r123,Connecticut -> Other agencies -> Environmental Protection Agency,Connecticut,Other agencies,Environmental Protection Agency,,3,203,0,0,203,0,0,0
+10857,r124,Connecticut -> Other agencies -> National Aeronautics and Space Administration,Connecticut,Other agencies,National Aeronautics and Space Administration,,3,127149,0,0,123358,3791,0,0
+10857,r125,Connecticut -> Other agencies -> National Science Foundation,Connecticut,Other agencies,National Science Foundation,,3,62920,0,0,1831,60080,1010,0
+10857,r126,Delaware,Delaware,,,,1,340648,28757,0,131264,162123,16444,2060
+10857,r127,Delaware -> Departments,Delaware,Departments,,,2,,,,,,,
+10857,r128,Delaware -> Departments -> Department of Agriculture,Delaware,Departments,Department of Agriculture,,3,12408,1923,0,166,10319,0,0
+10857,r129,Delaware -> Departments -> Department of Commerce,Delaware,Departments,Department of Commerce,,3,16562,73,0,145,16344,0,0
+10857,r130,Delaware -> Departments -> Department of Defense,Delaware,Departments,Department of Defense,,3,156085,26019,0,99336,28148,1571,1011
+10857,r131,Delaware -> Departments -> Department of Education,Delaware,Departments,Department of Education,,3,2043,0,0,0,2043,0,0
+10857,r132,Delaware -> Departments -> Department of Energy,Delaware,Departments,Department of Energy,,3,17975,0,0,5276,12681,0,18
+10857,r133,Delaware -> Departments -> Department of Health and Human Services,Delaware,Departments,Department of Health and Human Services,,3,83973,0,0,21218,51118,11499,138
+10857,r134,Delaware -> Departments -> Department of Homeland Security,Delaware,Departments,Department of Homeland Security,,3,122,0,0,122,0,0,0
+10857,r135,Delaware -> Departments -> Department of the Interior,Delaware,Departments,Department of the Interior,,3,1382,743,0,0,639,0,0
+10857,r136,Delaware -> Departments -> Department of Transportation,Delaware,Departments,Department of Transportation,,3,1008,0,0,0,115,0,893
+10857,r137,Delaware -> Other agencies,Delaware,Other agencies,,,2,,,,,,,
+10857,r138,Delaware -> Other agencies -> Environmental Protection Agency,Delaware,Other agencies,Environmental Protection Agency,,3,114,0,0,114,0,0,0
+10857,r139,Delaware -> Other agencies -> National Aeronautics and Space Administration,Delaware,Other agencies,National Aeronautics and Space Administration,,3,9584,0,0,4118,3416,2051,0
+10857,r140,Delaware -> Other agencies -> National Science Foundation,Delaware,Other agencies,National Science Foundation,,3,39391,0,0,767,37301,1322,0
+10857,r141,District of Columbia,District of Columbia,,,,1,33916947,31563916,137557,877503,271082,1059234,7655
+10857,r142,District of Columbia -> Departments,District of Columbia,Departments,,,2,,,,,,,
+10857,r143,District of Columbia -> Departments -> Department of Agriculture,District of Columbia,Departments,Department of Agriculture,,3,342521,337146,0,750,3172,1453,0
+10857,r144,District of Columbia -> Departments -> Department of Commerce,District of Columbia,Departments,Department of Commerce,,3,41261,28847,0,10431,1347,637,0
+10857,r145,District of Columbia -> Departments -> Department of Defense,District of Columbia,Departments,Department of Defense,,3,3569978,2721414,10101,589331,39372,209759,0
+10857,r146,District of Columbia -> Departments -> Department of Education,District of Columbia,Departments,Department of Education,,3,12063,0,0,1754,3028,6220,1060
+10857,r147,District of Columbia -> Departments -> Department of Energy,District of Columbia,Departments,Department of Energy,,3,692580,668359,5411,6226,3023,9561,0
+10857,r148,District of Columbia -> Departments -> Department of Health and Human Services,District of Columbia,Departments,Department of Health and Human Services,,3,26085754,25772092,0,24991,151412,131794,5464
+10857,r149,District of Columbia -> Departments -> Department of Homeland Security,District of Columbia,Departments,Department of Homeland Security,,3,31733,24854,3249,3138,0,492,0
+10857,r150,District of Columbia -> Departments -> Department of the Interior,District of Columbia,Departments,Department of the Interior,,3,20100,19721,0,53,43,283,0
+10857,r151,District of Columbia -> Departments -> Department of Justice,District of Columbia,Departments,Department of Justice,,3,21161,6971,0,7488,3000,3701,0
+10857,r152,District of Columbia -> Departments -> Department of Labor,District of Columbia,Departments,Department of Labor,,3,3698,2689,0,1009,0,0,0
+10857,r153,District of Columbia -> Departments -> Department of State,District of Columbia,Departments,Department of State,,3,58000,58000,0,0,0,0,0
+10857,r154,District of Columbia -> Departments -> Department of Transportation,District of Columbia,Departments,Department of Transportation,,3,163645,68495,553,80620,605,12373,999
+10857,r155,District of Columbia -> Departments -> Department of the Treasury,District of Columbia,Departments,Department of the Treasury,,3,2000,2000,0,0,0,0,0
+10857,r156,District of Columbia -> Departments -> Department of Veterans Affairs,District of Columbia,Departments,Department of Veterans Affairs,,3,124348,124348,0,0,0,0,0
+10857,r157,District of Columbia -> Other agencies,District of Columbia,Other agencies,,,2,,,,,,,
+10857,r158,District of Columbia -> Other agencies -> Agency for Global Media,District of Columbia,Other agencies,Agency for Global Media,,3,5536,520,0,5016,0,0,0
+10857,r159,District of Columbia -> Other agencies -> Agency for International Development,District of Columbia,Other agencies,Agency for International Development,,3,28023,17752,0,6459,0,3812,0
+10857,r160,District of Columbia -> Other agencies -> Appalachian Regional Commission,District of Columbia,Other agencies,Appalachian Regional Commission,,3,64,0,0,0,0,64,0
+10857,r161,District of Columbia -> Other agencies -> Environmental Protection Agency,District of Columbia,Other agencies,Environmental Protection Agency,,3,107549,54331,0,52301,0,917,0
+10857,r162,District of Columbia -> Other agencies -> Federal Trade Commission,District of Columbia,Other agencies,Federal Trade Commission,,3,2713,2713,0,0,0,0,0
+10857,r163,District of Columbia -> Other agencies -> Library of Congress,District of Columbia,Other agencies,Library of Congress,,3,3055,3055,0,0,0,0,0
+10857,r164,District of Columbia -> Other agencies -> National Aeronautics and Space Administration,District of Columbia,Other agencies,National Aeronautics and Space Administration,,3,1531141,1373541,0,55689,22296,79616,0
+10857,r165,District of Columbia -> Other agencies -> National Science Foundation,District of Columbia,Other agencies,National Science Foundation,,3,242323,2759,118242,3850,43759,73581,132
+10857,r166,District of Columbia -> Other agencies -> Nuclear Regulatory Commission,District of Columbia,Other agencies,Nuclear Regulatory Commission,,3,302,300,0,2,0,0,0
+10857,r167,District of Columbia -> Other agencies -> Patient-Centered Outcomes Research Trust Fund,District of Columbia,Other agencies,Patient-Centered Outcomes Research Trust Fund,,3,521671,0,0,0,0,521671,0
+10857,r168,District of Columbia -> Other agencies -> Postal Service,District of Columbia,Other agencies,Postal Service,,3,13860,0,0,13860,0,0,0
+10857,r169,District of Columbia -> Other agencies -> Smithsonian Institution,District of Columbia,Other agencies,Smithsonian Institution,,3,227400,227400,0,0,0,0,0
+10857,r170,District of Columbia -> Other agencies -> Social Security Administration,District of Columbia,Other agencies,Social Security Administration,,3,64471,46609,0,14536,25,3301,0
+10857,r171,Florida,Florida,,,,1,4249966,799142,113,2099511,1138687,195545,16969
+10857,r172,Florida -> Departments,Florida,Departments,,,2,,,,,,,
+10857,r173,Florida -> Departments -> Department of Agriculture,Florida,Departments,Department of Agriculture,,3,91271,38477,0,1100,50840,854,0
+10857,r174,Florida -> Departments -> Department of Commerce,Florida,Departments,Department of Commerce,,3,37788,14260,0,835,20324,1224,1145
+10857,r175,Florida -> Departments -> Department of Defense,Florida,Departments,Department of Defense,,3,2689320,638347,0,1883469,115387,51014,1103
+10857,r176,Florida -> Departments -> Department of Education,Florida,Departments,Department of Education,,3,13552,0,0,0,11181,0,2371
+10857,r177,Florida -> Departments -> Department of Energy,Florida,Departments,Department of Energy,,3,38049,1,0,10119,27576,1,353
+10857,r178,Florida -> Departments -> Department of Health and Human Services,Florida,Departments,Department of Health and Human Services,,3,854924,392,0,59326,656579,138355,274
+10857,r179,Florida -> Departments -> Department of Homeland Security,Florida,Departments,Department of Homeland Security,,3,8097,624,113,7080,280,0,0
+10857,r180,Florida -> Departments -> Department of the Interior,Florida,Departments,Department of the Interior,,3,58375,49348,0,1836,4989,2004,197
+10857,r181,Florida -> Departments -> Department of Justice,Florida,Departments,Department of Justice,,3,2533,0,0,0,2533,0,0
+10857,r182,Florida -> Departments -> Department of Transportation,Florida,Departments,Department of Transportation,,3,24555,526,0,3022,10594,0,10413
+10857,r183,Florida -> Departments -> Department of Veterans Affairs,Florida,Departments,Department of Veterans Affairs,,3,43504,43504,0,0,0,0,0
+10857,r184,Florida -> Other agencies,Florida,Other agencies,,,2,,,,,,,
+10857,r185,Florida -> Other agencies -> Agency for International Development,Florida,Other agencies,Agency for International Development,,3,4627,0,0,0,4627,0,0
+10857,r186,Florida -> Other agencies -> Environmental Protection Agency,Florida,Other agencies,Environmental Protection Agency,,3,10776,9923,0,826,28,0,0
+10857,r187,Florida -> Other agencies -> National Aeronautics and Space Administration,Florida,Other agencies,National Aeronautics and Space Administration,,3,164422,3740,0,125594,33960,1124,3
+10857,r188,Florida -> Other agencies -> National Science Foundation,Florida,Other agencies,National Science Foundation,,3,207850,0,0,6305,199465,969,1110
+10857,r189,Florida -> Other agencies -> Nuclear Regulatory Commission,Florida,Other agencies,Nuclear Regulatory Commission,,3,200,0,0,0,200,0,0
+10857,r190,Florida -> Other agencies -> Social Security Administration,Florida,Other agencies,Social Security Administration,,3,125,0,0,0,125,0,0
+10857,r191,Georgia,Georgia,,,,1,1821438,225983,3697,239405,1291590,29422,31340
+10857,r192,Georgia -> Departments,Georgia,Departments,,,2,,,,,,,
+10857,r193,Georgia -> Departments -> Department of Agriculture,Georgia,Departments,Department of Agriculture,,3,109429,61628,0,103,47617,75,6
+10857,r194,Georgia -> Departments -> Department of Commerce,Georgia,Departments,Department of Commerce,,3,9421,0,0,1243,8178,0,0
+10857,r195,Georgia -> Departments -> Department of Defense,Georgia,Departments,Department of Defense,,3,460956,94783,15,135195,229490,1473,0
+10857,r196,Georgia -> Departments -> Department of Education,Georgia,Departments,Department of Education,,3,3115,0,0,0,2705,409,0
+10857,r197,Georgia -> Departments -> Department of Energy,Georgia,Departments,Department of Energy,,3,48978,2,0,9636,25110,13863,366
+10857,r198,Georgia -> Departments -> Department of Health and Human Services,Georgia,Departments,Department of Health and Human Services,,3,910819,18725,0,59483,810341,4906,17364
+10857,r199,Georgia -> Departments -> Department of Homeland Security,Georgia,Departments,Department of Homeland Security,,3,5023,1026,3683,215,100,0,0
+10857,r200,Georgia -> Departments -> Department of the Interior,Georgia,Departments,Department of the Interior,,3,3351,2716,0,7,586,42,0
+10857,r201,Georgia -> Departments -> Department of Justice,Georgia,Departments,Department of Justice,,3,1196,0,0,0,1196,0,0
+10857,r202,Georgia -> Departments -> Department of Transportation,Georgia,Departments,Department of Transportation,,3,33759,1,0,17981,2242,0,13535
+10857,r203,Georgia -> Departments -> Department of Veterans Affairs,Georgia,Departments,Department of Veterans Affairs,,3,39282,39282,0,0,0,0,0
+10857,r204,Georgia -> Other agencies,Georgia,Other agencies,,,2,,,,,,,
+10857,r205,Georgia -> Other agencies -> Agency for International Development,Georgia,Other agencies,Agency for International Development,,3,8000,0,0,0,3000,5000,0
+10857,r206,Georgia -> Other agencies -> Environmental Protection Agency,Georgia,Other agencies,Environmental Protection Agency,,3,10916,7320,0,157,3439,0,0
+10857,r207,Georgia -> Other agencies -> National Aeronautics and Space Administration,Georgia,Other agencies,National Aeronautics and Space Administration,,3,28628,499,0,5842,22287,0,0
+10857,r208,Georgia -> Other agencies -> National Science Foundation,Georgia,Other agencies,National Science Foundation,,3,148098,0,0,9545,135263,3222,69
+10857,r209,Georgia -> Other agencies -> Nuclear Regulatory Commission,Georgia,Other agencies,Nuclear Regulatory Commission,,3,431,0,0,0,0,431,0
+10857,r210,Georgia -> Other agencies -> Social Security Administration,Georgia,Other agencies,Social Security Administration,,3,37,0,0,0,37,0,0
+10857,r211,Hawaii,Hawaii,,,,1,371193,62910,0,133668,144109,23115,7390
+10857,r212,Hawaii -> Departments,Hawaii,Departments,,,2,,,,,,,
+10857,r213,Hawaii -> Departments -> Department of Agriculture,Hawaii,Departments,Department of Agriculture,,3,24726,17976,0,764,4475,1511,0
+10857,r214,Hawaii -> Departments -> Department of Commerce,Hawaii,Departments,Department of Commerce,,3,5453,3956,0,535,962,0,0
+10857,r215,Hawaii -> Departments -> Department of Defense,Hawaii,Departments,Department of Defense,,3,189922,30989,0,119080,23533,11225,5095
+10857,r216,Hawaii -> Departments -> Department of Energy,Hawaii,Departments,Department of Energy,,3,8446,0,0,4896,3486,64,0
+10857,r217,Hawaii -> Departments -> Department of Health and Human Services,Hawaii,Departments,Department of Health and Human Services,,3,60062,0,0,5249,49097,4777,940
+10857,r218,Hawaii -> Departments -> Department of Homeland Security,Hawaii,Departments,Department of Homeland Security,,3,994,0,0,994,0,0,0
+10857,r219,Hawaii -> Departments -> Department of the Interior,Hawaii,Departments,Department of the Interior,,3,7519,7504,0,0,0,15,0
+10857,r220,Hawaii -> Departments -> Department of Transportation,Hawaii,Departments,Department of Transportation,,3,1510,0,0,0,400,0,1110
+10857,r221,Hawaii -> Departments -> Department of Veterans Affairs,Hawaii,Departments,Department of Veterans Affairs,,3,2096,2096,0,0,0,0,0
+10857,r222,Hawaii -> Other agencies,Hawaii,Other agencies,,,2,,,,,,,
+10857,r223,Hawaii -> Other agencies -> National Aeronautics and Space Administration,Hawaii,Other agencies,National Aeronautics and Space Administration,,3,29896,389,0,931,23526,5049,1
+10857,r224,Hawaii -> Other agencies -> National Science Foundation,Hawaii,Other agencies,National Science Foundation,,3,40569,0,0,1219,38631,474,245
+10857,r225,Idaho,Idaho,,,,1,702352,65585,491824,69275,62207,893,12567
+10857,r226,Idaho -> Departments,Idaho,Departments,,,2,,,,,,,
+10857,r227,Idaho -> Departments -> Department of Agriculture,Idaho,Departments,Department of Agriculture,,3,38496,21756,0,13,16618,109,0
+10857,r228,Idaho -> Departments -> Department of Defense,Idaho,Departments,Department of Defense,,3,126682,31283,34435,55106,3129,0,2729
+10857,r229,Idaho -> Departments -> Department of Energy,Idaho,Departments,Department of Energy,,3,461377,270,448543,9373,3131,33,26
+10857,r230,Idaho -> Departments -> Department of Health and Human Services,Idaho,Departments,Department of Health and Human Services,,3,23642,0,0,1172,15377,751,6342
+10857,r231,Idaho -> Departments -> Department of Homeland Security,Idaho,Departments,Department of Homeland Security,,3,3928,0,1000,2928,0,0,0
+10857,r232,Idaho -> Departments -> Department of the Interior,Idaho,Departments,Department of the Interior,,3,11201,10329,0,25,847,0,0
+10857,r233,Idaho -> Departments -> Department of Transportation,Idaho,Departments,Department of Transportation,,3,1134,0,0,65,0,0,1069
+10857,r234,Idaho -> Departments -> Department of Veterans Affairs,Idaho,Departments,Department of Veterans Affairs,,3,1948,1948,0,0,0,0,0
+10857,r235,Idaho -> Other agencies,Idaho,Other agencies,,,2,,,,,,,
+10857,r236,Idaho -> Other agencies -> Environmental Protection Agency,Idaho,Other agencies,Environmental Protection Agency,,3,215,0,215,0,0,0,0
+10857,r237,Idaho -> Other agencies -> National Aeronautics and Space Administration,Idaho,Other agencies,National Aeronautics and Space Administration,,3,3312,0,250,348,2713,0,0
+10857,r238,Idaho -> Other agencies -> National Science Foundation,Idaho,Other agencies,National Science Foundation,,3,22000,0,0,246,19354,0,2400
+10857,r239,Idaho -> Other agencies -> Nuclear Regulatory Commission,Idaho,Other agencies,Nuclear Regulatory Commission,,3,8419,0,7382,0,1037,0,0
+10857,r240,Illinois,Illinois,,,,1,3468724,266842,1113441,350975,1575978,146398,15090
+10857,r241,Illinois -> Departments,Illinois,Departments,,,2,,,,,,,
+10857,r242,Illinois -> Departments -> Department of Agriculture,Illinois,Departments,Department of Agriculture,,3,64980,44634,0,1256,18680,411,0
+10857,r243,Illinois -> Departments -> Department of Commerce,Illinois,Departments,Department of Commerce,,3,8060,0,0,6430,1430,200,0
+10857,r244,Illinois -> Departments -> Department of Defense,Illinois,Departments,Department of Defense,,3,471169,148967,969,192708,115035,13489,0
+10857,r245,Illinois -> Departments -> Department of Education,Illinois,Departments,Department of Education,,3,13448,0,0,2000,2626,1689,7134
+10857,r246,Illinois -> Departments -> Department of Energy,Illinois,Departments,Department of Energy,,3,1258264,154,1099433,31463,104932,22060,222
+10857,r247,Illinois -> Departments -> Department of Health and Human Services,Illinois,Departments,Department of Health and Human Services,,3,1208255,0,4228,89155,1017790,95088,1993
+10857,r248,Illinois -> Departments -> Department of Homeland Security,Illinois,Departments,Department of Homeland Security,,3,15614,9764,5795,55,0,0,0
+10857,r249,Illinois -> Departments -> Department of the Interior,Illinois,Departments,Department of the Interior,,3,7890,7589,0,194,107,0,0
+10857,r250,Illinois -> Departments -> Department of Justice,Illinois,Departments,Department of Justice,,3,3110,0,0,0,626,2484,0
+10857,r251,Illinois -> Departments -> Department of Transportation,Illinois,Departments,Department of Transportation,,3,14197,0,445,2987,3138,1886,5741
+10857,r252,Illinois -> Departments -> Department of Veterans Affairs,Illinois,Departments,Department of Veterans Affairs,,3,53756,53756,0,0,0,0,0
+10857,r253,Illinois -> Other agencies,Illinois,Other agencies,,,2,,,,,,,
+10857,r254,Illinois -> Other agencies -> Agency for International Development,Illinois,Other agencies,Agency for International Development,,3,1000,0,0,0,1000,0,0
+10857,r255,Illinois -> Other agencies -> Appalachian Regional Commission,Illinois,Other agencies,Appalachian Regional Commission,,3,25,0,0,0,0,25,0
+10857,r256,Illinois -> Other agencies -> Environmental Protection Agency,Illinois,Other agencies,Environmental Protection Agency,,3,2306,0,430,775,1101,0,0
+10857,r257,Illinois -> Other agencies -> National Aeronautics and Space Administration,Illinois,Other agencies,National Aeronautics and Space Administration,,3,41164,1977,449,13042,24548,1148,0
+10857,r258,Illinois -> Other agencies -> National Science Foundation,Illinois,Other agencies,National Science Foundation,,3,302831,0,0,10434,284757,7640,0
+10857,r259,Illinois -> Other agencies -> Nuclear Regulatory Commission,Illinois,Other agencies,Nuclear Regulatory Commission,,3,2404,0,1693,409,25,278,0
+10857,r260,Illinois -> Other agencies -> Social Security Administration,Illinois,Other agencies,Social Security Administration,,3,250,0,0,66,184,0,0
+10857,r261,Indiana,Indiana,,,,1,1277050,326926,5,276340,660168,1466,12144
+10857,r262,Indiana -> Departments,Indiana,Departments,,,2,,,,,,,
+10857,r263,Indiana -> Departments -> Department of Agriculture,Indiana,Departments,Department of Agriculture,,3,33693,7024,0,1010,25445,50,165
+10857,r264,Indiana -> Departments -> Department of Commerce,Indiana,Departments,Department of Commerce,,3,7822,0,0,0,7822,0,0
+10857,r265,Indiana -> Departments -> Department of Defense,Indiana,Departments,Department of Defense,,3,618469,284105,0,247383,86591,340,50
+10857,r266,Indiana -> Departments -> Department of Education,Indiana,Departments,Department of Education,,3,2479,0,0,0,2479,0,0
+10857,r267,Indiana -> Departments -> Department of Energy,Indiana,Departments,Department of Energy,,3,35861,0,0,5521,30186,154,0
+10857,r268,Indiana -> Departments -> Department of Health and Human Services,Indiana,Departments,Department of Health and Human Services,,3,361163,0,0,8411,344071,670,8011
+10857,r269,Indiana -> Departments -> Department of Homeland Security,Indiana,Departments,Department of Homeland Security,,3,255,0,5,0,250,0,0
+10857,r270,Indiana -> Departments -> Department of the Interior,Indiana,Departments,Department of the Interior,,3,9221,7841,0,0,1380,0,0
+10857,r271,Indiana -> Departments -> Department of Transportation,Indiana,Departments,Department of Transportation,,3,4658,0,0,740,0,0,3918
+10857,r272,Indiana -> Departments -> Department of Veterans Affairs,Indiana,Departments,Department of Veterans Affairs,,3,27682,27682,0,0,0,0,0
+10857,r273,Indiana -> Other agencies,Indiana,Other agencies,,,2,,,,,,,
+10857,r274,Indiana -> Other agencies -> Agency for International Development,Indiana,Other agencies,Agency for International Development,,3,2190,0,0,0,2190,0,0
+10857,r275,Indiana -> Other agencies -> Environmental Protection Agency,Indiana,Other agencies,Environmental Protection Agency,,3,862,0,0,36,826,0,0
+10857,r276,Indiana -> Other agencies -> National Aeronautics and Space Administration,Indiana,Other agencies,National Aeronautics and Space Administration,,3,19769,274,0,8095,11274,126,0
+10857,r277,Indiana -> Other agencies -> National Science Foundation,Indiana,Other agencies,National Science Foundation,,3,151918,0,0,4815,146976,126,0
+10857,r278,Indiana -> Other agencies -> Nuclear Regulatory Commission,Indiana,Other agencies,Nuclear Regulatory Commission,,3,1009,0,0,329,680,0,0
+10857,r279,Iowa,Iowa,,,,1,760960,91346,32616,193452,425588,2020,15938
+10857,r280,Iowa -> Departments,Iowa,Departments,,,2,,,,,,,
+10857,r281,Iowa -> Departments -> Department of Agriculture,Iowa,Departments,Department of Agriculture,,3,85612,60937,0,825,23124,720,6
+10857,r282,Iowa -> Departments -> Department of Commerce,Iowa,Departments,Department of Commerce,,3,238,0,0,238,0,0,0
+10857,r283,Iowa -> Departments -> Department of Defense,Iowa,Departments,Department of Defense,,3,201554,551,0,185010,15993,0,0
+10857,r284,Iowa -> Departments -> Department of Energy,Iowa,Departments,Department of Energy,,3,48501,0,32616,200,15621,0,64
+10857,r285,Iowa -> Departments -> Department of Health and Human Services,Iowa,Departments,Department of Health and Human Services,,3,217244,0,0,5005,200839,1300,10100
+10857,r286,Iowa -> Departments -> Department of Homeland Security,Iowa,Departments,Department of Homeland Security,,3,250,0,0,0,250,0,0
+10857,r287,Iowa -> Departments -> Department of the Interior,Iowa,Departments,Department of the Interior,,3,1076,1076,0,0,0,0,0
+10857,r288,Iowa -> Departments -> Department of Transportation,Iowa,Departments,Department of Transportation,,3,16384,0,0,475,10140,0,5769
+10857,r289,Iowa -> Departments -> Department of Veterans Affairs,Iowa,Departments,Department of Veterans Affairs,,3,28781,28781,0,0,0,0,0
+10857,r290,Iowa -> Other agencies,Iowa,Other agencies,,,2,,,,,,,
+10857,r291,Iowa -> Other agencies -> Environmental Protection Agency,Iowa,Other agencies,Environmental Protection Agency,,3,5210,0,0,151,5058,0,0
+10857,r292,Iowa -> Other agencies -> National Aeronautics and Space Administration,Iowa,Other agencies,National Aeronautics and Space Administration,,3,108293,0,0,524,107770,0,0
+10857,r293,Iowa -> Other agencies -> National Science Foundation,Iowa,Other agencies,National Science Foundation,,3,47818,0,0,1024,46794,0,0
+10857,r294,Kansas,Kansas,,,,1,445052,149333,0,21219,264257,8675,1567
+10857,r295,Kansas -> Departments,Kansas,Departments,,,2,,,,,,,
+10857,r296,Kansas -> Departments -> Department of Agriculture,Kansas,Departments,Department of Agriculture,,3,163811,142197,0,0,21535,0,79
+10857,r297,Kansas -> Departments -> Department of Commerce,Kansas,Departments,Department of Commerce,,3,6773,0,0,0,6773,0,0
+10857,r298,Kansas -> Departments -> Department of Defense,Kansas,Departments,Department of Defense,,3,61836,1464,0,5266,55107,0,0
+10857,r299,Kansas -> Departments -> Department of Education,Kansas,Departments,Department of Education,,3,6667,0,0,0,6667,0,0
+10857,r300,Kansas -> Departments -> Department of Energy,Kansas,Departments,Department of Energy,,3,10065,0,0,1942,5764,2359,0
+10857,r301,Kansas -> Departments -> Department of Health and Human Services,Kansas,Departments,Department of Health and Human Services,,3,127810,0,0,6697,120670,251,193
+10857,r302,Kansas -> Departments -> Department of Homeland Security,Kansas,Departments,Department of Homeland Security,,3,200,0,0,0,200,0,0
+10857,r303,Kansas -> Departments -> Department of the Interior,Kansas,Departments,Department of the Interior,,3,5862,5062,0,0,801,0,0
+10857,r304,Kansas -> Departments -> Department of Transportation,Kansas,Departments,Department of Transportation,,3,3242,0,0,820,1230,0,1193
+10857,r305,Kansas -> Departments -> Department of Veterans Affairs,Kansas,Departments,Department of Veterans Affairs,,3,492,492,0,0,0,0,0
+10857,r306,Kansas -> Other agencies,Kansas,Other agencies,,,2,,,,,,,
+10857,r307,Kansas -> Other agencies -> Agency for International Development,Kansas,Other agencies,Agency for International Development,,3,4800,0,0,0,4800,0,0
+10857,r308,Kansas -> Other agencies -> National Aeronautics and Space Administration,Kansas,Other agencies,National Aeronautics and Space Administration,,3,14728,119,0,5964,8543,0,102
+10857,r309,Kansas -> Other agencies -> National Science Foundation,Kansas,Other agencies,National Science Foundation,,3,38765,0,0,532,32169,6064,0
+10857,r310,Kentucky,Kentucky,,,,1,413477,49109,0,36794,311024,7046,9504
+10857,r311,Kentucky -> Departments,Kentucky,Departments,,,2,,,,,,,
+10857,r312,Kentucky -> Departments -> Department of Agriculture,Kentucky,Departments,Department of Agriculture,,3,30308,5039,0,756,24498,0,15
+10857,r313,Kentucky -> Departments -> Department of Commerce,Kentucky,Departments,Department of Commerce,,3,125,0,0,0,125,0,0
+10857,r314,Kentucky -> Departments -> Department of Defense,Kentucky,Departments,Department of Defense,,3,30158,3730,0,11272,15156,0,0
+10857,r315,Kentucky -> Departments -> Department of Education,Kentucky,Departments,Department of Education,,3,6793,0,0,0,873,5920,0
+10857,r316,Kentucky -> Departments -> Department of Energy,Kentucky,Departments,Department of Energy,,3,44593,31048,0,3961,9167,322,95
+10857,r317,Kentucky -> Departments -> Department of Health and Human Services,Kentucky,Departments,Department of Health and Human Services,,3,248409,0,0,13615,228042,804,5947
+10857,r318,Kentucky -> Departments -> Department of the Interior,Kentucky,Departments,Department of the Interior,,3,2236,1513,0,0,723,0,0
+10857,r319,Kentucky -> Departments -> Department of Transportation,Kentucky,Departments,Department of Transportation,,3,3944,0,0,496,0,0,3447
+10857,r320,Kentucky -> Departments -> Department of Veterans Affairs,Kentucky,Departments,Department of Veterans Affairs,,3,7779,7779,0,0,0,0,0
+10857,r321,Kentucky -> Other agencies,Kentucky,Other agencies,,,2,,,,,,,
+10857,r322,Kentucky -> Other agencies -> Environmental Protection Agency,Kentucky,Other agencies,Environmental Protection Agency,,3,27,0,0,0,27,0,0
+10857,r323,Kentucky -> Other agencies -> National Aeronautics and Space Administration,Kentucky,Other agencies,National Aeronautics and Space Administration,,3,6890,0,0,5417,1473,0,0
+10857,r324,Kentucky -> Other agencies -> National Science Foundation,Kentucky,Other agencies,National Science Foundation,,3,32215,0,0,1276,30939,0,0
+10857,r325,Louisiana,Louisiana,,,,1,512246,60230,0,124622,301852,6572,18970
+10857,r326,Louisiana -> Departments,Louisiana,Departments,,,2,,,,,,,
+10857,r327,Louisiana -> Departments -> Department of Agriculture,Louisiana,Departments,Department of Agriculture,,3,54744,34426,0,820,19498,0,0
+10857,r328,Louisiana -> Departments -> Department of Commerce,Louisiana,Departments,Department of Commerce,,3,2505,0,0,0,2505,0,0
+10857,r329,Louisiana -> Departments -> Department of Defense,Louisiana,Departments,Department of Defense,,3,117749,1015,0,106540,9155,690,349
+10857,r330,Louisiana -> Departments -> Department of Education,Louisiana,Departments,Department of Education,,3,3298,0,0,0,2746,0,552
+10857,r331,Louisiana -> Departments -> Department of Energy,Louisiana,Departments,Department of Energy,,3,8964,292,0,0.05,8493,99,79
+10857,r332,Louisiana -> Departments -> Department of Health and Human Services,Louisiana,Departments,Department of Health and Human Services,,3,227508,854,0,7592,205310,2103,11648
+10857,r333,Louisiana -> Departments -> Department of the Interior,Louisiana,Departments,Department of the Interior,,3,24231,17658,0,2493,3374,142,564
+10857,r334,Louisiana -> Departments -> Department of Transportation,Louisiana,Departments,Department of Transportation,,3,5027,0,0,0,502,0,4525
+10857,r335,Louisiana -> Departments -> Department of Veterans Affairs,Louisiana,Departments,Department of Veterans Affairs,,3,5984,5984,0,0,0,0,0
+10857,r336,Louisiana -> Other agencies,Louisiana,Other agencies,,,2,,,,,,,
+10857,r337,Louisiana -> Other agencies -> Environmental Protection Agency,Louisiana,Other agencies,Environmental Protection Agency,,3,2814,0,0,2814,0,0,0
+10857,r338,Louisiana -> Other agencies -> National Aeronautics and Space Administration,Louisiana,Other agencies,National Aeronautics and Space Administration,,3,5753,0,0,2207,2925,19,602
+10857,r339,Louisiana -> Other agencies -> National Science Foundation,Louisiana,Other agencies,National Science Foundation,,3,53468,0,0,2156,47143,3519,649
+10857,r340,Louisiana -> Other agencies -> Nuclear Regulatory Commission,Louisiana,Other agencies,Nuclear Regulatory Commission,,3,200,0,0,0,200,0,0
+10857,r341,Maine,Maine,,,,1,229928,13921,5,28850,70300,109233,7620
+10857,r342,Maine -> Departments,Maine,Departments,,,2,,,,,,,
+10857,r343,Maine -> Departments -> Department of Agriculture,Maine,Departments,Department of Agriculture,,3,20588,8565,0,1081,10443,500,0
+10857,r344,Maine -> Departments -> Department of Commerce,Maine,Departments,Department of Commerce,,3,6010,192,0,147,3759,1912,0
+10857,r345,Maine -> Departments -> Department of Defense,Maine,Departments,Department of Defense,,3,36977,2496,5,16372,18046,57,0
+10857,r346,Maine -> Departments -> Department of Energy,Maine,Departments,Department of Energy,,3,991,0,0,543,353,95,0
+10857,r347,Maine -> Departments -> Department of Health and Human Services,Maine,Departments,Department of Health and Human Services,,3,115055,0,0,2171,7279,100265,5339
+10857,r348,Maine -> Departments -> Department of the Interior,Maine,Departments,Department of the Interior,,3,3441,2122,0,0,0,949,371
+10857,r349,Maine -> Departments -> Department of Transportation,Maine,Departments,Department of Transportation,,3,1911,0,0,0,0,0,1911
+10857,r350,Maine -> Departments -> Department of Veterans Affairs,Maine,Departments,Department of Veterans Affairs,,3,170,170,0,0,0,0,0
+10857,r351,Maine -> Other agencies,Maine,Other agencies,,,2,,,,,,,
+10857,r352,Maine -> Other agencies -> National Aeronautics and Space Administration,Maine,Other agencies,National Aeronautics and Space Administration,,3,10584,376,0,8048,1387,773,0
+10857,r353,Maine -> Other agencies -> National Science Foundation,Maine,Other agencies,National Science Foundation,,3,34151,0,0,437,29032,4682,0
+10857,r354,Maine -> Other agencies -> Nuclear Regulatory Commission,Maine,Other agencies,Nuclear Regulatory Commission,,3,51,0,0,51,0,0,0
+10857,r355,Maryland,Maryland,,,,1,20258939,12684205,687893,3743892,2716237,405861,20850
+10857,r356,Maryland -> Departments,Maryland,Departments,,,2,,,,,,,
+10857,r357,Maryland -> Departments -> Department of Agriculture,Maryland,Departments,Department of Agriculture,,3,207627,186154,0,1348,19675,450,0
+10857,r358,Maryland -> Departments -> Department of Commerce,Maryland,Departments,Department of Commerce,,3,1250090,1170990,13058,43976,20919,1147,0
+10857,r359,Maryland -> Departments -> Department of Defense,Maryland,Departments,Department of Defense,,3,5472538,2707309,21007,1822024,635673,286011,514
+10857,r360,Maryland -> Departments -> Department of Education,Maryland,Departments,Department of Education,,3,12263,0,0,4981,4520,2761,0
+10857,r361,Maryland -> Departments -> Department of Energy,Maryland,Departments,Department of Energy,,3,101971,44357,0,32892,23680,94,949
+10857,r362,Maryland -> Departments -> Department of Health and Human Services,Maryland,Departments,Department of Health and Human Services,,3,11012733,8468516,644439,655147,1143867,84569,16194
+10857,r363,Maryland -> Departments -> Department of Homeland Security,Maryland,Departments,Department of Homeland Security,,3,21667,4055,9388,5190,2648,385,0
+10857,r364,Maryland -> Departments -> Department of the Interior,Maryland,Departments,Department of the Interior,,3,44574,43353,0,516,308,141,255
+10857,r365,Maryland -> Departments -> Department of Justice,Maryland,Departments,Department of Justice,,3,4640,830,0,1750,531,1529,0
+10857,r366,Maryland -> Departments -> Department of Transportation,Maryland,Departments,Department of Transportation,,3,20872,4457,0,8531,1946,3000,2938
+10857,r367,Maryland -> Departments -> Department of the Treasury,Maryland,Departments,Department of the Treasury,,3,1010,500,0,0,0,510,0
+10857,r368,Maryland -> Departments -> Department of Veterans Affairs,Maryland,Departments,Department of Veterans Affairs,,3,30638,30638,0,0,0,0,0
+10857,r369,Maryland -> Other agencies,Maryland,Other agencies,,,2,,,,,,,
+10857,r370,Maryland -> Other agencies -> Agency for International Development,Maryland,Other agencies,Agency for International Development,,3,24818,4077,0,4700,0,16040,0
+10857,r371,Maryland -> Other agencies -> Consumer Product Safety Commission,Maryland,Other agencies,Consumer Product Safety Commission,,3,165,165,0,0,0,0,0
+10857,r372,Maryland -> Other agencies -> Environmental Protection Agency,Maryland,Other agencies,Environmental Protection Agency,,3,7419,0,0,5934,1486,0,0
+10857,r373,Maryland -> Other agencies -> National Aeronautics and Space Administration,Maryland,Other agencies,National Aeronautics and Space Administration,,3,1668193,13149,0,922916,730257,1870,0
+10857,r374,Maryland -> Other agencies -> National Science Foundation,Maryland,Other agencies,National Science Foundation,,3,372397,4113,0,230228,130703,7352,0
+10857,r375,Maryland -> Other agencies -> Nuclear Regulatory Commission,Maryland,Other agencies,Nuclear Regulatory Commission,,3,3422,738,0,2684,0,0,0
+10857,r376,Maryland -> Other agencies -> Social Security Administration,Maryland,Other agencies,Social Security Administration,,3,1901,803,0,1074,24,0,0
+10857,r377,Massachusetts,Massachusetts,,,,1,8495312,644127,1353857,2237060,2122437,2131202,6629
+10857,r378,Massachusetts -> Departments,Massachusetts,Departments,,,2,,,,,,,
+10857,r379,Massachusetts -> Departments -> Department of Agriculture,Massachusetts,Departments,Department of Agriculture,,3,41794,9403,0,674,28635,3073,9
+10857,r380,Massachusetts -> Departments -> Department of Commerce,Massachusetts,Departments,Department of Commerce,,3,42889,10551,0,11413,20503,412,10
+10857,r381,Massachusetts -> Departments -> Department of Defense,Massachusetts,Departments,Department of Defense,,3,3441904,215730,1274305,1438062,361668,152138,0
+10857,r382,Massachusetts -> Departments -> Department of Education,Massachusetts,Departments,Department of Education,,3,18597,0,0,250,6622,11409,317
+10857,r383,Massachusetts -> Departments -> Department of Energy,Massachusetts,Departments,Department of Energy,,3,177511,2315,0,71312,94441,8585,858
+10857,r384,Massachusetts -> Departments -> Department of Health and Human Services,Massachusetts,Departments,Department of Health and Human Services,,3,3638827,0,0,600396,1136152,1899560,2719
+10857,r385,Massachusetts -> Departments -> Department of Homeland Security,Massachusetts,Departments,Department of Homeland Security,,3,39749,8530,2573,28646,0,0,0
+10857,r386,Massachusetts -> Departments -> Department of the Interior,Massachusetts,Departments,Department of the Interior,,3,16677,14082,0,163,2035,113,284
+10857,r387,Massachusetts -> Departments -> Department of Justice,Massachusetts,Departments,Department of Justice,,3,1632,0,0,595,1037,0,0
+10857,r388,Massachusetts -> Departments -> Department of Transportation,Massachusetts,Departments,Department of Transportation,,3,216545,114529,76978,18566,3405,634,2433
+10857,r389,Massachusetts -> Departments -> Department of Veterans Affairs,Massachusetts,Departments,Department of Veterans Affairs,,3,169031,169031,0,0,0,0,0
+10857,r390,Massachusetts -> Other agencies,Massachusetts,Other agencies,,,2,,,,,,,
+10857,r391,Massachusetts -> Other agencies -> Agency for International Development,Massachusetts,Other agencies,Agency for International Development,,3,4845,0,0,0,2750,2095,0
+10857,r392,Massachusetts -> Other agencies -> Environmental Protection Agency,Massachusetts,Other agencies,Environmental Protection Agency,,3,19820,1789,0,6483,5098,6450,0
+10857,r393,Massachusetts -> Other agencies -> National Aeronautics and Space Administration,Massachusetts,Other agencies,National Aeronautics and Space Administration,,3,202476,98167,0,29188,72104,3017,0
+10857,r394,Massachusetts -> Other agencies -> National Science Foundation,Massachusetts,Other agencies,National Science Foundation,,3,459686,0,0,30970,386800,41916,0
+10857,r395,Massachusetts -> Other agencies -> Nuclear Regulatory Commission,Massachusetts,Other agencies,Nuclear Regulatory Commission,,3,743,0,0,343,400,0,0
+10857,r396,Massachusetts -> Other agencies -> Social Security Administration,Massachusetts,Other agencies,Social Security Administration,,3,2585,0,0,0,787,1799,0
+10857,r397,Michigan,Michigan,,,,1,2389976,401393,0,499795,1304944,179807,4036
+10857,r398,Michigan -> Departments,Michigan,Departments,,,2,,,,,,,
+10857,r399,Michigan -> Departments -> Department of Agriculture,Michigan,Departments,Department of Agriculture,,3,29535,2036,0,1599,25787,0,113
+10857,r400,Michigan -> Departments -> Department of Commerce,Michigan,Departments,Department of Commerce,,3,8417,879,0,200,7338,0,0
+10857,r401,Michigan -> Departments -> Department of Defense,Michigan,Departments,Department of Defense,,3,930149,341922,0,386740,81991,119496,0
+10857,r402,Michigan -> Departments -> Department of Education,Michigan,Departments,Department of Education,,3,8503,0,0,1000,6262,1242,0
+10857,r403,Michigan -> Departments -> Department of Energy,Michigan,Departments,Department of Energy,,3,179997,0,0,42792,136490,715,0
+10857,r404,Michigan -> Departments -> Department of Health and Human Services,Michigan,Departments,Department of Health and Human Services,,3,919445,218,0,48535,810979,58186,1527
+10857,r405,Michigan -> Departments -> Department of Homeland Security,Michigan,Departments,Department of Homeland Security,,3,1370,0,0,1020,350,0,0
+10857,r406,Michigan -> Departments -> Department of the Interior,Michigan,Departments,Department of the Interior,,3,11276,11230,0,0,46,0,0
+10857,r407,Michigan -> Departments -> Department of Justice,Michigan,Departments,Department of Justice,,3,3018,0,0,0,3018,0,0
+10857,r408,Michigan -> Departments -> Department of Transportation,Michigan,Departments,Department of Transportation,,3,9160,0,0,4740,2024,0,2395
+10857,r409,Michigan -> Departments -> Department of Veterans Affairs,Michigan,Departments,Department of Veterans Affairs,,3,45091,45091,0,0,0,0,0
+10857,r410,Michigan -> Other agencies,Michigan,Other agencies,,,2,,,,,,,
+10857,r411,Michigan -> Other agencies -> Agency for International Development,Michigan,Other agencies,Agency for International Development,,3,8259,0,0,0,8259,0,0
+10857,r412,Michigan -> Other agencies -> Environmental Protection Agency,Michigan,Other agencies,Environmental Protection Agency,,3,1724,0,0,378,1346,0,0
+10857,r413,Michigan -> Other agencies -> National Aeronautics and Space Administration,Michigan,Other agencies,National Aeronautics and Space Administration,,3,45338,17,0,6692,38546,82,0.05
+10857,r414,Michigan -> Other agencies -> National Science Foundation,Michigan,Other agencies,National Science Foundation,,3,187894,0,0,6099,181707,87,0
+10857,r415,Michigan -> Other agencies -> Nuclear Regulatory Commission,Michigan,Other agencies,Nuclear Regulatory Commission,,3,632,0,0,0,632,0,0
+10857,r416,Michigan -> Other agencies -> Social Security Administration,Michigan,Other agencies,Social Security Administration,,3,168,0,0,0,168,0,0
+10857,r417,Minnesota,Minnesota,,,,1,1239047,73449,0,226291,598213,313761,27332
+10857,r418,Minnesota -> Departments,Minnesota,Departments,,,2,,,,,,,
+10857,r419,Minnesota -> Departments -> Department of Agriculture,Minnesota,Departments,Department of Agriculture,,3,51761,25410,0,1125,24250,0,976
+10857,r420,Minnesota -> Departments -> Department of Commerce,Minnesota,Departments,Department of Commerce,,3,10244,0,0,8918,1326,0,0
+10857,r421,Minnesota -> Departments -> Department of Defense,Minnesota,Departments,Department of Defense,,3,203777,3647,0,160244,27550,12336,0
+10857,r422,Minnesota -> Departments -> Department of Education,Minnesota,Departments,Department of Education,,3,3830,0,0,0,3830,0,0
+10857,r423,Minnesota -> Departments -> Department of Energy,Minnesota,Departments,Department of Energy,,3,29649,0,0,3801,19972,5876,0
+10857,r424,Minnesota -> Departments -> Department of Health and Human Services,Minnesota,Departments,Department of Health and Human Services,,3,786531,0,0,39232,433927,292003,21369
+10857,r425,Minnesota -> Departments -> Department of Homeland Security,Minnesota,Departments,Department of Homeland Security,,3,96,0,0,96,0,0,0
+10857,r426,Minnesota -> Departments -> Department of the Interior,Minnesota,Departments,Department of the Interior,,3,9564,6007,0,0,3383,0,174
+10857,r427,Minnesota -> Departments -> Department of Justice,Minnesota,Departments,Department of Justice,,3,475,0,0,0,0,475,0
+10857,r428,Minnesota -> Departments -> Department of Transportation,Minnesota,Departments,Department of Transportation,,3,9326,0,0,4089,0,494,4743
+10857,r429,Minnesota -> Departments -> Department of Veterans Affairs,Minnesota,Departments,Department of Veterans Affairs,,3,28299,28299,0,0,0,0,0
+10857,r430,Minnesota -> Other agencies,Minnesota,Other agencies,,,2,,,,,,,
+10857,r431,Minnesota -> Other agencies -> Agency for International Development,Minnesota,Other agencies,Agency for International Development,,3,608,0,0,608,0,0,0
+10857,r432,Minnesota -> Other agencies -> Environmental Protection Agency,Minnesota,Other agencies,Environmental Protection Agency,,3,11155,10085,0,253,817,0,0
+10857,r433,Minnesota -> Other agencies -> National Aeronautics and Space Administration,Minnesota,Other agencies,National Aeronautics and Space Administration,,3,9171,1,0,2176,6995,0,0
+10857,r434,Minnesota -> Other agencies -> National Science Foundation,Minnesota,Other agencies,National Science Foundation,,3,84378,0,0,5716,76014,2577,70
+10857,r435,Minnesota -> Other agencies -> Nuclear Regulatory Commission,Minnesota,Other agencies,Nuclear Regulatory Commission,,3,34,0,0,34,0,0,0
+10857,r436,Minnesota -> Other agencies -> Social Security Administration,Minnesota,Other agencies,Social Security Administration,,3,150,0,0,0,150,0,0
+10857,r437,Mississippi,Mississippi,,,,1,1149978,589504,0,385154,171928,30,3363
+10857,r438,Mississippi -> Departments,Mississippi,Departments,,,2,,,,,,,
+10857,r439,Mississippi -> Departments -> Department of Agriculture,Mississippi,Departments,Department of Agriculture,,3,124551,79822,0,0,44135,30,563
+10857,r440,Mississippi -> Departments -> Department of Commerce,Mississippi,Departments,Department of Commerce,,3,18373,187,0,2000,16186,0,0
+10857,r441,Mississippi -> Departments -> Department of Defense,Mississippi,Departments,Department of Defense,,3,823935,444683,0,369842,9411,0,0
+10857,r442,Mississippi -> Departments -> Department of Education,Mississippi,Departments,Department of Education,,3,448,0,0,0,448,0,0
+10857,r443,Mississippi -> Departments -> Department of Energy,Mississippi,Departments,Department of Energy,,3,2898,320,0,12,2566,0,0
+10857,r444,Mississippi -> Departments -> Department of Health and Human Services,Mississippi,Departments,Department of Health and Human Services,,3,69621,0,0,1826,66595,0,1199
+10857,r445,Mississippi -> Departments -> Department of Homeland Security,Mississippi,Departments,Department of Homeland Security,,3,15982,11783,0,200,3999,0,0
+10857,r446,Mississippi -> Departments -> Department of the Interior,Mississippi,Departments,Department of the Interior,,3,3669,3373,0,0,211,0,84
+10857,r447,Mississippi -> Departments -> Department of Justice,Mississippi,Departments,Department of Justice,,3,432,0,0,0,432,0,0
+10857,r448,Mississippi -> Departments -> Department of Transportation,Mississippi,Departments,Department of Transportation,,3,4646,0,0,0,3130,0,1516
+10857,r449,Mississippi -> Departments -> Department of Veterans Affairs,Mississippi,Departments,Department of Veterans Affairs,,3,913,913,0,0,0,0,0
+10857,r450,Mississippi -> Other agencies,Mississippi,Other agencies,,,2,,,,,,,
+10857,r451,Mississippi -> Other agencies -> Agency for International Development,Mississippi,Other agencies,Agency for International Development,,3,3000,0,0,0,3000,0,0
+10857,r452,Mississippi -> Other agencies -> National Aeronautics and Space Administration,Mississippi,Other agencies,National Aeronautics and Space Administration,,3,60898,48422,0,11203,1272,0,0.05
+10857,r453,Mississippi -> Other agencies -> National Science Foundation,Mississippi,Other agencies,National Science Foundation,,3,20542,0,0,0,20542,0,0
+10857,r454,Mississippi -> Other agencies -> Nuclear Regulatory Commission,Mississippi,Other agencies,Nuclear Regulatory Commission,,3,71,0,0,71,0,0,0
+10857,r455,Missouri,Missouri,,,,1,1837946,137041,0,723113,908021,55695,14076
+10857,r456,Missouri -> Departments,Missouri,Departments,,,2,,,,,,,
+10857,r457,Missouri -> Departments -> Department of Agriculture,Missouri,Departments,Department of Agriculture,,3,63678,31556,0,0,29598,2524,0
+10857,r458,Missouri -> Departments -> Department of Commerce,Missouri,Departments,Department of Commerce,,3,1510,1010,0,0,500,0,0
+10857,r459,Missouri -> Departments -> Department of Defense,Missouri,Departments,Department of Defense,,3,687439,53618,0,567445,56796,9579,0
+10857,r460,Missouri -> Departments -> Department of Education,Missouri,Departments,Department of Education,,3,11667,0,0,0,11667,0,0
+10857,r461,Missouri -> Departments -> Department of Energy,Missouri,Departments,Department of Energy,,3,85211,1,0,61046,15093,9071,0
+10857,r462,Missouri -> Departments -> Department of Health and Human Services,Missouri,Departments,Department of Health and Human Services,,3,788880,0,0,43086,715024,21602,9167
+10857,r463,Missouri -> Departments -> Department of Homeland Security,Missouri,Departments,Department of Homeland Security,,3,6039,5773,0,104,0,0,162
+10857,r464,Missouri -> Departments -> Department of the Interior,Missouri,Departments,Department of the Interior,,3,25680,24187,0,0,1474,19,0
+10857,r465,Missouri -> Departments -> Department of Justice,Missouri,Departments,Department of Justice,,3,573,0,0,0,573,0,0
+10857,r466,Missouri -> Departments -> Department of Transportation,Missouri,Departments,Department of Transportation,,3,13642,121,0,8673,100,0,4748
+10857,r467,Missouri -> Departments -> Department of Veterans Affairs,Missouri,Departments,Department of Veterans Affairs,,3,20774,20774,0,0,0,0,0
+10857,r468,Missouri -> Other agencies,Missouri,Other agencies,,,2,,,,,,,
+10857,r469,Missouri -> Other agencies -> Agency for International Development,Missouri,Other agencies,Agency for International Development,,3,4941,0,0,0,0,4941,0
+10857,r470,Missouri -> Other agencies -> Environmental Protection Agency,Missouri,Other agencies,Environmental Protection Agency,,3,3217,0,0,2375,842,0,0
+10857,r471,Missouri -> Other agencies -> National Aeronautics and Space Administration,Missouri,Other agencies,National Aeronautics and Space Administration,,3,52566,2,0,38520,14044,0,0
+10857,r472,Missouri -> Other agencies -> National Science Foundation,Missouri,Other agencies,National Science Foundation,,3,72130,0,0,1863,62309,7958,0
+10857,r473,Montana,Montana,,,,1,291606,94038,0,40444,146125,3085,7914
+10857,r474,Montana -> Departments,Montana,Departments,,,2,,,,,,,
+10857,r475,Montana -> Departments -> Department of Agriculture,Montana,Departments,Department of Agriculture,,3,30962,16129,0,133,14701,0,0
+10857,r476,Montana -> Departments -> Department of Commerce,Montana,Departments,Department of Commerce,,3,520,0,0,0,520,0,0
+10857,r477,Montana -> Departments -> Department of Defense,Montana,Departments,Department of Defense,,3,67433,361,0,11214,55658,200,0
+10857,r478,Montana -> Departments -> Department of Education,Montana,Departments,Department of Education,,3,225,0,0,0,0,0,225
+10857,r479,Montana -> Departments -> Department of Energy,Montana,Departments,Department of Energy,,3,8339,0,0,3424,4915,0,0
+10857,r480,Montana -> Departments -> Department of Health and Human Services,Montana,Departments,Department of Health and Human Services,,3,102353,56276,0,1539,36019,2800,5719
+10857,r481,Montana -> Departments -> Department of Homeland Security,Montana,Departments,Department of Homeland Security,,3,15470,0,0,15470,0,0,0
+10857,r482,Montana -> Departments -> Department of the Interior,Montana,Departments,Department of the Interior,,3,23113,21272,0,85,1721,35,0
+10857,r483,Montana -> Departments -> Department of Transportation,Montana,Departments,Department of Transportation,,3,1969,0,0,0,0,0,1969
+10857,r484,Montana -> Other agencies,Montana,Other agencies,,,2,,,,,,,
+10857,r485,Montana -> Other agencies -> National Aeronautics and Space Administration,Montana,Other agencies,National Aeronautics and Space Administration,,3,10906,0,0,7202,3654,50,0
+10857,r486,Montana -> Other agencies -> National Science Foundation,Montana,Other agencies,National Science Foundation,,3,30315,0,0,1378,28937,0,0
+10857,r487,Nebraska,Nebraska,,,,1,325071,52110,11354,9971,221283,25986,4366
+10857,r488,Nebraska -> Departments,Nebraska,Departments,,,2,,,,,,,
+10857,r489,Nebraska -> Departments -> Department of Agriculture,Nebraska,Departments,Department of Agriculture,,3,54566,30218,0,175,17173,7000,0
+10857,r490,Nebraska -> Departments -> Department of Commerce,Nebraska,Departments,Department of Commerce,,3,368,0,0,0,368,0,0
+10857,r491,Nebraska -> Departments -> Department of Defense,Nebraska,Departments,Department of Defense,,3,29814,8262,0,6319,15233,0,0
+10857,r492,Nebraska -> Departments -> Department of Education,Nebraska,Departments,Department of Education,,3,2400,0,0,0,1488,0,912
+10857,r493,Nebraska -> Departments -> Department of Energy,Nebraska,Departments,Department of Energy,,3,7298,0,0,0,7298,0,0
+10857,r494,Nebraska -> Departments -> Department of Health and Human Services,Nebraska,Departments,Department of Health and Human Services,,3,151915,0,0,2429,129948,18986,552
+10857,r495,Nebraska -> Departments -> Department of Homeland Security,Nebraska,Departments,Department of Homeland Security,,3,11354,0,11354,0,0,0,0
+10857,r496,Nebraska -> Departments -> Department of the Interior,Nebraska,Departments,Department of the Interior,,3,1004,547,0,27,430,0,0
+10857,r497,Nebraska -> Departments -> Department of Justice,Nebraska,Departments,Department of Justice,,3,290,0,0,0,290,0,0
+10857,r498,Nebraska -> Departments -> Department of Transportation,Nebraska,Departments,Department of Transportation,,3,3579,0,0,500,177,0,2902
+10857,r499,Nebraska -> Departments -> Department of Veterans Affairs,Nebraska,Departments,Department of Veterans Affairs,,3,10776,10776,0,0,0,0,0
+10857,r500,Nebraska -> Other agencies,Nebraska,Other agencies,,,2,,,,,,,
+10857,r501,Nebraska -> Other agencies -> National Aeronautics and Space Administration,Nebraska,Other agencies,National Aeronautics and Space Administration,,3,3510,2307,0,69,1134,0,0
+10857,r502,Nebraska -> Other agencies -> National Science Foundation,Nebraska,Other agencies,National Science Foundation,,3,48196,0,0,453,47743,0,0
+10857,r503,Nevada,Nevada,,,,1,519765,62678,0,348937,93643,7821,6686
+10857,r504,Nevada -> Departments,Nevada,Departments,,,2,,,,,,,
+10857,r505,Nevada -> Departments -> Department of Agriculture,Nevada,Departments,Department of Agriculture,,3,7516,1705,0,94,5718,0,0
+10857,r506,Nevada -> Departments -> Department of Commerce,Nevada,Departments,Department of Commerce,,3,3015,0,0,15,3000,0,0
+10857,r507,Nevada -> Departments -> Department of Defense,Nevada,Departments,Department of Defense,,3,176001,7026,0,163458,5518,0,0
+10857,r508,Nevada -> Departments -> Department of Energy,Nevada,Departments,Department of Energy,,3,179652,1469,0,169315,8117,750,0
+10857,r509,Nevada -> Departments -> Department of Health and Human Services,Nevada,Departments,Department of Health and Human Services,,3,47044,0,0,1470,37894,1920,5761
+10857,r510,Nevada -> Departments -> Department of Homeland Security,Nevada,Departments,Department of Homeland Security,,3,1383,400,0,983,0,0,0
+10857,r511,Nevada -> Departments -> Department of the Interior,Nevada,Departments,Department of the Interior,,3,12780,11409,0,117,1179,41,34
+10857,r512,Nevada -> Departments -> Department of Justice,Nevada,Departments,Department of Justice,,3,4800,0,0,0,0,4800,0
+10857,r513,Nevada -> Departments -> Department of Transportation,Nevada,Departments,Department of Transportation,,3,992,0,0,100,0,0,892
+10857,r514,Nevada -> Departments -> Department of Veterans Affairs,Nevada,Departments,Department of Veterans Affairs,,3,1068,1068,0,0,0,0,0
+10857,r515,Nevada -> Other agencies,Nevada,Other agencies,,,2,,,,,,,
+10857,r516,Nevada -> Other agencies -> National Aeronautics and Space Administration,Nevada,Other agencies,National Aeronautics and Space Administration,,3,55645,39601,0,13386,2659,0,0
+10857,r517,Nevada -> Other agencies -> National Science Foundation,Nevada,Other agencies,National Science Foundation,,3,29418,0,0,0,29108,310,0
+10857,r518,Nevada -> Other agencies -> Nuclear Regulatory Commission,Nevada,Other agencies,Nuclear Regulatory Commission,,3,450,0,0,0,450,0,0
+10857,r519,New Hampshire,New Hampshire,,,,1,444718,11450,0,234594,186122,11893,658
+10857,r520,New Hampshire -> Departments,New Hampshire,Departments,,,2,,,,,,,
+10857,r521,New Hampshire -> Departments -> Department of Agriculture,New Hampshire,Departments,Department of Agriculture,,3,10224,5320,0,87,4700,116,0
+10857,r522,New Hampshire -> Departments -> Department of Commerce,New Hampshire,Departments,Department of Commerce,,3,12632,0,0,0,11632,1000,0
+10857,r523,New Hampshire -> Departments -> Department of Defense,New Hampshire,Departments,Department of Defense,,3,218708,3393,0,198138,17177,0,0
+10857,r524,New Hampshire -> Departments -> Department of Education,New Hampshire,Departments,Department of Education,,3,2032,0,0,0,2032,0,0
+10857,r525,New Hampshire -> Departments -> Department of Energy,New Hampshire,Departments,Department of Energy,,3,7331,0,0,3964,3287,0,79
+10857,r526,New Hampshire -> Departments -> Department of Health and Human Services,New Hampshire,Departments,Department of Health and Human Services,,3,119975,0,0,17844,93376,8588,167
+10857,r527,New Hampshire -> Departments -> Department of Homeland Security,New Hampshire,Departments,Department of Homeland Security,,3,330,0,0,330,0,0,0
+10857,r528,New Hampshire -> Departments -> Department of the Interior,New Hampshire,Departments,Department of the Interior,,3,3077,2209,0,93,696,0,79
+10857,r529,New Hampshire -> Departments -> Department of Justice,New Hampshire,Departments,Department of Justice,,3,2742,0,0,0,2742,0,0
+10857,r530,New Hampshire -> Departments -> Department of Transportation,New Hampshire,Departments,Department of Transportation,,3,333,0,0,0,0,0,333
+10857,r531,New Hampshire -> Departments -> Department of Veterans Affairs,New Hampshire,Departments,Department of Veterans Affairs,,3,162,162,0,0,0,0,0
+10857,r532,New Hampshire -> Other agencies,New Hampshire,Other agencies,,,2,,,,,,,
+10857,r533,New Hampshire -> Other agencies -> National Aeronautics and Space Administration,New Hampshire,Other agencies,National Aeronautics and Space Administration,,3,32160,366,0,13354,18439,0,0
+10857,r534,New Hampshire -> Other agencies -> National Science Foundation,New Hampshire,Other agencies,National Science Foundation,,3,35012,0,0,783,32040,2189,0
+10857,r535,New Jersey,New Jersey,,,,1,3386124,707898,105523,1894399,546847,108708,22748
+10857,r536,New Jersey -> Departments,New Jersey,Departments,,,2,,,,,,,
+10857,r537,New Jersey -> Departments -> Department of Agriculture,New Jersey,Departments,Department of Agriculture,,3,9464,141,0,1040,8124,84,75
+10857,r538,New Jersey -> Departments -> Department of Commerce,New Jersey,Departments,Department of Commerce,,3,12838,0,0,0,12838,0,0
+10857,r539,New Jersey -> Departments -> Department of Defense,New Jersey,Departments,Department of Defense,,3,2427421,695973,0,1665713,60703,5032,0
+10857,r540,New Jersey -> Departments -> Department of Education,New Jersey,Departments,Department of Education,,3,15611,0,0,12364,1252,1995,0
+10857,r541,New Jersey -> Departments -> Department of Energy,New Jersey,Departments,Department of Energy,,3,164103,0.05,104751,32460,26441,451,0
+10857,r542,New Jersey -> Departments -> Department of Health and Human Services,New Jersey,Departments,Department of Health and Human Services,,3,538880,0,0,138519,284816,99084,16460
+10857,r543,New Jersey -> Departments -> Department of Homeland Security,New Jersey,Departments,Department of Homeland Security,,3,2903,0,772,2064,0,67,0
+10857,r544,New Jersey -> Departments -> Department of the Interior,New Jersey,Departments,Department of the Interior,,3,3248,1328,0,574,928,0,418
+10857,r545,New Jersey -> Departments -> Department of Justice,New Jersey,Departments,Department of Justice,,3,1077,0,0,0,1077,0,0
+10857,r546,New Jersey -> Departments -> Department of Transportation,New Jersey,Departments,Department of Transportation,,3,26232,0.05,0,19041,1397,0,5794
+10857,r547,New Jersey -> Departments -> Department of the Treasury,New Jersey,Departments,Department of the Treasury,,3,2487,0,0,2487,0,0,0
+10857,r548,New Jersey -> Departments -> Department of Veterans Affairs,New Jersey,Departments,Department of Veterans Affairs,,3,7358,7358,0,0,0,0,0
+10857,r549,New Jersey -> Other agencies,New Jersey,Other agencies,,,2,,,,,,,
+10857,r550,New Jersey -> Other agencies -> Environmental Protection Agency,New Jersey,Other agencies,Environmental Protection Agency,,3,3290,2603,0,522,165,0,0
+10857,r551,New Jersey -> Other agencies -> National Aeronautics and Space Administration,New Jersey,Other agencies,National Aeronautics and Space Administration,,3,41120,496,0,17516,22991,116,0
+10857,r552,New Jersey -> Other agencies -> National Science Foundation,New Jersey,Other agencies,National Science Foundation,,3,129414,0,0,2042,125916,1456,0
+10857,r553,New Jersey -> Other agencies -> Nuclear Regulatory Commission,New Jersey,Other agencies,Nuclear Regulatory Commission,,3,200,0,0,0,200,0,0
+10857,r554,New Jersey -> Other agencies -> Social Security Administration,New Jersey,Other agencies,Social Security Administration,,3,479,0,0,56,0,423,0
+10857,r555,New Mexico,New Mexico,,,,1,3484393,776565,1999772,468889,213206,20524,5438
+10857,r556,New Mexico -> Departments,New Mexico,Departments,,,2,,,,,,,
+10857,r557,New Mexico -> Departments -> Department of Agriculture,New Mexico,Departments,Department of Agriculture,,3,21839,10440,0,0,10414,985,0
+10857,r558,New Mexico -> Departments -> Department of Commerce,New Mexico,Departments,Department of Commerce,,3,1036,185,0,217,633,0,0
+10857,r559,New Mexico -> Departments -> Department of Defense,New Mexico,Departments,Department of Defense,,3,1235144,496696,300390,388695,43922,5441,0
+10857,r560,New Mexico -> Departments -> Department of Education,New Mexico,Departments,Department of Education,,3,4480,0,0,0,750,0,3730
+10857,r561,New Mexico -> Departments -> Department of Energy,New Mexico,Departments,Department of Energy,,3,1884274,206341,1658657,8349,10925,1,0
+10857,r562,New Mexico -> Departments -> Department of Health and Human Services,New Mexico,Departments,Department of Health and Human Services,,3,121807,0,7049,9293,92641,12310,514
+10857,r563,New Mexico -> Departments -> Department of Homeland Security,New Mexico,Departments,Department of Homeland Security,,3,43994,27966,4238,11790,0,0,0
+10857,r564,New Mexico -> Departments -> Department of the Interior,New Mexico,Departments,Department of the Interior,,3,6919,4402,0,909,1488,120,0
+10857,r565,New Mexico -> Departments -> Department of Justice,New Mexico,Departments,Department of Justice,,3,480,0,0,480,0,0,0
+10857,r566,New Mexico -> Departments -> Department of Transportation,New Mexico,Departments,Department of Transportation,,3,13359,0,0,8324,4001,0,1034
+10857,r567,New Mexico -> Departments -> Department of the Treasury,New Mexico,Departments,Department of the Treasury,,3,8739,0,3000,5739,0,0,0
+10857,r568,New Mexico -> Departments -> Department of Veterans Affairs,New Mexico,Departments,Department of Veterans Affairs,,3,25256,25256,0,0,0,0,0
+10857,r569,New Mexico -> Other agencies,New Mexico,Other agencies,,,2,,,,,,,
+10857,r570,New Mexico -> Other agencies -> Environmental Protection Agency,New Mexico,Other agencies,Environmental Protection Agency,,3,181,0,0,181,0,0,0
+10857,r571,New Mexico -> Other agencies -> National Aeronautics and Space Administration,New Mexico,Other agencies,National Aeronautics and Space Administration,,3,61832,5132,18732,32618,5001,217,132
+10857,r572,New Mexico -> Other agencies -> National Science Foundation,New Mexico,Other agencies,National Science Foundation,,3,46850,148,0,2293,42930,1451,28
+10857,r573,New Mexico -> Other agencies -> Nuclear Regulatory Commission,New Mexico,Other agencies,Nuclear Regulatory Commission,,3,8205,0,7705,0,500,0,0
+10857,r574,New York,New York,,,,1,6726319,237841,570606,1541027,3562027,675232,139586
+10857,r575,New York -> Departments,New York,Departments,,,2,,,,,,,
+10857,r576,New York -> Departments -> Department of Agriculture,New York,Departments,Department of Agriculture,,3,67633,23726,0,1014,39830,3063,0
+10857,r577,New York -> Departments -> Department of Commerce,New York,Departments,Department of Commerce,,3,23374,0,0,1112,12730,9532,0
+10857,r578,New York -> Departments -> Department of Defense,New York,Departments,Department of Defense,,3,1206859,138614,0,726393,241225,100226,400
+10857,r579,New York -> Departments -> Department of Education,New York,Departments,Department of Education,,3,29734,0,0,1250,9838,18647,0
+10857,r580,New York -> Departments -> Department of Energy,New York,Departments,Department of Energy,,3,1183622,23,558278,532789,83783,7262,1488
+10857,r581,New York -> Departments -> Department of Health and Human Services,New York,Departments,Department of Health and Human Services,,3,3484005,0,5802,143981,2692217,508724,133281
+10857,r582,New York -> Departments -> Department of Homeland Security,New York,Departments,Department of Homeland Security,,3,4657,3749,0,457,0,451,0
+10857,r583,New York -> Departments -> Department of the Interior,New York,Departments,Department of the Interior,,3,12268,10695,0,0,1293,0,281
+10857,r584,New York -> Departments -> Department of Justice,New York,Departments,Department of Justice,,3,3727,0,0,0,1590,1840,297
+10857,r585,New York -> Departments -> Department of Transportation,New York,Departments,Department of Transportation,,3,15930,453,0,13534,0,0,1943
+10857,r586,New York -> Departments -> Department of Veterans Affairs,New York,Departments,Department of Veterans Affairs,,3,60130,60130,0,0,0,0,0
+10857,r587,New York -> Other agencies,New York,Other agencies,,,2,,,,,,,
+10857,r588,New York -> Other agencies -> Agency for Global Media,New York,Other agencies,Agency for Global Media,,3,1327,125,0,1202,0,0,0
+10857,r589,New York -> Other agencies -> Agency for International Development,New York,Other agencies,Agency for International Development,,3,11351,0,0,0,4776,6575,0
+10857,r590,New York -> Other agencies -> Appalachian Regional Commission,New York,Other agencies,Appalachian Regional Commission,,3,109,0,0,109,0,0,0
+10857,r591,New York -> Other agencies -> Environmental Protection Agency,New York,Other agencies,Environmental Protection Agency,,3,2346,0,0,1340,540,466,0
+10857,r592,New York -> Other agencies -> National Aeronautics and Space Administration,New York,Other agencies,National Aeronautics and Space Administration,,3,151111,75,5991,96682,46762,1601,0
+10857,r593,New York -> Other agencies -> National Science Foundation,New York,Other agencies,National Science Foundation,,3,466529,252,0,21160,426374,16847,1896
+10857,r594,New York -> Other agencies -> Nuclear Regulatory Commission,New York,Other agencies,Nuclear Regulatory Commission,,3,1438,0,535,5,898,0,0
+10857,r595,New York -> Other agencies -> Social Security Administration,New York,Other agencies,Social Security Administration,,3,171,0,0,0,171,0,0
+10857,r596,North Carolina,North Carolina,,,,1,3724189,381897,149,1024581,1849849,440869,26844
+10857,r597,North Carolina -> Departments,North Carolina,Departments,,,2,,,,,,,
+10857,r598,North Carolina -> Departments -> Department of Agriculture,North Carolina,Departments,Department of Agriculture,,3,66855,22739,0,250,41651,1507,708
+10857,r599,North Carolina -> Departments -> Department of Commerce,North Carolina,Departments,Department of Commerce,,3,24923,6229,0,4947,13054,694,0
+10857,r600,North Carolina -> Departments -> Department of Defense,North Carolina,Departments,Department of Defense,,3,315663,4797,0,188259,90495,31972,140
+10857,r601,North Carolina -> Departments -> Department of Education,North Carolina,Departments,Department of Education,,3,13042,0,0,748,8871,2103,1319
+10857,r602,North Carolina -> Departments -> Department of Energy,North Carolina,Departments,Department of Energy,,3,83592,152,0,14337,56015,12898,189
+10857,r603,North Carolina -> Departments -> Department of Health and Human Services,North Carolina,Departments,Department of Health and Human Services,,3,2814428,193864,0,777271,1461167,363227,18900
+10857,r604,North Carolina -> Departments -> Department of Homeland Security,North Carolina,Departments,Department of Homeland Security,,3,7800,0,149,7248,402,0,0
+10857,r605,North Carolina -> Departments -> Department of the Interior,North Carolina,Departments,Department of the Interior,,3,13251,11945,0,15,1144,0,147
+10857,r606,North Carolina -> Departments -> Department of Justice,North Carolina,Departments,Department of Justice,,3,27012,0,0,0,4337,22675,0
+10857,r607,North Carolina -> Departments -> Department of Transportation,North Carolina,Departments,Department of Transportation,,3,9985,0,0,2366,2179,0,5440
+10857,r608,North Carolina -> Departments -> Department of Veterans Affairs,North Carolina,Departments,Department of Veterans Affairs,,3,35624,35624,0,0,0,0,0
+10857,r609,North Carolina -> Other agencies,North Carolina,Other agencies,,,2,,,,,,,
+10857,r610,North Carolina -> Other agencies -> Agency for International Development,North Carolina,Other agencies,Agency for International Development,,3,5296,0,0,0,1201,4095,0
+10857,r611,North Carolina -> Other agencies -> Environmental Protection Agency,North Carolina,Other agencies,Environmental Protection Agency,,3,125427,106548,0,15093,3786,0,0
+10857,r612,North Carolina -> Other agencies -> National Aeronautics and Space Administration,North Carolina,Other agencies,National Aeronautics and Space Administration,,3,10644,0,0,4257,5691,695,0
+10857,r613,North Carolina -> Other agencies -> National Science Foundation,North Carolina,Other agencies,National Science Foundation,,3,169868,0,0,9789,159076,1003,0
+10857,r614,North Carolina -> Other agencies -> Nuclear Regulatory Commission,North Carolina,Other agencies,Nuclear Regulatory Commission,,3,780,0,0,0,780,0,0
+10857,r615,North Dakota,North Dakota,,,,1,153360,48221,0,18216,76493,3554,6876
+10857,r616,North Dakota -> Departments,North Dakota,Departments,,,2,,,,,,,
+10857,r617,North Dakota -> Departments -> Department of Agriculture,North Dakota,Departments,Department of Agriculture,,3,56011,42805,0,0,12919,287,0
+10857,r618,North Dakota -> Departments -> Department of Commerce,North Dakota,Departments,Department of Commerce,,3,90,0,0,0,90,0,0
+10857,r619,North Dakota -> Departments -> Department of Defense,North Dakota,Departments,Department of Defense,,3,28220,2345,0,17704,8171,0,0
+10857,r620,North Dakota -> Departments -> Department of Energy,North Dakota,Departments,Department of Energy,,3,10172,60,0,250,9863,0,0
+10857,r621,North Dakota -> Departments -> Department of Health and Human Services,North Dakota,Departments,Department of Health and Human Services,,3,32209,0,0,0,22622,3267,6321
+10857,r622,North Dakota -> Departments -> Department of the Interior,North Dakota,Departments,Department of the Interior,,3,3012,2904,0,0,108,0,0
+10857,r623,North Dakota -> Departments -> Department of Transportation,North Dakota,Departments,Department of Transportation,,3,7449,0,0,254,6640,0,555
+10857,r624,North Dakota -> Departments -> Department of Veterans Affairs,North Dakota,Departments,Department of Veterans Affairs,,3,106,106,0,0,0,0,0
+10857,r625,North Dakota -> Other agencies,North Dakota,Other agencies,,,2,,,,,,,
+10857,r626,North Dakota -> Other agencies -> Environmental Protection Agency,North Dakota,Other agencies,Environmental Protection Agency,,3,7,0,0,7,0,0,0
+10857,r627,North Dakota -> Other agencies -> National Aeronautics and Space Administration,North Dakota,Other agencies,National Aeronautics and Space Administration,,3,828,0,0,0,828,0,0
+10857,r628,North Dakota -> Other agencies -> National Science Foundation,North Dakota,Other agencies,National Science Foundation,,3,15122,0,0,0,15122,0,0
+10857,r629,North Dakota -> Other agencies -> Nuclear Regulatory Commission,North Dakota,Other agencies,Nuclear Regulatory Commission,,3,131,0,0,0,131,0,0
+10857,r630,Ohio,Ohio,,,,1,8242542,5805226,9449,983880,1021037,399206,23743
+10857,r631,Ohio -> Departments,Ohio,Departments,,,2,,,,,,,
+10857,r632,Ohio -> Departments -> Department of Agriculture,Ohio,Departments,Department of Agriculture,,3,55236,10873,0,2538,41318,500,8
+10857,r633,Ohio -> Departments -> Department of Commerce,Ohio,Departments,Department of Commerce,,3,1374,0,0,300,1073,0,0
+10857,r634,Ohio -> Departments -> Department of Defense,Ohio,Departments,Department of Defense,,3,6709129,5654190,7733,790698,137085,119423,0
+10857,r635,Ohio -> Departments -> Department of Education,Ohio,Departments,Department of Education,,3,8296,0,0,0,7790,303,203
+10857,r636,Ohio -> Departments -> Department of Energy,Ohio,Departments,Department of Energy,,3,63397,2938,1013,19169,36603,3674,0
+10857,r637,Ohio -> Departments -> Department of Health and Human Services,Ohio,Departments,Department of Health and Human Services,,3,980871,15551,0,26579,670144,257636,10961
+10857,r638,Ohio -> Departments -> Department of Homeland Security,Ohio,Departments,Department of Homeland Security,,3,16209,1500,703,808,0,13198,0
+10857,r639,Ohio -> Departments -> Department of the Interior,Ohio,Departments,Department of the Interior,,3,9888,9272,0,1,416,0,200
+10857,r640,Ohio -> Departments -> Department of Justice,Ohio,Departments,Department of Justice,,3,533,0,0,0,533,0,0
+10857,r641,Ohio -> Departments -> Department of Transportation,Ohio,Departments,Department of Transportation,,3,29975,1015,0,7323,7087,2978,11572
+10857,r642,Ohio -> Departments -> Department of Veterans Affairs,Ohio,Departments,Department of Veterans Affairs,,3,41446,41446,0,0,0,0,0
+10857,r643,Ohio -> Other agencies,Ohio,Other agencies,,,2,,,,,,,
+10857,r644,Ohio -> Other agencies -> Environmental Protection Agency,Ohio,Other agencies,Environmental Protection Agency,,3,62810,48963,0,13248,598,0,0
+10857,r645,Ohio -> Other agencies -> National Aeronautics and Space Administration,Ohio,Other agencies,National Aeronautics and Space Administration,,3,147926,19479,0,119436,8176,835,0
+10857,r646,Ohio -> Other agencies -> National Science Foundation,Ohio,Other agencies,National Science Foundation,,3,114376,0,0,3753,109162,660,800
+10857,r647,Ohio -> Other agencies -> Nuclear Regulatory Commission,Ohio,Other agencies,Nuclear Regulatory Commission,,3,932,0,0,26,906,0,0
+10857,r648,Ohio -> Other agencies -> Social Security Administration,Ohio,Other agencies,Social Security Administration,,3,145,0,0,0,145,0,0
+10857,r649,Oklahoma,Oklahoma,,,,1,458390,131813,0,67474,212970,38840,7293
+10857,r650,Oklahoma -> Departments,Oklahoma,Departments,,,2,,,,,,,
+10857,r651,Oklahoma -> Departments -> Department of Agriculture,Oklahoma,Departments,Department of Agriculture,,3,34985,14509,0,0,20426,0,50
+10857,r652,Oklahoma -> Departments -> Department of Commerce,Oklahoma,Departments,Department of Commerce,,3,18553,0,0,0,18553,0,0
+10857,r653,Oklahoma -> Departments -> Department of Defense,Oklahoma,Departments,Department of Defense,,3,79584,38445,0,31803,9335,0,0
+10857,r654,Oklahoma -> Departments -> Department of Education,Oklahoma,Departments,Department of Education,,3,466,0,0,0,466,0,0
+10857,r655,Oklahoma -> Departments -> Department of Energy,Oklahoma,Departments,Department of Energy,,3,28085,132,0,13040,14747,7,159
+10857,r656,Oklahoma -> Departments -> Department of Health and Human Services,Oklahoma,Departments,Department of Health and Human Services,,3,140342,0,0,8237,89204,38293,4607
+10857,r657,Oklahoma -> Departments -> Department of Homeland Security,Oklahoma,Departments,Department of Homeland Security,,3,1304,0,0,1304,0,0,0
+10857,r658,Oklahoma -> Departments -> Department of the Interior,Oklahoma,Departments,Department of the Interior,,3,62418,61377,0,0,686,300,55
+10857,r659,Oklahoma -> Departments -> Department of Transportation,Oklahoma,Departments,Department of Transportation,,3,13797,1506,0,8995,1816,0,1480
+10857,r660,Oklahoma -> Departments -> Department of Veterans Affairs,Oklahoma,Departments,Department of Veterans Affairs,,3,8811,8811,0,0,0,0,0
+10857,r661,Oklahoma -> Other agencies,Oklahoma,Other agencies,,,2,,,,,,,
+10857,r662,Oklahoma -> Other agencies -> Environmental Protection Agency,Oklahoma,Other agencies,Environmental Protection Agency,,3,6946,6181,0,764,0,0,0
+10857,r663,Oklahoma -> Other agencies -> National Aeronautics and Space Administration,Oklahoma,Other agencies,National Aeronautics and Space Administration,,3,23012,852,0,2575,19345,240,0
+10857,r664,Oklahoma -> Other agencies -> National Science Foundation,Oklahoma,Other agencies,National Science Foundation,,3,40088,0,0,756,38390,0,942
+10857,r665,Oregon,Oregon,,,,1,812145,142582,0,99693,528914,34988,5969
+10857,r666,Oregon -> Departments,Oregon,Departments,,,2,,,,,,,
+10857,r667,Oregon -> Departments -> Department of Agriculture,Oregon,Departments,Department of Agriculture,,3,81642,56693,0,495,23809,615,30
+10857,r668,Oregon -> Departments -> Department of Commerce,Oregon,Departments,Department of Commerce,,3,4974,0,0,1071,3663,240,0
+10857,r669,Oregon -> Departments -> Department of Defense,Oregon,Departments,Department of Defense,,3,71578,938,0,41313,26450,2877,0
+10857,r670,Oregon -> Departments -> Department of Education,Oregon,Departments,Department of Education,,3,7451,0,0,250,4796,2150,256
+10857,r671,Oregon -> Departments -> Department of Energy,Oregon,Departments,Department of Energy,,3,51123,0,0,23714,15769,11639,0
+10857,r672,Oregon -> Departments -> Department of Health and Human Services,Oregon,Departments,Department of Health and Human Services,,3,398675,151,0,23364,358101,15738,1322
+10857,r673,Oregon -> Departments -> Department of Homeland Security,Oregon,Departments,Department of Homeland Security,,3,550,0,0,150,401,0,0
+10857,r674,Oregon -> Departments -> Department of the Interior,Oregon,Departments,Department of the Interior,,3,21515,19047,0,0,1718,122,627
+10857,r675,Oregon -> Departments -> Department of Transportation,Oregon,Departments,Department of Transportation,,3,6726,2522,0,25,797,0,3383
+10857,r676,Oregon -> Departments -> Department of Veterans Affairs,Oregon,Departments,Department of Veterans Affairs,,3,52983,52983,0,0,0,0,0
+10857,r677,Oregon -> Other agencies,Oregon,Other agencies,,,2,,,,,,,
+10857,r678,Oregon -> Other agencies -> Environmental Protection Agency,Oregon,Other agencies,Environmental Protection Agency,,3,10489,10248,0,213,28,0,0
+10857,r679,Oregon -> Other agencies -> National Aeronautics and Space Administration,Oregon,Other agencies,National Aeronautics and Space Administration,,3,11658,0,0,4576,7064,18,0
+10857,r680,Oregon -> Other agencies -> National Science Foundation,Oregon,Other agencies,National Science Foundation,,3,91628,0,0,4261,85426,1589,352
+10857,r681,Oregon -> Other agencies -> Nuclear Regulatory Commission,Oregon,Other agencies,Nuclear Regulatory Commission,,3,1153,0,0,260,893,0,0
+10857,r682,Pennsylvania,Pennsylvania,,,,1,4911808,443164,42166,1453858,2554197,404953,13470
+10857,r683,Pennsylvania -> Departments,Pennsylvania,Departments,,,2,,,,,,,
+10857,r684,Pennsylvania -> Departments -> Department of Agriculture,Pennsylvania,Departments,Department of Agriculture,,3,78487,50642,0,293,27282,269,0
+10857,r685,Pennsylvania -> Departments -> Department of Commerce,Pennsylvania,Departments,Department of Commerce,,3,11961,274,0,5241,2938,3508,0
+10857,r686,Pennsylvania -> Departments -> Department of Defense,Pennsylvania,Departments,Department of Defense,,3,1578904,279396,42166,766782,444456,46104,0
+10857,r687,Pennsylvania -> Departments -> Department of Education,Pennsylvania,Departments,Department of Education,,3,17794,0,0,396,11221,5795,382
+10857,r688,Pennsylvania -> Departments -> Department of Energy,Pennsylvania,Departments,Department of Energy,,3,419012,27335,0,333787,57172,633,85
+10857,r689,Pennsylvania -> Departments -> Department of Health and Human Services,Pennsylvania,Departments,Department of Health and Human Services,,3,2310525,23198,0,228651,1708523,344111,6042
+10857,r690,Pennsylvania -> Departments -> Department of Homeland Security,Pennsylvania,Departments,Department of Homeland Security,,3,11176,255,0,10621,300,0,0
+10857,r691,Pennsylvania -> Departments -> Department of the Interior,Pennsylvania,Departments,Department of the Interior,,3,11108,9348,0,292,1293,39,136
+10857,r692,Pennsylvania -> Departments -> Department of Justice,Pennsylvania,Departments,Department of Justice,,3,4850,0,0,0,4164,686,0
+10857,r693,Pennsylvania -> Departments -> Department of Transportation,Pennsylvania,Departments,Department of Transportation,,3,50907,0,0,35990,6757,1336,6824
+10857,r694,Pennsylvania -> Departments -> Department of Veterans Affairs,Pennsylvania,Departments,Department of Veterans Affairs,,3,48705,48705,0,0,0,0,0
+10857,r695,Pennsylvania -> Other agencies,Pennsylvania,Other agencies,,,2,,,,,,,
+10857,r696,Pennsylvania -> Other agencies -> Environmental Protection Agency,Pennsylvania,Other agencies,Environmental Protection Agency,,3,11004,0,0,9491,1513,0,0
+10857,r697,Pennsylvania -> Other agencies -> National Aeronautics and Space Administration,Pennsylvania,Other agencies,National Aeronautics and Space Administration,,3,83499,4011,0,53594,25846,48,0
+10857,r698,Pennsylvania -> Other agencies -> National Science Foundation,Pennsylvania,Other agencies,National Science Foundation,,3,271200,0,0,8167,260608,2425,0
+10857,r699,Pennsylvania -> Other agencies -> Nuclear Regulatory Commission,Pennsylvania,Other agencies,Nuclear Regulatory Commission,,3,2483,0,0,553,1930,0,0
+10857,r700,Pennsylvania -> Other agencies -> Social Security Administration,Pennsylvania,Other agencies,Social Security Administration,,3,193,0,0,0,193,0,0
+10857,r701,Rhode Island,Rhode Island,,,,1,894706,327071,0,204732,263923,89491,9490
+10857,r702,Rhode Island -> Departments,Rhode Island,Departments,,,2,,,,,,,
+10857,r703,Rhode Island -> Departments -> Department of Agriculture,Rhode Island,Departments,Department of Agriculture,,3,3036,585,0,0,2404,32,15
+10857,r704,Rhode Island -> Departments -> Department of Commerce,Rhode Island,Departments,Department of Commerce,,3,22701,0,0,0,22647,54,0
+10857,r705,Rhode Island -> Departments -> Department of Defense,Rhode Island,Departments,Department of Defense,,3,521198,296087,0,196703,27816,292,300
+10857,r706,Rhode Island -> Departments -> Department of Education,Rhode Island,Departments,Department of Education,,3,5940,0,0,0,5388,0,553
+10857,r707,Rhode Island -> Departments -> Department of Energy,Rhode Island,Departments,Department of Energy,,3,6667,0,0,924,5470,225,48
+10857,r708,Rhode Island -> Departments -> Department of Health and Human Services,Rhode Island,Departments,Department of Health and Human Services,,3,256652,0,0,6146,156377,86677,7452
+10857,r709,Rhode Island -> Departments -> Department of the Interior,Rhode Island,Departments,Department of the Interior,,3,321,74,0,0,247,0,0
+10857,r710,Rhode Island -> Departments -> Department of Transportation,Rhode Island,Departments,Department of Transportation,,3,2122,0,0,0,1000,0,1122
+10857,r711,Rhode Island -> Departments -> Department of Veterans Affairs,Rhode Island,Departments,Department of Veterans Affairs,,3,21049,21049,0,0,0,0,0
+10857,r712,Rhode Island -> Other agencies,Rhode Island,Other agencies,,,2,,,,,,,
+10857,r713,Rhode Island -> Other agencies -> Environmental Protection Agency,Rhode Island,Other agencies,Environmental Protection Agency,,3,9272,9272,0,0,0,0,0
+10857,r714,Rhode Island -> Other agencies -> National Aeronautics and Space Administration,Rhode Island,Other agencies,National Aeronautics and Space Administration,,3,4647,4,0,447,4126,70,0
+10857,r715,Rhode Island -> Other agencies -> National Science Foundation,Rhode Island,Other agencies,National Science Foundation,,3,41100,0,0,512,38447,2141,0
+10857,r716,South Carolina,South Carolina,,,,1,1162399,166835,80446,350916,323392,231091,9718
+10857,r717,South Carolina -> Departments,South Carolina,Departments,,,2,,,,,,,
+10857,r718,South Carolina -> Departments -> Department of Agriculture,South Carolina,Departments,Department of Agriculture,,3,33368,16287,0,0,16659,423,0
+10857,r719,South Carolina -> Departments -> Department of Commerce,South Carolina,Departments,Department of Commerce,,3,13484,10047,0,0,2799,77,561
+10857,r720,South Carolina -> Departments -> Department of Defense,South Carolina,Departments,Department of Defense,,3,686757,102221,8868,320299,28141,227227,0
+10857,r721,South Carolina -> Departments -> Department of Education,South Carolina,Departments,Department of Education,,3,3482,0,0,0,3482,0,0
+10857,r722,South Carolina -> Departments -> Department of Energy,South Carolina,Departments,Department of Energy,,3,91455,81,70577,4519,16199,0,79
+10857,r723,South Carolina -> Departments -> Department of Health and Human Services,South Carolina,Departments,Department of Health and Human Services,,3,241852,0,0,19349,213944,1679,6880
+10857,r724,South Carolina -> Departments -> Department of Homeland Security,South Carolina,Departments,Department of Homeland Security,,3,4751,0,1000,3751,0,0,0
+10857,r725,South Carolina -> Departments -> Department of the Interior,South Carolina,Departments,Department of the Interior,,3,1580,921,0,4,552,0,104
+10857,r726,South Carolina -> Departments -> Department of Transportation,South Carolina,Departments,Department of Transportation,,3,4787,0,0,2142,551,0,2094
+10857,r727,South Carolina -> Departments -> Department of Veterans Affairs,South Carolina,Departments,Department of Veterans Affairs,,3,37095,37095,0,0,0,0,0
+10857,r728,South Carolina -> Other agencies,South Carolina,Other agencies,,,2,,,,,,,
+10857,r729,South Carolina -> Other agencies -> Environmental Protection Agency,South Carolina,Other agencies,Environmental Protection Agency,,3,415,0,0,0,415,0,0
+10857,r730,South Carolina -> Other agencies -> National Aeronautics and Space Administration,South Carolina,Other agencies,National Aeronautics and Space Administration,,3,5078,1,0,368,4709,0,0
+10857,r731,South Carolina -> Other agencies -> National Science Foundation,South Carolina,Other agencies,National Science Foundation,,3,36860,183,0,484,34508,1686,0
+10857,r732,South Carolina -> Other agencies -> Nuclear Regulatory Commission,South Carolina,Other agencies,Nuclear Regulatory Commission,,3,1350,0,0,0,1350,0,0
+10857,r733,South Carolina -> Other agencies -> Social Security Administration,South Carolina,Other agencies,Social Security Administration,,3,84,0,0,0,84,0,0
+10857,r734,South Dakota,South Dakota,,,,1,134466,23536,0,13468,41241,22776,33446
+10857,r735,South Dakota -> Departments,South Dakota,Departments,,,2,,,,,,,
+10857,r736,South Dakota -> Departments -> Department of Agriculture,South Dakota,Departments,Department of Agriculture,,3,13703,2888,0,0,10383,400,32
+10857,r737,South Dakota -> Departments -> Department of Commerce,South Dakota,Departments,Department of Commerce,,3,91,0,0,91,0,0,0
+10857,r738,South Dakota -> Departments -> Department of Defense,South Dakota,Departments,Department of Defense,,3,15588,7267,0,7075,1247,0,0
+10857,r739,South Dakota -> Departments -> Department of Energy,South Dakota,Departments,Department of Energy,,3,28945,165,0,2325,1905,0,24550
+10857,r740,South Dakota -> Departments -> Department of Health and Human Services,South Dakota,Departments,Department of Health and Human Services,,3,35677,0,0,823,13468,14272,7115
+10857,r741,South Dakota -> Departments -> Department of the Interior,South Dakota,Departments,Department of the Interior,,3,15,15,0,0,0,0,0
+10857,r742,South Dakota -> Departments -> Department of Transportation,South Dakota,Departments,Department of Transportation,,3,1749,0,0,0,0,0,1749
+10857,r743,South Dakota -> Departments -> Department of Veterans Affairs,South Dakota,Departments,Department of Veterans Affairs,,3,583,583,0,0,0,0,0
+10857,r744,South Dakota -> Other agencies,South Dakota,Other agencies,,,2,,,,,,,
+10857,r745,South Dakota -> Other agencies -> National Aeronautics and Space Administration,South Dakota,Other agencies,National Aeronautics and Space Administration,,3,16861,12618,0,3154,1089,0,0
+10857,r746,South Dakota -> Other agencies -> National Science Foundation,South Dakota,Other agencies,National Science Foundation,,3,21254,0,0,0,13150,8104,0
+10857,r747,Tennessee,Tennessee,,,,1,3385285,358907,1293848,769510,841291,111921,9808
+10857,r748,Tennessee -> Departments,Tennessee,Departments,,,2,,,,,,,
+10857,r749,Tennessee -> Departments -> Department of Agriculture,Tennessee,Departments,Department of Agriculture,,3,49050,14904,0,0,33722,0,424
+10857,r750,Tennessee -> Departments -> Department of Commerce,Tennessee,Departments,Department of Commerce,,3,736,0,0,0,736,0,0
+10857,r751,Tennessee -> Departments -> Department of Defense,Tennessee,Departments,Department of Defense,,3,516876,272526,9844,160981,70566,2959,0
+10857,r752,Tennessee -> Departments -> Department of Education,Tennessee,Departments,Department of Education,,3,5486,0,0,0,5486,0,0
+10857,r753,Tennessee -> Departments -> Department of Energy,Tennessee,Departments,Department of Energy,,3,1508675,14324,1272875,158704,55543,3600,3629
+10857,r754,Tennessee -> Departments -> Department of Health and Human Services,Tennessee,Departments,Department of Health and Human Services,,3,679140,397,598,7443,571959,97875,869
+10857,r755,Tennessee -> Departments -> Department of Homeland Security,Tennessee,Departments,Department of Homeland Security,,3,8719,347,1601,5553,1219,0,0
+10857,r756,Tennessee -> Departments -> Department of the Interior,Tennessee,Departments,Department of the Interior,,3,8609,8073,0,0,420,0,115
+10857,r757,Tennessee -> Departments -> Department of Justice,Tennessee,Departments,Department of Justice,,3,396,0,0,0,396,0,0
+10857,r758,Tennessee -> Departments -> Department of Transportation,Tennessee,Departments,Department of Transportation,,3,8195,0,1625,663,1135,0,4771
+10857,r759,Tennessee -> Departments -> Department of Veterans Affairs,Tennessee,Departments,Department of Veterans Affairs,,3,38979,38979,0,0,0,0,0
+10857,r760,Tennessee -> Other agencies,Tennessee,Other agencies,,,2,,,,,,,
+10857,r761,Tennessee -> Other agencies -> Appalachian Regional Commission,Tennessee,Other agencies,Appalachian Regional Commission,,3,148,0,0,0,148,0,0
+10857,r762,Tennessee -> Other agencies -> Environmental Protection Agency,Tennessee,Other agencies,Environmental Protection Agency,,3,41412,0,444,40968,0,0,0
+10857,r763,Tennessee -> Other agencies -> National Aeronautics and Space Administration,Tennessee,Other agencies,National Aeronautics and Space Administration,,3,402392,8607,0,369440,24345,0,0
+10857,r764,Tennessee -> Other agencies -> National Science Foundation,Tennessee,Other agencies,National Science Foundation,,3,80405,750,0,4002,74664,988,0
+10857,r765,Tennessee -> Other agencies -> Nuclear Regulatory Commission,Tennessee,Other agencies,Nuclear Regulatory Commission,,3,7812,0,6862,0,950,0,0
+10857,r766,Tennessee -> Other agencies -> Tennessee Valley Authority,Tennessee,Other agencies,Tennessee Valley Authority,,3,28254,0,0,21756,0,6498,0
+10857,r767,Texas,Texas,,,,1,5475314,600451,38073,2060666,2518004,189690,68430
+10857,r768,Texas -> Departments,Texas,Departments,,,2,,,,,,,
+10857,r769,Texas -> Departments -> Department of Agriculture,Texas,Departments,Department of Agriculture,,3,145542,50100,0,1694,89056,4693,0
+10857,r770,Texas -> Departments -> Department of Commerce,Texas,Departments,Department of Commerce,,3,12415,0,0,1571,10844,0,0
+10857,r771,Texas -> Departments -> Department of Defense,Texas,Departments,Department of Defense,,3,2032364,483776,36349,1245687,250449,16075,30
+10857,r772,Texas -> Departments -> Department of Education,Texas,Departments,Department of Education,,3,28335,0,0,250,22738,2802,2545
+10857,r773,Texas -> Departments -> Department of Energy,Texas,Departments,Department of Energy,,3,141202,227,0,28374,107781,4693,128
+10857,r774,Texas -> Departments -> Department of Health and Human Services,Texas,Departments,Department of Health and Human Services,,3,1769766,0,0,71760,1591780,72205,34020
+10857,r775,Texas -> Departments -> Department of Homeland Security,Texas,Departments,Department of Homeland Security,,3,16410,0,203,12017,250,3940,0
+10857,r776,Texas -> Departments -> Department of the Interior,Texas,Departments,Department of the Interior,,3,15670,9670,0,2141,2392,365,1102
+10857,r777,Texas -> Departments -> Department of Justice,Texas,Departments,Department of Justice,,3,3866,0,0,0,3866,0,0
+10857,r778,Texas -> Departments -> Department of Transportation,Texas,Departments,Department of Transportation,,3,36520,0,0,7197,3631,1549,24143
+10857,r779,Texas -> Departments -> Department of Veterans Affairs,Texas,Departments,Department of Veterans Affairs,,3,55302,55302,0,0,0,0,0
+10857,r780,Texas -> Other agencies,Texas,Other agencies,,,2,,,,,,,
+10857,r781,Texas -> Other agencies -> Agency for International Development,Texas,Other agencies,Agency for International Development,,3,3000,0,0,0,3000,0,0
+10857,r782,Texas -> Other agencies -> Appalachian Regional Commission,Texas,Other agencies,Appalachian Regional Commission,,3,250,0,0,250,0,0,0
+10857,r783,Texas -> Other agencies -> Environmental Protection Agency,Texas,Other agencies,Environmental Protection Agency,,3,4637,0,0,2144,2494,0,0
+10857,r784,Texas -> Other agencies -> National Aeronautics and Space Administration,Texas,Other agencies,National Aeronautics and Space Administration,,3,807147,1375,0,674458,50256,81056,3
+10857,r785,Texas -> Other agencies -> National Science Foundation,Texas,Other agencies,National Science Foundation,,3,393900,0,0,13068,378518,2314,0
+10857,r786,Texas -> Other agencies -> Nuclear Regulatory Commission,Texas,Other agencies,Nuclear Regulatory Commission,,3,2527,0,1522,55,950,0,0
+10857,r787,Texas -> Other agencies -> RESTORE Act Centers of Excellence Research Grants Program,Texas,Other agencies,RESTORE Act Centers of Excellence Research Grants Program,,3,6460,0,0,0,0,0,6460
+10857,r788,Utah,Utah,,,,1,3196264,333801,0,2387391,467595,5667,1810
+10857,r789,Utah -> Departments,Utah,Departments,,,2,,,,,,,
+10857,r790,Utah -> Departments -> Department of Agriculture,Utah,Departments,Department of Agriculture,,3,31708,24679,0,775,6248,0,6
+10857,r791,Utah -> Departments -> Department of Commerce,Utah,Departments,Department of Commerce,,3,1000,0,0,102,898,0,0
+10857,r792,Utah -> Departments -> Department of Defense,Utah,Departments,Department of Defense,,3,2580287,247974,0,2242892,85513,3909,0
+10857,r793,Utah -> Departments -> Department of Education,Utah,Departments,Department of Education,,3,487,0,0,0,487,0,0
+10857,r794,Utah -> Departments -> Department of Energy,Utah,Departments,Department of Energy,,3,61765,0,0,21406,40264,95,0
+10857,r795,Utah -> Departments -> Department of Health and Human Services,Utah,Departments,Department of Health and Human Services,,3,292838,0,0,44224,247003,1385,227
+10857,r796,Utah -> Departments -> Department of Homeland Security,Utah,Departments,Department of Homeland Security,,3,318,0,0,318,0,0,0
+10857,r797,Utah -> Departments -> Department of the Interior,Utah,Departments,Department of the Interior,,3,12715,11458,0,0,389,278,589
+10857,r798,Utah -> Departments -> Department of Justice,Utah,Departments,Department of Justice,,3,76,0,0,0,76,0,0
+10857,r799,Utah -> Departments -> Department of Transportation,Utah,Departments,Department of Transportation,,3,2666,0,0,1676,1,0,989
+10857,r800,Utah -> Departments -> Department of Veterans Affairs,Utah,Departments,Department of Veterans Affairs,,3,49342,49342,0,0,0,0,0
+10857,r801,Utah -> Other agencies,Utah,Other agencies,,,2,,,,,,,
+10857,r802,Utah -> Other agencies -> Agency for Global Media,Utah,Other agencies,Agency for Global Media,,3,183,17,0,166,0,0,0
+10857,r803,Utah -> Other agencies -> Environmental Protection Agency,Utah,Other agencies,Environmental Protection Agency,,3,181,0,0,181,0,0,0
+10857,r804,Utah -> Other agencies -> National Aeronautics and Space Administration,Utah,Other agencies,National Aeronautics and Space Administration,,3,88512,329,0,73412,14771,0,0
+10857,r805,Utah -> Other agencies -> National Science Foundation,Utah,Other agencies,National Science Foundation,,3,74185,0,0,2241,71944,0,0
+10857,r806,Vermont,Vermont,,,,1,161740,13288,0,37833,97596,3771,9252
+10857,r807,Vermont -> Departments,Vermont,Departments,,,2,,,,,,,
+10857,r808,Vermont -> Departments -> Department of Agriculture,Vermont,Departments,Department of Agriculture,,3,26326,4892,0,0,21434,0,0
+10857,r809,Vermont -> Departments -> Department of Commerce,Vermont,Departments,Department of Commerce,,3,3118,0,0,0,3118,0,0
+10857,r810,Vermont -> Departments -> Department of Defense,Vermont,Departments,Department of Defense,,3,18986,0,0,14530,850,3606,0
+10857,r811,Vermont -> Departments -> Department of Energy,Vermont,Departments,Department of Energy,,3,3921,0,0,1170,2751,0,0
+10857,r812,Vermont -> Departments -> Department of Health and Human Services,Vermont,Departments,Department of Health and Human Services,,3,81841,0,0,16779,56984,0,8078
+10857,r813,Vermont -> Departments -> Department of Homeland Security,Vermont,Departments,Department of Homeland Security,,3,2320,0,0,2320,0,0,0
+10857,r814,Vermont -> Departments -> Department of the Interior,Vermont,Departments,Department of the Interior,,3,2094,1297,0,20,712,0,66
+10857,r815,Vermont -> Departments -> Department of Justice,Vermont,Departments,Department of Justice,,3,165,0,0,0,0,165,0
+10857,r816,Vermont -> Departments -> Department of Transportation,Vermont,Departments,Department of Transportation,,3,2453,0,0,150,1195,0,1108
+10857,r817,Vermont -> Departments -> Department of Veterans Affairs,Vermont,Departments,Department of Veterans Affairs,,3,7100,7100,0,0,0,0,0
+10857,r818,Vermont -> Other agencies,Vermont,Other agencies,,,2,,,,,,,
+10857,r819,Vermont -> Other agencies -> National Aeronautics and Space Administration,Vermont,Other agencies,National Aeronautics and Space Administration,,3,839,0,0,839,0,0,0
+10857,r820,Vermont -> Other agencies -> National Science Foundation,Vermont,Other agencies,National Science Foundation,,3,12064,0,0,1512,10553,0,0
+10857,r821,Vermont -> Other agencies -> Nuclear Regulatory Commission,Vermont,Other agencies,Nuclear Regulatory Commission,,3,513,0,0,513,0,0,0
+10857,r822,Virginia,Virginia,,,,1,10144002,2218305,780461,6214532,714862,201506,14336
+10857,r823,Virginia -> Departments,Virginia,Departments,,,2,,,,,,,
+10857,r824,Virginia -> Departments -> Department of Agriculture,Virginia,Departments,Department of Agriculture,,3,42558,1335,0,224,28439,12560,0
+10857,r825,Virginia -> Departments -> Department of Commerce,Virginia,Departments,Department of Commerce,,3,14816,1999,0,1287,10855,675,0
+10857,r826,Virginia -> Departments -> Department of Defense,Virginia,Departments,Department of Defense,,3,7356864,1954122,512671,4738075,76479,70853,4664
+10857,r827,Virginia -> Departments -> Department of Education,Virginia,Departments,Department of Education,,3,12897,0,0,1724,9978,0,1195
+10857,r828,Virginia -> Departments -> Department of Energy,Virginia,Departments,Department of Energy,,3,341095,5028,165829,133330,33524,3385,0
+10857,r829,Virginia -> Departments -> Department of Health and Human Services,Virginia,Departments,Department of Health and Human Services,,3,704826,0,16909,258217,379669,49069,963
+10857,r830,Virginia -> Departments -> Department of Homeland Security,Virginia,Departments,Department of Homeland Security,,3,194762,99881,171,91630,888,2193,0
+10857,r831,Virginia -> Departments -> Department of the Interior,Virginia,Departments,Department of the Interior,,3,109301,104122,0,4720,0,56,403
+10857,r832,Virginia -> Departments -> Department of Justice,Virginia,Departments,Department of Justice,,3,9382,300,0,4832,1170,2688,392
+10857,r833,Virginia -> Departments -> Department of Transportation,Virginia,Departments,Department of Transportation,,3,171822,11586,666,109497,12667,30687,6719
+10857,r834,Virginia -> Departments -> Department of the Treasury,Virginia,Departments,Department of the Treasury,,3,8904,0,2950,5954,0,0,0
+10857,r835,Virginia -> Departments -> Department of Veterans Affairs,Virginia,Departments,Department of Veterans Affairs,,3,93548,19235,74313,0,0,0,0
+10857,r836,Virginia -> Other agencies,Virginia,Other agencies,,,2,,,,,,,
+10857,r837,Virginia -> Other agencies -> Administrative Office of the U.S. Courts,Virginia,Other agencies,Administrative Office of the U.S. Courts,,3,1443,0,1443,0,0,0,0
+10857,r838,Virginia -> Other agencies -> Agency for Global Media,Virginia,Other agencies,Agency for Global Media,,3,909,85,0,824,0,0,0
+10857,r839,Virginia -> Other agencies -> Agency for International Development,Virginia,Other agencies,Agency for International Development,,3,9929,800,0,3681,4685,763,0
+10857,r840,Virginia -> Other agencies -> Appalachian Regional Commission,Virginia,Other agencies,Appalachian Regional Commission,,3,108,0,0,0,0,108,0
+10857,r841,Virginia -> Other agencies -> Environmental Protection Agency,Virginia,Other agencies,Environmental Protection Agency,,3,27128,4067,0,21865,897,300,0
+10857,r842,Virginia -> Other agencies -> National Aeronautics and Space Administration,Virginia,Other agencies,National Aeronautics and Space Administration,,3,879323,15692,530,828982,17262,16857,0
+10857,r843,Virginia -> Other agencies -> National Science Foundation,Virginia,Other agencies,National Science Foundation,,3,156981,0,4980,4366,137334,10302,0
+10857,r844,Virginia -> Other agencies -> Nuclear Regulatory Commission,Virginia,Other agencies,Nuclear Regulatory Commission,,3,3174,0,0,2324,850,0,0
+10857,r845,Virginia -> Other agencies -> Social Security Administration,Virginia,Other agencies,Social Security Administration,,3,4230,54,0,3000,166,1010,0
+10857,r846,Washington,Washington,,,,1,3576461,398649,568777,720909,1014970,823017,50139
+10857,r847,Washington -> Departments,Washington,Departments,,,2,,,,,,,
+10857,r848,Washington -> Departments -> Department of Agriculture,Washington,Departments,Department of Agriculture,,3,75796,39935,0,2419,30943,1820,679
+10857,r849,Washington -> Departments -> Department of Commerce,Washington,Departments,Department of Commerce,,3,50195,24956,0,275,24746,218,0
+10857,r850,Washington -> Departments -> Department of Defense,Washington,Departments,Department of Defense,,3,951429,248858,22586,540440,96857,42688,1
+10857,r851,Washington -> Departments -> Department of Education,Washington,Departments,Department of Education,,3,4822,0,0,0,3273,1549,0
+10857,r852,Washington -> Departments -> Department of Energy,Washington,Departments,Department of Energy,,3,608056,13,523836,46055,34097,3600,455
+10857,r853,Washington -> Departments -> Department of Health and Human Services,Washington,Departments,Department of Health and Human Services,,3,1517651,4607,15736,53423,636851,762353,44682
+10857,r854,Washington -> Departments -> Department of Homeland Security,Washington,Departments,Department of Homeland Security,,3,3600,2000,200,1320,0,0,80
+10857,r855,Washington -> Departments -> Department of the Interior,Washington,Departments,Department of the Interior,,3,22476,18567,0,536,3074,0,299
+10857,r856,Washington -> Departments -> Department of Transportation,Washington,Departments,Department of Transportation,,3,15466,0,0,5,11517,0,3944
+10857,r857,Washington -> Departments -> Department of Veterans Affairs,Washington,Departments,Department of Veterans Affairs,,3,58730,58730,0,0,0,0,0
+10857,r858,Washington -> Other agencies,Washington,Other agencies,,,2,,,,,,,
+10857,r859,Washington -> Other agencies -> Agency for International Development,Washington,Other agencies,Agency for International Development,,3,9977,0,0,3900,1000,5077,0
+10857,r860,Washington -> Other agencies -> Environmental Protection Agency,Washington,Other agencies,Environmental Protection Agency,,3,2077,0,19,2031,27,0,0
+10857,r861,Washington -> Other agencies -> National Aeronautics and Space Administration,Washington,Other agencies,National Aeronautics and Space Administration,,3,81507,983,0,61665,17984,874,0
+10857,r862,Washington -> Other agencies -> National Science Foundation,Washington,Other agencies,National Science Foundation,,3,168276,0,0,8837,154600,4838,0
+10857,r863,Washington -> Other agencies -> Nuclear Regulatory Commission,Washington,Other agencies,Nuclear Regulatory Commission,,3,6404,0,6400,4,0,0,0
+10857,r864,West Virginia,West Virginia,,,,1,212282,59322,0,48718,77573,15538,11131
+10857,r865,West Virginia -> Departments,West Virginia,Departments,,,2,,,,,,,
+10857,r866,West Virginia -> Departments -> Department of Agriculture,West Virginia,Departments,Department of Agriculture,,3,42415,26720,0,125,15406,125,40
+10857,r867,West Virginia -> Departments -> Department of Commerce,West Virginia,Departments,Department of Commerce,,3,3223,0,0,0,1223,2000,0
+10857,r868,West Virginia -> Departments -> Department of Defense,West Virginia,Departments,Department of Defense,,3,38603,79,0,36238,1732,554,0
+10857,r869,West Virginia -> Departments -> Department of Energy,West Virginia,Departments,Department of Energy,,3,17831,16,0,9241,5909,2350,316
+10857,r870,West Virginia -> Departments -> Department of Health and Human Services,West Virginia,Departments,Department of Health and Human Services,,3,81150,24418,0,400,46768,472,9091
+10857,r871,West Virginia -> Departments -> Department of Homeland Security,West Virginia,Departments,Department of Homeland Security,,3,720,0,0,720,0,0,0
+10857,r872,West Virginia -> Departments -> Department of the Interior,West Virginia,Departments,Department of the Interior,,3,5803,5233,0,0,391,0,178
+10857,r873,West Virginia -> Departments -> Department of Justice,West Virginia,Departments,Department of Justice,,3,1013,0,0,0,1013,0,0
+10857,r874,West Virginia -> Departments -> Department of Transportation,West Virginia,Departments,Department of Transportation,,3,2599,1754,0,0,0,0,845
+10857,r875,West Virginia -> Departments -> Department of Veterans Affairs,West Virginia,Departments,Department of Veterans Affairs,,3,1102,1102,0,0,0,0,0
+10857,r876,West Virginia -> Other agencies,West Virginia,Other agencies,,,2,,,,,,,
+10857,r877,West Virginia -> Other agencies -> Appalachian Regional Commission,West Virginia,Other agencies,Appalachian Regional Commission,,3,100,0,0,86,14,0,0
+10857,r878,West Virginia -> Other agencies -> Environmental Protection Agency,West Virginia,Other agencies,Environmental Protection Agency,,3,550,0,0,0,550,0,0
+10857,r879,West Virginia -> Other agencies -> National Aeronautics and Space Administration,West Virginia,Other agencies,National Aeronautics and Space Administration,,3,3748,0,0,1745,2003,0,0
+10857,r880,West Virginia -> Other agencies -> National Science Foundation,West Virginia,Other agencies,National Science Foundation,,3,13261,0,0,0,2564,10036,661
+10857,r881,West Virginia -> Other agencies -> Nuclear Regulatory Commission,West Virginia,Other agencies,Nuclear Regulatory Commission,,3,163,0,0,163,0,0,0
+10857,r882,Wisconsin,Wisconsin,,,,1,1115331,62417,0,225174,753921,62517,11302
+10857,r883,Wisconsin -> Departments,Wisconsin,Departments,,,2,,,,,,,
+10857,r884,Wisconsin -> Departments -> Department of Agriculture,Wisconsin,Departments,Department of Agriculture,,3,81451,47124,0,1305,30181,2829,12
+10857,r885,Wisconsin -> Departments -> Department of Commerce,Wisconsin,Departments,Department of Commerce,,3,7884,0,0,345,7539,0,0
+10857,r886,Wisconsin -> Departments -> Department of Defense,Wisconsin,Departments,Department of Defense,,3,212637,157,0,178220,34103,157,0
+10857,r887,Wisconsin -> Departments -> Department of Education,Wisconsin,Departments,Department of Education,,3,9002,0,0,0,3479,5523,0
+10857,r888,Wisconsin -> Departments -> Department of Energy,Wisconsin,Departments,Department of Energy,,3,88003,0,0,13654,69658,4691,0
+10857,r889,Wisconsin -> Departments -> Department of Health and Human Services,Wisconsin,Departments,Department of Health and Human Services,,3,558459,0,0,22063,478905,48137,9355
+10857,r890,Wisconsin -> Departments -> Department of the Interior,Wisconsin,Departments,Department of the Interior,,3,15084,14630,0,37,191,0,226
+10857,r891,Wisconsin -> Departments -> Department of Transportation,Wisconsin,Departments,Department of Transportation,,3,2865,100,0,0,1056,0,1709
+10857,r892,Wisconsin -> Departments -> Department of Veterans Affairs,Wisconsin,Departments,Department of Veterans Affairs,,3,406,406,0,0,0,0,0
+10857,r893,Wisconsin -> Other agencies,Wisconsin,Other agencies,,,2,,,,,,,
+10857,r894,Wisconsin -> Other agencies -> Environmental Protection Agency,Wisconsin,Other agencies,Environmental Protection Agency,,3,2647,0,0,317,2330,0,0
+10857,r895,Wisconsin -> Other agencies -> National Aeronautics and Space Administration,Wisconsin,Other agencies,National Aeronautics and Space Administration,,3,23659,0,0,4766,18842,50,0
+10857,r896,Wisconsin -> Other agencies -> National Science Foundation,Wisconsin,Other agencies,National Science Foundation,,3,112578,0,0,4467,106980,1131,0
+10857,r897,Wisconsin -> Other agencies -> Social Security Administration,Wisconsin,Other agencies,Social Security Administration,,3,656,0,0,0,656,0,0
+10857,r898,Wyoming,Wyoming,,,,1,80466,28294,0,4739,44308,740,2385
+10857,r899,Wyoming -> Departments,Wyoming,Departments,,,2,,,,,,,
+10857,r900,Wyoming -> Departments -> Department of Agriculture,Wyoming,Departments,Department of Agriculture,,3,3242,134,0,175,2858,76,0
+10857,r901,Wyoming -> Departments -> Department of Defense,Wyoming,Departments,Department of Defense,,3,1179,79,0,914,186,0,0
+10857,r902,Wyoming -> Departments -> Department of Energy,Wyoming,Departments,Department of Energy,,3,9751,0,0,1348,7843,560,0
+10857,r903,Wyoming -> Departments -> Department of Health and Human Services,Wyoming,Departments,Department of Health and Human Services,,3,13550,0,0,259,13076,0,215
+10857,r904,Wyoming -> Departments -> Department of Homeland Security,Wyoming,Departments,Department of Homeland Security,,3,259,0,0,259,0,0,0
+10857,r905,Wyoming -> Departments -> Department of the Interior,Wyoming,Departments,Department of the Interior,,3,29094,28081,0,0,725,78,210
+10857,r906,Wyoming -> Departments -> Department of Transportation,Wyoming,Departments,Department of Transportation,,3,2164,0,0,204,0,0,1960
+10857,r907,Wyoming -> Other agencies,Wyoming,Other agencies,,,2,,,,,,,
+10857,r908,Wyoming -> Other agencies -> National Aeronautics and Space Administration,Wyoming,Other agencies,National Aeronautics and Space Administration,,3,1732,0,0,665,1040,26,0
+10857,r909,Wyoming -> Other agencies -> National Science Foundation,Wyoming,Other agencies,National Science Foundation,,3,19495,0,0,914,18581,0,0
+10857,r910,Outlying areas,Outlying areas,,,,1,142474,28964,0,2313,97068,6241,7888
+10857,r911,Outlying areas -> Departments,Outlying areas,Departments,,,2,,,,,,,
+10857,r912,Outlying areas -> Departments -> Department of Agriculture,Outlying areas,Departments,Department of Agriculture,,3,21833,5491,0,175,16167,0,0
+10857,r913,Outlying areas -> Departments -> Department of Commerce,Outlying areas,Departments,Department of Commerce,,3,3363,450,0,0,2859,54,0
+10857,r914,Outlying areas -> Departments -> Department of Defense,Outlying areas,Departments,Department of Defense,,3,4650,46,0,129,4476,0,0
+10857,r915,Outlying areas -> Departments -> Department of Education,Outlying areas,Departments,Department of Education,,3,250,0,0,250,0,0,0
+10857,r916,Outlying areas -> Departments -> Department of Health and Human Services,Outlying areas,Departments,Department of Health and Human Services,,3,54529,0,0,1150,44530,6187,2663
+10857,r917,Outlying areas -> Departments -> Department of Homeland Security,Outlying areas,Departments,Department of Homeland Security,,3,577,0,0,107,470,0,0
+10857,r918,Outlying areas -> Departments -> Department of the Interior,Outlying areas,Departments,Department of the Interior,,3,6524,1055,0,0,243,0,5226
+10857,r919,Outlying areas -> Departments -> Department of Veterans Affairs,Outlying areas,Departments,Department of Veterans Affairs,,3,21923,21923,0,0,0,0,0
+10857,r920,Outlying areas -> Other agencies,Outlying areas,Other agencies,,,2,,,,,,,
+10857,r921,Outlying areas -> Other agencies -> National Aeronautics and Space Administration,Outlying areas,Other agencies,National Aeronautics and Space Administration,,3,63,0,0,0,63,0,0
+10857,r922,Outlying areas -> Other agencies -> National Science Foundation,Outlying areas,Other agencies,National Science Foundation,,3,28762,0,0,502,28261,0,0
+10857,r923,Outlying areas -> Puerto Rico,Outlying areas,Puerto Rico,,,2,101838,28349,0,1932,68614,54,2888
+10857,r924,Outlying areas -> Puerto Rico -> Departments,Outlying areas,Puerto Rico,Departments,,3,,,,,,,
+10857,r925,Outlying areas -> Puerto Rico -> Departments -> Department of Agriculture,Outlying areas,Puerto Rico,Departments,Department of Agriculture,4,11828,5314,0,175,6339,0,0
+10857,r926,Outlying areas -> Puerto Rico -> Departments -> Department of Commerce,Outlying areas,Puerto Rico,Departments,Department of Commerce,4,2115,61,0,0,2000,54,0
+10857,r927,Outlying areas -> Puerto Rico -> Departments -> Department of Defense,Outlying areas,Puerto Rico,Departments,Department of Defense,4,1997,0,0,0,1997,0,0
+10857,r928,Outlying areas -> Puerto Rico -> Departments -> Department of Health and Human Services,Outlying areas,Puerto Rico,Departments,Department of Health and Human Services,4,45895,0,0,1150,42082,0,2663
+10857,r929,Outlying areas -> Puerto Rico -> Departments -> Department of Homeland Security,Outlying areas,Puerto Rico,Departments,Department of Homeland Security,4,575,0,0,105,470,0,0
+10857,r930,Outlying areas -> Puerto Rico -> Departments -> Department of the Interior,Outlying areas,Puerto Rico,Departments,Department of the Interior,4,1413,1052,0,0,136,0,226
+10857,r931,Outlying areas -> Puerto Rico -> Departments -> Department of Veterans Affairs,Outlying areas,Puerto Rico,Departments,Department of Veterans Affairs,4,21923,21923,0,0,0,0,0
+10857,r932,Outlying areas -> Puerto Rico -> Other agencies,Outlying areas,Puerto Rico,Other agencies,,3,,,,,,,
+10857,r933,Outlying areas -> Puerto Rico -> Other agencies -> National Science Foundation,Outlying areas,Puerto Rico,Other agencies,National Science Foundation,4,16092,0,0,502,15591,0,0
+10857,r934,Outlying areas -> Other areas<sup>c</sup>,Outlying areas,Other areas<sup>c</sup>,,,2,40636,615,0,381,28454,6187,5000
+10857,r935,Outlying areas -> Other areas<sup>c</sup> -> Departments,Outlying areas,Other areas<sup>c</sup>,Departments,,3,,,,,,,
+10857,r936,Outlying areas -> Other areas<sup>c</sup> -> Departments -> Department of Agriculture,Outlying areas,Other areas<sup>c</sup>,Departments,Department of Agriculture,4,10005,177,0,0,9828,0,0
+10857,r937,Outlying areas -> Other areas<sup>c</sup> -> Departments -> Department of Commerce,Outlying areas,Other areas<sup>c</sup>,Departments,Department of Commerce,4,1248,389,0,0,859,0,0
+10857,r938,Outlying areas -> Other areas<sup>c</sup> -> Departments -> Department of Defense,Outlying areas,Other areas<sup>c</sup>,Departments,Department of Defense,4,2653,46,0,129,2479,0,0
+10857,r939,Outlying areas -> Other areas<sup>c</sup> -> Departments -> Department of Education,Outlying areas,Other areas<sup>c</sup>,Departments,Department of Education,4,250,0,0,250,0,0,0
+10857,r940,Outlying areas -> Other areas<sup>c</sup> -> Departments -> Department of Health and Human Services,Outlying areas,Other areas<sup>c</sup>,Departments,Department of Health and Human Services,4,8634,0,0,0,2447,6187,0
+10857,r941,Outlying areas -> Other areas<sup>c</sup> -> Departments -> Department of Homeland Security,Outlying areas,Other areas<sup>c</sup>,Departments,Department of Homeland Security,4,2,0,0,2,0,0,0
+10857,r942,Outlying areas -> Other areas<sup>c</sup> -> Departments -> Department of the Interior,Outlying areas,Other areas<sup>c</sup>,Departments,Department of the Interior,4,5111,3,0,0,108,0,5000
+10857,r943,Outlying areas -> Other areas<sup>c</sup> -> Other agencies,Outlying areas,Other areas<sup>c</sup>,Other agencies,,3,,,,,,,
+10857,r944,Outlying areas -> Other areas<sup>c</sup> -> Other agencies -> National Aeronautics and Space Administration,Outlying areas,Other areas<sup>c</sup>,Other agencies,National Aeronautics and Space Administration,4,63,0,0,0,63,0,0
+10857,r945,Outlying areas -> Other areas<sup>c</sup> -> Other agencies -> National Science Foundation,Outlying areas,Other areas<sup>c</sup>,Other agencies,National Science Foundation,4,12670,0,0,0,12670,0,0
+10857,r946,Offices abroad<sup>d</sup>,Offices abroad<sup>d</sup>,,,,1,20507,14222,0,5330,955,0,0
+10857,r947,Offices abroad<sup>d</sup> -> Departments,Offices abroad<sup>d</sup>,Departments,,,2,,,,,,,
+10857,r948,Offices abroad<sup>d</sup> -> Departments -> Department of Defense,Offices abroad<sup>d</sup>,Departments,Department of Defense,,3,4192,1170,0,3022,0,0,0
+10857,r949,Offices abroad<sup>d</sup> -> Departments -> Department of Energy,Offices abroad<sup>d</sup>,Departments,Department of Energy,,3,900,0,0,0,900,0,0
+10857,r950,Offices abroad<sup>d</sup> -> Departments -> Department of Health and Human Services,Offices abroad<sup>d</sup>,Departments,Department of Health and Human Services,,3,5558,5558,0,0,0,0,0
+10857,r951,Offices abroad<sup>d</sup> -> Departments -> Department of Homeland Security,Offices abroad<sup>d</sup>,Departments,Department of Homeland Security,,3,1068,0,0,1068,0,0,0
+10857,r952,Offices abroad<sup>d</sup> -> Departments -> Department of the Interior,Offices abroad<sup>d</sup>,Departments,Department of the Interior,,3,1226,0,0,1226,0,0,0
+10857,r953,Offices abroad<sup>d</sup> -> Departments -> Department of State,Offices abroad<sup>d</sup>,Departments,Department of State,,3,7000,7000,0,0,0,0,0
+10857,r954,Offices abroad<sup>d</sup> -> Other agencies,Offices abroad<sup>d</sup>,Other agencies,,,2,,,,,,,
+10857,r955,Offices abroad<sup>d</sup> -> Other agencies -> National Aeronautics and Space Administration,Offices abroad<sup>d</sup>,Other agencies,National Aeronautics and Space Administration,,3,495,495,0,0,0,0,0
+10857,r956,Offices abroad<sup>d</sup> -> Other agencies -> Nuclear Regulatory Commission,Offices abroad<sup>d</sup>,Other agencies,Nuclear Regulatory Commission,,3,68,0,0,13,55,0,0
+10857,r957,Undistributed<sup>e</sup>,Undistributed<sup>e</sup>,,,,1,4972632,3771869,320,1192463,7935,46,0
+10857,r958,Undistributed<sup>e</sup> -> Departments,Undistributed<sup>e</sup>,Departments,,,2,,,,,,,
+10857,r959,Undistributed<sup>e</sup> -> Departments -> Department of Defense,Undistributed<sup>e</sup>,Departments,Department of Defense,,3,4972632,3771869,320,1192463,7935,46,0

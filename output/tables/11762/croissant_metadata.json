@@ -1,0 +1,173 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Intention to stay in the U.S. after doctorate receipt among research doctorate recipients with temporary visas, by region and country or economy of citizenship: 2017&#8211;23",
+  "identifier": "NCSES-11762",
+  "description": "Intention to stay in the U.S. after doctorate receipt among research doctorate recipients with temporary visas, by region and country or economy of citizenship: 2017&#8211;23",
+  "url": "https://example.org/datasets/ncses/tables/11762",
+  "table_number": "2-8",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11762/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_region_and_country_or_economy_of_citizenship_b",
+      "description": "Region and country or economy of citizenship hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_region_and_country_or_economy_of_citizenship_b_level_1, _b_region_and_country_or_economy_of_citizenship_b_level_2, _b_region_and_country_or_economy_of_citizenship_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_region_and_country_or_economy_of_citizenship_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_23_number",
+      "description": "2017 23 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_23_staying",
+      "description": "2017 23 Staying",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_number",
+      "description": "2017 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_staying",
+      "description": "2017 Staying",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_number",
+      "description": "2018 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_staying",
+      "description": "2018 Staying",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_number",
+      "description": "2019 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_staying",
+      "description": "2019 Staying",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_number",
+      "description": "2020 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_staying",
+      "description": "2020 Staying",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_number",
+      "description": "2021 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_staying",
+      "description": "2021 Staying",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_number",
+      "description": "2022 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_staying",
+      "description": "2022 Staying",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023_number",
+      "description": "2023 Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2023_staying",
+      "description": "2023 Staying",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Countries or economies with five or more doctoral recipients in every year on the table are listed separately; countries under each region are ordered based on the total number of doctorate recipients in the years shown. Percentages are based on the number of doctorate recipients on temporary visas and not just those with definite commitments for employment or postdoctoral study.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

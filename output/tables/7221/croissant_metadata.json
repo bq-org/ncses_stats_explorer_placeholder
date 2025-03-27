@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Digitalization and cloud computing, by industry",
+  "identifier": "NCSES-7221",
+  "description": "Digitalization and cloud computing, by industry",
+  "url": "https://example.org/datasets/ncses/tables/7221",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7221/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent and standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The titles for NAICS 31\u201333, which are assigned the label of \"Manufacturing\" in the 2017 NAICS Manual, are modified here to provide more information for the reader. Information on the detailed retail industries in NAICS 44 and NAICS 45 is available at https://www.naics.com/what-is-naics-sector-44-45-full-description-and-statistics/. Information on the detailed Transportation and Warehousing industries in NAICS 48 and NAICS 49 is available at https://www.naics.com/naics-code-description/?code=48-49.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, 2018 Annual Business Survey: Data Year 2017."
+}

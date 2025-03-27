@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal budget authority for R&D and R&D plant as a percentage of total budget authority, by budget function: FYs 2020&#8211;22",
+  "identifier": "NCSES-5533",
+  "description": "Federal budget authority for R&D and R&D plant as a percentage of total budget authority, by budget function: FYs 2020&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/5533",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5533/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "budget_function",
+      "description": "Budget function hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "budget_function_level_1, budget_function_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "budget_function_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_actuala",
+      "description": "2020 Actuala",
+      "valueType": "string",
+      "unitText": "Percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_preliminarya",
+      "description": "2021 Preliminarya",
+      "valueType": "string",
+      "unitText": "Percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_proposed",
+      "description": "2022 Proposed",
+      "valueType": "string",
+      "unitText": "Percent share"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Total budget authority includes discretionary and mandatory budget authority, less offsets. Budget functions in this table are ordered as the stub entries for R&D and R&D plant in table 1.",
+  "sources": "Agencies' submissions to the Office of Management and Budget (OMB) per MAX Schedule C, agencies' budget justification documents, supplemental data obtained from agencies' budget offices, and Executive Office of the President, OMB, Budget of the United States Government, Fiscal Year 2022, U.S. Government Printing Office (2021)."
+}

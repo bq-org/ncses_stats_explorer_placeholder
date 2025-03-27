@@ -1,0 +1,15 @@
+table_id,row_id,budget_function_and_agency_full_path,budget_function_and_agency_level_1,budget_function_and_agency_level_2,budget_function_and_agency_level_3,budget_function_and_agency_level_4,budget_function_and_agency_level_5,budget_function_and_agency_hierarchy_depth,field_2023_actual,field_2024_preliminarya,field_2025_proposed,field_2023_24_change_,field_2024_25_change_
+12585,r001,R&D and R&D plant,R&D and R&D plant,,,,,1,500,545,584,9.0,7.2
+12585,r002,R&D and R&D plant -> Federal law enforcement activities (751),R&D and R&D plant,Federal law enforcement activities (751),,,,2,495,540,579,9.1,7.2
+12585,r003,R&D and R&D plant -> Federal law enforcement activities (751) -> Department of Homeland Security,R&D and R&D plant,Federal law enforcement activities (751),Department of Homeland Security,,,3,495,540,579,9.1,7.2
+12585,r004,R&D and R&D plant -> Federal correctional activities (753),R&D and R&D plant,Federal correctional activities (753),,,,2,5,5,5,0.0,0.0
+12585,r005,R&D and R&D plant -> Federal correctional activities (753) -> Department of Justice,R&D and R&D plant,Federal correctional activities (753),Department of Justice,,,3,5,5,5,0.0,0.0
+12585,r006,R&D and R&D plant -> Federal correctional activities (753) -> Department of Justice -> Federal Prison System,R&D and R&D plant,Federal correctional activities (753),Department of Justice,Federal Prison System,,4,5,5,5,0.0,0.0
+12585,r007,R&D and R&D plant -> Criminal justice assistance (754),R&D and R&D plant,Criminal justice assistance (754),,,,2,0,0,0,-,-
+12585,r008,R&D and R&D plant -> R&D,R&D and R&D plant,R&D,,,,2,500,529,575,5.8,8.7
+12585,r009,R&D and R&D plant -> R&D -> Federal law enforcement activities (751),R&D and R&D plant,R&D,Federal law enforcement activities (751),,,3,495,524,570,5.9,8.8
+12585,r010,R&D and R&D plant -> R&D -> Federal law enforcement activities (751) -> Department of Homeland Security,R&D and R&D plant,R&D,Federal law enforcement activities (751),Department of Homeland Security,,4,495,524,570,5.9,8.8
+12585,r011,R&D and R&D plant -> R&D -> Federal correctional activities (753),R&D and R&D plant,R&D,Federal correctional activities (753),,,3,5,5,5,0.0,0.0
+12585,r012,R&D and R&D plant -> R&D -> Federal correctional activities (753) -> Department of Justice,R&D and R&D plant,R&D,Federal correctional activities (753),Department of Justice,,4,5,5,5,0.0,0.0
+12585,r013,R&D and R&D plant -> R&D -> Federal correctional activities (753) -> Department of Justice -> Federal Prison System,R&D and R&D plant,R&D,Federal correctional activities (753),Department of Justice,Federal Prison System,5,5,5,5,0.0,0.0
+12585,r014,R&D and R&D plant -> R&D -> Criminal justice assistance (754),R&D and R&D plant,R&D,Criminal justice assistance (754),,,3,0,0,0,-,-

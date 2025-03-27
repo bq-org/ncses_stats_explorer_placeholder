@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total expenditures for R&D performed by nonprofit organizations, by type of nonprofit organization and field: FY 2020",
+  "identifier": "NCSES-8047",
+  "description": "Total expenditures for R&D performed by nonprofit organizations, by type of nonprofit organization and field: FY 2020",
+  "url": "https://example.org/datasets/ncses/tables/8047",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8047/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_nonprofit_organization_sup_b_a_b_sup_b_b",
+      "description": "Type of nonprofit organizationa  hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_nonprofit_organization_sup_b_a_b_sup_b_b_level_1, type_of_nonprofit_organization_sup_b_a_b_sup_b_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_nonprofit_organization_sup_b_a_b_sup_b_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_expenditures_",
+      "description": "All R D Expenditures ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciences_agricultural_sciences_and_natural_resources_and_conservation_",
+      "description": "Sciences Agricultural Sciences And Natural Resources And Conservation ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciences_biological_biomedical_and_health_sciences_",
+      "description": "Sciences Biological Biomedical And Health Sciences ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciences_geosciences_atmospheric_sciences_and_ocean_sciences_",
+      "description": "Sciences Geosciences Atmospheric Sciences And Ocean Sciences ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciences_mathematics_statistics_and_computer_and_information_sciences_",
+      "description": "Sciences Mathematics Statistics And Computer And Information Sciences ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciences_physical_sciences_",
+      "description": "Sciences Physical Sciences ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sciences_psychology_and_social_sciences_",
+      "description": "Sciences Psychology And Social Sciences ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_engineering_",
+      "description": "Engineering ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_humanities",
+      "description": "Humanities",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_fields",
+      "description": "Other Fields",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "These data exclude nonprofit universities and colleges and federally funded research and development centers administered by nonprofit organizations. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Nonprofit Research Activities FY 2020 module of the 2021 Annual Business Survey."
+}

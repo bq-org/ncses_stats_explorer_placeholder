@@ -1,0 +1,22 @@
+table_id,row_id,field_of_study_full_path,field_of_study_level_1,field_of_study_level_2,field_of_study_level_3,field_of_study_level_4,field_of_study_hierarchy_depth,field_employment_male,field_employment_female,field_postdoctoral_study_male,field_postdoctoral_study_female
+984,r001,All fields,All fields,,,,1,88000,70000,48000,47476
+984,r002,All fields -> Science and engineering,All fields,Science and engineering,,,2,93000,75000,48000,47476
+984,r003,All fields -> Science and engineering -> Life sciences,All fields,Science and engineering,Life sciences,,3,80000,75000,47484,47476
+984,r004,All fields -> Science and engineering -> Life sciences -> Agricultural sciences and natural resources,All fields,Science and engineering,Life sciences,Agricultural sciences and natural resources,4,78500,70000,46100,47000
+984,r005,All fields -> Science and engineering -> Life sciences -> Biological and biomedical sciences,All fields,Science and engineering,Life sciences,Biological and biomedical sciences,4,80000,75000,47484,47467
+984,r006,All fields -> Science and engineering -> Life sciences -> Health sciences,All fields,Science and engineering,Life sciences,Health sciences,4,80000,76500,47500,47844
+984,r007,All fields -> Science and engineering -> Physical sciences and earth sciences,All fields,Science and engineering,Physical sciences and earth sciences,,3,85750,80000,50000,50000
+984,r008,All fields -> Science and engineering -> Physical sciences and earth sciences -> Chemistry,All fields,Science and engineering,Physical sciences and earth sciences,Chemistry,4,80000,85000,47484,47476
+984,r009,"All fields -> Science and engineering -> Physical sciences and earth sciences -> Geosciences, atmospheric sciences, and ocean sciences",All fields,Science and engineering,Physical sciences and earth sciences,"Geosciences, atmospheric sciences, and ocean sciences",4,73000,68000,53000,50000
+984,r010,All fields -> Science and engineering -> Physical sciences and earth sciences -> Physics and astronomy,All fields,Science and engineering,Physical sciences and earth sciences,Physics and astronomy,4,100000,100000,54000,55000
+984,r011,All fields -> Science and engineering -> Mathematics and computer sciences,All fields,Science and engineering,Mathematics and computer sciences,,3,113000,99000,60000,60000
+984,r012,All fields -> Science and engineering -> Psychology and social sciences ,All fields,Science and engineering,Psychology and social sciences ,,3,75000,65000,47500,45000
+984,r013,All fields -> Science and engineering -> Psychology and social sciences  -> Psychology,All fields,Science and engineering,Psychology and social sciences ,Psychology,4,69000,65000,45000,45000
+984,r014,All fields -> Science and engineering -> Psychology and social sciences  -> Economics,All fields,Science and engineering,Psychology and social sciences ,Economics,4,109000,100000,60000,65000
+984,r015,All fields -> Science and engineering -> Psychology and social sciences  -> Social sciences<sup>a</sup>,All fields,Science and engineering,Psychology and social sciences ,Social sciences<sup>a</sup>,4,66000,62000,50000,48000
+984,r016,All fields -> Science and engineering -> Engineering,All fields,Science and engineering,Engineering,,3,100000,94000,50000,48000
+984,r017,All fields -> Non-science and engineering,All fields,Non-science and engineering,,,2,68000,62000,47700,48000
+984,r018,All fields -> Non-science and engineering -> Education,All fields,Non-science and engineering,Education,,3,72000,65000,47000,50000
+984,r019,All fields -> Non-science and engineering -> Humanities and arts,All fields,Non-science and engineering,Humanities and arts,,3,52251,50000,45000,47488
+984,r020,All fields -> Non-science and engineering -> Business management and administration,All fields,Non-science and engineering,Business management and administration,,3,125000,116000,70000,70000
+984,r021,All fields -> Non-science and engineering -> Other non-S&E fields<sup>b</sup>,All fields,Non-science and engineering,Other non-S&E fields<sup>b</sup>,,3,65000,63000,50000,47000

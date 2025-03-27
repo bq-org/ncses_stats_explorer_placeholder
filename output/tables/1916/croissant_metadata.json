@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Regions, countries, or economies in patent and trademark data",
+  "identifier": "NCSES-1916",
+  "description": "Regions, countries, or economies in patent and trademark data",
+  "url": "https://example.org/datasets/ncses/tables/1916",
+  "table_number": "S8-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1916/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "north_america",
+      "description": "North America hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "north_america_level_1, north_america_level_2, north_america_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "north_america_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_central_and_south_america",
+      "description": "Central And South America",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_europe",
+      "description": "Europe",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_asia",
+      "description": "Asia",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_middle_east",
+      "description": "Middle East",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_africa",
+      "description": "Africa",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_australia_and_oceania",
+      "description": "Australia And Oceania",
+      "valueType": "string",
+      "unitText": "Regions, countries, or economies"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "Science-Metrix; PatentsView, USPTO, accessed June 2019.Science and Engineering Indicators"
+}

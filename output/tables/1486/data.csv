@@ -1,0 +1,15 @@
+table_id,row_id,company_type_full_path,company_type_level_1,company_type_level_2,company_type_level_3,company_type_hierarchy_depth,field_product_innovation_companiesa,field_product_innovation_yes,field_product_innovation_no,field_process_innovation_companiesa,field_process_innovation_yes,field_process_innovation_no,field_marketing_innovation_companiesa,field_marketing_innovation_yes,field_marketing_innovation_no,field_organizational_innovation_companiesa,field_organizational_innovation_yes,field_organizational_innovation_no
+1486,r001,Companies (number),Companies (number),,,1,,,,,,,,,,,,
+1486,r002,All companies,All companies,,,1,1696380,474603,1221777,1698302,428230,1270072,1705094,284632,1420462,2036079,352028,1684051
+1486,r003,All companies -> R&D activity,All companies,R&D activity,,2,40419,31422,8997,40093,26674,13419,39990,22175,17814,43709,23023,20686
+1486,r004,"All companies -> R&D activity -> Less than $100,000",All companies,R&D activity,"Less than $100,000",3,28971,22121,6850,28795,18934,9861,28700,15316,13384,30734,15362,15372
+1486,r005,"All companies -> R&D activity -> $100,000&#8211;$999,999",All companies,R&D activity,"$100,000&#8211;$999,999",3,11101,8990,2111,10953,7507,3446,10945,6662,4283,12446,7352,5094
+1486,r006,All companies -> R&D activity -> $1 million or more,All companies,R&D activity,$1 million or more,3,347,311,36,344,233,112,345,198,147,529,309,220
+1486,r007,All companies -> No R&D activity,All companies,No R&D activity,,2,1655961,443182,1212779,1658209,401556,1256653,1665104,262457,1402647,1992370,329005,1663365
+1486,r008,Industry proportions (percent),Industry proportions (percent),,,1,,,,,,,,,,,,
+1486,r009,All companies,All companies,,,1,1696380,28.0,72.0,1698302,25.2,74.8,1705094,16.7,83.3,2036079,17.3,82.7
+1486,r010,All companies -> R&D activity,All companies,R&D activity,,2,40419,77.7,22.3,40093,66.5,33.5,39990,55.5,44.5,43709,52.7,47.3
+1486,r011,"All companies -> R&D activity -> Less than $100,000",All companies,R&D activity,"Less than $100,000",3,28971,76.4,23.6,28795,65.8,34.2,28700,53.4,46.6,30734,50.0,50.0
+1486,r012,"All companies -> R&D activity -> $100,000&#8211;$999,999",All companies,R&D activity,"$100,000&#8211;$999,999",3,11101,81.0,19.0,10953,68.5,31.5,10945,60.9,39.1,12446,59.1,40.9
+1486,r013,All companies -> R&D activity -> $1 million or more,All companies,R&D activity,$1 million or more,3,347,89.5,10.5,344,67.5,32.5,345,57.4,42.6,529,58.3,41.7
+1486,r014,All companies -> No R&D activity,All companies,No R&D activity,,2,1655961,26.8,73.2,1658209,24.2,75.8,1665104,15.8,84.2,1992370,16.5,83.5

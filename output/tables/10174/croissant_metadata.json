@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Higher education R&D expenditures at institutions in the short form survey population in FY 2022, by state, institutional control, and institution: FYs 2019&#8211;22",
+  "identifier": "NCSES-10174",
+  "description": "Higher education R&D expenditures at institutions in the short form survey population in FY 2022, by state, institutional control, and institution: FYs 2019&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/10174",
+  "table_number": "82",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10174/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_institutional_control_and_institution_b",
+      "description": "State, institutional control, and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_institutional_control_and_institution_b_level_1, _b_state_institutional_control_and_institution_b_level_2, _b_state_institutional_control_and_institution_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_institutional_control_and_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Institutions are included in the short form population if they reported less than $1 million in total R&D expenditures during the previous fiscal year. Institutions can move between the short form and standard form populations as their R&D expenditures increase or decrease; therefore, prior year amounts listed for some institutions may be represented in the aggregate totals for the standard form.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey."
+}

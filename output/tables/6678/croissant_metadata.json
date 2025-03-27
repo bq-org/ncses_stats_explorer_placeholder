@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Interest in science, by country: 2018",
+  "identifier": "NCSES-6678",
+  "description": "Interest in science, by country: 2018",
+  "url": "https://example.org/datasets/ncses/tables/6678",
+  "table_number": "SPPS-20",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6678/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "country",
+      "description": "Country",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tried_to_get_information_about_science_in_the_past_30_days",
+      "description": "Tried To Get Information About Science In The Past 30 Days",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tried_to_get_information_about_medicine_disease_or_health_in_the_past_30_days",
+      "description": "Tried To Get Information About Medicine Disease Or Health In The Past 30 Days",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "would_like_to_know_more_about_science",
+      "description": "Would Like To Know More About Science",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "would_like_to_know_more_about_medicine_disease_or_health",
+      "description": "Would Like To Know More About Medicine Disease Or Health",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Countries are those with top 16 gross domestic expenditures on R&D as a percentage of gross domestic product in 2017, listed in order of percentages that tried to get information about science from highest to lowest. (See Science and Engineering Indicators 2020 \"Research and Development: U.S. Trends and International Comparisons\" report: Table 4-5.) Responses are to the following: Have you, personally, tried to get any information about science in the past 30 days? Have you, personally, tried to get any information about medicine, disease, or health in the past 30 days? Would you, personally, like to know more about science? Would you, personally, like to know more about medicine, disease, or health?",
+  "sources": "Gallup, Wellcome Global Monitor, 2019.Science and Engineering Indicators"
+}

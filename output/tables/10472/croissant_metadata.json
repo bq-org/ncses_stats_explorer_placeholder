@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for science and engineering to tribal colleges and universities, ranked by total amount received, by activity: FY 2021",
+  "identifier": "NCSES-10472",
+  "description": "Federal obligations for science and engineering to tribal colleges and universities, ranked by total amount received, by activity: FY 2021",
+  "url": "https://example.org/datasets/ncses/tables/10472",
+  "table_number": "5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10472/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_institution_b",
+      "description": "Institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_institution_b_level_1, _b_institution_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_federal_obligations",
+      "description": "All Federal Obligations",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d",
+      "description": "R D",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_plant",
+      "description": "R D Plant",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_facilities_and_equipment_for_instruction_in_s_e",
+      "description": "Facilities And Equipment For Instruction In S E",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_fellowships_traineeships_and_training_grants",
+      "description": "Fellowships Traineeships And Training Grants",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_other_general_support_for_s_e",
+      "description": "Other General Support For S E",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Institution order is based on total actual dollars received before amounts are rounded; institutions receiving the same amount of actual dollars are listed alphabetically. Only those agencies that had obligations in the variables represented by this table appear in the table. This list of HHE institutions includes those institutions of higher education whose full-time equivalent (FTE) enrollment of undergraduate students is at least 25% Hispanic, according to fall 2021 enrollment data self-reported by the institutions in the Integrated Postsecondary Education Data System survey conducted by the National Center for Education Statistics (NCES). NCES determined FTE enrollment by calculating that approximately three part-time students are equivalent to one full-time student.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2021\u201322, Federal Science and Engineering Support Module."
+}

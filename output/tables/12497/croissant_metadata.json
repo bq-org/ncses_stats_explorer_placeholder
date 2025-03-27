@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal facility R&D federal FTE personnel, by R&D function: FY 2022",
+  "identifier": "NCSES-12497",
+  "description": "Federal facility R&D federal FTE personnel, by R&D function: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/12497",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12497/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_agency_or_facility_b",
+      "description": "Agency or facility hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_agency_or_facility_b_level_1, _b_agency_or_facility_b_level_2, _b_agency_or_facility_b_level_3, _b_agency_or_facility_b_level_4, _b_agency_or_facility_b_level_5, _b_agency_or_facility_b_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_agency_or_facility_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d_ftes",
+      "description": "All R D Ftes",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_function_researchers",
+      "description": "R D Function Researchers",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_function_r_d_technicians",
+      "description": "R D Function R D Technicians",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_function_r_d_support_staff",
+      "description": "R D Function R D Support Staff",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Federal Facilities Research and Development Survey, FY 2022."
+}

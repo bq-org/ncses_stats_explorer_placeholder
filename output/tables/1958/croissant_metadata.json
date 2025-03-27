@@ -1,0 +1,355 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Number of registered USPTO and EUIPO trademarks in the business sector of research and technology, by region, country, or economy: 1998&#8211;2018",
+  "identifier": "NCSES-1958",
+  "description": "Number of registered USPTO and EUIPO trademarks in the business sector of research and technology, by region, country, or economy: 1998&#8211;2018",
+  "url": "https://example.org/datasets/ncses/tables/1958",
+  "table_number": "S8-56",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1958/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy",
+      "description": "Region, country, or economy hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "region_country_or_economy_level_1, region_country_or_economy_level_2, region_country_or_economy_level_3, region_country_or_economy_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "region_country_or_economy_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1998_uspto",
+      "description": "1998 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1998_euipo",
+      "description": "1998 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999_uspto",
+      "description": "1999 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999_euipo",
+      "description": "1999 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_uspto",
+      "description": "2000 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_euipo",
+      "description": "2000 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_uspto",
+      "description": "2001 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_euipo",
+      "description": "2001 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002_uspto",
+      "description": "2002 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002_euipo",
+      "description": "2002 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_uspto",
+      "description": "2003 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2003_euipo",
+      "description": "2003 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004_uspto",
+      "description": "2004 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004_euipo",
+      "description": "2004 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005_uspto",
+      "description": "2005 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005_euipo",
+      "description": "2005 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_uspto",
+      "description": "2006 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_euipo",
+      "description": "2006 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007_uspto",
+      "description": "2007 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007_euipo",
+      "description": "2007 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008_uspto",
+      "description": "2008 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008_euipo",
+      "description": "2008 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009_uspto",
+      "description": "2009 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009_euipo",
+      "description": "2009 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_uspto",
+      "description": "2010 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_euipo",
+      "description": "2010 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_uspto",
+      "description": "2011 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_euipo",
+      "description": "2011 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_uspto",
+      "description": "2012 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_euipo",
+      "description": "2012 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013_uspto",
+      "description": "2013 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013_euipo",
+      "description": "2013 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014_uspto",
+      "description": "2014 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014_euipo",
+      "description": "2014 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015_uspto",
+      "description": "2015 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015_euipo",
+      "description": "2015 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_uspto",
+      "description": "2016 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_euipo",
+      "description": "2016 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_uspto",
+      "description": "2017 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_euipo",
+      "description": "2017 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_uspto",
+      "description": "2018 Uspto",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_euipo",
+      "description": "2018 Euipo",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Trademarks are allocated according to holder information.\u00a0Trademarks are fractionally allocated among regions,\u00a0countries,\u00a0or\u00a0economies based on the proportion of residences of all named holders. The EU includes 28 member countries. China includes Hong Kong. Trademarks are classified under the 11th edition of the Nice classification of goods and services, which classifies trademarks under 34 categories of goods and 11 categories of services. Fractional counts of trademarks were assigned to each category to assign the proper weight of a trademark to the corresponding category under the classification. These counts are then grouped under 10 industry sectors following a mapping defined by Edital.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation; Science-Metrix; USPTO trademark data hosted by Reed Tech (LexisNexis), accessed April 2019; EUIPO trademark data, accessed April 2019.Science and Engineering Indicators"
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "R&D expenditures at nonprofit organizations and higher education institutions, by state: ranked by FY 2020 total expenditures",
+  "identifier": "NCSES-8864",
+  "description": "R&D expenditures at nonprofit organizations and higher education institutions, by state: ranked by FY 2020 total expenditures",
+  "url": "https://example.org/datasets/ncses/tables/8864",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8864/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state",
+      "description": "State hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "state_level_1, state_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "state_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonprofit_organizations",
+      "description": "Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_higher_education_institutions",
+      "description": "Higher Education Institutions",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Data for nonprofit organizations exclude nonprofit universities and colleges and federally funded research and development centers administered by nonprofit organizations. Organizations are assigned to states based on their mailing address. Rankings are based on point estimates and do not consider the variance of the survey sample.Data for higher education institutions have not been adjusted to eliminate the double counting of funds passed through from an academic institution to subrecipients (other academic institutions, businesses, nonprofit organizations, and others). At the national level, funds passed through to such subrecipients accounted for 8% of total R&D expenditures reported by higher education institutions in FY 2020.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Nonprofit Research Activities FY 2020 module of the 2021 Annual Business Survey; Higher Education Research and Development Survey, FY 2020."
+}

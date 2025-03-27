@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for R&D and R&D plant, by type of R&D: FYs 1953\u20132021",
+  "identifier": "NCSES-6297",
+  "description": "Federal obligations for R&D and R&D plant, by type of R&D: FYs 1953\u20132021",
+  "url": "https://example.org/datasets/ncses/tables/6297",
+  "table_number": "SRD-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6297/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Millions of current and constant 2012 dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Due to rounding, detail may not add to total. The data for FY 2021 are preliminary and may later be revised. FYs 2009 and 2010 obligations include additional funding provided by the American Recovery and Reinvestment Act of 2009. Beginning with FY 2016, the reported obligations for development reflect the Office of Management and Budget's narrowed definition for this category by more narrowly defining it to be \"experimental&hairsp; development\" (Circular A-11, Section 84). Most notably, the totals for development do not include Department of Defense (DOD) obligations for Budget Activity-7 (Operational Systems Development). Those funds, previously included in DOD's obligation totals for development, support the efforts to upgrade systems that have been fielded or have received approval for full-rate production and anticipate production funding in the current or subsequent fiscal year. (In FY 2016, DOD obligations for operational systems development amounted to about $24.6 billion and to about $26.0 billion in FY 2017.) With this revision, the data for FY 2016 and onward are not directly comparable with the totals reported in previous years. Obligations for FYs 2020 and 2021 include the additional funding provided by supplemental COVID-19 related appropriations in these years (i.e., the Coronavirus Aid, Relief, and Economic Security Act of March 2020, the American Rescue Plan Act of March 2021, and several other enacted spending authorizations in these fiscal years).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development.Science and Engineering Indicators",
+  "temporalCoverage": "19/20"
+}

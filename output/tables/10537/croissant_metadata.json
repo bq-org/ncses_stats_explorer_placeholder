@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Perceptions of U.S. STEM education compared with other nations at K\u201312 and university levels: 2019",
+  "identifier": "NCSES-10537",
+  "description": "Perceptions of U.S. STEM education compared with other nations at K\u201312 and university levels: 2019",
+  "url": "https://example.org/datasets/ncses/tables/10537",
+  "table_number": "SPPS-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10537/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "stem_education",
+      "description": "Stem Education",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "best_in_the_world",
+      "description": "Best In The World",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "above_average",
+      "description": "Above Average",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "average",
+      "description": "Average",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "below_average",
+      "description": "Below Average",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Responses are to the following: I'd like you to compare the United States to other nations in a few different ways. Do you think the U.S. is the best in the world, above average, average or below average? Its science, technology, engineering and math education in grades K to 12. Its science, technology, engineering and math education in colleges and universities.",
+  "sources": "Pew Research Center, International Science Survey (2019\u201320), conducted in the United States 1\u201328 October 2019.Science and Engineering Indicators"
+}

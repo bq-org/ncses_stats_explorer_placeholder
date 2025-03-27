@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Demographic characteristics of graduate students, postdoctoral appointees, and doctorate-holding nonfaculty researchers in science, engineering, and health: 2022",
+  "identifier": "NCSES-10678",
+  "description": "Demographic characteristics of graduate students, postdoctoral appointees, and doctorate-holding nonfaculty researchers in science, engineering, and health: 2022",
+  "url": "https://example.org/datasets/ncses/tables/10678",
+  "table_number": "2-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10678/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_sex_citizenship_ethnicity_and_race_b",
+      "description": "Sex, citizenship, ethnicity, and race hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_sex_citizenship_ethnicity_and_race_b_level_1, _b_sex_citizenship_ethnicity_and_race_b_level_2, _b_sex_citizenship_ethnicity_and_race_b_level_3, _b_sex_citizenship_ethnicity_and_race_b_level_4, _b_sex_citizenship_ethnicity_and_race_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_sex_citizenship_ethnicity_and_race_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_all_graduate_students_number",
+      "description": "Graduate Students All Graduate Students Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_all_graduate_students_percent",
+      "description": "Graduate Students All Graduate Students Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_master_s_number",
+      "description": "Graduate Students Master S Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_master_s_percent",
+      "description": "Graduate Students Master S Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_doctoral_number",
+      "description": "Graduate Students Doctoral Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_graduate_students_doctoral_percent",
+      "description": "Graduate Students Doctoral Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_number",
+      "description": "Postdoctoral Appointees Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_postdoctoral_appointees_percent",
+      "description": "Postdoctoral Appointees Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_number",
+      "description": "Doctorate Holding Nonfaculty Researchers Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctorate_holding_nonfaculty_researchers_percent",
+      "description": "Doctorate Holding Nonfaculty Researchers Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Percentages may not add to total because of rounding. Graduate student data in this table include master's students in health sciences. For more information on the comparability of these counts to other data published by the National Center for Science and Engineering Statistics, see the \"Technical Notes.\"",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2022."
+}

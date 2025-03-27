@@ -1,0 +1,146 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median salary of full-time employed college graduates, by sex, major occupation, age, ethnicity, race, disability status, and citizenship status: 2019",
+  "identifier": "NCSES-5587",
+  "description": "Median salary of full-time employed college graduates, by sex, major occupation, age, ethnicity, race, disability status, and citizenship status: 2019",
+  "url": "https://example.org/datasets/ncses/tables/5587",
+  "table_number": "4-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5587/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_occupation_and_age",
+      "description": "Sex, occupation, and age hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_occupation_and_age_level_1, sex_occupation_and_age_level_2, sex_occupation_and_age_level_3, sex_occupation_and_age_level_4, sex_occupation_and_age_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_occupation_and_age_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino",
+      "description": "Hispanic Or Latino",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_american_indian_or_alaska_native",
+      "description": "Not Hispanic Or Latino American Indian Or Alaska Native",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_asian",
+      "description": "Not Hispanic Or Latino Asian",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_black_or_african_american",
+      "description": "Not Hispanic Or Latino Black Or African American",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_native_hawaiian_or_other_pacific_islander",
+      "description": "Not Hispanic Or Latino Native Hawaiian Or Other Pacific Islander",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_white",
+      "description": "Not Hispanic Or Latino White",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_more_than_one_race",
+      "description": "Not Hispanic Or Latino More Than One Race",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability",
+      "description": "Without Disability",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability",
+      "description": "With Disability",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizen",
+      "description": "U S Citizen",
+      "valueType": "string",
+      "unitText": "Dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_u_s_citizen",
+      "description": "Non U S Citizen",
+      "valueType": "string",
+      "unitText": "Dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Median salaries are rounded to the nearest $1,000. Full-time employed college graduates are individuals working 35 or more hours per week on their principal job. Hispanic or Latino may be any race; race categories exclude Hispanic origin. The National Survey of College Graduates asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for an activity were classified as having a disability.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates: 2019."
+}

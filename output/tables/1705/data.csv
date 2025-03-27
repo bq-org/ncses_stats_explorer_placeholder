@@ -1,0 +1,11 @@
+table_id,row_id,budget_function_and_agency_full_path,budget_function_and_agency_level_1,budget_function_and_agency_level_2,budget_function_and_agency_level_3,budget_function_and_agency_level_4,budget_function_and_agency_hierarchy_depth,field_2018_actual,field_2019_preliminarya,field_2020_proposed,field_2018_19_change_,field_2019_20_change_
+1705,r001,R&D and R&D plant,R&D and R&D plant,,,,1,690,700,472,1.5,-32.6
+1705,r002,R&D and R&D plant -> Department of Homeland Security (751)<sup>b</sup>,R&D and R&D plant,Department of Homeland Security (751)<sup>b</sup>,,,2,657,676,448,2.9,-33.7
+1705,r003,R&D and R&D plant -> Department of Justice,R&D and R&D plant,Department of Justice,,,2,33,24,24,-27.3,0.0
+1705,r004,R&D and R&D plant -> Department of Justice -> Federal correctional activities (753),R&D and R&D plant,Department of Justice,Federal correctional activities (753),,3,11,2,2,-81.8,0.0
+1705,r005,R&D and R&D plant -> Department of Justice -> Office of Justice Programs (754),R&D and R&D plant,Department of Justice,Office of Justice Programs (754),,3,22,22,22,0.0,0.0
+1705,r006,R&D and R&D plant -> R&D,R&D and R&D plant,R&D,,,2,690,700,472,1.5,-32.6
+1705,r007,R&D and R&D plant -> R&D -> Department of Homeland Security (751)<sup>b</sup>,R&D and R&D plant,R&D,Department of Homeland Security (751)<sup>b</sup>,,3,657,676,448,2.9,-33.7
+1705,r008,R&D and R&D plant -> R&D -> Department of Justice,R&D and R&D plant,R&D,Department of Justice,,3,33,24,24,-27.3,0.0
+1705,r009,R&D and R&D plant -> R&D -> Department of Justice -> Federal Prison System (753),R&D and R&D plant,R&D,Department of Justice,Federal Prison System (753),4,11,2,2,-81.8,0.0
+1705,r010,R&D and R&D plant -> R&D -> Department of Justice -> Office of Justice Programs (754),R&D and R&D plant,R&D,Department of Justice,Office of Justice Programs (754),4,22,22,22,0.0,0.0

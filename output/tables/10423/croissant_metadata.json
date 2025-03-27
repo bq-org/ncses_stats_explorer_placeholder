@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for science and engineering to universities and colleges, by type of activity: FYs 1963&#8211;2021",
+  "identifier": "NCSES-10423",
+  "description": "Federal obligations for science and engineering to universities and colleges, by type of activity: FYs 1963&#8211;2021",
+  "url": "https://example.org/datasets/ncses/tables/10423",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10423/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Science and Engineering Support to Universities, Colleges, and Nonprofit Institutions; National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development, FYs 2021\u201322, Federal Science and Engineering Support Module.",
+  "temporalCoverage": "19/20"
+}

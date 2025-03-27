@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public perception of scientists: 1983, 1985, 2001, 2012, 2016, 2018",
+  "identifier": "NCSES-2276",
+  "description": "Public perception of scientists: 1983, 1985, 2001, 2012, 2016, 2018",
+  "url": "https://example.org/datasets/ncses/tables/2276",
+  "table_number": "S7-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2276/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "perception",
+      "description": "Perception hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "perception_level_1, perception_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "perception_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1983_n_1_615_",
+      "description": "1983 N 1 615 ",
+      "valueType": "string",
+      "unitText": "Percent and mean"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1985_n_1_986_",
+      "description": "1985 N 1 986 ",
+      "valueType": "string",
+      "unitText": "Percent and mean"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_n_1_574_",
+      "description": "2001 N 1 574 ",
+      "valueType": "string",
+      "unitText": "Percent and mean"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_n_1_152_",
+      "description": "2012 N 1 152 ",
+      "valueType": "string",
+      "unitText": "Percent and mean"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_n_1_390_",
+      "description": "2016 N 1 390 ",
+      "valueType": "string",
+      "unitText": "Percent and mean"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_n_1_175_",
+      "description": "2018 N 1 175 ",
+      "valueType": "string",
+      "unitText": "Percent and mean"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Responses are to the following: Scientific researchers are dedicated people who work for the good of humanity; Scientists are helping to solve challenging problems; Most scientists want to work on things that will make life better for the average person; and Scientists are apt to be odd and peculiar people. Mean score is based on a 5-point scale, where 5 equals strongly agree and 1 equals strongly disagree. Percentages may not add to 100% because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Public Attitudes Toward and Understanding of Science and Technology 1983\u20132001; NORC at the University of Chicago, General Social Survey (2012\u201318).Science and Engineering Indicators"
+}

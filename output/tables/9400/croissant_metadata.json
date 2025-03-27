@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Filter 1: Removal of multiple matches",
+  "identifier": "NCSES-9400",
+  "description": "Filter 1: Removal of multiple matches",
+  "url": "https://example.org/datasets/ncses/tables/9400",
+  "table_number": "5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9400/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "step",
+      "description": "Step",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "matches_before_filtering",
+      "description": "Matches Before Filtering",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "remaining_matches",
+      "description": "Remaining Matches",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "matches_removed",
+      "description": "Matches Removed",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "percentage_of_matches_removed_by_filter_1",
+      "description": "Percentage Of Matches Removed By Filter 1",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Column 2 reports the number of matches that were constructed with each matching step before applying any filters. Column 3 reports the number of matches that remain after removing multiple matches (filter 1) while column 4 reports the number of multiple matches that were removed. Column 5 reports the percentage of matches made by each step that were removed.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, AYs 2014\u201317; Institute for Research on Innovation and Science, UMETRICS, 2020 release data."
+}

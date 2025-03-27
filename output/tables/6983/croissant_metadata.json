@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "NSF awards in the SEH doctorate population, by employment sector, sex, race, and ethnicity",
+  "identifier": "NCSES-6983",
+  "description": "NSF awards in the SEH doctorate population, by employment sector, sex, race, and ethnicity",
+  "url": "https://example.org/datasets/ncses/tables/6983",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6983/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_race_and_ethnicity",
+      "description": "Sex, race, and ethnicity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_race_and_ethnicity_level_1, sex_race_and_ethnicity_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_race_and_ethnicity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_doctorate_holders_nsf_awardees",
+      "description": "All Doctorate Holders Nsf Awardees",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_doctorate_holders_total",
+      "description": "All Doctorate Holders Total",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_doctorate_holders_share_",
+      "description": "All Doctorate Holders Share ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_by_4_year_educational_institution_nsf_awardees",
+      "description": "Employed By 4 Year Educational Institution Nsf Awardees",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_by_4_year_educational_institution_total",
+      "description": "Employed By 4 Year Educational Institution Total",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_by_4_year_educational_institution_share_",
+      "description": "Employed By 4 Year Educational Institution Share ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Other includes American Indian or Alaska Native, Native Hawaiian or Pacific Islander, and multiple race. Hispanic may be any race; Asian, Black, and White exclude Hispanic origin. The 4-year educational institution sector includes 4-year colleges or universities, medical schools (including university-affiliated hospitals or medical centers), and university-affiliated research institutions.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2015, linked to the public NSF Awards Database (https://www.nsf.gov/awardsearch/download.jsp)."
+}

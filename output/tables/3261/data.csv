@@ -1,0 +1,45 @@
+table_id,row_id,institution_type_and_field_full_path,institution_type_and_field_level_1,institution_type_and_field_level_2,institution_type_and_field_level_3,institution_type_and_field_level_4,institution_type_and_field_level_5,institution_type_and_field_level_6,institution_type_and_field_hierarchy_depth,field_2008,field_2009,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016,field_2017,field_2018
+3261,r001,Number,Number,,,,,,1,,,,,,,,,,,
+3261,r002,All institutions,All institutions,,,,,,1,,,,,,,,,,,
+3261,r003,All institutions -> All fields ,All institutions,All fields ,,,,,2,131695,137746,147205,159936,176719,194919,211710,226900,245081,258195,277429
+3261,r004,All institutions -> All fields  -> S&E,All institutions,All fields ,S&E,,,,3,40877,43018,46336,51421,58165,65726,73179,79203,86279,91550,99892
+3261,r005,All institutions -> All fields  -> S&E -> Science,All institutions,All fields ,S&E,Science,,,4,35643,37441,40388,45104,50992,57819,64195,69243,74942,78937,86378
+3261,r006,All institutions -> All fields  -> S&E -> Science -> Agricultural sciences,All institutions,All fields ,S&E,Science,Agricultural sciences,,5,997,969,999,1236,1407,1815,1983,2236,2570,2791,3061
+3261,r007,All institutions -> All fields  -> S&E -> Science -> Biological sciences,All institutions,All fields ,S&E,Science,Biological sciences,,5,5995,6384,7124,7761,8891,10081,11542,13171,14571,15361,17633
+3261,r008,All institutions -> All fields  -> S&E -> Science -> Computer sciences,All institutions,All fields ,S&E,Science,Computer sciences,,5,2923,2999,3124,3539,4216,4719,5469,5912,6612,7544,8370
+3261,r009,"All institutions -> All fields  -> S&E -> Science -> Earth, atmospheric, and ocean sciences",All institutions,All fields ,S&E,Science,"Earth, atmospheric, and ocean sciences",,5,192,221,246,265,323,390,495,539,640,685,721
+3261,r010,All institutions -> All fields  -> S&E -> Science -> Mathematics and statistics,All institutions,All fields ,S&E,Science,Mathematics and statistics,,5,924,978,1005,1152,1277,1504,1755,1937,2166,2328,2556
+3261,r011,All institutions -> All fields  -> S&E -> Science -> Physical sciences,All institutions,All fields ,S&E,Science,Physical sciences,,5,1122,1169,1161,1278,1428,1633,1828,2050,2138,2387,2723
+3261,r012,All institutions -> All fields  -> S&E -> Science -> Psychology,All institutions,All fields ,S&E,Science,Psychology,,5,8885,9615,10412,11667,13359,15389,17580,18799,20321,20675,22926
+3261,r013,All institutions -> All fields  -> S&E -> Science -> Social sciences,All institutions,All fields ,S&E,Science,Social sciences,,5,14605,15106,16317,18206,20091,22288,23543,24599,25924,27166,28388
+3261,r014,All institutions -> All fields  -> S&E -> Engineering ,All institutions,All fields ,S&E,Engineering ,,,4,5234,5577,5948,6317,7173,7907,8984,9960,11337,12613,13514
+3261,r015,All institutions -> All fields  -> Non-S&E ,All institutions,All fields ,Non-S&E ,,,,3,90818,94728,100869,108515,118554,129193,138531,147697,158802,166645,177537
+3261,r016,All institutions -> HHEs,All institutions,HHEs,,,,,2,,,,,,,,,,,
+3261,r017,All institutions -> HHEs -> All fields ,All institutions,HHEs,All fields ,,,,3,72160,74307,77355,82274,89949,100106,108851,115395,125742,130108,142710
+3261,r018,All institutions -> HHEs -> All fields  -> S&E,All institutions,HHEs,All fields ,S&E,,,4,20502,21084,22388,24406,27537,31594,35785,38615,42334,43804,49131
+3261,r019,All institutions -> HHEs -> All fields  -> S&E -> Science,All institutions,HHEs,All fields ,S&E,Science,,5,17769,18303,19481,21319,24201,27839,31592,34085,37247,38270,43187
+3261,r020,All institutions -> HHEs -> All fields  -> S&E -> Science -> Agricultural sciences,All institutions,HHEs,All fields ,S&E,Science,Agricultural sciences,6,530,435,385,459,552,676,720,850,1023,1064,1194
+3261,r021,All institutions -> HHEs -> All fields  -> S&E -> Science -> Biological sciences,All institutions,HHEs,All fields ,S&E,Science,Biological sciences,6,3138,3334,3648,3881,4427,5062,5836,6573,7186,7085,8765
+3261,r022,All institutions -> HHEs -> All fields  -> S&E -> Science -> Computer sciences,All institutions,HHEs,All fields ,S&E,Science,Computer sciences,6,1175,1241,1261,1337,1612,1855,2304,2462,2884,3222,3582
+3261,r023,"All institutions -> HHEs -> All fields  -> S&E -> Science -> Earth, atmospheric, and ocean sciences",All institutions,HHEs,All fields ,S&E,Science,"Earth, atmospheric, and ocean sciences",6,75,86,95,101,136,150,220,222,273,322,326
+3261,r024,All institutions -> HHEs -> All fields  -> S&E -> Science -> Mathematics and statistics,All institutions,HHEs,All fields ,S&E,Science,Mathematics and statistics,6,505,516,509,577,654,742,873,946,1033,1093,1204
+3261,r025,All institutions -> HHEs -> All fields  -> S&E -> Science -> Physical sciences,All institutions,HHEs,All fields ,S&E,Science,Physical sciences,6,592,622,571,610,716,745,848,910,959,1001,1171
+3261,r026,All institutions -> HHEs -> All fields  -> S&E -> Science -> Psychology,All institutions,HHEs,All fields ,S&E,Science,Psychology,6,5007,5243,5803,6520,7332,8660,10005,10853,11728,11852,13553
+3261,r027,All institutions -> HHEs -> All fields  -> S&E -> Science -> Social sciences,All institutions,HHEs,All fields ,S&E,Science,Social sciences,6,6747,6826,7209,7834,8772,9949,10786,11269,12161,12631,13392
+3261,r028,All institutions -> HHEs -> All fields  -> S&E -> Engineering ,All institutions,HHEs,All fields ,S&E,Engineering ,,5,2733,2781,2907,3087,3336,3755,4193,4530,5087,5534,5944
+3261,r029,All institutions -> HHEs -> All fields  -> Non-S&E ,All institutions,HHEs,All fields ,Non-S&E ,,,4,51658,53223,54967,57868,62412,68512,73066,76780,83408,86304,93579
+3261,r030,Percent,Percent,,,,,,1,,,,,,,,,,,
+3261,r031,HHEs,HHEs,,,,,,1,,,,,,,,,,,
+3261,r032,HHEs -> All fields ,HHEs,All fields ,,,,,2,54.79,53.94,52.55,51.44,50.9,51.36,51.42,50.86,51.31,50.39,51.44
+3261,r033,HHEs -> All fields  -> S&E,HHEs,All fields ,S&E,,,,3,50.16,49.01,48.32,47.46,47.34,48.07,48.9,48.75,49.07,47.85,49.18
+3261,r034,HHEs -> All fields  -> S&E -> Science,HHEs,All fields ,S&E,Science,,,4,49.85,48.88,48.23,47.27,47.46,48.15,49.21,49.23,49.7,48.48,50.0
+3261,r035,HHEs -> All fields  -> S&E -> Science -> Agricultural sciences,HHEs,All fields ,S&E,Science,Agricultural sciences,,5,53.16,44.89,38.54,37.14,39.23,37.25,36.31,38.01,39.81,38.12,39.01
+3261,r036,HHEs -> All fields  -> S&E -> Science -> Biological sciences,HHEs,All fields ,S&E,Science,Biological sciences,,5,52.34,52.22,51.21,50.01,49.79,50.21,50.56,49.91,49.32,46.12,49.71
+3261,r037,HHEs -> All fields  -> S&E -> Science -> Computer sciences,HHEs,All fields ,S&E,Science,Computer sciences,,5,40.2,41.38,40.36,37.78,38.24,39.31,42.13,41.64,43.62,42.71,42.8
+3261,r038,"HHEs -> All fields  -> S&E -> Science -> Earth, atmospheric, and ocean sciences",HHEs,All fields ,S&E,Science,"Earth, atmospheric, and ocean sciences",,5,39.06,38.91,38.62,38.11,42.11,38.46,44.44,41.19,42.66,47.01,45.21
+3261,r039,HHEs -> All fields  -> S&E -> Science -> Mathematics and statistics,HHEs,All fields ,S&E,Science,Mathematics and statistics,,5,54.65,52.76,50.65,50.09,51.21,49.34,49.74,48.84,47.69,46.95,47.1
+3261,r040,HHEs -> All fields  -> S&E -> Science -> Physical sciences,HHEs,All fields ,S&E,Science,Physical sciences,,5,52.76,53.21,49.18,47.73,50.14,45.62,46.39,44.39,44.86,41.94,43.0
+3261,r041,HHEs -> All fields  -> S&E -> Science -> Psychology,HHEs,All fields ,S&E,Science,Psychology,,5,56.35,54.53,55.73,55.88,54.88,56.27,56.91,57.73,57.71,57.33,59.12
+3261,r042,HHEs -> All fields  -> S&E -> Science -> Social sciences,HHEs,All fields ,S&E,Science,Social sciences,,5,46.2,45.19,44.18,43.03,43.66,44.64,45.81,45.81,46.91,46.5,47.17
+3261,r043,HHEs -> All fields  -> S&E -> Engineering ,HHEs,All fields ,S&E,Engineering ,,,4,52.22,49.87,48.87,48.87,46.51,47.49,46.67,45.48,44.87,43.88,43.98
+3261,r044,HHEs -> All fields  -> Non-S&E,HHEs,All fields ,Non-S&E,,,,3,56.88,56.19,54.49,53.33,52.64,53.03,52.74,51.98,52.52,51.79,52.71

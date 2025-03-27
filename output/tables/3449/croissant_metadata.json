@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Imputation for postdoctoral appointees in science, engineering, and health fields, by mechanism of support, citizenship, and type of doctoral degree: 2019",
+  "identifier": "NCSES-3449",
+  "description": "Imputation for postdoctoral appointees in science, engineering, and health fields, by mechanism of support, citizenship, and type of doctoral degree: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3449",
+  "table_number": "A-13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3449/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_mechanism_of_support_b",
+      "description": "Mechanism of support hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_mechanism_of_support_b_level_1, _b_mechanism_of_support_b_level_2, _b_mechanism_of_support_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_mechanism_of_support_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_doctoral_degree_types",
+      "description": "All Doctoral Degree Types",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_degree",
+      "description": "Doctoral Degree",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_professional_degree",
+      "description": "Professional Degree",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dual_degree",
+      "description": "Dual Degree",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_doctoral_degree_type_unknown",
+      "description": "Doctoral Degree Type Unknown",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Doctoral degree includes PhD, ScD, DEng, etc.; professional degree includes MD, DVM, DO, DDS, etc.; dual degree includes both professional and doctoral degrees (MD-PhD, DVM-PhD, etc.).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2019."
+}

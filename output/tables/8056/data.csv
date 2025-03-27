@@ -1,0 +1,21 @@
+table_id,row_id,time_period,column_level_1,column_level_2,column_hierarchy_depth,value
+8056,r001_1,All organizations,NAICS code,,1,All
+8056,r001_2,All organizations,Organizations in target populationa,,1,48500
+8056,r001_3,All organizations,Organizations selected for the sample,All organizations,2,8000
+8056,r001_4,All organizations,Organizations selected for the sample,Noncertainties,2,5800
+8056,r001_5,All organizations,Organizations selected for the sample,Certainties,2,2200
+8056,r002_1,Healthcare,NAICS code,,1,"621, 622, 623"
+8056,r002_2,Healthcare,Organizations in target populationa,,1,24850
+8056,r002_3,Healthcare,Organizations selected for the sample,All organizations,2,3900
+8056,r002_4,Healthcare,Organizations selected for the sample,Noncertainties,2,2950
+8056,r002_5,Healthcare,Organizations selected for the sample,Certainties,2,950
+8056,r003_1,Science and technology,NAICS code,,1,5417
+8056,r003_2,Science and technology,Organizations in target populationa,,1,650
+8056,r003_3,Science and technology,Organizations selected for the sample,All organizations,2,500
+8056,r003_4,Science and technology,Organizations selected for the sample,Noncertainties,2,200
+8056,r003_5,Science and technology,Organizations selected for the sample,Certainties,2,300
+8056,r004_1,Other nonprofit organizations,NAICS code,,1,Other
+8056,r004_2,Other nonprofit organizations,Organizations in target populationa,,1,23000
+8056,r004_3,Other nonprofit organizations,Organizations selected for the sample,All organizations,2,3600
+8056,r004_4,Other nonprofit organizations,Organizations selected for the sample,Noncertainties,2,2650
+8056,r004_5,Other nonprofit organizations,Organizations selected for the sample,Certainties,2,950

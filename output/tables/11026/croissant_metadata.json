@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Bureau of Labor Statistics projections of employment and job openings in S&E and other selected occupations: 2022\u201332",
+  "identifier": "NCSES-11026",
+  "description": "Bureau of Labor Statistics projections of employment and job openings in S&E and other selected occupations: 2022\u201332",
+  "url": "https://example.org/datasets/ncses/tables/11026",
+  "table_number": "SLBR-A",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11026/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_stem_group_b",
+      "description": "STEM group hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_stem_group_b_level_1, _b_stem_group_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_stem_group_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employment_2022",
+      "description": "Employment 2022",
+      "valueType": "string",
+      "unitText": "Number in thousands and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employment_2032",
+      "description": "Employment 2032",
+      "valueType": "string",
+      "unitText": "Number in thousands and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_projected_change",
+      "description": "Projected Change",
+      "valueType": "string",
+      "unitText": "Number in thousands and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_projected_change_",
+      "description": "Projected Change ",
+      "valueType": "string",
+      "unitText": "Number in thousands and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Estimates of current and projected employment for 2022\u201332 are from the Bureau of Labor Statistics (BLS) National Employment Matrix; estimates in the matrix are developed by the Division of Employment Projections (DEP) using data from the Occupational Employment and Wage Statistics (OEWS) program and the Current Population Survey (CPS). Together, these sources cover paid workers and self-employed workers in all industries, agriculture, and private households. Because data are derived from multiple sources, they can often differ from employment data provided by OEWS, CPS, or other employment surveys alone. BLS does not make projections for S&E occupations as a group, nor does it do so for some of the S&E and S&E-related occupational categories as defined by the National Center for Science and Engineering Statistics (NCSES); numbers in the figure are based on the sum of BLS projections for occupations that NCSES includes in the respective categories. The STEM classifications used here differ slightly from those used in the American Community Survey (ACS) due to additional occupation detail in the projections tabulations. A crosswalk will be provided upon request.",
+  "sources": "Bureau of Labor Statistics, special tabulations (2022) of the 2022\u201332 Employment Projections.Science and Engineering Indicators"
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies that required an analyst action, by sampling stratum: 2022",
+  "identifier": "NCSES-12258",
+  "description": "Companies that required an analyst action, by sampling stratum: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12258",
+  "table_number": "A-10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12258/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "stratum",
+      "description": "Stratum hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "stratum_level_1, stratum_level_2, stratum_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "stratum_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_deleteda",
+      "description": "Companies Deleteda",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_requiring_action_due_to_merger_or_acquisitionb",
+      "description": "Companies Requiring Action Due To Merger Or Acquisitionb",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_requiring_action_due_to_analyst_reviewc",
+      "description": "Companies Requiring Action Due To Analyst Reviewc",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Beginning in survey year 2021, companies in the known zero R&D group were combined with the unknown R&D group. See \"Technical Notes.\"\u00a0Beginning in survey year 2019, counts reflect a change in rounding methodology. Detail may not add to total because of rounding. Companies were said to be known to conduct R&D (known positive R&D) if they reported positive R&D in any of the previous 5 survey years. Companies were said to have known zero R&D if they reported zero R&D in at least 1 of the previous 3 survey years and no positive R&D in any of the previous 5 survey years. Companies were said to have unknown R&D if no R&D information was available.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2022."
+}

@@ -1,0 +1,33 @@
+table_id,row_id,student_characteristic_full_path,student_characteristic_level_1,student_characteristic_level_2,student_characteristic_level_3,student_characteristic_hierarchy_depth,field_1990,field_1992,field_1996,field_2000,field_2003,field_2005,field_2007,field_2009,field_2011,field_2013,field_2015,field_2017
+1532,r001,All students in grade 8,All students in grade 8,,,1,263,268,270,273,278,279,281,283,284,285,282,283
+1532,r002,All students in grade 8 -> Sex,All students in grade 8,Sex,,2,,,,,,,,,,,,
+1532,r003,All students in grade 8 -> Sex -> Male,All students in grade 8,Sex,Male,3,263,268,271,274,278,280,282,284,284,285,282,283
+1532,r004,All students in grade 8 -> Sex -> Female,All students in grade 8,Sex,Female,3,262,269,269,272,277,278,280,282,283,284,282,282
+1532,r005,All students in grade 8 -> Race or ethnicity<sup>a</sup>,All students in grade 8,Race or ethnicity<sup>a</sup>,,2,,,,,,,,,,,,
+1532,r006,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> White,All students in grade 8,Race or ethnicity<sup>a</sup>,White,3,270,277,281,284,288,289,291,293,293,294,292,293
+1532,r007,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> Black or African American,All students in grade 8,Race or ethnicity<sup>a</sup>,Black or African American,3,237,237,240,244,252,255,260,261,262,263,260,260
+1532,r008,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> Hispanic or Latino<sup>b</sup>,All students in grade 8,Race or ethnicity<sup>a</sup>,Hispanic or Latino<sup>b</sup>,3,246,249,251,253,259,262,265,266,270,272,270,269
+1532,r009,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> Asian or Pacific Islander,All students in grade 8,Race or ethnicity<sup>a</sup>,Asian or Pacific Islander,3,275,290,s,288,291,295,297,301,303,306,306,310
+1532,r010,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> American Indian or Alaska Native,All students in grade 8,Race or ethnicity<sup>a</sup>,American Indian or Alaska Native,3,s,s,s,259,263,264,264,266,265,269,267,267
+1532,r011,All students in grade 8 -> Race or ethnicity<sup>a</sup> -> More than one race,All students in grade 8,Race or ethnicity<sup>a</sup>,More than one race,3,s,260,s,270,280,280,285,286,288,288,285,287
+1532,r012,All students in grade 8 -> Parents' highest education<sup>c</sup>,All students in grade 8,Parents' highest education<sup>c</sup>,,2,,,,,,,,,,,,
+1532,r013,All students in grade 8 -> Parents' highest education<sup>c</sup> -> Did not finish high school,All students in grade 8,Parents' highest education<sup>c</sup>,Did not finish high school,3,242,249,250,253,257,259,263,265,265,267,265,265
+1532,r014,All students in grade 8 -> Parents' highest education<sup>c</sup> -> Graduated from high school,All students in grade 8,Parents' highest education<sup>c</sup>,Graduated from high school,3,255,257,260,261,267,267,270,270,271,270,268,267
+1532,r015,All students in grade 8 -> Parents' highest education<sup>c</sup> -> Some education after high school,All students in grade 8,Parents' highest education<sup>c</sup>,Some education after high school,3,267,271,277,277,280,280,283,284,285,285,282,281
+1532,r016,All students in grade 8 -> Parents' highest education<sup>c</sup> -> Graduated from college,All students in grade 8,Parents' highest education<sup>c</sup>,Graduated from college,3,274,281,281,286,288,290,292,295,295,296,294,294
+1532,r017,All students in grade 8 -> Parents' highest education<sup>c</sup> -> Unknown,All students in grade 8,Parents' highest education<sup>c</sup>,Unknown,3,241,252,252,254,259,260,263,264,265,266,263,264
+1532,r018,All students in grade 8 -> Socioeconomic status<sup>d</sup> ,All students in grade 8,Socioeconomic status<sup>d</sup> ,,2,,,,,,,,,,,,
+1532,r019,All students in grade 8 -> Socioeconomic status<sup>d</sup>  -> Eligible for free or reduced-price lunch,All students in grade 8,Socioeconomic status<sup>d</sup> ,Eligible for free or reduced-price lunch,3,NA,NA,250,253,259,262,265,266,269,270,268,267
+1532,r020,All students in grade 8 -> Socioeconomic status<sup>d</sup>  -> Not eligible for free or reduced-price lunch,All students in grade 8,Socioeconomic status<sup>d</sup> ,Not eligible for free or reduced-price lunch,3,NA,NA,277,283,287,288,291,294,296,297,296,296
+1532,r021,All students in grade 8 -> Student disability status<sup>e</sup>,All students in grade 8,Student disability status<sup>e</sup>,,2,,,,,,,,,,,,
+1532,r022,All students in grade 8 -> Student disability status<sup>e</sup> -> Has a disability,All students in grade 8,Student disability status<sup>e</sup>,Has a disability,3,s,s,231,230,242,245,246,249,250,249,247,247
+1532,r023,All students in grade 8 -> Student disability status<sup>e</sup> -> Does not have a disability,All students in grade 8,Student disability status<sup>e</sup>,Does not have a disability,3,s,s,273,276,282,283,285,287,288,289,287,288
+1532,r024,All students in grade 8 -> English language learner status<sup>e</sup>,All students in grade 8,English language learner status<sup>e</sup>,,2,,,,,,,,,,,,
+1532,r025,All students in grade 8 -> English language learner status<sup>e</sup> -> English language learner,All students in grade 8,English language learner status<sup>e</sup>,English language learner,3,s,s,226,234,242,244,246,243,244,246,246,246
+1532,r026,All students in grade 8 -> English language learner status<sup>e</sup> -> Not English language learner,All students in grade 8,English language learner status<sup>e</sup>,Not English language learner,3,s,s,272,274,279,281,283,285,286,287,284,285
+1532,r027,All students in grade 8 -> Percentiles<sup>f</sup>,All students in grade 8,Percentiles<sup>f</sup>,,2,,,,,,,,,,,,
+1532,r028,All students in grade 8 -> Percentiles<sup>f</sup> -> 10th percentile,All students in grade 8,Percentiles<sup>f</sup>,10th percentile,3,215,221,221,223,230,231,235,236,237,237,235,233
+1532,r029,All students in grade 8 -> Percentiles<sup>f</sup> -> 25th percentile,All students in grade 8,Percentiles<sup>f</sup>,25th percentile,3,239,243,245,249,254,255,258,259,260,261,258,256
+1532,r030,All students in grade 8 -> Percentiles<sup>f</sup> -> 50th percentile,All students in grade 8,Percentiles<sup>f</sup>,50th percentile,3,264,269,273,275,279,280,283,284,285,286,283,283
+1532,r031,All students in grade 8 -> Percentiles<sup>f</sup> -> 75th percentile,All students in grade 8,Percentiles<sup>f</sup>,75th percentile,3,288,294,297,300,303,304,306,308,309,310,308,310
+1532,r032,All students in grade 8 -> Percentiles<sup>f</sup> -> 90th percentile,All students in grade 8,Percentiles<sup>f</sup>,90th percentile,3,307,315,316,320,323,324,327,329,329,331,329,333

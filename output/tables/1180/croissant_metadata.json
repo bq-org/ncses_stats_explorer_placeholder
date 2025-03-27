@@ -1,0 +1,146 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment status and median salary of recent science, engineering, and health master's degree recipients from U.S. educational institutions, by field of master's degree, sex, race, ethnicity, and disability status: 2017",
+  "identifier": "NCSES-1180",
+  "description": "Employment status and median salary of recent science, engineering, and health master's degree recipients from U.S. educational institutions, by field of master's degree, sex, race, ethnicity, and disability status: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1180",
+  "table_number": "9-14",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1180/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_race_ethnicity_and_disability_status",
+      "description": "Field, sex, race, ethnicity, and disability status hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_sex_race_ethnicity_and_disability_status_level_1, field_sex_race_ethnicity_and_disability_status_level_2, field_sex_race_ethnicity_and_disability_status_level_3, field_sex_race_ethnicity_and_disability_status_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_sex_race_ethnicity_and_disability_status_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_race_ethnicity_and_disability_status_full_path",
+      "description": "Sex Race Ethnicity And Disability Status Full Path",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_race_ethnicity_and_disability_status_level_1",
+      "description": "Sex Race Ethnicity And Disability Status Level 1",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_race_ethnicity_and_disability_status_level_2",
+      "description": "Sex Race Ethnicity And Disability Status Level 2",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_race_ethnicity_and_disability_status_level_3",
+      "description": "Sex Race Ethnicity And Disability Status Level 3",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_race_ethnicity_and_disability_status_level_4",
+      "description": "Sex Race Ethnicity And Disability Status Level 4",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_sex_race_ethnicity_and_disability_status_hierarchy_depth",
+      "description": "Sex Race Ethnicity And Disability Status Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_student",
+      "description": "Full Time Student",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_in_s_e_or_s_e_related_occupationa",
+      "description": "Employed In S E Or S E Related Occupationa",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_employed_in_non_s_e_occupation",
+      "description": "Employed In Non S E Occupation",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_employed",
+      "description": "Not Employed",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_median_salary_for_full_time_employedb_",
+      "description": "Median Salary For Full Time Employedb ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Recent master's degree recipients include those who received a master's degree from a U.S. educational institution in 2012, 2013, 2014, or 2015. Numbers and median salaries are rounded to nearest 1,000. Detail may not add to total because of rounding and suppression. Part-time students are included within the employment categories. Totals include Native Hawaiian or Other Pacific Islander and more than one race, which are not shown separately. The National Survey of College Graduates asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

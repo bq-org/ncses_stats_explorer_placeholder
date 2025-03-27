@@ -1,0 +1,172 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal facility R&D personnel (headcount), by job category: FY 2022",
+  "identifier": "NCSES-12496",
+  "description": "Federal facility R&D personnel (headcount), by job category: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/12496",
+  "table_number": "6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12496/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_agency_or_facility_b",
+      "description": "Agency or facility hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_agency_or_facility_b_level_1, _b_agency_or_facility_b_level_2, _b_agency_or_facility_b_level_3, _b_agency_or_facility_b_level_4, _b_agency_or_facility_b_level_5, _b_agency_or_facility_b_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_agency_or_facility_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_job_categories_all",
+      "description": "All Job Categories All",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_job_categories_researchers",
+      "description": "All Job Categories Researchers",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_job_categories_r_d_technicians",
+      "description": "All Job Categories R D Technicians",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_job_categories_r_d_support_staff",
+      "description": "All Job Categories R D Support Staff",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_employees_and_military_personnel_all",
+      "description": "Federal Employees And Military Personnel All",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_employees_and_military_personnel_researchers",
+      "description": "Federal Employees And Military Personnel Researchers",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_employees_and_military_personnel_r_d_technicians",
+      "description": "Federal Employees And Military Personnel R D Technicians",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_employees_and_military_personnel_r_d_support_staff",
+      "description": "Federal Employees And Military Personnel R D Support Staff",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_contractors_all",
+      "description": "Contractors All",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_contractors_researchers",
+      "description": "Contractors Researchers",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_contractors_r_d_technicians",
+      "description": "Contractors R D Technicians",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_contractors_r_d_support_staff",
+      "description": "Contractors R D Support Staff",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_other_r_d_personnel_all",
+      "description": "All Other R D Personnel All",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_other_r_d_personnel_researchers",
+      "description": "All Other R D Personnel Researchers",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_other_r_d_personnel_r_d_technicians",
+      "description": "All Other R D Personnel R D Technicians",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_other_r_d_personnel_r_d_support_staff",
+      "description": "All Other R D Personnel R D Support Staff",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Federal Facilities Research and Development Survey, FY 2022."
+}

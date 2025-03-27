@@ -1,0 +1,19 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_level_of_confidence_in_scientists_a_great_deal,field_level_of_confidence_in_scientists_a_fair_amount,field_level_of_confidence_in_scientists_not_too_much,field_level_of_confidence_in_scientists_none_at_all
+6650,r001,"All adults (<i>n</i> = 6,283)","All adults (<i>n</i> = 6,283)",,1,39,45,13,3
+6650,r002,Sex,Sex,,1,,,,
+6650,r003,"Sex -> Male (<i>n</i> = 2,799)",Sex,"Male (<i>n</i> = 2,799)",2,39,46,12,3
+6650,r004,"Sex -> Female (<i>n</i> = 3,435)",Sex,"Female (<i>n</i> = 3,435)",2,38,45,14,2
+6650,r005,Race or ethnicity,Race or ethnicity,,1,,,,
+6650,r006,"Race or ethnicity -> White (<i>n</i> = 4,311)",Race or ethnicity,"White (<i>n</i> = 4,311)",2,40,44,12,3
+6650,r007,Race or ethnicity -> Black (<i>n</i> = 507),Race or ethnicity,Black (<i>n</i> = 507),2,35,44,19,2
+6650,r008,Race or ethnicity -> Hispanic (<i>n</i> = 999),Race or ethnicity,Hispanic (<i>n</i> = 999),2,35,51,13,2
+6650,r009,Race or ethnicity -> Asian (<i>n</i> = 180),Race or ethnicity,Asian (<i>n</i> = 180),2,50,46,4,0.05
+6650,r010,Family income category<sup>a</sup>,Family income category<sup>a</sup>,,1,,,,
+6650,r011,"Family income category<sup>a</sup> -> Upper income (<i>n</i> = 1,848)",Family income category<sup>a</sup>,"Upper income (<i>n</i> = 1,848)",2,50,40,8,1
+6650,r012,"Family income category<sup>a</sup> -> Middle income (<i>n</i> = 2,925)",Family income category<sup>a</sup>,"Middle income (<i>n</i> = 2,925)",2,39,47,11,2
+6650,r013,"Family income category<sup>a</sup> -> Lower income (<i>n</i> = 1,251)",Family income category<sup>a</sup>,"Lower income (<i>n</i> = 1,251)",2,32,46,17,4
+6650,r014,Education,Education,,1,,,,
+6650,r015,"Education -> Postgraduate (<i>n</i> = 1,714)",Education,"Postgraduate (<i>n</i> = 1,714)",2,54,38,7,1
+6650,r016,"Education -> College graduate (<i>n</i> = 1,841)",Education,"College graduate (<i>n</i> = 1,841)",2,47,42,9,1
+6650,r017,"Education -> Some college (<i>n</i> = 1,833)",Education,"Some college (<i>n</i> = 1,833)",2,38,46,12,3
+6650,r018,Education -> High school or less (<i>n</i> = 884),Education,High school or less (<i>n</i> = 884),2,30,49,17,3

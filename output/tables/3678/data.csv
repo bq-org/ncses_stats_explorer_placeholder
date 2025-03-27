@@ -1,0 +1,91 @@
+table_id,row_id,employment_sector_and_field_of_study_full_path,employment_sector_and_field_of_study_level_1,employment_sector_and_field_of_study_level_2,employment_sector_and_field_of_study_level_3,employment_sector_and_field_of_study_level_4,employment_sector_and_field_of_study_hierarchy_depth,field_all_employed_number,field_all_employed_se,field_male_number,field_male_se,field_female_number,field_female_se
+3678,r001,All sectors,All sectors,,,,1,857200,1975,546050,1750,311200,1200
+3678,r002,All sectors -> Science,All sectors,Science,,,2,640300,1900,383900,1700,256400,1200
+3678,r003,"All sectors -> Science -> Biological, agricultural, and environmental life sciences",All sectors,Science,"Biological, agricultural, and environmental life sciences",,3,220700,1100,124550,1025,96200,900
+3678,r004,All sectors -> Science -> Computer and information sciences,All sectors,Science,Computer and information sciences,,3,31100,400,25500,425,5600,300
+3678,r005,All sectors -> Science -> Mathematics and statistics,All sectors,Science,Mathematics and statistics,,3,36650,450,27350,450,9300,325
+3678,r006,"All sectors -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All sectors,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",,3,133750,950,101300,925,32500,525
+3678,r007,All sectors -> Science -> Psychology,All sectors,Science,Psychology,,3,115350,825,45600,800,69700,775
+3678,r008,All sectors -> Science -> Social sciences,All sectors,Science,Social sciences,,3,102700,900,59600,825,43100,575
+3678,r009,All sectors -> Engineering,All sectors,Engineering,,,2,176700,1175,147250,1200,29450,575
+3678,r010,All sectors -> Health,All sectors,Health,,,2,40200,475,14900,325,25300,400
+3678,r011,All sectors -> 4-year educational institution<sup>a</sup>,All sectors,4-year educational institution<sup>a</sup>,,,2,344350,2325,211850,2075,132500,1450
+3678,r012,All sectors -> 4-year educational institution<sup>a</sup> -> Science,All sectors,4-year educational institution<sup>a</sup>,Science,,3,277850,1975,168250,1725,109600,1225
+3678,r013,"All sectors -> 4-year educational institution<sup>a</sup> -> Science -> Biological, agricultural, and environmental life sciences",All sectors,4-year educational institution<sup>a</sup>,Science,"Biological, agricultural, and environmental life sciences",4,96250,1175,55650,1025,40600,775
+3678,r014,All sectors -> 4-year educational institution<sup>a</sup> -> Science -> Computer and information sciences,All sectors,4-year educational institution<sup>a</sup>,Science,Computer and information sciences,4,10750,475,8350,450,2400,225
+3678,r015,All sectors -> 4-year educational institution<sup>a</sup> -> Science -> Mathematics and statistics,All sectors,4-year educational institution<sup>a</sup>,Science,Mathematics and statistics,4,20200,525,15050,475,5150,275
+3678,r016,"All sectors -> 4-year educational institution<sup>a</sup> -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All sectors,4-year educational institution<sup>a</sup>,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",4,47350,850,35650,775,11700,375
+3678,r017,All sectors -> 4-year educational institution<sup>a</sup> -> Science -> Psychology,All sectors,4-year educational institution<sup>a</sup>,Science,Psychology,4,39150,775,15800,575,23300,650
+3678,r018,All sectors -> 4-year educational institution<sup>a</sup> -> Science -> Social sciences,All sectors,4-year educational institution<sup>a</sup>,Science,Social sciences,4,64150,975,37750,800,26400,625
+3678,r019,All sectors -> 4-year educational institution<sup>a</sup> -> Engineering,All sectors,4-year educational institution<sup>a</sup>,Engineering,,3,45250,925,36750,950,8550,400
+3678,r020,All sectors -> 4-year educational institution<sup>a</sup> -> Health,All sectors,4-year educational institution<sup>a</sup>,Health,,3,21250,550,6850,325,14350,475
+3678,r021,All sectors -> Other educational institution<sup>b</sup>,All sectors,Other educational institution<sup>b</sup>,,,2,30900,900,14300,675,16600,575
+3678,r022,All sectors -> Other educational institution<sup>b</sup> -> Science,All sectors,Other educational institution<sup>b</sup>,Science,,3,27850,850,12800,625,15100,550
+3678,r023,"All sectors -> Other educational institution<sup>b</sup> -> Science -> Biological, agricultural, and environmental life sciences",All sectors,Other educational institution<sup>b</sup>,Science,"Biological, agricultural, and environmental life sciences",4,8000,500,3200,350,4800,325
+3678,r024,All sectors -> Other educational institution<sup>b</sup> -> Science -> Computer and information sciences,All sectors,Other educational institution<sup>b</sup>,Science,Computer and information sciences,4,400,100,250,100,200,50
+3678,r025,All sectors -> Other educational institution<sup>b</sup> -> Science -> Mathematics and statistics,All sectors,Other educational institution<sup>b</sup>,Science,Mathematics and statistics,4,1550,175,1000,150,550,100
+3678,r026,"All sectors -> Other educational institution<sup>b</sup> -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All sectors,Other educational institution<sup>b</sup>,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",4,6050,350,3700,325,2400,200
+3678,r027,All sectors -> Other educational institution<sup>b</sup> -> Science -> Psychology,All sectors,Other educational institution<sup>b</sup>,Science,Psychology,4,7150,400,2400,250,4750,300
+3678,r028,All sectors -> Other educational institution<sup>b</sup> -> Science -> Social sciences,All sectors,Other educational institution<sup>b</sup>,Science,Social sciences,4,4700,375,2250,275,2400,225
+3678,r029,All sectors -> Other educational institution<sup>b</sup> -> Engineering,All sectors,Other educational institution<sup>b</sup>,Engineering,,3,1900,225,1250,200,650,100
+3678,r030,All sectors -> Other educational institution<sup>b</sup> -> Health,All sectors,Other educational institution<sup>b</sup>,Health,,3,1150,150,250,75,900,125
+3678,r031,"All sectors -> Private, for profit<sup>c</sup>",All sectors,"Private, for profit<sup>c</sup>",,,2,306300,2500,218700,2050,87600,1225
+3678,r032,"All sectors -> Private, for profit<sup>c</sup> -> Science",All sectors,"Private, for profit<sup>c</sup>",Science,,3,194000,2050,126450,1775,67550,1075
+3678,r033,"All sectors -> Private, for profit<sup>c</sup> -> Science -> Biological, agricultural, and environmental life sciences",All sectors,"Private, for profit<sup>c</sup>",Science,"Biological, agricultural, and environmental life sciences",4,68550,1175,39500,1025,29000,725
+3678,r034,"All sectors -> Private, for profit<sup>c</sup> -> Science -> Computer and information sciences",All sectors,"Private, for profit<sup>c</sup>",Science,Computer and information sciences,4,16750,575,14500,575,2200,225
+3678,r035,"All sectors -> Private, for profit<sup>c</sup> -> Science -> Mathematics and statistics",All sectors,"Private, for profit<sup>c</sup>",Science,Mathematics and statistics,4,11350,475,8650,450,2700,225
+3678,r036,"All sectors -> Private, for profit<sup>c</sup> -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All sectors,"Private, for profit<sup>c</sup>",Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",4,56600,1025,43850,925,12750,475
+3678,r037,"All sectors -> Private, for profit<sup>c</sup> -> Science -> Psychology",All sectors,"Private, for profit<sup>c</sup>",Science,Psychology,4,27450,725,11800,550,15650,525
+3678,r038,"All sectors -> Private, for profit<sup>c</sup> -> Science -> Social sciences",All sectors,"Private, for profit<sup>c</sup>",Science,Social sciences,4,13350,575,8100,475,5250,350
+3678,r039,"All sectors -> Private, for profit<sup>c</sup> -> Engineering",All sectors,"Private, for profit<sup>c</sup>",Engineering,,3,102700,1175,87350,1100,15350,525
+3678,r040,"All sectors -> Private, for profit<sup>c</sup> -> Health",All sectors,"Private, for profit<sup>c</sup>",Health,,3,9600,400,4900,300,4700,300
+3678,r041,"All sectors -> Private, nonprofit",All sectors,"Private, nonprofit",,,2,55900,1125,31100,925,24800,625
+3678,r042,"All sectors -> Private, nonprofit -> Science",All sectors,"Private, nonprofit",Science,,3,44600,950,23950,750,20650,600
+3678,r043,"All sectors -> Private, nonprofit -> Science -> Biological, agricultural, and environmental life sciences",All sectors,"Private, nonprofit",Science,"Biological, agricultural, and environmental life sciences",4,17200,550,9300,475,7950,375
+3678,r044,"All sectors -> Private, nonprofit -> Science -> Computer and information sciences",All sectors,"Private, nonprofit",Science,Computer and information sciences,4,1250,200,950,175,300,75
+3678,r045,"All sectors -> Private, nonprofit -> Science -> Mathematics and statistics",All sectors,"Private, nonprofit",Science,Mathematics and statistics,4,1400,175,1050,175,350,75
+3678,r046,"All sectors -> Private, nonprofit -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All sectors,"Private, nonprofit",Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",4,7250,375,5500,350,1750,175
+3678,r047,"All sectors -> Private, nonprofit -> Science -> Psychology",All sectors,"Private, nonprofit",Science,Psychology,4,11250,500,4200,375,7100,375
+3678,r048,"All sectors -> Private, nonprofit -> Science -> Social sciences",All sectors,"Private, nonprofit",Science,Social sciences,4,6200,300,3000,250,3200,200
+3678,r049,"All sectors -> Private, nonprofit -> Engineering",All sectors,"Private, nonprofit",Engineering,,3,7850,525,6250,475,1650,200
+3678,r050,"All sectors -> Private, nonprofit -> Health",All sectors,"Private, nonprofit",Health,,3,3450,300,950,125,2500,275
+3678,r051,All sectors -> Federal government,All sectors,Federal government,,,2,50150,1025,31150,825,19000,650
+3678,r052,All sectors -> Federal government -> Science,All sectors,Federal government,Science,,3,39050,925,22850,775,16200,600
+3678,r053,"All sectors -> Federal government -> Science -> Biological, agricultural, and environmental life sciences",All sectors,Federal government,Science,"Biological, agricultural, and environmental life sciences",4,16250,575,9100,500,7200,375
+3678,r054,All sectors -> Federal government -> Science -> Computer and information sciences,All sectors,Federal government,Science,Computer and information sciences,4,800,150,550,125,250,75
+3678,r055,All sectors -> Federal government -> Science -> Mathematics and statistics,All sectors,Federal government,Science,Mathematics and statistics,4,1250,175,950,150,300,100
+3678,r056,"All sectors -> Federal government -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All sectors,Federal government,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",4,8500,450,6450,400,2050,150
+3678,r057,All sectors -> Federal government -> Science -> Psychology,All sectors,Federal government,Science,Psychology,4,6650,450,2650,250,4000,325
+3678,r058,All sectors -> Federal government -> Science -> Social sciences,All sectors,Federal government,Science,Social sciences,4,5550,350,3150,275,2400,225
+3678,r059,All sectors -> Federal government -> Engineering,All sectors,Federal government,Engineering,,3,9000,450,7400,425,1600,150
+3678,r060,All sectors -> Federal government -> Health,All sectors,Federal government,Health,,3,2100,200,900,150,1150,150
+3678,r061,All sectors -> State or local government,All sectors,State or local government,,,2,18850,750,10950,550,7900,425
+3678,r062,All sectors -> State or local government -> Science,All sectors,State or local government,Science,,3,14900,625,8250,500,6650,375
+3678,r063,"All sectors -> State or local government -> Science -> Biological, agricultural, and environmental life sciences",All sectors,State or local government,Science,"Biological, agricultural, and environmental life sciences",4,4800,375,2700,300,2100,200
+3678,r064,All sectors -> State or local government -> Science -> Computer and information sciences,All sectors,State or local government,Science,Computer and information sciences,4,250,100,200,100,50,25
+3678,r065,All sectors -> State or local government -> Science -> Mathematics and statistics,All sectors,State or local government,Science,Mathematics and statistics,4,S,S,S,S,,
+3678,r066,"All sectors -> State or local government -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All sectors,State or local government,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",4,2500,275,1900,250,600,100
+3678,r067,All sectors -> State or local government -> Science -> Psychology,All sectors,State or local government,Science,Psychology,4,4550,375,1700,250,2850,300
+3678,r068,All sectors -> State or local government -> Science -> Social sciences,All sectors,State or local government,Science,Social sciences,4,2700,225,1700,225,1000,125
+3678,r069,All sectors -> State or local government -> Engineering,All sectors,State or local government,Engineering,,3,3000,275,2300,275,700,150
+3678,r070,All sectors -> State or local government -> Health,All sectors,State or local government,Health,,3,950,150,400,100,550,100
+3678,r071,All sectors -> Self-employed<sup>d</sup>,All sectors,Self-employed<sup>d</sup>,,,2,40750,1100,21750,950,19000,575
+3678,r072,All sectors -> Self-employed<sup>d</sup> -> Science,All sectors,Self-employed<sup>d</sup>,Science,,3,35100,1025,17500,800,17650,575
+3678,r073,"All sectors -> Self-employed<sup>d</sup> -> Science -> Biological, agricultural, and environmental life sciences",All sectors,Self-employed<sup>d</sup>,Science,"Biological, agricultural, and environmental life sciences",4,7550,475,4250,400,3300,300
+3678,r074,All sectors -> Self-employed<sup>d</sup> -> Science -> Computer and information sciences,All sectors,Self-employed<sup>d</sup>,Science,Computer and information sciences,4,650,125,500,125,150,75
+3678,r075,All sectors -> Self-employed<sup>d</sup> -> Science -> Mathematics and statistics,All sectors,Self-employed<sup>d</sup>,Science,Mathematics and statistics,4,650,150,500,125,150,75
+3678,r076,"All sectors -> Self-employed<sup>d</sup> -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All sectors,Self-employed<sup>d</sup>,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",4,4100,350,3250,350,850,150
+3678,r077,All sectors -> Self-employed<sup>d</sup> -> Science -> Psychology,All sectors,Self-employed<sup>d</sup>,Science,Psychology,4,18200,675,6650,475,11550,475
+3678,r078,All sectors -> Self-employed<sup>d</sup> -> Science -> Social sciences,All sectors,Self-employed<sup>d</sup>,Science,Social sciences,4,3950,300,2300,250,1650,150
+3678,r079,All sectors -> Self-employed<sup>d</sup> -> Engineering,All sectors,Self-employed<sup>d</sup>,Engineering,,3,4200,425,3700,400,500,100
+3678,r080,All sectors -> Self-employed<sup>d</sup> -> Health,All sectors,Self-employed<sup>d</sup>,Health,,3,1450,200,550,125,900,150
+3678,r081,All sectors -> Other sector<sup>e</sup>,All sectors,Other sector<sup>e</sup>,,,2,10050,550,6250,450,3800,350
+3678,r082,All sectors -> Other sector<sup>e</sup> -> Science,All sectors,Other sector<sup>e</sup>,Science,,3,6950,450,3900,325,3050,325
+3678,r083,"All sectors -> Other sector<sup>e</sup> -> Science -> Biological, agricultural, and environmental life sciences",All sectors,Other sector<sup>e</sup>,Science,"Biological, agricultural, and environmental life sciences",4,2100,250,850,150,1250,200
+3678,r084,All sectors -> Other sector<sup>e</sup> -> Science -> Computer and information sciences,All sectors,Other sector<sup>e</sup>,Science,Computer and information sciences,4,250,75,200,75,50,25
+3678,r085,All sectors -> Other sector<sup>e</sup> -> Science -> Mathematics and statistics,All sectors,Other sector<sup>e</sup>,Science,Mathematics and statistics,4,200,75,150,75,50,50
+3678,r086,"All sectors -> Other sector<sup>e</sup> -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All sectors,Other sector<sup>e</sup>,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",4,1350,200,950,175,400,75
+3678,r087,All sectors -> Other sector<sup>e</sup> -> Science -> Psychology,All sectors,Other sector<sup>e</sup>,Science,Psychology,4,950,175,400,125,550,125
+3678,r088,All sectors -> Other sector<sup>e</sup> -> Science -> Social sciences,All sectors,Other sector<sup>e</sup>,Science,Social sciences,4,2100,275,1350,225,750,175
+3678,r089,All sectors -> Other sector<sup>e</sup> -> Engineering,All sectors,Other sector<sup>e</sup>,Engineering,,3,2800,325,2300,300,500,125
+3678,r090,All sectors -> Other sector<sup>e</sup> -> Health,All sectors,Other sector<sup>e</sup>,Health,,3,300,75,100,50,250,75

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "High school completers enrolled in college in October after completing high school, by demographic characteristics and institution type: 1975\u20132021",
+  "identifier": "NCSES-9451",
+  "description": "High school completers enrolled in college in October after completing high school, by demographic characteristics and institution type: 1975\u20132021",
+  "url": "https://example.org/datasets/ncses/tables/9451",
+  "table_number": "SK12-12",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9451/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "column_characteristic",
+      "description": "Column category or characteristic",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "column_level_1, column_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "The table includes 16- to 24-year-old students who completed high school in the survey year. Immediate college enrollment rates are defined as rates of high school graduates enrolled in college in October after completing high school earlier in the same calendar year. Before 1992, \"high school graduates\" referred to those who had completed 12 years of schooling. As of 1992, \"high school graduates\" refers to those who have received a high school diploma or equivalency certificate.",
+  "sources": "For parents' highest education level: National Center for Education Statistics, special tabulations (2020) of the Current Population Survey, Bureau of Labor Statistics. All other data: American College Testing Program, unpublished tabulations, derived from statistics collected by the Census Bureau, 1960 through 1969. Department of Commerce, Census Bureau, Current Population Survey (CPS), October, 1970 through 2021.De Brey C, Snyder TD, Zhang A, Dillow SA, Digest of Education Statistics: 2021, NCES 2023-009, Tables 302.10 and 302.20, Department of Education, National Center for Education Statistics (2023). https://nces.ed.gov/programs/digest/current_tables.asp.Science and Engineering Indicators",
+  "temporalCoverage": "19/20"
+}

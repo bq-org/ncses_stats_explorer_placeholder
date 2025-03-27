@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed adults in the United States, by workforce type: 2010\u201319",
+  "identifier": "NCSES-4401",
+  "description": "Employed adults in the United States, by workforce type: 2010\u201319",
+  "url": "https://example.org/datasets/ncses/tables/4401",
+  "table_number": "SLBR-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4401/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Data include workers 16\u201375 years old and exclude those in military occupations or currently enrolled in primary or secondary school.",
+  "sources": "U.S. Census Bureau, American Community Survey (ACS), 2010\u201319, Public Use Microdata Sample (PUMS), data as of 25 October 2020.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Median years to doctorate, by major field of study: Selected years, 1970&#8211;2020",
+  "identifier": "NCSES-4668",
+  "description": "Median years to doctorate, by major field of study: Selected years, 1970&#8211;2020",
+  "url": "https://example.org/datasets/ncses/tables/4668",
+  "table_number": "31",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4668/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_and_time_to_degree_b",
+      "description": "Field and time to degree hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_and_time_to_degree_b_level_1, _b_field_and_time_to_degree_b_level_2, _b_field_and_time_to_degree_b_level_3, _b_field_and_time_to_degree_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_and_time_to_degree_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1970",
+      "description": "1970",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1975",
+      "description": "1975",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1980",
+      "description": "1980",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1985",
+      "description": "1985",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1990",
+      "description": "1990",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1995",
+      "description": "1995",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000",
+      "description": "2000",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2005",
+      "description": "2005",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Median years"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Median years"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

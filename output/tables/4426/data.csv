@@ -1,0 +1,13 @@
+table_id,row_id,measure_full_path,measure_level_1,measure_level_2,measure_level_3,measure_hierarchy_depth,field_individuals
+4426,r001,Scientists and engineers,Scientists and engineers,,,1,
+4426,r002,Scientists and engineers -> S&E or S&E-related occupation or degree,Scientists and engineers,S&E or S&E-related occupation or degree,,2,28627000
+4426,r003,Occupation,Occupation,,,1,
+4426,r004,Occupation -> Employed in S&E occupations (NSCG),Occupation,Employed in S&E occupations (NSCG),,2,7466000
+4426,r005,Occupation -> Employed in S&E occupations (ACS),Occupation,Employed in S&E occupations (ACS),,2,6559000
+4426,r006,Education,Education,,,1,
+4426,r007,Education -> At least one degree in S&E field,Education,At least one degree in S&E field,,2,25859000
+4426,r008,Education -> Highest degree in S&E field,Education,Highest degree in S&E field,,2,19662000
+4426,r009,Job requires S&E technical expertise at bachelor's level,Job requires S&E technical expertise at bachelor's level,,,1,
+4426,r010,Job requires S&E technical expertise at bachelor's level -> In one or more S&E fields,Job requires S&E technical expertise at bachelor's level,In one or more S&E fields,,2,21767000
+4426,r011,"Job requires S&E technical expertise at bachelor's level -> In one or more S&E fields -> Engineering, computer science, mathematics, or natural sciences",Job requires S&E technical expertise at bachelor's level,In one or more S&E fields,"Engineering, computer science, mathematics, or natural sciences",3,16000000
+4426,r012,Job requires S&E technical expertise at bachelor's level -> In one or more S&E fields -> Social sciences,Job requires S&E technical expertise at bachelor's level,In one or more S&E fields,Social sciences,3,5767000

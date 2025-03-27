@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Notes associated with agencies included in the Survey of Federal Funds for Research and Development: Volumes 29&#8211;72",
+  "identifier": "NCSES-10794",
+  "description": "Notes associated with agencies included in the Survey of Federal Funds for Research and Development: Volumes 29&#8211;72",
+  "url": "https://example.org/datasets/ncses/tables/10794",
+  "table_number": "A-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10794/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_department_b",
+      "description": "Department hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_department_b_level_1, _b_department_b_level_2, _b_department_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_department_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_explanatory_information",
+      "description": "Explanatory Information",
+      "valueType": "string",
+      "unitText": "Notes"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "These notes include explanatory information on federal agencies' reports for volume 29 (FYs 1979\u201381) through volume 72 (FYs 2022\u201323) of the Survey of Federal Funds for Research and Development (Federal Funds for R&D). For volume 72, actual data were collected for FY 2022, and estimates were collected for FY 2023.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

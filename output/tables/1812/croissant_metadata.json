@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "International coauthorship of S&E articles with the United States, by world and selected country: 2018",
+  "identifier": "NCSES-1812",
+  "description": "International coauthorship of S&E articles with the United States, by world and selected country: 2018",
+  "url": "https://example.org/datasets/ncses/tables/1812",
+  "table_number": "5a-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1812/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "country",
+      "description": "Country",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "share_of_country_s_international_articles_with_u_s_coauthor",
+      "description": "Share Of Country S International Articles With U S Coauthor",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "share_of_u_s_international_articles_with_coauthor_from_the_country_or_economy",
+      "description": "Share Of U S International Articles With Coauthor From The Country Or Economy",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Articles refer to publications from a selection of journals and conference proceedings in S&E from Scopus.\u00a0Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) of the author(s) listed in the article. Articles are credited on a whole-count basis (i.e., each collaborating country or economy is credited with one count). Articles with international institutions are counts of articles with institutional addresses from more than one country or economy. See Table S5a-33.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed June 2019.Science and Engineering Indicators"
+}

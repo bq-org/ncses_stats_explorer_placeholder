@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Early career doctorates who indicate that various critical competencies were very or extremely important to their sampled position, by doctoral degree characteristics: 2017",
+  "identifier": "NCSES-3837",
+  "description": "Early career doctorates who indicate that various critical competencies were very or extremely important to their sampled position, by doctoral degree characteristics: 2017",
+  "url": "https://example.org/datasets/ncses/tables/3837",
+  "table_number": "7-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3837/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "selected_characteristic",
+      "description": "Selected characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "selected_characteristic_level_1, selected_characteristic_level_2, selected_characteristic_level_3, selected_characteristic_level_4, selected_characteristic_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "selected_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_appropriately_apply_research_methodologies",
+      "description": "Appropriately Apply Research Methodologies",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_develop_new_ideas_processes_or_products",
+      "description": "Develop New Ideas Processes Or Products",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_critically_analyze_and_evaluate_findings_and_results",
+      "description": "Critically Analyze And Evaluate Findings And Results",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_demonstrate_theoretical_and_practical_understanding_of_your_subject_area",
+      "description": "Demonstrate Theoretical And Practical Understanding Of Your Subject Area",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_work_constructively_with_colleagues",
+      "description": "Work Constructively With Colleagues",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_manage_and_influence_others",
+      "description": "Manage And Influence Others",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_communicate_ideas_clearly_and_persuasively_in_writing",
+      "description": "Communicate Ideas Clearly And Persuasively In Writing",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_communicate_ideas_clearly_and_persuasively_orally",
+      "description": "Communicate Ideas Clearly And Persuasively Orally",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_effectively_plan_manage_and_deliver_projects_on_time",
+      "description": "Effectively Plan Manage And Deliver Projects On Time",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Counts are rounded to the nearest 100. Percentages are calculated from unrounded counts and rounded to the nearest 10th of a percent. \"Not used in this position\" responses are excluded from the denominator for each column variable.",
+  "sources": "National Center for Science and Engineering Statistics, Early Career Doctorates Survey, 2017."
+}

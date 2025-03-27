@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Coronavirus research papers international collaboration network analysis: 2020",
+  "identifier": "NCSES-4958",
+  "description": "Coronavirus research papers international collaboration network analysis: 2020",
+  "url": "https://example.org/datasets/ncses/tables/4958",
+  "table_number": "SPBS-57",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4958/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "country",
+      "description": "Country",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "degree",
+      "description": "Degree",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "degree_rank_",
+      "description": "Degree Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "strength",
+      "description": "Strength",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "strength_rank_",
+      "description": "Strength Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "betweenness_centrality",
+      "description": "Betweenness Centrality",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "betweenness_centrality_rank_",
+      "description": "Betweenness Centrality Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "closeness_centrality",
+      "description": "Closeness Centrality",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "closeness_centrality_rank_",
+      "description": "Closeness Centrality Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weighted_pagerank",
+      "description": "Weighted Pagerank",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weighted_pagerank_rank_",
+      "description": "Weighted Pagerank Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weighted_eigenvector_centrality",
+      "description": "Weighted Eigenvector Centrality",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weighted_eigenvector_centrality_rank_",
+      "description": "Weighted Eigenvector Centrality Rank ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "These statistics were computed for the top 50 national producers of coronavirus-related papers. A minimum number of 50 cowritten papers was necessary to establish a link between two countries. Countries that did not cowrite 50 papers or more with any other of the top 50 countries were removed because they would have resulted in unlinked nodes. Only 2020 papers were counted. Degree, betweenness centrality, and closeness centrality are unweighted measurements, which means that the number of cowritten papers is not used in their computation. Network indicators are described in detail in the Technical Appendix. Any article that had any of the following keywords in its title, abstract, or author-defined keywords were used to build the data set: \"covid\"; \"coronavirus*\"; \"corona virus*\"; \"severe acute respiratory syndrome\"; \"middle east respiratory syndrome\"; \"SARS-CoV-2\"; \"spike protein*\"; \"mers-cov\"; \"nl63\"; \"229e\"; \"oc43\"; \"hcov\"; \"alphacoronavirus*\"; \"covid19\"; \"covid-19\"; \"SARSCoV2.\" Note that the * character is used to specify that the words should serve as prefixes, such that \"coronavirus*\" also captures articles that used \"coronaviruses,\" for example. Whole counting is used in the network analysis.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed May 2021.Science and Engineering Indicators"
+}

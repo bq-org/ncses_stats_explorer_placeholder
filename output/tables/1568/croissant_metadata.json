@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Degrees awarded to U.S. citizens and permanent residents, by degree level, sex, race, ethnicity, and field: 2000 and 2017",
+  "identifier": "NCSES-1568",
+  "description": "Degrees awarded to U.S. citizens and permanent residents, by degree level, sex, race, ethnicity, and field: 2000 and 2017",
+  "url": "https://example.org/datasets/ncses/tables/1568",
+  "table_number": "S2-12",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1568/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "degree_level_race_ethnicity_and_field",
+      "description": "Degree level, race, ethnicity, and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "degree_level_race_ethnicity_and_field_level_1, degree_level_race_ethnicity_and_field_level_2, degree_level_race_ethnicity_and_field_level_3, degree_level_race_ethnicity_and_field_level_4, degree_level_race_ethnicity_and_field_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "degree_level_race_ethnicity_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_all",
+      "description": "2000 All",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_female",
+      "description": "2000 Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_male",
+      "description": "2000 Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_female_",
+      "description": "2000 Female ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_male_",
+      "description": "2000 Male ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_all",
+      "description": "2017 All",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_female",
+      "description": "2017 Female",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_male",
+      "description": "2017 Male",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_female_",
+      "description": "2017 Female ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_male_",
+      "description": "2017 Male ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "To compare data over time, the race and ethnicity categories are the historic categories, not the most recent. Hispanic may be any race; race categories exclude Hispanic origin.",
+  "sources": "National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Completions Survey; National Center for Science and Engineering Statistics, National Science Foundation, Integrated Data System (IDS).Science and Engineering Indicators"
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Five-year stay rates of foreign students on temporary visas receiving S&E doctorates, by region, country, or economy of citizenship at time of degree: 2003&#8211;17",
+  "identifier": "NCSES-1639",
+  "description": "Five-year stay rates of foreign students on temporary visas receiving S&E doctorates, by region, country, or economy of citizenship at time of degree: 2003&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/1639",
+  "table_number": "S3-23",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1639/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "region_country_or_economy_of_citizenship",
+      "description": "Region Country Or Economy Of Citizenship",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2003",
+      "description": "2003",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2005",
+      "description": "2005",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Stay rates for 2013, 2015, and 2017 are based on an average from three cohorts to reduce the error of the estimates.",
+  "sources": "Finn M, Stay Rates of Foreign Doctoral Recipients from U.S. Universities, 2011, Oak Ridge Institute for Science and Education (2001\u201311); National Center for Science and Engineering Statistics, National Science Foundation, Survey of Doctorate Recipients (SDR), 2013\u201317.Science and Engineering Indicators"
+}

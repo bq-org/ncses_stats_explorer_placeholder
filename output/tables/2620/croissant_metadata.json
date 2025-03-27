@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Process innovation in companies, by firm classification of race and ethnicity and R&D activity: 2015&#8211;17",
+  "identifier": "NCSES-2620",
+  "description": "Process innovation in companies, by firm classification of race and ethnicity and R&D activity: 2015&#8211;17",
+  "url": "https://example.org/datasets/ncses/tables/2620",
+  "table_number": "54",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2620/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "race_and_ethnicity_of_owners",
+      "description": "Race and ethnicity of owners hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "race_and_ethnicity_of_owners_level_1, race_and_ethnicity_of_owners_level_2, race_and_ethnicity_of_owners_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "race_and_ethnicity_of_owners_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_companies_number_",
+      "description": "Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_in_house_or_external_r_d_number_yes",
+      "description": "In House Or External R D Number Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_in_house_or_external_r_d_number_no",
+      "description": "In House Or External R D Number No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_in_house_or_external_r_d_percent_yes",
+      "description": "In House Or External R D Percent Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_in_house_or_external_r_d_percent_no",
+      "description": "In House Or External R D Percent No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. R&D activity is based on unedited company responses to innovation questions, not R&D expenditures. Companies may be included in one or more race and ethnicity category. Companies classified as minority owned are those owned by persons of any race and ethnicity combination other than \"Not Hispanic or Latino\" and \"White.\" Statistics are representative of companies located in the United States.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Annual Business Survey, 2017."
+}

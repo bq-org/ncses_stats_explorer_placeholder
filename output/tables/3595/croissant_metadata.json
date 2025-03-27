@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal R&D spending by mandatory and discretionary budget authority, by agency: FYs 2017\u201319",
+  "identifier": "NCSES-3595",
+  "description": "Federal R&D spending by mandatory and discretionary budget authority, by agency: FYs 2017\u201319",
+  "url": "https://example.org/datasets/ncses/tables/3595",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3595/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_level_1, agency_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017_actual",
+      "description": "2017 Actual",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_annualized_cr",
+      "description": "2018 Annualized Cr",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019_proposed",
+      "description": "2019 Proposed",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dollar_change_2018_19",
+      "description": "Dollar Change 2018 19",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percent_change_2018_19",
+      "description": "Percent Change 2018 19",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table shows funding levels for departments or independent agencies with more than $200 million in R&D activities in 2019.",
+  "sources": "Budget of the United States Government, Fiscal Year 2019, Analytical Perspectives, Chapter 18: Research and Development, https://www.govinfo.gov/app/collection/budget/2019/BUDGET-2019-PER."
+}

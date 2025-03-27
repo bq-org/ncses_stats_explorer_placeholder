@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Occupations of scientists and engineers with at least a bachelor's degree employed by the federal government, by ethnicity, race, and sex: 2008\u201317",
+  "identifier": "NCSES-1231",
+  "description": "Occupations of scientists and engineers with at least a bachelor's degree employed by the federal government, by ethnicity, race, and sex: 2008\u201317",
+  "url": "https://example.org/datasets/ncses/tables/1231",
+  "table_number": "9-34",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1231/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation_ethnicity_race_and_sex",
+      "description": "Occupation, ethnicity, race, and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "7"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_ethnicity_race_and_sex_level_1, occupation_ethnicity_race_and_sex_level_2, occupation_ethnicity_race_and_sex_level_3, occupation_ethnicity_race_and_sex_level_4, occupation_ethnicity_race_and_sex_level_5, occupation_ethnicity_race_and_sex_level_6, occupation_ethnicity_race_and_sex_level_7"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_ethnicity_race_and_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008",
+      "description": "2008",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010",
+      "description": "2010",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Total may include employees who did not report sex; as a result, detail may not sum to total. National Science Foundation tabulations from data provided by the Office of Personnel Management. Data do not include the State Department Foreign Service. Data are as of September of each year.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, special tabulations of Office of Personnel Management data."
+}

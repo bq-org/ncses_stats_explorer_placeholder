@@ -1,0 +1,44 @@
+table_id,row_id,_b_agency_b_full_path,_b_agency_b_level_1,_b_agency_b_level_2,_b_agency_b_level_3,_b_agency_b_level_4,_b_agency_b_level_5,_b_agency_b_hierarchy_depth,field_total,field_computer_sciences,field_mathematics,field_other_computer_sciences_and_mathematics
+6379,r001,All agencies,All agencies,,,,,1,3387917.5,3050374.0,177657.4,159886.1
+6379,r002,All agencies -> Departments,All agencies,Departments,,,,2,,,,
+6379,r003,All agencies -> Departments -> Department of Agriculture,All agencies,Departments,Department of Agriculture,,,3,6389.8,1268.2,5121.6,0.0
+6379,r004,All agencies -> Departments -> Department of Agriculture -> Agricultural Research Service,All agencies,Departments,Department of Agriculture,Agricultural Research Service,,4,740.2,740.2,0.0,0.0
+6379,r005,All agencies -> Departments -> Department of Agriculture -> Forest Service,All agencies,Departments,Department of Agriculture,Forest Service,,4,651.3,528.0,123.3,0.0
+6379,r006,All agencies -> Departments -> Department of Agriculture -> National Agricultural Statistics Service,All agencies,Departments,Department of Agriculture,National Agricultural Statistics Service,,4,4998.3,0.0,4998.3,0.0
+6379,r007,All agencies -> Departments -> Department of Commerce,All agencies,Departments,Department of Commerce,,,3,158281.0,148226.2,6458.9,3595.9
+6379,r008,All agencies -> Departments -> Department of Commerce -> National Institute of Standards and Technology,All agencies,Departments,Department of Commerce,National Institute of Standards and Technology,,4,146317.3,143465.4,196.8,2655.0
+6379,r009,All agencies -> Departments -> Department of Commerce -> National Oceanic and Atmospheric Administration,All agencies,Departments,Department of Commerce,National Oceanic and Atmospheric Administration,,4,5582.0,3721.0,1861.0,0.0
+6379,r010,All agencies -> Departments -> Department of Commerce -> U.S. Census Bureau,All agencies,Departments,Department of Commerce,U.S. Census Bureau,,4,6381.7,1039.8,4401.1,940.8
+6379,r011,All agencies -> Departments -> Department of Defense,All agencies,Departments,Department of Defense,,,3,2021857.6,1874998.1,3379.1,143480.4
+6379,r012,All agencies -> Departments -> Department of Defense -> Defense Advanced Research Projects Agency,All agencies,Departments,Department of Defense,Defense Advanced Research Projects Agency,,4,743624.5,666272.3,647.6,76704.6
+6379,r013,All agencies -> Departments -> Department of Defense -> Department of the Air Force,All agencies,Departments,Department of Defense,Department of the Air Force,,4,822963.7,811670.5,994.5,10298.8
+6379,r014,All agencies -> Departments -> Department of Defense -> Department of the Army,All agencies,Departments,Department of Defense,Department of the Army,,4,153389.2,121935.4,0.0,31453.8
+6379,r015,All agencies -> Departments -> Department of Defense -> Department of the Navy,All agencies,Departments,Department of Defense,Department of the Navy,,4,211401.7,193498.9,1666.4,16236.4
+6379,r016,All agencies -> Departments -> Department of Defense -> Other defense agencies,All agencies,Departments,Department of Defense,Other defense agencies,,4,90478.5,81621.0,70.6,8786.8
+6379,r017,All agencies -> Departments -> Department of Energy,All agencies,Departments,Department of Energy,,,3,761374.1,749105.5,1144.7,11123.9
+6379,r018,All agencies -> Departments -> Department of Energy -> Advanced Research Projects Agency&#8212;Energy,All agencies,Departments,Department of Energy,Advanced Research Projects Agency&#8212;Energy,,4,28152.0,28152.0,0.0,0.0
+6379,r019,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration,All agencies,Departments,Department of Energy,National Nuclear Security Administration,,4,692742.4,682565.8,1144.7,9031.8
+6379,r020,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration -> Defense Programs,All agencies,Departments,Department of Energy,National Nuclear Security Administration,Defense Programs,5,681075.8,681075.8,0.0,0.0
+6379,r021,All agencies -> Departments -> Department of Energy -> National Nuclear Security Administration -> Office of Defense Nuclear Nonproliferation,All agencies,Departments,Department of Energy,National Nuclear Security Administration,Office of Defense Nuclear Nonproliferation,5,11666.5,1490.0,1144.7,9031.8
+6379,r022,"All agencies -> Departments -> Department of Energy -> Office of Cybersecurity, Energy Security, and Emergency Response",All agencies,Departments,Department of Energy,"Office of Cybersecurity, Energy Security, and Emergency Response",,4,35759.0,35759.0,0.0,0.0
+6379,r023,All agencies -> Departments -> Department of Energy -> Office of Science,All agencies,Departments,Department of Energy,Office of Science,,4,4720.8,2628.7,0.0,2092.1
+6379,r024,All agencies -> Departments -> Department of Health and Human Services,All agencies,Departments,Department of Health and Human Services,,,3,187952.9,34988.8,152964.2,0.0
+6379,r025,All agencies -> Departments -> Department of Health and Human Services -> Agency for Healthcare Research and Quality,All agencies,Departments,Department of Health and Human Services,Agency for Healthcare Research and Quality,,4,43388.9,34988.8,8400.1,0.0
+6379,r026,All agencies -> Departments -> Department of Health and Human Services -> National Institutes of Health,All agencies,Departments,Department of Health and Human Services,National Institutes of Health,,4,144564.0,0.0,144564.0,0.0
+6379,r027,All agencies -> Departments -> Department of Homeland Security,All agencies,Departments,Department of Homeland Security,,,3,11438.3,11438.3,0.0,0.0
+6379,r028,All agencies -> Departments -> Department of Homeland Security -> Countering Weapons of Mass Destruction Office,All agencies,Departments,Department of Homeland Security,Countering Weapons of Mass Destruction Office,,4,8422.5,8422.5,0.0,0.0
+6379,r029,All agencies -> Departments -> Department of Homeland Security -> Science and Technology Directorate,All agencies,Departments,Department of Homeland Security,Science and Technology Directorate,,4,2870.8,2870.8,0.0,0.0
+6379,r030,All agencies -> Departments -> Department of Homeland Security -> U.S. Coast Guard,All agencies,Departments,Department of Homeland Security,U.S. Coast Guard,,4,145.1,145.1,0.0,0.0
+6379,r031,All agencies -> Departments -> Department of the Interior,All agencies,Departments,Department of the Interior,,,3,3051.9,3051.9,0.0,0.0
+6379,r032,All agencies -> Departments -> Department of the Interior -> Bureau of Ocean Energy Management,All agencies,Departments,Department of the Interior,Bureau of Ocean Energy Management,,4,3051.9,3051.9,0.0,0.0
+6379,r033,All agencies -> Departments -> Department of Justice,All agencies,Departments,Department of Justice,,,3,5485.4,4454.8,160.1,870.5
+6379,r034,All agencies -> Departments -> Department of Justice -> Office of Justice Programs,All agencies,Departments,Department of Justice,Office of Justice Programs,,4,5485.4,4454.8,160.1,870.5
+6379,r035,All agencies -> Departments -> Department of Transportation,All agencies,Departments,Department of Transportation,,,3,37039.1,32052.9,4986.2,0.0
+6379,r036,All agencies -> Departments -> Department of Transportation -> Federal Aviation Administration,All agencies,Departments,Department of Transportation,Federal Aviation Administration,,4,16494.3,11508.1,4986.2,0.0
+6379,r037,All agencies -> Departments -> Department of Transportation -> National Highway Traffic Safety Administration,All agencies,Departments,Department of Transportation,National Highway Traffic Safety Administration,,4,20235.2,20235.2,0.0,0.0
+6379,r038,All agencies -> Departments -> Department of Transportation -> Pipeline and Hazardous Materials Safety Administration,All agencies,Departments,Department of Transportation,Pipeline and Hazardous Materials Safety Administration,,4,309.6,309.6,0.0,0.0
+6379,r039,All agencies -> Other agencies,All agencies,Other agencies,,,,2,,,,
+6379,r040,All agencies -> Other agencies -> Administrative Office of the U.S. Courts,All agencies,Other agencies,Administrative Office of the U.S. Courts,,,3,5045.5,5045.5,0.0,0.0
+6379,r041,All agencies -> Other agencies -> Environmental Protection Agency,All agencies,Other agencies,Environmental Protection Agency,,,3,8775.0,4826.9,3132.7,815.4
+6379,r042,All agencies -> Other agencies -> Federal Communications Commission,All agencies,Other agencies,Federal Communications Commission,,,3,300.0,300.0,0.0,0.0
+6379,r043,All agencies -> Other agencies -> National Science Foundation,All agencies,Other agencies,National Science Foundation,,,3,180927.0,180617.0,310.0,0.0

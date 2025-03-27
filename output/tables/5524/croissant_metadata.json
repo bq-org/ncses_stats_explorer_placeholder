@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Respondents who correctly classified activities in vignettes as innovative or non-innovative in the pilot study, according to the reason the non-innovative activity was not innovative: 2019",
+  "identifier": "NCSES-5524",
+  "description": "Respondents who correctly classified activities in vignettes as innovative or non-innovative in the pilot study, according to the reason the non-innovative activity was not innovative: 2019",
+  "url": "https://example.org/datasets/ncses/tables/5524",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5524/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "reason_the_non_innovative_activity_was_not_innovative",
+      "description": "Reason The Non Innovative Activity Was Not Innovative",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "overall",
+      "description": "Overall",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "innovative",
+      "description": "Innovative",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "non_innovative",
+      "description": "Non Innovative",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Each vignette had two versions\u2014one version described an individual innovation and the other one did not. See appendix b for a complete listing of vignettes.",
+  "sources": "National Center for Science and Engineering Statistics, Individual Innovation Survey, 2019."
+}

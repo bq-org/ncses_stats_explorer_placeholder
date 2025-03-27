@@ -1,0 +1,228 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. R&D expenditures, by state, performing sector, and source of funds: 2020",
+  "identifier": "NCSES-8110",
+  "description": "U.S. R&D expenditures, by state, performing sector, and source of funds: 2020",
+  "url": "https://example.org/datasets/ncses/tables/8110",
+  "table_number": "10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8110/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state",
+      "description": "State hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "state_level_1, state_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "state_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_r_d",
+      "description": "All R D",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_rank",
+      "description": "R D Rank",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performer_source_of_funds_",
+      "description": "Performer Source Of Funds ",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal",
+      "description": "Federal",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ffrdcs_total",
+      "description": "Ffrdcs Total",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ffrdcs_federal",
+      "description": "Ffrdcs Federal",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ffrdcs_nonfederald",
+      "description": "Ffrdcs Nonfederald",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_total",
+      "description": "Business Total",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_own",
+      "description": "Business Own",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_paid_by_others_nonfederale",
+      "description": "Business Paid By Others Nonfederale",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_business_paid_by_others_federal",
+      "description": "Business Paid By Others Federal",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_higher_educationa_total",
+      "description": "Higher Educationa Total",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_higher_educationa_federal",
+      "description": "Higher Educationa Federal",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_higher_educationa_other_government",
+      "description": "Higher Educationa Other Government",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_higher_educationa_business",
+      "description": "Higher Educationa Business",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_higher_educationa_higher_education",
+      "description": "Higher Educationa Higher Education",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_higher_educationa_npo",
+      "description": "Higher Educationa Npo",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_higher_educationa_other",
+      "description": "Higher Educationa Other",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_npos_total",
+      "description": "Npos Total",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_state_internalb_total",
+      "description": "State Internalb Total",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_gdp",
+      "description": "Gdp",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_gdp_rank",
+      "description": "Gdp Rank",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_intensityc_percent",
+      "description": "R D Intensityc Percent",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_intensityc_rank",
+      "description": "R D Intensityc Rank",
+      "valueType": "string",
+      "unitText": "Millions of current dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Business R&D data refer to calendar years; the data for the other R&D performers refer to fiscal years but are used here as approximations to calendar year data.",
+  "sources": "National Center for Science and Engineering Statistics, National Patterns of R&D Resources (annual series). State GDP data are from the U.S. Bureau of Economic Analysis, https://www.bea.gov/data/gdp/gdp-state, accessed 23 October 2022."
+}

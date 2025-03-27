@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "AI-related S&E articles by coauthorship attribute, whole and fractional counting, by institution: 2003&#8211;22",
+  "identifier": "NCSES-10064",
+  "description": "AI-related S&E articles by coauthorship attribute, whole and fractional counting, by institution: 2003&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/10064",
+  "table_number": "SPBS-96",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10064/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "rank",
+      "description": "Rank",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "institution",
+      "description": "Institution",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "region",
+      "description": "Region",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "number_of_papers_whole_",
+      "description": "Number Of Papers Whole ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "number_of_papers_fractional_",
+      "description": "Number Of Papers Fractional ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "papers_involving_multiple_institutions_whole_",
+      "description": "Papers Involving Multiple Institutions Whole ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "papers_involving_only_domestic_institutions_whole_",
+      "description": "Papers Involving Only Domestic Institutions Whole ",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "papers_involving_international_institutions_whole_",
+      "description": "Papers Involving International Institutions Whole ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "AI article counts refer to publications from a selection of conference proceedings and peer-reviewed journals in S&E fields from Scopus that were classified as AI in the All Science Journal Classification. Articles are classified by their year of publication and are assigned to an institution on the basis of the institutional address(es) of the author(s) listed in the article. Statistics are presented for institutions within the top 100 most producing, based on full counting. The number of articles from the \"with domestic institutions only\" and \"with international institutions\" categories may not sum to the total article number. This is due to some coauthored publications having incomplete address information in the Scopus database. Those often cannot be reliably identified as international or domestic collaborations. They are in turn not included in either subcategory but are included in the number of articles in the \u201cwith multiple institutions\u201d category and counted toward the total number of articles.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed April 2023.Science and Engineering Indicators"
+}

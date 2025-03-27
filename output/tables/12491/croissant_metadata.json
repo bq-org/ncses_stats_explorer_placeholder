@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal facility R&D expenditures, by type of R&D: FY 2022",
+  "identifier": "NCSES-12491",
+  "description": "Federal facility R&D expenditures, by type of R&D: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/12491",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12491/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_agency_or_facility_b",
+      "description": "Agency or facility hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "6"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_agency_or_facility_b_level_1, _b_agency_or_facility_b_level_2, _b_agency_or_facility_b_level_3, _b_agency_or_facility_b_level_4, _b_agency_or_facility_b_level_5, _b_agency_or_facility_b_level_6"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_agency_or_facility_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_r_d_expenditures_all_r_d",
+      "description": "Total R D Expenditures All R D",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_r_d_expenditures_basic_research",
+      "description": "Total R D Expenditures Basic Research",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_r_d_expenditures_applied_research",
+      "description": "Total R D Expenditures Applied Research",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_r_d_expenditures_experimental_development",
+      "description": "Total R D Expenditures Experimental Development",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_funded_all_federal_r_d",
+      "description": "Federally Funded All Federal R D",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_funded_basic_research",
+      "description": "Federally Funded Basic Research",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_funded_applied_research",
+      "description": "Federally Funded Applied Research",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_funded_experimental_development",
+      "description": "Federally Funded Experimental Development",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederally_funded_all_nonfederal_r_d",
+      "description": "Nonfederally Funded All Nonfederal R D",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederally_funded_basic_research",
+      "description": "Nonfederally Funded Basic Research",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederally_funded_applied_research",
+      "description": "Nonfederally Funded Applied Research",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_nonfederally_funded_experimental_development",
+      "description": "Nonfederally Funded Experimental Development",
+      "valueType": "string",
+      "unitText": "Thousands of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Federal Facilities Research and Development Survey, FY 2022."
+}

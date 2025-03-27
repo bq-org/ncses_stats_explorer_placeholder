@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E articles with authors at federal agencies cited by granted U.S. patents, by article field: 2013\u201322",
+  "identifier": "NCSES-10573",
+  "description": "S&E articles with authors at federal agencies cited by granted U.S. patents, by article field: 2013\u201322",
+  "url": "https://example.org/datasets/ncses/tables/10573",
+  "table_number": "SINV-26",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10573/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "scientific_field",
+      "description": "Scientific field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "scientific_field_level_1, scientific_field_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "scientific_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022",
+      "description": "2022",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data are presented by calendar year. Taxonomy of Discipline (TOD) fields are used to classify articles. The TOD is a classification scheme developed by the National Science Foundation to suit its need for a unified scheme. Science-Metrix developed an alignment of its own classification scheme with the TOD and this alignment replaces the WebCASPAR classification that was used in the past to produce bibliometric data for the Science and Engineering Indicators reports. Journals are assigned to a unique TOD except for generalist journals, such as Science and Nature, for which articles are instead reclassified individually in TOD fields using an automated procedure based on machine-learning techniques. Citation counts are based on an 11-year window with a 5-year lag (e.g., citations for 2012 are references in Patent and Trademark Office patents issued in calendar year 2012 to articles published in 1997\u20132007). Annual totals may be lower than the sum of numbers presented by field because some articles have authors from multiple federal agencies.",
+  "sources": "Science-Metrix from data provided in Scopus (Elsevier) database, accessed May 2023.Science and Engineering Indicators"
+}

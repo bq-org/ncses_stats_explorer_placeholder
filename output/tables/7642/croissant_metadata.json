@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Respondent field of study self-coding rates: 2020 and 2021",
+  "identifier": "NCSES-7642",
+  "description": "Respondent field of study self-coding rates: 2020 and 2021",
+  "url": "https://example.org/datasets/ncses/tables/7642",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7642/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "fos_item",
+      "description": "FOS item hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "fos_item_level_1, fos_item_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "fos_item_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_sed_fos_codes_reported",
+      "description": "2020 Sed Fos Codes Reported",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_sed_fos_codes_self_coded",
+      "description": "2020 Sed Fos Codes Self Coded",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_sed_fos_codes_percent_self_coded",
+      "description": "2020 Sed Fos Codes Percent Self Coded",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_sed_cip_codes_reported",
+      "description": "2021 Sed Cip Codes Reported",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_sed_cip_codes_self_coded",
+      "description": "2021 Sed Cip Codes Self Coded",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_sed_cip_codes_percent_self_coded",
+      "description": "2021 Sed Cip Codes Percent Self Coded",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_change_reported",
+      "description": "Change Reported",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_change_self_coded",
+      "description": "Change Self Coded",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_change_percent_self_coded",
+      "description": "Change Percent Self Coded",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

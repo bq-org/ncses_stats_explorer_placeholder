@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Crosswalk of S&E fields for international higher education data, by selected region, country, or economy and field",
+  "identifier": "NCSES-1555",
+  "description": "Crosswalk of S&E fields for international higher education data, by selected region, country, or economy and field",
+  "url": "https://example.org/datasets/ncses/tables/1555",
+  "table_number": "T2-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1555/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "indicators_2020_",
+      "description": "Indicators 2020 ",
+      "valueType": "string",
+      "unitText": "List of fields"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "chinaa",
+      "description": "Chinaa",
+      "valueType": "string",
+      "unitText": "List of fields"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "oecd_and_eurostat_isced_1997_2012_and_earlier_",
+      "description": "Oecd And Eurostat Isced 1997 2012 And Earlier ",
+      "valueType": "string",
+      "unitText": "List of fields"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "oecd_and_eurostat_isced_f_2013_2013_and_later_",
+      "description": "Oecd And Eurostat Isced F 2013 2013 And Later ",
+      "valueType": "string",
+      "unitText": "List of fields"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "taiwan",
+      "description": "Taiwan",
+      "valueType": "string",
+      "unitText": "List of fields"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "Organisation for Economic Co-operation and Development (OECD), OECD.Stat; Eurostat, Education and training database; National Bureau of Statistics of China, China Statistical Yearbook (various years); Ministry of Education, Educational Statistics of the Republic of China (Taiwan) (various years). Science and Engineering Indicators"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Funds provided by nonprofit organizations to others for R&D, by type of agreement and type of nonprofit organization: FYs 2020&#9472;21",
+  "identifier": "NCSES-9803",
+  "description": "Funds provided by nonprofit organizations to others for R&D, by type of agreement and type of nonprofit organization: FYs 2020&#9472;21",
+  "url": "https://example.org/datasets/ncses/tables/9803",
+  "table_number": "7",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9803/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_type_of_agreement_b",
+      "description": "Type of agreement hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_type_of_agreement_b_level_1, _b_type_of_agreement_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_type_of_agreement_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_fy_2020_all_organizations_",
+      "description": "Type Of Nonprofit Organizationa Fy 2020 All Organizations ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_fy_2020_healthcare",
+      "description": "Type Of Nonprofit Organizationa Fy 2020 Healthcare",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_fy_2020_science_and_technology",
+      "description": "Type Of Nonprofit Organizationa Fy 2020 Science And Technology",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_fy_2020_other_nonprofit_organizations_",
+      "description": "Type Of Nonprofit Organizationa Fy 2020 Other Nonprofit Organizations ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_fy_2021_all_organizations_",
+      "description": "Type Of Nonprofit Organizationa Fy 2021 All Organizations ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_fy_2021_healthcare",
+      "description": "Type Of Nonprofit Organizationa Fy 2021 Healthcare",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_fy_2021_science_and_technology",
+      "description": "Type Of Nonprofit Organizationa Fy 2021 Science And Technology",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_nonprofit_organizationa_fy_2021_other_nonprofit_organizations_",
+      "description": "Type Of Nonprofit Organizationa Fy 2021 Other Nonprofit Organizations ",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "These data exclude nonprofit universities and colleges and federally funded research and development centers administered by nonprofit organizations. Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Nonprofit Research Activities FY 2021 module of the 2022 Annual Business Survey."
+}

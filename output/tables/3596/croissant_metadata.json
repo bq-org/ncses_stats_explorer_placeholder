@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for R&D, by type, and for operational system development: FYs 2015\u201318",
+  "identifier": "NCSES-3596",
+  "description": "Federal obligations for R&D, by type, and for operational system development: FYs 2015\u201318",
+  "url": "https://example.org/datasets/ncses/tables/3596",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3596/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_r_d_performer_and_field",
+      "description": "Type of R&D, performer, and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_r_d_performer_and_field_level_1, type_of_r_d_performer_and_field_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_r_d_performer_and_field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percent_change_2015_16",
+      "description": "Percent Change 2015 16",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percent_change_2016_17",
+      "description": "Percent Change 2016 17",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percent_change_2017_18",
+      "description": "Percent Change 2017 18",
+      "valueType": "string",
+      "unitText": "Millions of current dollars and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Because of rounding, detail may not add to total. Percentages are computed using actual dollars reported.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Labor force status of college graduates, by broad occupation, race, and ethnicity: 2021",
+  "identifier": "NCSES-7803",
+  "description": "Labor force status of college graduates, by broad occupation, race, and ethnicity: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7803",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7803/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_labor_force_status_and_characteristic_b",
+      "description": "Labor force status and characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_labor_force_status_and_characteristic_b_level_1, _b_labor_force_status_and_characteristic_b_level_2, _b_labor_force_status_and_characteristic_b_level_3, _b_labor_force_status_and_characteristic_b_level_4, _b_labor_force_status_and_characteristic_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_labor_force_status_and_characteristic_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_broad_occupation_total",
+      "description": "Broad Occupation Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_broad_occupation_s_e",
+      "description": "Broad Occupation S E",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_broad_occupation_s_e_related",
+      "description": "Broad Occupation S E Related",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_broad_occupation_non_s_e",
+      "description": "Broad Occupation Non S E",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_asian",
+      "description": "Race And Ethnicity Asian",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_black_or_african_american",
+      "description": "Race And Ethnicity Black Or African American",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_white",
+      "description": "Race And Ethnicity White",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_aian_nhpi_multiple_race",
+      "description": "Race And Ethnicity Aian Nhpi Multiple Race",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_race_and_ethnicity_hispanic_or_latinoa_",
+      "description": "Race And Ethnicity Hispanic Or Latinoa ",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Survey respondents could report multiple reasons for not working or for working part time. Full-time employment is at least 35 hours per typical week of the survey reference year; part-time employment is less than 35 hours per typical week of the survey reference year. Not in the labor force are those not currently employed, who have not recently been laid off, and who are not actively searching for work. Unemployed are those currently not employed and who have actively searched for work in the last 4 weeks or were recently laid off from a job.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2021."
+}

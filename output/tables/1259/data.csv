@@ -1,0 +1,11 @@
+table_id,row_id,source_of_support_and_citizenship_full_path,source_of_support_and_citizenship_level_1,source_of_support_and_citizenship_level_2,source_of_support_and_citizenship_level_3,source_of_support_and_citizenship_hierarchy_depth,field_total,field_university_administered,field_nonprofit_administered,field_industry_administered
+1259,r001,All postdocs,All postdocs,,,1,2975,1296,788,891
+1259,r002,All postdocs -> Federal support,All postdocs,Federal support,,2,2544,1135,779,630
+1259,r003,All postdocs -> Federal support -> U.S. citizens and permanent residents,All postdocs,Federal support,U.S. citizens and permanent residents,3,1089,392,319,378
+1259,r004,All postdocs -> Federal support -> Temporary visa holders,All postdocs,Federal support,Temporary visa holders,3,1455,743,460,252
+1259,r005,All postdocs -> Nonfederal support,All postdocs,Nonfederal support,,2,116,101,9,6
+1259,r006,All postdocs -> Nonfederal support -> U.S. citizens and permanent residents,All postdocs,Nonfederal support,U.S. citizens and permanent residents,3,41,34,3,4
+1259,r007,All postdocs -> Nonfederal support -> Temporary visa holders,All postdocs,Nonfederal support,Temporary visa holders,3,75,67,6,2
+1259,r008,All postdocs -> Unknown support,All postdocs,Unknown support,,2,315,60,0,255
+1259,r009,All postdocs -> Unknown support -> U.S. citizens and permanent residents,All postdocs,Unknown support,U.S. citizens and permanent residents,3,211,32,0,179
+1259,r010,All postdocs -> Unknown support -> Temporary visa holders,All postdocs,Unknown support,Temporary visa holders,3,104,28,0,76

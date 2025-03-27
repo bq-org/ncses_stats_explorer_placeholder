@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "OECD classification of industries, by R&D intensity category",
+  "identifier": "NCSES-10955",
+  "description": "OECD classification of industries, by R&D intensity category",
+  "url": "https://example.org/datasets/ncses/tables/10955",
+  "table_number": "SAKTI-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10955/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "manufacturing_characteristic",
+      "description": "Manufacturing hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "manufacturing_level_1, manufacturing_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "R&D intensity is measured as the ratio of R&D expenditures to value-added output of industry. Industries are classified according to ISIC, Rev.4.",
+  "sources": "Galindo-Rueda F, Verger F, 2016, OECD Taxonomy of Economic Activities Based on R&D Intensity, OECD Science, Technology and Industry Working Papers, No. 2016/04, available at https://doi.org/10.1787/5jlv73sqqp8r-en, accessed 15 February 2024.Science and Engineering Indicators"
+}

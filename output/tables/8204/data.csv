@@ -1,0 +1,40 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_level_3,characteristic_level_4,characteristic_hierarchy_depth,field_all_employed_number,field_all_employed_se,field_u_s_citizen_total_number,field_u_s_citizen_total_se,field_u_s_citizen_native_born_number,field_u_s_citizen_native_born_se,field_u_s_citizen_naturalized_number,field_u_s_citizen_naturalized_se,field_non_u_s_citizen_total_number,field_non_u_s_citizen_total_se,field_non_u_s_citizen_permanent_resident_number,field_non_u_s_citizen_permanent_resident_se,field_non_u_s_citizen_temporary_resident_number,field_non_u_s_citizen_temporary_resident_se
+8204,r001,Doctorate recipient,Doctorate recipient,,,,1,872100,2425,746850,2200,554050,1850,192800,1675,125250,1425,84250,1300,40950,825
+8204,r002,Doctorate recipient -> Sex,Doctorate recipient,Sex,,,2,,,,,,,,,,,,,,
+8204,r003,Doctorate recipient -> Sex -> Male,Doctorate recipient,Sex,Male,,3,543550,2350,457900,2200,325300,1650,132550,1575,85700,1275,57750,1200,27950,725
+8204,r004,Doctorate recipient -> Sex -> Female,Doctorate recipient,Sex,Female,,3,328500,1250,288950,1250,228750,1300,60200,1075,39550,725,26500,675,13050,525
+8204,r005,Doctorate recipient -> Ethnicity,Doctorate recipient,Ethnicity,,,2,,,,,,,,,,,,,,
+8204,r006,Doctorate recipient -> Ethnicity -> Hispanic or Latino<sup>a</sup>,Doctorate recipient,Ethnicity,Hispanic or Latino<sup>a</sup>,,3,40100,475,34350,500,22100,425,12250,350,5800,325,3800,275,2000,200
+8204,r007,Doctorate recipient -> Ethnicity -> Not Hispanic or Latino<sup>b</sup>,Doctorate recipient,Ethnicity,Not Hispanic or Latino<sup>b</sup>,,3,,,,,,,,,,,,,,
+8204,r008,Doctorate recipient -> Ethnicity -> Not Hispanic or Latino<sup>b</sup> -> American Indian or Alaska Native,Doctorate recipient,Ethnicity,Not Hispanic or Latino<sup>b</sup>,American Indian or Alaska Native,4,1400,125,1350,125,1250,125,50,50,,,,,,
+8204,r009,Doctorate recipient -> Ethnicity -> Not Hispanic or Latino<sup>b</sup> -> Asian,Doctorate recipient,Ethnicity,Not Hispanic or Latino<sup>b</sup>,Asian,4,219800,1600,131550,1425,20750,650,110800,1450,88250,1200,56900,1050,31350,725
+8204,r010,Doctorate recipient -> Ethnicity -> Not Hispanic or Latino<sup>b</sup> -> Black or African American,Doctorate recipient,Ethnicity,Not Hispanic or Latino<sup>b</sup>,Black or African American,4,31800,475,28300,475,19100,450,9200,350,3500,250,2450,200,1100,150
+8204,r011,Doctorate recipient -> Ethnicity -> Not Hispanic or Latino<sup>b</sup> -> White,Doctorate recipient,Ethnicity,Not Hispanic or Latino<sup>b</sup>,White,4,562950,2075,536750,2150,478500,2050,58250,1075,26200,750,20200,700,6000,450
+8204,r012,Doctorate recipient -> Ethnicity -> Not Hispanic or Latino<sup>b</sup> -> Other race<sup>c</sup>,Doctorate recipient,Ethnicity,Not Hispanic or Latino<sup>b</sup>,Other race<sup>c</sup>,4,16000,575,14600,550,12350,500,2200,250,1450,225,900,200,550,175
+8204,r013,Doctorate recipient -> Age,Doctorate recipient,Age,,,2,,,,,,,,,,,,,,
+8204,r014,Doctorate recipient -> Age -> Under 35,Doctorate recipient,Age,Under 35,,3,99200,925,65450,850,58700,775,6750,425,33750,725,11500,525,22200,600
+8204,r015,Doctorate recipient -> Age -> 35&#8211;39,Doctorate recipient,Age,35&#8211;39,,3,130150,1225,91900,1150,77000,925,14900,625,38200,850,26550,825,11650,525
+8204,r016,Doctorate recipient -> Age -> 40&#8211;44,Doctorate recipient,Age,40&#8211;44,,3,127550,1400,104000,1200,74000,1025,30050,750,23550,775,19650,725,3850,375
+8204,r017,Doctorate recipient -> Age -> 45&#8211;49,Doctorate recipient,Age,45&#8211;49,,3,111200,1250,96450,1250,63800,975,32650,825,14750,725,13150,675,1650,250
+8204,r018,Doctorate recipient -> Age -> 50&#8211;54,Doctorate recipient,Age,50&#8211;54,,3,104550,1225,97700,1250,66700,1000,31000,825,6850,475,6050,475,750,175
+8204,r019,Doctorate recipient -> Age -> 55&#8211;59,Doctorate recipient,Age,55&#8211;59,,3,98950,1375,95100,1350,63050,1050,32050,900,3850,375,3450,375,400,100
+8204,r020,Doctorate recipient -> Age -> 60&#8211;64,Doctorate recipient,Age,60&#8211;64,,3,86450,1375,84150,1375,61200,1100,22950,750,2300,300,2050,275,S,S
+8204,r021,Doctorate recipient -> Age -> 65&#8211;75,Doctorate recipient,Age,65&#8211;75,,3,114100,1575,112100,1575,89650,1450,22450,825,2000,275,1850,250,S,S
+8204,r022,Doctorate recipient -> Years since doctorate,Doctorate recipient,Years since doctorate,,,2,,,,,,,,,,,,,,
+8204,r023,Doctorate recipient -> Years since doctorate -> &#8804; 5,Doctorate recipient,Years since doctorate,&#8804; 5,,3,141750,600,94650,700,83100,600,11550,425,47100,700,17650,575,29450,650
+8204,r024,Doctorate recipient -> Years since doctorate -> 6&#8211;10,Doctorate recipient,Years since doctorate,6&#8211;10,,3,159000,975,116600,950,93900,975,22700,800,42400,875,33900,825,8500,525
+8204,r025,Doctorate recipient -> Years since doctorate -> 11&#8211;15,Doctorate recipient,Years since doctorate,11&#8211;15,,3,137450,875,117400,1000,79100,900,38250,875,20100,725,18400,700,1700,250
+8204,r026,Doctorate recipient -> Years since doctorate -> 16&#8211;20,Doctorate recipient,Years since doctorate,16&#8211;20,,3,108850,825,101500,900,67850,875,33600,775,7350,575,6900,550,450,150
+8204,r027,Doctorate recipient -> Years since doctorate -> 21&#8211;25,Doctorate recipient,Years since doctorate,21&#8211;25,,3,104600,950,100650,950,68200,1000,32450,950,3950,375,3450,350,450,150
+8204,r028,Doctorate recipient -> Years since doctorate -> > 25,Doctorate recipient,Years since doctorate,> 25,,3,220400,1675,216100,1650,161900,1650,54200,1200,4300,375,3900,375,400,175
+8204,r029,Doctorate recipient -> Place of birth,Doctorate recipient,Place of birth,,,2,,,,,,,,,,,,,,
+8204,r030,Doctorate recipient -> Place of birth -> United States,Doctorate recipient,Place of birth,United States,,3,547750,1750,546950,1725,545700,1725,1200,200,800,150,450,125,350,100
+8204,r031,Doctorate recipient -> Place of birth -> Asia,Doctorate recipient,Place of birth,Asia,,3,229750,1750,132750,1575,3800,400,128950,1575,97000,1275,63650,1175,33400,775
+8204,r032,Doctorate recipient -> Place of birth -> Europe<sup>d</sup>,Doctorate recipient,Place of birth,Europe<sup>d</sup>,,3,44650,725,32650,725,2250,275,30400,750,12000,525,9050,500,2950,250
+8204,r033,Doctorate recipient -> Place of birth -> North America<sup>e</sup>,Doctorate recipient,Place of birth,North America<sup>e</sup>,,3,8650,500,5300,375,800,175,4500,350,3350,325,2700,300,600,150
+8204,r034,Doctorate recipient -> Place of birth -> Central America<sup>f</sup>,Doctorate recipient,Place of birth,Central America<sup>f</sup>,,3,5800,325,4150,250,350,100,3800,225,1700,200,1200,175,450,100
+8204,r035,Doctorate recipient -> Place of birth -> Caribbean,Doctorate recipient,Place of birth,Caribbean,,3,3950,275,3250,250,0.05,0.05,3200,250,700,150,500,125,200,75
+8204,r036,Doctorate recipient -> Place of birth -> South America,Doctorate recipient,Place of birth,South America,,3,12050,475,8350,400,450,175,7900,350,3700,250,2350,200,1350,150
+8204,r037,Doctorate recipient -> Place of birth -> Africa,Doctorate recipient,Place of birth,Africa,,3,16150,450,11650,400,550,175,11100,375,4500,325,3250,275,1250,175
+8204,r038,Doctorate recipient -> Place of birth -> Oceania,Doctorate recipient,Place of birth,Oceania,,3,2200,250,1300,200,100,50,1200,200,900,175,750,150,,
+8204,r039,Doctorate recipient -> Place of birth -> Unknown,Doctorate recipient,Place of birth,Unknown,,3,1150,250,550,175,,,500,175,600,175,400,150,200,125

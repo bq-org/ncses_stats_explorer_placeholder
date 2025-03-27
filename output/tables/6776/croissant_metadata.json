@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Five-class job satisfaction latent class analysis solution with three response options, by selected years: 2015, 2017, and 2019",
+  "identifier": "NCSES-6776",
+  "description": "Five-class job satisfaction latent class analysis solution with three response options, by selected years: 2015, 2017, and 2019",
+  "url": "https://example.org/datasets/ncses/tables/6776",
+  "table_number": "6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6776/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "class_prevalence_2015_2017_2019",
+      "description": "Class (Prevalence: 2015, 2017, 2019) hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "class_prevalence_2015_2017_2019_level_1, class_prevalence_2015_2017_2019_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "class_prevalence_2015_2017_2019_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_very_satisfied_2015",
+      "description": "Response Very Satisfied 2015",
+      "valueType": "string",
+      "unitText": "Number, percent, and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_very_satisfied_2017",
+      "description": "Response Very Satisfied 2017",
+      "valueType": "string",
+      "unitText": "Number, percent, and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_very_satisfied_2019",
+      "description": "Response Very Satisfied 2019",
+      "valueType": "string",
+      "unitText": "Number, percent, and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_somewhat_satisfied_2015",
+      "description": "Response Somewhat Satisfied 2015",
+      "valueType": "string",
+      "unitText": "Number, percent, and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_somewhat_satisfied_2017",
+      "description": "Response Somewhat Satisfied 2017",
+      "valueType": "string",
+      "unitText": "Number, percent, and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_somewhat_satisfied_2019",
+      "description": "Response Somewhat Satisfied 2019",
+      "valueType": "string",
+      "unitText": "Number, percent, and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_dissatisfied_2015",
+      "description": "Response Dissatisfied 2015",
+      "valueType": "string",
+      "unitText": "Number, percent, and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_dissatisfied_2017",
+      "description": "Response Dissatisfied 2017",
+      "valueType": "string",
+      "unitText": "Number, percent, and probability"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_response_dissatisfied_2019",
+      "description": "Response Dissatisfied 2019",
+      "valueType": "string",
+      "unitText": "Number, percent, and probability"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Probabilities may not sum to 1.000 due to rounding. Response probabilities greater than or equal to 0.500 are considered salient and are represented in bold. Response probabilities more than twice as large as the next largest probability for that item for a specific year are highlighted in blue.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2015, 2017, and 2019."
+}

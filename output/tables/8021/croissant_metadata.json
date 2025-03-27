@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total and federally financed higher education R&D expenditures passed through to subrecipients, by state, institutional control, and institution: FY 2021",
+  "identifier": "NCSES-8021",
+  "description": "Total and federally financed higher education R&D expenditures passed through to subrecipients, by state, institutional control, and institution: FY 2021",
+  "url": "https://example.org/datasets/ncses/tables/8021",
+  "table_number": "77",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8021/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_institutional_control_and_institution_b",
+      "description": "State, institutional control, and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_institutional_control_and_institution_b_level_1, _b_state_institutional_control_and_institution_b_level_2, _b_state_institutional_control_and_institution_b_level_3, _b_state_institutional_control_and_institution_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_institutional_control_and_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_all_r_d_expenditures_passed_through",
+      "description": "Total All R D Expenditures Passed Through",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_to_higher_education_subrecipients",
+      "description": "Total To Higher Education Subrecipients",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_to_businesses",
+      "description": "Total To Businesses",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_to_nonprofit_organizations",
+      "description": "Total To Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_to_other_subrecipients",
+      "description": "Total To Other Subrecipients",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_all_r_d_expenditures_passed_through",
+      "description": "Federally Financed All R D Expenditures Passed Through",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_to_higher_education_subrecipients",
+      "description": "Federally Financed To Higher Education Subrecipients",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_to_businesses",
+      "description": "Federally Financed To Businesses",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_to_nonprofit_organizations",
+      "description": "Federally Financed To Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_to_other_subrecipients",
+      "description": "Federally Financed To Other Subrecipients",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table includes only institutions reporting $1 million or more in total R&D expenditures in 2020. Institutions reporting less than $1 million in total R&D expenditures in 2020 completed a shorter version of the survey form in FY 2021, and that form requested R&D expenditures passed through only to higher education institutions. For a list of R&D expenditures passed through to higher education institutions at institutions completing the shorter version of the survey, see table 85.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2021."
+}

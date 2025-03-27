@@ -1,0 +1,112 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Location of baccalaureate-origin institution for doctorate recipients, by citizenship and field of study: 1999 and 2019",
+  "identifier": "NCSES-2787",
+  "description": "Location of baccalaureate-origin institution for doctorate recipients, by citizenship and field of study: 1999 and 2019",
+  "url": "https://example.org/datasets/ncses/tables/2787",
+  "table_number": "C",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2787/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "location_of_baccalaureate_origin_institution",
+      "description": "Location of baccalaureate-origin institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "location_of_baccalaureate_origin_institution_level_1, location_of_baccalaureate_origin_institution_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "location_of_baccalaureate_origin_institution_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_s_e_1999",
+      "description": "U S Citizens And Permanent Residents S E 1999",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_s_e_2019",
+      "description": "U S Citizens And Permanent Residents S E 2019",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_non_s_e_1999",
+      "description": "U S Citizens And Permanent Residents Non S E 1999",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_citizens_and_permanent_residents_non_s_e_2019",
+      "description": "U S Citizens And Permanent Residents Non S E 2019",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holders_s_e_1999",
+      "description": "Temporary Visa Holders S E 1999",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holders_s_e_2019",
+      "description": "Temporary Visa Holders S E 2019",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holders_non_s_e_1999",
+      "description": "Temporary Visa Holders Non S E 1999",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_temporary_visa_holders_non_s_e_2019",
+      "description": "Temporary Visa Holders Non S E 2019",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Excludes respondents who did not report citizenship.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates, 2019."
+}

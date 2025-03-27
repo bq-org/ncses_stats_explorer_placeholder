@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "High school graduates who earned Carnegie credits in any STEM course, by student sex and race or ethnicity: 1990\u20132019",
+  "identifier": "NCSES-9450",
+  "description": "High school graduates who earned Carnegie credits in any STEM course, by student sex and race or ethnicity: 1990\u20132019",
+  "url": "https://example.org/datasets/ncses/tables/9450",
+  "table_number": "SK12-11",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9450/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2, characteristic_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1990",
+      "description": "1990",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000",
+      "description": "2000",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2009",
+      "description": "2009",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Hispanic may be any race; race categories exclude Hispanic origin. Black includes African American, Hispanic includes Latino, and Pacific Islander includes Native Hawaiian. High School Transcript Study (HSTS) racial or ethnic group trend reporting does not include American Indian or Alaska Native or Other categories. One Carnegie credit is defined as 120 hours of class instruction over the course of a secondary school year.",
+  "sources": "Department of Education, Institute of Education Sciences, National Center for Education Statistics, National Assessment of Educational Progress HSTS, 1990, 2000, 2009, and 2019.Science and Engineering Indicators"
+}

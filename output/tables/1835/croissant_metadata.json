@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "S&E research portfolios of selected region, country, or economy, by field: 2018",
+  "identifier": "NCSES-1835",
+  "description": "S&E research portfolios of selected region, country, or economy, by field: 2018",
+  "url": "https://example.org/datasets/ncses/tables/1835",
+  "table_number": "S5a-17",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1835/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_level_1, field_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_path",
+      "description": "Full Path",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_1",
+      "description": "Level 1",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_2",
+      "description": "Level 2",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hierarchy_depth",
+      "description": "Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_world",
+      "description": "World",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_united_states",
+      "description": "United States",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_eu",
+      "description": "Eu",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_china",
+      "description": "China",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_japan",
+      "description": "Japan",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_india",
+      "description": "India",
+      "valueType": "string",
+      "unitText": "Fractional count, percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Articles refer to publications from a selection of peer-reviewed journals and conference proceedings in science and engineering fields from Scopus. Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) of the author(s) listed in the article. Articles are credited on a fractional-count basis (i.e., for articles from multiple countries, each country receives fractional credit on the basis of the proportion of its participating authors). Percentages may not add to 100% because of rounding. Data are not directly comparable to Science and Engineering Indicators 2018; see Technical Appendix section on data filters. See Table S5a-2 through Table S5a-16 for source data. See Table S5a-1 for regions, countries, and economies included in the EU.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed June 2019. Science and Engineering Indicators"
+}

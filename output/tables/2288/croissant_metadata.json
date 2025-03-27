@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Respondent characteristics: 2018",
+  "identifier": "NCSES-2288",
+  "description": "Respondent characteristics: 2018",
+  "url": "https://example.org/datasets/ncses/tables/2288",
+  "table_number": "S7-39",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2288/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_respondents_to_gss_science_questions_all_adults_n_1_175_",
+      "description": "Respondents To Gss Science Questions All Adults N 1 175 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_respondents_to_gss_science_questions_male_n_485_",
+      "description": "Respondents To Gss Science Questions Male N 485 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_respondents_to_gss_science_questions_female_n_690_",
+      "description": "Respondents To Gss Science Questions Female N 690 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_respondents_to_the_2018_gss_all_adults_n_2_348_",
+      "description": "All Respondents To The 2018 Gss All Adults N 2 348 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_respondents_to_the_2018_gss_male_n_1_052_",
+      "description": "All Respondents To The 2018 Gss Male N 1 052 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_respondents_to_the_2018_gss_female_n_1_296_",
+      "description": "All Respondents To The 2018 Gss Female N 1 296 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "NORC at the University of Chicago, GSS (2018).Science and Engineering Indicators"
+}

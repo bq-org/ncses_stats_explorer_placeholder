@@ -1,0 +1,22 @@
+table_id,row_id,_b_transferred_from_agency_b_full_path,_b_transferred_from_agency_b_level_1,_b_transferred_from_agency_b_level_2,_b_transferred_from_agency_b_level_3,_b_transferred_from_agency_b_hierarchy_depth,field_total_transferred,field_transferred_to_agency_dhs,field_transferred_to_agency_doc,field_transferred_to_agency_dod,field_transferred_to_agency_doe,field_transferred_to_agency_doi,field_transferred_to_agency_doj,field_transferred_to_agency_dol,field_transferred_to_agency_dot,field_transferred_to_agency_ed,field_transferred_to_agency_hhs_,field_transferred_to_agency_nasa,field_transferred_to_agency_nsf,field_transferred_to_agency_usda,field_transferred_to_agency_va,field_transferred_to_agency_othera
+10809,r001,All agencies,All agencies,,,1,31387117,7092,83257,29475588,834179,171737,6062,32832,10209,862,49217,119656,42761,37550,14419,501695
+10809,r002,All agencies -> Departments,All agencies,Departments,,2,,,,,,,,,,,,,,,,
+10809,r003,All agencies -> Departments -> Department of Agriculture,All agencies,Departments,Department of Agriculture,3,19624,0,0,96,6956,837,0,0,0,0,0.05,0,0,11735,0,0
+10809,r004,All agencies -> Departments -> Department of Commerce,All agencies,Departments,Department of Commerce,3,17838,0,1320,8792,223,395,0,0,2,0,0,3633,2631,99,0,744
+10809,r005,All agencies -> Departments -> Department of Defense,All agencies,Departments,Department of Defense,3,4605911,6177,42408,3492592,571267,6985,2450,5,5461,862,15376,100216,9821,21152,123,331017
+10809,r006,All agencies -> Departments -> Department of Energy,All agencies,Departments,Department of Energy,3,28922,0,2586,10732,16,4239,175,166,0,0,476,220,4284,0,0,6027
+10809,r007,All agencies -> Departments -> Department of Health and Human Services,All agencies,Departments,Department of Health and Human Services,3,25979110,366,4663,25742936,15131,121216,0,0,0,0,1829,8383,16034,449,14296,53808
+10809,r008,All agencies -> Departments -> Department of Homeland Security,All agencies,Departments,Department of Homeland Security,3,171870,549,0,90999,19496,9183,2929,0,0,0,0,1599,2397,0,0,44719
+10809,r009,All agencies -> Departments -> Department of the Interior,All agencies,Departments,Department of the Interior,3,23108,0,8194,3205,4122,0,0,0,0,0,0,5015,1989,465,0,118
+10809,r010,All agencies -> Departments -> Department of Justice,All agencies,Departments,Department of Justice,3,3596,0,2248,549,0,0,500,0,0,0,0,0,300,0,0,0
+10809,r011,All agencies -> Departments -> Department of State,All agencies,Departments,Department of State,3,58000,0,0,10000,0,0,0,0,0,0,28000,0,0,0,0,20000
+10809,r012,All agencies -> Departments -> Department of Transportation,All agencies,Departments,Department of Transportation,3,19225,0,4751,5168,1215,1691,8,0,3594,0,0,471,0,1251,0,1076
+10809,r013,All agencies -> Departments -> Department of the Treasury,All agencies,Departments,Department of the Treasury,3,2500,0,500,2000,0,0,0,0,0,0,0,0,0,0,0,0
+10809,r014,All agencies -> Departments -> Department of Veterans Affairs,All agencies,Departments,Department of Veterans Affairs,3,2350,0,135,2015,0,0,0,0,0,0,200,0,0,0,0,0
+10809,r015,All agencies -> Other agencies,All agencies,Other agencies,,2,,,,,,,,,,,,,,,,
+10809,r016,All agencies -> Other agencies -> Agency for International Development,All agencies,Other agencies,Agency for International Development,3,11888,0,811,2900,0,0,0,0,0,0,1977,0,0,500,0,5700
+10809,r017,All agencies -> Other agencies -> Environmental Protection Agency,All agencies,Other agencies,Environmental Protection Agency,3,23490,0,0,30,21212,518,0,0,0,0,1160,86,0,39,0,445
+10809,r018,All agencies -> Other agencies -> National Aeronautics and Space Administration,All agencies,Other agencies,National Aeronautics and Space Administration,3,360563,0,10413,101093,193645,24818,0,0,1152,0,0,0,5252,1859,0,22331
+10809,r019,All agencies -> Other agencies -> National Science Foundation,All agencies,Other agencies,National Science Foundation,3,10617,0,4491,2482,898,1588,0,0,0,0,75,0,0,0,0,1083
+10809,r020,All agencies -> Other agencies -> Nuclear Regulatory Commission,All agencies,Other agencies,Nuclear Regulatory Commission,3,1038,0,738,0,0,267,0,0,0,0,0,34,0,0,0,0
+10809,r021,All agencies -> Other agencies -> Social Security Administration,All agencies,Other agencies,Social Security Administration,3,47465,0,0,0,0,0,0,32661,0,0,123,0,54,0,0,14627

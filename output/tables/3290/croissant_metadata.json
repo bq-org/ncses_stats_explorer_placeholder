@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Definite postgraduation plans of U.S. citizen and permanent resident S&E doctorate recipients, by selected field, sex, and planned location: 2019",
+  "identifier": "NCSES-3290",
+  "description": "Definite postgraduation plans of U.S. citizen and permanent resident S&E doctorate recipients, by selected field, sex, and planned location: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3290",
+  "table_number": "8-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3290/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "major_field_and_sex",
+      "description": "Major field and sex hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "major_field_and_sex_level_1, major_field_and_sex_level_2, major_field_and_sex_level_3, major_field_and_sex_level_4, major_field_and_sex_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "major_field_and_sex_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_definite_plans_number_",
+      "description": "All Definite Plans Number ",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_definite_plans",
+      "description": "All Definite Plans",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_plans_to_stay_in_the_united_states_all_u_s_plans",
+      "description": "Plans To Stay In The United States All U S Plans",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_plans_to_stay_in_the_united_states_academic_employment",
+      "description": "Plans To Stay In The United States Academic Employment",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_plans_to_stay_in_the_united_states_industry_employment",
+      "description": "Plans To Stay In The United States Industry Employment",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_plans_to_stay_in_the_united_states_postdoctoral_study",
+      "description": "Plans To Stay In The United States Postdoctoral Study",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_plans_to_stay_in_the_united_states_othera",
+      "description": "Plans To Stay In The United States Othera",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_plans_to_go_abroad",
+      "description": "Plans To Go Abroad",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_unknown",
+      "description": "Location Unknown",
+      "valueType": "string",
+      "unitText": "Percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Includes all U.S. citizen and permanent resident S&E doctorate recipients; temporary visa holders are excluded. American Indian or Alaska Native doctorate recipients with unknown or refused citizenship status are counted as U.S. citizens and thus are included. Data in this table refer to research doctorates only and differ from doctoral degree data in this report that are based on the Integrated Postsecondary Education Data System Completions Survey. The greatest differences are in psychology, education, and medical or other health sciences, which are fields with many professional doctorates. American Indian or Alaska Native doctorate recipients with unknown or refused citizenship status are counted as U.S. citizens and thus are included. Definite postgraduate plans are defined as Returning to, or continuing in, predoctoral employment or Have signed contract or made definite commitment for a \"postdoc\" or other work by doctoral degree recipients who responded to the question, What is the status of your postgraduate plans (in the next year)? In 2019, 66.0% of U.S. citizen and permanent resident S&E doctorate recipients had definite plans.",
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the 2019 Survey of Earned Doctorates."
+}

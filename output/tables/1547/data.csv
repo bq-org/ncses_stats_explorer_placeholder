@@ -1,0 +1,19 @@
+table_id,row_id,demographic_characteristic_full_path,demographic_characteristic_level_1,demographic_characteristic_level_2,demographic_characteristic_level_3,demographic_characteristic_hierarchy_depth,field_worked_since_leaving_high_school
+1547,r001,Total,Total,,,1,85.1
+1547,r002,Total -> Sex,Total,Sex,,2,
+1547,r003,Total -> Sex -> Male,Total,Sex,Male,3,86.7
+1547,r004,Total -> Sex -> Female,Total,Sex,Female,3,82.8
+1547,r005,Total -> Race or ethnicity<sup>a</sup>,Total,Race or ethnicity<sup>a</sup>,,2,
+1547,r006,Total -> Race or ethnicity<sup>a</sup> -> White,Total,Race or ethnicity<sup>a</sup>,White,3,87.3
+1547,r007,Total -> Race or ethnicity<sup>a</sup> -> Black or African American,Total,Race or ethnicity<sup>a</sup>,Black or African American,3,80.1
+1547,r008,Total -> Race or ethnicity<sup>a</sup> -> Hispanic or Latino,Total,Race or ethnicity<sup>a</sup>,Hispanic or Latino,3,82.3
+1547,r009,Total -> Race or ethnicity<sup>a</sup> -> Asian,Total,Race or ethnicity<sup>a</sup>,Asian,3,82.0
+1547,r010,Total -> Race or ethnicity<sup>a</sup> -> Other,Total,Race or ethnicity<sup>a</sup>,Other,3,91.2
+1547,r011,Total -> Highest level of parents' education<sup>b</sup>,Total,Highest level of parents' education<sup>b</sup>,,2,
+1547,r012,Total -> Highest level of parents' education<sup>b</sup> -> High school or less,Total,Highest level of parents' education<sup>b</sup>,High school or less,3,83.1
+1547,r013,Total -> Highest level of parents' education<sup>b</sup> -> Sub-baccalaureate certificate or associate&#8217;s degree,Total,Highest level of parents' education<sup>b</sup>,Sub-baccalaureate certificate or associate&#8217;s degree,3,87.6
+1547,r014,Total -> Highest level of parents' education<sup>b</sup> -> Bachelor's or higher degree,Total,Highest level of parents' education<sup>b</sup>,Bachelor's or higher degree,3,88.5
+1547,r015,Total -> Family socioeconomic status in quintile,Total,Family socioeconomic status in quintile,,2,
+1547,r016,Total -> Family socioeconomic status in quintile -> Lowest fifth,Total,Family socioeconomic status in quintile,Lowest fifth,3,82.5
+1547,r017,Total -> Family socioeconomic status in quintile -> Middle three-fifths,Total,Family socioeconomic status in quintile,Middle three-fifths,3,86.3
+1547,r018,Total -> Family socioeconomic status in quintile -> Highest fifth,Total,Family socioeconomic status in quintile,Highest fifth,3,85.3

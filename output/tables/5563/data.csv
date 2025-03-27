@@ -1,0 +1,72 @@
+table_id,row_id,industry_full_path,industry_level_1,industry_level_2,industry_level_3,industry_hierarchy_depth,field__naics_code,field__companies_in_target_populationa,field_companies_selected_for_the_sample_all_companies,field_companies_selected_for_the_sample_noncertainties,field_companies_selected_for_the_sample_certainties
+5563,r001,All industries,All industries,,,1,"11, 21–23, 31–33, 42–81",5260000,297000,255000,41500
+5563,r002,All industries -> Manufacturing industries,All industries,Manufacturing industries,,2,31–33,237000,52500,41500,11000
+5563,r003,All industries -> Manufacturing industries -> Food,All industries,Manufacturing industries,Food,3,311,22000,5300,4100,1200
+5563,r004,All industries -> Manufacturing industries -> Beverage and tobacco products,All industries,Manufacturing industries,Beverage and tobacco products,3,312,8400,2700,2200,450
+5563,r005,"All industries -> Manufacturing industries -> Textile, apparel, and leather products",All industries,Manufacturing industries,"Textile, apparel, and leather products",3,313–16,13000,2900,2300,550
+5563,r006,All industries -> Manufacturing industries -> Wood products,All industries,Manufacturing industries,Wood products,3,321,11500,2400,1900,500
+5563,r007,All industries -> Manufacturing industries -> Paper,All industries,Manufacturing industries,Paper,3,322,2300,550,250,300
+5563,r008,All industries -> Manufacturing industries -> Printing and related support activities,All industries,Manufacturing industries,Printing and related support activities,3,323,22500,4700,4000,650
+5563,r009,All industries -> Manufacturing industries -> Petroleum and coal products,All industries,Manufacturing industries,Petroleum and coal products,3,324,750,200,80,100
+5563,r010,All industries -> Manufacturing industries -> Chemicals,All industries,Manufacturing industries,Chemicals,3,325,8900,3300,2400,850
+5563,r011,"All industries -> Manufacturing industries -> Pesticide, fertilizer, and other agricultural chemical",All industries,Manufacturing industries,"Pesticide, fertilizer, and other agricultural chemical",3,3253,600,200,150,50
+5563,r012,All industries -> Manufacturing industries -> Pharmaceuticals and medicines,All industries,Manufacturing industries,Pharmaceuticals and medicines,3,3254,1800,1000,700,300
+5563,r013,"All industries -> Manufacturing industries -> Soap, cleaning compound, and toilet preparation",All industries,Manufacturing industries,"Soap, cleaning compound, and toilet preparation",3,3256,2000,650,550,100
+5563,r014,All industries -> Manufacturing industries -> Other chemicals,All industries,Manufacturing industries,Other chemicals,3,other 325,4600,1500,1100,400
+5563,r015,All industries -> Manufacturing industries -> Plastic and rubber products,All industries,Manufacturing industries,Plastic and rubber products,3,326,8500,2300,1700,600
+5563,r016,All industries -> Manufacturing industries -> Nonmetallic mineral products,All industries,Manufacturing industries,Nonmetallic mineral products,3,327,8800,2400,1800,550
+5563,r017,All industries -> Manufacturing industries -> Primary metals,All industries,Manufacturing industries,Primary metals,3,331,3000,1200,850,350
+5563,r018,All industries -> Manufacturing industries -> Fabricated metal products,All industries,Manufacturing industries,Fabricated metal products,3,332,48000,6200,5200,950
+5563,r019,All industries -> Manufacturing industries -> Machinery,All industries,Manufacturing industries,Machinery,3,333,19500,3300,2500,750
+5563,r020,All industries -> Manufacturing industries -> Computer and electronic products,All industries,Manufacturing industries,Computer and electronic products,3,334,9900,3800,2900,900
+5563,r021,All industries -> Manufacturing industries -> Communications equipment,All industries,Manufacturing industries,Communications equipment,3,3342,1100,500,350,150
+5563,r022,All industries -> Manufacturing industries -> Semiconductor and other electronic components,All industries,Manufacturing industries,Semiconductor and other electronic components,3,3344,3200,1200,850,300
+5563,r023,"All industries -> Manufacturing industries -> Navigational, measuring, and control instruments",All industries,Manufacturing industries,"Navigational, measuring, and control instruments",3,3345,4000,1500,1100,350
+5563,r024,All industries -> Manufacturing industries -> Other computer and electronic products,All industries,Manufacturing industries,Other computer and electronic products,3,other 334,1700,650,500,150
+5563,r025,"All industries -> Manufacturing industries -> Electrical equipment, appliances, and components",All industries,Manufacturing industries,"Electrical equipment, appliances, and components",3,335,4400,1600,1200,350
+5563,r026,All industries -> Manufacturing industries -> Transportation equipment,All industries,Manufacturing industries,Transportation equipment,3,336,8700,2900,2000,850
+5563,r027,"All industries -> Manufacturing industries -> Automobiles, bodies, trailers, and parts",All industries,Manufacturing industries,"Automobiles, bodies, trailers, and parts",3,3361–63,5200,1500,1000,500
+5563,r028,All industries -> Manufacturing industries -> Aerospace products and parts,All industries,Manufacturing industries,Aerospace products and parts,3,3364,1200,700,500,200
+5563,r029,All industries -> Manufacturing industries -> Other transportation,All industries,Manufacturing industries,Other transportation,3,other 336,2300,650,500,150
+5563,r030,All industries -> Manufacturing industries -> Furniture and related products,All industries,Manufacturing industries,Furniture and related products,3,337,13500,2900,2400,500
+5563,r031,All industries -> Manufacturing industries -> Miscellaneous,All industries,Manufacturing industries,Miscellaneous,3,339,23000,4300,3700,600
+5563,r032,All industries -> Manufacturing industries -> Medical equipment and supplies,All industries,Manufacturing industries,Medical equipment and supplies,3,3391,8700,1700,1400,250
+5563,r033,All industries -> Manufacturing industries -> Other miscellaneous manufacturing,All industries,Manufacturing industries,Other miscellaneous manufacturing,3,3399,14000,2600,2200,350
+5563,r034,All industries -> Nonmanufacturing industries,All industries,Nonmanufacturing industries,,2,"11, 21–23, 42–81",5020000,244000,213000,30500
+5563,r035,"All industries -> Nonmanufacturing industries -> Agriculture, forestry, fishing and hunting",All industries,Nonmanufacturing industries,"Agriculture, forestry, fishing and hunting",3,11,26000,950,750,200
+5563,r036,"All industries -> Nonmanufacturing industries -> Mining, extraction, and support activities",All industries,Nonmanufacturing industries,"Mining, extraction, and support activities",3,21,18500,2900,2200,650
+5563,r037,All industries -> Nonmanufacturing industries -> Utilities,All industries,Nonmanufacturing industries,Utilities,3,22,3400,1400,1000,400
+5563,r038,All industries -> Nonmanufacturing industries -> Construction,All industries,Nonmanufacturing industries,Construction,3,23,659000,21500,20000,1300
+5563,r039,All industries -> Nonmanufacturing industries -> Wholesale trade,All industries,Nonmanufacturing industries,Wholesale trade,3,42,282000,18500,15500,2900
+5563,r040,All industries -> Nonmanufacturing industries -> Retail trade,All industries,Nonmanufacturing industries,Retail trade,3,44–45,600000,22000,19500,2600
+5563,r041,All industries -> Nonmanufacturing industries -> Transportation and warehousing,All industries,Nonmanufacturing industries,Transportation and warehousing,3,48–49,170000,13500,11500,2100
+5563,r042,All industries -> Nonmanufacturing industries -> Information,All industries,Nonmanufacturing industries,Information,3,51,69000,16000,13000,3100
+5563,r043,All industries -> Nonmanufacturing industries -> Publishing,All industries,Nonmanufacturing industries,Publishing,3,511,18500,4700,3700,950
+5563,r044,"All industries -> Nonmanufacturing industries -> Newspaper, periodical, book, and directory publishers",All industries,Nonmanufacturing industries,"Newspaper, periodical, book, and directory publishers",3,5111,10500,2600,2200,400
+5563,r045,All industries -> Nonmanufacturing industries -> Software publishers,All industries,Nonmanufacturing industries,Software publishers,3,5112,7800,2100,1500,550
+5563,r046,All industries -> Nonmanufacturing industries -> Telecommunications,All industries,Nonmanufacturing industries,Telecommunications,3,517,10500,2900,2200,650
+5563,r047,"All industries -> Nonmanufacturing industries -> Data processing, hosting, and related services",All industries,Nonmanufacturing industries,"Data processing, hosting, and related services",3,518,8600,2900,2300,600
+5563,r048,All industries -> Nonmanufacturing industries -> Other information,All industries,Nonmanufacturing industries,Other information,3,other 51,31500,5700,4700,950
+5563,r049,All industries -> Nonmanufacturing industries -> Finance and insurance,All industries,Nonmanufacturing industries,Finance and insurance,3,52,222000,8100,6800,1300
+5563,r050,All industries -> Nonmanufacturing industries -> Real estate and rental and leasing,All industries,Nonmanufacturing industries,Real estate and rental and leasing,3,53,293000,9900,9400,450
+5563,r051,All industries -> Nonmanufacturing industries -> Lessors of nonfinancial intangible assets (except copyrighted works),All industries,Nonmanufacturing industries,Lessors of nonfinancial intangible assets (except copyrighted works),3,533,2100,90,70,20
+5563,r052,All industries -> Nonmanufacturing industries -> Other real estate and rental and leasing,All industries,Nonmanufacturing industries,Other real estate and rental and leasing,3,other 53,291000,9800,9400,400
+5563,r053,"All industries -> Nonmanufacturing industries -> Professional, scientific, and technical services",All industries,Nonmanufacturing industries,"Professional, scientific, and technical services",3,54,762000,58000,50500,7700
+5563,r054,All industries -> Nonmanufacturing industries -> Legal services,All industries,Nonmanufacturing industries,Legal services,3,5411,164000,8400,7600,800
+5563,r055,"All industries -> Nonmanufacturing industries -> Accounting, tax preparation, bookkeeping, and payroll services",All industries,Nonmanufacturing industries,"Accounting, tax preparation, bookkeeping, and payroll services",3,5412,107000,5300,4900,400
+5563,r056,"All industries -> Nonmanufacturing industries -> Architectural, engineering, and related services",All industries,Nonmanufacturing industries,"Architectural, engineering, and related services",3,5413,88500,10500,9200,1400
+5563,r057,All industries -> Nonmanufacturing industries -> Specialized design services,All industries,Nonmanufacturing industries,Specialized design services,3,5414,31000,1400,1300,50
+5563,r058,All industries -> Nonmanufacturing industries -> Computer and electronic products,All industries,Nonmanufacturing industries,Computer and electronic products,3,5415,113000,10000,8000,2000
+5563,r059,"All industries -> Nonmanufacturing industries -> Management, scientific, and technical consulting services",All industries,Nonmanufacturing industries,"Management, scientific, and technical consulting services",3,5416,152000,7800,6800,1000
+5563,r060,All industries -> Nonmanufacturing industries -> Scientific research and development services,All industries,Nonmanufacturing industries,Scientific research and development services,3,5417,12500,5300,4400,850
+5563,r061,"All industries -> Nonmanufacturing industries -> Advertising, public relations, and related services",All industries,Nonmanufacturing industries,"Advertising, public relations, and related services",3,5418,32000,6300,5400,900
+5563,r062,"All industries -> Nonmanufacturing industries -> Other professional, scientific, and technical services",All industries,Nonmanufacturing industries,"Other professional, scientific, and technical services",3,5419,61500,3100,2800,250
+5563,r063,All industries -> Nonmanufacturing industries -> Management of companies and enterprises,All industries,Nonmanufacturing industries,Management of companies and enterprises,3,55,3300,150,100,50
+5563,r064,All industries -> Nonmanufacturing industries -> Administrative and support and waste management and remediation services,All industries,Nonmanufacturing industries,Administrative and support and waste management and remediation services,3,56,317000,12500,10000,2500
+5563,r065,All industries -> Nonmanufacturing industries -> Educational services,All industries,Nonmanufacturing industries,Educational services,3,61,64000,2300,2100,200
+5563,r066,All industries -> Nonmanufacturing industries -> Health care and social assistance,All industries,Nonmanufacturing industries,Health care and social assistance,3,62,569000,21000,18500,2500
+5563,r067,All industries -> Nonmanufacturing industries -> Health care services,All industries,Nonmanufacturing industries,Health care services,3,621–23,484000,18000,16000,2200
+5563,r068,All industries -> Nonmanufacturing industries -> Social assistance,All industries,Nonmanufacturing industries,Social assistance,3,624,84500,3100,2800,250
+5563,r069,"All industries -> Nonmanufacturing industries -> Arts, entertainment, and recreation",All industries,Nonmanufacturing industries,"Arts, entertainment, and recreation",3,71,100000,3700,3300,400
+5563,r070,All industries -> Nonmanufacturing industries -> Accommodation and food services,All industries,Nonmanufacturing industries,Accommodation and food services,3,72,496000,19000,17000,2000
+5563,r071,All industries -> Nonmanufacturing industries -> Other services,All industries,Nonmanufacturing industries,Other services,3,81,366000,12500,12000,250

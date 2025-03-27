@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Unique biotechnology-related job postings as a share of all unique job postings, by state: October 2016\u2013September 2021",
+  "identifier": "NCSES-6207",
+  "description": "Unique biotechnology-related job postings as a share of all unique job postings, by state: October 2016\u2013September 2021",
+  "url": "https://example.org/datasets/ncses/tables/6207",
+  "table_number": "SKTI-26",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6207/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "state",
+      "description": "State",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "total_unique_biotechnology_related_job_postings",
+      "description": "Total Unique Biotechnology Related Job Postings",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "total_unique_job_postings",
+      "description": "Total Unique Job Postings",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "percent_of_all_unique_job_postings_that_are_biotechnology_related",
+      "description": "Percent Of All Unique Job Postings That Are Biotechnology Related",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "sources": "Emsi Burning Glass, Job Posting Analytics, accessed 15 October 2021.Science and Engineering Indicators"
+}

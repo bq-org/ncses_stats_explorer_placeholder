@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public opinion on whether the federal government should fund basic scientific research: Selected years, 1992\u20132022",
+  "identifier": "NCSES-10530",
+  "description": "Public opinion on whether the federal government should fund basic scientific research: Selected years, 1992\u20132022",
+  "url": "https://example.org/datasets/ncses/tables/10530",
+  "table_number": "SPPS-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10530/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "opinion",
+      "description": "Opinion",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1992_n_1_995_",
+      "description": "1992 N 1 995 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1995_n_2_006_",
+      "description": "1995 N 2 006 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1997_n_2_000_",
+      "description": "1997 N 2 000 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "1999_n_1_882_",
+      "description": "1999 N 1 882 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2001_n_1_574_",
+      "description": "2001 N 1 574 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2004_n_2_025_",
+      "description": "2004 N 2 025 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2006_n_1_864_",
+      "description": "2006 N 1 864 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2008_n_2_021_",
+      "description": "2008 N 2 021 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2010_n_1_434_",
+      "description": "2010 N 1 434 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2012_n_2_256_",
+      "description": "2012 N 2 256 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2014_n_2_130_",
+      "description": "2014 N 2 130 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2016_n_1_390_",
+      "description": "2016 N 1 390 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2018_n_1_175_",
+      "description": "2018 N 1 175 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2022_n_1_235_",
+      "description": "2022 N 1 235 ",
+      "valueType": "string",
+      "unitText": "Standard error"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "This table displays data for years when the question was proffered. Responses are to the following: Even if it brings no immediate benefits, scientific research that advances the frontiers of knowledge is necessary and should be supported by the federal government. Do you strongly agree, agree, disagree, or strongly disagree?",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Public Attitudes Toward and Understanding of Science and Technology (1992\u20132001); University of Michigan, Survey of Consumer Attitudes and Behavior (2004); NORC at the University of Chicago, General Social Survey (2006\u201322).Science and Engineering Indicators"
+}

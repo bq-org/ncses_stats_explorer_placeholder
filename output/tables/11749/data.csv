@@ -1,0 +1,106 @@
+table_id,row_id,_b_survey_item_b_full_path,_b_survey_item_b_level_1,_b_survey_item_b_level_2,_b_survey_item_b_level_3,_b_survey_item_b_hierarchy_depth,field_item_description,field_item_source,field_2017,field_2018,field_2019,field_2020,field_2021,field_2022,field_2023
+11749,r001,Demographics,Demographics,,,1,,,,,,,,,
+11749,r002,Demographics -> Age,Demographics,Age,,2,,,,,,,,,
+11749,r003,Demographics -> Age -> AGEDOC,Demographics,Age,AGEDOC,3,Age at doctorate ,"A1, C6",94.6,95.1,94.8,94.4,93.4,93.3,93.5
+11749,r004,Demographics -> Age -> BIRTHMO,Demographics,Age,BIRTHMO,3,Month of birth,C6 or Institution,93.9,94.6,94.4,93.9,92.8,92.7,93.0
+11749,r005,Demographics -> Age -> BIRTHYR,Demographics,Age,BIRTHYR,3,Year of birth,C6 or Institution,94.5,95.1,94.8,94.4,93.4,93.3,93.5
+11749,r006,Demographics -> Citizenship,Demographics,Citizenship,,2,,,,,,,,,
+11749,r007,Demographics -> Citizenship -> BIRTHPLCD,Demographics,Citizenship,BIRTHPLCD,3,Place of birth,C5,94.4,95.2,95.3,95.1,94.1,94.2,93.7
+11749,r008,Demographics -> Citizenship -> CITIZ,Demographics,Citizenship,CITIZ,3,Type of citizenship,C7 or Institution,95.4,96.1,96.3,95.9,95.1,95.4,95.0
+11749,r009,Demographics -> Citizenship -> CITIZPLCD,Demographics,Citizenship,CITIZPLCD,3,Country of citizenship,C8 or Institution; BIRTHPLCD or HSPLCD,96.4,96.9,97.0,96.7,95.9,96.4,95.8
+11749,r010,Demographics -> Degree of difficulty,Demographics,Degree of difficulty,,2,,,,,,,,,
+11749,r011,Demographics -> Degree of difficulty -> DIFCOGN,Demographics,Degree of difficulty,DIFCOGN,3,"Degree of difficulty concentrating, remembering, or making decisions",C12,88.1,88.8,88.6,88.2,87.1,87.6,87.2
+11749,r012,Demographics -> Degree of difficulty -> DIFHEAR,Demographics,Degree of difficulty,DIFHEAR,3,Degree of difficulty hearing,C12,88.1,88.8,88.6,88.2,87.1,87.6,87.2
+11749,r013,Demographics -> Degree of difficulty -> DIFLIFT,Demographics,Degree of difficulty,DIFLIFT,3,Degree of difficulty lifting,C12,88.1,88.8,88.6,88.2,87.1,87.6,87.2
+11749,r014,Demographics -> Degree of difficulty -> DIFSEE,Demographics,Degree of difficulty,DIFSEE,3,Degree of difficulty seeing,C12,88.1,88.8,88.6,88.2,87.1,87.6,87.2
+11749,r015,Demographics -> Degree of difficulty -> DIFWALK,Demographics,Degree of difficulty,DIFWALK,3,Degree of difficulty walking,C12,88.1,88.8,88.6,88.2,87.1,87.6,87.2
+11749,r016,Demographics -> Degree of difficulty -> DISABILITY2,Demographics,Degree of difficulty,DISABILITY2,3,Moderate or greater degree of difficulty in any domain ,C12,88.1,88.8,88.6,88.2,87.1,87.6,87.2
+11749,r017,Demographics -> Dependents and marital status,Demographics,Dependents and marital status,,2,,,,,,,,,
+11749,r018,Demographics -> Dependents and marital status -> MARITAL,Demographics,Dependents and marital status,MARITAL,3,Marital status,C2,88.3,89.1,88.7,88.5,87.9,88.4,88.0
+11749,r019,Demographics -> Dependents and marital status -> DEPEND5,Demographics,Dependents and marital status,DEPEND5,3,Number of dependents - ages 5 and younger,C3,88.2,89.0,88.6,88.5,87.8,88.4,87.9
+11749,r020,Demographics -> Dependents and marital status -> DEPEND18,Demographics,Dependents and marital status,DEPEND18,3,Number of dependents - ages 6-18,C3,88.1,89.0,88.6,88.5,87.8,88.4,87.9
+11749,r021,Demographics -> Dependents and marital status -> DEPEND19,Demographics,Dependents and marital status,DEPEND19,3,Number of dependents - ages 19 and older,C3,88.1,89.0,88.6,88.5,87.8,88.4,87.9
+11749,r022,Demographics -> Parental education,Demographics,Parental education,,2,,,,,,,,,
+11749,r023,Demographics -> Parental education -> EDFATHER,Demographics,Parental education,EDFATHER,3,Father/ male guardian's education,C4,87.9,87.6,86.6,86.3,85.2,85.9,82.6
+11749,r024,Demographics -> Parental education -> EDMOTHER,Demographics,Parental education,EDMOTHER,3,Mother/ female guardian's education,C4,88.0,88.0,87.3,86.9,85.8,86.5,77.3
+11749,r025,Demographics -> Race and ethnicity,Demographics,Race and ethnicity,,2,,,,,,,,,
+11749,r026,Demographics -> Race and ethnicity -> AMERIND,Demographics,Race and ethnicity,AMERIND,3,American Indian/ Alaska Native race indicator,C11,92.8,93.2,93.3,93.2,92.2,92.3,91.5
+11749,r027,Demographics -> Race and ethnicity -> ASIAN,Demographics,Race and ethnicity,ASIAN,3,Asian race indicator,C11,92.8,93.2,93.3,93.2,92.2,92.3,91.5
+11749,r028,Demographics -> Race and ethnicity -> BLACK,Demographics,Race and ethnicity,BLACK,3,Black/ African American race indicator,C11,92.8,93.2,93.3,93.2,92.2,92.3,91.5
+11749,r029,Demographics -> Race and ethnicity -> HAWAIIAN,Demographics,Race and ethnicity,HAWAIIAN,3,Native Hawaiian/ Pacific Islander race indicator,C11,92.8,93.2,93.3,93.2,92.2,92.3,91.5
+11749,r030,Demographics -> Race and ethnicity -> HISPANIC,Demographics,Race and ethnicity,HISPANIC,3,Hispanic origin indicator,C10,93.7,94.7,94.7,94.6,93.6,93.4,93.0
+11749,r031,Demographics -> Race and ethnicity -> WHITE,Demographics,Race and ethnicity,WHITE,3,White race indicator,C11,92.8,93.2,93.3,93.2,92.2,92.3,91.5
+11749,r032,Demographics -> Race and ethnicity -> RACE,Demographics,Race and ethnicity,RACE,3,Edited race/ ethnic code,"C10, C11 or Institution",94.6,95.5,95.7,95.5,95.1,95.0,94.4
+11749,r033,Demographics -> Race and ethnicity -> SEX,Demographics,Race and ethnicity,SEX,3,Sex of doctorate recipient,C1 or Institution,100.0,99.9,100.0,100.0,100.0,100.0,100.0
+11749,r034,Doctoral field and institution,Doctoral field and institution,,,1,,,,,,,,,
+11749,r035,Doctoral field and institution -> DOCCODE,Doctoral field and institution,DOCCODE,,2,Type of doctorate,A1 or Institution,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+11749,r036,Doctoral field and institution -> PHDFIELD,Doctoral field and institution,PHDFIELD,,2,Doctoral field – SED historical FOS code,PHDFIELDCIP,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+11749,r037,Doctoral field and institution -> PHDFIELDCIP,Doctoral field and institution,PHDFIELDCIP,,2,Doctorate field – SED-CIP code,A3 or Institution,na,na,na,na,100.0,100.0,100.0
+11749,r038,Doctoral field and institution -> PHDMONTH,Doctoral field and institution,PHDMONTH,,2,Month of doctorate granted,A1 or Institution,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+11749,r039,Doctoral field and institution -> PHDFY,Doctoral field and institution,PHDFY,,2,Fiscal (academic) year of doctorate,A1 or Institution,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+11749,r040,Doctoral field and institution -> PHDCY,Doctoral field and institution,PHDCY,,2,Calendar year of doctorate,A1 or Institution,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+11749,r041,Doctoral field and institution -> PHDINST,Doctoral field and institution,PHDINST,,2,Doctoral institution (IPEDS code),Institution,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+11749,r042,Educational background,Educational background,,,1,,,,,,,,,
+11749,r043,Educational background -> Bachelor's degrees,Educational background,Bachelor's degrees,,2,,,,,,,,,
+11749,r044,Educational background -> Bachelor's degrees -> BADEGRN,Educational background,Bachelor's degrees,BADEGRN,3,Number of bachelor's degrees received,A8,95.9,96.3,96.7,96.1,97.0,96.5,96.0
+11749,r045,Educational background -> Bachelor's degrees -> BASAME,Educational background,Bachelor's degrees,BASAME,3,Baccalaureate field same as doctorate ,"BAFIELDCIP, PHDFIELDCIP",na,na,na,na,91.9,91.6,91.1
+11749,r046,Educational background -> Bachelor's degrees -> BAFIELD,Educational background,Bachelor's degrees,BAFIELD,3,First baccalaureate field – SED historical FOS code,BAFIELDCIP,91.3,91.3,91.4,91.5,92.0,91.8,91.1
+11749,r047,Educational background -> Bachelor's degrees -> BAFIELDCIP,Educational background,Bachelor's degrees,BAFIELDCIP,3,First baccalaureate field – SED-CIP code,A17 or Institution,na,na,na,na,92.0,91.8,91.1
+11749,r048,Educational background -> Bachelor's degrees -> BA2FIELD,Educational background,Bachelor's degrees,BA2FIELD,3,Most recent baccalaureate degree field – SED historical FOS code,BA2FIELDCIP,88.6,89.7,89.5,89.3,89.8,90.6,90.3
+11749,r049,Educational background -> Bachelor's degrees -> BA2FIELDCIP,Educational background,Bachelor's degrees,BA2FIELDCIP,3,Most recent baccalaureate field – SED-CIP code,A17,na,na,na,na,89.8,90.6,90.3
+11749,r050,Educational background -> Bachelor's degrees -> BAINST,Educational background,Bachelor's degrees,BAINST,3,First baccalaureate institution (IPEDS code) ,A16,94.5,95.0,96.0,95.2,95.5,95.6,95.3
+11749,r051,Educational background -> Bachelor's degrees -> BAPLCD,Educational background,Bachelor's degrees,BAPLCD,3,First baccalaureate institution location,"A16, BAINST",94.5,95.0,96.0,95.2,95.4,95.5,95.3
+11749,r052,Educational background -> Bachelor's degrees -> BAHBCU,Educational background,Bachelor's degrees,BAHBCU,3,First baccalaureate institution HBCU indicator,"A16, BAINST",94.5,95.0,96.0,95.2,95.4,95.5,95.2
+11749,r053,Educational background -> Bachelor's degrees -> BAPUBPRV,Educational background,Bachelor's degrees,BAPUBPRV,3,First baccalaureate institution public/ private indicator,"A16, BAINST",94.5,95.0,96.0,95.2,95.4,95.5,95.2
+11749,r054,Educational background -> High school and community college,Educational background,High school and community college,,2,,,,,,,,,
+11749,r055,Educational background -> High school and community college -> JRCOLL,Educational background,High school and community college,JRCOLL,3,Community college attendance indicator,A10,91.2,91.9,91.9,92.0,91.0,90.9,90.3
+11749,r056,Educational background -> High school and community college -> HSPLCD,Educational background,High school and community college,HSPLCD,3,Place of high school,C9,88.2,88.7,88.6,94.9,93.9,94.0,93.6
+11749,r057,Educational background -> Master's and professional degrees,Educational background,Master's and professional degrees,,2,,,,,,,,,
+11749,r058,Educational background -> Master's and professional degrees -> MADEGRN,Educational background,Master's and professional degrees,MADEGRN,3,Number of master's degrees received,A8,91.6,91.7,91.8,91.8,92.3,92.1,91.6
+11749,r059,Educational background -> Master's and professional degrees -> MASAME,Educational background,Master's and professional degrees,MASAME,3,Master's degree field same as doctorate ,"MAFIELDCIP, PHDFIELDCIP",na,na,na,na,91.3,91.1,90.6
+11749,r060,Educational background -> Master's and professional degrees -> MAFIELD,Educational background,Master's and professional degrees,MAFIELD,3,Most recent master's degree field – SED historical FOS code,MAFIELDCIP,90.5,91.2,91.3,91.3,91.9,91.8,91.1
+11749,r061,Educational background -> Master's and professional degrees -> MAFIELDCIP,Educational background,Master's and professional degrees,MAFIELDCIP,3,Most recent master’s degree field – SED-CIP code,A22,na,na,na,na,91.9,91.8,91.1
+11749,r062,Educational background -> Master's and professional degrees -> PROFEARN,Educational background,Master's and professional degrees,PROFEARN,3,Earned or earning a professional doctoral degree,"A8, A9",83.7,89.5,89.4,89.2,88.8,89.5,89.3
+11749,r063,Educational background -> Educational debt,Educational background,Educational debt,,2,,,,,,,,,
+11749,r064,Educational background -> Educational debt -> GDEBTLVL,Educational background,Educational debt,GDEBTLVL,3,Graduate debt level,A40,90.2,90.9,91.2,91.2,90.6,90.4,89.8
+11749,r065,Educational background -> Educational debt -> UDEBTLVL,Educational background,Educational debt,UDEBTLVL,3,Undergraduate debt level,A40,90.6,91.2,91.3,91.2,90.6,90.5,89.9
+11749,r066,Postgraduation plans,Postgraduation plans,,,1,,,,,,,,,
+11749,r067,Postgraduation plans -> PDOCPLAN,Postgraduation plans,PDOCPLAN,,2,Postgraduation plans,"B2, B3, B10",85.3,88.0,88.3,88.4,87.6,87.8,88.7
+11749,r068,Postgraduation plans -> PDOCSTAT,Postgraduation plans,PDOCSTAT,,2,Postgraduation status,B2,90.8,91.4,91.5,91.4,90.9,90.7,90.1
+11749,r069,Postgraduation plans -> PDPLCD,Postgraduation plans,PDPLCD,,2,Postgraduation location,"B1, B5, B12",92.4,93.1,93.2,92.8,92.5,91.9,91.6
+11749,r070,Postgraduation plans -> PDUSFOR,Postgraduation plans,PDUSFOR,,2,Postgraduation location: U.S. or foreign,"B1, B5, B12",92.4,93.1,93.2,92.8,92.5,91.9,91.6
+11749,r071,Postgraduation plans -> PDREGION,Postgraduation plans,PDREGION,,2,Postgraduation U.S. region,"B1, B5, B12",89.0,89.6,90.1,90.2,89.8,89.7,89.1
+11749,r072,Postgraduation plans -> PDSAMEST,Postgraduation plans,PDSAMEST,,2,Postgraduation location in the same state as doctoral institution,"B1, PHDINST",92.4,93.1,93.2,92.8,92.5,91.9,91.6
+11749,r073,Postgraduation plans -> PDEMPLOY,Postgraduation plans,PDEMPLOY,,2,Postgraduation employer type,"B4, B11",85.3,87.0,87.3,87.3,86.8,86.8,87.7
+11749,r074,Postgraduation plans -> PDEMPSECTOR,Postgraduation plans,PDEMPSECTOR,,2,Postgraduation employment sector,PDEMPLOY,85.3,87.0,87.3,87.3,86.8,86.8,87.7
+11749,r075,Postgraduation plans -> PDFACULTY,Postgraduation plans,PDFACULTY,,2,Employment in faculty position,"B12, B13",na,73.8,85.8,86.3,86.8,85.4,83.2
+11749,r076,Postgraduation plans -> PDSTDSUP,Postgraduation plans,PDSTDSUP,,2,Postdoctoral study support,B7,84.3,87.4,86.4,84.9,85.1,86.4,88.2
+11749,r077,Postgraduation plans -> PDWKPRIM,Postgraduation plans,PDWKPRIM,,2,Edited primary work activity,"B6, B14",87.5,88.9,88.8,88.5,88.2,88.5,88.0
+11749,r078,Postgraduation plans -> PDWKSEC,Postgraduation plans,PDWKSEC,,2,Edited secondary work activity,"B6, B14",84.8,88.3,88.1,88.0,87.8,88.2,82.6
+11749,r079,Postgraduation plans -> SALARYV,Postgraduation plans,SALARYV,,2,Expected basic annual salary,"B8, B15",82.3,82.1,82.4,82.7,81.4,81.8,82.7
+11749,r080,Sources of financial support,Sources of financial support,,,1,,,,,,,,,
+11749,r081,Sources of financial support -> SRCEA,Sources of financial support,SRCEA,,2,"Source of financial support: Fellowship, scholarship",A38,88.5,89.3,89.0,88.8,88.4,89.0,88.5
+11749,r082,Sources of financial support -> SRCEB,Sources of financial support,SRCEB,,2,Source of financial support: Dissertation/ research grant,A38,88.6,89.3,89.1,88.9,88.5,89.1,88.5
+11749,r083,Sources of financial support -> SRCEC,Sources of financial support,SRCEC,,2,Source of financial support: Teaching assistantship,A38,88.5,89.3,88.9,88.8,88.4,89.0,88.5
+11749,r084,Sources of financial support -> SRCED,Sources of financial support,SRCED,,2,Source of financial support: Research assistantship,A38,88.5,89.2,88.9,88.8,88.4,89.0,88.5
+11749,r085,Sources of financial support -> SRCEE,Sources of financial support,SRCEE,,2,Source of financial support: Other assistantship,A38,88.6,89.3,89.1,88.9,88.5,89.1,88.5
+11749,r086,Sources of financial support -> SRCEF,Sources of financial support,SRCEF,,2,Source of financial support: Traineeship,A38,88.6,89.4,89.1,88.9,88.5,89.1,88.5
+11749,r087,Sources of financial support -> SRCEG,Sources of financial support,SRCEG,,2,"Source of financial support: Internship, clinical residency",A38,88.6,89.3,89.1,88.9,88.5,89.1,88.5
+11749,r088,Sources of financial support -> SRCEH,Sources of financial support,SRCEH,,2,Source of financial support: Loans (from any source),A38,88.6,89.3,89.0,88.9,88.5,89.1,88.5
+11749,r089,Sources of financial support -> SRCEI,Sources of financial support,SRCEI,,2,Source of financial support: Personal savings,A38,88.5,89.3,89.0,88.8,88.4,89.0,88.5
+11749,r090,Sources of financial support -> SRCEJ,Sources of financial support,SRCEJ,,2,Source of financial support: Personal earnings during graduate school ,A38,88.5,89.3,89.0,88.8,88.5,89.0,88.5
+11749,r091,Sources of financial support -> SRCEK,Sources of financial support,SRCEK,,2,"Source of financial support: Spouse's, partner's, or family's earnings or savings",A38,88.5,89.3,89.0,88.8,88.4,89.1,88.5
+11749,r092,Sources of financial support -> SRCEL,Sources of financial support,SRCEL,,2,Source of financial support: Employer reimbursement/ assistance,A38,88.6,89.3,89.1,88.9,88.5,89.1,88.5
+11749,r093,Sources of financial support -> SRCEM,Sources of financial support,SRCEM,,2,Source of financial support: Foreign (non-U.S.) support,A38,88.6,89.4,89.1,88.9,88.5,89.1,88.5
+11749,r094,Sources of financial support -> SRCEN,Sources of financial support,SRCEN,,2,Source of financial support: Other source of support,A38,88.6,89.4,89.1,88.9,88.5,89.1,88.5
+11749,r095,Sources of financial support -> SRCEPRIM,Sources of financial support,SRCEPRIM,,2,Primary source of financial support,A39,88.0,88.9,88.6,88.5,88.2,88.9,88.4
+11749,r096,Sources of financial support -> SRCESEC,Sources of financial support,SRCESEC,,2,Secondary source of financial support ,A39,82.8,84.1,84.0,84.0,86.6,87.1,86.8
+11749,r097,Sources of financial support -> TUITREMS,Sources of financial support,TUITREMS,,2,Tuition remission - full or partial,A7,89.0,89.9,89.5,89.4,89.3,89.9,89.6
+11749,r098,Time to degree,Time to degree,,,1,,,,,,,,,
+11749,r099,Time to degree -> BAYEAR,Time to degree,BAYEAR,,2,First baccalaureate year,A8,95.3,95.6,95.9,95.4,96.6,96.2,95.7
+11749,r100,Time to degree -> GEMONTH,Time to degree,GEMONTH,,2,Month of graduate program entry,A11 ,90.3,92.0,92.0,92.0,91.8,91.9,91.3
+11749,r101,Time to degree -> GEYEAR,Time to degree,GEYEAR,,2,Year of graduate program entry,A11 ,90.4,92.0,92.1,92.1,91.9,91.9,91.3
+11749,r102,Time to degree -> MAEYEAR,Time to degree,MAEYEAR,,2,Entered most recent master's degree year,A8,88.9,89.8,89.6,89.5,90.1,90.7,90.3
+11749,r103,Time to degree -> TTDBAPHD,Time to degree,TTDBAPHD,,2,Total elapsed time from baccalaureate to doctorate,"PHDMONTH, PHDCY, BAMONTH, BAYEAR",95.3,95.5,95.9,95.4,96.6,96.2,95.7
+11749,r104,Time to degree -> TTDDOC,Time to degree,TTDDOC,,2,Total elapsed time in doctorate,"PHDMONTH, PHDCY, PHDEMONTH, PHDEYEAR",89.3,89.8,89.6,89.5,89.5,90.3,90.0
+11749,r105,Time to degree -> TTDGEPHD,Time to degree,TTDGEPHD,,2,Total elapsed time from graduate school entry to doctorate,"PHDMONTH, PHDCY, GEMONTH, GEYEAR",90.3,92.0,92.1,92.1,91.9,91.9,91.3

@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Involuntarily out-of-field rate among U.S. residing doctoral scientists and engineers, by occupation: 2021",
+  "identifier": "NCSES-8215",
+  "description": "Involuntarily out-of-field rate among U.S. residing doctoral scientists and engineers, by occupation: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8215",
+  "table_number": "32-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8215/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2, occupation_level_3, occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_percent",
+      "description": "Involuntarily Out Of Rate Percent",
+      "valueType": "string",
+      "unitText": "Percent and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_involuntarily_out_of_field_rate_se",
+      "description": "Involuntarily Out Of Rate Se",
+      "valueType": "string",
+      "unitText": "Percent and SE"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Percentage rounded to the nearest 0.1%, standard error of the unrounded percentage (based on unrounded counts), rounded up to the nearest multiple of 0.05%. Involuntarily out-of-field rate is the percentage of employed individuals who reported, for their principal job, working in an area not related to their first doctoral degree at least partially because a job in their doctoral degree field was not available. If respondent was not employed during survey reference period, occupation when last employed was reported. Residence location is based on reported living location on 1 February 2021.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2021."
+}

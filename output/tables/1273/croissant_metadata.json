@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Scientists and engineers employed in government, by supervisory status, sex, ethnicity, race, disability status, and age: 2017",
+  "identifier": "NCSES-1273",
+  "description": "Scientists and engineers employed in government, by supervisory status, sex, ethnicity, race, disability status, and age: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1273",
+  "table_number": "9-32",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1273/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "supervisory_status_sex_ethnicity_race_and_disability_status",
+      "description": "Supervisory status, sex, ethnicity, race, and disability status hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "supervisory_status_sex_ethnicity_race_and_disability_status_level_1, supervisory_status_sex_ethnicity_race_and_disability_status_level_2, supervisory_status_sex_ethnicity_race_and_disability_status_level_3, supervisory_status_sex_ethnicity_race_and_disability_status_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "supervisory_status_sex_ethnicity_race_and_disability_status_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_75_and_younger",
+      "description": "Age Years 75 And Younger",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_younger_than_35",
+      "description": "Age Years Younger Than 35",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_35_44",
+      "description": "Age Years 35 44",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_45_54",
+      "description": "Age Years 45 54",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_age_years_55_75",
+      "description": "Age Years 55 75",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Government includes employment at the federal, state, and local level or employment in the U.S. military service. Individuals employed in a U.S. educational institution are excluded. Numbers are rounded to nearest 1,000. Detail may not add to total because of rounding and suppression. The National Survey of College Graduates asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for any activity were classified as having a disability. Scientists and engineers are individuals under the age of 76 who have a bachelor's or higher degree, are living in the United States, and have an S&E or S&E-related degree or occupation.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Racial and ethnic distribution of employed scientists and engineers in S&E occupations and with S&E highest degrees: 1995 and 2017",
+  "identifier": "NCSES-1604",
+  "description": "Racial and ethnic distribution of employed scientists and engineers in S&E occupations and with S&E highest degrees: 1995 and 2017",
+  "url": "https://example.org/datasets/ncses/tables/1604",
+  "table_number": "3-18",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1604/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "race_and_ethnicity",
+      "description": "Race and ethnicity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "race_and_ethnicity_level_1, race_and_ethnicity_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "race_and_ethnicity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations_1995",
+      "description": "S E Occupations 1995",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_occupations_2017",
+      "description": "S E Occupations 2017",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_highest_degrees_1995",
+      "description": "S E Highest Degrees 1995",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_highest_degrees_2017",
+      "description": "S E Highest Degrees 2017",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Hispanic may be any race; race categories exclude Hispanic origin. In 1995, respondents could not classify themselves in more than one racial and ethnic category, and Asian included Native Hawaiian and Other Pacific Islander. Scientists and engineers includes those with one or more S&E or S&E-related degrees at the bachelor's level or higher or those who have only a non-S&E degree at the bachelor's level or higher and are employed in an S&E or S&E-related occupation. Percentages may not add to 100% because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Scientists and Engineers Statistical Data System (SESTAT), 1995, and the National Survey of College Graduates (NSCG), 2017.Science and Engineering Indicators"
+}

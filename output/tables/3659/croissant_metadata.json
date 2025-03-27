@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Crosswalk of occupations used in the SDR data tables",
+  "identifier": "NCSES-3659",
+  "description": "Crosswalk of occupations used in the SDR data tables",
+  "url": "https://example.org/datasets/ncses/tables/3659",
+  "table_number": "A-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3659/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "science_and_engineering_classification",
+      "description": "Science And Engineering Classification",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "major_occupational_code_and_label_n2ocprmg_n2ocmlst_",
+      "description": "Major Occupational Code And Label N2Ocprmg N2Ocmlst ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "minor_occupational_code_and_label_n2ocprng_n2ocnlst_",
+      "description": "Minor Occupational Code And Label N2Ocprng N2Ocnlst ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "detailed_occupational_code_and_label_n2ocpr_n2oclst_",
+      "description": "Detailed Occupational Code And Label N2Ocpr N2Oclst ",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients, 2019."
+}

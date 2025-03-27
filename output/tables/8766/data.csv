@@ -1,0 +1,12 @@
+table_id,row_id,stratum_full_path,stratum_level_1,stratum_level_2,stratum_level_3,stratum_hierarchy_depth,field_sent_one_form,field_sent_multiple_formsa
+8766,r001,Total,Total,,,1,47000,100
+8766,r002,Total -> Known positive R&D,Total,Known positive R&D,,2,20500,100
+8766,r003,Total -> Known positive R&D -> Certainties,Total,Known positive R&D,Certainties,3,16000,100
+8766,r004,Total -> Known positive R&D -> Noncertainties,Total,Known positive R&D,Noncertainties,3,4300,
+8766,r005,Total -> Known zero R&D,Total,Known zero R&D,,2,2200,0
+8766,r006,Total -> Known zero R&D -> Certainties,Total,Known zero R&D,Certainties,3,1500,0
+8766,r007,Total -> Known zero R&D -> Noncertainties,Total,Known zero R&D,Noncertainties,3,750,0
+8766,r008,Total -> Unknown R&D,Total,Unknown R&D,,2,24500,0
+8766,r009,Total -> Unknown R&D -> Certainties,Total,Unknown R&D,Certainties,3,7200,0
+8766,r010,Total -> Unknown R&D -> Noncertainties,Total,Unknown R&D,Noncertainties,3,17500,0
+8766,r011,Total -> Cases not in the frame,Total,Cases not in the frame,,2,150,0

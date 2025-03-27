@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Participation in science activities in the past 12 months, by family income and education: 2020",
+  "identifier": "NCSES-6654",
+  "description": "Participation in science activities in the past 12 months, by family income and education: 2020",
+  "url": "https://example.org/datasets/ncses/tables/6654",
+  "table_number": "PPS-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6654/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_participated_in_a_medical_or_clinical_research_study",
+      "description": "Participated In A Medical Or Clinical Research Study",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_made_observations_or_collected_data_samples_as_part_of_a_science_research_project_such_as_observations_about_bird_animal_and_plant_life_or_weather_air_and_water_quality_",
+      "description": "Made Observations Or Collected Data Samples As Part Of A Science Research Project Such As Observations About Bird Animal And Plant Life Or Weather Air And Water Quality ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_contributed_to_a_science_related_online_crowdsourcing_activity_such_as_classifying_stars_and_galaxies_or_identifying_animals_",
+      "description": "Contributed To A Science Related Online Crowdsourcing Activity Such As Classifying Stars And Galaxies Or Identifying Animals ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_helped_a_child_with_a_science_project_whether_for_school_or_for_an_outside_school_activity",
+      "description": "Helped A Child With A Science Project Whether For School Or For An Outside School Activity",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_participated_in_a_maker_movement_or_hack_a_thon_event_to_develop_new_technologies_devices_or_software",
+      "description": "Participated In A Maker Movement Or Hack A Thon Event To Develop New Technologies Devices Or Software",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_donated_blood",
+      "description": "Donated Blood",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_donated_money_to_support_medical_or_science_research",
+      "description": "Donated Money To Support Medical Or Science Research",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "See Table SPPS-22 for standard errors. Responses are to the following:- Thinking about things you have done outside of work over the past 12 months, have you ever done the following?Participated in a medical or clinical research study.Made observations or collected data samples as part of a science research project (such as observations about bird, animal, and plant life or weather, air, and water quality).Contributed to a science-related online crowdsourcing activity (such as classifying stars and galaxies or identifying animals).Helped a child with a science project, whether for school or for an outside-school activity.Participated in a maker movement or hack-a-thon event to develop new technologies, devices, or software.Donated blood.Donated money to support medical or science research.",
+  "sources": "Pew Research Center, American Trends Panel (2020), Wave 67, conducted 29 April\u20135 May 2020.Science and Engineering Indicators"
+}

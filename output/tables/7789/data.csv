@@ -1,0 +1,344 @@
+table_id,row_id,time_period,broad_occupation_level_1,broad_occupation_level_2,broad_occupation_hierarchy_depth,value
+7789,r001_1,1,Broad occupation,Label,2,S&E occupations
+7789,r001_2,1,Major occupation,Code,2,1
+7789,r001_3,1,Major occupation,Label,2,Computer and mathematical scientists
+7789,r001_4,1,Minor occupation,Code,2,11
+7789,r001_5,1,Minor occupation,Label,2,Computer and information scientists
+7789,r001_6,1,Detailed occupation,Code,2,110510
+7789,r001_7,1,Detailed occupation,Label,2,"Computer and information scientists, research"
+7789,r002_6,,Detailed occupation,Code,2,110520
+7789,r002_7,,Detailed occupation,Label,2,Computer network architect
+7789,r003_6,,Detailed occupation,Code,2,110540
+7789,r003_7,,Detailed occupation,Label,2,Computer support specialists
+7789,r004_6,,Detailed occupation,Code,2,110550
+7789,r004_7,,Detailed occupation,Label,2,Computer system analysts
+7789,r005_6,,Detailed occupation,Code,2,110560
+7789,r005_7,,Detailed occupation,Label,2,Database administrators
+7789,r006_6,,Detailed occupation,Code,2,110570
+7789,r006_7,,Detailed occupation,Label,2,Information security analysts
+7789,r007_6,,Detailed occupation,Code,2,110580
+7789,r007_7,,Detailed occupation,Label,2,Network and computer systems administrators
+7789,r008_6,,Detailed occupation,Code,2,110590
+7789,r008_7,,Detailed occupation,Label,2,Software developers -- applications and systems software
+7789,r009_6,,Detailed occupation,Code,2,110600
+7789,r009_7,,Detailed occupation,Label,2,Web developers
+7789,r010_6,,Detailed occupation,Code,2,110610
+7789,r010_7,,Detailed occupation,Label,2,Other computer and information science occupations
+7789,r011_6,,Detailed occupation,Code,2,110880
+7789,r011_7,,Detailed occupation,Label,2,"Computer engineers, software"
+7789,r012_4,,Minor occupation,Code,2,12
+7789,r012_5,,Minor occupation,Label,2,Mathematical scientists
+7789,r012_6,,Detailed occupation,Code,2,121720
+7789,r012_7,,Detailed occupation,Label,2,Mathematicians
+7789,r013_6,,Detailed occupation,Code,2,121730
+7789,r013_7,,Detailed occupation,Label,2,"Operations research analysts, including modeling"
+7789,r014_6,,Detailed occupation,Code,2,121740
+7789,r014_7,,Detailed occupation,Label,2,Statisticians
+7789,r015_6,,Detailed occupation,Code,2,121760
+7789,r015_7,,Detailed occupation,Label,2,Other mathematical scientists
+7789,r016_4,,Minor occupation,Code,2,18
+7789,r016_5,,Minor occupation,Label,2,Postsecondary teachers - computer and math sciences
+7789,r016_6,,Detailed occupation,Code,2,182760
+7789,r016_7,,Detailed occupation,Label,2,Postsecondary teachers - Computer sciences
+7789,r017_6,,Detailed occupation,Code,2,182860
+7789,r017_7,,Detailed occupation,Label,2,Postsecondary teachers - Mathematics and statistics
+7789,r018_2,,Major occupation,Code,2,2
+7789,r018_3,,Major occupation,Label,2,"Biological, agricultural, and other life scientists"
+7789,r018_4,,Minor occupation,Code,2,21
+7789,r018_5,,Minor occupation,Label,2,Agricultural and food scientists
+7789,r018_6,,Detailed occupation,Code,2,210210
+7789,r018_7,,Detailed occupation,Label,2,Agricultural and food scientists
+7789,r019_4,,Minor occupation,Code,2,22
+7789,r019_5,,Minor occupation,Label,2,Biological and medical scientists
+7789,r019_6,,Detailed occupation,Code,2,220220
+7789,r019_7,,Detailed occupation,Label,2,Biochemists and biophysicists
+7789,r020_6,,Detailed occupation,Code,2,220230
+7789,r020_7,,Detailed occupation,Label,2,Biological scientists
+7789,r021_6,,Detailed occupation,Code,2,220250
+7789,r021_7,,Detailed occupation,Label,2,Forestry and conservation scientists
+7789,r022_6,,Detailed occupation,Code,2,220270
+7789,r022_7,,Detailed occupation,Label,2,Medical scientists (excluding practitioners)
+7789,r023_4,,Minor occupation,Code,2,23
+7789,r023_5,,Minor occupation,Label,2,Environmental life scientists
+7789,r023_6,,Detailed occupation,Code,2,230240
+7789,r023_7,,Detailed occupation,Label,2,Forestry and conservation scientists
+7789,r024_4,,Minor occupation,Code,2,28
+7789,r024_5,,Minor occupation,Label,2,Postsecondary teachers - life and related sciences
+7789,r024_6,,Detailed occupation,Code,2,282710
+7789,r024_7,,Detailed occupation,Label,2,Postsecondary teachers - Agriculture
+7789,r025_6,,Detailed occupation,Code,2,282730
+7789,r025_7,,Detailed occupation,Label,2,Postsecondary teachers - Biological sciences
+7789,r026_6,,Detailed occupation,Code,2,282970
+7789,r026_7,,Detailed occupation,Label,2,Postsecondary teachers - Other natural sciences
+7789,r027_2,,Major occupation,Code,2,3
+7789,r027_3,,Major occupation,Label,2,Physical and related scientists
+7789,r027_4,,Minor occupation,Code,2,31
+7789,r027_5,,Minor occupation,Label,2,"Chemists, except biochemists"
+7789,r027_6,,Detailed occupation,Code,2,311930
+7789,r027_7,,Detailed occupation,Label,2,"Chemists, except biochemists"
+7789,r028_4,,Minor occupation,Code,2,32
+7789,r028_5,,Minor occupation,Label,2,"Earth, atmospheric, and ocean scientistsa"
+7789,r028_6,,Detailed occupation,Code,2,321920
+7789,r028_7,,Detailed occupation,Label,2,Atmospheric and space scientists
+7789,r029_6,,Detailed occupation,Code,2,321940
+7789,r029_7,,Detailed occupation,Label,2,"Geologists, including earth scientists and oceanographersb"
+7789,r030_4,,Minor occupation,Code,2,33
+7789,r030_5,,Minor occupation,Label,2,Physicistsc
+7789,r030_6,,Detailed occupation,Code,2,331960
+7789,r030_7,,Detailed occupation,Label,2,"Physicists, except biophysicists"
+7789,r031_4,,Minor occupation,Code,2,34
+7789,r031_5,,Minor occupation,Label,2,"Other physical and related scientists, including astronomersa"
+7789,r031_6,,Detailed occupation,Code,2,341980
+7789,r031_7,,Detailed occupation,Label,2,"Other physical scientists, including astronomersd"
+7789,r032_4,,Minor occupation,Code,2,38
+7789,r032_5,,Minor occupation,Label,2,Postsecondary teachers - physical and related sciences
+7789,r032_6,,Detailed occupation,Code,2,382750
+7789,r032_7,,Detailed occupation,Label,2,Postsecondary teachers - Chemistry
+7789,r033_6,,Detailed occupation,Code,2,382770
+7789,r033_7,,Detailed occupation,Label,2,"Postsecondary teachers - Earth, environmental, and marine sciences"
+7789,r034_6,,Detailed occupation,Code,2,382890
+7789,r034_7,,Detailed occupation,Label,2,Postsecondary teachers - Physics
+7789,r035_2,,Major occupation,Code,2,4
+7789,r035_3,,Major occupation,Label,2,Social and related scientists
+7789,r035_4,,Minor occupation,Code,2,41
+7789,r035_5,,Minor occupation,Label,2,Economists
+7789,r035_6,,Detailed occupation,Code,2,412320
+7789,r035_7,,Detailed occupation,Label,2,Economists
+7789,r036_4,,Minor occupation,Code,2,42
+7789,r036_5,,Minor occupation,Label,2,Political scientists
+7789,r036_6,,Detailed occupation,Code,2,422350
+7789,r036_7,,Detailed occupation,Label,2,Political scientists
+7789,r037_4,,Minor occupation,Code,2,43
+7789,r037_5,,Minor occupation,Label,2,Psychologists
+7789,r037_6,,Detailed occupation,Code,2,432360
+7789,r037_7,,Detailed occupation,Label,2,"Psychologists, including clinical"
+7789,r038_4,,Minor occupation,Code,2,44
+7789,r038_5,,Minor occupation,Label,2,Anthropologistse
+7789,r038_6,,Detailed occupation,Code,2,442310
+7789,r038_7,,Detailed occupation,Label,2,Anthropologists
+7789,r039_4,,Minor occupation,Code,2,45
+7789,r039_5,,Minor occupation,Label,2,Other social and related scientists
+7789,r039_6,,Detailed occupation,Code,2,452380
+7789,r039_7,,Detailed occupation,Label,2,"Other social scientists, including sociologistsf"
+7789,r040_4,,Minor occupation,Code,2,48
+7789,r040_5,,Minor occupation,Label,2,Postsecondary teachers - social and related sciences
+7789,r040_6,,Detailed occupation,Code,2,482780
+7789,r040_7,,Detailed occupation,Label,2,Postsecondary teachers - Economics
+7789,r041_6,,Detailed occupation,Code,2,482900
+7789,r041_7,,Detailed occupation,Label,2,Postsecondary teachers - Political science
+7789,r042_6,,Detailed occupation,Code,2,482910
+7789,r042_7,,Detailed occupation,Label,2,Postsecondary teachers - Psychology
+7789,r043_6,,Detailed occupation,Code,2,482930
+7789,r043_7,,Detailed occupation,Label,2,Postsecondary teachers - Sociology
+7789,r044_6,,Detailed occupation,Code,2,482980
+7789,r044_7,,Detailed occupation,Label,2,Postsecondary teachers - Other social sciences
+7789,r045_2,,Major occupation,Code,2,5
+7789,r045_3,,Major occupation,Label,2,Engineers
+7789,r045_4,,Minor occupation,Code,2,51
+7789,r045_5,,Minor occupation,Label,2,"Aerospace, aeronautical, and astronautical engineers"
+7789,r045_6,,Detailed occupation,Code,2,510820
+7789,r045_7,,Detailed occupation,Label,2,"Aeronautical, aerospace, and astronautical engineers"
+7789,r046_4,,Minor occupation,Code,2,52
+7789,r046_5,,Minor occupation,Label,2,Chemical engineers
+7789,r046_6,,Detailed occupation,Code,2,520850
+7789,r046_7,,Detailed occupation,Label,2,Chemical engineers
+7789,r047_4,,Minor occupation,Code,2,53
+7789,r047_5,,Minor occupation,Label,2,"Civil, architectural, and sanitary engineers"
+7789,r047_6,,Detailed occupation,Code,2,530860
+7789,r047_7,,Detailed occupation,Label,2,"Civil engineers, including architectural and sanitary"
+7789,r048_4,,Minor occupation,Code,2,54
+7789,r048_5,,Minor occupation,Label,2,Electrical and computer hardware engineers
+7789,r048_6,,Detailed occupation,Code,2,540870
+7789,r048_7,,Detailed occupation,Label,2,"Computer engineers, hardware"
+7789,r049_6,,Detailed occupation,Code,2,540890
+7789,r049_7,,Detailed occupation,Label,2,Electrical and electronics engineers
+7789,r050_4,,Minor occupation,Code,2,55
+7789,r050_5,,Minor occupation,Label,2,Industrial engineers
+7789,r050_6,,Detailed occupation,Code,2,550910
+7789,r050_7,,Detailed occupation,Label,2,Industrial engineers
+7789,r051_4,,Minor occupation,Code,2,56
+7789,r051_5,,Minor occupation,Label,2,Mechanical engineers
+7789,r051_6,,Detailed occupation,Code,2,560940
+7789,r051_7,,Detailed occupation,Label,2,Mechanical engineers
+7789,r052_4,,Minor occupation,Code,2,57
+7789,r052_5,,Minor occupation,Label,2,Other engineers
+7789,r052_6,,Detailed occupation,Code,2,570840
+7789,r052_7,,Detailed occupation,Label,2,Bioengineers or biomedical engineers
+7789,r053_6,,Detailed occupation,Code,2,570900
+7789,r053_7,,Detailed occupation,Label,2,Environmental engineers
+7789,r054_6,,Detailed occupation,Code,2,570920
+7789,r054_7,,Detailed occupation,Label,2,Marine engineers and naval architects
+7789,r055_6,,Detailed occupation,Code,2,570930
+7789,r055_7,,Detailed occupation,Label,2,Materials and metallurgical engineers
+7789,r056_6,,Detailed occupation,Code,2,570960
+7789,r056_7,,Detailed occupation,Label,2,Nuclear engineers
+7789,r057_6,,Detailed occupation,Code,2,570970
+7789,r057_7,,Detailed occupation,Label,2,Petroleum engineers
+7789,r058_6,,Detailed occupation,Code,2,570980
+7789,r058_7,,Detailed occupation,Label,2,Sales engineers
+7789,r059_6,,Detailed occupation,Code,2,570990
+7789,r059_7,,Detailed occupation,Label,2,"Other engineers, including agricultural, mining, and geologicalg"
+7789,r060_4,,Minor occupation,Code,2,58
+7789,r060_5,,Minor occupation,Label,2,Postsecondary teachers - engineering
+7789,r060_6,,Detailed occupation,Code,2,582800
+7789,r060_7,,Detailed occupation,Label,2,Postsecondary teachers - Engineering
+7789,r061_1,2,Broad occupation,Label,2,S&E-related occupations
+7789,r061_2,2,Major occupation,Code,2,6
+7789,r061_3,2,Major occupation,Label,2,S&E-related occupations
+7789,r061_4,2,Minor occupation,Code,2,61
+7789,r061_5,2,Minor occupation,Label,2,Health-related occupations
+7789,r061_6,2,Detailed occupation,Code,2,611110
+7789,r061_7,2,Detailed occupation,Label,2,Diagnosing and treating practitioners
+7789,r062_6,,Detailed occupation,Code,2,611120
+7789,r062_7,,Detailed occupation,Label,2,"Registered nurses, pharmacists, dieticians, therapists, physician assistants, nurse practitioners"
+7789,r063_6,,Detailed occupation,Code,2,611130
+7789,r063_7,,Detailed occupation,Label,2,Health technologists and technicians
+7789,r064_6,,Detailed occupation,Code,2,611140
+7789,r064_7,,Detailed occupation,Label,2,Other health occupations
+7789,r065_6,,Detailed occupation,Code,2,612870
+7789,r065_7,,Detailed occupation,Label,2,Postsecondary teachers - health and related sciences
+7789,r066_4,,Minor occupation,Code,2,62
+7789,r066_5,,Minor occupation,Label,2,S&E managers
+7789,r066_6,,Detailed occupation,Code,2,621420
+7789,r066_7,,Detailed occupation,Label,2,Computer and information systems managers
+7789,r067_6,,Detailed occupation,Code,2,621430
+7789,r067_7,,Detailed occupation,Label,2,Engineering managers
+7789,r068_6,,Detailed occupation,Code,2,621440
+7789,r068_7,,Detailed occupation,Label,2,Medical and health services managers
+7789,r069_6,,Detailed occupation,Code,2,621450
+7789,r069_7,,Detailed occupation,Label,2,Natural sciences managers
+7789,r070_4,,Minor occupation,Code,2,63
+7789,r070_5,,Minor occupation,Label,2,S&E pre-college teachers
+7789,r070_6,,Detailed occupation,Code,2,632530
+7789,r070_7,,Detailed occupation,Label,2,"Teachers: Secondary - computer, math, or sciences"
+7789,r071_6,,Detailed occupation,Code,2,632540
+7789,r071_7,,Detailed occupation,Label,2,Teachers: Secondary - social sciences
+7789,r072_4,,Minor occupation,Code,2,64
+7789,r072_5,,Minor occupation,Label,2,S&E technicians and technologists
+7789,r072_6,,Detailed occupation,Code,2,640260
+7789,r072_7,,Detailed occupation,Label,2,"Technologists and technicians, biological and life sciences"
+7789,r073_6,,Detailed occupation,Code,2,640530
+7789,r073_7,,Detailed occupation,Label,2,"Computer programmers, business, scientific, and process control"
+7789,r074_6,,Detailed occupation,Code,2,641000
+7789,r074_7,,Detailed occupation,Label,2,"Electrical, electronic, industrial, and mechanical technicians"
+7789,r075_6,,Detailed occupation,Code,2,641010
+7789,r075_7,,Detailed occupation,Label,2,"Drafting occupations, including computer drafting"
+7789,r076_6,,Detailed occupation,Code,2,641020
+7789,r076_7,,Detailed occupation,Label,2,Surveying and mapping technicians
+7789,r077_6,,Detailed occupation,Code,2,641030
+7789,r077_7,,Detailed occupation,Label,2,"Other engineers, technologists, and technicians"
+7789,r078_6,,Detailed occupation,Code,2,641040
+7789,r078_7,,Detailed occupation,Label,2,"Surveyors, cartographers, and photogrammetrists"
+7789,r079_6,,Detailed occupation,Code,2,641970
+7789,r079_7,,Detailed occupation,Label,2,Technologists and technicians in the mathematical or physical sciencesh
+7789,r080_4,,Minor occupation,Code,2,65
+7789,r080_5,,Minor occupation,Label,2,Other S&E-related occupations
+7789,r080_6,,Detailed occupation,Code,2,650810
+7789,r080_7,,Detailed occupation,Label,2,Architects
+7789,r081_6,,Detailed occupation,Code,2,651710
+7789,r081_7,,Detailed occupation,Label,2,Actuaries
+7789,r082_1,3,Broad occupation,Label,2,Non-S&E occupations
+7789,r082_2,3,Major occupation,Code,2,7
+7789,r082_3,3,Major occupation,Label,2,Non-S&E occupations
+7789,r082_4,3,Minor occupation,Code,2,71
+7789,r082_5,3,Minor occupation,Label,2,Non-S&E managers
+7789,r082_6,3,Detailed occupation,Code,2,711410
+7789,r082_7,3,Detailed occupation,Label,2,"Top-level managers, executives, and administrators"
+7789,r083_6,,Detailed occupation,Code,2,711460
+7789,r083_7,,Detailed occupation,Label,2,Education administrators
+7789,r084_6,,Detailed occupation,Code,2,711470
+7789,r084_7,,Detailed occupation,Label,2,Other mid-level managers
+7789,r085_4,,Minor occupation,Code,2,72
+7789,r085_5,,Minor occupation,Label,2,Management-related occupations
+7789,r085_6,,Detailed occupation,Code,2,721510
+7789,r085_7,,Detailed occupation,Label,2,"Accountants, auditors, and other financial specialists"
+7789,r086_6,,Detailed occupation,Code,2,721520
+7789,r086_7,,Detailed occupation,Label,2,"Personnel, training, and labor relations specialists"
+7789,r087_6,,Detailed occupation,Code,2,721530
+7789,r087_7,,Detailed occupation,Label,2,Other management-related occupations
+7789,r088_4,,Minor occupation,Code,2,73
+7789,r088_5,,Minor occupation,Label,2,Non-S&E precollege teachers
+7789,r088_6,,Detailed occupation,Code,2,732510
+7789,r088_7,,Detailed occupation,Label,2,Teachers: Pre-kindergarten and kindergarten
+7789,r089_6,,Detailed occupation,Code,2,732520
+7789,r089_7,,Detailed occupation,Label,2,Teachers: Elementary
+7789,r090_6,,Detailed occupation,Code,2,732550
+7789,r090_7,,Detailed occupation,Label,2,Teachers: Secondary - other subjects
+7789,r091_6,,Detailed occupation,Code,2,732560
+7789,r091_7,,Detailed occupation,Label,2,Teachers: Special education - primary and secondary
+7789,r092_6,,Detailed occupation,Code,2,732570
+7789,r092_7,,Detailed occupation,Label,2,Teachers: Other precollegiate area
+7789,r093_4,,Minor occupation,Code,2,74
+7789,r093_5,,Minor occupation,Label,2,Non-S&E postsecondary teachers
+7789,r093_6,,Detailed occupation,Code,2,742720
+7789,r093_7,,Detailed occupation,Label,2,"Postsecondary teachers - Art, drama, and music"
+7789,r094_6,,Detailed occupation,Code,2,742740
+7789,r094_7,,Detailed occupation,Label,2,Postsecondary teachers - Business commerce and marketing
+7789,r095_6,,Detailed occupation,Code,2,742790
+7789,r095_7,,Detailed occupation,Label,2,Postsecondary teachers - Education
+7789,r096_6,,Detailed occupation,Code,2,742810
+7789,r096_7,,Detailed occupation,Label,2,Postsecondary teachers - English
+7789,r097_6,,Detailed occupation,Code,2,742820
+7789,r097_7,,Detailed occupation,Label,2,Postsecondary teachers - Foreign language
+7789,r098_6,,Detailed occupation,Code,2,742830
+7789,r098_7,,Detailed occupation,Label,2,Postsecondary teachers - History
+7789,r099_6,,Detailed occupation,Code,2,742880
+7789,r099_7,,Detailed occupation,Label,2,Postsecondary teachers - Physical education
+7789,r100_6,,Detailed occupation,Code,2,742990
+7789,r100_7,,Detailed occupation,Label,2,Postsecondary teachers - Other postsecondary fields
+7789,r101_4,,Minor occupation,Code,2,75
+7789,r101_5,,Minor occupation,Label,2,Social services and related occupations
+7789,r101_6,,Detailed occupation,Code,2,750400
+7789,r101_7,,Detailed occupation,Label,2,Clergy and other religious workers
+7789,r102_6,,Detailed occupation,Code,2,750700
+7789,r102_7,,Detailed occupation,Label,2,"Counselors, educational, vocational, mental health, and substance abuse"
+7789,r103_6,,Detailed occupation,Code,2,752400
+7789,r103_7,,Detailed occupation,Label,2,Social workers
+7789,r104_4,,Minor occupation,Code,2,76
+7789,r104_5,,Minor occupation,Label,2,Sales and marketing occupations
+7789,r104_6,,Detailed occupation,Code,2,762000
+7789,r104_7,,Detailed occupation,Label,2,"Insurance, securities, real estate, and business services"
+7789,r105_6,,Detailed occupation,Code,2,762010
+7789,r105_7,,Detailed occupation,Label,2,"Sales occupations, commodities, except retail"
+7789,r106_6,,Detailed occupation,Code,2,762020
+7789,r106_7,,Detailed occupation,Label,2,"Sales occupations, retail"
+7789,r107_6,,Detailed occupation,Code,2,762030
+7789,r107_7,,Detailed occupation,Label,2,Other marketing and sales occupations
+7789,r108_4,,Minor occupation,Code,2,77
+7789,r108_5,,Minor occupation,Label,2,"Art, humanities, and related occupations"
+7789,r108_6,,Detailed occupation,Code,2,770100
+7789,r108_7,,Detailed occupation,Label,2,"Writers, editors, public relations specialists, artists, entertainers, and broadcasters"
+7789,r109_6,,Detailed occupation,Code,2,772330
+7789,r109_7,,Detailed occupation,Label,2,Historians
+7789,r110_4,,Minor occupation,Code,2,78
+7789,r110_5,,Minor occupation,Label,2,Other non-S&E occupations
+7789,r110_6,,Detailed occupation,Code,2,780310
+7789,r110_7,,Detailed occupation,Label,2,"Accounting clerks, and bookkeepers"
+7789,r111_6,,Detailed occupation,Code,2,780320
+7789,r111_7,,Detailed occupation,Label,2,"Secretaries, receptionists, and typists"
+7789,r112_6,,Detailed occupation,Code,2,780330
+7789,r112_7,,Detailed occupation,Label,2,Other administrative occupations
+7789,r113_6,,Detailed occupation,Code,2,781100
+7789,r113_7,,Detailed occupation,Label,2,"Farmers, foresters, and fishermen"
+7789,r114_6,,Detailed occupation,Code,2,781200
+7789,r114_7,,Detailed occupation,Label,2,Lawyers and judges
+7789,r115_6,,Detailed occupation,Code,2,781300
+7789,r115_7,,Detailed occupation,Label,2,"Librarians, archivists, and curators"
+7789,r116_6,,Detailed occupation,Code,2,782210
+7789,r116_7,,Detailed occupation,Label,2,Food preparation and service occupations
+7789,r117_6,,Detailed occupation,Code,2,782220
+7789,r117_7,,Detailed occupation,Label,2,Protective services
+7789,r118_6,,Detailed occupation,Code,2,782230
+7789,r118_7,,Detailed occupation,Label,2,"Other service occupations, except health"
+7789,r119_6,,Detailed occupation,Code,2,783000
+7789,r119_7,,Detailed occupation,Label,2,Other teachers and instructors
+7789,r120_6,,Detailed occupation,Code,2,784010
+7789,r120_7,,Detailed occupation,Label,2,Construction and extraction occupations
+7789,r121_6,,Detailed occupation,Code,2,784020
+7789,r121_7,,Detailed occupation,Label,2,"Installation, maintenance, and repair occupations"
+7789,r122_6,,Detailed occupation,Code,2,784030
+7789,r122_7,,Detailed occupation,Label,2,Precision/ production occupations
+7789,r123_6,,Detailed occupation,Code,2,784050
+7789,r123_7,,Detailed occupation,Label,2,Transportation and material moving occupations
+7789,r124_6,,Detailed occupation,Code,2,785000
+7789,r124_7,,Detailed occupation,Label,2,Other occupations

@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "National Institutes of Health, federal budget authority for R&D and R&D plant: FYs 2020&#8211;22",
+  "identifier": "NCSES-5548",
+  "description": "National Institutes of Health, federal budget authority for R&D and R&D plant: FYs 2020&#8211;22",
+  "url": "https://example.org/datasets/ncses/tables/5548",
+  "table_number": "18",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/5548/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "organization_and_program_by_fy_2020_rank_order",
+      "description": "Organization and program, by FY 2020 rank order hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "organization_and_program_by_fy_2020_rank_order_level_1, organization_and_program_by_fy_2020_rank_order_level_2, organization_and_program_by_fy_2020_rank_order_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "organization_and_program_by_fy_2020_rank_order_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_actual",
+      "description": "2020 Actual",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_preliminary",
+      "description": "2021 Preliminary",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2022_proposed",
+      "description": "2022 Proposed",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020_21_change_",
+      "description": "2020 21 Change ",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_22_change_",
+      "description": "2021 22 Change ",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percent change"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Percent change is calculated on unrounded data. Institute totals exclude non-R&D components of institute budgets.",
+  "sources": "Agencies' submissions to the Office of Management and Budget per MAX Schedule C, agencies' budget justification documents, and supplemental data obtained from agencies' budget offices."
+}

@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Worldwide, domestic, and foreign R&D paid for by the company and others and performed by the company, R&D employment, and R&D cost per R&D employee, by industry and company size: 2022",
+  "identifier": "NCSES-12318",
+  "description": "Worldwide, domestic, and foreign R&D paid for by the company and others and performed by the company, R&D employment, and R&D cost per R&D employee, by industry and company size: 2022",
+  "url": "https://example.org/datasets/ncses/tables/12318",
+  "table_number": "48",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12318/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_company_performed_r_d_us_millions_worldwide",
+      "description": "Company Performed R D Us Millions Worldwide",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_company_performed_r_d_us_millions_domestic",
+      "description": "Company Performed R D Us Millions Domestic",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, number of employees in thousands, and cost per employee in thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_company_performed_r_d_us_millions_foreign",
+      "description": "Company Performed R D Us Millions Foreign",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, number of employees in thousands, and cost per employee in thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_thousands_worldwide",
+      "description": "R D Employment Thousands Worldwide",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_thousands_domestic",
+      "description": "R D Employment Thousands Domestic",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, number of employees in thousands, and cost per employee in thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_employment_thousands_foreign",
+      "description": "R D Employment Thousands Foreign",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, number of employees in thousands, and cost per employee in thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_company_performed_r_d_per_r_d_employee_us_thousands_per_employee_worldwide",
+      "description": "Company Performed R D Per R D Employee Us Thousands Per Employee Worldwide",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_company_performed_r_d_per_r_d_employee_us_thousands_per_employee_domestic",
+      "description": "Company Performed R D Per R D Employee Us Thousands Per Employee Domestic",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, number of employees in thousands, and cost per employee in thousands of U.S. dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_company_performed_r_d_per_r_d_employee_us_thousands_per_employee_foreign",
+      "description": "Company Performed R D Per R D Employee Us Thousands Per Employee Foreign",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars, number of employees in thousands, and cost per employee in thousands of U.S. dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Ratios were calculated using unrounded data. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D and are not comparable with estimates published for years prior to 2018.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2022."
+}

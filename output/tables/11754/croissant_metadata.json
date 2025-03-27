@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Comparison of the broad and major fields, trend broad and major fields, and historical broad and major fields",
+  "identifier": "NCSES-11754",
+  "description": "Comparison of the broad and major fields, trend broad and major fields, and historical broad and major fields",
+  "url": "https://example.org/datasets/ncses/tables/11754",
+  "table_number": "B-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11754/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "broad_and_major_fields_cycle_2023_data_tables_",
+      "description": "Broad And Major Fields Cycle 2023 Data Tables ",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "trend_broad_and_major_fields_cycle_2023_data_tables_",
+      "description": "Trend Broad And Major Fields Cycle 2023 Data Tables ",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "historical_broad_and_major_fields_cycles_2021_22_data_tables_",
+      "description": "Historical Broad And Major Fields Cycles 2021 22 Data Tables ",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection and the new broad, major, and detailed fields are used in the tables reporting data from 2021 to present. In 2023, two new major fields \"Biological and biomedical sciences, general\" and \"Aerospace, aeronautical, astronautical, and space engineering\" were added to improve data utility. See the SED-CIP code crosswalk to the new field taxonomy in table A-5. Therefore, the field of doctorate data prior to 2021 may not be comparable to subsequent years. See table A-6 for the SED-CIP code crosswalk to the current trend fields. For the SED-CIP code crosswalk to the historical fields, see https://ncses.nsf.gov/pubs/nsf24300/table/A-6. For more information about the field taxonomy changes, see the \u201cTechnical Notes\" and the SED 2021 Taxonomy Changes Working Paper (available at https://ncses.nsf.gov/pubs/ncses23200).",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "University technology transfer activity indicators: 2007, 2012, and 2017",
+  "identifier": "NCSES-1895",
+  "description": "University technology transfer activity indicators: 2007, 2012, and 2017",
+  "url": "https://example.org/datasets/ncses/tables/1895",
+  "table_number": "8-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1895/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "technology_transfer_activity",
+      "description": "Technology transfer activity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "technology_transfer_activity_level_1, technology_transfer_activity_level_2, technology_transfer_activity_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "technology_transfer_activity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2007",
+      "description": "2007",
+      "valueType": "string",
+      "unitText": "Number of activities"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Number of activities"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Number of activities"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "AUTM collects data on invention and patent-related activities of its member universities. The number of member universities varies slightly from year to year. There were 161 in 2007, 165 in 2015, and 167 in 2017. The response rate of the survey in 2017 was 61.9% (AUTM 2018). Responding institutions may report for any 12-month period ending in the identified year.",
+  "sources": "AUTM, AUTM Licensing Survey (various years), accessed 5 May 2019.Science and Engineering Indicators"
+}

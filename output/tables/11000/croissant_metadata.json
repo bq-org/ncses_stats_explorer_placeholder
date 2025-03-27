@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "March unemployment rate of workers, by occupation group and educational attainment: 2011\u201321",
+  "identifier": "NCSES-11000",
+  "description": "March unemployment rate of workers, by occupation group and educational attainment: 2011\u201321",
+  "url": "https://example.org/datasets/ncses/tables/11000",
+  "table_number": "SLBR-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11000/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_occupation_group_and_educational_attainment_b",
+      "description": "Occupation group and educational attainment hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_occupation_group_and_educational_attainment_b_level_1, _b_occupation_group_and_educational_attainment_b_level_2, _b_occupation_group_and_educational_attainment_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_occupation_group_and_educational_attainment_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011",
+      "description": "2011",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012",
+      "description": "2012",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2013",
+      "description": "2013",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014",
+      "description": "2014",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2015",
+      "description": "2015",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016",
+      "description": "2016",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2017",
+      "description": "2017",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018",
+      "description": "2018",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2019",
+      "description": "2019",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021",
+      "description": "2021",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the civilian, non-institutionalized labor force ages 16\u201375 and exclude those in military occupations, those missing occupation data or who have not worked in the last 5 years, and those currently enrolled in primary or secondary school. Unemployment rates represent unemployment in March of the indicated year. Coding of occupations into STEM categories utilizes the OCC2010 variable from the IPUMS data set that provides uniform occupation codes based on the 2010 Standard Occupational Classification (SOC) values for all years present in this table. The STEM coding used for the Current Population Survey (CPS) occupations differs slightly from the occupations listed in Table SLBR-1 due to additional granularity of occupations available in the CPS data. Details will be provided upon request.",
+  "sources": "Flood S, King M, Rodgers R, Ruggles S, Warren JR, 2022, Integrated Public-Use Microdata Series (IPUMS), Current Population Survey: Version 7.0 [2011\u201321], available at https://doi.org/10.18128/D030.V7.0.Science and Engineering Indicators"
+}

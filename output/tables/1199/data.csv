@@ -1,0 +1,37 @@
+table_id,row_id,occupation_and_disability_status_full_path,occupation_and_disability_status_level_1,occupation_and_disability_status_level_2,occupation_and_disability_status_level_3,occupation_and_disability_status_level_4,occupation_and_disability_status_level_5,occupation_and_disability_status_hierarchy_depth,field_total,field_professor,field_associate_professor,field_assistant_professor,field_other_faculty,field_rank_not_applicable
+1199,r001,All occupations,All occupations,,,,,1,319400,98800,71250,64850,21150,63400
+1199,r002,All occupations -> Without disability,All occupations,Without disability,,,,2,289300,86500,64950,60050,19300,58550
+1199,r003,All occupations -> With disability,All occupations,With disability,,,,2,30100,12300,6300,4800,1850,4850
+1199,r004,All occupations -> S&E occupations<sup>a</sup>,All occupations,S&E occupations<sup>a</sup>,,,,2,245250,75000,54400,51500,16900,47500
+1199,r005,All occupations -> S&E occupations<sup>a</sup> -> Without disability,All occupations,S&E occupations<sup>a</sup>,Without disability,,,3,222150,65500,49700,47700,15450,43850
+1199,r006,All occupations -> S&E occupations<sup>a</sup> -> With disability,All occupations,S&E occupations<sup>a</sup>,With disability,,,3,23100,9500,4700,3800,1450,3650
+1199,r007,All occupations -> S&E occupations<sup>a</sup> -> Scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,,,3,214200,63400,47150,44800,15350,43450
+1199,r008,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Without disability,,4,194150,55250,43150,41550,14100,40100
+1199,r009,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,With disability,,4,20050,8150,4000,3300,1250,3350
+1199,r010,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Biological/life scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Biological/life scientist,,4,73600,17350,12200,14450,4400,25200
+1199,r011,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Biological/life scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Biological/life scientist,Without disability,5,67400,15250,11250,13600,4000,23300
+1199,r012,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Biological/life scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Biological/life scientist,With disability,5,6200,2100,950,850,400,1900
+1199,r013,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Computer and information scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Computer and information scientist,,4,11200,3200,2600,2300,550,2500
+1199,r014,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Computer and information scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Computer and information scientist,Without disability,5,10250,2950,2350,2100,500,2350
+1199,r015,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Computer and information scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Computer and information scientist,With disability,5,950,300,250,200,50,150
+1199,r016,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Mathematical scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Mathematical scientist,,4,19700,6700,5000,4150,1750,2150
+1199,r017,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Mathematical scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Mathematical scientist,Without disability,5,17750,5800,4550,3700,1650,2000
+1199,r018,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Mathematical scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Mathematical scientist,With disability,5,1950,900,400,400,S,150
+1199,r019,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Physical scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Physical scientist,,4,39150,13100,7600,7550,3600,7300
+1199,r020,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Physical scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Physical scientist,Without disability,5,35650,11500,7000,7050,3350,6750
+1199,r021,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Physical scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Physical scientist,With disability,5,3500,1600,650,500,250,500
+1199,r022,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Psychologist,All occupations,S&E occupations<sup>a</sup>,Scientist,Psychologist,,4,24300,7400,6750,5450,1650,3100
+1199,r023,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Psychologist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Psychologist,Without disability,5,21800,6250,6250,5000,1500,2750
+1199,r024,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Psychologist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Psychologist,With disability,5,2550,1150,500,450,100,350
+1199,r025,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Social scientist,All occupations,S&E occupations<sup>a</sup>,Scientist,Social scientist,,4,46150,15600,13050,10950,3400,3200
+1199,r026,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Social scientist -> Without disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Social scientist,Without disability,5,41250,13500,11800,10050,3050,2900
+1199,r027,All occupations -> S&E occupations<sup>a</sup> -> Scientist -> Social scientist -> With disability,All occupations,S&E occupations<sup>a</sup>,Scientist,Social scientist,With disability,5,4900,2100,1250,900,350,300
+1199,r028,All occupations -> S&E occupations<sup>a</sup> -> Engineer,All occupations,S&E occupations<sup>a</sup>,Engineer,,,3,31100,11600,7250,6650,1550,4050
+1199,r029,All occupations -> S&E occupations<sup>a</sup> -> Engineer -> Without disability,All occupations,S&E occupations<sup>a</sup>,Engineer,Without disability,,4,28050,10250,6550,6150,1350,3750
+1199,r030,All occupations -> S&E occupations<sup>a</sup> -> Engineer -> With disability,All occupations,S&E occupations<sup>a</sup>,Engineer,With disability,,4,3050,1350,700,500,200,300
+1199,r031,All occupations -> S&E-related occupations<sup>b</sup>,All occupations,S&E-related occupations<sup>b</sup>,,,,2,33050,7650,8600,8450,1500,6900
+1199,r032,All occupations -> S&E-related occupations<sup>b</sup> -> Without disability,All occupations,S&E-related occupations<sup>b</sup>,Without disability,,,3,30550,6900,7800,7950,1400,6500
+1199,r033,All occupations -> S&E-related occupations<sup>b</sup> -> With disability,All occupations,S&E-related occupations<sup>b</sup>,With disability,,,3,2550,750,800,500,S,400
+1199,r034,All occupations -> Non-S&E occupations,All occupations,Non-S&E occupations,,,,2,41100,16150,8250,4950,2750,9000
+1199,r035,All occupations -> Non-S&E occupations -> Without disability,All occupations,Non-S&E occupations,Without disability,,,3,36600,14100,7450,4450,2450,8200
+1199,r036,All occupations -> Non-S&E occupations -> With disability,All occupations,Non-S&E occupations,With disability,,,3,4450,2050,800,500,300,800

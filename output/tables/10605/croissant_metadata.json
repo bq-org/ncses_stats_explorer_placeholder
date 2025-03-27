@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "USPTO utility patents granted in climate change adaptation technologies, by region, country, or economy: 1998\u20132022",
+  "identifier": "NCSES-10605",
+  "description": "USPTO utility patents granted in climate change adaptation technologies, by region, country, or economy: 1998\u20132022",
+  "url": "https://example.org/datasets/ncses/tables/10605",
+  "table_number": "SINV-J",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10605/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "USPTO patents are allocated according to patent inventorship information. USPTO patents are fractionally allocated among regions, countries, or economies based on the proportion of residences of all named inventors. Patents are classified under environmental technology areas, based on a direct mapping to Cooperative Patent Classification codes from the Organisation for Economic Co-operation and Development's Green Growth Indicators, and under climate change mitigation and adaptation technologies in agriculture and forestry. Fractional counts of patents were assigned to each environmental technology area on patents to assign the proper weight of a patent to the corresponding environmental technology under the classification. China includes Hong Kong. The United States includes Puerto Rico and all other U.S. territories.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; PatentsView, USPTO, accessed June 2023.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Costs for repair and renovation of science and engineering research space in academic institutions, by field and time of repair and renovation: FYs 2022\u201325",
+  "identifier": "NCSES-12825",
+  "description": "Costs for repair and renovation of science and engineering research space in academic institutions, by field and time of repair and renovation: FYs 2022\u201325",
+  "url": "https://example.org/datasets/ncses/tables/12825",
+  "table_number": "3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12825/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_level_1, field_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_path",
+      "description": "Full Path",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_1",
+      "description": "Level 1",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_level_2",
+      "description": "Level 2",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hierarchy_depth",
+      "description": "Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2022_or_fy_2023",
+      "description": "Started In Fy 2022 Or Fy 2023",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_planned_to_start_in_fy_2024_or_fy_2025",
+      "description": "Planned To Start In Fy 2024 Or Fy 2025",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_deferred_projects_included_in_institutional_plan",
+      "description": "Deferred Projects Included In Institutional Plan",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_deferred_projects_not_included_in_institutional_plan",
+      "description": "Deferred Projects Not Included In Institutional Plan",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Deferred projects are those that (1) are not funded and (2) are not scheduled for FY 2024 or FY 2025. Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities, FY 2023."
+}

@@ -1,0 +1,45 @@
+table_id,row_id,_b_field_of_study_b_full_path,_b_field_of_study_b_level_1,_b_field_of_study_b_level_2,_b_field_of_study_b_hierarchy_depth,field_survey_of_earned_doctorates_field_code
+4767,r001,Life sciences ,Life sciences ,,1,"000–299 (excluding 152, 217), 577, 685"
+4767,r002,Life sciences  -> Agricultural sciences and natural resources,Life sciences ,Agricultural sciences and natural resources,2,"000–099, 685"
+4767,r003,Life sciences  -> Biological and biomedical sciences ,Life sciences ,Biological and biomedical sciences ,2,100–199 (excluding 152)
+4767,r004,Life sciences  -> Health sciences,Life sciences ,Health sciences,2,"200–299 (excluding 217), 577"
+4767,r005,Physical sciences and earth sciences,Physical sciences and earth sciences,,1,"500–599 (excluding 577), 152"
+4767,r006,Physical sciences and earth sciences -> Chemistry,Physical sciences and earth sciences,Chemistry,2,520–539 
+4767,r007,"Physical sciences and earth sciences -> Geosciences, atmospheric sciences, and ocean sciences",Physical sciences and earth sciences,"Geosciences, atmospheric sciences, and ocean sciences",2,"510–519, 540–559, 580–599, 152"
+4767,r008,Physical sciences and earth sciences -> Physics and astronomy,Physical sciences and earth sciences,Physics and astronomy,2,"500–509, 560–579 (excluding 577)"
+4767,r009,Mathematics and computer sciences,Mathematics and computer sciences,,1,400-499 (excluding 415)
+4767,r010,Mathematics and computer sciences -> Computer and information sciences,Mathematics and computer sciences,Computer and information sciences,2,400–419 (excluding 415)
+4767,r011,Mathematics and computer sciences -> Mathematics and statistics ,Mathematics and computer sciences,Mathematics and statistics ,2,420–499
+4767,r012,Psychology and social sciences ,Psychology and social sciences ,,1,"600–699, (excluding 685), 217, 770"
+4767,r013,Psychology and social sciences  -> Psychology,Psychology and social sciences ,Psychology,2,600–649
+4767,r014,Psychology and social sciences  -> Anthropology,Psychology and social sciences ,Anthropology,2,"650, 655, 656"
+4767,r015,Psychology and social sciences  -> Economics,Psychology and social sciences ,Economics,2,"665, 667, 668"
+4767,r016,Psychology and social sciences  -> Political science and government,Psychology and social sciences ,Political science and government,2,678
+4767,r017,Psychology and social sciences  -> Sociology,Psychology and social sciences ,Sociology,2,686
+4767,r018,Psychology and social sciences  -> Other social sciences,Psychology and social sciences ,Other social sciences,2,"651-654, 657-662, 670-676, 682, 684, 690-699, 217, 710, 770"
+4767,r019,Engineering ,Engineering ,,1,"300–399, 415"
+4767,r020,"Engineering  -> Aerospace, aeronautical, and astronautical engineering ",Engineering ,"Aerospace, aeronautical, and astronautical engineering ",2,300
+4767,r021,Engineering  -> Bioengineering and biomedical engineering,Engineering ,Bioengineering and biomedical engineering,2,306
+4767,r022,Engineering  -> Chemical engineering ,Engineering ,Chemical engineering ,2,312
+4767,r023,Engineering  -> Civil engineering ,Engineering ,Civil engineering ,2,315
+4767,r024,"Engineering  -> Electrical, electronics, and communications engineering",Engineering ,"Electrical, electronics, and communications engineering",2,324
+4767,r025,Engineering  -> Industrial and manufacturing engineering ,Engineering ,Industrial and manufacturing engineering ,2,339
+4767,r026,Engineering  -> Materials science engineering ,Engineering ,Materials science engineering ,2,342
+4767,r027,Engineering  -> Mechanical engineering ,Engineering ,Mechanical engineering ,2,345
+4767,r028,Engineering  -> Other engineering,Engineering ,Other engineering,2,"303, 309, 316-321, 327-337, 348-399, 415"
+4767,r029,Education ,Education ,,1,800–899
+4767,r030,Education  -> Education administration,Education ,Education administration,2,804–807
+4767,r031,Education  -> Education research,Education ,Education research,2,"800, 801, 808–845"
+4767,r032,Education  -> Teacher education,Education ,Teacher education,2,850–858 
+4767,r033,Education  -> Teaching fields,Education ,Teaching fields,2,860–889
+4767,r034,Education  -> Other education,Education ,Other education,2,895–899
+4767,r035,Humanities and arts,Humanities and arts,,1,"700–799 (excluding 770), 984"
+4767,r036,Humanities and arts -> Foreign languages and literature,Humanities and arts,Foreign languages and literature,2,740–769
+4767,r037,Humanities and arts -> History,Humanities and arts,History,2,700–719 (excluding 710)
+4767,r038,Humanities and arts -> Letters,Humanities and arts,Letters,2,720–739 (excluding 731)
+4767,r039,Humanities and arts -> Other humanities and arts,Humanities and arts,Other humanities and arts,2,"731, 773–799, 984"
+4767,r040,Other<sup>a</sup>,Other<sup>a</sup>,,1,900–999 (excluding 984)
+4767,r041,Other<sup>a</sup> -> Business management and administration,Other<sup>a</sup>,Business management and administration,2,900–939
+4767,r042,Other<sup>a</sup> -> Communication,Other<sup>a</sup>,Communication,2,940–959
+4767,r043,Other<sup>a</sup> -> Non-S&E fields nec,Other<sup>a</sup>,Non-S&E fields nec,2,960–989 (excluding 984)
+4767,r044,Other<sup>a</sup> -> Unknown field,Other<sup>a</sup>,Unknown field,2,999

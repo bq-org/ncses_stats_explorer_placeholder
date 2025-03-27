@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total and federally financed higher education R&D expenditures, by type of R&D: FYs 1953\u20132021",
+  "identifier": "NCSES-7949",
+  "description": "Total and federally financed higher education R&D expenditures, by type of R&D: FYs 1953\u20132021",
+  "url": "https://example.org/datasets/ncses/tables/7949",
+  "table_number": "8",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7949/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "_b_total_b_characteristic",
+      "description": "Total hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_total_b_level_1, _b_total_b_level_2, _b_total_b_level_3"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Dollars in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Type of R&D estimation procedure was revised for FY 1998 and later years; hence, these data are not directly comparable to data for FY 1997 and earlier years. Prior to FY 2010, R&D expenditures by type of R&D were based on percentage estimates of basic research provided by universities and colleges. Beginning in FY 2010, institutions were asked for dollar amounts of federally funded and nonfederally funded R&D expenditures for basic research, applied research, and experimental development. Because of rounding, detail may not add to total.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey.",
+  "temporalCoverage": "19/20"
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total amount spent on R&D by nonprofits that performed or funded R&D and coefficient of variation of FY 2016 NPRA Survey, by source, R&D type, and field",
+  "identifier": "NCSES-7265",
+  "description": "Total amount spent on R&D by nonprofits that performed or funded R&D and coefficient of variation of FY 2016 NPRA Survey, by source, R&D type, and field",
+  "url": "https://example.org/datasets/ncses/tables/7265",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7265/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_variable_b",
+      "description": "Variable hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_variable_b_level_1, _b_variable_b_level_2, _b_variable_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_variable_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_r_d_n_912_total_r_d_expenditures_thousands_of_dollars_",
+      "description": "Performed R D N 912 Total R D Expenditures Thousands Of Dollars ",
+      "valueType": "string",
+      "unitText": "Dollars, number, and value"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_r_d_n_912_coefficient_of_variationa",
+      "description": "Performed R D N 912 Coefficient Of Variationa",
+      "valueType": "string",
+      "unitText": "Dollars, number, and value"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performed_r_d_n_912_meets_standard_30_",
+      "description": "Performed R D N 912 Meets Standard 30 ",
+      "valueType": "string",
+      "unitText": "Dollars, number, and value"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funded_r_d_n_823_total_r_d_expenditures_thousands_of_dollars_",
+      "description": "Funded R D N 823 Total R D Expenditures Thousands Of Dollars ",
+      "valueType": "string",
+      "unitText": "Dollars, number, and value"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funded_r_d_n_823_coefficient_of_variationa",
+      "description": "Funded R D N 823 Coefficient Of Variationa",
+      "valueType": "string",
+      "unitText": "Dollars, number, and value"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_funded_r_d_n_823_meets_standard_30_",
+      "description": "Funded R D N 823 Meets Standard 30 ",
+      "valueType": "string",
+      "unitText": "Dollars, number, and value"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Details for full-time equivalent do not add to total because of missing data.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Nonprofit Research Activities, FY 2016."
+}

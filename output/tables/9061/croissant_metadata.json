@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. S&E publications, by U.S. federal funding status and field: 2018\u201322",
+  "identifier": "NCSES-9061",
+  "description": "U.S. S&E publications, by U.S. federal funding status and field: 2018\u201322",
+  "url": "https://example.org/datasets/ncses/tables/9061",
+  "table_number": "PBS-A",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9061/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field",
+      "description": "Field",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_s_publications_total_",
+      "description": "U S Publications Total ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_s_publications_federally_funded_",
+      "description": "U S Publications Federally Funded ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "percentage_of_federally_funded_publications",
+      "description": "Percentage Of Federally Funded Publications",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "u_s_publications_other_funding_",
+      "description": "U S Publications Other Funding ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "percentage_of_publications_acknowledging_funding_from_another_source",
+      "description": "Percentage Of Publications Acknowledging Funding From Another Source",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Articles are classified by their year of publication and are assigned to a region, country, or economy on the basis of the institutional address(es) of the author(s) listed in the article. Whole counting is used. An article is considered to be federally funded if the funding information tied with the publication record in Scopus links it with one of the U.S. federal agencies. Not all Scopus publications have funding information available, and coverage has evolved with time. For more information, see Figure SPBS-1. For a breakdown of federally funded papers by funding agency, see Table SPBS-90.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; Elsevier, Scopus abstract and citation database, accessed April 2023.Science and Engineering Indicators"
+}

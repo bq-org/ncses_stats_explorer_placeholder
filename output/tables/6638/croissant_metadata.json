@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Foreign R&D reported by U.S.-located businesses, by IT-related industries and selected host country: 2019 ",
+  "identifier": "NCSES-6638",
+  "description": "Foreign R&D reported by U.S.-located businesses, by IT-related industries and selected host country: 2019 ",
+  "url": "https://example.org/datasets/ncses/tables/6638",
+  "table_number": "4",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6638/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_outside_the_united_states",
+      "description": "Total Outside The United States",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_united_kingdom",
+      "description": "United Kingdom",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_india",
+      "description": "India",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_germany",
+      "description": "Germany",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_china",
+      "description": "China",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_canada",
+      "description": "Canada",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_israel",
+      "description": "Israel",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_switzerland",
+      "description": "Switzerland",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_ireland",
+      "description": "Ireland",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_japan",
+      "description": "Japan",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_france",
+      "description": "France",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "An estimate range may be displayed in place of a single estimate to avoid disclosing operations of individual companies.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2019."
+}

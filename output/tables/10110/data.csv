@@ -1,0 +1,49 @@
+table_id,row_id,_b_field_b_full_path,_b_field_b_level_1,_b_field_b_level_2,_b_field_b_level_3,_b_field_b_level_4,_b_field_b_hierarchy_depth,field_all_expenditures_total,field_all_expenditures_public,field_all_expenditures_private,field_federal_total,field_federal_public,field_federal_private,field_nonfederal_total,field_nonfederal_public,field_nonfederal_private
+10110,r001,All R&D fields,All R&D fields,,,,1,2700652,1980284,720368,1336692,955690,381002,1363960,1024594,339366
+10110,r002,All R&D fields -> Science,All R&D fields,Science,,,2,1844183,1320322,523861,886412,609492,276920,957771,710830,246941
+10110,r003,All R&D fields -> Science -> Computer and information sciences,All R&D fields,Science,Computer and information sciences,,3,136868,96925,39943,78813,56021,22792,58055,40904,17151
+10110,r004,"All R&D fields -> Science -> Geosciences, atmospheric sciences, and ocean sciences",All R&D fields,Science,"Geosciences, atmospheric sciences, and ocean sciences",,3,136651,115844,20807,85617,77688,7929,51034,38156,12878
+10110,r005,"All R&D fields -> Science -> Geosciences, atmospheric sciences, and ocean sciences -> Atmospheric science and meteorology",All R&D fields,Science,"Geosciences, atmospheric sciences, and ocean sciences",Atmospheric science and meteorology,4,23944,21484,2460,18413,16938,1475,5531,4546,985
+10110,r006,"All R&D fields -> Science -> Geosciences, atmospheric sciences, and ocean sciences -> Geological and earth sciences",All R&D fields,Science,"Geosciences, atmospheric sciences, and ocean sciences",Geological and earth sciences,4,47613,33753,13860,22360,17824,4536,25253,15929,9324
+10110,r007,"All R&D fields -> Science -> Geosciences, atmospheric sciences, and ocean sciences -> Ocean sciences and marine sciences",All R&D fields,Science,"Geosciences, atmospheric sciences, and ocean sciences",Ocean sciences and marine sciences,4,52689,49204,3485,36435,35046,1389,16254,14158,2096
+10110,r008,"All R&D fields -> Science -> Geosciences, atmospheric sciences, and ocean sciences -> Geosciences, atmospheric sciences, and ocean sciences nec",All R&D fields,Science,"Geosciences, atmospheric sciences, and ocean sciences","Geosciences, atmospheric sciences, and ocean sciences nec",4,12405,11403,1002,8409,7880,529,3996,3523,473
+10110,r009,All R&D fields -> Science -> Life sciences,All R&D fields,Science,Life sciences,,3,1056808,771516,285292,429317,282512,146805,627491,489004,138487
+10110,r010,All R&D fields -> Science -> Life sciences -> Agricultural sciences,All R&D fields,Science,Life sciences,Agricultural sciences,4,120530,117922,2608,33636,32829,807,86894,85093,1801
+10110,r011,All R&D fields -> Science -> Life sciences -> Biological and biomedical sciences,All R&D fields,Science,Life sciences,Biological and biomedical sciences,4,485746,313990,171756,231374,146206,85168,254372,167784,86588
+10110,r012,All R&D fields -> Science -> Life sciences -> Health sciences,All R&D fields,Science,Life sciences,Health sciences,4,408455,306476,101979,149025,92094,56931,259430,214382,45048
+10110,r013,All R&D fields -> Science -> Life sciences -> Natural resources and conservation,All R&D fields,Science,Life sciences,Natural resources and conservation,4,13797,13349,448,5278,5085,193,8519,8264,255
+10110,r014,All R&D fields -> Science -> Life sciences -> Life sciences nec,All R&D fields,Science,Life sciences,Life sciences nec,4,28280,19779,8501,10004,6298,3706,18276,13481,4795
+10110,r015,All R&D fields -> Science -> Mathematics and statistics,All R&D fields,Science,Mathematics and statistics,,3,10648,5407,5241,5277,3473,1804,5371,1934,3437
+10110,r016,All R&D fields -> Science -> Physical sciences,All R&D fields,Science,Physical sciences,,3,408769,262534,146235,262166,170562,91604,146603,91972,54631
+10110,r017,All R&D fields -> Science -> Physical sciences -> Astronomy and astrophysics,All R&D fields,Science,Physical sciences,Astronomy and astrophysics,4,27500,18568,8932,17656,11165,6491,9844,7403,2441
+10110,r018,All R&D fields -> Science -> Physical sciences -> Chemistry,All R&D fields,Science,Physical sciences,Chemistry,4,139819,92354,47465,78071,50950,27121,61748,41404,20344
+10110,r019,All R&D fields -> Science -> Physical sciences -> Materials science,All R&D fields,Science,Physical sciences,Materials science,4,22064,14493,7571,16928,11380,5548,5136,3113,2023
+10110,r020,All R&D fields -> Science -> Physical sciences -> Physics,All R&D fields,Science,Physical sciences,Physics,4,198354,127429,70925,136324,91056,45268,62030,36373,25657
+10110,r021,All R&D fields -> Science -> Physical sciences -> Physical sciences nec,All R&D fields,Science,Physical sciences,Physical sciences nec,4,21032,9690,11342,13187,6011,7176,7845,3679,4166
+10110,r022,All R&D fields -> Science -> Psychology,All R&D fields,Science,Psychology,,3,14616,9652,4964,6886,3872,3014,7730,5780,1950
+10110,r023,All R&D fields -> Science -> Social sciences,All R&D fields,Science,Social sciences,,3,21001,14438,6563,6247,4801,1446,14754,9637,5117
+10110,r024,All R&D fields -> Science -> Social sciences -> Anthropology,All R&D fields,Science,Social sciences,Anthropology,4,2944,2463,481,308,172,136,2636,2291,345
+10110,r025,All R&D fields -> Science -> Social sciences -> Economics,All R&D fields,Science,Social sciences,Economics,4,2346,1578,768,1191,721,470,1155,857,298
+10110,r026,All R&D fields -> Science -> Social sciences -> Political science and government,All R&D fields,Science,Social sciences,Political science and government,4,1640,1509,131,740,739,1,900,770,130
+10110,r027,"All R&D fields -> Science -> Social sciences -> Sociology, demography, and population studies",All R&D fields,Science,Social sciences,"Sociology, demography, and population studies",4,1882,1637,245,263,200,63,1619,1437,182
+10110,r028,All R&D fields -> Science -> Social sciences -> Social sciences nec,All R&D fields,Science,Social sciences,Social sciences nec,4,12189,7251,4938,3745,2969,776,8444,4282,4162
+10110,r029,All R&D fields -> Science -> Sciences nec,All R&D fields,Science,Sciences nec,,3,58822,44006,14816,12089,10563,1526,46733,33443,13290
+10110,r030,All R&D fields -> Engineering,All R&D fields,Engineering,,,2,802784,618607,184177,440036,338669,101367,362748,279938,82810
+10110,r031,"All R&D fields -> Engineering -> Aerospace, aeronautical, and astronautical engineering",All R&D fields,Engineering,"Aerospace, aeronautical, and astronautical engineering",,3,72887,61707,11180,48599,44387,4212,24288,17320,6968
+10110,r032,All R&D fields -> Engineering -> Bioengineering and biomedical engineering,All R&D fields,Engineering,Bioengineering and biomedical engineering,,3,67216,39963,27253,33218,17512,15706,33998,22451,11547
+10110,r033,All R&D fields -> Engineering -> Chemical engineering,All R&D fields,Engineering,Chemical engineering,,3,62492,48318,14174,33584,23924,9660,28908,24394,4514
+10110,r034,All R&D fields -> Engineering -> Civil engineering,All R&D fields,Engineering,Civil engineering,,3,48545,41022,7523,24667,21104,3563,23878,19918,3960
+10110,r035,"All R&D fields -> Engineering -> Electrical, electronic, and communications engineering",All R&D fields,Engineering,"Electrical, electronic, and communications engineering",,3,181826,135778,46048,124371,103585,20786,57455,32193,25262
+10110,r036,All R&D fields -> Engineering -> Industrial and manufacturing engineering,All R&D fields,Engineering,Industrial and manufacturing engineering,,3,26538,16604,9934,16102,9792,6310,10436,6812,3624
+10110,r037,All R&D fields -> Engineering -> Mechanical engineering,All R&D fields,Engineering,Mechanical engineering,,3,100619,71751,28868,62624,48720,13904,37995,23031,14964
+10110,r038,All R&D fields -> Engineering -> Metallurgical and materials engineering,All R&D fields,Engineering,Metallurgical and materials engineering,,3,66604,47301,19303,43734,29520,14214,22870,17781,5089
+10110,r039,All R&D fields -> Engineering -> Engineering nec,All R&D fields,Engineering,Engineering nec,,3,176057,156163,19894,53137,40125,13012,122920,116038,6882
+10110,r040,All R&D fields -> Non-S&E,All R&D fields,Non-S&E,,,2,53685,41355,12330,10244,7529,2715,43441,33826,9615
+10110,r041,All R&D fields -> Non-S&E -> Business management and business administration,All R&D fields,Non-S&E,Business management and business administration,,3,8885,6461,2424,916,903,13,7969,5558,2411
+10110,r042,All R&D fields -> Non-S&E -> Communication and communications technologies,All R&D fields,Non-S&E,Communication and communications technologies,,3,4102,3328,774,900,140,760,3202,3188,14
+10110,r043,All R&D fields -> Non-S&E -> Education,All R&D fields,Non-S&E,Education,,3,4331,3096,1235,1294,1038,256,3037,2058,979
+10110,r044,All R&D fields -> Non-S&E -> Humanities,All R&D fields,Non-S&E,Humanities,,3,3092,1610,1482,237,224,13,2855,1386,1469
+10110,r045,All R&D fields -> Non-S&E -> Law,All R&D fields,Non-S&E,Law,,3,779,517,262,110,109,1,669,408,261
+10110,r046,All R&D fields -> Non-S&E -> Social work,All R&D fields,Non-S&E,Social work,,3,530,452,78,160,96,64,370,356,14
+10110,r047,All R&D fields -> Non-S&E -> Visual and performing arts,All R&D fields,Non-S&E,Visual and performing arts,,3,2563,1688,875,99,49,50,2464,1639,825
+10110,r048,All R&D fields -> Non-S&E -> Non-S&E nec,All R&D fields,Non-S&E,Non-S&E nec,,3,29403,24203,5200,6528,4970,1558,22875,19233,3642

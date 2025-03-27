@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Values Chart Test</title>
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .chart-container {
+            height: 400px;
+            width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Special Values Chart Test</h1>
+    
+    <div class="chart-container">
+        <canvas id="special-values-chart"></canvas>
+    </div>
+    
+    <script>
+        // Test data for special values
+        const specialValues = {
+            "D": 843,
+            "*": 129,
+            "r": 1269,
+            "i": 1254
+        };
+        
+        // Define colors for each special value
+        const SPECIAL_VALUE_COLORS = {
+            'D': '#ef4444', // red
+            '*': '#3b82f6', // blue
+            'r': '#10b981', // green
+            'i': '#f59e0b'  // yellow
+        };
+        
+        // Wait for DOM to be loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Creating test chart for special values');
+            
+            // Get the canvas element
+            const canvas = document.getElementById('special-values-chart');
+            const ctx = canvas.getContext('2d');
+            
+            // Extract labels and values
+            const labels = Object.keys(specialValues);
+            const values = Object.values(specialValues);
+            
+            // Assign colors
+            const colors = labels.map(value => SPECIAL_VALUE_COLORS[value]);
+            
+            // Create the chart
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Number of Tables',
+                        data: values,
+                        backgroundColor: colors,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Number of Tables'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Special Value Type'
+                            }
+                        }
+                    }
+                }
+            });
+            
+            console.log('Test chart created');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+table_id,row_id,occupation_full_path,occupation_level_1,occupation_level_2,occupation_level_3,occupation_level_4,occupation_hierarchy_depth,field_unemployment_rate_percent,field_unemployment_rate_se
+8214,r001,All occupations,All occupations,,,,1,1.9,0.1
+8214,r002,All occupations -> Science occupations,All occupations,Science occupations,,,2,1.6,0.15
+8214,r003,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists",All occupations,Science occupations,"Biological, agricultural, and other life scientists",,3,1.6,0.2
+8214,r004,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Agricultural, food scientists",All occupations,Science occupations,"Biological, agricultural, and other life scientists","Agricultural, food scientists",4,1.8,0.4
+8214,r005,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Biochemists, biophysicists",All occupations,Science occupations,"Biological, agricultural, and other life scientists","Biochemists, biophysicists",4,1.0,0.35
+8214,r006,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Biological scientists",All occupations,Science occupations,"Biological, agricultural, and other life scientists",Biological scientists,4,1.3,0.35
+8214,r007,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Forestry, conservation scientists",All occupations,Science occupations,"Biological, agricultural, and other life scientists","Forestry, conservation scientists",4,,
+8214,r008,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Medical scientists",All occupations,Science occupations,"Biological, agricultural, and other life scientists",Medical scientists,4,2.3,0.5
+8214,r009,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Postsecondary teachers, agricultural, other natural sciences",All occupations,Science occupations,"Biological, agricultural, and other life scientists","Postsecondary teachers, agricultural, other natural sciences",4,,
+8214,r010,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Postsecondary teachers, biological sciences",All occupations,Science occupations,"Biological, agricultural, and other life scientists","Postsecondary teachers, biological sciences",4,1.0,0.3
+8214,r011,"All occupations -> Science occupations -> Biological, agricultural, and other life scientists -> Other biological, agricultural, life scientists",All occupations,Science occupations,"Biological, agricultural, and other life scientists","Other biological, agricultural, life scientists",4,1.8,0.45
+8214,r012,All occupations -> Science occupations -> Computer and information scientists,All occupations,Science occupations,Computer and information scientists,,3,1.8,0.4
+8214,r013,All occupations -> Science occupations -> Computer and information scientists -> Computer and information scientists,All occupations,Science occupations,Computer and information scientists,Computer and information scientists,4,2.0,0.5
+8214,r014,"All occupations -> Science occupations -> Computer and information scientists -> Postsecondary teachers, computer science",All occupations,Science occupations,Computer and information scientists,"Postsecondary teachers, computer science",4,1.2,0.45
+8214,r015,All occupations -> Science occupations -> Mathematical scientists,All occupations,Science occupations,Mathematical scientists,,3,1.4,0.3
+8214,r016,All occupations -> Science occupations -> Mathematical scientists -> Mathematical scientists,All occupations,Science occupations,Mathematical scientists,Mathematical scientists,4,1.8,0.45
+8214,r017,"All occupations -> Science occupations -> Mathematical scientists -> Postsecondary teachers, mathematics, statistics",All occupations,Science occupations,Mathematical scientists,"Postsecondary teachers, mathematics, statistics",4,0.9,0.25
+8214,r018,All occupations -> Science occupations -> Physical scientists,All occupations,Science occupations,Physical scientists,,3,1.7,0.25
+8214,r019,"All occupations -> Science occupations -> Physical scientists -> Chemists, except biochemists",All occupations,Science occupations,Physical scientists,"Chemists, except biochemists",4,3.0,0.65
+8214,r020,"All occupations -> Science occupations -> Physical scientists -> Earth, atmospheric, ocean scientists",All occupations,Science occupations,Physical scientists,"Earth, atmospheric, ocean scientists",4,2.0,0.45
+8214,r021,"All occupations -> Science occupations -> Physical scientists -> Physicists, astronomers",All occupations,Science occupations,Physical scientists,"Physicists, astronomers",4,1.4,0.45
+8214,r022,"All occupations -> Science occupations -> Physical scientists -> Postsecondary teachers, chemistry",All occupations,Science occupations,Physical scientists,"Postsecondary teachers, chemistry",4,1.0,0.4
+8214,r023,"All occupations -> Science occupations -> Physical scientists -> Postsecondary teachers, physics",All occupations,Science occupations,Physical scientists,"Postsecondary teachers, physics",4,S,S
+8214,r024,"All occupations -> Science occupations -> Physical scientists -> Postsecondary teachers, other physical science",All occupations,Science occupations,Physical scientists,"Postsecondary teachers, other physical science",4,0.7,0.3
+8214,r025,All occupations -> Science occupations -> Physical scientists -> Other physical scientists,All occupations,Science occupations,Physical scientists,Other physical scientists,4,,
+8214,r026,All occupations -> Science occupations -> Psychologists,All occupations,Science occupations,Psychologists,,3,1.1,0.2
+8214,r027,All occupations -> Science occupations -> Psychologists -> Psychologists,All occupations,Science occupations,Psychologists,Psychologists,4,1.1,0.25
+8214,r028,"All occupations -> Science occupations -> Psychologists -> Postsecondary teachers, psychology",All occupations,Science occupations,Psychologists,"Postsecondary teachers, psychology",4,1.2,0.35
+8214,r029,All occupations -> Science occupations -> Social scientists,All occupations,Science occupations,Social scientists,,3,2.0,0.35
+8214,r030,All occupations -> Science occupations -> Social scientists -> Economists,All occupations,Science occupations,Social scientists,Economists,4,1.1,0.55
+8214,r031,All occupations -> Science occupations -> Social scientists -> Political scientists,All occupations,Science occupations,Social scientists,Political scientists,4,S,S
+8214,r032,"All occupations -> Science occupations -> Social scientists -> Postsecondary teachers, economics",All occupations,Science occupations,Social scientists,"Postsecondary teachers, economics",4,1.3,0.55
+8214,r033,"All occupations -> Science occupations -> Social scientists -> Postsecondary teachers, political science",All occupations,Science occupations,Social scientists,"Postsecondary teachers, political science",4,2.8,1.35
+8214,r034,"All occupations -> Science occupations -> Social scientists -> Postsecondary teachers, sociology",All occupations,Science occupations,Social scientists,"Postsecondary teachers, sociology",4,1.5,0.6
+8214,r035,"All occupations -> Science occupations -> Social scientists -> Postsecondary teachers, other social sciences",All occupations,Science occupations,Social scientists,"Postsecondary teachers, other social sciences",4,1.6,0.65
+8214,r036,"All occupations -> Science occupations -> Social scientists -> Sociologists, anthropologists",All occupations,Science occupations,Social scientists,"Sociologists, anthropologists",4,5.3,1.6
+8214,r037,All occupations -> Science occupations -> Social scientists -> Other social scientists,All occupations,Science occupations,Social scientists,Other social scientists,4,1.7,0.55
+8214,r038,All occupations -> Engineering occupations,All occupations,Engineering occupations,,,2,1.7,0.25
+8214,r039,"All occupations -> Engineering occupations -> Aerospace, aeronautical, astronautical engineers",All occupations,Engineering occupations,"Aerospace, aeronautical, astronautical engineers",,3,1.7,0.85
+8214,r040,All occupations -> Engineering occupations -> Chemical engineers,All occupations,Engineering occupations,Chemical engineers,,3,2.6,0.85
+8214,r041,"All occupations -> Engineering occupations -> Civil, architectural, sanitary engineers",All occupations,Engineering occupations,"Civil, architectural, sanitary engineers",,3,S,S
+8214,r042,All occupations -> Engineering occupations -> Electrical engineers,All occupations,Engineering occupations,Electrical engineers,,3,0.8,0.25
+8214,r043,All occupations -> Engineering occupations -> Industrial engineers,All occupations,Engineering occupations,Industrial engineers,,3,,
+8214,r044,All occupations -> Engineering occupations -> Mechanical engineers,All occupations,Engineering occupations,Mechanical engineers,,3,2.7,0.9
+8214,r045,"All occupations -> Engineering occupations -> Postsecondary teacher, engineering",All occupations,Engineering occupations,"Postsecondary teacher, engineering",,3,0.8,0.35
+8214,r046,All occupations -> Engineering occupations -> Other engineers,All occupations,Engineering occupations,Other engineers,,3,2.7,0.45
+8214,r047,All occupations -> S&E-related occupations,All occupations,S&E-related occupations,,,2,2.0,0.25
+8214,r048,"All occupations -> S&E-related occupations -> Health occupations, except postsecondary teachers and managers",All occupations,S&E-related occupations,"Health occupations, except postsecondary teachers and managers",,3,2.4,0.45
+8214,r049,"All occupations -> S&E-related occupations -> Postsecondary teacher, health and related science",All occupations,S&E-related occupations,"Postsecondary teacher, health and related science",,3,1.6,0.45
+8214,r050,"All occupations -> S&E-related occupations -> S&E managers, including health",All occupations,S&E-related occupations,"S&E managers, including health",,3,1.4,0.4
+8214,r051,All occupations -> S&E-related occupations -> S&E precollege teachers,All occupations,S&E-related occupations,S&E precollege teachers,,3,4.3,1.5
+8214,r052,All occupations -> S&E-related occupations -> S&E technicians/ technologists,All occupations,S&E-related occupations,S&E technicians/ technologists,,3,1.9,0.7
+8214,r053,All occupations -> S&E-related occupations -> Other S&E-related occupations,All occupations,S&E-related occupations,Other S&E-related occupations,,3,,
+8214,r054,All occupations -> Non-S&E occupations,All occupations,Non-S&E occupations,,,2,2.8,0.3
+8214,r055,"All occupations -> Non-S&E occupations -> Arts, humanities-related occupations",All occupations,Non-S&E occupations,"Arts, humanities-related occupations",,3,3.9,1.05
+8214,r056,All occupations -> Non-S&E occupations -> Management-related occupations,All occupations,Non-S&E occupations,Management-related occupations,,3,3.2,0.6
+8214,r057,All occupations -> Non-S&E occupations -> Non-S&E managers,All occupations,Non-S&E occupations,Non-S&E managers,,3,1.1,0.3
+8214,r058,All occupations -> Non-S&E occupations -> Non-S&E postsecondary teachers,All occupations,Non-S&E occupations,Non-S&E postsecondary teachers,,3,1.7,0.45
+8214,r059,All occupations -> Non-S&E occupations -> Non-S&E precollege/ other teachers,All occupations,Non-S&E occupations,Non-S&E precollege/ other teachers,,3,9.7,2.35
+8214,r060,"All occupations -> Non-S&E occupations -> Sales, marketing occupations",All occupations,Non-S&E occupations,"Sales, marketing occupations",,3,4.0,1.05
+8214,r061,All occupations -> Non-S&E occupations -> Social service-related occupations,All occupations,Non-S&E occupations,Social service-related occupations,,3,2.8,0.8
+8214,r062,All occupations -> Non-S&E occupations -> Other non-S&E occupations,All occupations,Non-S&E occupations,Other non-S&E occupations,,3,7.7,1.3

@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public school teachers who reported various types of access to computers or the Internet provided to their students by the district or school, by school characteristics: 2018\u201319 ",
+  "identifier": "NCSES-4130",
+  "description": "Public school teachers who reported various types of access to computers or the Internet provided to their students by the district or school, by school characteristics: 2018\u201319 ",
+  "url": "https://example.org/datasets/ncses/tables/4130",
+  "table_number": "SK12-36",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4130/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "school_characteristic",
+      "description": "School characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "school_characteristic_level_1, school_characteristic_level_2, school_characteristic_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "school_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_teachers_school_has_additional_academic_period_when_students_can_use_computers_and_internet_for_homework",
+      "description": "All Teachers School Has Additional Academic Period When Students Can Use Computers And Internet For Homework",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_teachers_district_or_school_provides_mobile_hotspots_students_take_home",
+      "description": "All Teachers District Or School Provides Mobile Hotspots Students Take Home",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_teachers_students_take_home_a_district_or_school_provided_computeron_long_term_basis",
+      "description": "All Teachers Students Take Home A District Or School Provided Computeron Long Term Basis",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teachers_whose_students_take_home_a_district_or_school_provided_computer_who_have_some_students_not_able_to_take_a_computer_homea",
+      "description": "Teachers Whose Students Take Home A District Or School Provided Computer Who Have Some Students Not Able To Take A Computer Homea",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teachers_whose_students_do_not_have_a_district_or_school_provided_computer_to_take_homeb_students_can_borrow_school_computers_to_take_home_on_short_term_basis",
+      "description": "Teachers Whose Students Do Not Have A District Or School Provided Computer To Take Homeb Students Can Borrow School Computers To Take Home On Short Term Basis",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_teachers_whose_students_do_not_have_a_district_or_school_provided_computer_to_take_homeb_students_can_access_school_computers_outside_of_class_time_e_g_before_or_after_school_at_lunch_in_special_periods_",
+      "description": "Teachers Whose Students Do Not Have A District Or School Provided Computer To Take Homeb Students Can Access School Computers Outside Of Class Time E G Before Or After School At Lunch In Special Periods ",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "This table includes public school teachers who teach at least one regularly scheduled class in grades 3\u201312 and teach either (1) self-contained classes, or (2) departmentalized classes in one or more of the core subjects of English and language arts, social studies and social science, math, or science. The table excludes those who teach only special education, bilingual education, or English as a Second Language.",
+  "sources": "Gray L, Lewis L, Teachers' Use of Technology for School and Homework Assignments: 2018\u201319, NCES 2020-048, U.S. Department of Education, National Center for Education Statistics (2020), https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020048. Science and Engineering Indicators"
+}

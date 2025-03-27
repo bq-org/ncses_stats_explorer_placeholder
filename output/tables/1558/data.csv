@@ -1,0 +1,15 @@
+table_id,row_id,demographic_characteristic_full_path,demographic_characteristic_level_1,demographic_characteristic_level_2,demographic_characteristic_level_3,demographic_characteristic_level_4,demographic_characteristic_hierarchy_depth,field_all_fields,field_all_s_e_fields,field_engineering,field_agricultural_sciences,field_biological_sciences,field_computer_sciences,field_earth_atmospheric_and_ocean_sciences,field_mathematics,field_medical_and_other_health_sciences,field_physical_sciences,field_psychology,field_social_sciences,field_non_s_e
+1558,r001,All doctorate recipients,All doctorate recipients,,,,1,6.1,5.5,3.7,6.8,3.9,6.4,4.3,4.9,10.7,4.1,6.6,7.1,7.8
+1558,r002,All doctorate recipients -> Sex,All doctorate recipients,Sex,,,2,,,,,,,,,,,,,
+1558,r003,All doctorate recipients -> Sex -> Male,All doctorate recipients,Sex,Male,,3,5.9,5.3,4.1,7.4,4.5,6.6,4.6,5.2,10.1,3.9,7.6,7.0,8.0
+1558,r004,All doctorate recipients -> Sex -> Female,All doctorate recipients,Sex,Female,,3,6.4,5.7,2.7,6.3,3.4,5.9,4.0,4.4,10.9,4.6,6.2,7.3,7.6
+1558,r005,All doctorate recipients -> Race and ethnicity,All doctorate recipients,Race and ethnicity,,,2,,,,,,,,,,,,,
+1558,r006,All doctorate recipients -> Race and ethnicity -> Hispanic or Latino,All doctorate recipients,Race and ethnicity,Hispanic or Latino,,3,8.7,7.8,5.2,s,5.1,11.6,0.0,s,17.0,4.9,9.3,10.7,10.7
+1558,r007,All doctorate recipients -> Race and ethnicity -> Not Hispanic or Latino,All doctorate recipients,Race and ethnicity,Not Hispanic or Latino,,3,,,,,,,,,,,,,
+1558,r008,All doctorate recipients -> Race and ethnicity -> Not Hispanic or Latino -> American Indian or Alaska Native,All doctorate recipients,Race and ethnicity,Not Hispanic or Latino,American Indian or Alaska Native,4,12.8,s,0.0,s,s,0.0,0.0,0.0,s,0.0,s,s,s
+1558,r009,All doctorate recipients -> Race and ethnicity -> Not Hispanic or Latino -> Asian,All doctorate recipients,Race and ethnicity,Not Hispanic or Latino,Asian,4,2.9,2.5,2.0,s,1.9,0.0,0.0,s,s,s,s,1.8,5.2
+1558,r010,All doctorate recipients -> Race and ethnicity -> Not Hispanic or Latino -> Black or African American,All doctorate recipients,Race and ethnicity,Not Hispanic or Latino,Black or African American,4,10.3,10.8,7.7,s,4.0,s,s,s,21.8,s,8.7,11.9,9.7
+1558,r011,All doctorate recipients -> Race and ethnicity -> Not Hispanic or Latino -> White,All doctorate recipients,Race and ethnicity,Not Hispanic or Latino,White,4,6.0,5.5,3.8,7.1,4.2,7.6,4.8,5.7,9.0,4.2,6.4,7.0,7.4
+1558,r012,All doctorate recipients -> Race and ethnicity -> Not Hispanic or Latino -> More than one race,All doctorate recipients,Race and ethnicity,Not Hispanic or Latino,More than one race,4,8.1,s,8.8,s,3.4,s,s,s,9.0,6.6,9.5,7.7,s
+1558,r013,All doctorate recipients -> Race and ethnicity -> Not Hispanic or Latino -> Other race or race not reported,All doctorate recipients,Race and ethnicity,Not Hispanic or Latino,Other race or race not reported,4,5.1,3.6,1.5,0.0,s,s,s,0.0,3.4,2.6,5.3,s,9.0
+1558,r014,All doctorate recipients -> Race and ethnicity -> Ethnicity not reported,All doctorate recipients,Race and ethnicity,Ethnicity not reported,,3,0.5,0.3,0.0,0.0,0.0,0.0,0.0,0.0,2.2,0.0,0.0,1.0,0.9

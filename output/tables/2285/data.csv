@@ -1,0 +1,31 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_clear_understanding,field_general_sense,field_little_understanding,field_don_t_know
+2285,r001,"All adults (<i>n</i> = 1,175)","All adults (<i>n</i> = 1,175)",,1,27,51,20,1
+2285,r002,Sex,Sex,,1,,,,
+2285,r003,Sex -> Male (<i>n</i> = 485),Sex,Male (<i>n</i> = 485),2,29,47,23,1
+2285,r004,Sex -> Female (<i>n</i> = 690),Sex,Female (<i>n</i> = 690),2,26,54,18,1
+2285,r005,Formal education,Formal education,,1,,,,
+2285,r006,Formal education -> Less than high school diploma (<i>n</i> = 137),Formal education,Less than high school diploma (<i>n</i> = 137),2,7,36,49,7
+2285,r007,Formal education -> High school diploma (<i>n</i> = 362),Formal education,High school diploma (<i>n</i> = 362),2,15,55,29,1
+2285,r008,Formal education -> Some college (<i>n</i> = 330),Formal education,Some college (<i>n</i> = 330),2,32,57,12,0
+2285,r009,Formal education -> Bachelor's degree (<i>n</i> = 232),Formal education,Bachelor's degree (<i>n</i> = 232),2,40,51,8,1
+2285,r010,Formal education -> Graduate or professional degree (<i>n</i> = 114),Formal education,Graduate or professional degree (<i>n</i> = 114),2,54,41,5,0
+2285,r011,"Science and mathematics education<sup>a,b</sup>","Science and mathematics education<sup>a,b</sup>",,1,,,,
+2285,r012,"Science and mathematics education<sup>a,b</sup> -> Low (<i>n</i> = 598)","Science and mathematics education<sup>a,b</sup>",Low (<i>n</i> = 598),2,15,54,29,2
+2285,r013,"Science and mathematics education<sup>a,b</sup> -> Middle (<i>n</i> = 237)","Science and mathematics education<sup>a,b</sup>",Middle (<i>n</i> = 237),2,37,53,10,0.05
+2285,r014,"Science and mathematics education<sup>a,b</sup> -> High (<i>n</i> = 252)","Science and mathematics education<sup>a,b</sup>",High (<i>n</i> = 252),2,51,45,3,0
+2285,r015,Family income (quartile)<sup>b</sup>,Family income (quartile)<sup>b</sup>,,1,,,,
+2285,r016,Family income (quartile)<sup>b</sup> -> Bottom (<i>n</i> = 277),Family income (quartile)<sup>b</sup>,Bottom (<i>n</i> = 277),2,21,46,33,1
+2285,r017,Family income (quartile)<sup>b</sup> -> Third (<i>n</i> = 223),Family income (quartile)<sup>b</sup>,Third (<i>n</i> = 223),2,25,51,23,0.05
+2285,r018,Family income (quartile)<sup>b</sup> -> Second (<i>n</i> = 290),Family income (quartile)<sup>b</sup>,Second (<i>n</i> = 290),2,29,57,14,0.05
+2285,r019,Family income (quartile)<sup>b</sup> -> Top (<i>n</i> = 287),Family income (quartile)<sup>b</sup>,Top (<i>n</i> = 287),2,34,53,13,0.05
+2285,r020,Age (years)<sup>b</sup>,Age (years)<sup>b</sup>,,1,,,,
+2285,r021,Age (years)<sup>b</sup> -> 18&#8211;24 (<i>n</i> = 94),Age (years)<sup>b</sup>,18&#8211;24 (<i>n</i> = 94),2,30,60,10,0
+2285,r022,Age (years)<sup>b</sup> -> 25&#8211;34 (<i>n</i> = 225),Age (years)<sup>b</sup>,25&#8211;34 (<i>n</i> = 225),2,29,50,21,0
+2285,r023,Age (years)<sup>b</sup> -> 35&#8211;44 (<i>n</i> = 206),Age (years)<sup>b</sup>,35&#8211;44 (<i>n</i> = 206),2,34,44,20,1
+2285,r024,Age (years)<sup>b</sup> -> 45&#8211;54 (<i>n</i> = 190),Age (years)<sup>b</sup>,45&#8211;54 (<i>n</i> = 190),2,23,57,18,1
+2285,r025,Age (years)<sup>b</sup> -> 55&#8211;64 (<i>n</i> = 186),Age (years)<sup>b</sup>,55&#8211;64 (<i>n</i> = 186),2,28,48,22,2
+2285,r026,Age (years)<sup>b</sup> -> 65 or older (<i>n</i> = 269),Age (years)<sup>b</sup>,65 or older (<i>n</i> = 269),2,20,50,26,4
+2285,r027,Correct answers to questions about basic scientific facts<sup>c</sup>,Correct answers to questions about basic scientific facts<sup>c</sup>,,1,,,,
+2285,r028,Correct answers to questions about basic scientific facts<sup>c</sup> -> Low (<i>n</i> = 227),Correct answers to questions about basic scientific facts<sup>c</sup>,Low (<i>n</i> = 227),2,10,43,42,6
+2285,r029,Correct answers to questions about basic scientific facts<sup>c</sup> -> Middle (<i>n</i> = 512),Correct answers to questions about basic scientific facts<sup>c</sup>,Middle (<i>n</i> = 512),2,21,57,22,1
+2285,r030,Correct answers to questions about basic scientific facts<sup>c</sup> -> High (<i>n</i> = 436),Correct answers to questions about basic scientific facts<sup>c</sup>,High (<i>n</i> = 436),2,44,48,8,0

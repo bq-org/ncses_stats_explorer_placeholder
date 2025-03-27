@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Current fund expenditures for research equipment at academic institutions, by R&D field: FYs 2004&#8211;18",
+  "identifier": "NCSES-1816",
+  "description": "Current fund expenditures for research equipment at academic institutions, by R&D field: FYs 2004&#8211;18",
+  "url": "https://example.org/datasets/ncses/tables/1816",
+  "table_number": "S5b-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1816/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Millions of current dollars, millions of constant 2012 dollars, and percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Gross domestic product deflators come from the U.S. Bureau of Economic Analysis and are available at https://www.bea.gov/national, accessed August 2019. Because of rising capitalization thresholds, the dollar threshold for inclusion in the equipment category has changed over time. Generally, university equipment that costs less than $5,000 would be classified under the cost category of \"supplies.\" Detail may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of R&D Expenditures at Universities and Colleges, and Higher Education Research and Development Survey (HERD).Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

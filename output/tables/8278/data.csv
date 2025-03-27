@@ -1,0 +1,114 @@
+table_id,row_id,broad_field,gss_code_collected_,detailed_field_collected_,gss_code_reported_,gss_field_name_in_data_and_tables_,exclusions
+8278,r001,Agricultural and veterinary sciences,501,Agricultural sciences,501,Agricultural sciences,
+8278,r002,,502,Veterinary biomedical and clinical sciences,502,Veterinary biomedical and clinical sciences,DVM
+8278,r003,Biological and biomedical sciences,602,Biochemistry,602,Biochemistry,
+8278,r004,,603,Biology ,603,Biology ,
+8278,r005,,623,Biomedical sciences,623,Biomedical sciences,
+8278,r006,,605,Biophysics,605,Biophysics,
+8278,r007,,618,Biostatistics and bioinformatics ,618,Biostatistics and bioinformatics ,
+8278,r008,,606,Botany and plant biology,606,Botany and plant biology,
+8278,r009,,624,Biotechnology,624,Biotechnology,
+8278,r010,,619,"Cell, cellular biology, and anatomical sciences",619,"Cell, cellular biology, and anatomical sciences",
+8278,r011,,620,Ecology and population biology,620,Ecology and population biology,
+8278,r012,,621,Epidemiology,621,Epidemiology,
+8278,r013,,610,Genetics,610,Genetics,
+8278,r014,,611,Microbiological sciences and immunology,611,Microbiological sciences and immunology,
+8278,r015,,622,Molecular biology,622,Molecular biology,
+8278,r016,,950,Neurobiology and neuroscience,626,Neurobiology and neuroscience,
+8278,r017,,612,Nutrition science,612,Nutrition science,
+8278,r018,,613,Pathology and experimental pathology,613,Pathology and experimental pathology,
+8278,r019,,614,Pharmacology and toxicology,614,Pharmacology and toxicology,
+8278,r020,,615,Physiology,615,Physiology,
+8278,r021,,616,Zoology and animal biology,616,Zoology and animal biology,
+8278,r022,,617,Biological and biomedical sciences nec,617,Biological and biomedical sciences nec,
+8278,r023,Computer and information sciences,416,"Artificial intelligence, informatics and computer and information science topics ",416,"Artificial intelligence, informatics and computer and information science topics ",Exclude DCS
+8278,r024,,411,Computer and information science,411,Computer and information science,Exclude DCS
+8278,r025,,413,Computer and information systems security ,413,Computer and information systems security ,Exclude DCS
+8278,r026,,410,Computer science,410,Computer science,Exclude DCS
+8278,r027,,415,Information science and studies,415,Information science and studies,Exclude DCS
+8278,r028,,414,Information technology,414,Information technology,Exclude DCS
+8278,r029,,412,Computer and information science nec ,412,Computer and information science nec ,Exclude DCS
+8278,r030,"Geoscience, atmospheric, and ocean sciences ",301,Atmospheric sciences and meteorology,301,Atmospheric sciences and meteorology,
+8278,r031,,302,Geological and earth sciences,302,Geological and earth sciences,
+8278,r032,,303,Ocean and marine sciences,303,Ocean and marine sciences,
+8278,r033,,304,"Geoscience, atmospheric, and ocean sciences nec",304,"Geoscience, atmospheric, and ocean sciences nec",Postdocs and NFRs only
+8278,r034,Mathematics and statistics,404,Applied mathematics,404,Applied mathematics,
+8278,r035,,405,Mathematics,405,Mathematics,
+8278,r036,,403,Statistics,403,Statistics ,
+8278,r037,Multidisciplinary and interdisciplinary studies,982,Biological and physical sciences,982,Biological and physical sciences,
+8278,r038,,981,Computational science,981,Computational science,
+8278,r039,,984,Data science and data analytics,984,Data science and data analytics,
+8278,r040,,983,International and global studies,983,International and global studies,
+8278,r041,,980,Multidisciplinary and interdisciplinary studies nec,980,Multidisciplinary and interdisciplinary studies nec,
+8278,r042,Natural resources and conservation,510,Environmental science and studies,510,Environmental science and studies,
+8278,r043,,511,"Forestry, natural resources and conservation",511,"Forestry, natural resources and conservation",
+8278,r044,Physical sciences,201,Astronomy and astrophysics,201,Astronomy and astrophysics,
+8278,r045,,202,Chemistry,202,Chemistry,
+8278,r046,,205,Materials sciences,205,Materials sciences,
+8278,r047,,203,Physics,203,Physics,
+8278,r048,,204,Physical sciences nec,204,Physical sciences nec,
+8278,r049,Psychology,804,Applied psychology,804,Applied psychology,
+8278,r050,,803,Clinical psychology,803,Clinical psychology,
+8278,r051,,806,Counseling psychology,806,Counseling psychology,
+8278,r052,,915,Human development,815,Human development,
+8278,r053,,801,"Psychology, general",801,"Psychology, general",
+8278,r054,,805,Research and experimental psychology,805,Research and experimental psychology,
+8278,r055,Social sciences,901,Agricultural and natural resource economics,901,Agricultural and natural resource economics,
+8278,r056,,902,Anthropology,902,Anthropology,
+8278,r057,,916,"Area, ethnic, cultural, gender, and group studies",916,"Area, ethnic, cultural, gender, and group studies",
+8278,r058,,911,Criminal justice and safety studies,911,Criminal justice and safety studies,
+8278,r059,,917,Criminology,917,Criminology,
+8278,r060,,903,Economics (except agricultural and natural resource),903,Economics (except agricultural and natural resource),
+8278,r061,,904,Geography and cartography,904,Geography and cartography,
+8278,r062,,912,International relations and national security studies,912,International relations and national security studies,
+8278,r063,,906,Linguistics,906,Linguistics,
+8278,r064,,907,Political science and government,907,Political science and government,
+8278,r065,,914,Public policy analysis,914,Public policy analysis,
+8278,r066,,908,Sociology and population studies,908,Sociology and population studies,
+8278,r067,,918,Urban studies and affairs ,918,Urban studies and affairs ,
+8278,r068,,910,Social sciences nec,919,"Social sciences, other",
+8278,r069,,905,History and philosophy of science and technology,919,"Social sciences, other",
+8278,r070,"Aerospace, aeronautical, and astronautical engineering",101,"Aerospace, aeronautical, and astronautical engineering",101,"Aerospace, aeronautical, and astronautical engineering",
+8278,r071,"Biological, biomedical, and biosystems engineering",103,Bioengineering and biomedical engineering,120,"Biological, biomedical, and biosystems engineering",
+8278,r072,,115,Biological and biosystems engineering,120,"Biological, biomedical, and biosystems engineering",
+8278,r073,"Chemical, petroleum, and chemical-related engineering",104,Chemical engineering,104,Chemical engineering,
+8278,r074,,113,Petroleum engineering,113,Petroleum engineering,
+8278,r075,"Civil, environmental, transportation and related engineering fields",105,Civil engineering,105,Civil engineering,
+8278,r076,,117,"Architectural, environmental, construction and surveying engineering",117,"Architectural, environmental, construction and surveying engineering",
+8278,r077,"Electrical, electronics, communications and computer engineering",118,Computer engineering,118,Computer engineering,
+8278,r078,,106,"Electrical, electronics, and communications engineering",106,"Electrical, electronics, and communications engineering",
+8278,r079,"Industrial, manufacturing, systems engineering and operations research",108,Industrial and manufacturing engineering,108,Industrial and manufacturing engineering,
+8278,r080,,119,Systems engineering and operations research,119,Systems engineering and operations research,
+8278,r081,Mechanical engineering,109,Mechanical engineering,109,Mechanical engineering,
+8278,r082,"Metallurgical, mining, materials and related engineering fields",110,Metallurgical and materials engineering,121,"Metallurgical, mining, materials and related engineering fields",
+8278,r083,,111,Mining engineering,121,"Metallurgical, mining, materials and related engineering fields",
+8278,r084,"Engineering, other",102,Agricultural engineering,102,Agricultural engineering,
+8278,r085,,107,"Engineering mechanics, physics, and science",107,"Engineering mechanics, physics, and science",
+8278,r086,,112,Nuclear engineering,112,Nuclear engineering,
+8278,r087,,114,Engineering nec,122,"Engineering, other",
+8278,r088,,116,Nanotechnology,122,"Engineering, other",
+8278,r089,Clinical medicine,701,Anesthesiology,701,Anesthesiology,Postdocs and NFRs only
+8278,r090,,702,Cardiology and cardiovascular disease,702,Cardiology and cardiovascular disease,Postdocs and NFRs only
+8278,r091,,704,"Endocrinology, diabetes, and metabolism",704,"Endocrinology, diabetes, and metabolism",Postdocs and NFRs only
+8278,r092,,705,Gastroenterology,705,Gastroenterology,Postdocs and NFRs only
+8278,r093,,706,Hematology,706,Hematology,Postdocs and NFRs only
+8278,r094,,725,Clinical and medical laboratory science,729,Medical clinical sciences and clinical and medical laboratory sciences ,
+8278,r095,,730,Medical clinical sciences ,729,Medical clinical sciences and clinical and medical laboratory sciences ,
+8278,r096,,707,Neurology and neurosurgery,707,Neurology and neurosurgery,Postdocs and NFRs only
+8278,r097,,708,Obstetrics and gynecology,708,Obstetrics and gynecology,Postdocs and NFRs only
+8278,r098,,703,Oncology and cancer research,703,Oncology and cancer research,Postdocs and NFRs only
+8278,r099,,709,Ophthalmology,709,Ophthalmology,Postdocs and NFRs only
+8278,r100,,710,Otorhinolaryngology,710,Otorhinolaryngology,Postdocs and NFRs only
+8278,r101,,711,Pediatrics,711,Pediatrics,Postdocs and NFRs only
+8278,r102,,712,Public health,712,Public health,
+8278,r103,,713,Psychiatry,713,Psychiatry,Postdocs and NFRs only
+8278,r104,,714,Pulmonary disease,714,Pulmonary disease,Postdocs and NFRs only
+8278,r105,,715,Radiological sciences,715,Radiological sciences,Postdocs and NFRs only
+8278,r106,,716,Surgery,716,Surgery,Postdocs and NFRs only
+8278,r107,,717,Clinical medicine nec,717,Clinical medicine nec,Postdocs and NFRs only
+8278,r108,Other health,723,Communication disorders sciences,723,Communication disorders sciences,Exclude AuD
+8278,r109,,718,Dental sciences,718,Dental sciences,Exclude DDS
+8278,r110,,724,Kinesiology and exercise science,724,Kinesiology and exercise science,"Exclude DPT, DScPT, and OTD"
+8278,r111,,719,Nursing science,719,Nursing science,"PhD, postdocs, and NFRs only"
+8278,r112,,720,Pharmaceutical sciences,720,Pharmaceutical sciences,Exclude PharmD
+8278,r113,,722,Other health nec,722,"Health-related, not elsewhere classified","Exclude DPT, DScPT and OTD"

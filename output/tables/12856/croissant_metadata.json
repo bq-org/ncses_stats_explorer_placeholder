@@ -1,0 +1,215 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Costs and space for new construction of science and engineering research space in academic institutions, by type of institution and time of construction: FYs 2006\u201325",
+  "identifier": "NCSES-12856",
+  "description": "Costs and space for new construction of science and engineering research space in academic institutions, by type of institution and time of construction: FYs 2006\u201325",
+  "url": "https://example.org/datasets/ncses/tables/12856",
+  "table_number": "14",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12856/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_type_of_institution_b",
+      "description": "Type of institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_type_of_institution_b_level_1, _b_type_of_institution_b_level_2, _b_type_of_institution_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_type_of_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2006_or_fy_2007_costs",
+      "description": "Started In Fy 2006 Or Fy 2007 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2006_or_fy_2007_nasf",
+      "description": "Started In Fy 2006 Or Fy 2007 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2008_or_fy_2009_costs",
+      "description": "Started In Fy 2008 Or Fy 2009 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2008_or_fy_2009_nasf",
+      "description": "Started In Fy 2008 Or Fy 2009 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2010_or_fy_2011_costs",
+      "description": "Started In Fy 2010 Or Fy 2011 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2010_or_fy_2011_nasf",
+      "description": "Started In Fy 2010 Or Fy 2011 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2012_or_fy_2013_costs",
+      "description": "Started In Fy 2012 Or Fy 2013 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2012_or_fy_2013_nasf",
+      "description": "Started In Fy 2012 Or Fy 2013 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2014_or_fy_2015_costs",
+      "description": "Started In Fy 2014 Or Fy 2015 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2014_or_fy_2015_nasf",
+      "description": "Started In Fy 2014 Or Fy 2015 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2016_or_fy_2017_costs",
+      "description": "Started In Fy 2016 Or Fy 2017 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2016_or_fy_2017_nasf",
+      "description": "Started In Fy 2016 Or Fy 2017 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2018_or_fy_2019_costs",
+      "description": "Started In Fy 2018 Or Fy 2019 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2018_or_fy_2019_nasf",
+      "description": "Started In Fy 2018 Or Fy 2019 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2020_or_fy_2021_costs",
+      "description": "Started In Fy 2020 Or Fy 2021 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2020_or_fy_2021_nasf",
+      "description": "Started In Fy 2020 Or Fy 2021 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2022_or_fy_2023_costs",
+      "description": "Started In Fy 2022 Or Fy 2023 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_started_in_fy_2022_or_fy_2023_nasf",
+      "description": "Started In Fy 2022 Or Fy 2023 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_planned_to_start_in_fy_2024_or_fy_2025_costs",
+      "description": "Planned To Start In Fy 2024 Or Fy 2025 Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_planned_to_start_in_fy_2024_or_fy_2025_nasf",
+      "description": "Planned To Start In Fy 2024 Or Fy 2025 Nasf",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_costs_of_deferred_projects_included_in_institutional_plan",
+      "description": "Costs Of Deferred Projects Included In Institutional Plan",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_costs_of_deferred_projects_not_included_in_institutional_plan",
+      "description": "Costs Of Deferred Projects Not Included In Institutional Plan",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars and net assignable square feet in millions"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Deferred projects are those that (1) are not funded and (2) are not scheduled for FY 2024 or FY 2025. Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities."
+}

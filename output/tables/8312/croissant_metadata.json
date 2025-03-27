@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Demographic characteristics of master's and doctoral students in science, engineering, and health, by enrollment intensity: 2021",
+  "identifier": "NCSES-8312",
+  "description": "Demographic characteristics of master's and doctoral students in science, engineering, and health, by enrollment intensity: 2021",
+  "url": "https://example.org/datasets/ncses/tables/8312",
+  "table_number": "2-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/8312/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_sex_citizenship_ethnicity_and_race_b",
+      "description": "Sex, citizenship, ethnicity, and race hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_sex_citizenship_ethnicity_and_race_b_level_1, _b_sex_citizenship_ethnicity_and_race_b_level_2, _b_sex_citizenship_ethnicity_and_race_b_level_3, _b_sex_citizenship_ethnicity_and_race_b_level_4, _b_sex_citizenship_ethnicity_and_race_b_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_sex_citizenship_ethnicity_and_race_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_all_full_time_total_number",
+      "description": "Full Time All Full Time Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_all_full_time_total_percent",
+      "description": "Full Time All Full Time Total Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_all_full_time_master_s_number",
+      "description": "Full Time All Full Time Master S Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_all_full_time_master_s_percent",
+      "description": "Full Time All Full Time Master S Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_all_full_time_doctoral_number",
+      "description": "Full Time All Full Time Doctoral Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_all_full_time_doctoral_percent",
+      "description": "Full Time All Full Time Doctoral Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_first_time_full_time_all_first_time_full_time_number",
+      "description": "Full Time First Time Full Time All First Time Full Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_first_time_full_time_all_first_time_full_time_percent",
+      "description": "Full Time First Time Full Time All First Time Full Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_first_time_full_time_master_s_number",
+      "description": "Full Time First Time Full Time Master S Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_first_time_full_time_master_s_percent",
+      "description": "Full Time First Time Full Time Master S Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_first_time_full_time_doctoral_number",
+      "description": "Full Time First Time Full Time Doctoral Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_full_time_first_time_full_time_doctoral_percent",
+      "description": "Full Time First Time Full Time Doctoral Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_all_part_time_number",
+      "description": "Part Time All Part Time Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_all_part_time_percent",
+      "description": "Part Time All Part Time Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_master_s_number",
+      "description": "Part Time Master S Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_master_s_percent",
+      "description": "Part Time Master S Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_doctoral_number",
+      "description": "Part Time Doctoral Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_part_time_doctoral_percent",
+      "description": "Part Time Doctoral Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Percentages may not add to total because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Graduate Students and Postdoctorates in Science and Engineering, 2021."
+}

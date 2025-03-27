@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Workers in STEM occupations, by educational attainment: 2011 and 2021",
+  "identifier": "NCSES-10999",
+  "description": "Workers in STEM occupations, by educational attainment: 2011 and 2021",
+  "url": "https://example.org/datasets/ncses/tables/10999",
+  "table_number": "SLBR-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10999/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_occupation_group_b",
+      "description": "Occupation group hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_occupation_group_b_level_1, _b_occupation_group_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_occupation_group_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_all_workers",
+      "description": "2011 All Workers",
+      "valueType": "string",
+      "unitText": "Percent and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_without_a_bachelor_s_degree",
+      "description": "2011 Without A Bachelor S Degree",
+      "valueType": "string",
+      "unitText": "Percent and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2011_bachelor_s_degree_or_higher",
+      "description": "2011 Bachelor S Degree Or Higher",
+      "valueType": "string",
+      "unitText": "Percent and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_all_workers",
+      "description": "2021 All Workers",
+      "valueType": "string",
+      "unitText": "Percent and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_without_a_bachelor_s_degree",
+      "description": "2021 Without A Bachelor S Degree",
+      "valueType": "string",
+      "unitText": "Percent and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2021_bachelor_s_degree_or_higher",
+      "description": "2021 Bachelor S Degree Or Higher",
+      "valueType": "string",
+      "unitText": "Percent and number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data include the employed, civilian, non-institutionalized population ages 16\u201375 and exclude those currently enrolled in primary or secondary school. Details may not sum to totals due to rounding. Coding of occupations into STEM categories reflects changes to American Community Survey (ACS) occupation codes following the 2018 update to the Standard Occupational Classification (SOC) implemented by the Bureau of Labor Statistics. Data from 2011 through 2017 use occupations from the 2010 occupation list, while data from 2018 through 2021 use occupations from the 2018 occupation list.",
+  "sources": "Census Bureau, American Community Survey (ACS), 1-Year Public-Use File, 2011 and 2021, data as of 25 October 2022.Science and Engineering Indicators"
+}

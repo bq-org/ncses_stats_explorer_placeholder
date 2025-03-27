@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "SED data table crosswalk: 2020 vs. 2021&#8211;23",
+  "identifier": "NCSES-11753",
+  "description": "SED data table crosswalk: 2020 vs. 2021&#8211;23",
+  "url": "https://example.org/datasets/ncses/tables/11753",
+  "table_number": "B-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11753/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "2020",
+      "description": "2020",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2021_23",
+      "description": "2021 23",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2023_table_title",
+      "description": "2023 Table Title",
+      "valueType": "string",
+      "unitText": "Crosswalk"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection. The new broad, major, and detailed fields were used in tables reporting data from 2021 to the present, and the trend broad and major fields were used in the tables that includes data from years prior to 2021. As a result, the data tables were reorganized and renumbered in 2021 and the field of doctorate data may not be comparable to subsequent years.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}

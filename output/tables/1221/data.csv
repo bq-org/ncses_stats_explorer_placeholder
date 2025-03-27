@@ -1,0 +1,19 @@
+table_id,row_id,primary_source_of_support_full_path,primary_source_of_support_level_1,primary_source_of_support_level_2,primary_source_of_support_level_3,primary_source_of_support_level_4,primary_source_of_support_hierarchy_depth,field_all_recipientsa,field_without_disability,field_with_disability
+1221,r001,All recipients (number),All recipients (number),,,,1,24025,20076,1788
+1221,r002,All recipients (number) -> All sources,All recipients (number),All sources,,,2,100.0,100.0,100.0
+1221,r003,All recipients (number) -> All sources -> Personal or family funds,All recipients (number),All sources,Personal or family funds,,3,12.7,13.6,18.3
+1221,r004,All recipients (number) -> All sources -> Personal or family funds -> Loans,All recipients (number),All sources,Personal or family funds,Loans,4,5.7,6.0,8.9
+1221,r005,All recipients (number) -> All sources -> Personal or family funds -> Savings,All recipients (number),All sources,Personal or family funds,Savings,4,1.1,1.1,2.4
+1221,r006,All recipients (number) -> All sources -> Personal or family funds -> Other earnings in graduate school,All recipients (number),All sources,Personal or family funds,Other earnings in graduate school,4,2.6,2.8,2.9
+1221,r007,All recipients (number) -> All sources -> Personal or family funds -> Other family earnings or savings,All recipients (number),All sources,Personal or family funds,Other family earnings or savings,4,3.4,3.6,4.1
+1221,r008,All recipients (number) -> All sources -> Teaching assistantship ,All recipients (number),All sources,Teaching assistantship ,,3,17.0,18.4,20.2
+1221,r009,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship",All recipients (number),All sources,"Research assistantship, traineeship, or internship",,3,30.7,33.9,31.0
+1221,r010,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship -> Research assistantship",All recipients (number),All sources,"Research assistantship, traineeship, or internship",Research assistantship,4,27.6,30.5,28.0
+1221,r011,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship -> Traineeship",All recipients (number),All sources,"Research assistantship, traineeship, or internship",Traineeship,4,2.1,2.3,1.7
+1221,r012,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship -> Internship or clinical residency",All recipients (number),All sources,"Research assistantship, traineeship, or internship",Internship or clinical residency,4,0.2,,
+1221,r013,"All recipients (number) -> All sources -> Research assistantship, traineeship, or internship -> Other assistantship",All recipients (number),All sources,"Research assistantship, traineeship, or internship",Other assistantship,4,0.8,,
+1221,r014,"All recipients (number) -> All sources -> Fellowship, scholarship, or grant",All recipients (number),All sources,"Fellowship, scholarship, or grant",,3,27.1,30.0,26.6
+1221,r015,"All recipients (number) -> All sources -> Fellowship, scholarship, or grant -> Fellowship or scholarship ",All recipients (number),All sources,"Fellowship, scholarship, or grant",Fellowship or scholarship ,4,25.2,27.9,24.6
+1221,r016,"All recipients (number) -> All sources -> Fellowship, scholarship, or grant -> Grant<sup>b</sup> ",All recipients (number),All sources,"Fellowship, scholarship, or grant",Grant<sup>b</sup> ,4,1.8,2.0,2.0
+1221,r017,All recipients (number) -> All sources -> Employer reimbursement or assistance,All recipients (number),All sources,Employer reimbursement or assistance,,3,2.8,3.2,2.2
+1221,r018,All recipients (number) -> All sources -> Other,All recipients (number),All sources,Other,,3,9.7,1.0,1.6

@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Federal obligations for R&D, by agency and type of work: FY 2017",
+  "identifier": "NCSES-1886",
+  "description": "Federal obligations for R&D, by agency and type of work: FY 2017",
+  "url": "https://example.org/datasets/ncses/tables/1886",
+  "table_number": "4-16",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1886/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_level_1, agency_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_r_d",
+      "description": "Total R D",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total R&D"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_basic_research",
+      "description": "Basic Research",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total R&D"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_applied_research",
+      "description": "Applied Research",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total R&D"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_development",
+      "description": "Development",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total R&D"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_total_r_d_basic_research",
+      "description": "Percentage Of Total R D Basic Research",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total R&D"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_total_r_d_applied_research",
+      "description": "Percentage Of Total R D Applied Research",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total R&D"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_percentage_of_total_r_d_development",
+      "description": "Percentage Of Total R D Development",
+      "valueType": "string",
+      "unitText": "Millions of dollars and percentage of total R&D"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table lists all agencies with R&D obligations greater than $100 million in FY 2017. Detail may not add to total because of rounding. All other agencies include Department of Housing and Urban Development, Department of Labor, Department of State, Department of the Treasury, Appalachian Regional Commission, Consumer Product Safety Commission, Federal Communications Commission, Federal Trade Commission, Library of Congress, National Archives and Records Administration, Nuclear Regulatory Commission, Tennessee Valley Authority, and U.S. Postal Service.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Federal Funds for Research and Development, FYs 2018\u201319 (Volume 68).Science and Engineering Indicators"
+}

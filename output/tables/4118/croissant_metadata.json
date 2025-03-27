@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Among schools with students enrolled in any of grades 9\u201312, percentage that offered dual or concurrent enrollment, by selected school characteristics: 2017\u201318",
+  "identifier": "NCSES-4118",
+  "description": "Among schools with students enrolled in any of grades 9\u201312, percentage that offered dual or concurrent enrollment, by selected school characteristics: 2017\u201318",
+  "url": "https://example.org/datasets/ncses/tables/4118",
+  "table_number": "SK12-24",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4118/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "school_characteristic",
+      "description": "School characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "school_characteristic_level_1, school_characteristic_level_2, school_characteristic_level_3, school_characteristic_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "school_characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_dual_or_concurrent_enrollmenta_",
+      "description": "Dual Or Concurrent Enrollmenta ",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "Taie S, Goldring R, Characteristics of Public and Private Elementary and Secondary Schools in the United States: Results from the 2017\u201318 National Teacher and Principal Survey First Look, NCES 2019-140, U.S. Department of Education, National Center for Education Statistics (2019). https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019140. Science and Engineering Indicators"
+}

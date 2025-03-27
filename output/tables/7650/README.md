@@ -1,0 +1,34 @@
+# SED-CIP codes in new broad, major, and detailed fields: 2021
+
+**Modal ID:** 7650
+
+**Table Number:** A-1
+
+**Type:** TS (Time Series)
+
+**Units:** (Field)
+
+## Notes
+
+Beginning in 2021, a modified version of the 2020 Classification of Instructional Programs (CIP) codes was used in the survey data collection, and the new broad, major, and detailed fields were used in tables reporting only the most recent data year. Therefore, the field data in 2021 may not be comparable to prior years. See table A-2 for a summary of SED-CIP codes in the new field taxonomy and table A-3 for the SED-CIP code crosswalk to the historical field taxonomy.
+
+## Sources
+
+National Center for Science and Engineering Statistics, Survey of Earned Doctorates.
+
+## Files
+
+- `data.csv`: The table data in CSV format
+- `croissant_metadata.json`: ML Croissant metadata for machine learning applications
+
+## Structure
+
+- Row hierarchy depth: 1
+- Column hierarchy depth: 1
+- Time series: Yes
+
+## Special Values
+
+- `i`: imputed value
+- `r`: revised value
+- `D`: suppressed to avoid disclosure of confidential information

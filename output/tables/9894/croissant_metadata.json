@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Minority-serving institutions, by type, institutional control, and highest award conferred: 2021",
+  "identifier": "NCSES-9894",
+  "description": "Minority-serving institutions, by type, institutional control, and highest award conferred: 2021",
+  "url": "https://example.org/datasets/ncses/tables/9894",
+  "table_number": "SHED-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9894/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institutional_control_and_highest_degree_awarded",
+      "description": "Institutional control and highest degree awarded hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "institutional_control_and_highest_degree_awarded_level_1, institutional_control_and_highest_degree_awarded_level_2, institutional_control_and_highest_degree_awarded_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "institutional_control_and_highest_degree_awarded_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_alaska_native_and_native_hawaiian_serving_institutions",
+      "description": "Alaska Native And Native Hawaiian Serving Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_asian_american_and_native_american_pacific_islander_serving_institutions",
+      "description": "Asian American And Native American Pacific Islander Serving Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_serving_institutions",
+      "description": "Hispanic Serving Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_historically_black_colleges_and_universities",
+      "description": "Historically Black Colleges And Universities",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_native_american_serving_nontribal_institutions",
+      "description": "Native American Serving Nontribal Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_predominantly_black_institutions",
+      "description": "Predominantly Black Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_predominantly_white_institutions",
+      "description": "Predominantly White Institutions",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_tribally_controlled_colleges_and_universities",
+      "description": "Tribally Controlled Colleges And Universities",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutions_with_more_than_one_designation",
+      "description": "Institutions With More Than One Designation",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Includes institutions that met Title III or Title V definitions of various types of minority-serving institutions for 2022 and predominantly White institutions (i.e., institutions where White students made up more than 50% of total student enrollment). Institutional control refers to whether an institution is operated by publicly elected or appointed officials (public control) or by privately elected or appointed officials and derives its major source of funds from private sources (private control).",
+  "sources": "National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Institutional Characteristics Survey; U.S. Department of Education, Office of Postsecondary Education, 2022 Eligibility Matrix, https://www2.ed.gov/about/offices/list/ope/idues/eligibility.html, accessed 17 July 2023.Science and Engineering Indicators"
+}

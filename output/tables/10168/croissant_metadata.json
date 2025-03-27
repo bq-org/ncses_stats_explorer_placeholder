@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total and federally financed higher education R&D expenditures received as a subrecipient, by state, institutional control, and institution: FY 2022",
+  "identifier": "NCSES-10168",
+  "description": "Total and federally financed higher education R&D expenditures received as a subrecipient, by state, institutional control, and institution: FY 2022",
+  "url": "https://example.org/datasets/ncses/tables/10168",
+  "table_number": "76",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10168/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_state_institutional_control_and_institution_b",
+      "description": "State, institutional control, and institution hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_state_institutional_control_and_institution_b_level_1, _b_state_institutional_control_and_institution_b_level_2, _b_state_institutional_control_and_institution_b_level_3, _b_state_institutional_control_and_institution_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_state_institutional_control_and_institution_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_all_r_d_expenditures_received",
+      "description": "Total All R D Expenditures Received",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_from_higher_education_pass_through_entities",
+      "description": "Total From Higher Education Pass Through Entities",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_from_businesses",
+      "description": "Total From Businesses",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_from_nonprofit_organizations",
+      "description": "Total From Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_from_other_pass_through_entities",
+      "description": "Total From Other Pass Through Entities",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_all_r_d_expenditures_received",
+      "description": "Federally Financed All R D Expenditures Received",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_from_higher_education_pass_through_entities",
+      "description": "Federally Financed From Higher Education Pass Through Entities",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_from_businesses",
+      "description": "Federally Financed From Businesses",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_from_nonprofit_organizations",
+      "description": "Federally Financed From Nonprofit Organizations",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federally_financed_from_other_pass_through_entities",
+      "description": "Federally Financed From Other Pass Through Entities",
+      "valueType": "string",
+      "unitText": "Dollars in thousands"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table includes only institutions reporting $1 million or more in total R&D expenditures in 2021. Institutions reporting less than $1 million in total R&D expenditures in 2021 completed a shorter version of the survey form in FY 2022, and that form only requested R&D expenditures received from higher education institutions. For a listing of R&D expenditures received from higher education institutions at institutions completing the shorter version of the survey, see table 85.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2022."
+}

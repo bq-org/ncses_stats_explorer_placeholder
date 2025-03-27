@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with and without R&D activity that introduced new or significantly improved products, by size of R&D program and the proportion of companies in each R&D program size classification: 2014&#8211;16",
+  "identifier": "NCSES-1436",
+  "description": "Companies with and without R&D activity that introduced new or significantly improved products, by size of R&D program and the proportion of companies in each R&D program size classification: 2014&#8211;16",
+  "url": "https://example.org/datasets/ncses/tables/1436",
+  "table_number": "66",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1436/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "company_type",
+      "description": "Company type hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "company_type_level_1, company_type_level_2, company_type_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "company_type_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_or_processes_companies_number_",
+      "description": "New Or Significantly Improved Products Or Processes Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_or_processes_yesa",
+      "description": "New Or Significantly Improved Products Or Processes Yesa",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_or_processes_nob",
+      "description": "New Or Significantly Improved Products Or Processes Nob",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_companies_number_",
+      "description": "New Or Significantly Improved Products Companies Number ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_any_good_or_service_yesc",
+      "description": "New Or Significantly Improved Products Any Good Or Service Yesc",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_any_good_or_service_nod",
+      "description": "New Or Significantly Improved Products Any Good Or Service Nod",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_any_good_or_service_",
+      "description": "New Or Significantly Improved Products Any Good Or Service ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_goods_yes",
+      "description": "New Or Significantly Improved Products Goods Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_goods_no",
+      "description": "New Or Significantly Improved Products Goods No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_goods_",
+      "description": "New Or Significantly Improved Products Goods ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_services_yes",
+      "description": "New Or Significantly Improved Products Services Yes",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_new_or_significantly_improved_products_services_no",
+      "description": "New Or Significantly Improved Products Services No",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. These statistics include an adjustment to account for item nonresponse beginning in survey year 2016. This change has affected the comparability of these company count estimates with estimates published for years prior to 2016. These statistics do not include an adjustment to account for unit nonresponse.",
+  "sources": "National Science Foundation, National Center for Science and Engineering Statistics, and U.S. Census Bureau, Business R&D and Innovation Survey."
+}

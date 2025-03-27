@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Companies with domestic R&D paid for by the company and others and performed by the company in the artificial intelligence technology focus area, by industry and company size: 2019",
+  "identifier": "NCSES-6562",
+  "description": "Companies with domestic R&D paid for by the company and others and performed by the company in the artificial intelligence technology focus area, by industry and company size: 2019",
+  "url": "https://example.org/datasets/ncses/tables/6562",
+  "table_number": "22",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6562/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry_and_company_size",
+      "description": "Industry and company size hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "5"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_and_company_size_level_1, industry_and_company_size_level_2, industry_and_company_size_level_3, industry_and_company_size_level_4, industry_and_company_size_level_5"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_and_company_size_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_r_d_companiesa_number_",
+      "description": "Domestic R D Companiesa Number ",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_domestic_r_d_amount",
+      "description": "Domestic R D Amount",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_artificial_intelligence_r_d_total_companiesa_number_",
+      "description": "Artificial Intelligence R D Total Companiesa Number ",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_artificial_intelligence_r_d_total_amount",
+      "description": "Artificial Intelligence R D Total Amount",
+      "valueType": "string",
+      "unitText": "Millions of U.S. dollars and number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_artificial_intelligence_r_d_paid_for_by_the_company_companiesa_number_",
+      "description": "Artificial Intelligence R D Paid For By The Company Companiesa Number ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_artificial_intelligence_r_d_paid_for_by_the_company_amount",
+      "description": "Artificial Intelligence R D Paid For By The Company Amount",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_artificial_intelligence_r_d_paid_for_by_others_companiesa_number_",
+      "description": "Artificial Intelligence R D Paid For By Others Companiesa Number ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_artificial_intelligence_r_d_paid_for_by_others_amount",
+      "description": "Artificial Intelligence R D Paid For By Others Amount",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification is based on the dominant business code for domestic R&D performance, where available. For companies that did not report business codes, the classification used for sampling was assigned. Beginning in survey year 2018, statistics are representative of companies located in the United States that performed or funded $50,000 or more of R&D. This change has affected the comparability of these estimates with estimates published for years prior to 2018. Companies could report R&D in one, more than one, or no application area. An estimate range may be displayed in place of a single estimate to avoid disclosing operations of individual companies.",
+  "sources": "National Center for Science and Engineering Statistics and Census Bureau, Business Enterprise Research and Development Survey, 2019."
+}

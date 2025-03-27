@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Total sales and R&D as a percentage of total sales for companies with 1&#8211;9 employees, by selected industry and company size: 2017",
+  "identifier": "NCSES-2574",
+  "description": "Total sales and R&D as a percentage of total sales for companies with 1&#8211;9 employees, by selected industry and company size: 2017",
+  "url": "https://example.org/datasets/ncses/tables/2574",
+  "table_number": "10",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2574/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2, industry_level_3, industry_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_naics_code",
+      "description": "Naics Code",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies_total_sales",
+      "description": "All Companies Total Sales",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_companies_r_d_as_percentage_of_total_sales",
+      "description": "All Companies R D As Percentage Of Total Sales",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1_4_employees_total_sales",
+      "description": "1 4 Employees Total Sales",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1_4_employees_r_d_as_percentage_of_total_sales",
+      "description": "1 4 Employees R D As Percentage Of Total Sales",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_5_9_employees_total_sales",
+      "description": "5 9 Employees Total Sales",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_5_9_employees_r_d_as_percentage_of_total_sales",
+      "description": "5 9 Employees R D As Percentage Of Total Sales",
+      "valueType": "string",
+      "unitText": "Thousands of U.S. dollars and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Detail may not add to total because of rounding. Industry classification is based on the dominant establishment payroll. Statistics are representative of companies located in the United States that performed or funded R&D.",
+  "sources": "National Center for Science and Engineering Statistics and U.S. Census Bureau, Annual Business Survey, 2017."
+}

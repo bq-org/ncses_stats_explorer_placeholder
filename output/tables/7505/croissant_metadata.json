@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Field of research of postdoctoral researchers at federally funded research and development centers, by citizenship and FFRDC sponsor: 2021",
+  "identifier": "NCSES-7505",
+  "description": "Field of research of postdoctoral researchers at federally funded research and development centers, by citizenship and FFRDC sponsor: 2021",
+  "url": "https://example.org/datasets/ncses/tables/7505",
+  "table_number": "2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7505/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research",
+      "description": "Field of research hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "field_of_research_level_1, field_of_research_level_2, field_of_research_level_3, field_of_research_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "field_of_research_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_full_path",
+      "description": "Of Research Full Path",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_level_1",
+      "description": "Of Research Level 1",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_level_2",
+      "description": "Of Research Level 2",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_level_3",
+      "description": "Of Research Level 3",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_level_4",
+      "description": "Of Research Level 4",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_of_research_hierarchy_depth",
+      "description": "Of Research Hierarchy Depth",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_number",
+      "description": "Total Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total_percent",
+      "description": "Total Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_status_u_s_citizens_and_permanent_residents_number",
+      "description": "Citizenship Status U S Citizens And Permanent Residents Number",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_status_u_s_citizens_and_permanent_residents_percent",
+      "description": "Citizenship Status U S Citizens And Permanent Residents Percent",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_status_temporary_visa_holders_number",
+      "description": "Citizenship Status Temporary Visa Holders Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_citizenship_status_temporary_visa_holders_percent",
+      "description": "Citizenship Status Temporary Visa Holders Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_sponsor_department_of_energy_number",
+      "description": "Federal Sponsor Department Of Energy Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_sponsor_department_of_energy_percent",
+      "description": "Federal Sponsor Department Of Energy Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_sponsor_all_other_federal_sponsors_number",
+      "description": "Federal Sponsor All Other Federal Sponsors Number",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_sponsor_all_other_federal_sponsors_percent",
+      "description": "Federal Sponsor All Other Federal Sponsors Percent",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Postdocs at Federally Funded Research and Development Centers, 2021."
+}

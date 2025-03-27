@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Male-female difference in average scores of 15-year-old students on the PISA mathematics and science literacy scale, by education system: 2018",
+  "identifier": "NCSES-4099",
+  "description": "Male-female difference in average scores of 15-year-old students on the PISA mathematics and science literacy scale, by education system: 2018",
+  "url": "https://example.org/datasets/ncses/tables/4099",
+  "table_number": "SK12-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4099/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "education_system",
+      "description": "Education system hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "education_system_level_1, education_system_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "education_system_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_female_score_differencein_mathematics",
+      "description": "Male Female Score Differencein Mathematics",
+      "valueType": "string",
+      "unitText": "Average score difference"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_female_score_differencein_science",
+      "description": "Male Female Score Differencein Science",
+      "valueType": "string",
+      "unitText": "Average score difference"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_oecd_country_and_education_system",
+      "description": "Oecd Country And Education System",
+      "valueType": "string",
+      "unitText": "Average score difference"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "The scale of mathematics and science scores is 0\u20131,000. The OECD average is the average of the national averages of the OECD member countries, with each country weighted equally. B-S-J-Z (China) refers to the four PISA-participating China provinces: Beijing, Shanghai, Jiangsu, and Zhejiang.",
+  "sources": "OECD, PISA, 2018. https://nces.ed.gov/surveys/pisa/pisa2018/index.asp#/science/intlcompare. Science and Engineering Indicators"
+}

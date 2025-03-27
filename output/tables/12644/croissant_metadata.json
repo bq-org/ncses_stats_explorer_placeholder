@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Imputed amounts for headcount of R&D personnel, by personnel function and sex: FY 2023",
+  "identifier": "NCSES-12644",
+  "description": "Imputed amounts for headcount of R&D personnel, by personnel function and sex: FY 2023",
+  "url": "https://example.org/datasets/ncses/tables/12644",
+  "table_number": "A-19",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/12644/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_type_of_personnel_b",
+      "description": "Type of personnel hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_type_of_personnel_b_level_1, _b_type_of_personnel_b_level_2, _b_type_of_personnel_b_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_type_of_personnel_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_personnel_functions_all_r_d_personnel",
+      "description": "All Personnel Functions All R D Personnel",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_personnel_functions_imputed_amount",
+      "description": "All Personnel Functions Imputed Amount",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_personnel_functions_imputed_amount_as_of_total",
+      "description": "All Personnel Functions Imputed Amount As Of Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_researchers_all_r_d_personnel",
+      "description": "Researchers All R D Personnel",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_researchers_imputed_amount",
+      "description": "Researchers Imputed Amount",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_researchers_imputed_amount_as_of_total",
+      "description": "Researchers Imputed Amount As Of Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_technicians_all_r_d_personnel",
+      "description": "R D Technicians All R D Personnel",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_technicians_imputed_amount",
+      "description": "R D Technicians Imputed Amount",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_technicians_imputed_amount_as_of_total",
+      "description": "R D Technicians Imputed Amount As Of Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_support_staff_all_r_d_personnel",
+      "description": "R D Support Staff All R D Personnel",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_support_staff_imputed_amount",
+      "description": "R D Support Staff Imputed Amount",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_r_d_support_staff_imputed_amount_as_of_total",
+      "description": "R D Support Staff Imputed Amount As Of Total",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "r": "revised value"
+    }
+  },
+  "notes": "This table includes only institutions reporting $1 million or more in total R&D expenditures in FY 2022. Institutions reporting less than $1 million in total R&D expenditures in FY 2022 completed a shorter version of the survey form in FY 2023 that did not include this question.",
+  "sources": "National Center for Science and Engineering Statistics, Higher Education Research and Development Survey, FY 2023."
+}

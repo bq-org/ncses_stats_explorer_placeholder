@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Scientists and engineers, by occupation and degree field: 2017",
+  "identifier": "NCSES-1617",
+  "description": "Scientists and engineers, by occupation and degree field: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1617",
+  "table_number": "S3-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1617/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2, occupation_level_3, occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_scientists_and_engineers",
+      "description": "All Employed Scientists And Engineers",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_highest_degree_in_s_e_all_s_e_highest_degree",
+      "description": "Highest Degree In S E All S E Highest Degree",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_highest_degree_in_s_e_computer_and_mathematical_sciences",
+      "description": "Highest Degree In S E Computer And Mathematical Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_highest_degree_in_s_e_biological_agricultural_and_environmental_life_sciences",
+      "description": "Highest Degree In S E Biological Agricultural And Environmental Life Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_highest_degree_in_s_e_physical_and_related_sciences",
+      "description": "Highest Degree In S E Physical And Related Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_highest_degree_in_s_e_social_and_related_sciences",
+      "description": "Highest Degree In S E Social And Related Sciences",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_highest_degree_in_s_e_engineering",
+      "description": "Highest Degree In S E Engineering",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_s_e_related_fields",
+      "description": "S E Related Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_s_e_fields",
+      "description": "Non S E Fields",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Scientists and engineers include those with one or more S&E or S&E-related degrees at the bachelor's level or higher or those who have only a non-S&E degree at the bachelor's level or higher and are employed in an S&E or S&E-related occupation. Detail may not add to total because of rounding. Numbers are rounded to the nearest 1,000.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, National Survey of College Graduates (NSCG), 2017. Science and Engineering Indicators"
+}

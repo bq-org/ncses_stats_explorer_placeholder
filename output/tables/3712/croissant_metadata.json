@@ -1,0 +1,272 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. residing employed minority doctoral scientists and engineers, by occupation, ethnicity, race, and sex: 2019",
+  "identifier": "NCSES-3712",
+  "description": "U.S. residing employed minority doctoral scientists and engineers, by occupation, ethnicity, race, and sex: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3712",
+  "table_number": "38",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3712/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation",
+      "description": "Occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_level_1, occupation_level_2, occupation_level_3, occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_minoritya_total_number",
+      "description": "All Employed Minoritya Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_minoritya_total_se",
+      "description": "All Employed Minoritya Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_minoritya_male_number",
+      "description": "All Employed Minoritya Male Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_minoritya_male_se",
+      "description": "All Employed Minoritya Male Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_minoritya_female_number",
+      "description": "All Employed Minoritya Female Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_employed_minoritya_female_se",
+      "description": "All Employed Minoritya Female Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinob_total_number",
+      "description": "Hispanic Or Latinob Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinob_total_se",
+      "description": "Hispanic Or Latinob Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinob_male_number",
+      "description": "Hispanic Or Latinob Male Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinob_male_se",
+      "description": "Hispanic Or Latinob Male Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinob_female_number",
+      "description": "Hispanic Or Latinob Female Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinob_female_se",
+      "description": "Hispanic Or Latinob Female Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_american_indian_or_alaska_native_total_number",
+      "description": "Not Hispanic Or Latinoc American Indian Or Alaska Native Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_american_indian_or_alaska_native_total_se",
+      "description": "Not Hispanic Or Latinoc American Indian Or Alaska Native Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_american_indian_or_alaska_native_male_number",
+      "description": "Not Hispanic Or Latinoc American Indian Or Alaska Native Male Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_american_indian_or_alaska_native_male_se",
+      "description": "Not Hispanic Or Latinoc American Indian Or Alaska Native Male Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_american_indian_or_alaska_native_female_number",
+      "description": "Not Hispanic Or Latinoc American Indian Or Alaska Native Female Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_american_indian_or_alaska_native_female_se",
+      "description": "Not Hispanic Or Latinoc American Indian Or Alaska Native Female Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_black_or_african_american_total_number",
+      "description": "Not Hispanic Or Latinoc Black Or African American Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_black_or_african_american_total_se",
+      "description": "Not Hispanic Or Latinoc Black Or African American Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_black_or_african_american_male_number",
+      "description": "Not Hispanic Or Latinoc Black Or African American Male Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_black_or_african_american_male_se",
+      "description": "Not Hispanic Or Latinoc Black Or African American Male Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_black_or_african_american_female_number",
+      "description": "Not Hispanic Or Latinoc Black Or African American Female Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_black_or_african_american_female_se",
+      "description": "Not Hispanic Or Latinoc Black Or African American Female Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_native_hawaiian_or_other_pacific_islander_total_number",
+      "description": "Not Hispanic Or Latinoc Native Hawaiian Or Other Pacific Islander Total Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_native_hawaiian_or_other_pacific_islander_total_se",
+      "description": "Not Hispanic Or Latinoc Native Hawaiian Or Other Pacific Islander Total Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_native_hawaiian_or_other_pacific_islander_male_number",
+      "description": "Not Hispanic Or Latinoc Native Hawaiian Or Other Pacific Islander Male Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_native_hawaiian_or_other_pacific_islander_male_se",
+      "description": "Not Hispanic Or Latinoc Native Hawaiian Or Other Pacific Islander Male Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_native_hawaiian_or_other_pacific_islander_female_number",
+      "description": "Not Hispanic Or Latinoc Native Hawaiian Or Other Pacific Islander Female Number",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latinoc_native_hawaiian_or_other_pacific_islander_female_se",
+      "description": "Not Hispanic Or Latinoc Native Hawaiian Or Other Pacific Islander Female Se",
+      "valueType": "string",
+      "unitText": "Number and SE"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 50. Standard errors are rounded up to the nearest 25. Detail may not add to total because of rounding. Residence location is based on reported living location on 1 February 2019.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients: 2019."
+}

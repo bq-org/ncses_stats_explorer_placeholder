@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employment of the skilled technical workforce in U.S. high R&D intensive industries: 2017",
+  "identifier": "NCSES-1970",
+  "description": "Employment of the skilled technical workforce in U.S. high R&D intensive industries: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1970",
+  "table_number": "6-A",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1970/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "industry",
+      "description": "Industry hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "industry_level_1, industry_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "industry_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Thousands of employees and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_stw",
+      "description": "Stw",
+      "valueType": "string",
+      "unitText": "Thousands of employees and percent share"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_stw_share_",
+      "description": "Stw Share ",
+      "valueType": "string",
+      "unitText": "Thousands of employees and percent share"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Skilled technical workers are in occupations that employ significant levels of S&E expertise and technical knowledge and whose educational attainment is less than a bachelor's degree. Employment figures are for those aged 25 and older and do not include those employed in military occupations. High R&D intensive industries are classified by the Organisation for Economic Co-operation and Development.",
+  "sources": "Census Bureau, American Community Survey (ACS) (2018), public use microdata. Science and Engineering Indicators"
+}

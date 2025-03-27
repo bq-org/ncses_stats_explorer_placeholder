@@ -1,0 +1,229 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public assessment of the danger of air pollution from industry to the environment, by respondent characteristic: 1993, 1994, 2000, 2010, 2016, 2018",
+  "identifier": "NCSES-2273",
+  "description": "Public assessment of the danger of air pollution from industry to the environment, by respondent characteristic: 1993, 1994, 2000, 2010, 2016, 2018",
+  "url": "https://example.org/datasets/ncses/tables/2273",
+  "table_number": "S7-19",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2273/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "characteristic",
+      "description": "Characteristic hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "characteristic_level_1, characteristic_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "characteristic_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1993_extremely_dangerous_or_very_dangerous",
+      "description": "1993 Extremely Dangerous Or Very Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1993_somewhat_dangerous",
+      "description": "1993 Somewhat Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1993_not_very_dangerous_or_not_dangerous",
+      "description": "1993 Not Very Dangerous Or Not Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1993_don_t_know",
+      "description": "1993 Don T Know",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1994_extremely_dangerous_or_very_dangerous",
+      "description": "1994 Extremely Dangerous Or Very Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1994_somewhat_dangerous",
+      "description": "1994 Somewhat Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1994_not_very_dangerous_or_not_dangerous",
+      "description": "1994 Not Very Dangerous Or Not Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1994_don_t_know",
+      "description": "1994 Don T Know",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_extremely_dangerous_or_very_dangerous",
+      "description": "2000 Extremely Dangerous Or Very Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_somewhat_dangerous",
+      "description": "2000 Somewhat Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_not_very_dangerous_or_not_dangerous",
+      "description": "2000 Not Very Dangerous Or Not Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2000_don_t_know",
+      "description": "2000 Don T Know",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_extremely_dangerous_or_very_dangerous",
+      "description": "2010 Extremely Dangerous Or Very Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_somewhat_dangerous",
+      "description": "2010 Somewhat Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_not_very_dangerous_or_not_dangerous",
+      "description": "2010 Not Very Dangerous Or Not Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_don_t_know",
+      "description": "2010 Don T Know",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_extremely_dangerous_or_very_dangerous",
+      "description": "2016 Extremely Dangerous Or Very Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_somewhat_dangerous",
+      "description": "2016 Somewhat Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_not_very_dangerous_or_not_dangerous",
+      "description": "2016 Not Very Dangerous Or Not Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_don_t_know",
+      "description": "2016 Don T Know",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_extremely_dangerous_or_very_dangerous",
+      "description": "2018 Extremely Dangerous Or Very Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_somewhat_dangerous",
+      "description": "2018 Somewhat Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_not_very_dangerous_or_not_dangerous",
+      "description": "2018 Not Very Dangerous Or Not Dangerous",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_don_t_know",
+      "description": "2018 Don T Know",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Responses are to the following: In general, do you think that air pollution caused by industry is\u2026[1 Extremely dangerous], [2 Very dangerous], [3 Somewhat dangerous], [4 Not very dangerous], [5 Not dangerous], [8 Don't know]. Percentages may not add to 100% because of rounding.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Public Attitudes Toward and Understanding of Science and Technology (1993\u201394); NORC at the University of Chicago, General Social Survey (2000\u201318).Science and Engineering Indicators"
+}

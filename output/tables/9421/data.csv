@@ -1,0 +1,10 @@
+table_id,row_id,transferred_from_agency_full_path,transferred_from_agency_level_1,transferred_from_agency_level_2,transferred_from_agency_hierarchy_depth,field_transferred_to_agency_total,field_transferred_to_agency_doc,field_transferred_to_agency_dod,field_transferred_to_agency_doe,field_transferred_to_agency_hhs,field_transferred_to_agency_nasa,field_transferred_to_agency_nsf,field_transferred_to_agency_usda,field_transferred_to_agency_othera
+9421,r001,All departments and agencies,All departments and agencies,,1,38343,134,35125,422,61,40,10,609,1941
+9421,r002,All departments and agencies -> Department of Agriculture,All departments and agencies,Department of Agriculture,2,1,0,0,0,0.05,0,0,0.05,0
+9421,r003,All departments and agencies -> Department of Commerce,All departments and agencies,Department of Commerce,2,41,0,14,4,5,1,0.05,0.05,17
+9421,r004,All departments and agencies -> Department of Defense,All departments and agencies,Department of Defense,2,6216,128,3658,199,15,11,4,607,1594
+9421,r005,All departments and agencies -> Department of Energy,All departments and agencies,Department of Energy,2,34,1,3,22,0.05,1,2,1,5
+9421,r006,All departments and agencies -> Department of Health and Human Services,All departments and agencies,Department of Health and Human Services,2,31540,2,31280,2,0.05,12,0,1,244
+9421,r007,All departments and agencies -> National Aeronautics and Space Administration,All departments and agencies,National Aeronautics and Space Administration,2,282,2,78,165,* ,0,4,0,32
+9421,r008,All departments and agencies -> National Science Foundation,All departments and agencies,National Science Foundation,2,8,2,2,1,0.05,0.05,0,0,3
+9421,r009,All departments and agencies -> All other departments and agencies,All departments and agencies,All other departments and agencies,2,221,0,89,30,40,14,0,1,46

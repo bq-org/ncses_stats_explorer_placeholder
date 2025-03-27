@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Correct answers to trend questions about basic scientific facts: 1992&#8211;2018",
+  "identifier": "NCSES-2279",
+  "description": "Correct answers to trend questions about basic scientific facts: 1992&#8211;2018",
+  "url": "https://example.org/datasets/ncses/tables/2279",
+  "table_number": "S7-24",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2279/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value"
+    }
+  },
+  "notes": "See notes to Table S7-1 for an explanation and a list of questions. See Table S7-26 and Table S7-27 for responses to individual questions.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Public Attitudes Toward and Understanding of Science and Technology (1992\u20132001); NORC at the University of Chicago, General Social Survey (2006\u201318).Science and Engineering Indicators",
+  "temporalCoverage": "19/20"
+}

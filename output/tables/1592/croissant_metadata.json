@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Measures and size of U.S. S&E labor force: 2017",
+  "identifier": "NCSES-1592",
+  "description": "Measures and size of U.S. S&E labor force: 2017",
+  "url": "https://example.org/datasets/ncses/tables/1592",
+  "table_number": "3-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1592/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "measure",
+      "description": "Measure hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "measure_level_1, measure_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "measure_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_education_coverage",
+      "description": "Education Coverage",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_individuals",
+      "description": "Individuals",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The STW includes individuals who are 25 years and older. The totals for at least one degree (at the bachelor's level or higher) in S&E field and highest degree in S&E field include individuals who are employed and those who are unemployed or out of the labor force. Values are rounded to the nearest 1,000. See Table S3-1 for more details.",
+  "sources": "Census Bureau, American Community Survey (ACS), 2017, Public Use Microdata Sample (PUMS); National Center for Science and Engineering Statistics, National Science Foundation, National Survey of College Graduates (NSCG), 2017.Science and Engineering Indicators"
+}

@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "U.S. civilian noninstitutionalized population, by age, disability status, type of disability, and sex: 2016",
+  "identifier": "NCSES-1235",
+  "description": "U.S. civilian noninstitutionalized population, by age, disability status, type of disability, and sex: 2016",
+  "url": "https://example.org/datasets/ncses/tables/1235",
+  "table_number": "1-3",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/1235/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "age_disability_status_and_disability_type",
+      "description": "Age, disability status, and disability type hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "age_disability_status_and_disability_type_level_1, age_disability_status_and_disability_type_level_2, age_disability_status_and_disability_type_level_3, age_disability_status_and_disability_type_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "age_disability_status_and_disability_type_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_both_sexes_number",
+      "description": "Both Sexes Number",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_both_sexes_distribution",
+      "description": "Both Sexes Distribution",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_number",
+      "description": "Male Number",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_male_distribution",
+      "description": "Male Distribution",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female_number",
+      "description": "Female Number",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_female_distribution",
+      "description": "Female Distribution",
+      "valueType": "string",
+      "unitText": "Number and percent distribution"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "People 18 and older were classified by Census as having a disability if they responded yes to at least one of the six types of disability. Children younger than 5 were classified as having a disability if they had a hearing difficulty, vision difficulty, or both. Children 5\u201317 were classified as having a disability if they had at least one of five difficulties\u2014hearing, vision, cognitive, ambulatory, or self-care difficulty. Data are based on a sample and are subject to sampling variability. See source tables for confidence intervals for these estimates. Age categories drawn from published Census tables.",
+  "sources": "U.S. Census Bureau, 2016 American Community Survey, tables B18101\u2013B18107, 1-Year Estimates, https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml."
+}

@@ -1,0 +1,61 @@
+table_id,row_id,field_of_study_and_160_primary_160_work_160_activity_full_path,field_of_study_and_160_primary_160_work_160_activity_level_1,field_of_study_and_160_primary_160_work_160_activity_level_2,field_of_study_and_160_primary_160_work_160_activity_level_3,field_of_study_and_160_primary_160_work_160_activity_level_4,field_of_study_and_160_primary_160_work_160_activity_hierarchy_depth,field_all_employed_number,field_all_employed_se,field_secondary_work_activity_computer_applications_number,field_secondary_work_activity_computer_applications_se,field_secondary_work_activity_management_sales_or_administrationa_number,field_secondary_work_activity_management_sales_or_administrationa_se,field_secondary_work_activity_r_db_number,field_secondary_work_activity_r_db_se,field_secondary_work_activity_teaching_number,field_secondary_work_activity_teaching_se,field_secondary_work_activity_otherc_number,field_secondary_work_activity_otherc_se,field_secondary_work_activity_none_number,field_secondary_work_activity_none_se
+3691,r001,All fields,All fields,,,,1,344350,2325,9050,450,76250,1225,133300,1825,68950,1300,26600,750,30300,825
+3691,r002,All fields -> Computer applications,All fields,Computer applications,,,2,3450,275,na,na,450,100,2200,225,200,75,150,75,450,125
+3691,r003,All fields -> Management and administration,All fields,Management and administration,,,2,45900,850,250,100,12150,475,15850,600,11750,525,4750,375,1150,200
+3691,r004,All fields -> Research and development,All fields,Research and development,,,2,140200,1550,6800,375,31000,825,39250,925,50800,1150,4950,325,7400,425
+3691,r005,All fields -> Teaching,All fields,Teaching,,,2,132800,1575,1800,225,25700,775,70950,1300,na,na,16100,600,18200,625
+3691,r006,All fields -> Others,All fields,Others,,,2,21950,800,150,100,6950,475,5050,350,6150,450,600,175,3100,225
+3691,r007,All fields -> Science,All fields,Science,,,2,277850,1975,7050,375,62800,1075,105550,1400,55250,1250,21750,675,25400,750
+3691,r008,All fields -> Science -> Computer applications,All fields,Science,Computer applications,,3,2650,225,na,na,350,100,1700,200,150,75,150,50,300,100
+3691,r009,All fields -> Science -> Management and administration,All fields,Science,Management and administration,,3,36600,775,150,50,9550,425,12900,500,9200,500,4000,325,850,175
+3691,r010,All fields -> Science -> Research and development,All fields,Science,Research and development,,3,111950,1450,5400,325,25650,725,29900,750,40600,1075,4050,300,6400,400
+3691,r011,All fields -> Science -> Teaching,All fields,Science,Teaching,,3,107650,1475,1400,175,21250,700,56800,1050,na,na,13050,550,15200,550
+3691,r012,All fields -> Science -> Others,All fields,Science,Others,,3,19000,775,S,S,6000,450,4250,325,5350,425,550,150,2700,200
+3691,r013,"All fields -> Science -> Biological, agricultural, and environmental life sciences",All fields,Science,"Biological, agricultural, and environmental life sciences",,3,96250,1175,2450,200,26100,800,36150,825,16050,650,7050,400,8450,425
+3691,r014,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Computer applications",All fields,Science,"Biological, agricultural, and environmental life sciences",Computer applications,4,800,125,na,na,150,75,550,100,,,,,100,50
+3691,r015,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Management and administration",All fields,Science,"Biological, agricultural, and environmental life sciences",Management and administration,4,13350,575,,,3200,275,5800,400,2600,275,1450,225,300,100
+3691,r016,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Research and development",All fields,Science,"Biological, agricultural, and environmental life sciences",Research and development,4,49050,900,2200,200,14500,575,15300,575,11150,525,2100,225,3750,325
+3691,r017,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Teaching",All fields,Science,"Biological, agricultural, and environmental life sciences",Teaching,4,24400,625,200,75,5800,350,12200,475,na,na,3300,275,2950,225
+3691,r018,"All fields -> Science -> Biological, agricultural, and environmental life sciences -> Others",All fields,Science,"Biological, agricultural, and environmental life sciences",Others,4,8650,500,,,2450,275,2350,225,2300,275,150,75,1350,175
+3691,r019,All fields -> Science -> Computer and information sciences,All fields,Science,Computer and information sciences,,3,10750,475,1000,175,1800,225,4300,350,2350,275,700,150,600,100
+3691,r020,All fields -> Science -> Computer and information sciences -> Computer applications,All fields,Science,Computer and information sciences,Computer applications,4,500,150,na,na,,,300,125,,,,,,
+3691,r021,All fields -> Science -> Computer and information sciences -> Management and administration,All fields,Science,Computer and information sciences,Management and administration,4,1400,200,,,250,100,600,125,450,125,100,50,50,25
+3691,r022,All fields -> Science -> Computer and information sciences -> Research and development,All fields,Science,Computer and information sciences,Research and development,4,3800,300,450,125,600,125,800,150,1800,250,50,50,S,S
+3691,r023,All fields -> Science -> Computer and information sciences -> Teaching,All fields,Science,Computer and information sciences,Teaching,4,4850,300,550,100,850,175,2550,250,na,na,500,150,400,100
+3691,r024,All fields -> Science -> Computer and information sciences -> Others,All fields,Science,Computer and information sciences,Others,4,250,75,,,50,50,,,100,75,,,0.05,0.05
+3691,r025,All fields -> Science -> Mathematics and statistics,All fields,Science,Mathematics and statistics,,3,20200,525,750,150,2600,200,8150,425,4800,375,1450,175,2400,275
+3691,r026,All fields -> Science -> Mathematics and statistics -> Computer applications,All fields,Science,Mathematics and statistics,Computer applications,4,250,75,na,na,,,100,50,,,,,,
+3691,r027,All fields -> Science -> Mathematics and statistics -> Management and administration,All fields,Science,Mathematics and statistics,Management and administration,4,1200,150,,,400,75,250,75,500,100,0.05,0.05,S,S
+3691,r028,All fields -> Science -> Mathematics and statistics -> Research and development,All fields,Science,Mathematics and statistics,Research and development,4,6500,375,400,100,350,75,1250,175,4150,350,100,50,300,75
+3691,r029,All fields -> Science -> Mathematics and statistics -> Teaching,All fields,Science,Mathematics and statistics,Teaching,4,11900,450,350,100,1750,175,6550,400,na,na,1350,150,1900,225
+3691,r030,All fields -> Science -> Mathematics and statistics -> Others,All fields,Science,Mathematics and statistics,Others,4,350,125,,,50,50,,,100,50,,,,
+3691,r031,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",,3,47350,850,1900,225,10400,525,19400,700,8550,450,2550,250,4600,350
+3691,r032,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Computer applications",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Computer applications,4,850,150,na,na,100,50,500,125,S,S,S,S,S,S
+3691,r033,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Management and administration",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Management and administration,4,6350,325,100,50,1350,175,2800,275,1650,200,450,125,50,25
+3691,r034,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Research and development",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Research and development,4,19900,625,1600,200,3700,300,6400,400,6400,375,500,100,1300,175
+3691,r035,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Teaching",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Teaching,4,18500,650,150,75,4500,350,9400,500,na,na,1450,175,3000,275
+3691,r036,"All fields -> Science -> Physical sciences, geosciences, atmospheric sciences, and ocean sciences -> Others",All fields,Science,"Physical sciences, geosciences, atmospheric sciences, and ocean sciences",Others,4,1750,225,,,750,125,300,75,450,150,50,25,200,75
+3691,r037,All fields -> Science -> Psychology,All fields,Science,Psychology,,3,39150,775,350,75,10200,450,12450,475,8350,500,4600,350,3150,250
+3691,r038,All fields -> Science -> Psychology -> Computer applications,All fields,Science,Psychology,Computer applications,4,50,50,na,na,,,50,50,,,,,,
+3691,r039,All fields -> Science -> Psychology -> Management and administration,All fields,Science,Psychology,Management and administration,4,6000,400,,,1750,200,1700,200,1400,250,1000,175,150,50
+3691,r040,All fields -> Science -> Psychology -> Research and development,All fields,Science,Psychology,Research and development,4,12900,500,300,75,3500,300,2500,225,5550,425,700,125,350,100
+3691,r041,All fields -> Science -> Psychology -> Teaching,All fields,Science,Psychology,Teaching,4,14800,575,,,3000,250,7150,375,na,na,2650,275,2000,200
+3691,r042,All fields -> Science -> Psychology -> Others,All fields,Science,Psychology,Others,4,5350,450,,,2000,275,1050,175,1350,225,250,125,700,125
+3691,r043,All fields -> Science -> Social sciences,All fields,Science,Social sciences,,3,64150,975,600,150,11650,475,25100,650,15200,600,5400,375,6200,400
+3691,r044,All fields -> Science -> Social sciences -> Computer applications,All fields,Science,Social sciences,Computer applications,4,200,75,na,na,,,150,75,,,,,,
+3691,r045,All fields -> Science -> Social sciences -> Management and administration,All fields,Science,Social sciences,Management and administration,4,8250,400,,,2600,250,1800,200,2650,250,950,175,200,100
+3691,r046,All fields -> Science -> Social sciences -> Research and development,All fields,Science,Social sciences,Research and development,4,19800,675,450,125,3000,275,3600,300,11500,525,550,125,700,150
+3691,r047,All fields -> Science -> Social sciences -> Teaching,All fields,Science,Social sciences,Teaching,4,33200,775,100,50,5350,350,19000,550,na,na,3800,350,4950,375
+3691,r048,All fields -> Science -> Social sciences -> Others,All fields,Science,Social sciences,Others,4,2650,275,,,650,125,550,125,1000,175,S,S,300,100
+3691,r049,All fields -> Engineering,All fields,Engineering,,,2,45250,925,1800,275,8350,450,20100,675,9700,550,2300,275,3000,275
+3691,r050,All fields -> Engineering -> Computer applications,All fields,Engineering,Computer applications,,3,800,150,na,na,S,S,500,125,,,,,S,S
+3691,r051,All fields -> Engineering -> Management and administration,All fields,Engineering,Management and administration,,3,5900,350,S,S,1500,200,2200,225,1450,200,400,100,250,100
+3691,r052,All fields -> Engineering -> Research and development,All fields,Engineering,Research and development,,3,21550,700,1350,200,3550,300,7700,475,7750,500,500,125,700,150
+3691,r053,All fields -> Engineering -> Teaching,All fields,Engineering,Teaching,,3,15750,625,400,150,2800,300,9400,525,na,na,1350,225,1800,225
+3691,r054,All fields -> Engineering -> Others,All fields,Engineering,Others,,3,1250,175,,,450,100,300,100,450,125,,,50,50
+3691,r055,All fields -> Health,All fields,Health,,,2,21250,550,150,75,5150,325,7600,425,3950,275,2500,250,1900,250
+3691,r056,All fields -> Health -> Computer applications,All fields,Health,Computer applications,,3,50,25,na,na,,,0.05,0.05,,,,,,
+3691,r057,All fields -> Health -> Management and administration,All fields,Health,Management and administration,,3,3400,250,,,1100,150,750,125,1100,175,350,100,50,25
+3691,r058,All fields -> Health -> Research and development,All fields,Health,Research and development,,3,6700,375,50,50,1800,225,1650,200,2450,250,400,100,300,100
+3691,r059,All fields -> Health -> Teaching,All fields,Health,Teaching,,3,9350,500,,,1700,200,4750,325,na,na,1700,225,1200,200
+3691,r060,All fields -> Health -> Others,All fields,Health,Others,,3,1750,225,,,500,125,450,125,400,100,S,S,350,100

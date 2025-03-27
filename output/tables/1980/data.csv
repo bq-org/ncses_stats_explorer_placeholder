@@ -1,0 +1,85 @@
+table_id,row_id,region_country_or_economy_full_path,region_country_or_economy_level_1,region_country_or_economy_level_2,region_country_or_economy_level_3,region_country_or_economy_level_4,region_country_or_economy_hierarchy_depth,field_2002,field_2003,field_2004,field_2005,field_2006,field_2007,field_2008,field_2009,field_2010,field_2011,field_2012,field_2013,field_2014,field_2015,field_2016,field_2017,field_2018
+1980,r001,World,World,,,,1,258382,294195,312700,335731,361817,392201,427587,452454,455167,490050,485996,497695,513337,545098,580242,605818,698739
+1980,r002,World -> North America,World,North America,,,2,94450,101846,105114,114180,124940,128696,132459,151600,139213,137763,132135,140712,147839,155472,161118,169593,191633
+1980,r003,World -> North America -> Canada,World,North America,Canada,,3,2944,3598,3523,3725,4985,4450,4176,4116,4540,4284,4694,3801,4474,4847,5009,5128,5309
+1980,r004,World -> North America -> Mexico,World,North America,Mexico,,3,3497,3467,3475,3730,4076,4281,4390,3613,3744,3577,4158,4321,4278,4152,3832,4173,4524
+1980,r005,World -> North America -> United States,World,North America,United States,,3,88008,94781,98116,106725,115879,119965,123893,143871,130929,129902,123283,132590,139086,146472,152277,160291,181800
+1980,r006,World -> Central and South America,World,Central and South America,,,2,4544,4790,5733,7656,9355,11376,12811,12501,14684,15820,15187,14794,14623,12318,12451,14444,14757
+1980,r007,World -> Central and South America -> Argentina,World,Central and South America,Argentina,,3,188,264,329,417,506,623,830,893,1078,1197,1252,1252,1048,1074,1154,1260,1052
+1980,r008,World -> Central and South America -> Bolivia,World,Central and South America,Bolivia,,3,41,46,45,54,49,47,75,93,88,95,99,109,117,123,146,154,174
+1980,r009,World -> Central and South America -> Brazil,World,Central and South America,Brazil,,3,3000,3282,3870,5523,6930,8486,9148,8657,10513,11268,10131,9724,9804,7257,7700,9322,9394
+1980,r010,World -> Central and South America -> Chile,World,Central and South America,Chile,,3,169,162,208,260,283,329,292,324,419,437,437,461,673,748,671,655,725
+1980,r011,World -> Central and South America -> Colombia,World,Central and South America,Colombia,,3,552,515,707,724,810,966,1189,1153,1373,1490,1659,1680,1611,1406,1655,1805,2026
+1980,r012,World -> Central and South America -> Costa Rica,World,Central and South America,Costa Rica,,3,50,53,58,58,65,74,80,70,85,95,102,112,107,109,117,123,131
+1980,r013,World -> Central and South America -> Ecuador,World,Central and South America,Ecuador,,3,83,48,50,59,67,70,84,92,117,90,178,183,105,123,135,131,141
+1980,r014,World -> Central and South America -> Honduras,World,Central and South America,Honduras,,3,33,34,30,36,36,39,44,44,41,53,60,59,61,60,67,73,79
+1980,r015,World -> Central and South America -> Jamaica,World,Central and South America,Jamaica,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1980,r016,World -> Central and South America -> Panama,World,Central and South America,Panama,,3,11,11,11,12,13,17,19,21,22,23,36,38,34,38,42,44,49
+1980,r017,World -> Central and South America -> Peru,World,Central and South America,Peru,,3,225,189,177,210,245,297,383,401,422,446,482,434,389,290,321,314,347
+1980,r018,World -> Central and South America -> Uruguay,World,Central and South America,Uruguay,,3,38,44,59,71,77,89,145,144,161,176,211,235,255,269,328,325,349
+1980,r019,World -> Central and South America -> Venezuela,World,Central and South America,Venezuela,,3,153,142,189,232,275,340,522,608,365,450,538,509,418,819,114,239,289
+1980,r020,World -> Europe,World,Europe,,,2,93874,114006,122324,128926,137966,156261,173967,167392,167752,177827,167118,173293,175291,182989,194323,194368,227682
+1980,r021,World -> Europe -> EU,World,Europe,EU,,3,82452,99573,104950,109958,116802,131697,145689,140518,138124,145074,134292,138492,140593,151805,158083,155720,183542
+1980,r022,World -> Europe -> EU -> Austria,World,Europe,EU,Austria,4,1053,1361,1384,1848,1888,2477,2152,2394,2378,2606,2536,2625,2844,2345,2377,2460,2719
+1980,r023,World -> Europe -> EU -> Belgium,World,Europe,EU,Belgium,4,3637,4464,4854,5586,5298,6435,7279,6614,7690,6932,6947,8055,8103,6564,7385,7842,10423
+1980,r024,World -> Europe -> EU -> Bulgaria,World,Europe,EU,Bulgaria,4,55,77,91,105,118,171,98,154,146,207,162,177,166,194,206,251,306
+1980,r025,World -> Europe -> EU -> Czechia,World,Europe,EU,Czechia,4,325,409,477,602,663,721,818,782,852,895,837,842,894,720,775,855,1022
+1980,r026,World -> Europe -> EU -> Denmark,World,Europe,EU,Denmark,4,2267,3177,3498,3706,3615,3757,4509,4799,6087,6712,7704,8642,9876,9623,10788,10677,12042
+1980,r027,World -> Europe -> EU -> Finland,World,Europe,EU,Finland,4,527,601,737,846,951,1095,1270,1276,1302,1428,1582,1531,1747,1458,1638,1652,1885
+1980,r028,World -> Europe -> EU -> France,World,Europe,EU,France,4,10924,13930,14800,15494,17255,18144,18287,16698,15713,16751,15189,15986,15365,13146,12445,12450,14568
+1980,r029,World -> Europe -> EU -> Germany,World,Europe,EU,Germany,4,12649,16995,19875,22355,23835,27328,31824,29056,27612,30021,28780,29914,31819,25465,27867,29335,38077
+1980,r030,World -> Europe -> EU -> Greece,World,Europe,EU,Greece,4,661,852,834,973,927,910,849,852,826,731,583,793,683,573,564,657,846
+1980,r031,World -> Europe -> EU -> Hungary,World,Europe,EU,Hungary,4,744,1024,1198,1319,1456,1582,1701,1550,1840,1973,1860,1718,1808,1622,1568,1777,1947
+1980,r032,World -> Europe -> EU -> Ireland,World,Europe,EU,Ireland,4,16398,16005,15536,15333,14976,17251,17763,20877,19584,20697,15807,15997,18039,43480,45357,41402,47960
+1980,r033,World -> Europe -> EU -> Italy,World,Europe,EU,Italy,4,7888,9585,10267,9735,9827,10820,12137,11181,11073,11883,10895,11446,7958,9630,10116,10632,12118
+1980,r034,World -> Europe -> EU -> Netherlands,World,Europe,EU,Netherlands,4,3002,3290,3426,3129,3059,3709,4036,3967,3652,3712,3776,2160,1957,2025,1989,2027,2253
+1980,r035,World -> Europe -> EU -> Poland,World,Europe,EU,Poland,4,548,537,580,772,832,1513,1872,1620,1607,1476,1530,1597,1836,1523,1674,1817,1568
+1980,r036,World -> Europe -> EU -> Portugal,World,Europe,EU,Portugal,4,364,411,463,482,460,599,644,650,567,596,577,647,602,560,614,637,741
+1980,r037,World -> Europe -> EU -> Romania,World,Europe,EU,Romania,4,83,97,102,155,177,247,319,274,395,381,328,378,388,326,330,436,526
+1980,r038,World -> Europe -> EU -> Slovakia,World,Europe,EU,Slovakia,4,70,73,61,81,99,122,165,210,227,237,224,39,109,76,88,82,117
+1980,r039,World -> Europe -> EU -> Spain,World,Europe,EU,Spain,4,3893,4980,5906,6465,7200,8531,9880,8885,6777,6471,6269,7672,8743,7393,8028,8327,9381
+1980,r040,World -> Europe -> EU -> Sweden,World,Europe,EU,Sweden,4,4784,5714,5861,6210,6790,6788,6896,7796,8109,8987,8388,8547,7539,6709,6935,6897,7446
+1980,r041,World -> Europe -> EU -> United Kingdom,World,Europe,EU,United Kingdom,4,12579,15993,15001,14762,17375,19497,23191,20881,21688,22381,20317,19726,20117,18371,17338,15508,17595
+1980,r042,World -> Europe -> Other Europe,World,Europe,Other Europe,,3,11422,14432,17373,18967,21164,24565,28278,26874,29628,32753,32826,34801,34698,31183,36240,38649,44140
+1980,r043,World -> Europe -> Other Europe -> Norway,World,Europe,Other Europe,Norway,4,587,782,893,953,1080,1182,1182,905,898,758,875,861,741,917,1284,1328,1431
+1980,r044,World -> Europe -> Other Europe -> Russia,World,Europe,Other Europe,Russia,4,839,972,1223,1485,1810,2343,2695,2124,2434,2601,3067,3640,3265,1556,1566,1993,2576
+1980,r045,World -> Europe -> Other Europe -> Switzerland,World,Europe,Other Europe,Switzerland,4,9508,11856,14225,15086,16648,18941,21836,21789,23745,27175,26743,28154,28586,26749,31194,32562,37220
+1980,r046,World -> Europe -> Other Europe -> Turkey,World,Europe,Other Europe,Turkey,4,301,600,722,1033,1142,1526,1937,1703,2018,1615,1453,1428,1431,1573,1660,2030,2049
+1980,r047,World -> Europe -> Other Europe -> Ukraine,World,Europe,Other Europe,Ukraine,4,187,224,310,410,483,573,629,353,533,603,688,719,675,388,536,735,863
+1980,r048,World -> Middle East,World,Middle East,,,2,2550,2805,3330,3567,4006,4514,4729,4777,5849,5714,5682,5263,5156,5405,5823,5804,5528
+1980,r049,World -> Middle East -> Bahrain,World,Middle East,Bahrain,,3,0.05,0.05,0.05,0.05,0.05,0.05,1,0.05,1,1,1,1,1,1,1,1,1
+1980,r050,World -> Middle East -> Iran,World,Middle East,Iran,,3,255,363,389,422,508,659,842,1108,1256,1188,947,668,803,670,805,913,679
+1980,r051,World -> Middle East -> Israel,World,Middle East,Israel,,3,1859,1958,2385,2491,2716,2887,2805,2692,3551,3407,3441,3230,2795,3206,3256,3085,2735
+1980,r052,World -> Middle East -> Jordan,World,Middle East,Jordan,,3,250,273,305,355,432,526,566,531,522,524,579,618,800,815,955,1067,1135
+1980,r053,World -> Middle East -> Kuwait,World,Middle East,Kuwait,,3,32,41,55,61,45,60,72,71,89,125,185,187,161,91,111,130,162
+1980,r054,World -> Middle East -> Qatar,World,Middle East,Qatar,,3,5,4,3,4,5,4,3,4,4,4,4,4,4,2,2,2,2
+1980,r055,World -> Middle East -> Saudi Arabia,World,Middle East,Saudi Arabia,,3,52,57,66,76,88,137,159,163,196,209,250,272,289,310,338,346,369
+1980,r056,World -> Middle East -> United Arab Emirates,World,Middle East,United Arab Emirates,,3,97,109,127,157,212,242,282,208,229,257,275,284,303,311,356,261,444
+1980,r057,World -> Africa,World,Africa,,,2,794,869,1103,1251,1347,1559,1814,1917,2299,2322,2425,2605,2584,2613,2827,2938,3456
+1980,r058,World -> Africa -> Cameroon,World,Africa,Cameroon,,3,4,4,6,6,6,7,12,12,12,14,14,15,17,15,17,20,24
+1980,r059,World -> Africa -> Egypt,World,Africa,Egypt,,3,356,292,382,444,489,607,769,846,1012,921,922,983,856,951,1000,1090,1429
+1980,r060,World -> Africa -> Kenya,World,Africa,Kenya,,3,14,19,23,24,16,15,19,18,25,21,26,17,36,39,45,44,50
+1980,r061,World -> Africa -> Morocco,World,Africa,Morocco,,3,91,106,99,109,107,118,136,134,146,144,137,153,169,142,156,176,201
+1980,r062,World -> Africa -> Nigeria,World,Africa,Nigeria,,3,67,74,89,117,158,185,231,216,272,380,429,539,621,540,570,575,655
+1980,r063,World -> Africa -> Senegal,World,Africa,Senegal,,3,8,10,14,14,16,17,17,20,20,22,24,16,18,27,30,30,36
+1980,r064,World -> Africa -> South Africa,World,Africa,South Africa,,3,236,342,465,509,533,581,596,635,775,778,826,831,816,856,961,948,1004
+1980,r065,World -> Africa -> Tunisia,World,Africa,Tunisia,,3,19,22,24,27,23,29,33,36,37,43,48,51,50,42,48,55,55
+1980,r066,World -> Africa -> Zimbabwe,World,Africa,Zimbabwe,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1980,r067,World -> Asia,World,Asia,,,2,60537,68071,73105,77950,81713,87217,99500,111856,122240,146878,159655,157227,164461,183494,200872,215479,252302
+1980,r068,World -> Asia -> Bangladesh,World,Asia,Bangladesh,,3,124,142,154,183,217,251,294,414,422,430,432,537,658,735,919,1272,1800
+1980,r069,World -> Asia -> China,World,Asia,China,,3,14455,16153,16114,19623,22313,28014,37449,41293,47292,58640,73240,84256,95100,106661,116762,134593,162527
+1980,r070,World -> Asia -> India,World,Asia,India,,3,3039,3438,4306,5075,5614,7365,8063,7915,9534,13724,11487,12345,13291,16259,19200,21469,24417
+1980,r071,World -> Asia -> Indonesia,World,Asia,Indonesia,,3,1840,2137,1682,2008,2026,2796,3603,3427,4184,3531,1469,1141,1216,1362,1574,1755,1859
+1980,r072,World -> Asia -> Japan,World,Asia,Japan,,3,34789,38933,40865,40528,37749,33353,37536,45875,46521,52704,52821,41957,36310,39974,42824,36308,38772
+1980,r073,World -> Asia -> Malaysia,World,Asia,Malaysia,,3,87,99,108,142,180,178,223,212,275,299,323,376,429,374,379,416,494
+1980,r074,World -> Asia -> Pakistan,World,Asia,Pakistan,,3,322,433,615,734,650,741,845,696,825,1038,1066,1072,1147,1139,1204,1335,1313
+1980,r075,World -> Asia -> Philippines,World,Asia,Philippines,,3,151,185,210,236,331,285,236,386,471,430,392,706,556,765,759,906,691
+1980,r076,World -> Asia -> Singapore,World,Asia,Singapore,,3,2719,3274,5228,4777,7462,8506,5714,6237,6205,9298,11391,7218,7503,7577,7999,6838,8034
+1980,r077,World -> Asia -> South Korea,World,Asia,South Korea,,3,2131,2294,2719,3438,3813,4210,3855,3560,4342,4672,4747,5203,5690,6053,6450,7538,8849
+1980,r078,World -> Asia -> Sri Lanka,World,Asia,Sri Lanka,,3,3,4,4,4,3,5,7,8,9,12,13,18,32,30,32,34,31
+1980,r079,World -> Asia -> Taiwan,World,Asia,Taiwan,,3,577,670,708,791,898,936,970,1049,1201,1303,1344,1392,1305,1327,1438,1535,1680
+1980,r080,World -> Asia -> Thailand,World,Asia,Thailand,,3,91,109,123,138,170,202,226,260,340,366,431,407,488,563,568,635,796
+1980,r081,World -> Asia -> Vietnam,World,Asia,Vietnam,,3,208,201,269,273,290,375,480,526,621,430,500,598,735,676,763,845,1040
+1980,r082,World -> Oceania,World,Oceania,,,2,1633,1808,1992,2203,2489,2577,2306,2411,3129,3725,3794,3801,3383,2808,2829,3191,3382
+1980,r083,World -> Oceania -> Australia,World,Oceania,Australia,,3,1564,1737,1912,2110,2401,2478,2230,2330,3023,3592,3628,3556,3199,2630,2644,2988,3173
+1980,r084,World -> Oceania -> New Zealand,World,Oceania,New Zealand,,3,69,71,80,93,88,98,76,81,106,133,166,244,183,179,185,204,208

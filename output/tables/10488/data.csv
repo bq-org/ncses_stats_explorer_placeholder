@@ -1,0 +1,925 @@
+table_id,row_id,time_period,value
+10488,r001,Research,9.3
+10488,r002,Research,13.0
+10488,r003,Research,22.5
+10488,r004,Research,40.1
+10488,r005,Research,57.9
+10488,r006,Research,70.5
+10488,r007,Research,98.5
+10488,r008,Research,129.7
+10488,r009,Research,145.2
+10488,r010,Research,155.4
+10488,r011,Research,155.4
+10488,r012,Research,160.6
+10488,r013,Research,167.2
+10488,r014,Research,174.5
+10488,r015,Research,181.5
+10488,r016,Research,197.0
+10488,r017,Research,203.5
+10488,r018,Research,216.2
+10488,r019,Research,235.2
+10488,r020,Research,244.3
+10488,r021,Research,262.7
+10488,r022,Research,289.4
+10488,r023,Research -> Business,3.0
+10488,r024,Research -> Business,4.2
+10488,r025,Research -> Business,8.0
+10488,r026,Research -> Business,16.1
+10488,r027,Research -> Business,23.6
+10488,r028,Research -> Business,31.1
+10488,r029,Research -> Business,45.4
+10488,r030,Research -> Business,50.7
+10488,r031,Research -> Business,56.2
+10488,r032,Research -> Business,58.6
+10488,r033,Research -> Business,58.7
+10488,r034,Research -> Business,63.0
+10488,r035,Research -> Business,67.2
+10488,r036,Research -> Business,70.9
+10488,r037,Research -> Business,74.5
+10488,r038,Research -> Business,85.4
+10488,r039,Research -> Business,87.7
+10488,r040,Research -> Business,93.7
+10488,r041,Research -> Business,107.4
+10488,r042,Research -> Business,113.0
+10488,r043,Research -> Business,130.0
+10488,r044,Research -> Business,146.8
+10488,r045,Research -> Federal government,5.6
+10488,r046,Research -> Federal government,7.5
+10488,r047,Research -> Federal government,12.4
+10488,r048,Research -> Federal government,20.3
+10488,r049,Research -> Federal government,27.8
+10488,r050,Research -> Federal government,30.5
+10488,r051,Research -> Federal government,39.7
+10488,r052,Research -> Federal government,58.9
+10488,r053,Research -> Federal government,63.1
+10488,r054,Research -> Federal government,69.7
+10488,r055,Research -> Federal government,68.7
+10488,r056,Research -> Federal government,68.3
+10488,r057,Research -> Federal government,68.6
+10488,r058,Research -> Federal government,70.3
+10488,r059,Research -> Federal government,71.7
+10488,r060,Research -> Federal government,75.0
+10488,r061,Research -> Federal government,77.6
+10488,r062,Research -> Federal government,82.6
+10488,r063,Research -> Federal government,86.7
+10488,r064,Research -> Federal government,89.5
+10488,r065,Research -> Federal government,89.6
+10488,r066,Research -> Federal government,97.4
+10488,r067,Research -> Other nonfederal,0.8
+10488,r068,Research -> Other nonfederal,1.2
+10488,r069,Research -> Other nonfederal,2.1
+10488,r070,Research -> Other nonfederal,3.7
+10488,r071,Research -> Other nonfederal,6.5
+10488,r072,Research -> Other nonfederal,8.9
+10488,r073,Research -> Other nonfederal,13.4
+10488,r074,Research -> Other nonfederal,20.0
+10488,r075,Research -> Other nonfederal,26.0
+10488,r076,Research -> Other nonfederal,27.1
+10488,r077,Research -> Other nonfederal,28.0
+10488,r078,Research -> Other nonfederal,29.3
+10488,r079,Research -> Other nonfederal,31.5
+10488,r080,Research -> Other nonfederal,33.3
+10488,r081,Research -> Other nonfederal,35.3
+10488,r082,Research -> Other nonfederal,36.6
+10488,r083,Research -> Other nonfederal,38.2
+10488,r084,Research -> Other nonfederal,39.9
+10488,r085,Research -> Other nonfederal,41.1
+10488,r086,Research -> Other nonfederal,41.8
+10488,r087,Research -> Other nonfederal,43.1
+10488,r088,Research -> Other nonfederal,45.2
+10488,r089,Research -> Other nonfederal -> Nonfederal government,0.2
+10488,r090,Research -> Other nonfederal -> Nonfederal government,0.3
+10488,r091,Research -> Other nonfederal -> Nonfederal government,0.5
+10488,r092,Research -> Other nonfederal -> Nonfederal government,0.8
+10488,r093,Research -> Other nonfederal -> Nonfederal government,1.3
+10488,r094,Research -> Other nonfederal -> Nonfederal government,1.6
+10488,r095,Research -> Other nonfederal -> Nonfederal government,2.1
+10488,r096,Research -> Other nonfederal -> Nonfederal government,2.8
+10488,r097,Research -> Other nonfederal -> Nonfederal government,3.8
+10488,r098,Research -> Other nonfederal -> Nonfederal government,3.8
+10488,r099,Research -> Other nonfederal -> Nonfederal government,3.7
+10488,r100,Research -> Other nonfederal -> Nonfederal government,3.7
+10488,r101,Research -> Other nonfederal -> Nonfederal government,3.7
+10488,r102,Research -> Other nonfederal -> Nonfederal government,3.7
+10488,r103,Research -> Other nonfederal -> Nonfederal government,3.8
+10488,r104,Research -> Other nonfederal -> Nonfederal government,4.3
+10488,r105,Research -> Other nonfederal -> Nonfederal government,4.4
+10488,r106,Research -> Other nonfederal -> Nonfederal government,4.6
+10488,r107,Research -> Other nonfederal -> Nonfederal government,4.7
+10488,r108,Research -> Other nonfederal -> Nonfederal government,4.9
+10488,r109,Research -> Other nonfederal -> Nonfederal government,4.9
+10488,r110,Research -> Other nonfederal -> Nonfederal government,5.1
+10488,r111,Research -> Other nonfederal -> Higher education,0.3
+10488,r112,Research -> Other nonfederal -> Higher education,0.4
+10488,r113,Research -> Other nonfederal -> Higher education,0.9
+10488,r114,Research -> Other nonfederal -> Higher education,1.6
+10488,r115,Research -> Other nonfederal -> Higher education,3.0
+10488,r116,Research -> Other nonfederal -> Higher education,3.8
+10488,r117,Research -> Other nonfederal -> Higher education,5.9
+10488,r118,Research -> Other nonfederal -> Higher education,8.9
+10488,r119,Research -> Other nonfederal -> Higher education,11.1
+10488,r120,Research -> Other nonfederal -> Higher education,11.1
+10488,r121,Research -> Other nonfederal -> Higher education,11.8
+10488,r122,Research -> Other nonfederal -> Higher education,12.8
+10488,r123,Research -> Other nonfederal -> Higher education,13.7
+10488,r124,Research -> Other nonfederal -> Higher education,14.5
+10488,r125,Research -> Other nonfederal -> Higher education,15.4
+10488,r126,Research -> Other nonfederal -> Higher education,16.7
+10488,r127,Research -> Other nonfederal -> Higher education,17.7
+10488,r128,Research -> Other nonfederal -> Higher education,18.7
+10488,r129,Research -> Other nonfederal -> Higher education,19.6
+10488,r130,Research -> Other nonfederal -> Higher education,20.2
+10488,r131,Research -> Other nonfederal -> Higher education,21.3
+10488,r132,Research -> Other nonfederal -> Higher education,22.9
+10488,r133,Research -> Other nonfederal -> Nonprofit organizations,0.3
+10488,r134,Research -> Other nonfederal -> Nonprofit organizations,0.5
+10488,r135,Research -> Other nonfederal -> Nonprofit organizations,0.8
+10488,r136,Research -> Other nonfederal -> Nonprofit organizations,1.3
+10488,r137,Research -> Other nonfederal -> Nonprofit organizations,2.3
+10488,r138,Research -> Other nonfederal -> Nonprofit organizations,3.4
+10488,r139,Research -> Other nonfederal -> Nonprofit organizations,5.4
+10488,r140,Research -> Other nonfederal -> Nonprofit organizations,8.3
+10488,r141,Research -> Other nonfederal -> Nonprofit organizations,11.0
+10488,r142,Research -> Other nonfederal -> Nonprofit organizations,12.2
+10488,r143,Research -> Other nonfederal -> Nonprofit organizations,12.4
+10488,r144,Research -> Other nonfederal -> Nonprofit organizations,12.8
+10488,r145,Research -> Other nonfederal -> Nonprofit organizations,14.0
+10488,r146,Research -> Other nonfederal -> Nonprofit organizations,15.1
+10488,r147,Research -> Other nonfederal -> Nonprofit organizations,16.1
+10488,r148,Research -> Other nonfederal -> Nonprofit organizations,15.6
+10488,r149,Research -> Other nonfederal -> Nonprofit organizations,16.1
+10488,r150,Research -> Other nonfederal -> Nonprofit organizations,16.6
+10488,r151,Research -> Other nonfederal -> Nonprofit organizations,16.7
+10488,r152,Research -> Other nonfederal -> Nonprofit organizations,16.6
+10488,r153,Research -> Other nonfederal -> Nonprofit organizations,16.9
+10488,r154,Research -> Other nonfederal -> Nonprofit organizations,17.2
+10488,r155,Research,46.3
+10488,r156,Research,46.6
+10488,r157,Research,57.1
+10488,r158,Research,79.0
+10488,r159,Research,97.7
+10488,r160,Research,105.4
+10488,r161,Research,135.5
+10488,r162,Research,159.0
+10488,r163,Research,165.0
+10488,r164,Research,173.3
+10488,r165,Research,169.9
+10488,r166,Research,172.4
+10488,r167,Research,176.5
+10488,r168,Research,181.0
+10488,r169,Research,186.5
+10488,r170,Research,200.5
+10488,r171,Research,203.5
+10488,r172,Research,211.4
+10488,r173,Research,226.2
+10488,r174,Research,231.8
+10488,r175,Research,238.3
+10488,r176,Research,245.3
+10488,r177,Research -> Business,14.7
+10488,r178,Research -> Business,15.2
+10488,r179,Research -> Business,20.3
+10488,r180,Research -> Business,31.7
+10488,r181,Research -> Business,39.9
+10488,r182,Research -> Business,46.5
+10488,r183,Research -> Business,62.5
+10488,r184,Research -> Business,62.2
+10488,r185,Research -> Business,63.8
+10488,r186,Research -> Business,65.4
+10488,r187,Research -> Business,64.2
+10488,r188,Research -> Business,67.6
+10488,r189,Research -> Business,70.9
+10488,r190,Research -> Business,73.6
+10488,r191,Research -> Business,76.5
+10488,r192,Research -> Business,86.9
+10488,r193,Research -> Business,87.7
+10488,r194,Research -> Business,91.6
+10488,r195,Research -> Business,103.3
+10488,r196,Research -> Business,107.3
+10488,r197,Research -> Business,117.9
+10488,r198,Research -> Business,124.5
+10488,r199,Research -> Federal government,27.7
+10488,r200,Research -> Federal government,27.1
+10488,r201,Research -> Federal government,31.5
+10488,r202,Research -> Federal government,40.0
+10488,r203,Research -> Federal government,46.8
+10488,r204,Research -> Federal government,45.6
+10488,r205,Research -> Federal government,54.7
+10488,r206,Research -> Federal government,72.3
+10488,r207,Research -> Federal government,71.7
+10488,r208,Research -> Federal government,77.7
+10488,r209,Research -> Federal government,75.1
+10488,r210,Research -> Federal government,73.3
+10488,r211,Research -> Federal government,72.4
+10488,r212,Research -> Federal government,72.9
+10488,r213,Research -> Federal government,73.7
+10488,r214,Research -> Federal government,76.3
+10488,r215,Research -> Federal government,77.6
+10488,r216,Research -> Federal government,80.7
+10488,r217,Research -> Federal government,83.4
+10488,r218,Research -> Federal government,84.9
+10488,r219,Research -> Federal government,81.3
+10488,r220,Research -> Federal government,82.5
+10488,r221,Research -> Other nonfederal,3.9
+10488,r222,Research -> Other nonfederal,4.3
+10488,r223,Research -> Other nonfederal,5.3
+10488,r224,Research -> Other nonfederal,7.3
+10488,r225,Research -> Other nonfederal,11.0
+10488,r226,Research -> Other nonfederal,13.3
+10488,r227,Research -> Other nonfederal,18.4
+10488,r228,Research -> Other nonfederal,24.5
+10488,r229,Research -> Other nonfederal,29.5
+10488,r230,Research -> Other nonfederal,30.2
+10488,r231,Research -> Other nonfederal,30.6
+10488,r232,Research -> Other nonfederal,31.5
+10488,r233,Research -> Other nonfederal,33.2
+10488,r234,Research -> Other nonfederal,34.5
+10488,r235,Research -> Other nonfederal,36.3
+10488,r236,Research -> Other nonfederal,37.3
+10488,r237,Research -> Other nonfederal,38.2
+10488,r238,Research -> Other nonfederal,39.0
+10488,r239,Research -> Other nonfederal,39.5
+10488,r240,Research -> Other nonfederal,39.6
+10488,r241,Research -> Other nonfederal,39.1
+10488,r242,Research -> Other nonfederal,38.3
+10488,r243,Research -> Other nonfederal -> Nonfederal government,1.1
+10488,r244,Research -> Other nonfederal -> Nonfederal government,1.2
+10488,r245,Research -> Other nonfederal -> Nonfederal government,1.2
+10488,r246,Research -> Other nonfederal -> Nonfederal government,1.5
+10488,r247,Research -> Other nonfederal -> Nonfederal government,2.2
+10488,r248,Research -> Other nonfederal -> Nonfederal government,2.4
+10488,r249,Research -> Other nonfederal -> Nonfederal government,2.8
+10488,r250,Research -> Other nonfederal -> Nonfederal government,3.5
+10488,r251,Research -> Other nonfederal -> Nonfederal government,4.3
+10488,r252,Research -> Other nonfederal -> Nonfederal government,4.2
+10488,r253,Research -> Other nonfederal -> Nonfederal government,4.1
+10488,r254,Research -> Other nonfederal -> Nonfederal government,3.9
+10488,r255,Research -> Other nonfederal -> Nonfederal government,3.9
+10488,r256,Research -> Other nonfederal -> Nonfederal government,3.9
+10488,r257,Research -> Other nonfederal -> Nonfederal government,3.9
+10488,r258,Research -> Other nonfederal -> Nonfederal government,4.4
+10488,r259,Research -> Other nonfederal -> Nonfederal government,4.4
+10488,r260,Research -> Other nonfederal -> Nonfederal government,4.5
+10488,r261,Research -> Other nonfederal -> Nonfederal government,4.6
+10488,r262,Research -> Other nonfederal -> Nonfederal government,4.7
+10488,r263,Research -> Other nonfederal -> Nonfederal government,4.5
+10488,r264,Research -> Other nonfederal -> Nonfederal government,4.3
+10488,r265,Research -> Other nonfederal -> Higher education,1.2
+10488,r266,Research -> Other nonfederal -> Higher education,1.5
+10488,r267,Research -> Other nonfederal -> Higher education,2.2
+10488,r268,Research -> Other nonfederal -> Higher education,3.2
+10488,r269,Research -> Other nonfederal -> Higher education,5.0
+10488,r270,Research -> Other nonfederal -> Higher education,5.7
+10488,r271,Research -> Other nonfederal -> Higher education,8.1
+10488,r272,Research -> Other nonfederal -> Higher education,10.9
+10488,r273,Research -> Other nonfederal -> Higher education,12.7
+10488,r274,Research -> Other nonfederal -> Higher education,12.4
+10488,r275,Research -> Other nonfederal -> Higher education,12.9
+10488,r276,Research -> Other nonfederal -> Higher education,13.8
+10488,r277,Research -> Other nonfederal -> Higher education,14.5
+10488,r278,Research -> Other nonfederal -> Higher education,15.0
+10488,r279,Research -> Other nonfederal -> Higher education,15.8
+10488,r280,Research -> Other nonfederal -> Higher education,17.0
+10488,r281,Research -> Other nonfederal -> Higher education,17.7
+10488,r282,Research -> Other nonfederal -> Higher education,18.3
+10488,r283,Research -> Other nonfederal -> Higher education,18.9
+10488,r284,Research -> Other nonfederal -> Higher education,19.2
+10488,r285,Research -> Other nonfederal -> Higher education,19.3
+10488,r286,Research -> Other nonfederal -> Higher education,19.4
+10488,r287,Research -> Other nonfederal -> Nonprofit organizations,1.5
+10488,r288,Research -> Other nonfederal -> Nonprofit organizations,1.7
+10488,r289,Research -> Other nonfederal -> Nonprofit organizations,1.9
+10488,r290,Research -> Other nonfederal -> Nonprofit organizations,2.6
+10488,r291,Research -> Other nonfederal -> Nonprofit organizations,3.8
+10488,r292,Research -> Other nonfederal -> Nonprofit organizations,5.1
+10488,r293,Research -> Other nonfederal -> Nonprofit organizations,7.4
+10488,r294,Research -> Other nonfederal -> Nonprofit organizations,10.2
+10488,r295,Research -> Other nonfederal -> Nonprofit organizations,12.5
+10488,r296,Research -> Other nonfederal -> Nonprofit organizations,13.7
+10488,r297,Research -> Other nonfederal -> Nonprofit organizations,13.6
+10488,r298,Research -> Other nonfederal -> Nonprofit organizations,13.8
+10488,r299,Research -> Other nonfederal -> Nonprofit organizations,14.8
+10488,r300,Research -> Other nonfederal -> Nonprofit organizations,15.7
+10488,r301,Research -> Other nonfederal -> Nonprofit organizations,16.6
+10488,r302,Research -> Other nonfederal -> Nonprofit organizations,15.9
+10488,r303,Research -> Other nonfederal -> Nonprofit organizations,16.1
+10488,r304,Research -> Other nonfederal -> Nonprofit organizations,16.2
+10488,r305,Research -> Other nonfederal -> Nonprofit organizations,16.1
+10488,r306,Research -> Other nonfederal -> Nonprofit organizations,15.8
+10488,r307,Research -> Other nonfederal -> Nonprofit organizations,15.3
+10488,r308,Research -> Other nonfederal -> Nonprofit organizations,14.6
+10488,r309,Research,100.0
+10488,r310,Research,100.0
+10488,r311,Research,100.0
+10488,r312,Research,100.0
+10488,r313,Research,100.0
+10488,r314,Research,100.0
+10488,r315,Research,100.0
+10488,r316,Research,100.0
+10488,r317,Research,100.0
+10488,r318,Research,100.0
+10488,r319,Research,100.0
+10488,r320,Research,100.0
+10488,r321,Research,100.0
+10488,r322,Research,100.0
+10488,r323,Research,100.0
+10488,r324,Research,100.0
+10488,r325,Research,100.0
+10488,r326,Research,100.0
+10488,r327,Research,100.0
+10488,r328,Research,100.0
+10488,r329,Research,100.0
+10488,r330,Research,100.0
+10488,r331,Research -> Business,31.7
+10488,r332,Research -> Business,32.6
+10488,r333,Research -> Business,35.5
+10488,r334,Research -> Business,40.1
+10488,r335,Research -> Business,40.8
+10488,r336,Research -> Business,44.1
+10488,r337,Research -> Business,46.1
+10488,r338,Research -> Business,39.1
+10488,r339,Research -> Business,38.7
+10488,r340,Research -> Business,37.7
+10488,r341,Research -> Business,37.8
+10488,r342,Research -> Business,39.2
+10488,r343,Research -> Business,40.2
+10488,r344,Research -> Business,40.6
+10488,r345,Research -> Business,41.0
+10488,r346,Research -> Business,43.3
+10488,r347,Research -> Business,43.1
+10488,r348,Research -> Business,43.4
+10488,r349,Research -> Business,45.7
+10488,r350,Research -> Business,46.3
+10488,r351,Research -> Business,49.5
+10488,r352,Research -> Business,50.7
+10488,r353,Research -> Federal government,59.9
+10488,r354,Research -> Federal government,58.2
+10488,r355,Research -> Federal government,55.2
+10488,r356,Research -> Federal government,50.7
+10488,r357,Research -> Federal government,47.9
+10488,r358,Research -> Federal government,43.3
+10488,r359,Research -> Federal government,40.3
+10488,r360,Research -> Federal government,45.5
+10488,r361,Research -> Federal government,43.4
+10488,r362,Research -> Federal government,44.9
+10488,r363,Research -> Federal government,44.2
+10488,r364,Research -> Federal government,42.5
+10488,r365,Research -> Federal government,41.0
+10488,r366,Research -> Federal government,40.3
+10488,r367,Research -> Federal government,39.5
+10488,r368,Research -> Federal government,38.1
+10488,r369,Research -> Federal government,38.1
+10488,r370,Research -> Federal government,38.2
+10488,r371,Research -> Federal government,36.9
+10488,r372,Research -> Federal government,36.6
+10488,r373,Research -> Federal government,34.1
+10488,r374,Research -> Federal government,33.6
+10488,r375,Research -> Other nonfederal,8.4
+10488,r376,Research -> Other nonfederal,9.3
+10488,r377,Research -> Other nonfederal,9.3
+10488,r378,Research -> Other nonfederal,9.2
+10488,r379,Research -> Other nonfederal,11.3
+10488,r380,Research -> Other nonfederal,12.6
+10488,r381,Research -> Other nonfederal,13.6
+10488,r382,Research -> Other nonfederal,15.4
+10488,r383,Research -> Other nonfederal,17.9
+10488,r384,Research -> Other nonfederal,17.4
+10488,r385,Research -> Other nonfederal,18.0
+10488,r386,Research -> Other nonfederal,18.3
+10488,r387,Research -> Other nonfederal,18.8
+10488,r388,Research -> Other nonfederal,19.1
+10488,r389,Research -> Other nonfederal,19.5
+10488,r390,Research -> Other nonfederal,18.6
+10488,r391,Research -> Other nonfederal,18.8
+10488,r392,Research -> Other nonfederal,18.4
+10488,r393,Research -> Other nonfederal,17.5
+10488,r394,Research -> Other nonfederal,17.1
+10488,r395,Research -> Other nonfederal,16.4
+10488,r396,Research -> Other nonfederal,15.6
+10488,r397,Research -> Other nonfederal -> Nonfederal government,2.5
+10488,r398,Research -> Other nonfederal -> Nonfederal government,2.5
+10488,r399,Research -> Other nonfederal -> Nonfederal government,2.1
+10488,r400,Research -> Other nonfederal -> Nonfederal government,1.9
+10488,r401,Research -> Other nonfederal -> Nonfederal government,2.2
+10488,r402,Research -> Other nonfederal -> Nonfederal government,2.3
+10488,r403,Research -> Other nonfederal -> Nonfederal government,2.1
+10488,r404,Research -> Other nonfederal -> Nonfederal government,2.2
+10488,r405,Research -> Other nonfederal -> Nonfederal government,2.6
+10488,r406,Research -> Other nonfederal -> Nonfederal government,2.4
+10488,r407,Research -> Other nonfederal -> Nonfederal government,2.4
+10488,r408,Research -> Other nonfederal -> Nonfederal government,2.3
+10488,r409,Research -> Other nonfederal -> Nonfederal government,2.2
+10488,r410,Research -> Other nonfederal -> Nonfederal government,2.1
+10488,r411,Research -> Other nonfederal -> Nonfederal government,2.1
+10488,r412,Research -> Other nonfederal -> Nonfederal government,2.2
+10488,r413,Research -> Other nonfederal -> Nonfederal government,2.2
+10488,r414,Research -> Other nonfederal -> Nonfederal government,2.1
+10488,r415,Research -> Other nonfederal -> Nonfederal government,2.0
+10488,r416,Research -> Other nonfederal -> Nonfederal government,2.0
+10488,r417,Research -> Other nonfederal -> Nonfederal government,1.9
+10488,r418,Research -> Other nonfederal -> Nonfederal government,1.8
+10488,r419,Research -> Other nonfederal -> Higher education,2.7
+10488,r420,Research -> Other nonfederal -> Higher education,3.1
+10488,r421,Research -> Other nonfederal -> Higher education,3.8
+10488,r422,Research -> Other nonfederal -> Higher education,4.0
+10488,r423,Research -> Other nonfederal -> Higher education,5.1
+10488,r424,Research -> Other nonfederal -> Higher education,5.4
+10488,r425,Research -> Other nonfederal -> Higher education,6.0
+10488,r426,Research -> Other nonfederal -> Higher education,6.8
+10488,r427,Research -> Other nonfederal -> Higher education,7.7
+10488,r428,Research -> Other nonfederal -> Higher education,7.1
+10488,r429,Research -> Other nonfederal -> Higher education,7.6
+10488,r430,Research -> Other nonfederal -> Higher education,8.0
+10488,r431,Research -> Other nonfederal -> Higher education,8.2
+10488,r432,Research -> Other nonfederal -> Higher education,8.3
+10488,r433,Research -> Other nonfederal -> Higher education,8.5
+10488,r434,Research -> Other nonfederal -> Higher education,8.5
+10488,r435,Research -> Other nonfederal -> Higher education,8.7
+10488,r436,Research -> Other nonfederal -> Higher education,8.7
+10488,r437,Research -> Other nonfederal -> Higher education,8.3
+10488,r438,Research -> Other nonfederal -> Higher education,8.3
+10488,r439,Research -> Other nonfederal -> Higher education,8.1
+10488,r440,Research -> Other nonfederal -> Higher education,7.9
+10488,r441,Research -> Other nonfederal -> Nonprofit organizations,3.2
+10488,r442,Research -> Other nonfederal -> Nonprofit organizations,3.6
+10488,r443,Research -> Other nonfederal -> Nonprofit organizations,3.4
+10488,r444,Research -> Other nonfederal -> Nonprofit organizations,3.3
+10488,r445,Research -> Other nonfederal -> Nonprofit organizations,3.9
+10488,r446,Research -> Other nonfederal -> Nonprofit organizations,4.9
+10488,r447,Research -> Other nonfederal -> Nonprofit organizations,5.5
+10488,r448,Research -> Other nonfederal -> Nonprofit organizations,6.4
+10488,r449,Research -> Other nonfederal -> Nonprofit organizations,7.6
+10488,r450,Research -> Other nonfederal -> Nonprofit organizations,7.9
+10488,r451,Research -> Other nonfederal -> Nonprofit organizations,8.0
+10488,r452,Research -> Other nonfederal -> Nonprofit organizations,8.0
+10488,r453,Research -> Other nonfederal -> Nonprofit organizations,8.4
+10488,r454,Research -> Other nonfederal -> Nonprofit organizations,8.7
+10488,r455,Research -> Other nonfederal -> Nonprofit organizations,8.9
+10488,r456,Research -> Other nonfederal -> Nonprofit organizations,7.9
+10488,r457,Research -> Other nonfederal -> Nonprofit organizations,7.9
+10488,r458,Research -> Other nonfederal -> Nonprofit organizations,7.7
+10488,r459,Research -> Other nonfederal -> Nonprofit organizations,7.1
+10488,r460,Research -> Other nonfederal -> Nonprofit organizations,6.8
+10488,r461,Research -> Other nonfederal -> Nonprofit organizations,6.4
+10488,r462,Research -> Other nonfederal -> Nonprofit organizations,6.0
+10488,r463,Experimental development,16.9
+10488,r464,Experimental development,22.7
+10488,r465,Experimental development,40.7
+10488,r466,Experimental development,74.5
+10488,r467,Experimental development,94.1
+10488,r468,Experimental development,113.1
+10488,r469,Experimental development,169.4
+10488,r470,Experimental development,195.6
+10488,r471,Experimental development,259.6
+10488,r472,Experimental development,251.2
+10488,r473,Experimental development,270.8
+10488,r474,Experimental development,273.1
+10488,r475,Experimental development,287.0
+10488,r476,Experimental development,301.4
+10488,r477,Experimental development,313.0
+10488,r478,Experimental development,324.7
+10488,r479,Experimental development,350.1
+10488,r480,Experimental development,387.8
+10488,r481,Experimental development,430.3
+10488,r482,Experimental development,472.5
+10488,r483,Experimental development,526.4
+10488,r484,Experimental development,596.2
+10488,r485,Experimental development -> Business,7.5
+10488,r486,Experimental development -> Business,11.6
+10488,r487,Experimental development -> Business,22.9
+10488,r488,Experimental development -> Business,41.9
+10488,r489,Experimental development -> Business,59.6
+10488,r490,Experimental development -> Business,79.7
+10488,r491,Experimental development -> Business,140.5
+10488,r492,Experimental development -> Business,157.1
+10488,r493,Experimental development -> Business,201.8
+10488,r494,Experimental development -> Business,189.5
+10488,r495,Experimental development -> Business,207.7
+10488,r496,Experimental development -> Business,212.7
+10488,r497,Experimental development -> Business,230.0
+10488,r498,Experimental development -> Business,247.5
+10488,r499,Experimental development -> Business,258.8
+10488,r500,Experimental development -> Business,274.9
+10488,r501,Experimental development -> Business,298.8
+10488,r502,Experimental development -> Business,332.8
+10488,r503,Experimental development -> Business,374.8
+10488,r504,Experimental development -> Business,407.3
+10488,r505,Experimental development -> Business,461.0
+10488,r506,Experimental development -> Business,526.0
+10488,r507,Experimental development -> Federal government,9.4
+10488,r508,Experimental development -> Federal government,11.0
+10488,r509,Experimental development -> Federal government,17.6
+10488,r510,Experimental development -> Federal government,32.3
+10488,r511,Experimental development -> Federal government,33.9
+10488,r512,Experimental development -> Federal government,32.4
+10488,r513,Experimental development -> Federal government,27.5
+10488,r514,Experimental development -> Federal government,36.5
+10488,r515,Experimental development -> Federal government,54.5
+10488,r516,Experimental development -> Federal government,56.9
+10488,r517,Experimental development -> Federal government,58.3
+10488,r518,Experimental development -> Federal government,55.6
+10488,r519,Experimental development -> Federal government,51.5
+10488,r520,Experimental development -> Federal government,48.1
+10488,r521,Experimental development -> Federal government,47.8
+10488,r522,Experimental development -> Federal government,43.2
+10488,r523,Experimental development -> Federal government,44.9
+10488,r524,Experimental development -> Federal government,48.5
+10488,r525,Experimental development -> Federal government,49.1
+10488,r526,Experimental development -> Federal government,58.7
+10488,r527,Experimental development -> Federal government,57.9
+10488,r528,Experimental development -> Federal government,62.5
+10488,r529,Experimental development -> Other nonfederal,0.1
+10488,r530,Experimental development -> Other nonfederal,0.1
+10488,r531,Experimental development -> Other nonfederal,0.2
+10488,r532,Experimental development -> Other nonfederal,0.4
+10488,r533,Experimental development -> Other nonfederal,0.6
+10488,r534,Experimental development -> Other nonfederal,0.9
+10488,r535,Experimental development -> Other nonfederal,1.4
+10488,r536,Experimental development -> Other nonfederal,2.1
+10488,r537,Experimental development -> Other nonfederal,3.2
+10488,r538,Experimental development -> Other nonfederal,4.8
+10488,r539,Experimental development -> Other nonfederal,4.8
+10488,r540,Experimental development -> Other nonfederal,4.8
+10488,r541,Experimental development -> Other nonfederal,5.4
+10488,r542,Experimental development -> Other nonfederal,5.9
+10488,r543,Experimental development -> Other nonfederal,6.4
+10488,r544,Experimental development -> Other nonfederal,6.6
+10488,r545,Experimental development -> Other nonfederal,6.4
+10488,r546,Experimental development -> Other nonfederal,6.6
+10488,r547,Experimental development -> Other nonfederal,6.4
+10488,r548,Experimental development -> Other nonfederal,6.6
+10488,r549,Experimental development -> Other nonfederal,7.5
+10488,r550,Experimental development -> Other nonfederal,7.7
+10488,r551,Experimental development -> Other nonfederal -> Nonfederal government,0.0
+10488,r552,Experimental development -> Other nonfederal -> Nonfederal government,0.0
+10488,r553,Experimental development -> Other nonfederal -> Nonfederal government,0.0
+10488,r554,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r555,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r556,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r557,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r558,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r559,Experimental development -> Other nonfederal -> Nonfederal government,0.4
+10488,r560,Experimental development -> Other nonfederal -> Nonfederal government,0.5
+10488,r561,Experimental development -> Other nonfederal -> Nonfederal government,0.6
+10488,r562,Experimental development -> Other nonfederal -> Nonfederal government,0.5
+10488,r563,Experimental development -> Other nonfederal -> Nonfederal government,0.5
+10488,r564,Experimental development -> Other nonfederal -> Nonfederal government,0.5
+10488,r565,Experimental development -> Other nonfederal -> Nonfederal government,0.5
+10488,r566,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r567,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r568,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r569,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r570,Experimental development -> Other nonfederal -> Nonfederal government,0.8
+10488,r571,Experimental development -> Other nonfederal -> Nonfederal government,0.8
+10488,r572,Experimental development -> Other nonfederal -> Nonfederal government,0.8
+10488,r573,Experimental development -> Other nonfederal -> Higher education,0.0
+10488,r574,Experimental development -> Other nonfederal -> Higher education,0.0
+10488,r575,Experimental development -> Other nonfederal -> Higher education,0.1
+10488,r576,Experimental development -> Other nonfederal -> Higher education,0.1
+10488,r577,Experimental development -> Other nonfederal -> Higher education,0.2
+10488,r578,Experimental development -> Other nonfederal -> Higher education,0.3
+10488,r579,Experimental development -> Other nonfederal -> Higher education,0.4
+10488,r580,Experimental development -> Other nonfederal -> Higher education,0.5
+10488,r581,Experimental development -> Other nonfederal -> Higher education,0.6
+10488,r582,Experimental development -> Other nonfederal -> Higher education,1.2
+10488,r583,Experimental development -> Other nonfederal -> Higher education,1.3
+10488,r584,Experimental development -> Other nonfederal -> Higher education,1.5
+10488,r585,Experimental development -> Other nonfederal -> Higher education,1.6
+10488,r586,Experimental development -> Other nonfederal -> Higher education,1.7
+10488,r587,Experimental development -> Other nonfederal -> Higher education,1.9
+10488,r588,Experimental development -> Other nonfederal -> Higher education,2.0
+10488,r589,Experimental development -> Other nonfederal -> Higher education,2.1
+10488,r590,Experimental development -> Other nonfederal -> Higher education,2.2
+10488,r591,Experimental development -> Other nonfederal -> Higher education,2.3
+10488,r592,Experimental development -> Other nonfederal -> Higher education,2.3
+10488,r593,Experimental development -> Other nonfederal -> Higher education,2.5
+10488,r594,Experimental development -> Other nonfederal -> Higher education,2.6
+10488,r595,Experimental development -> Other nonfederal -> Nonprofit organizations,0.0
+10488,r596,Experimental development -> Other nonfederal -> Nonprofit organizations,0.1
+10488,r597,Experimental development -> Other nonfederal -> Nonprofit organizations,0.1
+10488,r598,Experimental development -> Other nonfederal -> Nonprofit organizations,0.2
+10488,r599,Experimental development -> Other nonfederal -> Nonprofit organizations,0.3
+10488,r600,Experimental development -> Other nonfederal -> Nonprofit organizations,0.5
+10488,r601,Experimental development -> Other nonfederal -> Nonprofit organizations,0.9
+10488,r602,Experimental development -> Other nonfederal -> Nonprofit organizations,1.4
+10488,r603,Experimental development -> Other nonfederal -> Nonprofit organizations,2.2
+10488,r604,Experimental development -> Other nonfederal -> Nonprofit organizations,3.0
+10488,r605,Experimental development -> Other nonfederal -> Nonprofit organizations,2.9
+10488,r606,Experimental development -> Other nonfederal -> Nonprofit organizations,2.9
+10488,r607,Experimental development -> Other nonfederal -> Nonprofit organizations,3.3
+10488,r608,Experimental development -> Other nonfederal -> Nonprofit organizations,3.6
+10488,r609,Experimental development -> Other nonfederal -> Nonprofit organizations,4.0
+10488,r610,Experimental development -> Other nonfederal -> Nonprofit organizations,3.9
+10488,r611,Experimental development -> Other nonfederal -> Nonprofit organizations,3.6
+10488,r612,Experimental development -> Other nonfederal -> Nonprofit organizations,3.6
+10488,r613,Experimental development -> Other nonfederal -> Nonprofit organizations,3.5
+10488,r614,Experimental development -> Other nonfederal -> Nonprofit organizations,3.5
+10488,r615,Experimental development -> Other nonfederal -> Nonprofit organizations,4.2
+10488,r616,Experimental development -> Other nonfederal -> Nonprofit organizations,4.2
+10488,r617,Experimental development,83.8
+10488,r618,Experimental development,81.7
+10488,r619,Experimental development,103.5
+10488,r620,Experimental development,146.6
+10488,r621,Experimental development,158.6
+10488,r622,Experimental development,168.9
+10488,r623,Experimental development,233.0
+10488,r624,Experimental development,239.9
+10488,r625,Experimental development,294.9
+10488,r626,Experimental development,280.3
+10488,r627,Experimental development,296.0
+10488,r628,Experimental development,293.1
+10488,r629,Experimental development,302.8
+10488,r630,Experimental development,312.6
+10488,r631,Experimental development,321.6
+10488,r632,Experimental development,330.5
+10488,r633,Experimental development,350.1
+10488,r634,Experimental development,379.1
+10488,r635,Experimental development,413.7
+10488,r636,Experimental development,448.4
+10488,r637,Experimental development,477.6
+10488,r638,Experimental development,505.4
+10488,r639,Experimental development -> Business,37.1
+10488,r640,Experimental development -> Business,41.7
+10488,r641,Experimental development -> Business,58.3
+10488,r642,Experimental development -> Business,82.4
+10488,r643,Experimental development -> Business,100.4
+10488,r644,Experimental development -> Business,119.1
+10488,r645,Experimental development -> Business,193.3
+10488,r646,Experimental development -> Business,192.6
+10488,r647,Experimental development -> Business,229.3
+10488,r648,Experimental development -> Business,211.5
+10488,r649,Experimental development -> Business,227.1
+10488,r650,Experimental development -> Business,228.3
+10488,r651,Experimental development -> Business,242.7
+10488,r652,Experimental development -> Business,256.7
+10488,r653,Experimental development -> Business,265.9
+10488,r654,Experimental development -> Business,279.9
+10488,r655,Experimental development -> Business,298.8
+10488,r656,Experimental development -> Business,325.3
+10488,r657,Experimental development -> Business,360.4
+10488,r658,Experimental development -> Business,386.5
+10488,r659,Experimental development -> Business,418.3
+10488,r660,Experimental development -> Business,445.9
+10488,r661,Experimental development -> Federal government,46.5
+10488,r662,Experimental development -> Federal government,39.5
+10488,r663,Experimental development -> Federal government,44.7
+10488,r664,Experimental development -> Federal government,63.6
+10488,r665,Experimental development -> Federal government,57.1
+10488,r666,Experimental development -> Federal government,48.5
+10488,r667,Experimental development -> Federal government,37.8
+10488,r668,Experimental development -> Federal government,44.7
+10488,r669,Experimental development -> Federal government,62.0
+10488,r670,Experimental development -> Federal government,63.5
+10488,r671,Experimental development -> Federal government,63.7
+10488,r672,Experimental development -> Federal government,59.6
+10488,r673,Experimental development -> Federal government,54.4
+10488,r674,Experimental development -> Federal government,49.9
+10488,r675,Experimental development -> Federal government,49.2
+10488,r676,Experimental development -> Federal government,44.0
+10488,r677,Experimental development -> Federal government,44.9
+10488,r678,Experimental development -> Federal government,47.4
+10488,r679,Experimental development -> Federal government,47.2
+10488,r680,Experimental development -> Federal government,55.7
+10488,r681,Experimental development -> Federal government,52.5
+10488,r682,Experimental development -> Federal government,53.0
+10488,r683,Experimental development -> Other nonfederal,0.3
+10488,r684,Experimental development -> Other nonfederal,0.4
+10488,r685,Experimental development -> Other nonfederal,0.5
+10488,r686,Experimental development -> Other nonfederal,0.7
+10488,r687,Experimental development -> Other nonfederal,1.1
+10488,r688,Experimental development -> Other nonfederal,1.4
+10488,r689,Experimental development -> Other nonfederal,1.9
+10488,r690,Experimental development -> Other nonfederal,2.6
+10488,r691,Experimental development -> Other nonfederal,3.6
+10488,r692,Experimental development -> Other nonfederal,5.3
+10488,r693,Experimental development -> Other nonfederal,5.2
+10488,r694,Experimental development -> Other nonfederal,5.2
+10488,r695,Experimental development -> Other nonfederal,5.7
+10488,r696,Experimental development -> Other nonfederal,6.1
+10488,r697,Experimental development -> Other nonfederal,6.6
+10488,r698,Experimental development -> Other nonfederal,6.7
+10488,r699,Experimental development -> Other nonfederal,6.4
+10488,r700,Experimental development -> Other nonfederal,6.4
+10488,r701,Experimental development -> Other nonfederal,6.2
+10488,r702,Experimental development -> Other nonfederal,6.2
+10488,r703,Experimental development -> Other nonfederal,6.8
+10488,r704,Experimental development -> Other nonfederal,6.5
+10488,r705,Experimental development -> Other nonfederal -> Nonfederal government,0.0
+10488,r706,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r707,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r708,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r709,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r710,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r711,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r712,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r713,Experimental development -> Other nonfederal -> Nonfederal government,0.5
+10488,r714,Experimental development -> Other nonfederal -> Nonfederal government,0.6
+10488,r715,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r716,Experimental development -> Other nonfederal -> Nonfederal government,0.5
+10488,r717,Experimental development -> Other nonfederal -> Nonfederal government,0.6
+10488,r718,Experimental development -> Other nonfederal -> Nonfederal government,0.5
+10488,r719,Experimental development -> Other nonfederal -> Nonfederal government,0.5
+10488,r720,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r721,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r722,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r723,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r724,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r725,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r726,Experimental development -> Other nonfederal -> Nonfederal government,0.7
+10488,r727,Experimental development -> Other nonfederal -> Higher education,0.0
+10488,r728,Experimental development -> Other nonfederal -> Higher education,0.1
+10488,r729,Experimental development -> Other nonfederal -> Higher education,0.2
+10488,r730,Experimental development -> Other nonfederal -> Higher education,0.2
+10488,r731,Experimental development -> Other nonfederal -> Higher education,0.4
+10488,r732,Experimental development -> Other nonfederal -> Higher education,0.4
+10488,r733,Experimental development -> Other nonfederal -> Higher education,0.5
+10488,r734,Experimental development -> Other nonfederal -> Higher education,0.6
+10488,r735,Experimental development -> Other nonfederal -> Higher education,0.7
+10488,r736,Experimental development -> Other nonfederal -> Higher education,1.3
+10488,r737,Experimental development -> Other nonfederal -> Higher education,1.4
+10488,r738,Experimental development -> Other nonfederal -> Higher education,1.6
+10488,r739,Experimental development -> Other nonfederal -> Higher education,1.7
+10488,r740,Experimental development -> Other nonfederal -> Higher education,1.8
+10488,r741,Experimental development -> Other nonfederal -> Higher education,1.9
+10488,r742,Experimental development -> Other nonfederal -> Higher education,2.1
+10488,r743,Experimental development -> Other nonfederal -> Higher education,2.1
+10488,r744,Experimental development -> Other nonfederal -> Higher education,2.2
+10488,r745,Experimental development -> Other nonfederal -> Higher education,2.2
+10488,r746,Experimental development -> Other nonfederal -> Higher education,2.2
+10488,r747,Experimental development -> Other nonfederal -> Higher education,2.3
+10488,r748,Experimental development -> Other nonfederal -> Higher education,2.2
+10488,r749,Experimental development -> Other nonfederal -> Nonprofit organizations,0.2
+10488,r750,Experimental development -> Other nonfederal -> Nonprofit organizations,0.2
+10488,r751,Experimental development -> Other nonfederal -> Nonprofit organizations,0.3
+10488,r752,Experimental development -> Other nonfederal -> Nonprofit organizations,0.4
+10488,r753,Experimental development -> Other nonfederal -> Nonprofit organizations,0.5
+10488,r754,Experimental development -> Other nonfederal -> Nonprofit organizations,0.7
+10488,r755,Experimental development -> Other nonfederal -> Nonprofit organizations,1.2
+10488,r756,Experimental development -> Other nonfederal -> Nonprofit organizations,1.8
+10488,r757,Experimental development -> Other nonfederal -> Nonprofit organizations,2.5
+10488,r758,Experimental development -> Other nonfederal -> Nonprofit organizations,3.4
+10488,r759,Experimental development -> Other nonfederal -> Nonprofit organizations,3.1
+10488,r760,Experimental development -> Other nonfederal -> Nonprofit organizations,3.1
+10488,r761,Experimental development -> Other nonfederal -> Nonprofit organizations,3.5
+10488,r762,Experimental development -> Other nonfederal -> Nonprofit organizations,3.8
+10488,r763,Experimental development -> Other nonfederal -> Nonprofit organizations,4.2
+10488,r764,Experimental development -> Other nonfederal -> Nonprofit organizations,4.0
+10488,r765,Experimental development -> Other nonfederal -> Nonprofit organizations,3.6
+10488,r766,Experimental development -> Other nonfederal -> Nonprofit organizations,3.6
+10488,r767,Experimental development -> Other nonfederal -> Nonprofit organizations,3.3
+10488,r768,Experimental development -> Other nonfederal -> Nonprofit organizations,3.3
+10488,r769,Experimental development -> Other nonfederal -> Nonprofit organizations,3.8
+10488,r770,Experimental development -> Other nonfederal -> Nonprofit organizations,3.6
+10488,r771,Experimental development,100.0
+10488,r772,Experimental development,100.0
+10488,r773,Experimental development,100.0
+10488,r774,Experimental development,100.0
+10488,r775,Experimental development,100.0
+10488,r776,Experimental development,100.0
+10488,r777,Experimental development,100.0
+10488,r778,Experimental development,100.0
+10488,r779,Experimental development,100.0
+10488,r780,Experimental development,100.0
+10488,r781,Experimental development,100.0
+10488,r782,Experimental development,100.0
+10488,r783,Experimental development,100.0
+10488,r784,Experimental development,100.0
+10488,r785,Experimental development,100.0
+10488,r786,Experimental development,100.0
+10488,r787,Experimental development,100.0
+10488,r788,Experimental development,100.0
+10488,r789,Experimental development,100.0
+10488,r790,Experimental development,100.0
+10488,r791,Experimental development,100.0
+10488,r792,Experimental development,100.0
+10488,r793,Experimental development -> Business,44.2
+10488,r794,Experimental development -> Business,51.1
+10488,r795,Experimental development -> Business,56.3
+10488,r796,Experimental development -> Business,56.2
+10488,r797,Experimental development -> Business,63.3
+10488,r798,Experimental development -> Business,70.5
+10488,r799,Experimental development -> Business,83.0
+10488,r800,Experimental development -> Business,80.3
+10488,r801,Experimental development -> Business,77.8
+10488,r802,Experimental development -> Business,75.4
+10488,r803,Experimental development -> Business,76.7
+10488,r804,Experimental development -> Business,77.9
+10488,r805,Experimental development -> Business,80.1
+10488,r806,Experimental development -> Business,82.1
+10488,r807,Experimental development -> Business,82.7
+10488,r808,Experimental development -> Business,84.7
+10488,r809,Experimental development -> Business,85.3
+10488,r810,Experimental development -> Business,85.8
+10488,r811,Experimental development -> Business,87.1
+10488,r812,Experimental development -> Business,86.2
+10488,r813,Experimental development -> Business,87.6
+10488,r814,Experimental development -> Business,88.2
+10488,r815,Experimental development -> Federal government,55.4
+10488,r816,Experimental development -> Federal government,48.4
+10488,r817,Experimental development -> Federal government,43.2
+10488,r818,Experimental development -> Federal government,43.3
+10488,r819,Experimental development -> Federal government,36.0
+10488,r820,Experimental development -> Federal government,28.7
+10488,r821,Experimental development -> Federal government,16.2
+10488,r822,Experimental development -> Federal government,18.6
+10488,r823,Experimental development -> Federal government,21.0
+10488,r824,Experimental development -> Federal government,22.7
+10488,r825,Experimental development -> Federal government,21.5
+10488,r826,Experimental development -> Federal government,20.3
+10488,r827,Experimental development -> Federal government,18.0
+10488,r828,Experimental development -> Federal government,16.0
+10488,r829,Experimental development -> Federal government,15.3
+10488,r830,Experimental development -> Federal government,13.3
+10488,r831,Experimental development -> Federal government,12.8
+10488,r832,Experimental development -> Federal government,12.5
+10488,r833,Experimental development -> Federal government,11.4
+10488,r834,Experimental development -> Federal government,12.4
+10488,r835,Experimental development -> Federal government,11.0
+10488,r836,Experimental development -> Federal government,10.5
+10488,r837,Experimental development -> Other nonfederal,0.3
+10488,r838,Experimental development -> Other nonfederal,0.5
+10488,r839,Experimental development -> Other nonfederal,0.5
+10488,r840,Experimental development -> Other nonfederal,0.5
+10488,r841,Experimental development -> Other nonfederal,0.7
+10488,r842,Experimental development -> Other nonfederal,0.8
+10488,r843,Experimental development -> Other nonfederal,0.8
+10488,r844,Experimental development -> Other nonfederal,1.1
+10488,r845,Experimental development -> Other nonfederal,1.2
+10488,r846,Experimental development -> Other nonfederal,1.9
+10488,r847,Experimental development -> Other nonfederal,1.8
+10488,r848,Experimental development -> Other nonfederal,1.8
+10488,r849,Experimental development -> Other nonfederal,1.9
+10488,r850,Experimental development -> Other nonfederal,1.9
+10488,r851,Experimental development -> Other nonfederal,2.0
+10488,r852,Experimental development -> Other nonfederal,2.0
+10488,r853,Experimental development -> Other nonfederal,1.8
+10488,r854,Experimental development -> Other nonfederal,1.7
+10488,r855,Experimental development -> Other nonfederal,1.5
+10488,r856,Experimental development -> Other nonfederal,1.4
+10488,r857,Experimental development -> Other nonfederal,1.4
+10488,r858,Experimental development -> Other nonfederal,1.3
+10488,r859,Experimental development -> Other nonfederal -> Nonfederal government,0.0
+10488,r860,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r861,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r862,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r863,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r864,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r865,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r866,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r867,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r868,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r869,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r870,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r871,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r872,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r873,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r874,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r875,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r876,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r877,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r878,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r879,Experimental development -> Other nonfederal -> Nonfederal government,0.2
+10488,r880,Experimental development -> Other nonfederal -> Nonfederal government,0.1
+10488,r881,Experimental development -> Other nonfederal -> Higher education,0.0
+10488,r882,Experimental development -> Other nonfederal -> Higher education,0.1
+10488,r883,Experimental development -> Other nonfederal -> Higher education,0.2
+10488,r884,Experimental development -> Other nonfederal -> Higher education,0.2
+10488,r885,Experimental development -> Other nonfederal -> Higher education,0.2
+10488,r886,Experimental development -> Other nonfederal -> Higher education,0.3
+10488,r887,Experimental development -> Other nonfederal -> Higher education,0.2
+10488,r888,Experimental development -> Other nonfederal -> Higher education,0.3
+10488,r889,Experimental development -> Other nonfederal -> Higher education,0.2
+10488,r890,Experimental development -> Other nonfederal -> Higher education,0.5
+10488,r891,Experimental development -> Other nonfederal -> Higher education,0.5
+10488,r892,Experimental development -> Other nonfederal -> Higher education,0.5
+10488,r893,Experimental development -> Other nonfederal -> Higher education,0.6
+10488,r894,Experimental development -> Other nonfederal -> Higher education,0.6
+10488,r895,Experimental development -> Other nonfederal -> Higher education,0.6
+10488,r896,Experimental development -> Other nonfederal -> Higher education,0.6
+10488,r897,Experimental development -> Other nonfederal -> Higher education,0.6
+10488,r898,Experimental development -> Other nonfederal -> Higher education,0.6
+10488,r899,Experimental development -> Other nonfederal -> Higher education,0.5
+10488,r900,Experimental development -> Other nonfederal -> Higher education,0.5
+10488,r901,Experimental development -> Other nonfederal -> Higher education,0.5
+10488,r902,Experimental development -> Other nonfederal -> Higher education,0.4
+10488,r903,Experimental development -> Other nonfederal -> Nonprofit organizations,0.2
+10488,r904,Experimental development -> Other nonfederal -> Nonprofit organizations,0.3
+10488,r905,Experimental development -> Other nonfederal -> Nonprofit organizations,0.3
+10488,r906,Experimental development -> Other nonfederal -> Nonprofit organizations,0.2
+10488,r907,Experimental development -> Other nonfederal -> Nonprofit organizations,0.3
+10488,r908,Experimental development -> Other nonfederal -> Nonprofit organizations,0.4
+10488,r909,Experimental development -> Other nonfederal -> Nonprofit organizations,0.5
+10488,r910,Experimental development -> Other nonfederal -> Nonprofit organizations,0.7
+10488,r911,Experimental development -> Other nonfederal -> Nonprofit organizations,0.8
+10488,r912,Experimental development -> Other nonfederal -> Nonprofit organizations,1.2
+10488,r913,Experimental development -> Other nonfederal -> Nonprofit organizations,1.1
+10488,r914,Experimental development -> Other nonfederal -> Nonprofit organizations,1.1
+10488,r915,Experimental development -> Other nonfederal -> Nonprofit organizations,1.2
+10488,r916,Experimental development -> Other nonfederal -> Nonprofit organizations,1.2
+10488,r917,Experimental development -> Other nonfederal -> Nonprofit organizations,1.3
+10488,r918,Experimental development -> Other nonfederal -> Nonprofit organizations,1.2
+10488,r919,Experimental development -> Other nonfederal -> Nonprofit organizations,1.0
+10488,r920,Experimental development -> Other nonfederal -> Nonprofit organizations,0.9
+10488,r921,Experimental development -> Other nonfederal -> Nonprofit organizations,0.8
+10488,r922,Experimental development -> Other nonfederal -> Nonprofit organizations,0.7
+10488,r923,Experimental development -> Other nonfederal -> Nonprofit organizations,0.8
+10488,r924,Experimental development -> Other nonfederal -> Nonprofit organizations,0.7

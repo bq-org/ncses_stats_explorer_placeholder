@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Response rates for the Survey of Nonprofit Research Activities, by type of nonprofit organization and response: FY 2016",
+  "identifier": "NCSES-7151",
+  "description": "Response rates for the Survey of Nonprofit Research Activities, by type of nonprofit organization and response: FY 2016",
+  "url": "https://example.org/datasets/ncses/tables/7151",
+  "table_number": "A-2",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7151/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "type_of_nonprofit_organization_sup_b_a_b_sup",
+      "description": "Type of nonprofit organizationa hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "type_of_nonprofit_organization_sup_b_a_b_sup_level_1, type_of_nonprofit_organization_sup_b_a_b_sup_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "type_of_nonprofit_organization_sup_b_a_b_sup_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_number_in_sample",
+      "description": "Number In Sample",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_total_responses",
+      "description": "Overall Response Total Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_complete_responsesb",
+      "description": "Overall Response Complete Responsesb",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_partial_responses",
+      "description": "Overall Response Partial Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_overall_response_response_rate_",
+      "description": "Overall Response Response Rate ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performer_response_total_responses",
+      "description": "Performer Response Total Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performer_response_complete_responsesc",
+      "description": "Performer Response Complete Responsesc",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performer_response_partial_responses",
+      "description": "Performer Response Partial Responses",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_performer_response_response_rate_",
+      "description": "Performer Response Response Rate ",
+      "valueType": "string",
+      "unitText": "Number and percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, Survey of Nonprofit Research Activities, FY 2016."
+}

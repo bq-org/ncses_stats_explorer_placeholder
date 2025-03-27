@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "First-time, full-time undergraduates awarded financial aid, by type of financial aid and institutional control and level: Academic year 2019\u201320",
+  "identifier": "NCSES-9793",
+  "description": "First-time, full-time undergraduates awarded financial aid, by type of financial aid and institutional control and level: Academic year 2019\u201320",
+  "url": "https://example.org/datasets/ncses/tables/9793",
+  "table_number": "HED-6",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9793/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "institutional_control_and_level",
+      "description": "Institutional control and level hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "institutional_control_and_level_level_1, institutional_control_and_level_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "institutional_control_and_level_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_any_aid",
+      "description": "Any Aid",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_federal_grants",
+      "description": "Federal Grants",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_state_and_local_grants",
+      "description": "State And Local Grants",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_institutional_grants",
+      "description": "Institutional Grants",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_student_loans",
+      "description": "Student Loans",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Data are based on institutions eligible to participate in Title IV federal financial aid programs.",
+  "sources": "National Center for Education Statistics, Integrated Postsecondary Education Data System (IPEDS), Student Financial Aid Survey (excerpted from Digest of Education Statistics, Table 331.20).Science and Engineering Indicators"
+}

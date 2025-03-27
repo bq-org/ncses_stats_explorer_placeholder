@@ -1,0 +1,139 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Fall 2009 students in grade 9 who agreed with various statements about their mathematics and science ability, by sex and race or ethnicity: 2012",
+  "identifier": "NCSES-4121",
+  "description": "Fall 2009 students in grade 9 who agreed with various statements about their mathematics and science ability, by sex and race or ethnicity: 2012",
+  "url": "https://example.org/datasets/ncses/tables/4121",
+  "table_number": "SK12-27",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4121/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_and_race_or_ethnicity",
+      "description": "Sex and race or ethnicity hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_and_race_or_ethnicity_level_1, sex_and_race_or_ethnicity_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_and_race_or_ethnicity_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_i_see_myself_as_a_math_person_",
+      "description": "Mathematics I See Myself As A Math Person ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_others_see_me_as_a_math_person_",
+      "description": "Mathematics Others See Me As A Math Person ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_i_am_confident_in_my_ability_to_do_an_excellent_job_on_math_tests_",
+      "description": "Mathematics I Am Confident In My Ability To Do An Excellent Job On Math Tests ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_i_am_certain_that_i_can_understand_the_most_difficult_material_presented_in_math_textbooks_",
+      "description": "Mathematics I Am Certain That I Can Understand The Most Difficult Material Presented In Math Textbooks ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_i_am_certain_that_i_can_master_math_skills_",
+      "description": "Mathematics I Am Certain That I Can Master Math Skills ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_mathematics_i_am_confident_in_my_ability_to_do_an_excellent_job_on_math_assignments_",
+      "description": "Mathematics I Am Confident In My Ability To Do An Excellent Job On Math Assignments ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_i_see_myself_as_a_science_person_",
+      "description": "Science I See Myself As A Science Person ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_others_see_me_as_a_science_person_",
+      "description": "Science Others See Me As A Science Person ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_i_am_confident_in_my_ability_to_do_an_excellent_job_on_science_tests_",
+      "description": "Science I Am Confident In My Ability To Do An Excellent Job On Science Tests ",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_i_am_certain_that_i_can_understand_the_most_difficult_material_presented_in_science_textbooks_",
+      "description": "Science I Am Certain That I Can Understand The Most Difficult Material Presented In Science Textbooks ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_i_am_certain_that_i_can_master_science_skills_",
+      "description": "Science I Am Certain That I Can Master Science Skills ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_science_i_am_confident_in_my_ability_to_do_an_excellent_job_on_science_assignments_",
+      "description": "Science I Am Confident In My Ability To Do An Excellent Job On Science Assignments ",
+      "valueType": "string"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "sources": "National Center for Science and Engineering Statistics, special tabulations (2020) of the High School Longitudinal Study of 2009 (HSLS:09), First Follow-Up.Science and Engineering Indicators"
+}

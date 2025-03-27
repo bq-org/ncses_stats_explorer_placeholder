@@ -1,0 +1,37 @@
+table_id,row_id,performing_sector_and_type_of_r_d_full_path,performing_sector_and_type_of_r_d_level_1,performing_sector_and_type_of_r_d_level_2,performing_sector_and_type_of_r_d_level_3,performing_sector_and_type_of_r_d_level_4,performing_sector_and_type_of_r_d_hierarchy_depth,field_total,field_source_of_funding_business,field_source_of_funding_federal_government,field_source_of_funding_nonfederal_government,field_source_of_funding_higher_educationa,field_source_of_funding_nonprofit_organizations,field_source_of_funding_percent_by_performer
+10934,r001,R&D,R&D,,,,1,885563,672868,159833,5902,25514,21447,100.0
+10934,r002,R&D -> Business,R&D,Business,,,2,692748,663968,27325,413,NA,1042,78.2
+10934,r003,R&D -> Federal government,R&D,Federal government,,,2,73338,366,72779,38,NA,155,8.3
+10934,r004,R&D -> Federal government -> Federal intramural,R&D,Federal government,Federal intramural,,3,46960,-,46960,-,NA,-,5.3
+10934,r005,R&D -> Federal government -> FFRDCs,R&D,Federal government,FFRDCs,,3,26378,366,25819,38,NA,155,3.0
+10934,r006,R&D -> Nonfederal government,R&D,Nonfederal government,,,2,697,NA,311,355,NA,NA,0.1
+10934,r007,R&D -> Higher education,R&D,Higher education,,,2,91451,5493,47738,4766,25236,8219,10.3
+10934,r008,R&D -> Nonprofit organizations,R&D,Nonprofit organizations,,,2,27329,3026,11679,NA,NA,12019,3.1
+10934,r009,R&D -> Percent by funding source,R&D,Percent by funding source,,,2,100.0,76.0,18.0,0.7,2.9,2.4,-
+10934,r010,R&D -> Basic research,R&D,Basic research,,,2,129435,48067,51286,3096,16133,10853,100.0
+10934,r011,R&D -> Basic research -> Business,R&D,Basic research,Business,,3,46287,43466,2676,41,NA,103,35.8
+10934,r012,R&D -> Basic research -> Federal government,R&D,Basic research,Federal government,,3,13202,55,13118,6,NA,23,10.2
+10934,r013,R&D -> Basic research -> Federal government -> Federal intramural,R&D,Basic research,Federal government,Federal intramural,4,7959,-,7959,-,NA,-,6.1
+10934,r014,R&D -> Basic research -> Federal government -> FFRDCs,R&D,Basic research,Federal government,FFRDCs,4,5244,55,5159,6,NA,23,4.1
+10934,r015,R&D -> Basic research -> Nonfederal government,R&D,Basic research,Nonfederal government,,3,121,NA,54,62,NA,NA,0.1
+10934,r016,R&D -> Basic research -> Higher education,R&D,Basic research,Higher education,,3,57838,3128,30768,2833,16004,5105,44.7
+10934,r017,R&D -> Basic research -> Nonprofit organizations,R&D,Basic research,Nonprofit organizations,,3,11987,1415,4670,NA,NA,5620,9.3
+10934,r018,R&D -> Basic research -> Percent by funding source,R&D,Basic research,Percent by funding source,,3,100.0,37.1,39.6,2.4,12.5,8.4,-
+10934,r019,R&D -> Applied research,R&D,Applied research,,,2,159927,98768,46068,1975,6744,6373,100.0
+10934,r020,R&D -> Applied research -> Business,R&D,Applied research,Business,,3,100334,96007,3869,149,NA,310,62.7
+10934,r021,R&D -> Applied research -> Federal government,R&D,Applied research,Federal government,,3,24078,214,23751,22,NA,91,15.1
+10934,r022,R&D -> Applied research -> Federal government -> Federal intramural,R&D,Applied research,Federal government,Federal intramural,4,13299,-,13299,-,NA,0,8.3
+10934,r023,R&D -> Applied research -> Federal government -> FFRDCs,R&D,Applied research,Federal government,FFRDCs,4,10779,214,10452,22,NA,91,6.7
+10934,r024,R&D -> Applied research -> Nonfederal government,R&D,Applied research,Nonfederal government,,3,536,NA,239,273,NA,NA,0.3
+10934,r025,R&D -> Applied research -> Higher education,R&D,Applied research,Higher education,,3,24951,1583,13103,1427,6656,2182,15.6
+10934,r026,R&D -> Applied research -> Nonprofit organizations,R&D,Applied research,Nonprofit organizations,,3,10028,952,5106,NA,NA,3780,6.3
+10934,r027,R&D -> Applied research -> Percent by funding source,R&D,Applied research,Percent by funding source,,3,100.0,61.8,28.8,1.2,4.2,4.0,-
+10934,r028,R&D -> Experimental development,R&D,Experimental development,,,2,596199,526035,62478,831,2637,4220,100.0
+10934,r029,R&D -> Experimental development -> Business,R&D,Experimental development,Business,,3,546125,524496,20779,223,NA,627,91.6
+10934,r030,R&D -> Experimental development -> Federal government,R&D,Experimental development,Federal government,,3,36058,96,35911,10,NA,41,6.0
+10934,r031,R&D -> Experimental development -> Federal government -> Federal intramural,R&D,Experimental development,Federal government,Federal intramural,4,25703,-,25703,-,NA,0,4.3
+10934,r032,R&D -> Experimental development -> Federal government -> FFRDCs,R&D,Experimental development,Federal government,FFRDCs,4,10355,96,10208,10,NA,41,1.7
+10934,r033,R&D -> Experimental development -> Nonfederal government,R&D,Experimental development,Nonfederal government,,3,40,NA,18,20,NA,NA,0.0
+10934,r034,R&D -> Experimental development -> Higher education,R&D,Experimental development,Higher education,,3,8663,782,3867,505,2576,932,1.5
+10934,r035,R&D -> Experimental development -> Nonprofit organizations,R&D,Experimental development,Nonprofit organizations,,3,5314,659,1904,NA,NA,2619,0.9
+10934,r036,R&D -> Experimental development -> Percent by funding source,R&D,Experimental development,Percent by funding source,,3,100.0,88.2,10.5,0.1,0.4,0.7,-

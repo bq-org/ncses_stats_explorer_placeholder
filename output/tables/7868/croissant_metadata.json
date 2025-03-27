@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Estimated costs of deferred projects to construct or repair and renovate science and engineering research space in academic institutions, by field and type of project: FY 2021",
+  "identifier": "NCSES-7868",
+  "description": "Estimated costs of deferred projects to construct or repair and renovate science and engineering research space in academic institutions, by field and type of project: FY 2021",
+  "url": "https://example.org/datasets/ncses/tables/7868",
+  "table_number": "28",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/7868/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_field_b",
+      "description": "Field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_field_b_level_1, _b_field_b_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_costs",
+      "description": "All Costs",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_included_in_institutional_plans_construct",
+      "description": "Included In Institutional Plans Construct",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_included_in_institutional_plans_repair_or_renovate",
+      "description": "Included In Institutional Plans Repair Or Renovate",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_included_in_institutional_plans_construct",
+      "description": "Not Included In Institutional Plans Construct",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_included_in_institutional_plans_repair_or_renovate",
+      "description": "Not Included In Institutional Plans Repair Or Renovate",
+      "valueType": "string",
+      "unitText": "Costs in millions of dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "Deferred projects are those that (1) are not funded and (2) are not scheduled for FY 2022 or FY 2023. Details may not add to totals due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Science and Engineering Research Facilities, FY 2021."
+}

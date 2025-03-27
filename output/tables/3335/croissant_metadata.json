@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed skilled technical workers age 25 and older and their earnings, by educational attainment, occupational group, ethnicity, and race: 2019",
+  "identifier": "NCSES-3335",
+  "description": "Employed skilled technical workers age 25 and older and their earnings, by educational attainment, occupational group, ethnicity, and race: 2019",
+  "url": "https://example.org/datasets/ncses/tables/3335",
+  "table_number": "9-22",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/3335/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "education_and_occupation",
+      "description": "Education and occupation hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "education_and_occupation_level_1, education_and_occupation_level_2, education_and_occupation_level_3, education_and_occupation_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "education_and_occupation_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latinoa",
+      "description": "Hispanic Or Latinoa",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_hispanic_or_latino_total",
+      "description": "Non Hispanic Or Latino Total",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_hispanic_or_latino_american_indian_or_alaska_native",
+      "description": "Non Hispanic Or Latino American Indian Or Alaska Native",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_hispanic_or_latino_asian",
+      "description": "Non Hispanic Or Latino Asian",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_hispanic_or_latino_black_or_african_american",
+      "description": "Non Hispanic Or Latino Black Or African American",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_hispanic_or_latino_native_hawaiian_or_other_pacific_islander",
+      "description": "Non Hispanic Or Latino Native Hawaiian Or Other Pacific Islander",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_hispanic_or_latino_white",
+      "description": "Non Hispanic Or Latino White",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_hispanic_or_latino_more_than_one_race",
+      "description": "Non Hispanic Or Latino More Than One Race",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_non_hispanic_or_latino_some_other_race",
+      "description": "Non Hispanic Or Latino Some Other Race",
+      "valueType": "string",
+      "unitText": "Count and dollars"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "The American Community Survey does not cover employment among self-employed workers and employment in private households. Values do not include those employed in military occupations or attending primary or secondary school. Values includes those age 25 and older. Earnings are wage income over the previous 12 months. Wage values are rounded to the nearest 1,000.",
+  "sources": "Census Bureau American Community Survey, 2020, Public Use Microdata Sample, accessed 25 October 2020."
+}

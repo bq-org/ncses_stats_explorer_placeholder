@@ -1,0 +1,362 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Agencies included in the Survey of Federal Funds for Research and Development: Volumes 29\u201370",
+  "identifier": "NCSES-10328",
+  "description": "Agencies included in the Survey of Federal Funds for Research and Development: Volumes 29\u201370",
+  "url": "https://example.org/datasets/ncses/tables/10328",
+  "table_number": "A-1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10328/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "agency",
+      "description": "Agency hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "agency_level_1, agency_level_2, agency_level_3, agency_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "agency_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_29",
+      "description": "29",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_30",
+      "description": "30",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_31",
+      "description": "31",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_32",
+      "description": "32",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_33",
+      "description": "33",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_34",
+      "description": "34",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_35",
+      "description": "35",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_36",
+      "description": "36",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_37",
+      "description": "37",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_38",
+      "description": "38",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_39",
+      "description": "39",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_40",
+      "description": "40",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_41",
+      "description": "41",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_42",
+      "description": "42",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_43",
+      "description": "43",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_44",
+      "description": "44",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_45",
+      "description": "45",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_46",
+      "description": "46",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_47",
+      "description": "47",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_48",
+      "description": "48",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_49",
+      "description": "49",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_50",
+      "description": "50",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_51",
+      "description": "51",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_52",
+      "description": "52",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_53",
+      "description": "53",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_54",
+      "description": "54",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_55",
+      "description": "55",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_56",
+      "description": "56",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_57",
+      "description": "57",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_58",
+      "description": "58",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_59",
+      "description": "59",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_60",
+      "description": "60",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_61",
+      "description": "61",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_62",
+      "description": "62",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_63",
+      "description": "63",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_64",
+      "description": "64",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_65",
+      "description": "65",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_66",
+      "description": "66",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_67",
+      "description": "67",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_68",
+      "description": "68",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_69",
+      "description": "69",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_70",
+      "description": "70",
+      "valueType": "string",
+      "unitText": "Agency key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_71",
+      "description": "71",
+      "valueType": "string",
+      "unitText": "Agency key"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "This table summarizes which agencies have reported to the Survey of Federal Funds for Research and Development (Federal Funds for R&D) and have been included in Federal Funds for R&D reports for volume 29 (FYs 1979\u201381) through volume 71 (FYs 2021\u201322). For volume 71, actual data were collected for FY 2021, and estimates were collected for FY 2022.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Federal Funds for Research and Development."
+}

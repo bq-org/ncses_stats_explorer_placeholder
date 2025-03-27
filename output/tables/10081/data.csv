@@ -1,0 +1,13 @@
+table_id,row_id,type_of_cost_full_path,type_of_cost_level_1,type_of_cost_level_2,type_of_cost_level_3,type_of_cost_level_4,type_of_cost_hierarchy_depth,field_r_d_expenditures
+10081,r001,All costs,All costs,,,,1,97681
+10081,r002,All costs -> Direct costs,All costs,Direct costs,,,2,75400
+10081,r003,"All costs -> Direct costs -> Salaries, wages, and fringe benefits",All costs,Direct costs,"Salaries, wages, and fringe benefits",,3,43077
+10081,r004,All costs -> Direct costs -> Software purchases,All costs,Direct costs,Software purchases,,3,193
+10081,r005,All costs -> Direct costs -> Software purchases -> Noncapitalized software,All costs,Direct costs,Software purchases,Noncapitalized software,4,178
+10081,r006,All costs -> Direct costs -> Software purchases -> Capitalized software,All costs,Direct costs,Software purchases,Capitalized software,4,15
+10081,r007,All costs -> Direct costs -> Capitalized equipment,All costs,Direct costs,Capitalized equipment,,3,2701
+10081,r008,All costs -> Direct costs -> Passed through to subrecipients,All costs,Direct costs,Passed through to subrecipients,,3,8521
+10081,r009,All costs -> Direct costs -> Other direct costs,All costs,Direct costs,Other direct costs,,3,20908
+10081,r010,All costs -> Indirect costs,All costs,Indirect costs,,,2,22281
+10081,r011,All costs -> Indirect costs -> Recovered,All costs,Indirect costs,Recovered,,3,16107
+10081,r012,All costs -> Indirect costs -> Unrecovered,All costs,Indirect costs,Unrecovered,,3,6174

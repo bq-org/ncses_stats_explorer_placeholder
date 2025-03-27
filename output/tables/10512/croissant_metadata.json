@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "USPTO utility patents granted in critical technology categories: 2022 ",
+  "identifier": "NCSES-10512",
+  "description": "USPTO utility patents granted in critical technology categories: 2022 ",
+  "url": "https://example.org/datasets/ncses/tables/10512",
+  "table_number": "INV-B",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10512/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "category",
+      "description": "Category hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "category_level_1, category_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "category_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_worldwide",
+      "description": "Worldwide",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_u_s_inventors",
+      "description": "U S Inventors",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Patents are allocated according to patent inventorship information. Patents are credited on a fractional-count basis (i.e., for patents with collaborating institutions, each institution receives fractional credit on the basis of the proportion of inventors from participating institutions). See File USPTO environmental and critical technology patent data.",
+  "sources": "National Center for Science and Engineering Statistics; Science-Metrix; PatentsView, USPTO, accessed June 2023.Science and Engineering Indicators"
+}

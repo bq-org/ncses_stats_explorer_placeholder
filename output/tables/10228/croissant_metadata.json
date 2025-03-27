@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Distribution of select racial and ethnic groups in the workforce, by occupational group: 2021",
+  "identifier": "NCSES-10228",
+  "description": "Distribution of select racial and ethnic groups in the workforce, by occupational group: 2021",
+  "url": "https://example.org/datasets/ncses/tables/10228",
+  "table_number": "1",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/10228/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "occupation_group",
+      "description": "Occupation group hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "3"
+        },
+        {
+          "name": "levelColumns",
+          "value": "occupation_group_level_1, occupation_group_level_2, occupation_group_level_3"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "occupation_group_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_white",
+      "description": "White",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino",
+      "description": "Hispanic Or Latino",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_black_or_african_american",
+      "description": "Black Or African American",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_asian",
+      "description": "Asian",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_american_indian_or_alaska_native",
+      "description": "American Indian Or Alaska Native",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_some_other_race_or_more_than_one_race",
+      "description": "Some Other Race Or More Than One Race",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value"
+    }
+  },
+  "notes": "STEM is science, technology, engineering, and mathematics. Hispanic or Latino may be any race; race categories exclude Hispanic origin.",
+  "sources": "Census Bureau, ACS, 2021.Indicators 2024: Labor Force"
+}

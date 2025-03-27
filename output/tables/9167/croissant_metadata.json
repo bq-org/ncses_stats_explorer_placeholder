@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Transition probabilities for the five-class job satisfaction latent transition analysis: 2015, 2017, and 2019",
+  "identifier": "NCSES-9167",
+  "description": "Transition probabilities for the five-class job satisfaction latent transition analysis: 2015, 2017, and 2019",
+  "url": "https://example.org/datasets/ncses/tables/9167",
+  "table_number": "5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/9167/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "2017_characteristic",
+      "description": "2017 hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "2017_level_1, 2017_level_2"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Probability"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Transition probabilities in this table represent the probability of belonging to a specific job satisfaction class at a given SDR cycle (column) conditional on belonging to a specific job satisfaction class at the previous SDR cycle (row). Transition probabilities on the main diagonal represent the probability of being in the same class at both SDR cycles (i.e., class stability parameters) and are highlighted in bold. Rows may not sum to 1.000 due to rounding.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Doctorate Recipients.",
+  "temporalCoverage": "20/20"
+}

@@ -1,0 +1,19 @@
+table_id,row_id,characteristic_full_path,characteristic_level_1,characteristic_level_2,characteristic_hierarchy_depth,field_level_of_confidence_in_scientists_a_great_deal,field_level_of_confidence_in_scientists_a_fair_amount,field_level_of_confidence_in_scientists_not_too_much,field_level_of_confidence_in_scientists_none_at_all
+6682,r001,"All adults (<i>n</i> = 6,283)","All adults (<i>n</i> = 6,283)",,1,1.0,1.1,0.8,0.4
+6682,r002,Sex ,Sex ,,1,,,,
+6682,r003,"Sex  -> Male (<i>n</i> = 2,799)",Sex ,"Male (<i>n</i> = 2,799)",2,1.5,1.6,1.1,0.6
+6682,r004,"Sex  -> Female (<i>n</i> = 3,435)",Sex ,"Female (<i>n</i> = 3,435)",2,1.3,1.4,1.1,0.5
+6682,r005,Race or ethnicity,Race or ethnicity,,1,,,,
+6682,r006,"Race or ethnicity -> White (<i>n</i> = 4,311)",Race or ethnicity,"White (<i>n</i> = 4,311)",2,1.1,1.2,0.8,0.5
+6682,r007,Race or ethnicity -> Black (<i>n</i> = 507),Race or ethnicity,Black (<i>n</i> = 507),2,3.1,3.3,3.1,1.1
+6682,r008,Race or ethnicity -> Hispanic (<i>n</i> = 999),Race or ethnicity,Hispanic (<i>n</i> = 999),2,3.0,3.3,2.3,0.9
+6682,r009,Race or ethnicity -> Asian (<i>n</i> = 180),Race or ethnicity,Asian (<i>n</i> = 180),2,5.4,5.4,2.7,0.3
+6682,r010,Family income category<sup>a</sup>					,Family income category<sup>a</sup>					,,1,,,,
+6682,r011,"Family income category<sup>a</sup>					 -> Upper income (<i>n</i> = 1,848)",Family income category<sup>a</sup>					,"Upper income (<i>n</i> = 1,848)",2,1.8,1.8,1.1,0.4
+6682,r012,"Family income category<sup>a</sup>					 -> Middle income (<i>n</i> = 2,925)",Family income category<sup>a</sup>					,"Middle income (<i>n</i> = 2,925)",2,1.4,1.5,1.0,0.5
+6682,r013,"Family income category<sup>a</sup>					 -> Lower income (<i>n</i> = 1,251)",Family income category<sup>a</sup>					,"Lower income (<i>n</i> = 1,251)",2,2.1,2.3,1.8,0.8
+6682,r014,Education,Education,,1,,,,
+6682,r015,"Education -> Postgraduate (<i>n</i> = 1,714)",Education,"Postgraduate (<i>n</i> = 1,714)",2,1.6,1.6,1.0,0.3
+6682,r016,"Education -> College graduate (<i>n</i> = 1,841)",Education,"College graduate (<i>n</i> = 1,841)",2,1.6,1.6,0.9,0.3
+6682,r017,"Education -> Some college (<i>n</i> = 1,833)",Education,"Some college (<i>n</i> = 1,833)",2,1.7,1.8,1.1,0.7
+6682,r018,Education -> High school or less (<i>n</i> = 884),Education,High school or less (<i>n</i> = 884),2,2.0,2.2,1.7,0.8

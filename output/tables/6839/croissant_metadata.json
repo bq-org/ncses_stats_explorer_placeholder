@@ -1,0 +1,167 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Employed scientists and engineers, by sex, major field of highest degree, ethnicity, race, disability status, and type of disability: 2017",
+  "identifier": "NCSES-6839",
+  "description": "Employed scientists and engineers, by sex, major field of highest degree, ethnicity, race, disability status, and type of disability: 2017",
+  "url": "https://example.org/datasets/ncses/tables/6839",
+  "table_number": "1-5",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/6839/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "sex_and_field_of_highest_degree",
+      "description": "Sex and field of highest degree hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "sex_and_field_of_highest_degree_level_1, sex_and_field_of_highest_degree_level_2, sex_and_field_of_highest_degree_level_3, sex_and_field_of_highest_degree_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "sex_and_field_of_highest_degree_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_total",
+      "description": "Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_hispanic_or_latino",
+      "description": "Hispanic Or Latino",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_american_indian_or_alaska_native",
+      "description": "Not Hispanic Or Latino American Indian Or Alaska Native",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_asian",
+      "description": "Not Hispanic Or Latino Asian",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_black_or_african_american",
+      "description": "Not Hispanic Or Latino Black Or African American",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_native_hawaiian_or_other_pacific_islander",
+      "description": "Not Hispanic Or Latino Native Hawaiian Or Other Pacific Islander",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_white",
+      "description": "Not Hispanic Or Latino White",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_not_hispanic_or_latino_more_than_one_race",
+      "description": "Not Hispanic Or Latino More Than One Race",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_without_disability",
+      "description": "Without Disability",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_with_disability",
+      "description": "With Disability",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_disability_hearing",
+      "description": "Type Of Disability Hearing",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_disability_seeing",
+      "description": "Type Of Disability Seeing",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_disability_walking",
+      "description": "Type Of Disability Walking",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_disability_lifting",
+      "description": "Type Of Disability Lifting",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_type_of_disability_cognitive",
+      "description": "Type Of Disability Cognitive",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information",
+      "*": "value between 0.00% and 0.05%"
+    }
+  },
+  "notes": "Numbers are rounded to the nearest 1,000. Detail may not add to total because of rounding. Scientists and engineers are bachelor's and higher degreed individuals living in the United States employed in an S&E occupation. Hispanic or Latino may be any race; race categories exclude Hispanic origin. The National Survey of College Graduates asks the degree of difficulty\u2014none, slight, moderate, severe, or unable to do\u2014an individual has in seeing (with glasses), hearing (with hearing aid), walking without assistance, lifting 10 pounds, or concentrating, remembering, or making decisions. Those respondents who answered \"moderate,\" \"severe,\" or \"unable to do\" for an activity were classified as having a disability.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates, 2017."
+}

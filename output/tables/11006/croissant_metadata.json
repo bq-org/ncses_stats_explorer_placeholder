@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Share of women with a bachelor's degree or higher in S&E and S&E-related occupations: Selected years, 2010\u201321",
+  "identifier": "NCSES-11006",
+  "description": "Share of women with a bachelor's degree or higher in S&E and S&E-related occupations: Selected years, 2010\u201321",
+  "url": "https://example.org/datasets/ncses/tables/11006",
+  "table_number": "SLBR-9",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/11006/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "time_period",
+      "description": "Time period of the measurement",
+      "valueType": "string"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value",
+      "description": "Measurement value",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {}
+  },
+  "notes": "Data include both the civilian and active-duty working population. STEM middle-skill occupations are excluded because the data source does not allow for the separation of STEM middle-skill occupations from non-STEM occupations. Historic estimates for 2010, 2013, and 2015 have been updated from previously published reports.",
+  "sources": "National Center for Science and Engineering Statistics, National Survey of College Graduates (NSCG), Public-Use Files, 2010\u201321, accessed 30 August 2023.Science and Engineering Indicators",
+  "temporalCoverage": "20/20"
+}

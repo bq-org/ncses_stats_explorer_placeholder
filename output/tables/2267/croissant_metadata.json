@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Public assessment of spending, by policy area: 1981\u20132018",
+  "identifier": "NCSES-2267",
+  "description": "Public assessment of spending, by policy area: 1981\u20132018",
+  "url": "https://example.org/datasets/ncses/tables/2267",
+  "table_number": "S7-13",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/2267/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "policy_area",
+      "description": "Policy area hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "2"
+        },
+        {
+          "name": "levelColumns",
+          "value": "policy_area_level_1, policy_area_level_2"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "policy_area_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1981_n_1_611_",
+      "description": "1981 N 1 611 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1983_n_1_615_",
+      "description": "1983 N 1 615 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1985_n_1_986_",
+      "description": "1985 N 1 986 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1988_n_2_041_a",
+      "description": "1988 N 2 041 A",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1990_n_2_005_",
+      "description": "1990 N 2 005 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1992_n_1_995_",
+      "description": "1992 N 1 995 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1997_n_2_000_",
+      "description": "1997 N 2 000 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_1999_n_1_882_",
+      "description": "1999 N 1 882 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2001_n_1_574_",
+      "description": "2001 N 1 574 ",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2002_n_1_358_b",
+      "description": "2002 N 1 358 B",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2004_n_1_401_c",
+      "description": "2004 N 1 401 C",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2006_n_2_992_d",
+      "description": "2006 N 2 992 D",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2008_n_3_558_e",
+      "description": "2008 N 3 558 E",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2010_n_4_901_f",
+      "description": "2010 N 4 901 F",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2012_n_4_820_g",
+      "description": "2012 N 4 820 G",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2014_n_2_130_h",
+      "description": "2014 N 2 130 H",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2016_n_2_867_i",
+      "description": "2016 N 2 867 I",
+      "valueType": "string",
+      "unitText": "Percent"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_2018_n_1_175_j",
+      "description": "2018 N 1 175 J",
+      "valueType": "string",
+      "unitText": "Percent"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "Responses are to the following: We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one, I'd like you to tell me if you think we're spending too little money on it, about the right amount, or too much. Beginning in 2002, two versions of the question were administered with different wording for some policy areas. Wording also varied for some policy areas in 1983\u20132001. This table combines data for policy areas with similar wording or meaning (explained as follows). Percentages may not add to 100% because of rounding.Policy areas with different wording in 1983\u20132001 or alternate wording in the second version of the question in 2002\u201318 are as follows:- Education: \"improving education\" in 1983\u20132001; alternate wording \"improving the nation's education system\" in 2002\u201318.- Assistance for the poor: \"helping low-income persons\" in 1983\u20132001; no alternate wording in 2002\u201318.- Environment: \"reducing pollution\" in 1983\u20132001; alternate wording \"improving and protecting the environment\" in 2002\u201318.- Health: \"improving health care\" in 1983\u20132001; alternate wording \"improving and protecting the nation's health\" in 2002\u201318.- Law enforcement: alternate wording \"halting the rising crime rate\" in 2002\u201318.- Drug rehabilitation: alternate wording \"dealing with drug addiction\" in 2002\u201318.- Assistance to big cities: alternate wording \"solving the problems of the big cities\" in 2002\u201318.- Assistance to blacks: alternate wording \"improving the conditions of blacks\" in 2002\u201318.- National defense: \"improving national defense\" in 1981\u20132001; alternate wording \"military, armaments, and defense\" in 2002\u201318.- Space exploration: alternate wording \"space exploration program\" in 2002\u201318.- Assistance to other countries: alternate wording \"foreign aid\" in 2002\u201318.",
+  "sources": "National Center for Science and Engineering Statistics, National Science Foundation, Survey of Public Attitudes Toward and Understanding of Science and Technology (1981\u20132001); University of Michigan, Survey of Consumer Attitudes (2004); NORC at the University of Chicago, General Social Survey (2002\u201318).Science and Engineering Indicators"
+}

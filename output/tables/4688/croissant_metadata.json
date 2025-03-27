@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Definite postgraduation commitments of doctorate recipients, by citizenship status and major field of study: 2020",
+  "identifier": "NCSES-4688",
+  "description": "Definite postgraduation commitments of doctorate recipients, by citizenship status and major field of study: 2020",
+  "url": "https://example.org/datasets/ncses/tables/4688",
+  "table_number": "51",
+  "creator": {
+    "@type": "Organization",
+    "name": "National Center for Science and Engineering Statistics"
+  },
+  "schemaVersion": "https://w3id.org/croissant/schema/1.0",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://example.org/datasets/ncses/tables/4688/data.csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "_b_citizenship_status_and_field_b",
+      "description": "Citizenship status and field hierarchy",
+      "valueType": "string",
+      "additionalProperty": [
+        {
+          "name": "hierarchical",
+          "value": "true"
+        },
+        {
+          "name": "maxHierarchyDepth",
+          "value": "4"
+        },
+        {
+          "name": "levelColumns",
+          "value": "_b_citizenship_status_and_field_b_level_1, _b_citizenship_status_and_field_b_level_2, _b_citizenship_status_and_field_b_level_3, _b_citizenship_status_and_field_b_level_4"
+        },
+        {
+          "name": "fullPathColumn",
+          "value": "_b_citizenship_status_and_field_b_full_path"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_all_recipients",
+      "description": "All Recipients",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_recipients_with_definite_commitments",
+      "description": "Recipients With Definite Commitments",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_total",
+      "description": "Location Of Definite Commitments United States Total",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_postdoctoral_study",
+      "description": "Location Of Definite Commitments United States Postdoctoral Study",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_academic_employment",
+      "description": "Location Of Definite Commitments United States Academic Employment",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_industry_employmenta",
+      "description": "Location Of Definite Commitments United States Industry Employmenta",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_united_states_otherb",
+      "description": "Location Of Definite Commitments United States Otherb",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_abroad",
+      "description": "Location Of Definite Commitments Abroad",
+      "valueType": "string",
+      "unitText": "Number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "field_location_of_definite_commitments_unknown",
+      "description": "Location Of Definite Commitments Unknown",
+      "valueType": "string",
+      "unitText": "Number"
+    }
+  ],
+  "structuralType": "table",
+  "transformationNotes": {
+    "cleaningOperations": [
+      "HTML tag removal",
+      "Hierarchy normalization",
+      "Special value handling"
+    ],
+    "specialValues": {
+      "i": "imputed value",
+      "r": "revised value",
+      "D": "suppressed to avoid disclosure of confidential information"
+    }
+  },
+  "notes": "See table A-6 in the technical notes for a listing of major fields and their constituent subfields. Definite postgraduate commitment includes doctorate recipients reporting definite postgraduation commitments for employment or postdoctoral study.",
+  "sources": "National Center for Science and Engineering Statistics, Survey of Earned Doctorates."
+}
